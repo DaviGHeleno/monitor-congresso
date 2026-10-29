@@ -1,0 +1,87 @@
+{
+  "dados": [
+    {
+      "orientacaoVoto": "Sim",
+      "codTipoLideranca": "P",
+      "siglaPartidoBloco": "PL",
+      "codPartidoBloco": 37906,
+      "uriPartidoBloco": "https://dadosabertos.camara.leg.br/api/v2/partidos/37906"
+    },
+    {
+      "orientacaoVoto": "Não",
+      "codTipoLideranca": "P",
+      "siglaPartidoBloco": "PSB",
+      "codPartidoBloco": 36832,
+      "uriPartidoBloco": "https://dadosabertos.camara.leg.br/api/v2/partidos/36832"
+    },
+    {
+      "orientacaoVoto": "",
+      "codTipoLideranca": "B",
+      "siglaPartidoBloco": "Fdr PSOL-REDE",
+      "codPartidoBloco": null,
+      "uriPartidoBloco": null
+    },
+    {
+      "orientacaoVoto": "Não",
+      "codTipoLideranca": "B",
+      "siglaPartidoBloco": "Bl UniPpFdrPsdbCid...",
+      "codPartidoBloco": null,
+      "uriPartidoBloco": null
+    },
+    {
+      "orientacaoVoto": "Sim",
+      "codTipoLideranca": "B",
+      "siglaPartidoBloco": "Oposição",
+      "codPartidoBloco": null,
+      "uriPartidoBloco": null
+    },
+    {
+      "orientacaoVoto": "Não",
+      "codTipoLideranca": "B",
+      "siglaPartidoBloco": "Fdr PT-PCdoB-PV",
+      "codPartidoBloco": null,
+      "uriPartidoBloco": null
+    },
+    {
+      "orientacaoVoto": "Não",
+      "codTipoLideranca": "B",
+      "siglaPartidoBloco": "Bl MdbPsdRepPode",
+      "codPartidoBloco": null,
+      "uriPartidoBloco": null
+    },
+    {
+      "orientacaoVoto": "Não",
+      "codTipoLideranca": "B",
+      "siglaPartidoBloco": "Governo",
+      "codPartidoBloco": null,
+      "uriPartidoBloco": null
+    },
+    {
+      "orientacaoVoto": "Sim",
+      "codTipoLideranca": "B",
+      "siglaPartidoBloco": "Minoria",
+      "codPartidoBloco": null,
+      "uriPartidoBloco": null
+    },
+    {
+      "orientacaoVoto": "Sim",
+      "codTipoLideranca": "P",
+      "siglaPartidoBloco": "NOVO",
+      "codPartidoBloco": 37901,
+      "uriPartidoBloco": "https://dadosabertos.camara.leg.br/api/v2/partidos/37901"
+    },
+    {
+      "orientacaoVoto": "Não",
+      "codTipoLideranca": "B",
+      "siglaPartidoBloco": "Maioria",
+      "codPartidoBloco": null,
+      "uriPartidoBloco": null
+    }
+  ],
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2400758-37/orientacoes"
+    }
+  ]
+}

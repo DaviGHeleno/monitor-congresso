@@ -1,0 +1,53 @@
+{
+  "dados": {
+    "id": "2617164-10",
+    "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2617164-10",
+    "data": "2026-04-29",
+    "dataHoraRegistro": "2026-04-29T18:23:26",
+    "siglaOrgao": "PLEN",
+    "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+    "idOrgao": 180,
+    "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/81831",
+    "idEvento": 81831,
+    "descricao": "Rejeitado o Recurso nº 7/2026 (art. 58, § 1º c/c art. 132, § 2º, RICD). Sim: 154; Não: 245; Abstenção: 3; Total: 402.",
+    "aprovacao": 0,
+    "descUltimaAberturaVotacao": null,
+    "dataHoraUltimaAberturaVotacao": null,
+    "ultimaApresentacaoProposicao": {
+      "dataHoraRegistro": null,
+      "descricao": null,
+      "uriProposicaoCitada": null
+    },
+    "efeitosRegistrados": [],
+    "objetosPossiveis": [
+      {
+        "id": 2617164,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2617164",
+        "siglaTipo": "REC",
+        "codTipo": 373,
+        "numero": 7,
+        "ano": 2026,
+        "ementa": "Recurso contra a tramitação conclusiva do Projeto de Lei nº 580/2023, que “submete a desconstituição da coisa julgada tributária, contrária à decisão proferida em controle concentrado ou em sede de repercussão geral, à ação rescisória”.",
+        "dataApresentacao": "2026-04-16T14:48"
+      }
+    ],
+    "proposicoesAfetadas": [
+      {
+        "id": 2348972,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2348972",
+        "siglaTipo": "PL",
+        "codTipo": 139,
+        "numero": 580,
+        "ano": 2023,
+        "ementa": "Submete a desconstituição da coisa julgada tributária, contrária à decisão proferida em controle concentrado ou em sede de repercussão geral, à ação rescisória.",
+        "dataApresentacao": "2023-02-16T14:49"
+      }
+    ]
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2617164-10"
+    }
+  ]
+}

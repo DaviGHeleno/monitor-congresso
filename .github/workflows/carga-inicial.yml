@@ -1,0 +1,74 @@
+name: Carga inicial de dados
+
+# Rodar manualmente uma vez. Pode ser repetida: retoma de onde parou e não duplica dados.
+on:
+  workflow_dispatch:
+    inputs:
+      deputados:
+        description: "Também baixar cadastro e projetos dos deputados"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dados
+  cancel-in-progress: false
+
+jobs:
+  carga:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependências
+        run: pip install -r requirements.txt
+
+      - name: Votações desde 01/02/2023
+        run: python -m coletor.coletar --inicial
+
+      - name: Deputados e projetos
+        if: ${{ inputs.deputados }}
+        run: python -m coletor.coletar --deputados
+
+      - name: Resumo
+        if: always()
+        run: |
+          python - <<'EOF' >> "$GITHUB_STEP_SUMMARY"
+          import json, collections, pathlib
+          p = pathlib.Path("dados/votacoes/indice.json")
+          if not p.exists():
+              print("Nenhum dado gravado."); raise SystemExit
+          idx = json.loads(p.read_text())
+          por_mes = collections.Counter(i["data"][:7] for i in idx)
+          tipos = collections.Counter(i["tipo"] for i in idx)
+          estado = json.loads(pathlib.Path("dados/estado-coleta.json").read_text())
+          deps = json.loads(pathlib.Path("dados/deputados.json").read_text()) if pathlib.Path("dados/deputados.json").exists() else []
+          print("## Carga inicial\n")
+          print(f"- Votações nominais do Plenário: **{len(idx)}** (mérito {tipos['merito']}, procedimentais {tipos['procedimental']})")
+          print(f"- Sem votos individuais: {sum(not i['votos_disponiveis'] for i in idx)}")
+          print(f"- Pendentes para revisitar: {len(estado['pendentes'])}")
+          print(f"- Deputados no cadastro: {len(deps)} (em exercício: {sum(bool(d.get('em_exercicio')) for d in deps)})")
+          print(f"- Votação mais recente: {estado['ultima_data']}\n")
+          print("| Mês | Votações |\n|---|---|")
+          for m in sorted(por_mes): print(f"| {m} | {por_mes[m]} |")
+          EOF
+
+      - name: Salvar dados no repositório
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dados
+          if git diff --cached --quiet; then
+            echo "Nada novo para salvar."
+          else
+            git commit -m "dados: carga inicial"
+            git push
+          fi

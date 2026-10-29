@@ -59,7 +59,7 @@ Custo zero: GitHub (repositório, Actions, Pages) e Gmail.
 ```
 dados/
 ├── deputados.json                 # todos os deputados da legislatura: id, nome, partido, UF, foto
-├── deputados/<id>.json            # histórico de votos + projetos apresentados
+├── deputados/<id>.json            # projetos apresentados (histórico de votos é calculado no build do site)
 ├── votacoes/indice.json           # lista resumida de todas as votações
 ├── votacoes/<id>.json             # detalhe de uma votação
 └── estado-coleta.json             # última data coletada, votações pendentes de votos
@@ -67,7 +67,12 @@ dados/
 
 Campos mínimos de `votacoes/indice.json` (por item): `id`, `data`, `proposicao` (sigla/número/ano), `descricao`, `resultado`, `tipo` (`merito`|`procedimental`), `votos_disponiveis` (bool).
 
-Campos mínimos de `votacoes/<id>.json`: os do índice + `totais` (sim, não, abstenção, obstrução, ausente), `orientacoes` (partido → orientação), `votos` (lista: deputado_id, voto), `url_oficial`.
+Campos mínimos de `votacoes/<id>.json`: os do índice + `totais` (contagem por tipo de voto: Sim, Não, Abstenção, Obstrução, Artigo 17), `orientacoes` (lista: sigla, tipo de liderança, orientação), `votos` (lista `[deputado_id, partido, UF, voto]`, com partido e UF na data do voto), `url_api`; `proposicao.url` aponta para a ficha oficial na Câmara. Esquema detalhado em `coletor/modelos.py`.
+
+Ajustes feitos na Fase 2:
+- Só votações **nominais do Plenário** entram (as simbólicas não têm voto individual).
+- "Ausentes" saiu dos totais: os dados não dizem quem estava em exercício e não votou.
+- Histórico de votos do deputado não é gravado em arquivo próprio; o site calcula a partir das votações (evita duplicar ~60 MB no repositório).
 
 ## 4. Coleta de dados
 
@@ -78,7 +83,15 @@ Campos mínimos de `votacoes/<id>.json`: os do índice + `totais` (sim, não, ab
 - **Nunca apaga** dado já salvo; só adiciona ou atualiza.
 - **Commit automático:** se `dados/` mudou, o Action faz commit, o que dispara o build do site.
 
-### Risco conhecido — validar antes de tudo
+### Decisão após o spike (2026-10-29)
+O spike (Fase 1) não confirmou o problema relatado: a API v2 e os arquivos anuais trazem votos individuais e orientações de fev/2023 a out/2026, e coincidem nas amostras. Fontes adotadas:
+- **Carga inicial:** arquivos anuais (`votacoes`, `votacoesVotos`, `votacoesOrientacoes`).
+- **Incremental de hora em hora:** API v2.
+- **Reconciliação diária:** comparar com o arquivo anual do ano corrente e completar o que faltar.
+
+A queda de votações nominais em jul–out/2026 deve ser conferida contra o site da Câmara na carga inicial (hipótese: ano eleitoral).
+
+### Risco conhecido (histórico)
 Há relato de terceiros de que o endpoint de votos individuais por votação da API v2 devolve lista vazia para votações posteriores a maio de 2024. **Primeira tarefa da implementação:** teste de disponibilidade (spike) comparando API v2 e arquivos de download em massa para votações de 2023, 2024, 2025 e 2026. A fonte de votos individuais é decidida com base nesse resultado. Se nenhuma fonte trouxer votos recentes, a v1 segue mostrando totais e orientações, com aviso na página.
 
 ## 5. Classificação mérito × procedimental

@@ -1,0 +1,107 @@
+"""Fluxos do coletor com uma Câmara falsa (sem internet), alimentada pelas amostras reais."""
+
+from datetime import date
+
+import pytest
+
+from coletor import coletar
+from coletor.armazenamento import Armazem
+from coletor.camara import ErroCamara
+from tests.conftest import carregar
+
+ID_API = "2456731-84"          # votação de 2025 com detalhe, votos e orientações na API
+ID_ARQUIVO = "945492-151"      # votação de 2024 com votos no arquivo anual
+
+
+class CamaraFalsa:
+    def __init__(self, falhar_detalhe=False):
+        self.falhar_detalhe = falhar_detalhe
+        self.chamadas = []
+        detalhe = carregar("api-votacao-2025-04.json")
+        self.arquivos = {
+            ("votacoes", 2024): [
+                {"id": ID_ARQUIVO, "data": "2024-12-11", "dataHoraRegistro": "2024-12-11T13:20:00", "siglaOrgao": "PLEN",
+                 "descricao": "Aprovado o Projeto de Lei nº 1.987, de 2023. Sim: 50; Não: 9", "aprovacao": 1},
+                {"id": "1-1", "data": "2024-12-11", "siglaOrgao": "PLEN", "descricao": "Aprovada a Redação Final.", "aprovacao": 1},
+                {"id": "1-2", "data": "2024-12-11", "siglaOrgao": "CCJC", "descricao": "Aprovado. Sim: 30; Não: 2", "aprovacao": 1},
+            ],
+            ("votacoesVotos", 2024): carregar("arquivo-votos-exemplo-2024.json"),
+            ("votacoes", 2025): [{**detalhe, "siglaOrgao": "PLEN"}],
+            ("votacoesVotos", 2025): [],
+        }
+        self.api = {
+            f"/votacoes/{ID_API}": detalhe,
+            f"/votacoes/{ID_API}/votos": carregar("api-votos-2025-04.json"),
+            f"/votacoes/{ID_API}/orientacoes": carregar("api-orientacoes-2025-04.json"),
+            f"/votacoes/{ID_ARQUIVO}": {"id": ID_ARQUIVO, "data": "2024-12-11", "descricao": "Aprovado o Projeto de Lei nº 1.987, de 2023.",
+                                        "aprovacao": 1, "proposicoesAfetadas": [{"id": 999, "siglaTipo": "PL", "numero": 1987, "ano": 2023, "ementa": "Ementa X"}]},
+            f"/votacoes/{ID_ARQUIVO}/orientacoes": carregar("api-orientacoes-2024-03.json"),
+        }
+
+    def baixar_arquivo(self, tipo, ano, pasta):
+        return self.arquivos.get((tipo, ano), [])
+
+    def dados(self, caminho, params=None):
+        self.chamadas.append(caminho)
+        if self.falhar_detalhe and caminho.count("/") == 2:
+            raise ErroCamara("fora do ar")
+        return self.api.get(caminho, [])
+
+    def paginar(self, caminho, params=None):
+        self.chamadas.append(caminho)
+        if caminho == "/votacoes":
+            return [{"id": ID_API, "data": carregar("api-votacao-2025-04.json")["data"], "siglaOrgao": "PLEN"}]
+        return []
+
+
+@pytest.fixture(autouse=True)
+def hoje_fixo(monkeypatch):
+    monkeypatch.setattr(coletar, "hoje", lambda: date(2025, 4, 10))
+
+
+def test_carga_inicial(tmp_path):
+    camara, armazem = CamaraFalsa(), Armazem(tmp_path)
+    coletar.carga_inicial(camara, armazem, "2023-02-01")
+
+    indice = armazem.ler(armazem.pasta_votacoes / "indice.json")
+    assert [i["id"] for i in indice] == [ID_API, ID_ARQUIVO]  # sem simbólica, sem comissão, mais recente primeiro
+
+    v = armazem.votacao(ID_ARQUIVO)
+    assert len(v["votos"]) == 59 and v["proposicao"]["id"] == 999 and v["orientacoes"]
+    assert armazem.votacao(ID_API)["proposicao"]["sigla"] == "PL"
+    assert len(armazem.deputados()) > 400
+    assert armazem.estado()["ultima_data"] == carregar("api-votacao-2025-04.json")["data"]
+
+
+def test_carga_inicial_e_retomavel_e_idempotente(tmp_path):
+    armazem = Armazem(tmp_path)
+    coletar.carga_inicial(CamaraFalsa(), armazem, "2023-02-01")
+    antes = {p.name: p.read_text() for p in tmp_path.rglob("*.json")}
+    camara = CamaraFalsa()
+    coletar.carga_inicial(camara, armazem, "2023-02-01")
+    depois = {p.name: p.read_text() for p in tmp_path.rglob("*.json")}
+    assert antes == depois
+    assert f"/votacoes/{ID_API}" not in camara.chamadas  # completas não são buscadas de novo
+
+
+def test_falha_no_detalhe_vira_pendente_e_e_completada_depois(tmp_path):
+    armazem = Armazem(tmp_path)
+    coletar.carga_inicial(CamaraFalsa(falhar_detalhe=True), armazem, "2023-02-01")
+    v = armazem.votacao(ID_ARQUIVO)
+    assert len(v["votos"]) == 59                     # votos do arquivo garantidos
+    assert v["proposicao"]["id"] is None             # proposição veio só da descrição
+    assert v["proposicao"]["sigla"] == "PL"
+    assert ID_ARQUIVO in armazem.estado()["pendentes"]
+
+    coletar.carga_inicial(CamaraFalsa(), armazem, "2023-02-01")
+    assert armazem.votacao(ID_ARQUIVO)["proposicao"]["id"] == 999
+    assert ID_ARQUIVO not in armazem.estado()["pendentes"]
+
+
+def test_incremental(tmp_path):
+    armazem = Armazem(tmp_path)
+    coletar.incremental(CamaraFalsa(), armazem)
+    v = armazem.votacao(ID_API)
+    assert v["votos_disponiveis"] and v["orientacoes"] and v["proposicao"]["id"]
+    assert armazem.estado()["ultima_data"] == carregar("api-votacao-2025-04.json")["data"]
+    assert armazem.estado()["pendentes"] == []

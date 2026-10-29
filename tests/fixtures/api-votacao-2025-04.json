@@ -1,0 +1,753 @@
+{
+  "dados": {
+    "id": "2456731-84",
+    "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2456731-84",
+    "data": "2025-04-29",
+    "dataHoraRegistro": "2025-04-29T21:28:30",
+    "siglaOrgao": "PLEN",
+    "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+    "idOrgao": 180,
+    "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/76158",
+    "idEvento": 76158,
+    "descricao": "Mantido o texto. Sim: 266; Não: 118; Total: 384.",
+    "aprovacao": null,
+    "descUltimaAberturaVotacao": "Votação do DTQ 4 (PL, Federação Brasil da Esperança - Fe Brasil, UNIÃO, PP, PSD, MDB, REPUBLICANOS, PDT, Federação PSDB CIDADANIA, PSB, PODE, AVANTE, PRD): Destaque para Votação em Separado do(a) PRLP 2- art. 11. I, apresentado ao PL 3469/2024 (161, I).",
+    "dataHoraUltimaAberturaVotacao": "2025-04-29T20:53:56",
+    "ultimaApresentacaoProposicao": {
+      "dataHoraRegistro": "2025-04-23T18:41:59",
+      "descricao": "Leitura realizada em Plenário pelo Dep. Carlos Zarattini (PT-SP) do parecer do Relator pela:\r\n• Comissão de Relações Exteriores e de Defesa Nacional, que conclui pela aprovação do Projeto de Lei n° 3.469, de 2024, na forma do Substitutivo adotado pelo relator da Comissão de Meio Ambiente e Desenvolvimento Sustentável.\r\n• Comissão de Meio Ambiente e Desenvolvimento Sustentável, que conclui pela aprovação do Projeto de Lei n° 3.469, de 2024, na forma do Substitutivo apresentado.\r\n• Comissão de Constituição e Justiça e de Cidadania, que conclui pela constitucionalidade, juridicidade e boa técnica legislativa do Projeto de Lei n° 3.469, de 2024, e do Substitutivo adotado pelo relator da Comissão de Meio Ambiente e Desenvolvimento Sustentável.",
+      "uriProposicaoCitada": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2499908"
+    },
+    "efeitosRegistrados": [],
+    "objetosPossiveis": [
+      {
+        "id": 2502742,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2502742",
+        "siglaTipo": "RPD",
+        "codTipo": 1051,
+        "numero": 58,
+        "ano": 0,
+        "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 3469/2024-Requerimento de Retirada de Matéria da Pauta - PL 3469/2024",
+        "dataApresentacao": "2025-04-29T17:23"
+      },
+      {
+        "id": 2502741,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2502741",
+        "siglaTipo": "RPD",
+        "codTipo": 328,
+        "numero": 57,
+        "ano": 0,
+        "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 3469/2024",
+        "dataApresentacao": "2025-04-29T17:23"
+      },
+      {
+        "id": 2502559,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2502559",
+        "siglaTipo": "RPD",
+        "codTipo": 332,
+        "numero": 56,
+        "ano": 0,
+        "ementa": "Requerimento de Votação Nominal - PL 3469/2024",
+        "dataApresentacao": "2025-04-29T15:38"
+      },
+      {
+        "id": 2502556,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2502556",
+        "siglaTipo": "RPD",
+        "codTipo": 1051,
+        "numero": 55,
+        "ano": 0,
+        "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 3469/2024-Requerimento de Retirada de Matéria da Pauta - PL 3469/2024",
+        "dataApresentacao": "2025-04-29T15:38"
+      },
+      {
+        "id": 2502555,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2502555",
+        "siglaTipo": "RPD",
+        "codTipo": 328,
+        "numero": 54,
+        "ano": 0,
+        "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 3469/2024",
+        "dataApresentacao": "2025-04-29T15:38"
+      },
+      {
+        "id": 2502236,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2502236",
+        "siglaTipo": "RPD",
+        "codTipo": 1051,
+        "numero": 53,
+        "ano": 0,
+        "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 3469/2024-Requerimento de Retirada de Matéria da Pauta - PL 3469/2024",
+        "dataApresentacao": "2025-04-29T14:10"
+      },
+      {
+        "id": 2502188,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2502188",
+        "siglaTipo": "RPD",
+        "codTipo": 328,
+        "numero": 52,
+        "ano": 0,
+        "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 3469/2024",
+        "dataApresentacao": "2025-04-29T14:10"
+      },
+      {
+        "id": 2504688,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2504688",
+        "siglaTipo": "RDF",
+        "codTipo": 197,
+        "numero": 1,
+        "ano": 0,
+        "ementa": "Dispõe sobre medidas excepcionais para concessão de colaboração financeira à União, aos Estados e ao Distrito Federal, para apoio a ações de prevenção e combate à ocorrência de queimadas irregulares e de incêndios florestais; autoriza a participação da União no Fundo de Apoio à Infraestrutura para Recuperação e Adaptação a Eventos Climáticos Extremos; dispensa a celebração de convênio ou instrumento congênere para repasses do Fundo Nacional de Meio Ambiente aos entes subnacionais a fim de financiar projetos de prevenção, preparação e combate a incêndios florestais; dispõe sobre medidas de fortalecimento da capacidade operacional e logística de resposta a emergências; altera as Leis nºs 7.565, de 19 de dezembro de 1986, 7.797, de 10 de julho de 1989, e 7.957, de 20 de dezembro de 1989; e revoga as Medidas Provisórias nºs 1.276, de 22 de novembro de 2024, e 1.278, de 11 de dezembro de 2024.",
+        "dataApresentacao": "2025-04-29T00:00"
+      },
+      {
+        "id": 2501174,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2501174",
+        "siglaTipo": "RPD",
+        "codTipo": 332,
+        "numero": 51,
+        "ano": 0,
+        "ementa": "Requerimento de Votação Nominal - PL 3469/2024",
+        "dataApresentacao": "2025-04-28T17:02"
+      },
+      {
+        "id": 2501128,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2501128",
+        "siglaTipo": "RPD",
+        "codTipo": 1051,
+        "numero": 50,
+        "ano": 0,
+        "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 3469/2024-Requerimento de Retirada de Matéria da Pauta - PL 3469/2024",
+        "dataApresentacao": "2025-04-28T16:34"
+      },
+      {
+        "id": 2501126,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2501126",
+        "siglaTipo": "RPD",
+        "codTipo": 328,
+        "numero": 49,
+        "ano": 0,
+        "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 3469/2024",
+        "dataApresentacao": "2025-04-28T16:34"
+      },
+      {
+        "id": 2501084,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2501084",
+        "siglaTipo": "DTQ",
+        "codTipo": 846,
+        "numero": 6,
+        "ano": 0,
+        "ementa": "Destaque para Votação em Separado - PL 3469/2024",
+        "dataApresentacao": "2025-04-28T16:07"
+      },
+      {
+        "id": 2501074,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2501074",
+        "siglaTipo": "RPD",
+        "codTipo": 1051,
+        "numero": 46,
+        "ano": 0,
+        "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 3469/2024-Requerimento de Retirada de Matéria da Pauta - PL 3469/2024",
+        "dataApresentacao": "2025-04-28T16:00"
+      },
+      {
+        "id": 2501072,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2501072",
+        "siglaTipo": "RPD",
+        "codTipo": 328,
+        "numero": 45,
+        "ano": 0,
+        "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 3469/2024",
+        "dataApresentacao": "2025-04-28T16:00"
+      },
+      {
+        "id": 2501085,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2501085",
+        "siglaTipo": "RPD",
+        "codTipo": 1053,
+        "numero": 48,
+        "ano": 0,
+        "ementa": "Votação Nominal do Destaque para Votação em Separado - PL 3469/2024-Destaque para Votação em Separado - PL 3469/2024",
+        "dataApresentacao": "2025-04-28T15:59"
+      },
+      {
+        "id": 2501078,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2501078",
+        "siglaTipo": "RPD",
+        "codTipo": 332,
+        "numero": 47,
+        "ano": 0,
+        "ementa": "Requerimento de Votação Nominal",
+        "dataApresentacao": "2025-04-28T15:59"
+      },
+      {
+        "id": 2500810,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2500810",
+        "siglaTipo": "RPD",
+        "codTipo": 1051,
+        "numero": 44,
+        "ano": 0,
+        "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 3469/2024-Requerimento de Retirada de Matéria da Pauta - PL 3469/2024",
+        "dataApresentacao": "2025-04-28T11:25"
+      },
+      {
+        "id": 2500806,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2500806",
+        "siglaTipo": "RPD",
+        "codTipo": 328,
+        "numero": 43,
+        "ano": 0,
+        "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 3469/2024",
+        "dataApresentacao": "2025-04-28T11:25"
+      },
+      {
+        "id": 2499936,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2499936",
+        "siglaTipo": "RPD",
+        "codTipo": 1053,
+        "numero": 42,
+        "ano": 0,
+        "ementa": "Votação Nominal do Destaque para Votação em Separado - PL 3469/2024-Destaque para Votação em Separado - PL 3469/2024",
+        "dataApresentacao": "2025-04-23T19:17"
+      },
+      {
+        "id": 2499935,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2499935",
+        "siglaTipo": "DTQ",
+        "codTipo": 846,
+        "numero": 5,
+        "ano": 0,
+        "ementa": "Destaque para Votação em Separado - PL 3469/2024",
+        "dataApresentacao": "2025-04-23T19:17"
+      },
+      {
+        "id": 2499933,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2499933",
+        "siglaTipo": "RPD",
+        "codTipo": 1053,
+        "numero": 41,
+        "ano": 0,
+        "ementa": "Votação Nominal do Destaque para Votação em Separado - PL 3469/2024-Destaque para Votação em Separado - PL 3469/2024",
+        "dataApresentacao": "2025-04-23T19:10"
+      },
+      {
+        "id": 2499931,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2499931",
+        "siglaTipo": "DTQ",
+        "codTipo": 846,
+        "numero": 4,
+        "ano": 0,
+        "ementa": "Destaque para Votação em Separado - PL 3469/2024",
+        "dataApresentacao": "2025-04-23T19:10"
+      },
+      {
+        "id": 2499930,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2499930",
+        "siglaTipo": "RPD",
+        "codTipo": 890,
+        "numero": 40,
+        "ano": 0,
+        "ementa": "Requerimento Procedimental Genérico - PL 3469/2024",
+        "dataApresentacao": "2025-04-23T19:09"
+      },
+      {
+        "id": 2499922,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2499922",
+        "siglaTipo": "RPD",
+        "codTipo": 332,
+        "numero": 39,
+        "ano": 0,
+        "ementa": "Requerimento de Votação Nominal - PL 3469/2024",
+        "dataApresentacao": "2025-04-23T18:54"
+      },
+      {
+        "id": 2499912,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2499912",
+        "siglaTipo": "SBT",
+        "codTipo": 255,
+        "numero": 1,
+        "ano": 0,
+        "ementa": "",
+        "dataApresentacao": "2025-04-23T18:45"
+      },
+      {
+        "id": 2499911,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2499911",
+        "siglaTipo": "RPD",
+        "codTipo": 1053,
+        "numero": 38,
+        "ano": 0,
+        "ementa": "Votação Nominal do Destaque para Votação em Separado - PL 3469/2024-Destaque para Votação em Separado - PL 3469/2024",
+        "dataApresentacao": "2025-04-23T18:42"
+      },
+      {
+        "id": 2499910,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2499910",
+        "siglaTipo": "DTQ",
+        "codTipo": 846,
+        "numero": 3,
+        "ano": 0,
+        "ementa": "Destaque para Votação em Separado - PL 3469/2024",
+        "dataApresentacao": "2025-04-23T18:42"
+      },
+      {
+        "id": 2499909,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2499909",
+        "siglaTipo": "RPD",
+        "codTipo": 890,
+        "numero": 37,
+        "ano": 0,
+        "ementa": "Requerimento Procedimental Genérico - PL 3469/2024",
+        "dataApresentacao": "2025-04-23T18:41"
+      },
+      {
+        "id": 2499897,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2499897",
+        "siglaTipo": "RPD",
+        "codTipo": 1053,
+        "numero": 36,
+        "ano": 0,
+        "ementa": "Votação Nominal do Destaque para Votação em Separado - PL 3469/2024-Destaque para Votação em Separado - PL 3469/2024",
+        "dataApresentacao": "2025-04-23T18:29"
+      },
+      {
+        "id": 2499896,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2499896",
+        "siglaTipo": "DTQ",
+        "codTipo": 846,
+        "numero": 2,
+        "ano": 0,
+        "ementa": "Destaque para Votação em Separado - PL 3469/2024",
+        "dataApresentacao": "2025-04-23T18:29"
+      },
+      {
+        "id": 2499891,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2499891",
+        "siglaTipo": "RPD",
+        "codTipo": 1053,
+        "numero": 35,
+        "ano": 0,
+        "ementa": "Votação Nominal do Destaque para Votação em Separado - PL 3469/2024-Destaque para Votação em Separado - PL 3469/2024",
+        "dataApresentacao": "2025-04-23T18:20"
+      },
+      {
+        "id": 2499888,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2499888",
+        "siglaTipo": "DTQ",
+        "codTipo": 846,
+        "numero": 1,
+        "ano": 0,
+        "ementa": "Destaque para Votação em Separado - PL 3469/2024",
+        "dataApresentacao": "2025-04-23T18:20"
+      },
+      {
+        "id": 2499848,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2499848",
+        "siglaTipo": "RPD",
+        "codTipo": 332,
+        "numero": 34,
+        "ano": 0,
+        "ementa": "Requerimento de Votação Nominal - PL 3469/2024",
+        "dataApresentacao": "2025-04-23T17:06"
+      },
+      {
+        "id": 2499811,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2499811",
+        "siglaTipo": "RPD",
+        "codTipo": 1051,
+        "numero": 33,
+        "ano": 0,
+        "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 3469/2024-Requerimento de Retirada de Matéria da Pauta - PL 3469/2024",
+        "dataApresentacao": "2025-04-23T16:55"
+      },
+      {
+        "id": 2499810,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2499810",
+        "siglaTipo": "RPD",
+        "codTipo": 328,
+        "numero": 32,
+        "ano": 0,
+        "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 3469/2024",
+        "dataApresentacao": "2025-04-23T16:55"
+      },
+      {
+        "id": 2499717,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2499717",
+        "siglaTipo": "RPD",
+        "codTipo": 1051,
+        "numero": 31,
+        "ano": 0,
+        "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 3469/2024-Requerimento de Retirada de Matéria da Pauta - PL 3469/2024",
+        "dataApresentacao": "2025-04-23T16:00"
+      },
+      {
+        "id": 2499714,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2499714",
+        "siglaTipo": "RPD",
+        "codTipo": 328,
+        "numero": 30,
+        "ano": 0,
+        "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 3469/2024",
+        "dataApresentacao": "2025-04-23T16:00"
+      },
+      {
+        "id": 2499908,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2499908",
+        "siglaTipo": "PPP",
+        "codTipo": 192,
+        "numero": 1,
+        "ano": 0,
+        "ementa": "Leitura realizada em Plenário pelo Dep. Carlos Zarattini (PT-SP) do parecer do Relator pela: • Comissão de Relações Exteriores e de Defesa Nacional, que conclui pela aprovação do Projeto de Lei n° 3.469, de 2024, na forma do Substitutivo adotado pelo relator da Comissão de Meio Ambiente e Desenvolvimento Sustentável. • Comissão de Meio Ambiente e Desenvolvimento Sustentável, que conclui pela aprovação do Projeto de Lei n° 3.469, de 2024, na forma do Substitutivo apresentado. • Comissão de Constituição e Justiça e de Cidadania, que conclui pela constitucionalidade, juridicidade e boa técnica legislativa do Projeto de Lei n° 3.469, de 2024, e do Substitutivo adotado pelo relator da Comissão de Meio Ambiente e Desenvolvimento Sustentável.",
+        "dataApresentacao": "2025-04-23T13:55"
+      },
+      {
+        "id": 2499565,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2499565",
+        "siglaTipo": "RPD",
+        "codTipo": 1051,
+        "numero": 29,
+        "ano": 0,
+        "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 3469/2024-Requerimento de Retirada de Matéria da Pauta - PL 3469/2024",
+        "dataApresentacao": "2025-04-23T13:16"
+      },
+      {
+        "id": 2499564,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2499564",
+        "siglaTipo": "RPD",
+        "codTipo": 328,
+        "numero": 28,
+        "ano": 0,
+        "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 3469/2024",
+        "dataApresentacao": "2025-04-23T13:16"
+      },
+      {
+        "id": 2498898,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2498898",
+        "siglaTipo": "RPD",
+        "codTipo": 1051,
+        "numero": 27,
+        "ano": 0,
+        "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 3469/2024-Requerimento de Retirada de Matéria da Pauta - PL 3469/2024",
+        "dataApresentacao": "2025-04-22T16:44"
+      },
+      {
+        "id": 2498896,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2498896",
+        "siglaTipo": "RPD",
+        "codTipo": 328,
+        "numero": 26,
+        "ano": 0,
+        "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 3469/2024",
+        "dataApresentacao": "2025-04-22T16:44"
+      },
+      {
+        "id": 2498781,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2498781",
+        "siglaTipo": "RPD",
+        "codTipo": 1051,
+        "numero": 25,
+        "ano": 0,
+        "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 3469/2024-Requerimento de Retirada de Matéria da Pauta - PL 3469/2024",
+        "dataApresentacao": "2025-04-22T15:49"
+      },
+      {
+        "id": 2498780,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2498780",
+        "siglaTipo": "RPD",
+        "codTipo": 328,
+        "numero": 24,
+        "ano": 0,
+        "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 3469/2024",
+        "dataApresentacao": "2025-04-22T15:49"
+      },
+      {
+        "id": 2498379,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2498379",
+        "siglaTipo": "PRLP",
+        "codTipo": 891,
+        "numero": 2,
+        "ano": 0,
+        "ementa": "Parecer.",
+        "dataApresentacao": "2025-04-16T19:47"
+      },
+      {
+        "id": 2497961,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2497961",
+        "siglaTipo": "RPD",
+        "codTipo": 1051,
+        "numero": 23,
+        "ano": 0,
+        "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 3469/2024-Requerimento de Retirada de Matéria da Pauta - PL 3469/2024",
+        "dataApresentacao": "2025-04-15T15:40"
+      },
+      {
+        "id": 2497960,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2497960",
+        "siglaTipo": "RPD",
+        "codTipo": 328,
+        "numero": 22,
+        "ano": 0,
+        "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 3469/2024",
+        "dataApresentacao": "2025-04-15T15:40"
+      },
+      {
+        "id": 2497881,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2497881",
+        "siglaTipo": "RPD",
+        "codTipo": 1051,
+        "numero": 21,
+        "ano": 0,
+        "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 3469/2024-Requerimento de Retirada de Matéria da Pauta - PL 3469/2024",
+        "dataApresentacao": "2025-04-15T12:50"
+      },
+      {
+        "id": 2497880,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2497880",
+        "siglaTipo": "RPD",
+        "codTipo": 328,
+        "numero": 20,
+        "ano": 0,
+        "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 3469/2024",
+        "dataApresentacao": "2025-04-15T12:50"
+      },
+      {
+        "id": 2497614,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2497614",
+        "siglaTipo": "RPD",
+        "codTipo": 1051,
+        "numero": 19,
+        "ano": 0,
+        "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 3469/2024-Requerimento de Retirada de Matéria da Pauta - PL 3469/2024",
+        "dataApresentacao": "2025-04-14T16:44"
+      },
+      {
+        "id": 2497612,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2497612",
+        "siglaTipo": "RPD",
+        "codTipo": 328,
+        "numero": 18,
+        "ano": 0,
+        "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 3469/2024",
+        "dataApresentacao": "2025-04-14T16:44"
+      },
+      {
+        "id": 2497480,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2497480",
+        "siglaTipo": "RPD",
+        "codTipo": 1051,
+        "numero": 17,
+        "ano": 0,
+        "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 3469/2024-Requerimento de Retirada de Matéria da Pauta - PL 3469/2024",
+        "dataApresentacao": "2025-04-14T14:30"
+      },
+      {
+        "id": 2497478,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2497478",
+        "siglaTipo": "RPD",
+        "codTipo": 328,
+        "numero": 16,
+        "ano": 0,
+        "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 3469/2024",
+        "dataApresentacao": "2025-04-14T14:30"
+      },
+      {
+        "id": 2496548,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2496548",
+        "siglaTipo": "RPD",
+        "codTipo": 1051,
+        "numero": 15,
+        "ano": 0,
+        "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 3469/2024-Requerimento de Retirada de Matéria da Pauta - PL 3469/2024",
+        "dataApresentacao": "2025-04-09T18:33"
+      },
+      {
+        "id": 2496545,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2496545",
+        "siglaTipo": "RPD",
+        "codTipo": 328,
+        "numero": 14,
+        "ano": 0,
+        "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 3469/2024",
+        "dataApresentacao": "2025-04-09T18:33"
+      },
+      {
+        "id": 2496299,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2496299",
+        "siglaTipo": "RPD",
+        "codTipo": 1051,
+        "numero": 13,
+        "ano": 0,
+        "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 3469/2024-Requerimento de Retirada de Matéria da Pauta - PL 3469/2024",
+        "dataApresentacao": "2025-04-09T16:10"
+      },
+      {
+        "id": 2496298,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2496298",
+        "siglaTipo": "RPD",
+        "codTipo": 328,
+        "numero": 12,
+        "ano": 0,
+        "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 3469/2024",
+        "dataApresentacao": "2025-04-09T16:10"
+      },
+      {
+        "id": 2496237,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2496237",
+        "siglaTipo": "RPD",
+        "codTipo": 332,
+        "numero": 11,
+        "ano": 0,
+        "ementa": "Requerimento de Votação Nominal - PL 3469/2024",
+        "dataApresentacao": "2025-04-09T15:07"
+      },
+      {
+        "id": 2496118,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2496118",
+        "siglaTipo": "RPD",
+        "codTipo": 1051,
+        "numero": 10,
+        "ano": 0,
+        "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 3469/2024-Requerimento de Retirada de Matéria da Pauta - PL 3469/2024",
+        "dataApresentacao": "2025-04-09T13:31"
+      },
+      {
+        "id": 2496112,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2496112",
+        "siglaTipo": "RPD",
+        "codTipo": 328,
+        "numero": 9,
+        "ano": 0,
+        "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 3469/2024",
+        "dataApresentacao": "2025-04-09T13:31"
+      },
+      {
+        "id": 2496083,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2496083",
+        "siglaTipo": "RPD",
+        "codTipo": 1051,
+        "numero": 8,
+        "ano": 0,
+        "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 3469/2024-Requerimento de Retirada de Matéria da Pauta - PL 3469/2024",
+        "dataApresentacao": "2025-04-09T13:00"
+      },
+      {
+        "id": 2496082,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2496082",
+        "siglaTipo": "RPD",
+        "codTipo": 328,
+        "numero": 7,
+        "ano": 0,
+        "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 3469/2024",
+        "dataApresentacao": "2025-04-09T13:00"
+      },
+      {
+        "id": 2495508,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2495508",
+        "siglaTipo": "RPD",
+        "codTipo": 1043,
+        "numero": 6,
+        "ano": 0,
+        "ementa": "Votação Nominal do Requerimento de Adiamento da Votação Matéria Urgente - PL 3469/2024-Requerimento de Adiamento da Votação Matéria Urgente - PL 3469/2024",
+        "dataApresentacao": "2025-04-08T15:58"
+      },
+      {
+        "id": 2495507,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2495507",
+        "siglaTipo": "RPD",
+        "codTipo": 467,
+        "numero": 5,
+        "ano": 0,
+        "ementa": "Requerimento de Adiamento da Votação Matéria Urgente - PL 3469/2024",
+        "dataApresentacao": "2025-04-08T15:58"
+      },
+      {
+        "id": 2495505,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2495505",
+        "siglaTipo": "RPD",
+        "codTipo": 1041,
+        "numero": 4,
+        "ano": 0,
+        "ementa": "Votação Nominal do Requerimento de Adiamento da Discussão Matéria Urgente - PL 3469/2024-Requerimento de Adiamento da Discussão Matéria Urgente - PL 3469/2024",
+        "dataApresentacao": "2025-04-08T15:58"
+      },
+      {
+        "id": 2495498,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2495498",
+        "siglaTipo": "RPD",
+        "codTipo": 892,
+        "numero": 3,
+        "ano": 0,
+        "ementa": "Requerimento de Adiamento da Discussão Matéria Urgente - PL 3469/2024",
+        "dataApresentacao": "2025-04-08T15:58"
+      },
+      {
+        "id": 2495493,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2495493",
+        "siglaTipo": "RPD",
+        "codTipo": 1051,
+        "numero": 2,
+        "ano": 0,
+        "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 3469/2024-Requerimento de Retirada de Matéria da Pauta - PL 3469/2024",
+        "dataApresentacao": "2025-04-08T15:58"
+      },
+      {
+        "id": 2495489,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2495489",
+        "siglaTipo": "RPD",
+        "codTipo": 328,
+        "numero": 1,
+        "ano": 0,
+        "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 3469/2024",
+        "dataApresentacao": "2025-04-08T15:58"
+      },
+      {
+        "id": 2494706,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2494706",
+        "siglaTipo": "PRLP",
+        "codTipo": 891,
+        "numero": 1,
+        "ano": 0,
+        "ementa": "Parecer preliminar de plenário.",
+        "dataApresentacao": "2025-04-04T18:07"
+      },
+      {
+        "id": 2487307,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2487307",
+        "siglaTipo": "REQ",
+        "codTipo": 304,
+        "numero": 885,
+        "ano": 2025,
+        "ementa": "Requer a tramitação em conjunto dos Projetos de Lei nºs 3.469/2024, 3.662/2024, 366/2025 e 367/2025, por tratarem de matérias correlatas.",
+        "dataApresentacao": "2025-03-18T14:01"
+      },
+      {
+        "id": 2457274,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2457274",
+        "siglaTipo": "REQ",
+        "codTipo": 392,
+        "numero": 3509,
+        "ano": 2024,
+        "ementa": "Requer, nos termos do artigo 155 do Regimento Interno da Câmara dos Deputados, URGÊNCIA para a apreciação do Projeto de Lei nº 3.469, de 2024, que “Altera a Lei nº 7.565, de 19 de dezembro de 1986 – Código Brasileiro de Aeronáutica, e a Lei nº 7.957, de 20 de dezembro de 1989, para dispor sobre medidas de aumento da capacidade de resposta do Poder Público frente às ocorrências de incêndios florestais e demais hipóteses que especifica.”",
+        "dataApresentacao": "2024-09-09T18:04"
+      }
+    ],
+    "proposicoesAfetadas": [
+      {
+        "id": 2456731,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2456731",
+        "siglaTipo": "PL",
+        "codTipo": 139,
+        "numero": 3469,
+        "ano": 2024,
+        "ementa": "Altera a Lei nº 7.565, de 19 de dezembro de 1986 – Código Brasileiro de Aeronáutica, e a Lei nº 7.957, de 20 de dezembro de 1989, para dispor sobre medidas de aumento da capacidade de resposta do Poder Público frente às ocorrências de incêndios florestais e demais hipóteses que especifica.",
+        "dataApresentacao": "2024-09-05T16:39"
+      }
+    ]
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2456731-84"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "dados": [
+    {
+      "orientacaoVoto": "Sim",
+      "codTipoLideranca": "B",
+      "siglaPartidoBloco": "Governo",
+      "codPartidoBloco": null,
+      "uriPartidoBloco": null
+    },
+    {
+      "orientacaoVoto": "Não",
+      "codTipoLideranca": "B",
+      "siglaPartidoBloco": "Minoria",
+      "codPartidoBloco": null,
+      "uriPartidoBloco": null
+    },
+    {
+      "orientacaoVoto": "Não",
+      "codTipoLideranca": "B",
+      "siglaPartidoBloco": "Oposição",
+      "codPartidoBloco": null,
+      "uriPartidoBloco": null
+    },
+    {
+      "orientacaoVoto": "",
+      "codTipoLideranca": "B",
+      "siglaPartidoBloco": "Bl PlFdrPTUniPp...",
+      "codPartidoBloco": null,
+      "uriPartidoBloco": null
+    },
+    {
+      "orientacaoVoto": "Sim",
+      "codTipoLideranca": "B",
+      "siglaPartidoBloco": "Maioria",
+      "codPartidoBloco": null,
+      "uriPartidoBloco": null
+    },
+    {
+      "orientacaoVoto": "Obstrução",
+      "codTipoLideranca": "P",
+      "siglaPartidoBloco": "NOVO",
+      "codPartidoBloco": 37901,
+      "uriPartidoBloco": "https://dadosabertos.camara.leg.br/api/v2/partidos/37901"
+    },
+    {
+      "orientacaoVoto": "",
+      "codTipoLideranca": "P",
+      "siglaPartidoBloco": "SOLIDARIEDADE",
+      "codPartidoBloco": 37904,
+      "uriPartidoBloco": "https://dadosabertos.camara.leg.br/api/v2/partidos/37904"
+    },
+    {
+      "orientacaoVoto": "Sim",
+      "codTipoLideranca": "B",
+      "siglaPartidoBloco": "Fdr PSOL-REDE",
+      "codPartidoBloco": null,
+      "uriPartidoBloco": null
+    }
+  ],
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2456731-84/orientacoes"
+    }
+  ]
+}
