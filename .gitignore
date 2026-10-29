@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+saida-spike/
+node_modules/
+site/dist/
+.env

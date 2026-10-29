@@ -1,0 +1,44 @@
+name: Spike - disponibilidade de dados
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  spike:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependências
+        run: pip install -r requirements.txt
+
+      - name: Rodar spike
+        run: python coletor/spike.py --saida saida-spike
+
+      - name: Mostrar relatório na página da execução
+        if: always()
+        run: |
+          if [ -f saida-spike/relatorio-spike.md ]; then
+            cat saida-spike/relatorio-spike.md >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "Relatório não foi gerado. Veja o log do passo 'Rodar spike'." >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Guardar relatório e amostras
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: resultado-spike
+          path: |
+            saida-spike/relatorio-spike.md
+            saida-spike/resumo.json
+            saida-spike/fixtures/
+          if-no-files-found: warn
