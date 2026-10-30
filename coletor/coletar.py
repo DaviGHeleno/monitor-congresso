@@ -15,6 +15,7 @@ import argparse
 import logging
 import sys
 import tempfile
+import time
 from collections import defaultdict
 from datetime import date, datetime, timedelta
 from pathlib import Path
@@ -209,8 +210,9 @@ def atualizar_deputados(cliente: Cliente, armazem: Armazem) -> None:
     log.info("%s deputados no cadastro, %s em exercício", len(cadastro),
              len(ids_exercicio) if ids_exercicio is not None else "lista indisponível;")
 
-    atualizar_perfis(cliente, armazem, cadastro)
+    # Projetos primeiro: vêm de arquivos estáticos, que respondem bem mesmo com a API sobrecarregada.
     atualizar_projetos(cliente, armazem, sorted(cadastro))
+    atualizar_perfis(cliente, armazem, cadastro)
 
 
 def _lista_ou_none(cliente: Cliente, caminho: str, params: dict) -> list[dict] | None:
@@ -221,26 +223,54 @@ def _lista_ou_none(cliente: Cliente, caminho: str, params: dict) -> list[dict] |
         return None
 
 
-def atualizar_perfis(cliente: Cliente, armazem: Armazem, cadastro: dict[int, dict]) -> None:
-    """Dados públicos de cada deputado (nascimento, escolaridade, profissões, redes, gabinete)."""
-    falhas_seguidas = 0
-    for n, did in enumerate(sorted(cadastro), 1):
-        try:
-            detalhe = cliente.dados(f"/deputados/{did}")
-            profissoes = cliente.dados(f"/deputados/{did}/profissoes") or []
-            falhas_seguidas = 0
-        except ErroCamara as e:
-            log.warning("perfil de %s indisponível: %s", did, e)
-            falhas_seguidas += 1
-            if falhas_seguidas >= 5:
-                log.error("Câmara instável: perfis interrompidos em %s/%s; o restante fica para a próxima execução", n, len(cadastro))
+PERFIL_VALIDADE_DIAS = 30
+PERFIL_TEMPO_MAXIMO = 20 * 60  # segundos por execução; o restante fica para o dia seguinte
+
+
+def atualizar_perfis(cliente: Cliente, armazem: Armazem, cadastro: dict[int, dict],
+                     tempo_maximo: float = PERFIL_TEMPO_MAXIMO) -> None:
+    """Dados públicos de cada deputado (nascimento, escolaridade, profissões, redes, gabinete).
+
+    Perfil muda pouco: só busca quem não tem perfil ou tem perfil com mais de 30 dias,
+    começando pelos que faltam. Para no limite de tempo e salva a cada 25, para não perder trabalho.
+    """
+    limite = (hoje() - timedelta(days=PERFIL_VALIDADE_DIAS)).isoformat()
+    fila = sorted(
+        (did for did, d in cadastro.items() if (d.get("perfil") or {}).get("atualizado_em", "") < limite),
+        key=lambda did: ((cadastro[did].get("perfil") or {}).get("atualizado_em", ""), not cadastro[did].get("em_exercicio"), did),
+    )
+    log.info("perfis a atualizar: %s de %s", len(fila), len(cadastro))
+    tentativas_originais = getattr(cliente, "tentativas", None)
+    if tentativas_originais:
+        cliente.tentativas = 3  # falha rápido: quem não responder hoje é buscado amanhã
+    inicio, feitos, falhas_seguidas = time.monotonic(), 0, 0
+    try:
+        for n, did in enumerate(fila, 1):
+            if time.monotonic() - inicio > tempo_maximo:
+                log.warning("limite de tempo: %s perfis atualizados, %s ficam para a próxima execução", feitos, len(fila) - n + 1)
                 break
-            continue
-        if detalhe:
-            cadastro[did]["perfil"] = projetos.perfil(detalhe, profissoes)
-        if n % 100 == 0:
-            log.info("perfis: %s/%s", n, len(cadastro))
-    armazem.gravar_deputados(cadastro)
+            try:
+                detalhe = cliente.dados(f"/deputados/{did}")
+                profissoes = cliente.dados(f"/deputados/{did}/profissoes") or []
+                falhas_seguidas = 0
+            except ErroCamara as e:
+                log.warning("perfil de %s indisponível: %s", did, e)
+                falhas_seguidas += 1
+                if falhas_seguidas >= 5:
+                    log.error("Câmara instável: perfis interrompidos em %s/%s", n, len(fila))
+                    break
+                continue
+            if detalhe:
+                cadastro[did]["perfil"] = {**projetos.perfil(detalhe, profissoes), "atualizado_em": hoje().isoformat()}
+                feitos += 1
+            if feitos and feitos % 25 == 0:
+                armazem.gravar_deputados(cadastro)
+                log.info("perfis: %s/%s", feitos, len(fila))
+    finally:
+        if tentativas_originais:
+            cliente.tentativas = tentativas_originais
+        armazem.gravar_deputados(cadastro)
+    log.info("perfis atualizados nesta execução: %s", feitos)
 
 
 def atualizar_projetos(cliente: Cliente, armazem: Armazem, ids: list[int]) -> None:

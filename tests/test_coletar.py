@@ -189,3 +189,27 @@ def test_camara_fora_do_ar_na_lista_nao_derruba_nem_desmarca(tmp_path):
     coletar.atualizar_deputados(Falsa(), armazem)  # não levanta erro
     d = armazem.deputados()[7]
     assert d["em_exercicio"] is True and d["perfil"]["nome_civil"] == "Ana Maria"
+
+
+def test_perfis_respeitam_validade_e_tempo(tmp_path):
+    chamadas = []
+
+    class Falsa(CamaraFalsa):
+        def dados(self, caminho, params=None):
+            chamadas.append(caminho)
+            return {"nomeCivil": "X"} if caminho.count("/") == 2 else []
+
+    armazem = Armazem(tmp_path)
+    cadastro = {
+        1: {"id": 1, "perfil": {"atualizado_em": "2025-04-01"}},  # recente (hoje fixo = 2025-04-10): pula
+        2: {"id": 2, "perfil": {"atualizado_em": "2024-01-01"}},  # velho: atualiza
+        3: {"id": 3},                                              # sem perfil: atualiza primeiro
+    }
+    coletar.atualizar_perfis(Falsa(), armazem, cadastro)
+    assert [c for c in chamadas if c.count("/") == 2] == ["/deputados/3", "/deputados/2"]
+    assert cadastro[3]["perfil"]["atualizado_em"] == "2025-04-10"
+
+    chamadas.clear()
+    cadastro[3]["perfil"] = None
+    coletar.atualizar_perfis(Falsa(), armazem, cadastro, tempo_maximo=-1)
+    assert chamadas == []
