@@ -128,7 +128,9 @@ class Armazem:
 
     def gravar_projetos(self, did: int, projetos: list[dict]) -> bool:
         projetos = sorted(projetos, key=lambda p: (p.get("ano") or 0, p.get("numero") or 0), reverse=True)
-        return self.gravar(self.pasta_deputados / f"{did}.json", {"id": did, "projetos": projetos})
+        from coletor.projetos import resumo
+
+        return self.gravar(self.pasta_deputados / f"{did}.json", {"id": did, "resumo": resumo(projetos), "projetos": projetos})
 
     # ------------------------------------------------------------ estado
 

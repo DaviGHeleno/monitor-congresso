@@ -38,9 +38,30 @@ export type Deputado = {
   email?: string | null;
   em_exercicio?: boolean;
   url?: string;
+  perfil?: Perfil;
 };
 
-export type Projeto = { id: number; sigla: string; numero: number; ano: number; ementa: string | null; url: string | null };
+export type Perfil = {
+  nome_civil: string | null;
+  sexo?: "M" | "F" | null;
+  nascimento: string | null;
+  falecimento: string | null;
+  municipio_nascimento: string | null;
+  uf_nascimento: string | null;
+  escolaridade: string | null;
+  profissoes: string[];
+  redes: string[];
+  situacao: string | null;
+  condicao_eleitoral: string | null;
+  gabinete: { nome?: string; predio?: string; sala?: string; andar?: string; telefone?: string; email?: string } | null;
+};
+
+export type CategoriaProjeto = "lei" | "aprovado" | "tramitacao" | "encerrado";
+export type Projeto = {
+  id: number; sigla: string; numero: number; ano: number; ementa: string | null; url: string | null;
+  apresentacao?: string | null; situacao?: string | null; situacao_data?: string | null;
+  categoria?: CategoriaProjeto; primeiro_autor?: boolean;
+};
 
 function ler<T>(relativo: string, padrao: T): T {
   const arquivo = path.join(RAIZ, relativo);

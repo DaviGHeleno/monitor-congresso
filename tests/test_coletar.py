@@ -132,3 +132,45 @@ def test_secreta_nao_fica_pendente(tmp_path):
     coletar.carga_inicial(camara, armazem, "2023-02-01")
     assert armazem.votacao("7-7")["secreta"] is True
     assert "7-7" not in armazem.estado()["pendentes"]
+
+
+def test_atualizar_deputados_com_perfil_e_projetos(tmp_path):
+    class Falsa(CamaraFalsa):
+        def paginar(self, caminho, params=None):
+            if caminho == "/deputados":
+                return [{"id": 7, "nome": "Ana", "siglaPartido": "AAA", "siglaUf": "MG"}]
+            return []
+
+        def dados(self, caminho, params=None):
+            if caminho == "/deputados/7":
+                return {"id": 7, "nomeCivil": "Ana Maria", "cpf": "123", "dataNascimento": "1980-02-03", "escolaridade": "Superior"}
+            if caminho == "/deputados/7/profissoes":
+                return [{"titulo": "Professora"}]
+            return super().dados(caminho, params)
+
+        def baixar_arquivo(self, tipo, ano, pasta):
+            if (tipo, ano) == ("proposicoes", 2024):
+                return [{"id": 50, "siglaTipo": "PL", "numero": 1, "ano": 2024, "dataApresentacao": "2024-02-02",
+                         "ultimoStatus": {"descricaoSituacao": "Transformado em Norma Jurídica"}}]
+            if (tipo, ano) == ("proposicoesAutores", 2024):
+                return [{"idProposicao": 50, "idDeputadoAutor": 7, "ordemAssinatura": 1}]
+            return []
+
+    armazem = Armazem(tmp_path)
+    coletar.atualizar_deputados(Falsa(), armazem)
+    d = armazem.deputados()[7]
+    assert d["perfil"]["nome_civil"] == "Ana Maria" and d["perfil"]["profissoes"] == ["Professora"]
+    assert "123" not in str(d)
+    arq = armazem.ler(armazem.pasta_deputados / "7.json")
+    assert arq["resumo"]["lei"] == 1 and arq["projetos"][0]["primeiro_autor"] is True
+
+
+def test_arquivos_de_projetos_vazios_nao_apagam_existentes(tmp_path):
+    class Falsa(CamaraFalsa):
+        def paginar(self, caminho, params=None):
+            return [{"id": 7, "nome": "Ana"}] if caminho == "/deputados" else []
+
+    armazem = Armazem(tmp_path)
+    armazem.gravar_projetos(7, [{"id": 1, "sigla": "PL", "numero": 1, "ano": 2024}])
+    coletar.atualizar_deputados(Falsa(), armazem)
+    assert len(armazem.ler(armazem.pasta_deputados / "7.json")["projetos"]) == 1

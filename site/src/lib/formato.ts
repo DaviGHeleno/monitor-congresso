@@ -74,3 +74,29 @@ export function orientacaoDoPartido(partido: string | null, orientacoes: Orienta
 }
 
 export const total = (totais: Record<string, number>) => Object.values(totais).reduce((s, n) => s + n, 0);
+
+export const CATEGORIA_PROJETO: Record<string, { rotulo: string; descricao: string }> = {
+  lei: { rotulo: "Virou lei", descricao: "Transformado em norma jurídica" },
+  aprovado: { rotulo: "Aprovado na Câmara", descricao: "Foi ao Senado, aguarda sanção ou promulgação" },
+  tramitacao: { rotulo: "Em tramitação", descricao: "Ainda em análise nas comissões ou no Plenário" },
+  encerrado: { rotulo: "Arquivado ou rejeitado", descricao: "Arquivado, rejeitado, retirado, prejudicado ou vetado" },
+};
+
+/** Idade em anos completos numa data (padrão: hoje). */
+export function idade(nascimento: string, ate?: string | null): number {
+  const n = new Date(nascimento.slice(0, 10) + "T12:00:00");
+  const f = ate ? new Date(ate.slice(0, 10) + "T12:00:00") : new Date();
+  let anos = f.getFullYear() - n.getFullYear();
+  if (f.getMonth() < n.getMonth() || (f.getMonth() === n.getMonth() && f.getDate() < n.getDate())) anos--;
+  return anos;
+}
+
+/** Nome legível de uma rede social a partir do endereço. */
+export function nomeRede(endereco: string): string {
+  const host = endereco.replace(/^https?:\/\//, "").replace(/^www\./, "").split("/")[0].toLowerCase();
+  const nomes: Record<string, string> = {
+    "instagram.com": "Instagram", "facebook.com": "Facebook", "twitter.com": "X (Twitter)", "x.com": "X (Twitter)",
+    "youtube.com": "YouTube", "tiktok.com": "TikTok", "linkedin.com": "LinkedIn", "threads.net": "Threads",
+  };
+  return nomes[host] ?? host;
+}

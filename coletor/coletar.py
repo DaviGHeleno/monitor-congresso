@@ -3,7 +3,7 @@
     python -m coletor.coletar --inicial        carga desde 01/02/2023 (arquivos anuais + detalhes da API)
     python -m coletor.coletar --incremental    novas votações via API desde a última coleta
     python -m coletor.coletar --reconciliar    confere o arquivo anual do ano corrente e completa o que faltar
-    python -m coletor.coletar --deputados      cadastro dos deputados em exercício + projetos apresentados
+    python -m coletor.coletar --deputados      cadastro, perfil público e projetos (com situação) dos deputados
 
 Opções: --dados <pasta> (padrão: dados), --desde AAAA-MM-DD (só --inicial).
 Somente votações do Plenário.
@@ -20,14 +20,12 @@ from datetime import date, datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-from coletor import modelos
+from coletor import modelos, projetos
 from coletor.armazenamento import Armazem
 from coletor.camara import ID_PLENARIO, Cliente, ErroCamara
 
 INICIO_LEGISLATURA = "2023-02-01"
 ID_LEGISLATURA = 57
-TIPOS_PROJETO = ["PL", "PLP", "PEC", "PDL", "PRC"]
-
 log = logging.getLogger("coletor")
 
 
@@ -207,19 +205,51 @@ def atualizar_deputados(cliente: Cliente, armazem: Armazem) -> None:
     armazem.gravar_deputados(cadastro)
     log.info("%s deputados no cadastro, %s em exercício", len(cadastro), len(ids_exercicio))
 
+    atualizar_perfis(cliente, armazem, cadastro)
+    atualizar_projetos(cliente, armazem, sorted(cadastro))
+
+
+def atualizar_perfis(cliente: Cliente, armazem: Armazem, cadastro: dict[int, dict]) -> None:
+    """Dados públicos de cada deputado (nascimento, escolaridade, profissões, redes, gabinete)."""
     for n, did in enumerate(sorted(cadastro), 1):
         try:
-            props = cliente.paginar(
-                "/proposicoes",
-                {"idDeputadoAutor": did, "dataApresentacaoInicio": INICIO_LEGISLATURA, "siglaTipo": TIPOS_PROJETO,
-                 "ordem": "DESC", "ordenarPor": "id"},
-            )
+            detalhe = cliente.dados(f"/deputados/{did}")
+            profissoes = cliente.dados(f"/deputados/{did}/profissoes") or []
         except ErroCamara as e:
-            log.warning("projetos de %s indisponíveis: %s", did, e)
+            log.warning("perfil de %s indisponível: %s", did, e)
             continue
-        armazem.gravar_projetos(did, [modelos.projeto(p) for p in props if p.get("siglaTipo") in TIPOS_PROJETO])
-        if n % 50 == 0:
-            log.info("projetos: %s/%s deputados", n, len(cadastro))
+        if detalhe:
+            cadastro[did]["perfil"] = projetos.perfil(detalhe, profissoes)
+        if n % 100 == 0:
+            log.info("perfis: %s/%s", n, len(cadastro))
+    armazem.gravar_deputados(cadastro)
+
+
+def atualizar_projetos(cliente: Cliente, armazem: Armazem, ids: list[int]) -> None:
+    """Projetos e situação via arquivos anuais (proposicoes + proposicoesAutores)."""
+    todas, autores = [], []
+    with tempfile.TemporaryDirectory() as tmp:
+        for ano in range(int(INICIO_LEGISLATURA[:4]), hoje().year + 1):
+            props = cliente.baixar_arquivo("proposicoes", ano, Path(tmp)) or []
+            auts = cliente.baixar_arquivo("proposicoesAutores", ano, Path(tmp)) or []
+            if props:
+                log.info("[%s] proposicoes: %s registros; campos: %s", ano, len(props), sorted(props[0].keys()))
+            if auts:
+                log.info("[%s] autores: %s registros; campos: %s", ano, len(auts), sorted(auts[0].keys()))
+            todas += props
+            autores += auts
+
+    por_deputado = projetos.projetos_por_deputado(todas, autores, INICIO_LEGISLATURA)
+    total_projetos = sum(len(v) for v in por_deputado.values())
+    if total_projetos == 0:
+        # Formato dos arquivos mudou ou ficou indisponível: não apaga o que já existe.
+        log.error("nenhum projeto extraído dos arquivos anuais; projetos mantidos como estavam")
+        return
+    contagem = projetos.resumo([p for ps in por_deputado.values() for p in ps])
+    sem_situacao = sum(1 for ps in por_deputado.values() for p in ps if not p["situacao"])
+    log.info("%s autorias de projetos; por categoria: %s; sem situação: %s", total_projetos, contagem, sem_situacao)
+    for did in ids:
+        armazem.gravar_projetos(did, por_deputado.get(did, []))
 
 
 def main(argv=None) -> int:

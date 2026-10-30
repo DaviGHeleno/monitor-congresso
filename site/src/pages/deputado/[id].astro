@@ -1,7 +1,7 @@
 ---
 import Base from "../../layouts/Base.astro";
 import { historico, indice, projetos, todosDeputados, type Deputado } from "../../lib/dados";
-import { proposicao, url } from "../../lib/formato";
+import { CATEGORIA_PROJETO, data, idade, nomeRede, proposicao, url } from "../../lib/formato";
 
 export function getStaticPaths() {
   return todosDeputados().map((d) => ({ params: { id: String(d.id) }, props: { d } }));
@@ -14,7 +14,33 @@ const contagem: Record<string, number> = {};
 for (const v of votos) contagem[v.voto] = (contagem[v.voto] ?? 0) + 1;
 const partidosNoPeriodo = [...new Set(votos.map((v) => v.partido).filter(Boolean))];
 const anos = [...new Set(votos.map((v) => v.votacao.data.slice(0, 4)))].sort().reverse();
-const PROJETOS_VISIVEIS = 50;
+
+// Descrição: frase curta montada só com dados oficiais.
+const p = d.perfil;
+const fem = p?.sexo === "F";
+const cargo = d.em_exercicio === false ? (fem ? "Foi deputada federal" : "Foi deputado federal") : (fem ? "Deputada federal" : "Deputado federal");
+const formacao = [p?.escolaridade && `escolaridade ${p.escolaridade.toLowerCase()}`, p?.profissoes.length && `profissão declarada: ${p.profissoes.join(", ").toLowerCase()}`]
+  .filter(Boolean).join("; ");
+const frase = [
+  `${cargo}${d.uf ? ` por ${d.uf}` : ""}${d.partido ? ` (${d.partido})` : ""} na legislatura 2023–2027.`,
+  p?.nascimento && `Nasceu em ${data(p.nascimento)}${p.municipio_nascimento ? `, em ${p.municipio_nascimento}${p.uf_nascimento ? `/${p.uf_nascimento}` : ""}` : ""}.`,
+  formacao && `${formacao.charAt(0).toUpperCase()}${formacao.slice(1)}.`,
+].filter(Boolean).join(" ");
+const gabinete = p?.gabinete
+  ? [p.gabinete.nome && `Gabinete ${p.gabinete.nome}`, p.gabinete.predio && `Prédio ${p.gabinete.predio}`, p.gabinete.telefone && `Tel. (61) ${p.gabinete.telefone}`]
+      .filter(Boolean).join(" · ")
+  : null;
+
+// Situação dos projetos (só quando o coletor já gravou a situação).
+const comSituacao = projs.some((x) => x.categoria);
+const porCategoria: Record<string, number> = { lei: 0, aprovado: 0, tramitacao: 0, encerrado: 0 };
+for (const x of projs) if (x.categoria) porCategoria[x.categoria]++;
+const primeiroAutor = projs.filter((x) => x.primeiro_autor).length;
+const ordemCategoria = ["lei", "aprovado", "tramitacao", "encerrado"];
+const projsOrdenados = comSituacao
+  ? [...projs].sort((a, b) => ordemCategoria.indexOf(a.categoria ?? "tramitacao") - ordemCategoria.indexOf(b.categoria ?? "tramitacao")
+      || (b.apresentacao ?? "").localeCompare(a.apresentacao ?? ""))
+  : projs;
 
 // Histórico compacto: [posição em votacoes-leve.json, voto, partido na data se diferente do atual].
 // O texto das votações vem do arquivo compartilhado, baixado uma vez para todas as páginas de deputado.
@@ -40,6 +66,34 @@ const compacto = votos.map((v) => [posicao.get(v.votacao.id), v.voto, v.partido 
       {d.url && <p style="margin:.5rem 0 0"><a href={d.url} rel="noopener">Página oficial na Câmara ↗</a></p>}
     </div>
   </div>
+
+  {p && (
+    <section class="cartao descricao-deputado" aria-labelledby="t-sobre">
+      <h2 id="t-sobre" style="margin-top:0">Sobre</h2>
+      <p class="frase">{frase}</p>
+      <dl class="ficha">
+        {p.nome_civil && <><dt>Nome civil</dt><dd>{p.nome_civil}</dd></>}
+        {p.nascimento && (
+          <><dt>Nascimento</dt><dd>{[
+            data(p.nascimento, true),
+            p.falecimento ? "" : ` (${idade(p.nascimento)} anos)`,
+            p.municipio_nascimento ? `, ${p.municipio_nascimento}${p.uf_nascimento ? ` (${p.uf_nascimento})` : ""}` : "",
+          ].join("")}</dd></>
+        )}
+        {p.falecimento && <><dt>Falecimento</dt><dd>{data(p.falecimento, true)}</dd></>}
+        {p.escolaridade && <><dt>Escolaridade</dt><dd>{p.escolaridade}</dd></>}
+        {p.profissoes.length > 0 && <><dt>Profissões declaradas</dt><dd>{p.profissoes.join(", ")}</dd></>}
+        {p.condicao_eleitoral && <><dt>Condição</dt><dd>{p.condicao_eleitoral}{p.situacao && ` · ${p.situacao}`}</dd></>}
+        {gabinete && <><dt>Gabinete</dt><dd>{gabinete}</dd></>}
+        {p.redes.length > 0 && (
+          <><dt>Redes sociais</dt><dd>
+            {p.redes.map((r, n) => <>{n > 0 && " · "}<a href={r} rel="noopener nofollow">{nomeRede(r)}</a></>)}
+          </dd></>
+        )}
+      </dl>
+      <p class="fonte">Dados declarados à Câmara dos Deputados.</p>
+    </section>
+  )}
 
   <h2>Votos registrados</h2>
   {votos.length === 0 ? <p>Nenhum voto nominal registrado no período.</p> : (
@@ -72,30 +126,91 @@ const compacto = votos.map((v) => [posicao.get(v.votacao.id), v.voto, v.partido 
   )}
 
   <h2>Projetos apresentados</h2>
-  <p class="subtitulo">Projetos de lei, de lei complementar, de emenda à Constituição, de decreto legislativo e de resolução de que é autor ou coautor, desde 2023.</p>
+  <p class="subtitulo">Projetos de lei, de lei complementar, de emenda à Constituição, de decreto legislativo e de resolução apresentados desde fevereiro de 2023 em que é autor ou coautor. Situação atual segundo a Câmara.</p>
   {projs.length === 0 ? <p>Nenhum projeto encontrado.</p> : (
     <>
-      <p class="contagem">{projs.length.toLocaleString("pt-BR")} projetos</p>
-      <ul class="lista-simples">
-        {projs.map((p, n) => (
-          <li class={n >= PROJETOS_VISIVEIS ? "oculto projeto-extra" : undefined}>
-            {p.url ? <a href={p.url} rel="noopener"><b>{proposicao(p)}</b></a> : <b>{proposicao(p)}</b>}
-            {p.ementa && <div style="color:var(--texto-2);margin-top:2px">{p.ementa}</div>}
+      {comSituacao && (
+        <div class="numeros" role="group" aria-label="Projetos por situação">
+          <div class="numero"><b>{projs.length.toLocaleString("pt-BR")}</b><span>Projetos ({primeiroAutor.toLocaleString("pt-BR")} como primeiro autor)</span></div>
+          {ordemCategoria.map((c) => (
+            <button type="button" class={`numero filtro-categoria cat-${c}`} data-categoria={c} title={CATEGORIA_PROJETO[c].descricao}>
+              <b>{porCategoria[c].toLocaleString("pt-BR")}</b><span>{CATEGORIA_PROJETO[c].rotulo}</span>
+            </button>
+          ))}
+        </div>
+      )}
+      <form class="filtros" onsubmit="return false">
+        <label>Buscar<input type="search" id="p-texto" placeholder="Tema ou número" autocomplete="off" /></label>
+        {comSituacao && (
+          <label>Situação
+            <select id="p-categoria">
+              <option value="">Todas</option>
+              {ordemCategoria.map((c) => <option value={c}>{CATEGORIA_PROJETO[c].rotulo}</option>)}
+            </select>
+          </label>
+        )}
+        {primeiroAutor > 0 && <label class="check"><input type="checkbox" id="p-primeiro" /> Só como primeiro autor</label>}
+      </form>
+      <p class="contagem" id="p-contagem" aria-live="polite">{projs.length.toLocaleString("pt-BR")} projetos</p>
+      <ul class="lista-simples" id="p-lista">
+        {projsOrdenados.map((x) => (
+          <li class="projeto" data-categoria={x.categoria ?? ""} data-primeiro={x.primeiro_autor ? "1" : "0"}
+              data-busca={[proposicao(x), `${x.sigla} ${x.numero}/${x.ano}`, `${x.sigla}${x.numero}`, x.ementa].filter(Boolean).join(" ").toLowerCase()}>
+            <div class="projeto-topo">
+              {x.url ? <a href={x.url} rel="noopener"><b>{proposicao(x)}</b></a> : <b>{proposicao(x)}</b>}
+              {x.categoria && <span class={`etiqueta cat-${x.categoria}`}>{CATEGORIA_PROJETO[x.categoria].rotulo}</span>}
+              {x.primeiro_autor === false && <span class="coautor">coautoria</span>}
+            </div>
+            {x.ementa && <div class="projeto-ementa">{x.ementa}</div>}
+            {x.situacao && <div class="projeto-situacao">Situação: {x.situacao}{x.situacao_data && ` (desde ${data(x.situacao_data)})`}</div>}
           </li>
         ))}
       </ul>
-      {projs.length > PROJETOS_VISIVEIS && (
-        <p><button type="button" class="botao secundario" id="mais-projetos">Mostrar todos os {projs.length.toLocaleString("pt-BR")}</button></p>
-      )}
+      <p class="paginacao"><button type="button" id="p-mais" class="oculto">Mostrar mais</button></p>
     </>
   )}
 </Base>
 
 <script>
-  document.getElementById("mais-projetos")?.addEventListener("click", (e) => {
-    document.querySelectorAll(".projeto-extra").forEach((li) => li.classList.remove("oculto"));
-    (e.currentTarget as HTMLElement).remove();
-  });
+  // Projetos: filtros + "mostrar mais" (50 por vez).
+  {
+    const lista = document.getElementById("p-lista");
+    if (lista) {
+      const itens = Array.from(lista.querySelectorAll<HTMLLIElement>("li.projeto"));
+      const texto = document.getElementById("p-texto") as HTMLInputElement;
+      const cat = document.getElementById("p-categoria") as HTMLSelectElement | null;
+      const primeiro = document.getElementById("p-primeiro") as HTMLInputElement | null;
+      const contagem = document.getElementById("p-contagem")!;
+      const mais = document.getElementById("p-mais")!;
+      const botoes = Array.from(document.querySelectorAll<HTMLButtonElement>(".filtro-categoria"));
+      const norm = (s: string) => s.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+      itens.forEach((li) => (li.dataset.busca = norm(li.dataset.busca ?? "")));
+      let limite = 50;
+      const aplicar = () => {
+        const termos = norm(texto.value).split(/\s+/).filter(Boolean);
+        const vis = itens.filter((li) => (!cat?.value || li.dataset.categoria === cat.value)
+          && (!primeiro?.checked || li.dataset.primeiro === "1") && termos.every((t) => li.dataset.busca!.includes(t)));
+        const mostrar = new Set(vis.slice(0, limite));
+        itens.forEach((li) => li.classList.toggle("oculto", !mostrar.has(li)));
+        contagem.textContent = vis.length === 1 ? "1 projeto" : `${vis.length.toLocaleString("pt-BR")} projetos`;
+        mais.classList.toggle("oculto", vis.length <= limite);
+        mais.textContent = `Mostrar mais (${(vis.length - limite).toLocaleString("pt-BR")} restantes)`;
+        botoes.forEach((b) => b.setAttribute("aria-pressed", String(!!cat && b.dataset.categoria === cat.value)));
+      };
+      const reiniciar = () => { limite = 50; aplicar(); };
+      texto.addEventListener("input", reiniciar);
+      cat?.addEventListener("change", reiniciar);
+      primeiro?.addEventListener("change", reiniciar);
+      botoes.forEach((b) => b.addEventListener("click", () => {
+        if (!cat) return;
+        cat.value = cat.value === b.dataset.categoria ? "" : b.dataset.categoria!;
+        reiniciar();
+        document.getElementById("p-lista")!.scrollIntoView({ behavior: "smooth", block: "start" });
+      }));
+      mais.addEventListener("click", () => { limite += 150; aplicar(); });
+      aplicar();
+    }
+  }
 
   type Leve = [string, string, string, string, string, string]; // id, data, descrição, proposição, tipo, ementa
   const CLASSE: Record<string, string> = { Sim: "sim", Não: "nao", Abstenção: "abst", Obstrução: "obst", "Artigo 17": "art17" };

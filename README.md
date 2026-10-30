@@ -21,6 +21,7 @@ Site para acompanhar votações da Câmara dos Deputados: placar por partido, vo
 |---|---|---|
 | Testes | todo push | roda os testes do coletor |
 | Carga inicial de dados | manual | baixa votações desde 01/02/2023 e deputados |
+| Atualizar deputados | todo dia 02:17 e manual | perfis, projetos e situação de cada projeto; depois publica o site |
 | Publicar site | push em `site/`, `dados/` ou `coletor/`, ou manual | gera o site e publica no GitHub Pages |
 | Spike | manual | teste de disponibilidade de dados (Fase 1) |
 

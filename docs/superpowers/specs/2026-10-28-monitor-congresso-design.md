@@ -128,6 +128,8 @@ Há relato de terceiros de que o endpoint de votos individuais por votação da 
 - Busca por nome; filtro por partido e UF; link para a página de cada um.
 
 ### Página do deputado `/deputado/<id>`
+- **Sobre** (adicionado em 30/10): descrição só com dados declarados à Câmara: nome civil, nascimento, escolaridade, profissões, condição, gabinete, redes sociais. CPF não é coletado.
+- **Projetos por situação** (adicionado em 30/10): totais e etiqueta por projeto em 4 categorias: Virou lei · Aprovado na Câmara · Em tramitação · Arquivado ou rejeitado; texto oficial da situação ao lado. Fonte: arquivos anuais `proposicoes` e `proposicoesAutores`. Regras em `coletor/projetos.py`.
 - Foto oficial, nome, partido, UF.
 - Histórico de votos: data, votação (link), voto dado.
 - Projetos apresentados, com link oficial.

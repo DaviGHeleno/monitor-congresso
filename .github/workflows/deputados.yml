@@ -1,0 +1,71 @@
+name: Atualizar deputados
+
+# Cadastro, perfil público e projetos (com situação) de todos os deputados da legislatura.
+# Roda todo dia de madrugada e pode ser disparado à mão. Depois publica o site.
+on:
+  schedule:
+    - cron: "17 5 * * *" # 02:17 em Brasília
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: dados
+  cancel-in-progress: false
+
+jobs:
+  coletar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependências
+        run: pip install -r requirements.txt
+
+      - name: Deputados, perfis e projetos
+        run: python -m coletor.coletar --deputados
+
+      - name: Resumo
+        if: always()
+        run: |
+          python - <<'EOF' >> "$GITHUB_STEP_SUMMARY"
+          import json, collections, pathlib
+          deps = json.loads(pathlib.Path("dados/deputados.json").read_text())
+          print("## Deputados\n")
+          print(f"- No cadastro: **{len(deps)}** (em exercício: {sum(bool(d.get('em_exercicio')) for d in deps)})")
+          print(f"- Com perfil: {sum(bool(d.get('perfil')) for d in deps)}")
+          cat, situacoes, total = collections.Counter(), collections.Counter(), 0
+          for f in pathlib.Path("dados/deputados").glob("*.json"):
+              for p in json.loads(f.read_text())["projetos"]:
+                  total += 1; cat[p.get("categoria", "sem categoria")] += 1; situacoes[p.get("situacao")] += 1
+          print(f"- Autorias de projetos: {total}\n")
+          print("| Categoria | Autorias |\n|---|---|")
+          for k, n in cat.most_common(): print(f"| {k} | {n} |")
+          print("\n### Situações mais comuns\n\n| Situação oficial | Autorias |\n|---|---|")
+          for k, n in situacoes.most_common(30): print(f"| {k} | {n} |")
+          EOF
+
+      - name: Salvar dados no repositório
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dados
+          if git diff --cached --quiet; then
+            echo "Nada novo para salvar."
+          else
+            git commit -m "dados: deputados e projetos"
+            git pull --rebase
+            git push
+          fi
+
+  publicar:
+    needs: coletar
+    uses: ./.github/workflows/publicar.yml

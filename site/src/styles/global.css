@@ -171,3 +171,30 @@ td.num { text-align: right; font-variant-numeric: tabular-nums; }
 .aviso { background: var(--superficie-2); border-left: 4px solid var(--obst); padding: 0.75rem 1rem; border-radius: 6px; font-size: 0.925rem; }
 .oculto { display: none !important; }
 .visualmente-oculto { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+/* Página do deputado: descrição */
+.descricao-deputado { margin-top: 1.5rem; }
+.descricao-deputado .frase { font-size: 1.05rem; margin: 0 0 1rem; }
+.ficha { display: grid; grid-template-columns: max-content 1fr; gap: 0.4rem 1.25rem; margin: 0; font-size: 0.925rem; }
+.ficha dt { color: var(--texto-2); font-weight: 500; }
+.ficha dd { margin: 0; min-width: 0; overflow-wrap: anywhere; }
+.descricao-deputado .fonte { color: var(--texto-2); font-size: 0.8rem; margin: 1rem 0 0; }
+@media (max-width: 560px) { .ficha { grid-template-columns: 1fr; gap: 0.1rem; } .ficha dd { margin-bottom: 0.5rem; } }
+
+/* Projetos por situação */
+:root { --cat-lei: #2f7d57; --cat-aprovado: #1d6f8a; --cat-tramitacao: #8a8f98; --cat-encerrado: #a0523f; }
+@media (prefers-color-scheme: dark) { :root { --cat-lei: #5fb98a; --cat-aprovado: #5fb3cf; --cat-tramitacao: #9aa0a8; --cat-encerrado: #d98a75; } }
+button.numero { font: inherit; color: inherit; text-align: left; cursor: pointer; border-top: 4px solid var(--borda); }
+button.numero:hover { border-color: var(--destaque); }
+button.numero[aria-pressed="true"] { outline: 2px solid var(--destaque); outline-offset: 1px; }
+.numero.cat-lei { border-top-color: var(--cat-lei); }
+.numero.cat-aprovado { border-top-color: var(--cat-aprovado); }
+.numero.cat-tramitacao { border-top-color: var(--cat-tramitacao); }
+.numero.cat-encerrado { border-top-color: var(--cat-encerrado); }
+.etiqueta.cat-lei { color: var(--cat-lei); border-color: var(--cat-lei); }
+.etiqueta.cat-aprovado { color: var(--cat-aprovado); border-color: var(--cat-aprovado); }
+.etiqueta.cat-tramitacao { color: var(--texto-2); }
+.etiqueta.cat-encerrado { color: var(--cat-encerrado); border-color: var(--cat-encerrado); }
+.projeto-topo { display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center; }
+.projeto-ementa { color: var(--texto); margin-top: 4px; }
+.projeto-situacao, .coautor { color: var(--texto-2); font-size: 0.82rem; margin-top: 4px; }
