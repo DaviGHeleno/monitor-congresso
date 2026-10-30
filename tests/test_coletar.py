@@ -174,3 +174,18 @@ def test_arquivos_de_projetos_vazios_nao_apagam_existentes(tmp_path):
     armazem.gravar_projetos(7, [{"id": 1, "sigla": "PL", "numero": 1, "ano": 2024}])
     coletar.atualizar_deputados(Falsa(), armazem)
     assert len(armazem.ler(armazem.pasta_deputados / "7.json")["projetos"]) == 1
+
+
+def test_camara_fora_do_ar_na_lista_nao_derruba_nem_desmarca(tmp_path):
+    class Falsa(CamaraFalsa):
+        def paginar(self, caminho, params=None):
+            raise ErroCamara("HTTP 504")
+
+        def dados(self, caminho, params=None):
+            return {"id": 7, "nomeCivil": "Ana Maria"} if caminho == "/deputados/7" else []
+
+    armazem = Armazem(tmp_path)
+    armazem.gravar_deputados({7: {"id": 7, "nome": "Ana", "em_exercicio": True}})
+    coletar.atualizar_deputados(Falsa(), armazem)  # não levanta erro
+    d = armazem.deputados()[7]
+    assert d["em_exercicio"] is True and d["perfil"]["nome_civil"] == "Ana Maria"

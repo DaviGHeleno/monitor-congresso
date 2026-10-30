@@ -25,7 +25,7 @@ class ErroCamara(Exception):
 
 
 class Cliente:
-    def __init__(self, pausa: float = 0.25, tentativas: int = 4, sessao: requests.Session | None = None):
+    def __init__(self, pausa: float = 0.25, tentativas: int = 6, sessao: requests.Session | None = None):
         self.pausa = pausa
         self.tentativas = tentativas
         self.sessao = sessao or requests.Session()
@@ -33,7 +33,7 @@ class Cliente:
 
     def get_json(self, url: str, params: dict | None = None) -> dict | None:
         """GET com novas tentativas (rede, 429, 5xx). 404 retorna None. Falha persistente levanta ErroCamara."""
-        espera = 2.0
+        espera = 3.0
         for n in range(1, self.tentativas + 1):
             try:
                 r = self.sessao.get(url, params=params, timeout=60)
@@ -49,7 +49,7 @@ class Cliente:
                     raise ErroCamara(f"{url}: {e}") from e
                 log.warning("tentativa %s falhou (%s): %s; nova tentativa em %ss", n, e, url, espera)
                 time.sleep(espera)
-                espera *= 2
+                espera = min(espera * 2, 60)
         return None
 
     def dados(self, caminho: str, params: dict | None = None):

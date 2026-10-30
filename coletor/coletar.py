@@ -179,16 +179,18 @@ def incremental(cliente: Cliente, armazem: Armazem) -> None:
 
 
 def atualizar_deputados(cliente: Cliente, armazem: Armazem) -> None:
+    """Cada parte é independente: se a Câmara falhar numa, as outras seguem e o que já existe é mantido."""
     # Sem idLegislatura a API devolve só quem está em exercício hoje (513).
     # Com idLegislatura devolve todos que passaram pela legislatura (titulares e suplentes).
-    em_exercicio = cliente.paginar("/deputados", {"ordem": "ASC", "ordenarPor": "nome"})
-    ids_exercicio = {int(d["id"]) for d in em_exercicio}
-    da_legislatura = cliente.paginar("/deputados", {"idLegislatura": ID_LEGISLATURA, "ordem": "ASC", "ordenarPor": "nome"})
+    em_exercicio = _lista_ou_none(cliente, "/deputados", {"ordem": "ASC", "ordenarPor": "nome"})
+    da_legislatura = _lista_ou_none(cliente, "/deputados", {"idLegislatura": ID_LEGISLATURA, "ordem": "ASC", "ordenarPor": "nome"})
     cadastro = armazem.deputados()
-    vistos = {int(d["id"]): d for d in da_legislatura}
-    vistos.update({int(d["id"]): d for d in em_exercicio})  # dados de quem está em exercício prevalecem
+    vistos = {int(d["id"]): d for d in (da_legislatura or [])}
+    vistos.update({int(d["id"]): d for d in (em_exercicio or [])})  # dados de quem está em exercício prevalecem
+    ids_exercicio = {int(d["id"]) for d in em_exercicio} if em_exercicio is not None else None
     for d in vistos.values():
         did = int(d["id"])
+        exercendo = ids_exercicio is not None and did in ids_exercicio
         cadastro[did] = {
             **cadastro.get(did, {}),
             "id": did,
@@ -197,26 +199,42 @@ def atualizar_deputados(cliente: Cliente, armazem: Armazem) -> None:
             "uf": d.get("siglaUf"),
             "foto": d.get("urlFoto"),
             "email": d.get("email"),
-            "visto_em": hoje().isoformat() if did in ids_exercicio else cadastro.get(did, {}).get("visto_em"),
+            "visto_em": hoje().isoformat() if exercendo else cadastro.get(did, {}).get("visto_em"),
         }
     for did, d in cadastro.items():
-        d["em_exercicio"] = did in ids_exercicio
+        if ids_exercicio is not None:  # só muda a marcação quando a lista de quem está em exercício veio completa
+            d["em_exercicio"] = did in ids_exercicio
         d["url"] = f"https://www.camara.leg.br/deputados/{did}"
     armazem.gravar_deputados(cadastro)
-    log.info("%s deputados no cadastro, %s em exercício", len(cadastro), len(ids_exercicio))
+    log.info("%s deputados no cadastro, %s em exercício", len(cadastro),
+             len(ids_exercicio) if ids_exercicio is not None else "lista indisponível;")
 
     atualizar_perfis(cliente, armazem, cadastro)
     atualizar_projetos(cliente, armazem, sorted(cadastro))
 
 
+def _lista_ou_none(cliente: Cliente, caminho: str, params: dict) -> list[dict] | None:
+    try:
+        return cliente.paginar(caminho, {**params, "itens": 50})
+    except ErroCamara as e:
+        log.warning("lista %s indisponível, mantendo dados atuais: %s", caminho, e)
+        return None
+
+
 def atualizar_perfis(cliente: Cliente, armazem: Armazem, cadastro: dict[int, dict]) -> None:
     """Dados públicos de cada deputado (nascimento, escolaridade, profissões, redes, gabinete)."""
+    falhas_seguidas = 0
     for n, did in enumerate(sorted(cadastro), 1):
         try:
             detalhe = cliente.dados(f"/deputados/{did}")
             profissoes = cliente.dados(f"/deputados/{did}/profissoes") or []
+            falhas_seguidas = 0
         except ErroCamara as e:
             log.warning("perfil de %s indisponível: %s", did, e)
+            falhas_seguidas += 1
+            if falhas_seguidas >= 5:
+                log.error("Câmara instável: perfis interrompidos em %s/%s; o restante fica para a próxima execução", n, len(cadastro))
+                break
             continue
         if detalhe:
             cadastro[did]["perfil"] = projetos.perfil(detalhe, profissoes)
@@ -230,8 +248,12 @@ def atualizar_projetos(cliente: Cliente, armazem: Armazem, ids: list[int]) -> No
     todas, autores = [], []
     with tempfile.TemporaryDirectory() as tmp:
         for ano in range(int(INICIO_LEGISLATURA[:4]), hoje().year + 1):
-            props = cliente.baixar_arquivo("proposicoes", ano, Path(tmp)) or []
-            auts = cliente.baixar_arquivo("proposicoesAutores", ano, Path(tmp)) or []
+            try:
+                props = cliente.baixar_arquivo("proposicoes", ano, Path(tmp)) or []
+                auts = cliente.baixar_arquivo("proposicoesAutores", ano, Path(tmp)) or []
+            except ErroCamara as e:
+                log.error("arquivos de projetos de %s indisponíveis (%s); projetos mantidos como estavam", ano, e)
+                return
             if props:
                 log.info("[%s] proposicoes: %s registros; campos: %s", ano, len(props), sorted(props[0].keys()))
             if auts:
