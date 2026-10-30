@@ -1,0 +1,23 @@
+---
+import { classeVoto, ordenarTotais, total } from "../lib/formato";
+
+interface Props {
+  totais: Record<string, number>;
+  grande?: boolean;
+  legenda?: boolean;
+}
+const { totais, grande = false, legenda = false } = Astro.props;
+const soma = total(totais) || 1;
+const partes = ordenarTotais(totais);
+const rotulo = partes.map(([v, n]) => `${v}: ${n}`).join(", ");
+---
+<div class={`barra${grande ? " grande" : ""}`} role="img" aria-label={rotulo} title={rotulo}>
+  {partes.map(([voto, n]) => <span class={classeVoto(voto)} style={`width:${(n / soma) * 100}%`} />)}
+</div>
+{legenda && (
+  <div class="legenda">
+    {partes.map(([voto, n]) => (
+      <span><i class={`voto ${classeVoto(voto)}`} style="padding:0" />{voto}: <b>{n}</b></span>
+    ))}
+  </div>
+)}

@@ -105,3 +105,30 @@ def test_incremental(tmp_path):
     assert v["votos_disponiveis"] and v["orientacoes"] and v["proposicao"]["id"]
     assert armazem.estado()["ultima_data"] == carregar("api-votacao-2025-04.json")["data"]
     assert armazem.estado()["pendentes"] == []
+
+
+def test_deputados_em_exercicio_separados_da_legislatura(tmp_path):
+    class Falsa(CamaraFalsa):
+        def paginar(self, caminho, params=None):
+            if caminho == "/deputados" and "idLegislatura" in (params or {}):
+                return [{"id": 1, "nome": "Ana", "siglaPartido": "AAA", "siglaUf": "MG"},
+                        {"id": 2, "nome": "Bia", "siglaPartido": "BBB", "siglaUf": "SP"}]
+            if caminho == "/deputados":
+                return [{"id": 1, "nome": "Ana", "siglaPartido": "CCC", "siglaUf": "MG"}]
+            return []
+
+    armazem = Armazem(tmp_path)
+    coletar.atualizar_deputados(Falsa(), armazem)
+    deps = armazem.deputados()
+    assert deps[1]["em_exercicio"] is True and deps[1]["partido"] == "CCC"
+    assert deps[2]["em_exercicio"] is False
+
+
+def test_secreta_nao_fica_pendente(tmp_path):
+    camara = CamaraFalsa()
+    camara.arquivos[("votacoes", 2024)].append(
+        {"id": "7-7", "data": "2024-12-11", "siglaOrgao": "PLEN", "descricao": "Votos: \nSr. Fulano: \nSim: 300;\nNão: 9;"})
+    armazem = Armazem(tmp_path)
+    coletar.carga_inicial(camara, armazem, "2023-02-01")
+    assert armazem.votacao("7-7")["secreta"] is True
+    assert "7-7" not in armazem.estado()["pendentes"]

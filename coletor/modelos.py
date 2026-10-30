@@ -154,6 +154,25 @@ def totais(lista_votos: list[list]) -> dict[str, int]:
     return dict(sorted(Counter(v[3] for v in lista_votos).items()))
 
 
+_ITEM_PLACAR = re.compile(r"\b(sim|n[aã]o|absten[cç][aã]o|obstru[cç][aã]o)\s*:\s*(\d+)", re.I)
+_NOMES_PLACAR = {"sim": "Sim", "nao": "Não", "não": "Não", "abstencao": "Abstenção", "abstenção": "Abstenção",
+                 "obstrucao": "Obstrução", "obstrução": "Obstrução"}
+
+
+def placar_da_descricao(descricao: str | None) -> dict[str, int]:
+    """Lê 'Sim: 231; Não: 23; Abstenção: 3' do texto. Usado quando não há votos individuais."""
+    placar = {}
+    for nome, numero in _ITEM_PLACAR.findall(descricao or ""):
+        chave = _NOMES_PLACAR.get(nome.lower(), nome.capitalize())
+        placar.setdefault(chave, int(numero))
+    return dict(sorted(placar.items()))
+
+
+def eh_secreta(descricao: str | None) -> bool:
+    """Eleições de autoridades vêm como 'Votos: Sr. Fulano: Sim: ...' e são de voto secreto."""
+    return bool(descricao) and descricao.lstrip().lower().startswith("votos:")
+
+
 def montar_votacao(base: dict, linhas_votos: list[dict], linhas_orientacoes: list[dict], detalhe: dict | None) -> dict:
     """Junta as peças numa votação no formato do projeto.
 
@@ -172,15 +191,17 @@ def montar_votacao(base: dict, linhas_votos: list[dict], linhas_orientacoes: lis
         "resultado": resultado(base.get("aprovacao"), descricao),
         "tipo": classificar(descricao),
         "proposicao": proposicao,
-        "totais": totais(lista),
+        "totais": totais(lista) if lista else placar_da_descricao(descricao),
+        "totais_fonte": "votos" if lista else "descricao",
         "orientacoes": orientacoes(linhas_orientacoes),
         "votos": lista,
         "votos_disponiveis": bool(lista),
+        "secreta": eh_secreta(descricao),
         "url_api": f"{API}/votacoes/{vid}",
     }
 
 
-CAMPOS_INDICE = ("id", "data", "data_hora", "descricao", "resultado", "tipo", "proposicao", "totais", "votos_disponiveis")
+CAMPOS_INDICE = ("id", "data", "data_hora", "descricao", "resultado", "tipo", "proposicao", "totais", "votos_disponiveis", "secreta")
 
 
 def item_indice(votacao: dict) -> dict:

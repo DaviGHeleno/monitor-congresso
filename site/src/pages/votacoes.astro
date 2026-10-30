@@ -1,0 +1,126 @@
+---
+import Base from "../layouts/Base.astro";
+import Barra from "../components/Barra.astro";
+import { indice } from "../lib/dados";
+import { RESULTADO, TIPO, buscaProposicao, data, descricaoCurta, proposicao, url } from "../lib/formato";
+
+const itens = indice();
+const anos = [...new Set(itens.map((i) => i.data.slice(0, 4)))].sort().reverse();
+---
+<Base titulo="Votações" secao="votacoes">
+  <h1>Votações nominais do Plenário</h1>
+  <p class="subtitulo">
+    Todas as votações em que cada deputado registrou seu voto, desde fevereiro de 2023. Mais recentes primeiro.
+  </p>
+
+  <form class="filtros" id="filtros" onsubmit="return false">
+    <label>Buscar
+      <input type="search" id="f-texto" placeholder="Tema, projeto (ex.: PL 3469) ou palavra" autocomplete="off" />
+    </label>
+    <label>Ano
+      <select id="f-ano">
+        <option value="">Todos</option>
+        {anos.map((a) => <option value={a}>{a}</option>)}
+      </select>
+    </label>
+    <label>Resultado
+      <select id="f-resultado">
+        <option value="">Todos</option>
+        {Object.entries(RESULTADO).map(([k, v]) => <option value={k}>{v}</option>)}
+      </select>
+    </label>
+    <label class="check"><input type="checkbox" id="f-proc" /> Esconder procedimentais</label>
+  </form>
+  <p class="contagem" id="contagem" aria-live="polite">{itens.length} votações</p>
+
+  <ul class="lista-votacoes" id="lista">
+    {itens.map((i) => {
+      const prop = proposicao(i.proposicao);
+      const busca = [buscaProposicao(i.proposicao), i.proposicao?.ementa, i.descricao].filter(Boolean).join(" ").toLowerCase();
+      return (
+        <li class="item-votacao" data-ano={i.data.slice(0, 4)} data-tipo={i.tipo} data-resultado={i.resultado} data-busca={busca}>
+          <div class="linha-meta">
+            <time datetime={i.data}>{data(i.data)}</time>
+            <span class={`etiqueta ${i.tipo}`}>{TIPO[i.tipo]}</span>
+            {i.secreta && <span class="etiqueta secreta">Voto secreto</span>}
+            {prop && <span>{prop}</span>}
+          </div>
+          <div class="titulo">{descricaoCurta(i.descricao)}</div>
+          {i.proposicao?.ementa && <div class="ementa">{i.proposicao.ementa}</div>}
+          <div class="acao">
+            <span class={`resultado ${i.resultado}`}>{RESULTADO[i.resultado]}</span>
+            <Barra totais={i.totais} />
+            <a class="botao" href={url(`/votacao/${i.id}/`)}>Ver votação</a>
+          </div>
+        </li>
+      );
+    })}
+  </ul>
+  <nav class="paginacao" id="paginacao" aria-label="Páginas"></nav>
+</Base>
+
+<script>
+  const POR_PAGINA = 30;
+  const itens = Array.from(document.querySelectorAll<HTMLLIElement>("#lista > li"));
+  const $ = (id: string) => document.getElementById(id) as HTMLInputElement;
+  const campos = { texto: $("f-texto"), ano: $("f-ano"), resultado: $("f-resultado"), proc: $("f-proc") };
+  const contagem = document.getElementById("contagem")!;
+  const paginacao = document.getElementById("paginacao")!;
+  let pagina = 1;
+
+  const normalizar = (s: string) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+  itens.forEach((li) => (li.dataset.busca = normalizar(li.dataset.busca ?? "")));
+
+  // Estado dos filtros fica na URL: dá para compartilhar uma busca.
+  const params = new URLSearchParams(location.search);
+  campos.texto.value = params.get("q") ?? "";
+  campos.ano.value = params.get("ano") ?? "";
+  campos.resultado.value = params.get("resultado") ?? "";
+  campos.proc.checked = params.get("proc") === "0";
+  pagina = Number(params.get("p")) || 1;
+
+  function aplicar(voltarAoTopo = false) {
+    const termos = normalizar(campos.texto.value).split(/\s+/).filter(Boolean);
+    const visiveis = itens.filter((li) => {
+      const d = li.dataset;
+      return (!campos.ano.value || d.ano === campos.ano.value)
+        && (!campos.resultado.value || d.resultado === campos.resultado.value)
+        && (!campos.proc.checked || d.tipo !== "procedimental")
+        && termos.every((t) => d.busca!.includes(t));
+    });
+    const paginas = Math.max(1, Math.ceil(visiveis.length / POR_PAGINA));
+    pagina = Math.min(Math.max(1, pagina), paginas);
+    const inicio = (pagina - 1) * POR_PAGINA;
+    const mostrar = new Set(visiveis.slice(inicio, inicio + POR_PAGINA));
+    itens.forEach((li) => li.classList.toggle("oculto", !mostrar.has(li)));
+    contagem.textContent = visiveis.length === 1 ? "1 votação" : `${visiveis.length.toLocaleString("pt-BR")} votações`;
+
+    paginacao.innerHTML = "";
+    if (paginas > 1) {
+      const botao = (rotulo: string, alvo: number, desativado: boolean) => {
+        const b = document.createElement("button");
+        b.type = "button"; b.textContent = rotulo; b.disabled = desativado;
+        b.addEventListener("click", () => { pagina = alvo; aplicar(true); });
+        return b;
+      };
+      paginacao.append(botao("← Anterior", pagina - 1, pagina === 1));
+      const info = document.createElement("span");
+      info.textContent = `Página ${pagina} de ${paginas}`;
+      paginacao.append(info, botao("Próxima →", pagina + 1, pagina === paginas));
+    }
+
+    const p = new URLSearchParams();
+    if (campos.texto.value) p.set("q", campos.texto.value);
+    if (campos.ano.value) p.set("ano", campos.ano.value);
+    if (campos.resultado.value) p.set("resultado", campos.resultado.value);
+    if (campos.proc.checked) p.set("proc", "0");
+    if (pagina > 1) p.set("p", String(pagina));
+    history.replaceState(null, "", p.toString() ? `?${p}` : location.pathname);
+    if (voltarAoTopo) document.getElementById("filtros")!.scrollIntoView({ behavior: "smooth" });
+  }
+
+  const reiniciar = () => { pagina = 1; aplicar(); };
+  campos.texto.addEventListener("input", reiniciar);
+  [campos.ano, campos.resultado, campos.proc].forEach((c) => c.addEventListener("change", reiniciar));
+  aplicar();
+</script>

@@ -71,12 +71,31 @@ class Armazem:
         antiga = self.votacao(nova["id"])
         if antiga:
             if antiga.get("votos_disponiveis") and not nova.get("votos_disponiveis"):
-                nova = {**nova, "votos": antiga["votos"], "totais": antiga["totais"], "votos_disponiveis": True}
+                nova = {**nova, "votos": antiga["votos"], "totais": antiga["totais"], "totais_fonte": "votos",
+                        "votos_disponiveis": True}
             if not nova.get("orientacoes") and antiga.get("orientacoes"):
                 nova = {**nova, "orientacoes": antiga["orientacoes"]}
             if not (nova.get("proposicao") or {}).get("id") and (antiga.get("proposicao") or {}).get("id"):
                 nova = {**nova, "proposicao": antiga["proposicao"]}
         return self.gravar(self.caminho_votacao(nova["id"]), nova)
+
+    def migrar(self) -> int:
+        """Completa campos novos em votações gravadas por versões anteriores. Retorna quantas mudaram."""
+        from coletor.modelos import eh_secreta, placar_da_descricao
+
+        mudadas = 0
+        for v in list(self.todas_votacoes()):
+            if "totais_fonte" in v and "secreta" in v:
+                continue
+            novo = dict(v)
+            novo["secreta"] = eh_secreta(v.get("descricao"))
+            if v.get("votos"):
+                novo["totais_fonte"] = "votos"
+            else:
+                novo["totais"] = placar_da_descricao(v.get("descricao"))
+                novo["totais_fonte"] = "descricao"
+            mudadas += self.gravar(self.caminho_votacao(v["id"]), novo)
+        return mudadas
 
     def todas_votacoes(self):
         for caminho in sorted(self.pasta_votacoes.glob("*.json")):

@@ -63,3 +63,18 @@ def test_estado_pendentes_sem_duplicata(tmp_path):
     a = Armazem(tmp_path)
     a.gravar_estado({"ultima_data": "2026-10-01", "pendentes": ["b", "a", "b"]})
     assert a.estado()["pendentes"] == ["a", "b"]
+
+
+def test_migrar_votacoes_antigas(tmp_path, fixture):
+    a = Armazem(tmp_path)
+    v = _votacao(fixture)
+    antiga = {k: val for k, val in v.items() if k not in ("totais_fonte", "secreta")}
+    sem_votos = {**antiga, "id": "8-8", "votos": [], "totais": {}, "votos_disponiveis": False,
+                 "descricao": "Votos: \nSr. Fulano: \nSim: 10;\nNão: 2;"}
+    a.gravar(a.caminho_votacao(antiga["id"]), antiga)
+    a.gravar(a.caminho_votacao("8-8"), sem_votos)
+    assert a.migrar() == 2
+    assert a.votacao(v["id"])["totais_fonte"] == "votos"
+    m = a.votacao("8-8")
+    assert m["secreta"] is True and m["totais"] == {"Não": 2, "Sim": 10}
+    assert a.migrar() == 0

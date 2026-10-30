@@ -63,3 +63,23 @@ def test_item_indice_nao_carrega_votos(fixture):
     item = modelos.item_indice(v)
     assert "votos" not in item and "orientacoes" not in item
     assert item["proposicao"]["sigla"] == "PL"
+
+
+def test_placar_da_descricao():
+    assert modelos.placar_da_descricao("Mantido o texto. Sim: 231; Não: 23; Abstenção: 3; Total: 257.") == {
+        "Abstenção": 3, "Não": 23, "Sim": 231}
+    assert modelos.placar_da_descricao("Aprovada a Emenda. Sim: 311; não: 107 ; total: 419.") == {"Não": 107, "Sim": 311}
+    assert modelos.placar_da_descricao("Aprovada a Redação Final.") == {}
+
+
+def test_secreta():
+    assert modelos.eh_secreta("Votos: \nSr. Edvaldo Nilo de Almeida: \nSim: 411;")
+    assert not modelos.eh_secreta("Aprovado o Requerimento. Sim: 10")
+    assert not modelos.eh_secreta(None)
+
+
+def test_sem_votos_usa_placar_do_texto():
+    base = {"id": "9-9", "data": "2025-12-09", "descricao": "Mantido o texto. Sim: 231; Não: 23; Total: 257.", "aprovacao": None}
+    v = modelos.montar_votacao(base, [], [], None)
+    assert v["totais"] == {"Não": 23, "Sim": 231} and v["totais_fonte"] == "descricao"
+    assert v["votos_disponiveis"] is False and v["secreta"] is False

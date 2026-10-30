@@ -55,6 +55,8 @@ def completar_da_api(cliente: Cliente, base: dict, linhas_votos: list[dict] | No
 def precisa_revisitar(v: dict | None) -> bool:
     if not v:
         return True
+    if v.get("secreta"):
+        return False  # voto secreto nunca terá votos individuais
     return not v["votos_disponiveis"] or not v["orientacoes"] or not (v.get("proposicao") or {}).get("id")
 
 
@@ -179,10 +181,15 @@ def incremental(cliente: Cliente, armazem: Armazem) -> None:
 
 
 def atualizar_deputados(cliente: Cliente, armazem: Armazem) -> None:
-    em_exercicio = cliente.paginar("/deputados", {"idLegislatura": ID_LEGISLATURA, "ordem": "ASC", "ordenarPor": "nome"})
+    # Sem idLegislatura a API devolve só quem está em exercício hoje (513).
+    # Com idLegislatura devolve todos que passaram pela legislatura (titulares e suplentes).
+    em_exercicio = cliente.paginar("/deputados", {"ordem": "ASC", "ordenarPor": "nome"})
     ids_exercicio = {int(d["id"]) for d in em_exercicio}
+    da_legislatura = cliente.paginar("/deputados", {"idLegislatura": ID_LEGISLATURA, "ordem": "ASC", "ordenarPor": "nome"})
     cadastro = armazem.deputados()
-    for d in em_exercicio:
+    vistos = {int(d["id"]): d for d in da_legislatura}
+    vistos.update({int(d["id"]): d for d in em_exercicio})  # dados de quem está em exercício prevalecem
+    for d in vistos.values():
         did = int(d["id"])
         cadastro[did] = {
             **cadastro.get(did, {}),
@@ -192,7 +199,7 @@ def atualizar_deputados(cliente: Cliente, armazem: Armazem) -> None:
             "uf": d.get("siglaUf"),
             "foto": d.get("urlFoto"),
             "email": d.get("email"),
-            "visto_em": hoje().isoformat(),
+            "visto_em": hoje().isoformat() if did in ids_exercicio else cadastro.get(did, {}).get("visto_em"),
         }
     for did, d in cadastro.items():
         d["em_exercicio"] = did in ids_exercicio
@@ -228,6 +235,10 @@ def main(argv=None) -> int:
 
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s", stream=sys.stdout)
     cliente, armazem = Cliente(), Armazem(args.dados)
+    migradas = armazem.migrar()
+    if migradas:
+        log.info("%s votações atualizadas para o formato novo", migradas)
+        armazem.reconstruir_indice()
     try:
         if args.inicial:
             carga_inicial(cliente, armazem, args.desde)

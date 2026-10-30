@@ -1,0 +1,66 @@
+name: Publicar site
+
+# Gera o site com os dados do repositório e publica no GitHub Pages.
+# Antes do primeiro uso: Settings > Pages > Build and deployment > Source: "GitHub Actions".
+on:
+  push:
+    branches: [main]
+    paths:
+      - "site/**"
+      - "dados/**"
+      - "coletor/**"
+      - ".github/workflows/publicar.yml"
+  workflow_dispatch:
+  workflow_call:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Atualizar formato dos dados (sem salvar no repositório)
+        run: |
+          pip install -r requirements.txt
+          python -c "from coletor.armazenamento import Armazem; a = Armazem('dados'); a.migrar(); a.reconstruir_indice()"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+
+      - name: Gerar site
+        working-directory: site
+        run: |
+          npm ci
+          npm run build
+          npm run verificar-links
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v4

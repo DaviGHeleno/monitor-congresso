@@ -1,0 +1,71 @@
+---
+import Base from "../layouts/Base.astro";
+import { historico, todosDeputados } from "../lib/dados";
+import { url } from "../lib/formato";
+
+const lista = todosDeputados();
+const hist = historico();
+const partidos = [...new Set(lista.map((d) => d.partido).filter(Boolean))].sort() as string[];
+const ufs = [...new Set(lista.map((d) => d.uf).filter(Boolean))].sort() as string[];
+const emExercicio = lista.filter((d) => d.em_exercicio).length;
+---
+<Base titulo="Deputados" secao="deputados">
+  <h1>Deputados</h1>
+  <p class="subtitulo">
+    Todos que exerceram mandato na legislatura iniciada em 2023, incluindo suplentes. Partido e estado atuais segundo a Câmara.
+  </p>
+
+  <form class="filtros" onsubmit="return false">
+    <label>Nome<input type="search" id="d-nome" placeholder="Buscar deputado" autocomplete="off" /></label>
+    <label>Partido
+      <select id="d-partido"><option value="">Todos</option>{partidos.map((p) => <option>{p}</option>)}</select>
+    </label>
+    <label>Estado
+      <select id="d-uf"><option value="">Todos</option>{ufs.map((u) => <option>{u}</option>)}</select>
+    </label>
+    {emExercicio > 0 && emExercicio < lista.length && (
+      <label class="check"><input type="checkbox" id="d-exercicio" checked /> Só em exercício</label>
+    )}
+  </form>
+  <p class="contagem" id="d-contagem" aria-live="polite">{lista.length} deputados</p>
+
+  <div class="tabela-rolagem">
+    <table>
+      <thead><tr><th>Nome</th><th>Partido</th><th>UF</th><th class="num">Votos registrados</th></tr></thead>
+      <tbody id="d-corpo">
+        {lista.map((d) => (
+          <tr data-nome={d.nome.toLowerCase()} data-partido={d.partido ?? ""} data-uf={d.uf ?? ""} data-exercicio={d.em_exercicio ? "1" : "0"}>
+            <td><a href={url(`/deputado/${d.id}/`)}>{d.nome}</a></td>
+            <td>{d.partido ?? "—"}</td>
+            <td>{d.uf ?? "—"}</td>
+            <td class="num">{(hist.get(d.id)?.length ?? 0).toLocaleString("pt-BR")}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+</Base>
+
+<script>
+  const linhas = Array.from(document.querySelectorAll<HTMLTableRowElement>("#d-corpo tr"));
+  const $ = (id: string) => document.getElementById(id) as HTMLInputElement | null;
+  const f = { nome: $("d-nome")!, partido: $("d-partido")!, uf: $("d-uf")!, exercicio: $("d-exercicio") };
+  const contagem = document.getElementById("d-contagem")!;
+  const norm = (s: string) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+  linhas.forEach((tr) => (tr.dataset.nome = norm(tr.dataset.nome ?? "")));
+  const aplicar = () => {
+    const nome = norm(f.nome.value.trim());
+    let n = 0;
+    for (const tr of linhas) {
+      const d = tr.dataset;
+      const ok = (!nome || d.nome!.includes(nome)) && (!f.partido.value || d.partido === f.partido.value)
+        && (!f.uf.value || d.uf === f.uf.value) && (!f.exercicio?.checked || d.exercicio === "1");
+      tr.classList.toggle("oculto", !ok);
+      n += Number(ok);
+    }
+    contagem.textContent = n === 1 ? "1 deputado" : `${n} deputados`;
+  };
+  f.nome.addEventListener("input", aplicar);
+  [f.partido, f.uf, f.exercicio].forEach((c) => c?.addEventListener("change", aplicar));
+  aplicar();
+</script>

@@ -1,0 +1,190 @@
+---
+import Base from "../../layouts/Base.astro";
+import Barra from "../../components/Barra.astro";
+import { deputados, indice, votacao, type Votacao } from "../../lib/dados";
+import {
+  LIDERANCAS, RESULTADO, TIPO, classeVoto, data, descricaoCurta, hora, orientacaoDoPartido, ordenarTotais,
+  proposicao, total, url,
+} from "../../lib/formato";
+
+export function getStaticPaths() {
+  return indice().map((i) => ({ params: { id: i.id } }));
+}
+
+const v: Votacao = votacao(Astro.params.id!);
+const deps = deputados();
+const prop = proposicao(v.proposicao);
+const titulo = descricaoCurta(v.descricao);
+
+// Placar por partido (partido do deputado na data do voto).
+const porPartido = new Map<string, Record<string, number>>();
+for (const [, partido, , voto] of v.votos) {
+  const p = partido ?? "Sem partido";
+  const t = porPartido.get(p) ?? {};
+  t[voto] = (t[voto] ?? 0) + 1;
+  porPartido.set(p, t);
+}
+const partidos = [...porPartido.entries()].sort((a, b) => total(b[1]) - total(a[1]) || a[0].localeCompare(b[0]));
+const maiorBancada = Math.max(1, ...partidos.map(([, t]) => total(t)));
+
+const liderancas = LIDERANCAS.map((s) => v.orientacoes.find((o) => o.sigla === s)).filter(Boolean);
+const demais = v.orientacoes.filter((o) => !LIDERANCAS.includes(o.sigla));
+const textoOrientacao = (o: string | null) => o ?? "Sem orientação";
+
+const linhas = v.votos
+  .map(([id, partido, uf, voto]) => ({ id, nome: deps.get(id)?.nome ?? `Deputado ${id}`, partido: partido ?? "—", uf: uf ?? "—", voto }))
+  .sort((a, b) => a.nome.localeCompare(b.nome, "pt-BR"));
+const ufs = [...new Set(linhas.map((l) => l.uf))].sort();
+const tiposVoto = ordenarTotais(v.totais).map(([t]) => t);
+---
+<Base titulo={prop ? `${prop}: ${titulo}` : titulo} descricao={`Votação de ${data(v.data)} na Câmara: ${titulo}`} secao="votacoes">
+  <div class="migalha"><a href={url("/votacoes/")}>Votações</a> › {data(v.data)}</div>
+
+  <div class="linha-meta" style="display:flex;gap:.5rem;flex-wrap:wrap;align-items:center;margin-bottom:.6rem">
+    <span class={`etiqueta ${v.tipo}`}>{TIPO[v.tipo]}</span>
+    {v.secreta && <span class="etiqueta secreta">Voto secreto</span>}
+    <span class={`resultado ${v.resultado}`}>{RESULTADO[v.resultado]}</span>
+  </div>
+  <h1>{titulo}</h1>
+  <p class="subtitulo">
+    Plenário da Câmara · {data(v.data, true)}{hora(v.data_hora) && ` às ${hora(v.data_hora)}`}
+  </p>
+
+  {v.proposicao && (
+    <section class="cartao" aria-labelledby="t-prop">
+      <h3 id="t-prop">Em votação: {prop}</h3>
+      {v.proposicao.ementa && <p style="margin:.25rem 0 .75rem">{v.proposicao.ementa}</p>}
+      {v.proposicao.url && <a href={v.proposicao.url} rel="noopener">Ficha da proposição no site da Câmara ↗</a>}
+    </section>
+  )}
+
+  <h2>Resultado</h2>
+  {Object.keys(v.totais).length > 0 ? (
+    <>
+      <div class="numeros">
+        {ordenarTotais(v.totais).map(([voto, n]) => (
+          <div class="numero"><b>{n}</b><span>{voto}</span></div>
+        ))}
+        <div class="numero"><b>{total(v.totais)}</b><span>Total</span></div>
+      </div>
+      <Barra totais={v.totais} grande />
+    </>
+  ) : <p>Placar não informado pela Câmara.</p>}
+  {!v.votos_disponiveis && (
+    <p class="aviso" style="margin-top:1rem">
+      {v.secreta
+        ? "Votação secreta: a Câmara divulga só o total, não o voto de cada deputado."
+        : "Votos individuais ainda não publicados pela Câmara. O placar acima vem da descrição oficial da votação."}
+    </p>
+  )}
+
+  {v.orientacoes.length > 0 && (
+    <section aria-labelledby="t-orient">
+      <h2 id="t-orient">Orientação das lideranças</h2>
+      <p class="subtitulo">Como cada liderança recomendou que sua bancada votasse.</p>
+      {liderancas.length > 0 && (
+        <div class="numeros">
+          {liderancas.map((o) => (
+            <div class="numero"><span>{o!.sigla}</span><b style="font-size:1.1rem;margin-top:.25rem">{textoOrientacao(o!.orientacao)}</b></div>
+          ))}
+        </div>
+      )}
+      {demais.length > 0 && (
+        <details>
+          <summary>Partidos, federações e blocos ({demais.length})</summary>
+          <ul class="lista-simples" style="margin-top:.6rem">
+            {demais.map((o) => <li><b>{o.sigla}</b>: {textoOrientacao(o.orientacao)}</li>)}
+          </ul>
+        </details>
+      )}
+    </section>
+  )}
+
+  {partidos.length > 0 && (
+    <section aria-labelledby="t-partidos">
+      <h2 id="t-partidos">Votos por partido</h2>
+      <p class="subtitulo">Partido de cada deputado na data da votação. Barras proporcionais ao tamanho da bancada presente. A orientação aparece ao lado quando o partido (ou sua federação) orientou em nome próprio; quando orientou dentro de um bloco, ela está na lista de orientações acima.</p>
+      <div class="cartao partidos">
+        {partidos.map(([p, t]) => {
+          const orient = orientacaoDoPartido(p, v.orientacoes);
+          return (
+            <div class="linha-partido">
+              <div class="nome">{p} <small>({total(t)})</small></div>
+              <div style={`width:${Math.max(8, (total(t) / maiorBancada) * 100)}%`}><Barra totais={t} /></div>
+              <div class="orient">{orient ? `Orientação: ${orient}` : ""}</div>
+            </div>
+          );
+        })}
+        <div class="legenda">
+          {tiposVoto.map((t) => <span><i class={`voto ${classeVoto(t)}`} style="padding:0" />{t}</span>)}
+        </div>
+      </div>
+    </section>
+  )}
+
+  {linhas.length > 0 && (
+    <section aria-labelledby="t-votos">
+      <h2 id="t-votos">Voto de cada deputado</h2>
+      <form class="filtros" onsubmit="return false">
+        <label>Nome<input type="search" id="v-nome" placeholder="Buscar deputado" autocomplete="off" /></label>
+        <label>Partido
+          <select id="v-partido"><option value="">Todos</option>{partidos.map(([p]) => <option>{p}</option>)}</select>
+        </label>
+        <label>Estado
+          <select id="v-uf"><option value="">Todos</option>{ufs.map((u) => <option>{u}</option>)}</select>
+        </label>
+        <label>Voto
+          <select id="v-voto"><option value="">Todos</option>{tiposVoto.map((t) => <option>{t}</option>)}</select>
+        </label>
+      </form>
+      <p class="contagem" id="v-contagem" aria-live="polite">{linhas.length} deputados</p>
+      <div class="tabela-rolagem">
+        <table>
+          <thead><tr><th>Deputado</th><th>Partido</th><th>UF</th><th>Voto</th></tr></thead>
+          <tbody id="v-corpo">
+            {linhas.map((l) => (
+              <tr data-nome={l.nome.toLowerCase()} data-partido={l.partido} data-uf={l.uf} data-voto={l.voto}>
+                <td><a href={url(`/deputado/${l.id}/`)}>{l.nome}</a></td>
+                <td>{l.partido}</td>
+                <td>{l.uf}</td>
+                <td><span class={`voto ${classeVoto(l.voto)}`}>{l.voto}</span></td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </section>
+  )}
+
+  <h2>Fonte</h2>
+  <p>
+    Dados oficiais da Câmara dos Deputados.{" "}
+    <a href={v.url_api} rel="noopener">Dados brutos desta votação (API da Câmara) ↗</a>
+  </p>
+</Base>
+
+<script>
+  const corpo = document.getElementById("v-corpo");
+  if (corpo) {
+    const linhas = Array.from(corpo.querySelectorAll<HTMLTableRowElement>("tr"));
+    const $ = (id: string) => document.getElementById(id) as HTMLInputElement;
+    const f = { nome: $("v-nome"), partido: $("v-partido"), uf: $("v-uf"), voto: $("v-voto") };
+    const contagem = document.getElementById("v-contagem")!;
+    const norm = (s: string) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+    linhas.forEach((tr) => (tr.dataset.nome = norm(tr.dataset.nome ?? "")));
+    const aplicar = () => {
+      const nome = norm(f.nome.value.trim());
+      let n = 0;
+      for (const tr of linhas) {
+        const d = tr.dataset;
+        const ok = (!nome || d.nome!.includes(nome)) && (!f.partido.value || d.partido === f.partido.value)
+          && (!f.uf.value || d.uf === f.uf.value) && (!f.voto.value || d.voto === f.voto.value);
+        tr.classList.toggle("oculto", !ok);
+        n += Number(ok);
+      }
+      contagem.textContent = n === 1 ? "1 deputado" : `${n} deputados`;
+    };
+    f.nome.addEventListener("input", aplicar);
+    [f.partido, f.uf, f.voto].forEach((c) => c.addEventListener("change", aplicar));
+  }
+</script>

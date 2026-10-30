@@ -1,0 +1,153 @@
+---
+import Base from "../../layouts/Base.astro";
+import { historico, indice, projetos, todosDeputados, type Deputado } from "../../lib/dados";
+import { proposicao, url } from "../../lib/formato";
+
+export function getStaticPaths() {
+  return todosDeputados().map((d) => ({ params: { id: String(d.id) }, props: { d } }));
+}
+
+const { d } = Astro.props as { d: Deputado };
+const votos = historico().get(d.id) ?? [];
+const projs = projetos(d.id);
+const contagem: Record<string, number> = {};
+for (const v of votos) contagem[v.voto] = (contagem[v.voto] ?? 0) + 1;
+const partidosNoPeriodo = [...new Set(votos.map((v) => v.partido).filter(Boolean))];
+const anos = [...new Set(votos.map((v) => v.votacao.data.slice(0, 4)))].sort().reverse();
+const PROJETOS_VISIVEIS = 50;
+
+// Histórico compacto: [posição em votacoes-leve.json, voto, partido na data se diferente do atual].
+// O texto das votações vem do arquivo compartilhado, baixado uma vez para todas as páginas de deputado.
+const posicao = new Map(indice().map((i, n) => [i.id, n]));
+const compacto = votos.map((v) => [posicao.get(v.votacao.id), v.voto, v.partido && v.partido !== d.partido ? v.partido : 0]);
+---
+<Base titulo={d.nome} descricao={`Votos e projetos de ${d.nome} (${d.partido ?? ""}-${d.uf ?? ""}) na Câmara dos Deputados.`} secao="deputados">
+  <div class="migalha"><a href={url("/deputados/")}>Deputados</a> › {d.nome}</div>
+
+  <div class="perfil">
+    {d.foto && <img src={d.foto} alt={`Foto oficial de ${d.nome}`} width="96" height="128" loading="lazy" />}
+    <div>
+      <h1 style="margin-bottom:.2rem">{d.nome}</h1>
+      <p class="subtitulo" style="margin:0">
+        {[d.partido, d.uf].filter(Boolean).join(" · ")}
+        {d.em_exercicio === false && " · Fora de exercício"}
+      </p>
+      {partidosNoPeriodo.length > 1 && (
+        <p style="margin:.4rem 0 0;font-size:.9rem;color:var(--texto-2)">
+          Votou por mais de um partido no período: {partidosNoPeriodo.join(", ")}.
+        </p>
+      )}
+      {d.url && <p style="margin:.5rem 0 0"><a href={d.url} rel="noopener">Página oficial na Câmara ↗</a></p>}
+    </div>
+  </div>
+
+  <h2>Votos registrados</h2>
+  {votos.length === 0 ? <p>Nenhum voto nominal registrado no período.</p> : (
+    <>
+      <div class="numeros">
+        <div class="numero"><b>{votos.length}</b><span>Votos</span></div>
+        {Object.entries(contagem).sort((a, b) => b[1] - a[1]).map(([v, n]) => (
+          <div class="numero"><b>{n}</b><span>{v}</span></div>
+        ))}
+      </div>
+      <form class="filtros" onsubmit="return false">
+        <label>Buscar<input type="search" id="h-texto" placeholder="Tema ou projeto" autocomplete="off" /></label>
+        <label>Ano<select id="h-ano"><option value="">Todos</option>{anos.map((a) => <option>{a}</option>)}</select></label>
+        <label>Voto<select id="h-voto"><option value="">Todos</option>{Object.keys(contagem).map((v) => <option>{v}</option>)}</select></label>
+        <label class="check"><input type="checkbox" id="h-proc" /> Esconder procedimentais</label>
+      </form>
+      <p class="contagem" id="h-contagem" aria-live="polite">{votos.length} votos</p>
+      <div class="tabela-rolagem">
+        <table>
+          <thead><tr><th>Data</th><th>Votação</th><th>Voto</th></tr></thead>
+          <tbody id="h-corpo">
+            <tr><td colspan="3">Carregando votos…</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="paginacao"><button type="button" id="h-mais" class="oculto">Mostrar mais</button></p>
+      <script type="application/json" id="h-dados" set:html={JSON.stringify(compacto)} />
+      <noscript><p class="aviso">Ative o JavaScript para ver a lista de votos.</p></noscript>
+    </>
+  )}
+
+  <h2>Projetos apresentados</h2>
+  <p class="subtitulo">Projetos de lei, de lei complementar, de emenda à Constituição, de decreto legislativo e de resolução de que é autor ou coautor, desde 2023.</p>
+  {projs.length === 0 ? <p>Nenhum projeto encontrado.</p> : (
+    <>
+      <p class="contagem">{projs.length.toLocaleString("pt-BR")} projetos</p>
+      <ul class="lista-simples">
+        {projs.map((p, n) => (
+          <li class={n >= PROJETOS_VISIVEIS ? "oculto projeto-extra" : undefined}>
+            {p.url ? <a href={p.url} rel="noopener"><b>{proposicao(p)}</b></a> : <b>{proposicao(p)}</b>}
+            {p.ementa && <div style="color:var(--texto-2);margin-top:2px">{p.ementa}</div>}
+          </li>
+        ))}
+      </ul>
+      {projs.length > PROJETOS_VISIVEIS && (
+        <p><button type="button" class="botao secundario" id="mais-projetos">Mostrar todos os {projs.length.toLocaleString("pt-BR")}</button></p>
+      )}
+    </>
+  )}
+</Base>
+
+<script>
+  document.getElementById("mais-projetos")?.addEventListener("click", (e) => {
+    document.querySelectorAll(".projeto-extra").forEach((li) => li.classList.remove("oculto"));
+    (e.currentTarget as HTMLElement).remove();
+  });
+
+  type Leve = [string, string, string, string, string, string]; // id, data, descrição, proposição, tipo, ementa
+  const CLASSE: Record<string, string> = { Sim: "sim", Não: "nao", Abstenção: "abst", Obstrução: "obst", "Artigo 17": "art17" };
+  const BASE = import.meta.env.BASE_URL.replace(/\/$/, "");
+  const POR_VEZ = 100;
+
+  const corpo = document.getElementById("h-corpo");
+  const dados = document.getElementById("h-dados");
+  if (corpo && dados) iniciarHistorico(corpo, JSON.parse(dados.textContent || "[]"));
+
+  async function iniciarHistorico(corpo: HTMLElement, compacto: [number, string, string | 0][]) {
+    let leve: Leve[];
+    try {
+      leve = await (await fetch(`${BASE}/dados/votacoes-leve.json`)).json();
+    } catch {
+      corpo.innerHTML = '<tr><td colspan="3">Não foi possível carregar os votos. Recarregue a página.</td></tr>';
+      return;
+    }
+    const norm = (s: string) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+    const esc = (s: string) => s.replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]!);
+    const dataBR = (iso: string) => iso.slice(0, 10).split("-").reverse().join("/");
+    const linhas = compacto.map(([pos, voto, partido]) => {
+      const [id, data, desc, prop, tipo, ementa] = leve[pos];
+      return { id, data, desc, prop, tipo, voto, partido, busca: norm([prop, desc, ementa].join(" ")) };
+    });
+
+    const $ = (id: string) => document.getElementById(id) as HTMLInputElement;
+    const f = { texto: $("h-texto"), ano: $("h-ano"), voto: $("h-voto"), proc: $("h-proc") };
+    const contagem = document.getElementById("h-contagem")!;
+    const mais = document.getElementById("h-mais")!;
+    let limite = POR_VEZ;
+
+    const desenhar = () => {
+      const termos = norm(f.texto.value).split(/\s+/).filter(Boolean);
+      const vis = linhas.filter((l) => (!f.ano.value || l.data.startsWith(f.ano.value))
+        && (!f.voto.value || l.voto === f.voto.value) && (!f.proc.checked || l.tipo !== "procedimental")
+        && termos.every((t) => l.busca.includes(t)));
+      contagem.textContent = vis.length === 1 ? "1 voto" : `${vis.length.toLocaleString("pt-BR")} votos`;
+      corpo.innerHTML = vis.slice(0, limite).map((l) => `<tr>
+        <td style="white-space:nowrap">${dataBR(l.data)}</td>
+        <td><a href="${BASE}/votacao/${l.id}/">${esc(l.desc)}</a>
+          <div style="font-size:.82rem;color:var(--texto-2);margin-top:2px">${esc([l.prop, l.tipo === "merito" ? "Mérito" : "Procedimental",
+            l.partido ? `votou como ${l.partido}` : ""].filter(Boolean).join(" · "))}</div></td>
+        <td><span class="voto ${CLASSE[l.voto] ?? "outro"}">${esc(l.voto)}</span></td></tr>`).join("")
+        || '<tr><td colspan="3">Nenhum voto com esses filtros.</td></tr>';
+      mais.classList.toggle("oculto", vis.length <= limite);
+      mais.textContent = `Mostrar mais (${(vis.length - limite).toLocaleString("pt-BR")} restantes)`;
+    };
+    const reiniciar = () => { limite = POR_VEZ; desenhar(); };
+    f.texto.addEventListener("input", reiniciar);
+    [f.ano, f.voto, f.proc].forEach((c) => c.addEventListener("change", reiniciar));
+    mais.addEventListener("click", () => { limite += POR_VEZ * 3; desenhar(); });
+    desenhar();
+  }
+</script>

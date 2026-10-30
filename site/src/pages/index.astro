@@ -1,0 +1,42 @@
+---
+// Página inicial provisória. A versão final (explicações sobre política, Câmara e Senado, efeitos visuais) é a Fase 4.
+import Base from "../layouts/Base.astro";
+import Barra from "../components/Barra.astro";
+import { indice, todosDeputados } from "../lib/dados";
+import { RESULTADO, TIPO, data, descricaoCurta, proposicao, url } from "../lib/formato";
+
+const itens = indice();
+const recentes = itens.filter((i) => i.tipo === "merito").slice(0, 6);
+const emExercicio = todosDeputados().filter((d) => d.em_exercicio).length;
+---
+<Base titulo="Monitor do Congresso" secao="inicio">
+  <h1>Monitor do Congresso</h1>
+  <p class="subtitulo">Como votou a Câmara dos Deputados: placar por partido e o voto de cada deputado, com dados oficiais.</p>
+
+  <div class="numeros">
+    <div class="numero"><b>{itens.length.toLocaleString("pt-BR")}</b><span>votações nominais desde 2023</span></div>
+    <div class="numero"><b>{emExercicio || 513}</b><span>deputados em exercício</span></div>
+    <div class="numero"><b>{data(itens[0]?.data)}</b><span>votação mais recente</span></div>
+  </div>
+
+  <h2>Últimas votações de mérito</h2>
+  <ul class="lista-votacoes">
+    {recentes.map((i) => (
+      <li class="item-votacao">
+        <div class="linha-meta">
+          <time datetime={i.data}>{data(i.data)}</time>
+          <span class={`etiqueta ${i.tipo}`}>{TIPO[i.tipo]}</span>
+          {i.proposicao && <span>{proposicao(i.proposicao)}</span>}
+        </div>
+        <div class="titulo">{descricaoCurta(i.descricao)}</div>
+        {i.proposicao?.ementa && <div class="ementa">{i.proposicao.ementa}</div>}
+        <div class="acao">
+          <span class={`resultado ${i.resultado}`}>{RESULTADO[i.resultado]}</span>
+          <Barra totais={i.totais} />
+          <a class="botao" href={url(`/votacao/${i.id}/`)}>Ver votação</a>
+        </div>
+      </li>
+    ))}
+  </ul>
+  <p style="margin-top:1.25rem"><a class="botao secundario" href={url("/votacoes/")}>Ver todas as votações</a></p>
+</Base>

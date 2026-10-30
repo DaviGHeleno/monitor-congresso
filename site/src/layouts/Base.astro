@@ -1,0 +1,47 @@
+---
+import "../styles/global.css";
+import { url } from "../lib/formato";
+
+interface Props {
+  titulo: string;
+  descricao?: string;
+  secao?: "inicio" | "votacoes" | "deputados";
+}
+const { titulo, descricao = "Votações da Câmara dos Deputados: placar por partido e voto de cada deputado.", secao } = Astro.props;
+const atual = (s: string) => (s === secao ? "page" : undefined);
+const tituloCompleto = titulo === "Monitor do Congresso" ? titulo : `${titulo} · Monitor do Congresso`;
+---
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{tituloCompleto}</title>
+    <meta name="description" content={descricao} />
+    <link rel="icon" href={url("/favicon.svg")} type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="topo">
+      <div class="conteiner">
+        <a class="marca" href={url("/")}>Monitor do Congresso</a>
+        <nav class="nav" aria-label="Principal">
+          <a href={url("/")} aria-current={atual("inicio")}>Início</a>
+          <a href={url("/votacoes/")} aria-current={atual("votacoes")}>Votações</a>
+          <a href={url("/deputados/")} aria-current={atual("deputados")}>Deputados</a>
+        </nav>
+      </div>
+    </header>
+    <main class="conteiner">
+      <slot />
+    </main>
+    <footer class="rodape">
+      <div class="conteiner">
+        Dados oficiais de <a href="https://dadosabertos.camara.leg.br" rel="noopener">Dados Abertos da Câmara dos Deputados</a>.
+        Somente fatos publicados pela Câmara, sem classificação ideológica.
+      </div>
+    </footer>
+  </body>
+</html>

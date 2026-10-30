@@ -1,0 +1,14 @@
+{
+  "name": "monitor-congresso-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "verificar-links": "node scripts/verificar-links.mjs"
+  },
+  "dependencies": {
+    "astro": "5.18.2"
+  }
+}
