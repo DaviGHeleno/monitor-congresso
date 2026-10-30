@@ -447,5 +447,7 @@
   [230957, "MDB", "SP", "Não"]
  ],
  "votos_disponiveis": true,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/255291-105"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/255291-105",
+ "secreta": false,
+ "totais_fonte": "votos"
 }

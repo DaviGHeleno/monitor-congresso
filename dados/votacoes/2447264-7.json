@@ -419,5 +419,7 @@
   [229333, "PL", "MG", "Sim"]
  ],
  "votos_disponiveis": true,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2447264-7"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2447264-7",
+ "secreta": false,
+ "totais_fonte": "votos"
 }

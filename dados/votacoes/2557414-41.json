@@ -519,5 +519,7 @@
   [234840, "REDE", "AP", "Sim"]
  ],
  "votos_disponiveis": true,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2557414-41"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2557414-41",
+ "secreta": false,
+ "totais_fonte": "votos"
 }

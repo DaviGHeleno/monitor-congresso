@@ -437,5 +437,7 @@
   [227800, "REPUBLICANOS", "MG", "Sim"]
  ],
  "votos_disponiveis": true,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2420014-8"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2420014-8",
+ "secreta": false,
+ "totais_fonte": "votos"
 }

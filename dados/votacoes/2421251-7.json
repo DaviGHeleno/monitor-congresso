@@ -451,5 +451,7 @@
   [228042, "PSD", "CE", "Sim"]
  ],
  "votos_disponiveis": true,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2421251-7"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2421251-7",
+ "secreta": false,
+ "totais_fonte": "votos"
 }

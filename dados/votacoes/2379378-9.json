@@ -505,5 +505,7 @@
   [227800, "PODE", "MG", "Sim"]
  ],
  "votos_disponiveis": true,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2379378-9"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2379378-9",
+ "secreta": false,
+ "totais_fonte": "votos"
 }

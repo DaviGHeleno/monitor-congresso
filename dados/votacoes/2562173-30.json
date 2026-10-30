@@ -480,5 +480,7 @@
   [235088, "PRD", "MA", "Sim"]
  ],
  "votos_disponiveis": true,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2562173-30"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2562173-30",
+ "secreta": false,
+ "totais_fonte": "votos"
 }

@@ -440,5 +440,7 @@
   [231911, "PT", "PR", "Não"]
  ],
  "votos_disponiveis": true,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2481257-34"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2481257-34",
+ "secreta": false,
+ "totais_fonte": "votos"
 }

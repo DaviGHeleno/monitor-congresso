@@ -512,5 +512,7 @@
   [226837, "PSD", "SP", "Sim"]
  ],
  "votos_disponiveis": true,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2400118-7"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2400118-7",
+ "secreta": false,
+ "totais_fonte": "votos"
 }

@@ -512,5 +512,7 @@
   [229585, "PT", "BA", "Sim"]
  ],
  "votos_disponiveis": true,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2320081-68"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2320081-68",
+ "secreta": false,
+ "totais_fonte": "votos"
 }

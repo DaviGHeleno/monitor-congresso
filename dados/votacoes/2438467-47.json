@@ -468,5 +468,7 @@
   [230957, "MDB", "SP", "Sim"]
  ],
  "votos_disponiveis": true,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2438467-47"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2438467-47",
+ "secreta": false,
+ "totais_fonte": "votos"
 }

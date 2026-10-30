@@ -13,9 +13,15 @@
   "ementa": "Altera a Lei nº 11.340, de 7 de agosto de 2006 (Lei Maria da Penha), para incluir a violência vicária dentre as definições de violência doméstica e familiar contra a mulher de que trata o respectivo art. 7º.",
   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2462009"
  },
- "totais": {},
+ "totais": {
+  "Abstenção": 1,
+  "Não": 254,
+  "Sim": 152
+ },
  "orientacoes": [],
  "votos": [],
  "votos_disponiveis": false,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2462009-73"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2462009-73",
+ "secreta": false,
+ "totais_fonte": "descricao"
 }

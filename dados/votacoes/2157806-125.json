@@ -513,5 +513,7 @@
   [234388, "PRD", "MG", "Não"]
  ],
  "votos_disponiveis": true,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2157806-125"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2157806-125",
+ "secreta": false,
+ "totais_fonte": "votos"
 }

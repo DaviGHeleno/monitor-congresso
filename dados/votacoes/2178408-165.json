@@ -525,5 +525,7 @@
   [229939, "UNIÃO", "PR", "Sim"]
  ],
  "votos_disponiveis": true,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2178408-165"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2178408-165",
+ "secreta": false,
+ "totais_fonte": "votos"
 }

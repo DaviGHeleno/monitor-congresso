@@ -13,9 +13,14 @@
   "ementa": "Institui limite para o pagamento de precatórios pelos Municípios, abre novo prazo de parcelamento especial de débitos dos Municípios com seus regimes próprios de previdência social e com o Regime Geral de Previdência Social e dá outras providências.",
   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2454495"
  },
- "totais": {},
+ "totais": {
+  "Não": 70,
+  "Sim": 319
+ },
  "orientacoes": [],
  "votos": [],
  "votos_disponiveis": false,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2454495-157"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2454495-157",
+ "secreta": false,
+ "totais_fonte": "descricao"
 }

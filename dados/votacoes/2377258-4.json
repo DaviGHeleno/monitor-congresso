@@ -6,9 +6,15 @@
  "resultado": "aprovada",
  "tipo": "merito",
  "proposicao": null,
- "totais": {},
+ "totais": {
+  "Abstenção": 7,
+  "Não": 17,
+  "Sim": 367
+ },
  "orientacoes": [],
  "votos": [],
  "votos_disponiveis": false,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2377258-4"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2377258-4",
+ "secreta": true,
+ "totais_fonte": "descricao"
 }

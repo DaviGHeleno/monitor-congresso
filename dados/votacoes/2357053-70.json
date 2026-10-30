@@ -535,5 +535,7 @@
   [224333, "PT", "PR", "Não"]
  ],
  "votos_disponiveis": true,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2357053-70"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2357053-70",
+ "secreta": false,
+ "totais_fonte": "votos"
 }

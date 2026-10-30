@@ -511,5 +511,7 @@
   [227991, "PL", "RJ", "Sim"]
  ],
  "votos_disponiveis": true,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2349493-95"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2349493-95",
+ "secreta": false,
+ "totais_fonte": "votos"
 }

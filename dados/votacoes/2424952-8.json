@@ -13,9 +13,15 @@
   "ementa": "Altera a Lei nº 14.148, de 3 de maio de 2021, para estabelecer alíquotas reduzidas no âmbito do Programa Emergencial de Retomada do Setor de Eventos - Perse.  NOVA EMENTA: Altera a Lei nº 14.148, de 3 de maio de 2021, para estabelecer alíquotas reduzidas no âmbito do Programa Emergencial de Retomada do Setor de Eventos - Perse; e revoga dispositivo da Medida Provisória nº 1.202, de 28 de dezembro de 2023.",
   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2424079"
  },
- "totais": {},
+ "totais": {
+  "Abstenção": 1,
+  "Não": 110,
+  "Sim": 299
+ },
  "orientacoes": [],
  "votos": [],
  "votos_disponiveis": false,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2424952-8"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2424952-8",
+ "secreta": false,
+ "totais_fonte": "descricao"
 }

@@ -368,5 +368,7 @@
   [230767, "PL", "MT", "Sim"]
  ],
  "votos_disponiveis": true,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2324988-23"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2324988-23",
+ "secreta": false,
+ "totais_fonte": "votos"
 }

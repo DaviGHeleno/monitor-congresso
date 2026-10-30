@@ -571,5 +571,7 @@
   [233594, "PODE", "RO", "Sim"]
  ],
  "votos_disponiveis": true,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2487436-169"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2487436-169",
+ "secreta": false,
+ "totais_fonte": "votos"
 }

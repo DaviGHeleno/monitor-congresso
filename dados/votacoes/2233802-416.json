@@ -572,5 +572,7 @@
   [236284, "PSDB", "MG", "Sim"]
  ],
  "votos_disponiveis": true,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2233802-416"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2233802-416",
+ "secreta": false,
+ "totais_fonte": "votos"
 }

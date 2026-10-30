@@ -481,5 +481,7 @@
   [235088, "PRD", "MA", "Não"]
  ],
  "votos_disponiveis": true,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2601794-5"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2601794-5",
+ "secreta": false,
+ "totais_fonte": "votos"
 }

@@ -462,5 +462,7 @@
   [225730, "PDT", "CE", "Não"]
  ],
  "votos_disponiveis": true,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2360503-45"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2360503-45",
+ "secreta": false,
+ "totais_fonte": "votos"
 }

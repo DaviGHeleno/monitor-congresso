@@ -449,5 +449,7 @@
   [227433, "UNIÃO", "SP", "Não"]
  ],
  "votos_disponiveis": true,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2374400-106"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2374400-106",
+ "secreta": false,
+ "totais_fonte": "votos"
 }

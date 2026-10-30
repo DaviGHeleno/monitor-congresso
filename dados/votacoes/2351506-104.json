@@ -585,5 +585,7 @@
   [235869, "REPUBLICANOS", "AM", "Sim"]
  ],
  "votos_disponiveis": true,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2351506-104"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2351506-104",
+ "secreta": false,
+ "totais_fonte": "votos"
 }

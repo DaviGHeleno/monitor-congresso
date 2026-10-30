@@ -475,5 +475,7 @@
   [236284, "PSDB", "MG", "Não"]
  ],
  "votos_disponiveis": true,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2433663-44"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2433663-44",
+ "secreta": false,
+ "totais_fonte": "votos"
 }

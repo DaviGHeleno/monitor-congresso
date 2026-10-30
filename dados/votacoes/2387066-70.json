@@ -404,5 +404,7 @@
   [226410, "MDB", "GO", "Não"]
  ],
  "votos_disponiveis": true,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2387066-70"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2387066-70",
+ "secreta": false,
+ "totais_fonte": "votos"
 }

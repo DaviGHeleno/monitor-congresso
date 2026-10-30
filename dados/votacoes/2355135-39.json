@@ -456,5 +456,7 @@
   [224117, "REPUBLICANOS", "RR", "Sim"]
  ],
  "votos_disponiveis": true,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2355135-39"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2355135-39",
+ "secreta": false,
+ "totais_fonte": "votos"
 }

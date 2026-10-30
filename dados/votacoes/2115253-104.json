@@ -471,5 +471,7 @@
   [222429, "REPUBLICANOS", "RJ", "Sim"]
  ],
  "votos_disponiveis": true,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2115253-104"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2115253-104",
+ "secreta": false,
+ "totais_fonte": "votos"
 }

@@ -442,5 +442,7 @@
   [234406, "PP", "PI", "Sim"]
  ],
  "votos_disponiveis": true,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2570219-7"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2570219-7",
+ "secreta": false,
+ "totais_fonte": "votos"
 }

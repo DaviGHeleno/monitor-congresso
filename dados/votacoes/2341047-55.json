@@ -443,5 +443,7 @@
   [230767, "PL", "MT", "Não"]
  ],
  "votos_disponiveis": true,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2341047-55"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2341047-55",
+ "secreta": false,
+ "totais_fonte": "votos"
 }

@@ -13,9 +13,15 @@
   "ementa": "Altera o art. 97 do Decreto-Lei nº 2.848, de 7 de dezembro de 1940 - Código Penal, para dispor sobre a imposição da medida de segurança para inimputável.",
   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2194861"
  },
- "totais": {},
+ "totais": {
+  "Abstenção": 1,
+  "Não": 91,
+  "Sim": 205
+ },
  "orientacoes": [],
  "votos": [],
  "votos_disponiveis": false,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2194861-88"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2194861-88",
+ "secreta": false,
+ "totais_fonte": "descricao"
 }

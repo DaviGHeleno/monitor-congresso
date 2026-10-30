@@ -478,5 +478,7 @@
   [227310, "PL", "MA", "Sim"]
  ],
  "votos_disponiveis": true,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2231632-102"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2231632-102",
+ "secreta": false,
+ "totais_fonte": "votos"
 }

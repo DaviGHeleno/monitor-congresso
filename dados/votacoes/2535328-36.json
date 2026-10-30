@@ -467,5 +467,7 @@
   [233598, "PODE", "GO", "Sim"]
  ],
  "votos_disponiveis": true,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2535328-36"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2535328-36",
+ "secreta": false,
+ "totais_fonte": "votos"
 }

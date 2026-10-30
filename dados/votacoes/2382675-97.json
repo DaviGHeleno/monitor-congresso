@@ -538,5 +538,7 @@
   [236423, "REPUBLICANOS", "PB", "Sim"]
  ],
  "votos_disponiveis": true,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2382675-97"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2382675-97",
+ "secreta": false,
+ "totais_fonte": "votos"
 }

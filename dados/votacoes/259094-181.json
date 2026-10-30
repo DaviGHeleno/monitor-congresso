@@ -460,5 +460,7 @@
   [227401, "UNIÃO", "AC", "Sim"]
  ],
  "votos_disponiveis": true,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/259094-181"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/259094-181",
+ "secreta": false,
+ "totais_fonte": "votos"
 }

@@ -522,5 +522,7 @@
   [234788, "REDE", "RJ", "Não"]
  ],
  "votos_disponiveis": true,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2438459-135"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2438459-135",
+ "secreta": false,
+ "totais_fonte": "votos"
 }

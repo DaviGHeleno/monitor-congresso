@@ -423,5 +423,7 @@
   [230177, "PL", "CE", "Não"]
  ],
  "votos_disponiveis": true,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2467306-30"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2467306-30",
+ "secreta": false,
+ "totais_fonte": "votos"
 }

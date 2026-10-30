@@ -414,5 +414,7 @@
   [228837, "MDB", "MT", "Não"]
  ],
  "votos_disponiveis": true,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2422697-66"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2422697-66",
+ "secreta": false,
+ "totais_fonte": "votos"
 }

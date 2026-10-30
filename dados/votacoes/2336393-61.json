@@ -475,5 +475,7 @@
   [226179, "UNIÃO", "MT", "Não"]
  ],
  "votos_disponiveis": true,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2336393-61"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2336393-61",
+ "secreta": false,
+ "totais_fonte": "votos"
 }

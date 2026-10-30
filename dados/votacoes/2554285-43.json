@@ -505,5 +505,7 @@
   [234673, "UNIÃO", "CE", "Não"]
  ],
  "votos_disponiveis": true,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2554285-43"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2554285-43",
+ "secreta": false,
+ "totais_fonte": "votos"
 }

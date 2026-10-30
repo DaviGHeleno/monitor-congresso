@@ -510,5 +510,7 @@
   [233598, "PODE", "GO", "Não"]
  ],
  "votos_disponiveis": true,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/545304-128"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/545304-128",
+ "secreta": false,
+ "totais_fonte": "votos"
 }

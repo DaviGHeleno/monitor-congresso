@@ -534,5 +534,7 @@
   [235800, "PP", "BA", "Não"]
  ],
  "votos_disponiveis": true,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2162116-161"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2162116-161",
+ "secreta": false,
+ "totais_fonte": "votos"
 }

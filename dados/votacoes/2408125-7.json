@@ -422,5 +422,7 @@
   [227323, "PL", "MA", "Obstrução"]
  ],
  "votos_disponiveis": true,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2408125-7"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2408125-7",
+ "secreta": false,
+ "totais_fonte": "votos"
 }

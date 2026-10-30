@@ -496,5 +496,7 @@
   [228042, "PSD", "CE", "Não"]
  ],
  "votos_disponiveis": true,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2269745-81"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2269745-81",
+ "secreta": false,
+ "totais_fonte": "votos"
 }

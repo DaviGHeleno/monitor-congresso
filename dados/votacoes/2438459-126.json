@@ -454,5 +454,7 @@
   [234310, "REDE", "SP", "Não"]
  ],
  "votos_disponiveis": true,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2438459-126"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2438459-126",
+ "secreta": false,
+ "totais_fonte": "votos"
 }

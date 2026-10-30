@@ -373,5 +373,7 @@
   [227324, "PL", "MA", "Sim"]
  ],
  "votos_disponiveis": true,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2387579-27"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2387579-27",
+ "secreta": false,
+ "totais_fonte": "votos"
 }

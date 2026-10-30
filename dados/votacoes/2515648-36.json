@@ -517,5 +517,7 @@
   [233218, "MDB", "CE", "Não"]
  ],
  "votos_disponiveis": true,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2515648-36"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2515648-36",
+ "secreta": false,
+ "totais_fonte": "votos"
 }

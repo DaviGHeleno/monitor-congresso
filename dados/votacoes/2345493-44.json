@@ -514,5 +514,7 @@
   [225730, "PDT", "CE", "Sim"]
  ],
  "votos_disponiveis": true,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2345493-44"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2345493-44",
+ "secreta": false,
+ "totais_fonte": "votos"
 }

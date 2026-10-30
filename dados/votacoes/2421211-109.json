@@ -430,5 +430,7 @@
   [231911, "PT", "PR", "Sim"]
  ],
  "votos_disponiveis": true,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2421211-109"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2421211-109",
+ "secreta": false,
+ "totais_fonte": "votos"
 }

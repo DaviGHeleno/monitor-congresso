@@ -13,9 +13,15 @@
   "ementa": "Altera o Sistema Tributário Nacional e dá outras providências.  NOVA EMENTA: Altera o Sistema Tributário Nacional.",
   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2196833"
  },
- "totais": {},
+ "totais": {
+  "Abstenção": 2,
+  "Não": 100,
+  "Sim": 335
+ },
  "orientacoes": [],
  "votos": [],
  "votos_disponiveis": false,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2196833-368"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2196833-368",
+ "secreta": false,
+ "totais_fonte": "descricao"
 }

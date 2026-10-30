@@ -485,5 +485,7 @@
   [228941, "PODE", "SP", "Não"]
  ],
  "votos_disponiveis": true,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2422697-129"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2422697-129",
+ "secreta": false,
+ "totais_fonte": "votos"
 }

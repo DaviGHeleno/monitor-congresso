@@ -545,5 +545,7 @@
   [226075, "PL", "CE", "Obstrução"]
  ],
  "votos_disponiveis": true,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2196833-390"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2196833-390",
+ "secreta": false,
+ "totais_fonte": "votos"
 }

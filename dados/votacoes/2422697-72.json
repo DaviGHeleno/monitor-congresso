@@ -463,5 +463,7 @@
   [228837, "MDB", "MT", "Sim"]
  ],
  "votos_disponiveis": true,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2422697-72"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2422697-72",
+ "secreta": false,
+ "totais_fonte": "votos"
 }

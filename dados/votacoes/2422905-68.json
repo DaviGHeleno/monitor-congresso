@@ -500,5 +500,7 @@
   [234673, "UNIÃO", "CE", "Sim"]
  ],
  "votos_disponiveis": true,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2422905-68"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2422905-68",
+ "secreta": false,
+ "totais_fonte": "votos"
 }

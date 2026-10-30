@@ -522,5 +522,7 @@
   [228616, "PP", "MA", "Não"]
  ],
  "votos_disponiveis": true,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2433327-57"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2433327-57",
+ "secreta": false,
+ "totais_fonte": "votos"
 }

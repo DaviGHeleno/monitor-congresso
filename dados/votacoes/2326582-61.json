@@ -481,5 +481,7 @@
   [228272, "PDT", "MG", "Sim"]
  ],
  "votos_disponiveis": true,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2326582-61"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2326582-61",
+ "secreta": false,
+ "totais_fonte": "votos"
 }

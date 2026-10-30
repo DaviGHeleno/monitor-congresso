@@ -423,5 +423,7 @@
   [233592, "PSOL", "AP", "Não"]
  ],
  "votos_disponiveis": true,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2530336-32"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2530336-32",
+ "secreta": false,
+ "totais_fonte": "votos"
 }

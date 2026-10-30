@@ -439,5 +439,7 @@
   [229333, "PL", "MG", "Não"]
  ],
  "votos_disponiveis": true,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2447183-64"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2447183-64",
+ "secreta": false,
+ "totais_fonte": "votos"
 }

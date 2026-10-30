@@ -437,5 +437,7 @@
   [230177, "PL", "CE", "Sim"]
  ],
  "votos_disponiveis": true,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2465140-45"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2465140-45",
+ "secreta": false,
+ "totais_fonte": "votos"
 }

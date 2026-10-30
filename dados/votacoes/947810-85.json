@@ -492,5 +492,7 @@
   [236375, "PSDB", "RJ", "Sim"]
  ],
  "votos_disponiveis": true,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/947810-85"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/947810-85",
+ "secreta": false,
+ "totais_fonte": "votos"
 }

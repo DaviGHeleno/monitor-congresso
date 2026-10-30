@@ -399,5 +399,7 @@
   [227370, "PATRIOTA", "MG", "Não"]
  ],
  "votos_disponiveis": true,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2387579-46"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2387579-46",
+ "secreta": false,
+ "totais_fonte": "votos"
 }

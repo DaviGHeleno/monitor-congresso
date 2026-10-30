@@ -524,5 +524,7 @@
   [225386, "PSD", "RJ", "Não"]
  ],
  "votos_disponiveis": true,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2357053-50"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2357053-50",
+ "secreta": false,
+ "totais_fonte": "votos"
 }

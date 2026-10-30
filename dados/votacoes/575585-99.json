@@ -490,5 +490,7 @@
   [226837, "PSD", "SP", "Não"]
  ],
  "votos_disponiveis": true,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/575585-99"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/575585-99",
+ "secreta": false,
+ "totais_fonte": "votos"
 }

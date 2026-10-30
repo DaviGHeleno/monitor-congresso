@@ -508,5 +508,7 @@
   [227800, "REPUBLICANOS", "MG", "Não"]
  ],
  "votos_disponiveis": true,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2420577-7"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2420577-7",
+ "secreta": false,
+ "totais_fonte": "votos"
 }

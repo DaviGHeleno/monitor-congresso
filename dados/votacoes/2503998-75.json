@@ -472,5 +472,7 @@
   [235776, "PP", "RS", "Sim"]
  ],
  "votos_disponiveis": true,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2503998-75"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2503998-75",
+ "secreta": false,
+ "totais_fonte": "votos"
 }

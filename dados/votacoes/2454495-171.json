@@ -532,5 +532,7 @@
   [233218, "MDB", "CE", "Sim"]
  ],
  "votos_disponiveis": true,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2454495-171"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2454495-171",
+ "secreta": false,
+ "totais_fonte": "votos"
 }

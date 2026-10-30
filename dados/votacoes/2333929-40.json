@@ -414,5 +414,7 @@
   [226708, "PP", "MA", "Sim"]
  ],
  "votos_disponiveis": true,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2333929-40"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2333929-40",
+ "secreta": false,
+ "totais_fonte": "votos"
 }

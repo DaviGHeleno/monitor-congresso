@@ -507,5 +507,7 @@
   [224333, "PT", "PR", "Abstenção"]
  ],
  "votos_disponiveis": true,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2345368-78"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2345368-78",
+ "secreta": false,
+ "totais_fonte": "votos"
 }

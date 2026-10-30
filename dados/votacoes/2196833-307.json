@@ -526,5 +526,7 @@
   [226075, "PL", "CE", "Sim"]
  ],
  "votos_disponiveis": true,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2196833-307"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2196833-307",
+ "secreta": false,
+ "totais_fonte": "votos"
 }
