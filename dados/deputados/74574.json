@@ -1,5 +1,11 @@
 {
  "id": 74574,
+ "resumo": {
+  "lei": 1,
+  "aprovado": 1,
+  "tramitacao": 13,
+  "encerrado": 0
+ },
  "projetos": [
   {
    "id": 2644347,
@@ -7,7 +13,12 @@
    "numero": 5145,
    "ano": 2026,
    "ementa": "Institui, em território nacional, o Dia Nacional de Conscientização sobre a Disfagia.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644347"
+   "apresentacao": "2026-08-24",
+   "situacao": "Aguardando Autorização do Despacho",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644347",
+   "primeiro_autor": true
   },
   {
    "id": 2644346,
@@ -15,7 +26,12 @@
    "numero": 5144,
    "ano": 2026,
    "ementa": "Dispõe sobre a obrigatoriedade de fornecimento de espessantes alimentares para pacientes com disfagia no âmbito do Sistema Único de Saúde.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644346"
+   "apresentacao": "2026-08-24",
+   "situacao": "Aguardando Autorização do Despacho",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644346",
+   "primeiro_autor": true
   },
   {
    "id": 2631190,
@@ -23,7 +39,12 @@
    "numero": 13,
    "ano": 2026,
    "ementa": "Altera o art. 9º da Emenda Constitucional nº 132, de 20 de dezembro de 2023, para permitir a concessão de créditos do Imposto sobre Bens e Serviços através de fomento indireto a doadores e patrocinadores de projetos culturais e esportivos.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2631190"
+   "apresentacao": "2026-06-10",
+   "situacao": "Pronta para Pauta",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2631190",
+   "primeiro_autor": false
   },
   {
    "id": 2579091,
@@ -31,7 +52,12 @@
    "numero": 5527,
    "ano": 2025,
    "ementa": "Institui o Dia do Técnico em Radiologia.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2579091"
+   "apresentacao": "2025-10-29",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2579091",
+   "primeiro_autor": true
   },
   {
    "id": 2486233,
@@ -39,7 +65,12 @@
    "numero": 831,
    "ano": 2025,
    "ementa": "Altera a Lei nº 10.257, de 10 de julho de 2001, que regulamenta o art. 182 da Constituição Federal e estabelece diretrizes gerais da política urbana e altera a Lei nº 9.503, de 23 de setembro de 1997, para dar nova redação ao art. 59 e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2486233"
+   "apresentacao": "2025-03-11",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2486233",
+   "primeiro_autor": true
   },
   {
    "id": 2485767,
@@ -47,7 +78,12 @@
    "numero": 9,
    "ano": 2025,
    "ementa": "Acrescenta o § 16 ao art. 198 da Constituição Federal, para dispor sobre as diretrizes para os Planos de Carreira e os pisos salariais nacionais dos profissionais de saúde do Sistema Único de Saúde.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2485767"
+   "apresentacao": "2025-02-27",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2485767",
+   "primeiro_autor": false
   },
   {
    "id": 2483164,
@@ -55,7 +91,12 @@
    "numero": 2,
    "ano": 2025,
    "ementa": "Dá nova redação ao Capítulo II, do Título IV, da Constituição Federal, que dispõe sobre o Poder Executivo e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2483164"
+   "apresentacao": "2025-02-06",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2483164",
+   "primeiro_autor": false
   },
   {
    "id": 2479738,
@@ -63,7 +104,12 @@
    "numero": 51,
    "ano": 2024,
    "ementa": "Altera o art. 7º e o Ato das Disposições Constitucionais Transitórias da Constituição Federal de 1988, para dispor sobre as condições especiais de trabalho do motorista profissional empregado no transporte rodoviário de cargas e de passageiros.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2479738"
+   "apresentacao": "2024-12-12",
+   "situacao": "Aguardando Criação de Comissão Temporária",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2479738",
+   "primeiro_autor": false
   },
   {
    "id": 2471383,
@@ -71,7 +117,12 @@
    "numero": 44,
    "ano": 2024,
    "ementa": "Altera o §9º do artigo 166 da Constituição Federal para destinar parte dos recursos oriundos das emendas individuais a programas e ações relacionados ao Esporte.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2471383"
+   "apresentacao": "2024-11-26",
+   "situacao": "Aguardando Criação de Comissão Temporária",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2471383",
+   "primeiro_autor": false
   },
   {
    "id": 2436619,
@@ -79,7 +130,12 @@
    "numero": 23,
    "ano": 2024,
    "ementa": "Acrescenta o §2º no Art. 4º da Constituição para acrescentar a integração dos países de língua portuguesa entre os princípios que regem as relações internacionais da República Federativa do Brasil.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2436619"
+   "apresentacao": "2024-05-27",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2436619",
+   "primeiro_autor": false
   },
   {
    "id": 2436224,
@@ -87,7 +143,12 @@
    "numero": 21,
    "ano": 2024,
    "ementa": "Altera o art. 198 da Constituição Federal, para promover o enquadramento dos servidores públicos federais ocupantes do cargo de auxiliar de enfermagem para a carreira dos técnicos de enfermagem.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2436224"
+   "apresentacao": "2024-05-23",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2436224",
+   "primeiro_autor": false
   },
   {
    "id": 2384108,
@@ -95,7 +156,12 @@
    "numero": 4217,
    "ano": 2023,
    "ementa": "Altera a Lei nº 9.656, de 3 de junho de 1998, que dispõe sobre os planos e seguros privados de assistência à saúde.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2384108"
+   "apresentacao": "2023-08-30",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2384108",
+   "primeiro_autor": true
   },
   {
    "id": 2377463,
@@ -103,15 +169,25 @@
    "numero": 34,
    "ano": 2023,
    "ementa": "Inclui dispositivos nos artigos 3º e 5º da Constituição da República Federativa do Brasil, estabelecendo o combate às drogas ilícitas como princípio fundamental e vedando expressamente a descriminalização do tráfico e a legalização de novas drogas recreativas.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2377463"
+   "apresentacao": "2023-08-09",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2377463",
+   "primeiro_autor": false
   },
   {
    "id": 2352476,
    "sigla": "PEC",
    "numero": 9,
    "ano": 2023,
-   "ementa": "Altera a Emenda Constitucional nº 117, de 5 de abril de 2022, quanto à aplicação de sanções aos partidos que não preencheram a cota mínima de recursos ou que não destinaram os valores mínimos em razão de sexo e raça em eleições, bem como nas prestações de contas anuais e eleitorais.  NOVA EMENTA: Impõe aos partidos políticos a obrigatoriedade da aplicação de recursos financeiros para as candidaturas de pessoas pretas e pardas; estabelece parâmetros e condições para regularização e refinanciamento de débitos de partidos políticos; e reforça a imunidade tributária dos partidos políticos conforme previsto na Constituição Federal.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2352476"
+   "ementa": "Altera a Emenda Constitucional nº 117, de 5 de abril de 2022, quanto à aplicação de sanções aos partidos que não preencheram a cota mínima de recursos ou que não destinaram os valores mínimos em razão de sexo e raça em eleições, bem como nas prestações de contas anuais e eleitorais.\r\n\r\nNOVA EMENTA: Impõe aos partidos políticos a obrigatoriedade da aplicação de recursos financeiros para as candidaturas de pessoas pretas e pardas; estabelece parâmetros e condições para regularização e refinanciamento de débitos de partidos políticos; e reforça a imunidade tributária dos partidos políticos conforme previsto na Constituição Federal.",
+   "apresentacao": "2023-03-22",
+   "situacao": "Transformado em Norma Jurídica",
+   "situacao_data": null,
+   "categoria": "lei",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2352476",
+   "primeiro_autor": true
   },
   {
    "id": 2351506,
@@ -119,7 +195,12 @@
    "numero": 5,
    "ano": 2023,
    "ementa": "Acrescenta § 4º-A ao art. 150 da Constituição Federal, para dispor sobre a imunidade tributária de que tratam as suas alíneas “b” e “c” do inciso VI.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2351506"
+   "apresentacao": "2023-03-15",
+   "situacao": "Aguardando Apreciação pelo Senado Federal",
+   "situacao_data": null,
+   "categoria": "aprovado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2351506",
+   "primeiro_autor": false
   }
  ]
 }

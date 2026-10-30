@@ -1,5 +1,11 @@
 {
  "id": 204433,
+ "resumo": {
+  "lei": 0,
+  "aprovado": 0,
+  "tramitacao": 1,
+  "encerrado": 0
+ },
  "projetos": [
   {
    "id": 2424382,
@@ -7,7 +13,12 @@
    "numero": 1064,
    "ano": 2024,
    "ementa": "Prorroga o prazo para utilização do Regime Especial de Tributação para Desenvolvimento da Atividade de Exibição Cinematográfica (Recine), constante da Lei nº 13.594, de 5 de janeiro de 2018, e os benefícios fiscais previstos nos arts. 1º e 1º-A da Lei nº 8.685, de 20 de julho de 1993, e no art. 44 da Medida Provisória nº 2.228-1, de 6 de setembro de 2001.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2424382"
+   "apresentacao": "2024-04-02",
+   "situacao": "Aguardando Designação - Aguardando Devolução de Relator(a) que deixou de ser Membro",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2424382",
+   "primeiro_autor": true
   }
  ]
 }

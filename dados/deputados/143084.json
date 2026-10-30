@@ -1,5 +1,11 @@
 {
  "id": 143084,
+ "resumo": {
+  "lei": 0,
+  "aprovado": 0,
+  "tramitacao": 5,
+  "encerrado": 1
+ },
  "projetos": [
   {
    "id": 2626327,
@@ -7,7 +13,12 @@
    "numero": 2512,
    "ano": 2026,
    "ementa": "Institui o Programa Nacional de Estabilização Tributária com Compensação Direta ao Contribuinte, cria mecanismo de devolução de receita tributária extraordinária em decorrência de variações de preços de bens essenciais, e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2626327"
+   "apresentacao": "2026-05-20",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2626327",
+   "primeiro_autor": true
   },
   {
    "id": 2604173,
@@ -15,7 +26,12 @@
    "numero": 3,
    "ano": 2026,
    "ementa": "Altera o art. 155 da Constituição Federal para estabelecer alíquota máxima e base de cálculo exclusiva do Imposto sobre a Propriedade de Veículos Automotores – IPVA, e acrescenta dispositivos ao Ato das Disposições Constitucionais Transitórias para limitar despesas com publicidade institucional e com o Poder Legislativo.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2604173"
+   "apresentacao": "2026-02-24",
+   "situacao": "Aguardando Criação de Comissão Temporária",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2604173",
+   "primeiro_autor": false
   },
   {
    "id": 2570338,
@@ -23,7 +39,12 @@
    "numero": 5063,
    "ano": 2025,
    "ementa": "Dispõe sobre a obrigatoriedade do descarte seguro de garrafas de vidro em eventos públicos e privados, como medida de prevenção à falsificação de bebidas e incentivo à reciclagem.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2570338"
+   "apresentacao": "2025-10-09",
+   "situacao": "Arquivada",
+   "situacao_data": null,
+   "categoria": "encerrado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2570338",
+   "primeiro_autor": true
   },
   {
    "id": 2595700,
@@ -31,7 +52,12 @@
    "numero": 264,
    "ano": 2025,
    "ementa": "Altera a Lei Complementar nº 214, de 16 de janeiro de 2025, para aprimorar a eleição dos representantes municipais no Conselho Superior do CGIBS, instituindo cotas regionais, comissão eleitoral com órgãos de controle, validação de chapas, sistema misto de votação e votos ponderados por população, e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2595700"
+   "apresentacao": "2025-12-10",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2595700",
+   "primeiro_autor": true
   },
   {
    "id": 2591196,
@@ -39,7 +65,12 @@
    "numero": 46,
    "ano": 2025,
    "ementa": "Altera a redação do § 4º do art. 212 da Constituição Federal para considerar o programa de alimentação escolar como despesa de manutenção e desenvolvimento de ensino.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2591196"
+   "apresentacao": "2025-12-02",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2591196",
+   "primeiro_autor": false
   },
   {
    "id": 2551011,
@@ -47,7 +78,12 @@
    "numero": 32,
    "ano": 2025,
    "ementa": "Esta Lei altera o artigo 5º, inciso XLIII, da Constituição Federal, o qual prevê que nos casos de crimes previstos neste inciso, a pena deverá ser cumprida integralmente em regime fechado, por eles respondendo os mandantes, os executores e os que, podendo evitá-los, se omitirem, e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2551011"
+   "apresentacao": "2025-08-20",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2551011",
+   "primeiro_autor": false
   }
  ]
 }

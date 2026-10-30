@@ -1,5 +1,11 @@
 {
  "id": 220008,
+ "resumo": {
+  "lei": 0,
+  "aprovado": 0,
+  "tramitacao": 7,
+  "encerrado": 1
+ },
  "projetos": [
   {
    "id": 2465779,
@@ -7,7 +13,12 @@
    "numero": 4153,
    "ano": 2024,
    "ementa": "Dispõe sobre a possibilidade de pagamento parcial de saldo devedor de tributos e contribuições no âmbito do Simples Nacional e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2465779"
+   "apresentacao": "2024-10-30",
+   "situacao": "Transformado em nova proposição",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2465779",
+   "primeiro_autor": true
   },
   {
    "id": 2465299,
@@ -15,7 +26,12 @@
    "numero": 4129,
    "ano": 2024,
    "ementa": "DISPÕE SOBRE A PROIBIÇÃO DE TRANSEXUAIS COMPETIREM EM CATEGORIAS ESPORTIVAS DISTINTAS DO SEU SEXO BIOLÓGICO EM TODO TERRITÓRIO NACIONAL",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2465299"
+   "apresentacao": "2024-10-30",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2465299",
+   "primeiro_autor": true
   },
   {
    "id": 2459142,
@@ -23,7 +39,12 @@
    "numero": 3691,
    "ano": 2024,
    "ementa": "Dispõe sobre o uso de dispositivos eletrô nicos nas instituições de ensino e dá outras providências",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2459142"
+   "apresentacao": "2024-09-25",
+   "situacao": "Arquivada",
+   "situacao_data": null,
+   "categoria": "encerrado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2459142",
+   "primeiro_autor": true
   },
   {
    "id": 2454267,
@@ -31,7 +52,12 @@
    "numero": 3248,
    "ano": 2024,
    "ementa": "Cria o dia nacional do conservadorismo.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2454267"
+   "apresentacao": "2024-08-21",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2454267",
+   "primeiro_autor": true
   },
   {
    "id": 2451818,
@@ -39,7 +65,12 @@
    "numero": 3101,
    "ano": 2024,
    "ementa": "Dispõe sobre a obrigatoriedade de disponibilização de kits de APH-Tático e criação de um sistema de atendimento móvel de urgência exclusivo para os agentes de segurança pública elencados no art. 144 da Constituição federal.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2451818"
+   "apresentacao": "2024-08-09",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2451818",
+   "primeiro_autor": true
   },
   {
    "id": 2468626,
@@ -47,7 +78,12 @@
    "numero": 193,
    "ano": 2024,
    "ementa": "Dispõe sobre a possibilidade de pagamento parcial de saldo devedor de tributos e contribuições no âmbito do Simples Nacional e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2468626"
+   "apresentacao": "2024-11-12",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2468626",
+   "primeiro_autor": true
   },
   {
    "id": 2458742,
@@ -55,7 +91,12 @@
    "numero": 34,
    "ano": 2024,
    "ementa": "Inclui a primeira infância como beneficiária de direitos e garantias, no Texto Constitucional.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2458742"
+   "apresentacao": "2024-09-19",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2458742",
+   "primeiro_autor": false
   },
   {
    "id": 2448732,
@@ -63,7 +104,12 @@
    "numero": 28,
    "ano": 2024,
    "ementa": "Acrescenta o art. 97-A e §§4º e 5º da Constituição Federal de 1988, para estabelecer o julgamento de referendo de liminares pelo colegiado de Tribunal, bem como criar hipótese de sustação de decisão do Supremo Tribunal Federal.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2448732"
+   "apresentacao": "2024-07-10",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2448732",
+   "primeiro_autor": false
   }
  ]
 }

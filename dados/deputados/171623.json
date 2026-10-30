@@ -1,5 +1,11 @@
 {
  "id": 171623,
+ "resumo": {
+  "lei": 0,
+  "aprovado": 0,
+  "tramitacao": 3,
+  "encerrado": 0
+ },
  "projetos": [
   {
    "id": 2633488,
@@ -7,7 +13,12 @@
    "numero": 15,
    "ano": 2026,
    "ementa": "Altera os art. 150 Constituição Federal para incluir as entidades esportivas sem fins lucrativos.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2633488"
+   "apresentacao": "2026-06-17",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2633488",
+   "primeiro_autor": false
   },
   {
    "id": 2579042,
@@ -15,7 +26,12 @@
    "numero": 5524,
    "ano": 2025,
    "ementa": "Altera as Leis nº 11.196, de 21 de novembro de 2005, e nº 8.981, de 20 de janeiro de 1995, para dispor sobre o parcelamento do imposto de renda incidente sobre ganho de capital na alienação de imóveis residenciais.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2579042"
+   "apresentacao": "2025-10-29",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2579042",
+   "primeiro_autor": true
   },
   {
    "id": 2402861,
@@ -23,7 +39,12 @@
    "numero": 57,
    "ano": 2023,
    "ementa": "Altera os arts. 40 e 144 da Constituição Federal para dispor sobre as Polícias Municipais.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2402861"
+   "apresentacao": "2023-11-08",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2402861",
+   "primeiro_autor": false
   }
  ]
 }

@@ -1,5 +1,11 @@
 {
  "id": 128760,
+ "resumo": {
+  "lei": 0,
+  "aprovado": 0,
+  "tramitacao": 6,
+  "encerrado": 0
+ },
  "projetos": [
   {
    "id": 2631190,
@@ -7,7 +13,12 @@
    "numero": 13,
    "ano": 2026,
    "ementa": "Altera o art. 9º da Emenda Constitucional nº 132, de 20 de dezembro de 2023, para permitir a concessão de créditos do Imposto sobre Bens e Serviços através de fomento indireto a doadores e patrocinadores de projetos culturais e esportivos.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2631190"
+   "apresentacao": "2026-06-10",
+   "situacao": "Pronta para Pauta",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2631190",
+   "primeiro_autor": false
   },
   {
    "id": 2623604,
@@ -15,7 +26,12 @@
    "numero": 9,
    "ano": 2026,
    "ementa": "Altera o art. 228 da Constituição Federal, para reduzir a idade mínima de imputabilidade penal, nas condições que estabelece.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2623604"
+   "apresentacao": "2026-05-12",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2623604",
+   "primeiro_autor": false
   },
   {
    "id": 2623400,
@@ -23,7 +39,12 @@
    "numero": 8,
    "ano": 2026,
    "ementa": "Altera o art. 228 da Constituição Federal para admitir, em caráter excepcional, a redução da maioridade penal em casos de crimes hediondos e de crueldade extrema contra pessoas e animais.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2623400"
+   "apresentacao": "2026-05-11",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2623400",
+   "primeiro_autor": false
   },
   {
    "id": 2604173,
@@ -31,7 +52,12 @@
    "numero": 3,
    "ano": 2026,
    "ementa": "Altera o art. 155 da Constituição Federal para estabelecer alíquota máxima e base de cálculo exclusiva do Imposto sobre a Propriedade de Veículos Automotores – IPVA, e acrescenta dispositivos ao Ato das Disposições Constitucionais Transitórias para limitar despesas com publicidade institucional e com o Poder Legislativo.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2604173"
+   "apresentacao": "2026-02-24",
+   "situacao": "Aguardando Criação de Comissão Temporária",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2604173",
+   "primeiro_autor": false
   },
   {
    "id": 2419252,
@@ -39,7 +65,12 @@
    "numero": 6,
    "ano": 2024,
    "ementa": "Altera o inciso X do § 22 e insere o § 21-A no art. 40 da Constituição, altera o art. 11 da Emenda Constitucional nº 103, de 12 de novembro de 2019 e revoga os §§ 1º-A, 1º-B e 1º-C do art. 149 da Constituição e o § 8º do art. 9º da Emenda Constitucional nº 103, de 2019.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2419252"
+   "apresentacao": "2024-03-05",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2419252",
+   "primeiro_autor": false
   },
   {
    "id": 2410415,
@@ -47,7 +78,12 @@
    "numero": 5904,
    "ano": 2023,
    "ementa": "Estabelece que as penas dos crimes praticados contra a Administração Pública serão aplicadas em dobro quando afetarem os recursos públicos destinados à educação com finalidade de gastos em custeio de merenda ou transporte escolar ou, de algum modo, comprometerem a efetiva prestação desses serviços; e inclui novos delitos no rol dos crimes hediondos.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2410415"
+   "apresentacao": "2023-12-06",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2410415",
+   "primeiro_autor": true
   }
  ]
 }

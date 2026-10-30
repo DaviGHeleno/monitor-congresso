@@ -1,5 +1,11 @@
 {
  "id": 228941,
+ "resumo": {
+  "lei": 0,
+  "aprovado": 0,
+  "tramitacao": 8,
+  "encerrado": 0
+ },
  "projetos": [
   {
    "id": 2461411,
@@ -7,7 +13,12 @@
    "numero": 3849,
    "ano": 2024,
    "ementa": "Dispõe sobre a internação humanizada e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2461411"
+   "apresentacao": "2024-10-08",
+   "situacao": "Aguardando Designação - Aguardando Devolução de Relator(a) que deixou de ser Membro",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2461411",
+   "primeiro_autor": true
   },
   {
    "id": 2461409,
@@ -15,7 +26,12 @@
    "numero": 3848,
    "ano": 2024,
    "ementa": "Dispõe sobre a governança e a escolha e nomeação de dirigentes de instituições de educação superior.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2461409"
+   "apresentacao": "2024-10-08",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2461409",
+   "primeiro_autor": true
   },
   {
    "id": 2461408,
@@ -23,7 +39,12 @@
    "numero": 3847,
    "ano": 2024,
    "ementa": "Altera a Lei nº 8.080, de 19 de setembro de 1990, para instituir a Política Nacional de Gestão de Dados em Saúde no âmbito do Sistema Único de Saúde (SUS).",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2461408"
+   "apresentacao": "2024-10-08",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2461408",
+   "primeiro_autor": true
   },
   {
    "id": 2447828,
@@ -31,7 +52,12 @@
    "numero": 2792,
    "ano": 2024,
    "ementa": "Dispõe sobre a eliminação da segregação racial na Lei nº 12.711, de 29 de agosto de 2012 (Lei de Cotas).",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2447828"
+   "apresentacao": "2024-07-09",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2447828",
+   "primeiro_autor": true
   },
   {
    "id": 2444647,
@@ -39,7 +65,12 @@
    "numero": 2660,
    "ano": 2024,
    "ementa": "Obriga o Sistema Único de Saúde a garantir a realização da reversão da cirurgia de mudança de sexo.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2444647"
+   "apresentacao": "2024-07-02",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2444647",
+   "primeiro_autor": false
   },
   {
    "id": 2442857,
@@ -47,7 +78,12 @@
    "numero": 2533,
    "ano": 2024,
    "ementa": "Altera o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal); a Lei nº 7.210, de 11 de julho de 1984 (Lei de Execução Penal); e a Lei nº 8.609, de 13 de julho de 1990 (Estatuto da Criança e do Adolescente), para aumentar as penas, vedar o livramento condicional e estabelecer regras mais rígidas para a progressão de regime dos condenados por crimes contra a dignidade sexuale pelo crime de submissão de criança ou adolescente a vexame ou a constrangimento.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2442857"
+   "apresentacao": "2024-06-21",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2442857",
+   "primeiro_autor": true
   },
   {
    "id": 2455515,
@@ -55,7 +91,12 @@
    "numero": 31,
    "ano": 2024,
    "ementa": "Acrescenta os arts.91-A, 91-B e a alínea “g” do inciso I do artigo 159 da Constituição Federal, para instituir o Conselho Nacional de Mudança Climática, a Autoridade Climática Nacional e o Fundo Nacional de Mudança Climática.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2455515"
+   "apresentacao": "2024-08-27",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2455515",
+   "primeiro_autor": false
   },
   {
    "id": 2448732,
@@ -63,7 +104,12 @@
    "numero": 28,
    "ano": 2024,
    "ementa": "Acrescenta o art. 97-A e §§4º e 5º da Constituição Federal de 1988, para estabelecer o julgamento de referendo de liminares pelo colegiado de Tribunal, bem como criar hipótese de sustação de decisão do Supremo Tribunal Federal.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2448732"
+   "apresentacao": "2024-07-10",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2448732",
+   "primeiro_autor": false
   }
  ]
 }

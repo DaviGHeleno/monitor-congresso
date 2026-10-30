@@ -1,5 +1,11 @@
 {
  "id": 204480,
+ "resumo": {
+  "lei": 0,
+  "aprovado": 1,
+  "tramitacao": 67,
+  "encerrado": 7
+ },
  "projetos": [
   {
    "id": 2649499,
@@ -7,7 +13,12 @@
    "numero": 5689,
    "ano": 2026,
    "ementa": "Acrescenta o art. 203-A ao Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), para tipificar a discriminação por voto ou convicção política no trabalho e na atividade econômica, e altera o art. 1º da Lei nº 9.029, de 13 de abril de 1995, para incluir o voto e a convicção política entre os motivos de discriminação vedados nas relações de trabalho.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649499"
+   "apresentacao": "2026-10-29",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649499",
+   "primeiro_autor": false
   },
   {
    "id": 2647384,
@@ -15,7 +26,12 @@
    "numero": 5537,
    "ano": 2026,
    "ementa": "Altera o §1° do art. 2° da Lei n° 11.738, de 16 de julho de 2008, para reduzir para trinta horas semanais a jornada máxima de trabalho dos profissionais do magistério público da educação básica, revoga o art. 6° da referida Lei e altera a Lei n° 8.429, de 2 de junho de 1992, para estabelecer hipótese de ato de improbidade administrativa.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2647384"
+   "apresentacao": "2026-10-08",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2647384",
+   "primeiro_autor": true
   },
   {
    "id": 2647188,
@@ -23,7 +39,12 @@
    "numero": 5483,
    "ano": 2026,
    "ementa": "Reconhece as expressões culturais e populares dedicadas a Nossa Senhora Aparecida, Padroeira do Brasil, como Patrimônio Cultural Imaterial do Brasil.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2647188"
+   "apresentacao": "2026-09-28",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2647188",
+   "primeiro_autor": false
   },
   {
    "id": 2643776,
@@ -31,7 +52,12 @@
    "numero": 5076,
    "ano": 2026,
    "ementa": "Institui a Lei de Proteção da Soberania Econômica Nacional contra a Aplicação Extraterritorial de Medidas Estrangeiras, dispõe sobre a proteção das pessoas submetidas à jurisdição brasileira contra medidas coercitivas unilaterais incompatíveis com o ordenamento jurídico nacional, e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643776"
+   "apresentacao": "2026-08-14",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643776",
+   "primeiro_autor": false
   },
   {
    "id": 2643283,
@@ -39,7 +65,12 @@
    "numero": 5042,
    "ano": 2026,
    "ementa": "Determina que as despesas de capital e parcela das despesas custeadas com receitas próprias de autarquias federais não sejam alcançadas pelo mecanismo de limitação de empenho e movimentação financeira previsto na LRF, e não sejam incluídas na base de cálculo e nos limites estabelecidos no Novo Arcabouço Fiscal para as despesas primárias do Governo Federal.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643283"
+   "apresentacao": "2026-08-12",
+   "situacao": "Ag. Análise de Inconstitucionalidade",
+   "situacao_data": null,
+   "categoria": "encerrado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643283",
+   "primeiro_autor": false
   },
   {
    "id": 2639736,
@@ -47,7 +78,12 @@
    "numero": 3720,
    "ano": 2026,
    "ementa": "Altera a Lei nº 7.713, de 22 de dezembro de 1988, para conceder isenção do Imposto sobre a Renda da Pessoa Física incidente sobre rendimentos de aposentadoria, pensão e demais benefícios previdenciários.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2639736"
+   "apresentacao": "2026-07-15",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2639736",
+   "primeiro_autor": false
   },
   {
    "id": 2639458,
@@ -55,7 +91,12 @@
    "numero": 3685,
    "ano": 2026,
    "ementa": "Institui medidas especiais de proteção de dados pessoais de aposentados, pensionistas e beneficiários de benefícios previdenciários e assistenciais, estabelece regras para o tratamento e compartilhamento dessas informações e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2639458"
+   "apresentacao": "2026-07-14",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2639458",
+   "primeiro_autor": true
   },
   {
    "id": 2639457,
@@ -63,7 +104,12 @@
    "numero": 3684,
    "ano": 2026,
    "ementa": "Altera a Lei nº 10.820, de 17 de dezembro de 2003, para vedar a imposição de contratação de produtos ou serviços acessórios em operações de crédito consignado destinadas a aposentados e pensionistas do Regime Geral de Previdência Social e estabelecer medidas de proteção ao consumidor.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2639457"
+   "apresentacao": "2026-07-14",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2639457",
+   "primeiro_autor": true
   },
   {
    "id": 2639456,
@@ -71,7 +117,12 @@
    "numero": 3683,
    "ano": 2026,
    "ementa": "Institui o Regime de Proteção contra o Assédio Comercial Digital dirigido aos beneficiários da Previdência Social e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2639456"
+   "apresentacao": "2026-07-14",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2639456",
+   "primeiro_autor": false
   },
   {
    "id": 2637237,
@@ -79,7 +130,12 @@
    "numero": 3479,
    "ano": 2026,
    "ementa": "Estabelece o marco legal do Registro Nacional de Beneficiários Finais, dispõe sobre a integração, atualização, verificação, interoperabilidade e acesso às informações relativas aos beneficiários finais de pessoas jurídicas e estruturas legais, e fortalece os mecanismos de prevenção à lavagem de dinheiro, corrupção, evasão fiscal, ocultação patrimonial e infiltração da criminaliza organizada na economia formal.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2637237"
+   "apresentacao": "2026-07-06",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2637237",
+   "primeiro_autor": false
   },
   {
    "id": 2635684,
@@ -87,7 +143,12 @@
    "numero": 3362,
    "ano": 2026,
    "ementa": "Acrescenta o artigo 359-K-A ao Decreto Lei nº 2.848, de 7 de dezembro de 1940 – Código Penal, para tipificar o crime de Traição à Pátria.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2635684"
+   "apresentacao": "2026-06-30",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2635684",
+   "primeiro_autor": true
   },
   {
    "id": 2619274,
@@ -95,7 +156,12 @@
    "numero": 2054,
    "ano": 2026,
    "ementa": "Institui a Política Nacional dos Direitos das Pessoas LGBTQIA+ e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2619274"
+   "apresentacao": "2026-04-28",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2619274",
+   "primeiro_autor": false
   },
   {
    "id": 2616663,
@@ -103,7 +169,12 @@
    "numero": 1853,
    "ano": 2026,
    "ementa": "Autoriza a União a instituir empresa estatal, ou subsidiária de sociedade de economia mista federal, para atuar na distribuição de combustíveis, biocombustíveis e gás liquefeito de petróleo (GLP), autoriza a recomposição da presença pública em ativos estratégicos do abastecimento nacional, e estabelece diretrizes para a soberania energética, a segurança do abastecimento, a modicidade de preços e a defesa do consumidor.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2616663"
+   "apresentacao": "2026-04-15",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2616663",
+   "primeiro_autor": false
   },
   {
    "id": 2615935,
@@ -111,7 +182,12 @@
    "numero": 1808,
    "ano": 2026,
    "ementa": "Proíbe a exploração, a oferta, a promoção e a facilitação de apostas de quota fixa em todo o território nacional, revoga dispositivos das Leis nº 13.756, de 12 de dezembro de 2018, e nº 14.790, de 29 de dezembro de 2023, estabelece medidas de bloqueio de acesso, remoção de aplicações, interrupção de fluxos financeiros, responsabilização de intermediários e proteção de conteúdos de interesse público, e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2615935"
+   "apresentacao": "2026-04-14",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2615935",
+   "primeiro_autor": false
   },
   {
    "id": 2615559,
@@ -119,7 +195,12 @@
    "numero": 1782,
    "ano": 2026,
    "ementa": "Institui a Estratégia Nacional “Eles por Elas” de Engajamento de Homens na Prevenção da Violência contra Mulheres.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2615559"
+   "apresentacao": "2026-04-13",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2615559",
+   "primeiro_autor": false
   },
   {
    "id": 2615287,
@@ -127,7 +208,12 @@
    "numero": 1754,
    "ano": 2026,
    "ementa": "Institui a TerraBras, empresa pública destinada à defesa da soberania nacional e ao aproveitamento dos minerais críticos ou estratégicos; estabelece o regime de partilha da produção mineral; altera o Decreto-Lei nº 227, de 28 de fevereiro de 1967, a Lei nº 8.970, de 28 de dezembro de 1994, e a Lei nº 13.575, de 26 de dezembro de 2017; e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2615287"
+   "apresentacao": "2026-04-10",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2615287",
+   "primeiro_autor": false
   },
   {
    "id": 2612861,
@@ -135,7 +221,12 @@
    "numero": 1537,
    "ano": 2026,
    "ementa": "Dispõe sobre o reconhecimento, valorização, proteção previdenciária e salvaguarda do ofício, saberes e práticas das parteiras tradicionais como atividade essencial à reprodução social, cultural e comunitária, e dá outras providências, nos termos da Constituição Federal.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2612861"
+   "apresentacao": "2026-03-30",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2612861",
+   "primeiro_autor": false
   },
   {
    "id": 2608574,
@@ -143,7 +234,12 @@
    "numero": 1138,
    "ano": 2026,
    "ementa": "Institui a Política Nacional de Programas e Grupos Reflexivos sobre Masculinidades, Prevenção da Violência e Cultura de Paz, estabelece seus princípios, objetivos e diretrizes, e dá outras providências",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2608574"
+   "apresentacao": "2026-03-12",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2608574",
+   "primeiro_autor": false
   },
   {
    "id": 2608238,
@@ -151,7 +247,12 @@
    "numero": 1107,
    "ano": 2026,
    "ementa": "Institui pensão especial para pessoas com deficiência decorrente de violência doméstica e familiar; altera a Lei nº 8.213, de 24 de julho de 1991, para dispensar do cumprimento de carência o requerente de auxílio por incapacidade temporária e aposentadoria por incapacidade permanente decorrente de violência doméstica e familiar; e altera a Lei nº 11.340, de 7 de agosto de 2006, a fim de dispor sobre determinação judicial de avaliação médica, para fins de instrução do pedido de pensão especial, em caso de violência doméstica e familiar que resulte em aquisição de deficiência permanente pela ofendida ou pelo ofendido.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2608238"
+   "apresentacao": "2026-03-11",
+   "situacao": "Pronta para Pauta",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2608238",
+   "primeiro_autor": false
   },
   {
    "id": 2607582,
@@ -159,7 +260,12 @@
    "numero": 1042,
    "ano": 2026,
    "ementa": "Institui a Política de Atenção Integral e Proteção às Mulheres Sobreviventes de Tentativas de Feminicídio",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2607582"
+   "apresentacao": "2026-03-09",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2607582",
+   "primeiro_autor": false
   },
   {
    "id": 2607443,
@@ -167,7 +273,12 @@
    "numero": 1008,
    "ano": 2026,
    "ementa": "Altera a Lei nº 11.340, de 7 de agosto de 2006 (Lei Maria da Penha), para estabelecer princípios e diretrizes para a cobertura jornalística e publicitária da violência contra a mulher, promovendo a informação responsável e a proteção das vítimas, com respeito à liberdade de imprensa.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2607443"
+   "apresentacao": "2026-03-06",
+   "situacao": "Aguardando Encaminhamento",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2607443",
+   "primeiro_autor": false
   },
   {
    "id": 2607439,
@@ -175,7 +286,12 @@
    "numero": 1006,
    "ano": 2026,
    "ementa": "Tipifica a promoção de misoginia e a incitação à violência ou discriminação contra mulheres, inclusive pela organização e propagação de ideologias ou teorias misóginas, inclusive as associadas a comunidades conhecidas como “red pill”, “incel”, “MGTOW” ou denominações equivalentes.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2607439"
+   "apresentacao": "2026-03-06",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2607439",
+   "primeiro_autor": false
   },
   {
    "id": 2607156,
@@ -183,7 +299,12 @@
    "numero": 965,
    "ano": 2026,
    "ementa": "Institui a Lei Cidade Segura para Mulheres. Altera a Lei nº 10.257, de 10 de julho de 2001 (Estatuto da Cidade), para incluir, entre as diretrizes gerais da política urbana, a segurança urbana em perspectiva cidadã, com prioridade para a proteção das mulheres e de outros grupos em situação de vulnerabilidade; para prever a promoção de cidades seguras para as mulheres como conteúdo a ser incorporado ao plano diretor; para instituir a auditoria urbana de segurança cidadã como instrumento de planejamento, desenho e gestão dos espaços urbanos. Estabelece medidas de apoio técnico e financeiro, produção de informações e indução federativa pela União.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2607156"
+   "apresentacao": "2026-03-05",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2607156",
+   "primeiro_autor": false
   },
   {
    "id": 2607155,
@@ -191,7 +312,12 @@
    "numero": 964,
    "ano": 2026,
    "ementa": "Institui a Lei da Mobilidade Segura para as Mulheres, pessoas com deficiência e pessoas idosas. Altera a Lei nº 12.587, de 3 de janeiro de 2012, para instituir diretrizes de promoção da segurança no Sistema Nacional de Mobilidade Urbana, com especial atenção às mulheres, às pessoas com deficiência e às pessoas idosas, dispor sobre segurança nas paradas e no desembarque de transporte público coletivo, no transporte individual remunerado por táxi e por aplicativo e nos trajetos de bicicleta e a pé.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2607155"
+   "apresentacao": "2026-03-05",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2607155",
+   "primeiro_autor": false
   },
   {
    "id": 2603108,
@@ -199,7 +325,12 @@
    "numero": 568,
    "ano": 2026,
    "ementa": "Autoriza o Poder Executivo a instituir o serviço “Disque Denúncia Nacional de Maus-Tratos Contra Animais”, destinado ao recebimento de denúncias de maus-tratos e violência contra animais, e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2603108"
+   "apresentacao": "2026-02-13",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2603108",
+   "primeiro_autor": true
   },
   {
    "id": 2631190,
@@ -207,7 +338,12 @@
    "numero": 13,
    "ano": 2026,
    "ementa": "Altera o art. 9º da Emenda Constitucional nº 132, de 20 de dezembro de 2023, para permitir a concessão de créditos do Imposto sobre Bens e Serviços através de fomento indireto a doadores e patrocinadores de projetos culturais e esportivos.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2631190"
+   "apresentacao": "2026-06-10",
+   "situacao": "Pronta para Pauta",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2631190",
+   "primeiro_autor": false
   },
   {
    "id": 2582519,
@@ -215,7 +351,12 @@
    "numero": 5736,
    "ano": 2025,
    "ementa": "Dispõe sobre o atendimento de crianças e adolescentes vítimas de violência sexual e a garantia dos seus direitos",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2582519"
+   "apresentacao": "2025-11-06",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2582519",
+   "primeiro_autor": false
   },
   {
    "id": 2572504,
@@ -223,7 +364,12 @@
    "numero": 5210,
    "ano": 2025,
    "ementa": "Altera a Lei nº 10.880, de 9 de junho de 2004, e a Lei nº 11.947, de 16 de junho de 2009, para incluir as escolas comunitárias que atuam no âmbito da educação do campo entre as beneficiárias do Programa Nacional de Apoio ao Transporte Escolar (PNATE) e do Programa Nacional de Alimentação Escolar (PNAE).",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2572504"
+   "apresentacao": "2025-10-15",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2572504",
+   "primeiro_autor": true
   },
   {
    "id": 2572502,
@@ -231,7 +377,12 @@
    "numero": 5209,
    "ano": 2025,
    "ementa": "Altera a Lei nº 8.429, de 2 de junho de 1992, para dispor sobre a responsabilização do agente público que, dolosamente, deixar de assegurar o pagamento do piso salarial profissional nacional aos profissionais do magistério público da educação básica.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2572502"
+   "apresentacao": "2025-10-15",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2572502",
+   "primeiro_autor": true
   },
   {
    "id": 2570520,
@@ -239,7 +390,12 @@
    "numero": 5076,
    "ano": 2025,
    "ementa": "Altera a Lei nº 13.756, de 12 de dezembro de 2018, que Dispõe sobre o Fundo Nacional de Segurança Pública (FNSP), sobre a destinação do produto da arrecadação das loterias e sobre a promoção comercial e a modalidade lotérica denominada apostas de quota fixa; altera as Leis n º 8.212, de 24 de julho de 1991, 9.615, de 24 março de 1998, 10.891, de 9 de julho de 2004, 11.473, de 10 de maio de 2007, e 13.675, de 11 de junho de 2018; e revoga dispositivos das Leis n º 6.168, de 9 de dezembro de 1974, 6.717, de 12 de novembro de 1979, 8.313, de 23 de dezembro de 1991, 9.649, de 27 de maio de 1998, 10.260, de 12 de julho de 2001, 11.345, de 14 de setembro de 2006, e 13.155, de 4 de agosto de 2015, da Lei Complementar nº 79, de 7 de janeiro de 1994, e dos Decretos-Leis n º 204, de 27 de fevereiro de 1967, e 594, de 27 de maio de 1969, as Leis n º 6.905, de 11 de maio de 1981, 9.092, de 12 de setembro de 1995, 9.999, de 30 de agosto de 2000, 10.201, de 14 de fevereiro de 2001, e 10.746, de 10 de outubro de 2003, e os Decretos-Leis n º 1.405, de 20 de junho de 1975, e 1.923, de 20 de janeiro de 1982.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2570520"
+   "apresentacao": "2025-10-09",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2570520",
+   "primeiro_autor": false
   },
   {
    "id": 2551371,
@@ -247,7 +403,12 @@
    "numero": 4184,
    "ano": 2025,
    "ementa": "Institui o Regime Especial de Partilha de Produção de Petróleo e Gás Natural na Margem Equatorial Brasileira, com destinação exclusiva dos recursos públicos à proteção ambiental e ao desenvolvimento sustentável das regiões Norte e Nordeste.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2551371"
+   "apresentacao": "2025-08-22",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2551371",
+   "primeiro_autor": false
   },
   {
    "id": 2551205,
@@ -255,7 +416,12 @@
    "numero": 4167,
    "ano": 2025,
    "ementa": "Institui o Programa Nacional de Desenvolvimento da Produção Artesanal Associada ao Turismo - Pró-Artesão",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2551205"
+   "apresentacao": "2025-08-21",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2551205",
+   "primeiro_autor": true
   },
   {
    "id": 2536213,
@@ -263,7 +429,12 @@
    "numero": 3401,
    "ano": 2025,
    "ementa": "Disciplina, em âmbito nacional, a aplicação do limite máximo remuneratório mensal de agentes políticos e públicos de que tratam o inciso XI do caput e os § 9º e § 11 do art. 37 da Constituição.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2536213"
+   "apresentacao": "2025-07-15",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2536213",
+   "primeiro_autor": false
   },
   {
    "id": 2531337,
@@ -271,7 +442,12 @@
    "numero": 3197,
    "ano": 2025,
    "ementa": "Altera a Consolidação das Leis do Trabalho (CLT), aprovada pelo Decreto-Lei nº 5.452, de 1º de maio de 1943, para definir a duração normal de trabalho semanal, suas repercussões nas horas suplementares e no trabalho em regime de compensação ou de plantão.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2531337"
+   "apresentacao": "2025-07-02",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2531337",
+   "primeiro_autor": false
   },
   {
    "id": 2525665,
@@ -279,7 +455,12 @@
    "numero": 2904,
    "ano": 2025,
    "ementa": "Cria o Programa de Acolhimento ao Migrante Retornado.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2525665"
+   "apresentacao": "2025-06-16",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2525665",
+   "primeiro_autor": false
   },
   {
    "id": 2598301,
@@ -287,7 +468,12 @@
    "numero": 50,
    "ano": 2025,
    "ementa": "Altera os artigos 103-B e 130-A da Constituição Federal, para modificar a composição do Conselho Nacional de Justiça e do Conselho Nacional do Ministério Público.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2598301"
+   "apresentacao": "2025-12-17",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2598301",
+   "primeiro_autor": false
   },
   {
    "id": 2596372,
@@ -295,7 +481,12 @@
    "numero": 49,
    "ano": 2025,
    "ementa": "Altera o § 4º do art. 220 da Constituição Federal para dispor sobre restrições legais à propaganda de qualquer modalidade lotérica.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2596372"
+   "apresentacao": "2025-12-12",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2596372",
+   "primeiro_autor": false
   },
   {
    "id": 2595818,
@@ -303,7 +494,12 @@
    "numero": 48,
    "ano": 2025,
    "ementa": "Altera o inciso XVI do art. 37 da Constituição Federal para permitir a acumulação de cargos públicos por outros profissionais da área da educação.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2595818"
+   "apresentacao": "2025-12-10",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2595818",
+   "primeiro_autor": false
   },
   {
    "id": 2544926,
@@ -311,7 +507,12 @@
    "numero": 31,
    "ano": 2025,
    "ementa": "Altera os arts. 5º e 10 da Emenda Constitucional nº 103, de 12 de novembro de 2019, para reduzir a idade de aposentadoria da mulher ocupante de cargo de agente penitenciário, agente socioeducativo ou de policial dos órgãos referidos.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2544926"
+   "apresentacao": "2025-08-13",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2544926",
+   "primeiro_autor": false
   },
   {
    "id": 2504516,
@@ -319,7 +520,12 @@
    "numero": 21,
    "ano": 2025,
    "ementa": "Acrescenta o inciso LXXX ao artigo 5º da Constituição Federal para tornar imprescritível os crimes sexuais quando cometidos contra menores de doze anos de idade.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2504516"
+   "apresentacao": "2025-05-06",
+   "situacao": "Aguardando Criação de Comissão Temporária",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2504516",
+   "primeiro_autor": false
   },
   {
    "id": 2487818,
@@ -327,7 +533,12 @@
    "numero": 12,
    "ano": 2025,
    "ementa": "Altera o art. 50 da Constituição da República, para incluir o Presidente do Banco Central no rol das autoridades, que a Câmara dos Deputados e o Senado Federal, ou quaisquer de suas Comissões, podem convocar para prestar informações sobre assunto previamente determinado.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2487818"
+   "apresentacao": "2025-03-19",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2487818",
+   "primeiro_autor": false
   },
   {
    "id": 2482491,
@@ -335,7 +546,12 @@
    "numero": 9,
    "ano": 2025,
    "ementa": "Institui o Imposto Sobre a Propriedade de Arma de Fogo - IPAF, de competência da União, e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2482491"
+   "apresentacao": "2025-02-03",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2482491",
+   "primeiro_autor": false
   },
   {
    "id": 2485341,
@@ -343,7 +559,12 @@
    "numero": 8,
    "ano": 2025,
    "ementa": "Dá nova redação ao inciso XIII, do artigo 7° da Constituição Federal para dispor sobre a redução da jornada de trabalho para quatro dias por semana no Brasil.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2485341"
+   "apresentacao": "2025-02-25",
+   "situacao": "Arquivada",
+   "situacao_data": null,
+   "categoria": "encerrado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2485341",
+   "primeiro_autor": false
   },
   {
    "id": 2469693,
@@ -351,7 +572,12 @@
    "numero": 4412,
    "ano": 2024,
    "ementa": "Altera o Marco Civil da Internet, Lei nº 12.965, de 23 de abril de 2024, para condicionar o acesso a redes sociais ao cadastramento prévio do CPF ou CNPJ do usuário.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2469693"
+   "apresentacao": "2024-11-18",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2469693",
+   "primeiro_autor": true
   },
   {
    "id": 2467873,
@@ -359,7 +585,12 @@
    "numero": 188,
    "ano": 2024,
    "ementa": "Altera a Lei Complementar no 64, de 18 de maio de 1990, que estabelece, de acordo com o § 9o do art. 14 da Constituição Federal, casos de inelegibilidade, prazos de cessação e determina outras providências, para incluir hipóteses de inelegibilidade que visam proteger o Estado Democrático de Direito.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2467873"
+   "apresentacao": "2024-11-11",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2467873",
+   "primeiro_autor": true
   },
   {
    "id": 2463235,
@@ -367,7 +598,12 @@
    "numero": 165,
    "ano": 2024,
    "ementa": "Altera a Lei Complementar nº 200, de 2023, para excluir dos limites do Novo Arcabouço Fiscal as despesas que especifica.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2463235"
+   "apresentacao": "2024-10-17",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2463235",
+   "primeiro_autor": false
   },
   {
    "id": 2471383,
@@ -375,7 +611,12 @@
    "numero": 44,
    "ano": 2024,
    "ementa": "Altera o §9º do artigo 166 da Constituição Federal para destinar parte dos recursos oriundos das emendas individuais a programas e ações relacionados ao Esporte.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2471383"
+   "apresentacao": "2024-11-26",
+   "situacao": "Aguardando Criação de Comissão Temporária",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2471383",
+   "primeiro_autor": false
   },
   {
    "id": 2447265,
@@ -383,7 +624,12 @@
    "numero": 27,
    "ano": 2024,
    "ementa": "Altera a Constituição Federal para acrescentar o Capítulo IX - Da Promoção Da Igualdade Racial, que institui o Fundo Nacional de Reparação Econômica e de Promoção da Igualdade Racial (FNREPIR) com o objetivo de promover a igualdade de oportunidades e a inclusão social dos brasileiros pretos e pardos, e dá outras providências",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2447265"
+   "apresentacao": "2024-07-08",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2447265",
+   "primeiro_autor": false
   },
   {
    "id": 2436619,
@@ -391,7 +637,12 @@
    "numero": 23,
    "ano": 2024,
    "ementa": "Acrescenta o §2º no Art. 4º da Constituição para acrescentar a integração dos países de língua portuguesa entre os princípios que regem as relações internacionais da República Federativa do Brasil.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2436619"
+   "apresentacao": "2024-05-27",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2436619",
+   "primeiro_autor": false
   },
   {
    "id": 2436224,
@@ -399,7 +650,12 @@
    "numero": 21,
    "ano": 2024,
    "ementa": "Altera o art. 198 da Constituição Federal, para promover o enquadramento dos servidores públicos federais ocupantes do cargo de auxiliar de enfermagem para a carreira dos técnicos de enfermagem.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2436224"
+   "apresentacao": "2024-05-23",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2436224",
+   "primeiro_autor": false
   },
   {
    "id": 2435133,
@@ -407,7 +663,12 @@
    "numero": 20,
    "ano": 2024,
    "ementa": "Institui o Regime Extraordinário Fiscal, Financeiro e de Contratações destinado ao enfrentamento de calamidade pública e à reconstrução da infraestrutura física e social no Estado do Rio Grande do Sul, bem como ao suporte direto às famílias afetadas.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2435133"
+   "apresentacao": "2024-05-21",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2435133",
+   "primeiro_autor": false
   },
   {
    "id": 2428346,
@@ -415,7 +676,12 @@
    "numero": 14,
    "ano": 2024,
    "ementa": "Altera o art. 6º da Constituição Federal, para positivar o direito aos cuidados no rol de direitos sociais.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2428346"
+   "apresentacao": "2024-04-19",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2428346",
+   "primeiro_autor": false
   },
   {
    "id": 2419252,
@@ -423,7 +689,12 @@
    "numero": 6,
    "ano": 2024,
    "ementa": "Altera o inciso X do § 22 e insere o § 21-A no art. 40 da Constituição, altera o art. 11 da Emenda Constitucional nº 103, de 12 de novembro de 2019 e revoga os §§ 1º-A, 1º-B e 1º-C do art. 149 da Constituição e o § 8º do art. 9º da Emenda Constitucional nº 103, de 2019.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2419252"
+   "apresentacao": "2024-03-05",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2419252",
+   "primeiro_autor": false
   },
   {
    "id": 2404276,
@@ -431,7 +702,12 @@
    "numero": 5539,
    "ano": 2023,
    "ementa": "Cria a lei Ana Benevides que dispõe sobre o fornecimento obrigatório e gratuito de água potável em eventos artísticos, shows e festivais de música.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2404276"
+   "apresentacao": "2023-11-18",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2404276",
+   "primeiro_autor": false
   },
   {
    "id": 2399527,
@@ -439,7 +715,12 @@
    "numero": 5213,
    "ano": 2023,
    "ementa": "Concede subvenção extraordinária aos produtores de leite enquadrados na Lei 11.326/2006, prorroga o pagamento de parcela de crédito rural e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2399527"
+   "apresentacao": "2023-10-26",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2399527",
+   "primeiro_autor": false
   },
   {
    "id": 2380701,
@@ -447,7 +728,12 @@
    "numero": 3993,
    "ano": 2023,
    "ementa": "Inclui o Distúrbio Vocal Relacionado ao Trabalho na relação de Doenças Relacionadas ao Trabalho tornando obrigatória sua notificação.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2380701"
+   "apresentacao": "2023-08-17",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2380701",
+   "primeiro_autor": true
   },
   {
    "id": 2380698,
@@ -455,7 +741,12 @@
    "numero": 3991,
    "ano": 2023,
    "ementa": "Altera o art. 12 da Lei nº 9.656, de 3 de junho de 1998, que dispõe sobre planos privados de assistência à saúde, para determinar a cobertura de consultas e sessões com profissionais de saúde com profissões regulamentadas, independentemente de solicitação de médico assistente.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2380698"
+   "apresentacao": "2023-08-17",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2380698",
+   "primeiro_autor": true
   },
   {
    "id": 2371849,
@@ -463,7 +754,12 @@
    "numero": 3298,
    "ano": 2023,
    "ementa": "Altera a Lei nº 14.597, de 14 de junho de 2023, para instituir medidas para o combate ao racismo nos estádios e nas arenas esportivas.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2371849"
+   "apresentacao": "2023-06-29",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2371849",
+   "primeiro_autor": true
   },
   {
    "id": 2354786,
@@ -471,7 +767,12 @@
    "numero": 1589,
    "ano": 2023,
    "ementa": "Dispõe sobre o exercício dos direitos de controle e, especificamente, de voto pelo poder público nas sociedades de que participe, direta ou indiretamente.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2354786"
+   "apresentacao": "2023-04-03",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2354786",
+   "primeiro_autor": true
   },
   {
    "id": 2349754,
@@ -479,7 +780,12 @@
    "numero": 775,
    "ano": 2023,
    "ementa": "“Altera a Lei nº 7.474, de 8 de maio de 1986, que dispõe sobre medidas de segurança aos ex-Presidentes da República, para limitar o uso das prerrogativas, quando exercida no exterior e em interesse privado.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2349754"
+   "apresentacao": "2023-03-01",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2349754",
+   "primeiro_autor": false
   },
   {
    "id": 2349013,
@@ -487,7 +793,12 @@
    "numero": 594,
    "ano": 2023,
    "ementa": "Altera a Lei n° 11.648, de 31 de março de 2008, para possibilitar a dedicação exclusiva dos eleitos para cargos em entidade sindical representativa de servidores públicos da União, dos Estados, do Distrito Federal e dos Municípios.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2349013"
+   "apresentacao": "2023-02-17",
+   "situacao": "Devolvida ao(à) Autor(a)",
+   "situacao_data": null,
+   "categoria": "encerrado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2349013",
+   "primeiro_autor": true
   },
   {
    "id": 2348823,
@@ -495,7 +806,12 @@
    "numero": 533,
    "ano": 2023,
    "ementa": "“Altera o art. 92 da Lei nº 8.112, de 11 de dezembro de 1990, para assegurar pagamento da remuneração do servidor público em licença para exercício de mandato de caráter sindical.”",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2348823"
+   "apresentacao": "2023-02-15",
+   "situacao": "Devolvida ao(à) Autor(a)",
+   "situacao_data": null,
+   "categoria": "encerrado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2348823",
+   "primeiro_autor": true
   },
   {
    "id": 2347021,
@@ -503,7 +819,12 @@
    "numero": 224,
    "ano": 2023,
    "ementa": "Altera a Lei 11.738, de 2008, para disciplinar o cumprimento do pagamento do piso salarial profissional nacional para os profissionais do magistério público da educação básica.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2347021"
+   "apresentacao": "2023-02-02",
+   "situacao": "Retirado pelo(a) Autor(a)",
+   "situacao_data": null,
+   "categoria": "encerrado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2347021",
+   "primeiro_autor": true
   },
   {
    "id": 2364503,
@@ -511,7 +832,12 @@
    "numero": 161,
    "ano": 2023,
    "ementa": "Concede o título de Patrimônio Nacional da Saúde Pública para a Fundação Ezequiel Dias (FUNED).",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2364503"
+   "apresentacao": "2023-05-23",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2364503",
+   "primeiro_autor": false
   },
   {
    "id": 2361973,
@@ -519,7 +845,12 @@
    "numero": 149,
    "ano": 2023,
    "ementa": "Institui a Medalha Clara Nunes.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2361973"
+   "apresentacao": "2023-05-11",
+   "situacao": "Devolvida ao(à) Autor(a)",
+   "situacao_data": null,
+   "categoria": "encerrado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2361973",
+   "primeiro_autor": true
   },
   {
    "id": 2364998,
@@ -527,7 +858,12 @@
    "numero": 73,
    "ano": 2023,
    "ementa": "Institui a Medalha Clara Nunes.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2364998"
+   "apresentacao": "2023-05-24",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2364998",
+   "primeiro_autor": true
   },
   {
    "id": 2402861,
@@ -535,7 +871,12 @@
    "numero": 57,
    "ano": 2023,
    "ementa": "Altera os arts. 40 e 144 da Constituição Federal para dispor sobre as Polícias Municipais.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2402861"
+   "apresentacao": "2023-11-08",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2402861",
+   "primeiro_autor": false
   },
   {
    "id": 2349790,
@@ -543,7 +884,12 @@
    "numero": 56,
    "ano": 2023,
    "ementa": "Revoga o do Decreto nº 10.004, de 5 de setembro de 2019, que institui o Programa Nacional das Escolas Cívico-Militares (PECIM).",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2349790"
+   "apresentacao": "2023-03-01",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2349790",
+   "primeiro_autor": true
   },
   {
    "id": 2349298,
@@ -551,7 +897,12 @@
    "numero": 48,
    "ano": 2023,
    "ementa": "Revoga o Decreto nº 9.765, de 11 de abril de 2019, que institui a atual Política Nacional de Alfabetização.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2349298"
+   "apresentacao": "2023-02-24",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2349298",
+   "primeiro_autor": true
   },
   {
    "id": 2362526,
@@ -559,7 +910,12 @@
    "numero": 25,
    "ano": 2023,
    "ementa": "Acrescenta o Capítulo IX ao Título VIII para oferecer diretrizes sobre o direito social ao transporte previsto no art. 6º e sobre o Sistema único de Mobilidade e autoriza a União, Distrito Federal e Municípios a instituírem\ncontribuição pelo uso do sistema viário, destinada ao custeio do transporte público coletivo urbano.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2362526"
+   "apresentacao": "2023-05-16",
+   "situacao": "Pronta para Pauta",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2362526",
+   "primeiro_autor": false
   },
   {
    "id": 2361500,
@@ -567,7 +923,12 @@
    "numero": 23,
    "ano": 2023,
    "ementa": "Acrescenta o artigo 135-A e Seção V ao Capítulo IV, Das Funções Essenciais à Justiça e altera o disposto no § 4-B do art. 40 todos da Constituição Federal.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2361500"
+   "apresentacao": "2023-05-10",
+   "situacao": "Aguardando Criação de Comissão Temporária",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2361500",
+   "primeiro_autor": false
   },
   {
    "id": 2348664,
@@ -575,7 +936,12 @@
    "numero": 21,
    "ano": 2023,
    "ementa": "Cria, nas dependências da Câmara dos Deputados, o Memorial 8 de Janeiro, destinado a celebrar a defesa da democracia",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2348664"
+   "apresentacao": "2023-02-14",
+   "situacao": "Devolvida ao(à) Autor(a)",
+   "situacao_data": null,
+   "categoria": "encerrado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2348664",
+   "primeiro_autor": false
   },
   {
    "id": 2345660,
@@ -583,7 +949,12 @@
    "numero": 21,
    "ano": 2023,
    "ementa": "\"Institui o dia nacional de defesa da democracia.\"",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2345660"
+   "apresentacao": "2023-02-02",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2345660",
+   "primeiro_autor": true
   },
   {
    "id": 2351506,
@@ -591,7 +962,12 @@
    "numero": 5,
    "ano": 2023,
    "ementa": "Acrescenta § 4º-A ao art. 150 da Constituição Federal, para dispor sobre a imunidade tributária de que tratam as suas alíneas “b” e “c” do inciso VI.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2351506"
+   "apresentacao": "2023-03-15",
+   "situacao": "Aguardando Apreciação pelo Senado Federal",
+   "situacao_data": null,
+   "categoria": "aprovado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2351506",
+   "primeiro_autor": false
   },
   {
    "id": 2350490,
@@ -599,7 +975,12 @@
    "numero": 2,
    "ano": 2023,
    "ementa": "Dá nova redação ao art. 6º da Constituição Federal, ao inserir a CULTURA no rol de nossos direitos sociais.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2350490"
+   "apresentacao": "2023-03-08",
+   "situacao": "Aguardando Criação de Comissão Temporária",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2350490",
+   "primeiro_autor": false
   }
  ]
 }

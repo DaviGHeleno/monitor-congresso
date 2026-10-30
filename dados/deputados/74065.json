@@ -1,5 +1,11 @@
 {
  "id": 74065,
+ "resumo": {
+  "lei": 0,
+  "aprovado": 0,
+  "tramitacao": 6,
+  "encerrado": 0
+ },
  "projetos": [
   {
    "id": 2574943,
@@ -7,7 +13,12 @@
    "numero": 5363,
    "ano": 2025,
    "ementa": "Confere o título de “Capital Nacional do meio do mundo” a cidade de Macapá, no Estado do Amapá.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2574943"
+   "apresentacao": "2025-10-22",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2574943",
+   "primeiro_autor": true
   },
   {
    "id": 2574524,
@@ -15,7 +26,12 @@
    "numero": 5347,
    "ano": 2025,
    "ementa": "Altera a Lei nº 10.216, de 6 de abril de 2001, para dispor sobre o atendimento prioritário e humanizado às pessoas com transtornos mentais graves e persistentes.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2574524"
+   "apresentacao": "2025-10-22",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2574524",
+   "primeiro_autor": true
   },
   {
    "id": 2573902,
@@ -23,7 +39,12 @@
    "numero": 5314,
    "ano": 2025,
    "ementa": "Altera a Lei nº 14.231, de 28 de outubro de 2021, para dispor sobre a inclusão do profissional psicólogo na estratégia saúde da família.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2573902"
+   "apresentacao": "2025-10-21",
+   "situacao": "Pronta para Pauta",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2573902",
+   "primeiro_autor": true
   },
   {
    "id": 2572614,
@@ -31,7 +52,12 @@
    "numero": 5216,
    "ano": 2025,
    "ementa": "Concede isenção do Imposto de Renda da Pessoa Física aos professores da educação básica da rede pública e privada de ensino que atingirem metas de qualidade de ensino estabelecidas com base no Índice de Desenvolvimento da Educação Básica (IDEB) e em indicadores equivalentes, e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2572614"
+   "apresentacao": "2025-10-15",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2572614",
+   "primeiro_autor": true
   },
   {
    "id": 2572437,
@@ -39,7 +65,12 @@
    "numero": 5204,
    "ano": 2025,
    "ementa": "Inclui, na grade curricular obrigatória dos cursos de Licenciaturas e Pedagogia no Ensino Superior, as disciplinas Neurociências, Física Quântica e Ensino Transdisciplinar por Problemas e/ou Necessidades, com o objetivo de transformar o processo educativo, alinhando o pensamento, visão, sentimento e ação dos estudantes, promovendo o êxito no projeto de vida de cada estudante.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2572437"
+   "apresentacao": "2025-10-15",
+   "situacao": "Aguardando Deliberação",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2572437",
+   "primeiro_autor": true
   },
   {
    "id": 2576168,
@@ -47,7 +78,12 @@
    "numero": 38,
    "ano": 2025,
    "ementa": "Altera normas sobre a Administração Pública brasileira para aperfeiçoar a governança e a gestão pública, promover a transformação digital, impulsionar a profissionalização e extinguir privilégios no serviço público.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2576168"
+   "apresentacao": "2025-10-24",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2576168",
+   "primeiro_autor": false
   }
  ]
 }

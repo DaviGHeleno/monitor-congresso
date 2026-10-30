@@ -1,5 +1,11 @@
 {
  "id": 141516,
+ "resumo": {
+  "lei": 0,
+  "aprovado": 1,
+  "tramitacao": 21,
+  "encerrado": 0
+ },
  "projetos": [
   {
    "id": 2642487,
@@ -7,7 +13,12 @@
    "numero": 4969,
    "ano": 2026,
    "ementa": "Reconhece o Município de Tiradentes, no Estado de Minas Gerais, como a Cidade Símbolo da Liberdade do Brasil.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2642487"
+   "apresentacao": "2026-08-11",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2642487",
+   "primeiro_autor": true
   },
   {
    "id": 2618047,
@@ -15,7 +26,12 @@
    "numero": 1944,
    "ano": 2026,
    "ementa": "Altera o artigo 112 da Lei de Execução Penal para repristinar as alterações que lhe haviam sido feitas pela Lei n.º 15.358, de 24 de março de 2026 – Lei Raul Jungmann.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2618047"
+   "apresentacao": "2026-04-23",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2618047",
+   "primeiro_autor": true
   },
   {
    "id": 2613075,
@@ -23,7 +39,12 @@
    "numero": 1572,
    "ano": 2026,
    "ementa": "Denomina “Rodovia Prefeito Antônio Carlos Barbosa” o trecho da rodovia BR-146 compreendido entre os Municípios de Guaxupé e São Pedro da União, no Estado de Minas Gerais.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2613075"
+   "apresentacao": "2026-04-01",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2613075",
+   "primeiro_autor": true
   },
   {
    "id": 2605057,
@@ -31,7 +52,12 @@
    "numero": 794,
    "ano": 2026,
    "ementa": "Estabelece medidas excepcionais destinadas às pessoas jurídicas instaladas em cidades da Zona da Mata do Estado de Minas Gerais afetadas pela catástrofe ambiental que assolou a região.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2605057"
+   "apresentacao": "2026-02-26",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2605057",
+   "primeiro_autor": false
   },
   {
    "id": 2605055,
@@ -39,7 +65,12 @@
    "numero": 793,
    "ano": 2026,
    "ementa": "Estabelece medida excepcional de proteção social a ser adotada no contexto do estado de calamidade pública reconhecido na Zona da Mata do Estado de Minas Gerais em decorrência dos graves eventos climáticos que atingiram a região.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2605055"
+   "apresentacao": "2026-02-26",
+   "situacao": "Aguardando Apreciação pelo Senado Federal",
+   "situacao_data": null,
+   "categoria": "aprovado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2605055",
+   "primeiro_autor": false
   },
   {
    "id": 2563199,
@@ -47,7 +78,12 @@
    "numero": 4697,
    "ano": 2025,
    "ementa": "Modifica a Lei nº 8.009, de 29 de março de 1990, para corrigir distorções e desvios na aplicabilidade do instituto da Impenhorabilidade do Bem de Família em imóveis de valor vultoso para possibilitar a penhora parcial.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2563199"
+   "apresentacao": "2025-09-22",
+   "situacao": "Aguardando Designação - Aguardando Devolução de Relator(a) que deixou de ser Membro",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2563199",
+   "primeiro_autor": true
   },
   {
    "id": 2541114,
@@ -55,7 +91,12 @@
    "numero": 3793,
    "ano": 2025,
    "ementa": "Altera os artigos 2º, 4º e 5º da Lei n. 8.186, de 21 de maio de 1991, a qual dispõe sobre a complementação de aposentadoria de ferroviários e dá outras providências, bem como, em cumprimento ao art. 5º da Lei 4950- A, de 1966 e ao 7º, IV, da Constituição Federal, estabelece nova tabela salarial aplicável a todos os ferroviários ativos, inativos e pensionistas abrangidos pelas Leis n°s 8.186, de 21 de maio de 1991, e 10.478, de 28 de junho de 2002.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2541114"
+   "apresentacao": "2025-08-06",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Autorização)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2541114",
+   "primeiro_autor": true
   },
   {
    "id": 2524296,
@@ -63,7 +104,12 @@
    "numero": 2817,
    "ano": 2025,
    "ementa": "Proíbe que as declarações prestadas por colaboradores, no âmbito de acordos de colaboração premiada, antes do trânsito em julgado da condenação criminal proferida em desfavor do delatado, possam dar ensejo à instauração de processo ou procedimento fiscal para a determinação e exigência de créditos tributários e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2524296"
+   "apresentacao": "2025-06-11",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2524296",
+   "primeiro_autor": true
   },
   {
    "id": 2582263,
@@ -71,7 +117,12 @@
    "numero": 235,
    "ano": 2025,
    "ementa": "Dá nova disciplina ao Fundo Nacional de Segurança Pública (FNSP) e ao Fundo Penitenciário Nacional (FUNPEN).",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2582263"
+   "apresentacao": "2025-11-05",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2582263",
+   "primeiro_autor": false
   },
   {
    "id": 2576168,
@@ -79,7 +130,12 @@
    "numero": 38,
    "ano": 2025,
    "ementa": "Altera normas sobre a Administração Pública brasileira para aperfeiçoar a governança e a gestão pública, promover a transformação digital, impulsionar a profissionalização e extinguir privilégios no serviço público.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2576168"
+   "apresentacao": "2025-10-24",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2576168",
+   "primeiro_autor": false
   },
   {
    "id": 2487818,
@@ -87,7 +143,12 @@
    "numero": 12,
    "ano": 2025,
    "ementa": "Altera o art. 50 da Constituição da República, para incluir o Presidente do Banco Central no rol das autoridades, que a Câmara dos Deputados e o Senado Federal, ou quaisquer de suas Comissões, podem convocar para prestar informações sobre assunto previamente determinado.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2487818"
+   "apresentacao": "2025-03-19",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2487818",
+   "primeiro_autor": false
   },
   {
    "id": 2487249,
@@ -95,7 +156,12 @@
    "numero": 10,
    "ano": 2025,
    "ementa": "Altera o Artigo 133º da Constituição Federal, que dispõe sobre a importância do exercicio do advogado, junto a administração da justiça.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2487249"
+   "apresentacao": "2025-03-17",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2487249",
+   "primeiro_autor": false
   },
   {
    "id": 2483164,
@@ -103,7 +169,12 @@
    "numero": 2,
    "ano": 2025,
    "ementa": "Dá nova redação ao Capítulo II, do Título IV, da Constituição Federal, que dispõe sobre o Poder Executivo e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2483164"
+   "apresentacao": "2025-02-06",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2483164",
+   "primeiro_autor": false
   },
   {
    "id": 2432258,
@@ -111,7 +182,12 @@
    "numero": 1686,
    "ano": 2024,
    "ementa": "Estabelece medida excepcional de proteção social a ser adotada no contexto do estado de calamidade pública novamente reconhecido no Estado do Rio Grande do Sul em decorrência da persistência dos graves eventos climáticos que já atingiram quase oitenta por cento dos municípios gaúchos.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2432258"
+   "apresentacao": "2024-05-08",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Análise)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2432258",
+   "primeiro_autor": false
   },
   {
    "id": 2432256,
@@ -119,7 +195,12 @@
    "numero": 1685,
    "ano": 2024,
    "ementa": "Estabelece medidas excepcionais destinadas às pessoas jurídicas instaladas no Estado do Rio Grande do Sul com o objetivo de criar condições para que o setor produtivo daquele ente federado possa mitigar as perdas decorrentes da persistência dos graves eventos climáticos que vitimaram seu território e institui o Recupera Rio Grande.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2432256"
+   "apresentacao": "2024-05-08",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Análise)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2432256",
+   "primeiro_autor": false
   },
   {
    "id": 2431320,
@@ -127,7 +208,12 @@
    "numero": 1599,
    "ano": 2024,
    "ementa": "Altera o Decreto-Lei nº 2.848, de 07 de dezembro de 1940 (Código Penal), a Lei nº 8.078, de 11 de setembro de 1990 (Código de Defesa do Consumidor), bem como a Lei nº 1.521, de 26 de dezembro de 1951, para dispor sobre o aumento de pena em infrações penais cometidas em tempos de calamidade.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2431320"
+   "apresentacao": "2024-05-07",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2431320",
+   "primeiro_autor": false
   },
   {
    "id": 2467670,
@@ -135,7 +221,12 @@
    "numero": 42,
    "ano": 2024,
    "ementa": "Acrescenta o inciso VI ao art. 51 da Constituição Federal, para estabelecer competência privativa à Câmara dos Deputados relativa à fiscalização das atividades das agências reguladoras.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2467670"
+   "apresentacao": "2024-11-11",
+   "situacao": "Aguardando Criação de Comissão Temporária",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2467670",
+   "primeiro_autor": false
   },
   {
    "id": 2388402,
@@ -143,7 +234,12 @@
    "numero": 4528,
    "ano": 2023,
    "ementa": "Altera a Lei 9.434, de 4 de fevereiro de 1997, que “dispõe sobre a remoção de órgãos, tecidos e partes do corpo humano para fins de transplante e tratamento e dá outras providências”, para excluir a exigência de autorização judicial como condição para que pessoas juridicamente capazes possam realizar doação de tecidos, órgãos e partes do próprio corpo vivo.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2388402"
+   "apresentacao": "2023-09-18",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2388402",
+   "primeiro_autor": true
   },
   {
    "id": 2405983,
@@ -151,7 +247,12 @@
    "numero": 63,
    "ano": 2023,
    "ementa": "Dá nova redação ao art. 195 da Constituição Federal, para substituir as contribuições sobre a folha de salários e sobre a receita ou faturamento pela contribuição sobre a movimentação ou transmissão de valores e de créditos e direitos de natureza financeira, e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2405983"
+   "apresentacao": "2023-11-22",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2405983",
+   "primeiro_autor": false
   },
   {
    "id": 2402861,
@@ -159,7 +260,12 @@
    "numero": 57,
    "ano": 2023,
    "ementa": "Altera os arts. 40 e 144 da Constituição Federal para dispor sobre as Polícias Municipais.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2402861"
+   "apresentacao": "2023-11-08",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2402861",
+   "primeiro_autor": false
   },
   {
    "id": 2380340,
@@ -167,7 +273,12 @@
    "numero": 38,
    "ano": 2023,
    "ementa": "Modifica as regras dos regimes próprios de previdência social dos servidores dos municípios, objetivando o equilíbrio financeiro e atuarial dos regimes e a sustentabilidade fiscal desses entes, e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2380340"
+   "apresentacao": "2023-08-16",
+   "situacao": "Aguardando Designação - Aguardando Devolução de Relator(a) que deixou de ser Membro",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2380340",
+   "primeiro_autor": false
   },
   {
    "id": 2363434,
@@ -175,7 +286,12 @@
    "numero": 27,
    "ano": 2023,
    "ementa": "Altera o art. 159 da Constituição Federal para disciplinar a distribuição de recursos pela União ao Fundo de Participação dos Municípios, criar os Fundos Constitucionais de financiamento das Regiões Sul e Sudeste, e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2363434"
+   "apresentacao": "2023-05-18",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2363434",
+   "primeiro_autor": false
   }
  ]
 }

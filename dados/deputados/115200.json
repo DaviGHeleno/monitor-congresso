@@ -1,5 +1,11 @@
 {
  "id": 115200,
+ "resumo": {
+  "lei": 1,
+  "aprovado": 0,
+  "tramitacao": 16,
+  "encerrado": 2
+ },
  "projetos": [
   {
    "id": 2646394,
@@ -7,7 +13,12 @@
    "numero": 5361,
    "ano": 2026,
    "ementa": "Altera a Lei nº 8.906, de 4 de julho de 1994, para dispor sobre a aferição do desempenho funcional de advogados públicos.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646394"
+   "apresentacao": "2026-09-14",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646394",
+   "primeiro_autor": true
   },
   {
    "id": 2646200,
@@ -15,7 +26,12 @@
    "numero": 5307,
    "ano": 2026,
    "ementa": "Denomina “Viaduto Empresário José Carlos da Silva Júnior” o viaduto integrante da obra de implantação e pavimentação do Arco Metropolitano de João Pessoa, PB-016, situado sobre a Rodovia BR-230, no Km 48, no Estado da Paraíba.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646200"
+   "apresentacao": "2026-09-08",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646200",
+   "primeiro_autor": true
   },
   {
    "id": 2645071,
@@ -23,7 +39,12 @@
    "numero": 5243,
    "ano": 2026,
    "ementa": "Altera a Lei nº 12.852, de 5 de agosto de 2013 (Estatuto da Juventude), e a Lei nº 12.513, de 26 de outubro de 2011, que institui o Programa Nacional de Acesso ao Ensino Técnico e Emprego (Pronatec), para incorporar a dimensão territorial na oferta de educação profissional e tecnológica e na articulação com as políticas de geração de trabalho, emprego e renda.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2645071"
+   "apresentacao": "2026-09-01",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2645071",
+   "primeiro_autor": true
   },
   {
    "id": 2644810,
@@ -31,7 +52,12 @@
    "numero": 5216,
    "ano": 2026,
    "ementa": "Altera a Lei nº 8.112, de 11 de dezembro de 1990, para dispor sobre o processo administrativo disciplinar.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644810"
+   "apresentacao": "2026-08-28",
+   "situacao": "Ag. Análise de Inconstitucionalidade",
+   "situacao_data": null,
+   "categoria": "encerrado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644810",
+   "primeiro_autor": true
   },
   {
    "id": 2639119,
@@ -39,7 +65,12 @@
    "numero": 3649,
    "ano": 2026,
    "ementa": "Reconhece como Patrimônio Cultural Imaterial do Brasil a Festa da Luz, realizada anualmente no Município de Guarabira, Estado da Paraíba.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2639119"
+   "apresentacao": "2026-07-13",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2639119",
+   "primeiro_autor": true
   },
   {
    "id": 2637494,
@@ -47,7 +78,12 @@
    "numero": 3511,
    "ano": 2026,
    "ementa": "Altera a Lei nº 14.914, de 3 de julho de 2024, para dispor sobre o reajuste periódico da bolsa permanência.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2637494"
+   "apresentacao": "2026-07-07",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2637494",
+   "primeiro_autor": true
   },
   {
    "id": 2629580,
@@ -55,7 +91,12 @@
    "numero": 2786,
    "ano": 2026,
    "ementa": "Dispõe sobre a obrigatoriedade de informação ambiental e implementação de pontos de coleta para descarte adequado de papel siliconado utilizado em figurinhas e álbuns oficias de eventos esportivos, culturais e colecionáveis.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2629580"
+   "apresentacao": "2026-06-02",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2629580",
+   "primeiro_autor": true
   },
   {
    "id": 2647060,
@@ -63,7 +104,12 @@
    "numero": 262,
    "ano": 2026,
    "ementa": "Altera a Lei Complementar nº 214, de 2025, para incluir expressamente pessoas com Síndrome de Down entre os beneficiários da redução a zero das alíquotas do Imposto sobre Bens e Serviços – IBS e da Contribuição sobre Bens e Serviços – CBS na aquisição de automóveis de passageiros.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2647060"
+   "apresentacao": "2026-09-24",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2647060",
+   "primeiro_autor": true
   },
   {
    "id": 2644800,
@@ -71,7 +117,12 @@
    "numero": 16,
    "ano": 2026,
    "ementa": "Acrescenta os art. 68-A no Ato das Disposições Constitucionais Transitórias para ratificar os registros de imóveis rurais em faixa de fronteira concedidos pelos estados antes da promulgação desta Constituição Federal e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644800"
+   "apresentacao": "2026-08-28",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644800",
+   "primeiro_autor": false
   },
   {
    "id": 2427541,
@@ -79,7 +130,12 @@
    "numero": 1304,
    "ano": 2024,
    "ementa": "DECLARA O ALGODÃO COLORIDO PATRIMÔNIO CULTURAL IMATERIAL DO BRASIL .",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2427541"
+   "apresentacao": "2024-04-17",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2427541",
+   "primeiro_autor": true
   },
   {
    "id": 2423948,
@@ -87,7 +143,12 @@
    "numero": 1014,
    "ano": 2024,
    "ementa": "Dispõe sobre a instituição do “Programa Nacional Engenheiros para o Brasil\", destinado a promover a atuação técnica de profissionais da engenharia para o desenvolvimento de políticas públicas e projetos de infraestrutura na execução dos convênios firmados entre os Municípios e a União.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2423948"
+   "apresentacao": "2024-03-27",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2423948",
+   "primeiro_autor": true
   },
   {
    "id": 2422023,
@@ -95,7 +156,12 @@
    "numero": 871,
    "ano": 2024,
    "ementa": "Institui em todo território nacional, no âmbito do Sistema Único de Saúde-SUS, a obrigatoriedade de realização do exame espirométrico para pacientes em tratamento e inscritos nos programas de cessação do tabagismo.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2422023"
+   "apresentacao": "2024-03-19",
+   "situacao": "Pronta para Pauta",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2422023",
+   "primeiro_autor": true
   },
   {
    "id": 2418975,
@@ -103,7 +169,12 @@
    "numero": 499,
    "ano": 2024,
    "ementa": "Institui, no âmbito da União, dos Estados, do Distrito Federal e dos Municípios, a Campanha Nacional de Conscientização e Prevenção das Doenças Respiratórias, denominada \"Junho Violeta, Mês do Pulmão\".",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2418975"
+   "apresentacao": "2024-02-28",
+   "situacao": "Pronta para Pauta",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2418975",
+   "primeiro_autor": true
   },
   {
    "id": 2418296,
@@ -111,7 +182,12 @@
    "numero": 342,
    "ano": 2024,
    "ementa": "Dispõe sobre a obrigatoriedade de os hospitais de médio e grande porte disporem de, pelo menos, um intérprete da Língua Brasileira de Sinais (Libras).",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2418296"
+   "apresentacao": "2024-02-21",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2418296",
+   "primeiro_autor": true
   },
   {
    "id": 2418294,
@@ -119,7 +195,12 @@
    "numero": 341,
    "ano": 2024,
    "ementa": "Institui o Dia Nacional da Educação Midiática.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2418294"
+   "apresentacao": "2024-02-21",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2418294",
+   "primeiro_autor": true
   },
   {
    "id": 2418293,
@@ -127,7 +208,12 @@
    "numero": 340,
    "ano": 2024,
    "ementa": "Inscreve o nome de Epitácio Lindolfo da Silva Pessoa no Livro dos Heróis e Heroínas da Pátria.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2418293"
+   "apresentacao": "2024-02-21",
+   "situacao": "Arquivada",
+   "situacao_data": null,
+   "categoria": "encerrado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2418293",
+   "primeiro_autor": true
   },
   {
    "id": 2417314,
@@ -135,7 +221,12 @@
    "numero": 162,
    "ano": 2024,
    "ementa": "Institui a Semana Nacional da Ética e da Cidadania, a ser comemorada, anualmente, em todo o território nacional, na primeira semana de maio, e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2417314"
+   "apresentacao": "2024-02-06",
+   "situacao": "Transformado em Norma Jurídica",
+   "situacao_data": null,
+   "categoria": "lei",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2417314",
+   "primeiro_autor": true
   },
   {
    "id": 2428346,
@@ -143,7 +234,12 @@
    "numero": 14,
    "ano": 2024,
    "ementa": "Altera o art. 6º da Constituição Federal, para positivar o direito aos cuidados no rol de direitos sociais.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2428346"
+   "apresentacao": "2024-04-19",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2428346",
+   "primeiro_autor": false
   },
   {
    "id": 2419252,
@@ -151,7 +247,12 @@
    "numero": 6,
    "ano": 2024,
    "ementa": "Altera o inciso X do § 22 e insere o § 21-A no art. 40 da Constituição, altera o art. 11 da Emenda Constitucional nº 103, de 12 de novembro de 2019 e revoga os §§ 1º-A, 1º-B e 1º-C do art. 149 da Constituição e o § 8º do art. 9º da Emenda Constitucional nº 103, de 2019.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2419252"
+   "apresentacao": "2024-03-05",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2419252",
+   "primeiro_autor": false
   }
  ]
 }

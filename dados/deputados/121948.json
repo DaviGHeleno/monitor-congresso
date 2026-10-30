@@ -1,5 +1,11 @@
 {
  "id": 121948,
+ "resumo": {
+  "lei": 0,
+  "aprovado": 1,
+  "tramitacao": 20,
+  "encerrado": 2
+ },
  "projetos": [
   {
    "id": 2626214,
@@ -7,7 +13,12 @@
    "numero": 2501,
    "ano": 2026,
    "ementa": "Dispõe sobre a isenção do Imposto sobre Produtos Industrializados – IPI na aquisição de veículos automotores utilitários por feirantes, e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2626214"
+   "apresentacao": "2026-05-20",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2626214",
+   "primeiro_autor": true
   },
   {
    "id": 2610267,
@@ -15,7 +26,12 @@
    "numero": 1252,
    "ano": 2026,
    "ementa": "Institui, no âmbito da União, o Dia Nacional do Povo Cigano, inscreve essa efeméride no calendário oficial da República Federativa do Brasil e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2610267"
+   "apresentacao": "2026-03-18",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2610267",
+   "primeiro_autor": true
   },
   {
    "id": 2633488,
@@ -23,7 +39,12 @@
    "numero": 15,
    "ano": 2026,
    "ementa": "Altera os art. 150 Constituição Federal para incluir as entidades esportivas sem fins lucrativos.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2633488"
+   "apresentacao": "2026-06-17",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2633488",
+   "primeiro_autor": false
   },
   {
    "id": 2564460,
@@ -31,7 +52,12 @@
    "numero": 4763,
    "ano": 2025,
    "ementa": "Altera a Lei nº 9.503, de 23 de setembro de 1997 (Código de Trânsito Brasileiro), para criar tipo penal específico para homicídio doloso na direção de veículo automotor em estado de embriaguez ou sob influência de drogas, e dá outras providências",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2564460"
+   "apresentacao": "2025-09-24",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2564460",
+   "primeiro_autor": true
   },
   {
    "id": 2514842,
@@ -39,7 +65,12 @@
    "numero": 2437,
    "ano": 2025,
    "ementa": "Confere ao Município de Jesúpolis, no Estado de Goiás, o título de Capital Nacional da Pamonha, reconhecendo sua contribuição significativa para a produção, preservação e promoção deste prato da culinária brasileira, bem como seu compromisso com o fortalecimento do turismo, da agricultura e da cultura regional ligadas ao milho e às tradições goianas",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2514842"
+   "apresentacao": "2025-05-21",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2514842",
+   "primeiro_autor": true
   },
   {
    "id": 2495609,
@@ -47,7 +78,12 @@
    "numero": 1561,
    "ano": 2025,
    "ementa": "Institui o Dia Nacional do Muladeiro e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2495609"
+   "apresentacao": "2025-04-08",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2495609",
+   "primeiro_autor": true
   },
   {
    "id": 2567768,
@@ -55,7 +91,12 @@
    "numero": 800,
    "ano": 2025,
    "ementa": "Susta os efeitos da Consulta Pública Processo: 50000.034372/2025-74 de 02/10/2025, emitida pela Secretaria de Nacional de Trânsito – SENATRAN, que trata de Minuta de Resolução que “normatiza os procedimentos sobre a aprendizagem, habilitação e expedição de documentos de condutores e o processo de formação do candidato à obtenção da Carteira Nacional de Habilitação ou da Autorização para Conduzir Ciclomotor”.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2567768"
+   "apresentacao": "2025-10-07",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Autorização)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2567768",
+   "primeiro_autor": false
   },
   {
    "id": 2475876,
@@ -63,7 +104,12 @@
    "numero": 4692,
    "ano": 2024,
    "ementa": "Institui o Programa Nacional de Agroecologia e Tecnologias Sustentáveis para a Agricultura Familiar (PNATS) e dispõe sobre incentivos ao uso de práticas agroecológicas e sistemas de energia limpa no setor.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2475876"
+   "apresentacao": "2024-12-04",
+   "situacao": "Arquivada",
+   "situacao_data": null,
+   "categoria": "encerrado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2475876",
+   "primeiro_autor": true
   },
   {
    "id": 2475451,
@@ -71,7 +117,12 @@
    "numero": 4673,
    "ano": 2024,
    "ementa": "Institui o Programa de Infraestrutura Rural Sustentável e dispõe sobre a construção e manutenção de estradas vicinais em áreas rurais, com foco em práticas sustentáveis e desenvolvimento regional",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2475451"
+   "apresentacao": "2024-12-04",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2475451",
+   "primeiro_autor": true
   },
   {
    "id": 2475428,
@@ -79,7 +130,12 @@
    "numero": 4672,
    "ano": 2024,
    "ementa": "Institui o Programa “Internet Rural para Todos” e dá outras providências",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2475428"
+   "apresentacao": "2024-12-04",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2475428",
+   "primeiro_autor": true
   },
   {
    "id": 2475418,
@@ -87,7 +143,12 @@
    "numero": 4671,
    "ano": 2024,
    "ementa": "Institui a Plataforma de Integração de Municípios e Universidades (PLIMU), com o objetivo de promover o desenvolvimento sustentável de pequenos municípios por meio da cooperação com universidades e centros de pesquisa.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2475418"
+   "apresentacao": "2024-12-04",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2475418",
+   "primeiro_autor": true
   },
   {
    "id": 2472400,
@@ -95,7 +156,12 @@
    "numero": 4552,
    "ano": 2024,
    "ementa": "Institui o Programa de Crédito Rural Simplificado e dá outras providências",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2472400"
+   "apresentacao": "2024-11-27",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2472400",
+   "primeiro_autor": true
   },
   {
    "id": 2472398,
@@ -103,7 +169,12 @@
    "numero": 4551,
    "ano": 2024,
    "ementa": "Institui o Programa de Reabilitação Profissional para Mulheres Idosas",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2472398"
+   "apresentacao": "2024-11-27",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2472398",
+   "primeiro_autor": true
   },
   {
    "id": 2429670,
@@ -111,7 +182,12 @@
    "numero": 1414,
    "ano": 2024,
    "ementa": "“ Inclui no Calendário Turístico Nacional a Festa da Mandioca, no município de Bela Vista de Goiás, Estado de Goiás .”",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2429670"
+   "apresentacao": "2024-04-24",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2429670",
+   "primeiro_autor": true
   },
   {
    "id": 2428094,
@@ -119,7 +195,12 @@
    "numero": 1323,
    "ano": 2024,
    "ementa": "Prorroga o prazo estabelecido pela Lei 14.026/2020 para encerramento dos lixões em municípios com menos de 50 mil habitantes e estabelece medidas alternativas para a gestão de resíduos sólidos.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2428094"
+   "apresentacao": "2024-04-17",
+   "situacao": "Pronta para Pauta",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2428094",
+   "primeiro_autor": true
   },
   {
    "id": 2418358,
@@ -127,7 +208,12 @@
    "numero": 367,
    "ano": 2024,
    "ementa": "Dispõe sobre a inclusão do Congresso Nacional de Administração (CONAD) no calendário Cívico, Cultural e Turístico do Brasil.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2418358"
+   "apresentacao": "2024-02-21",
+   "situacao": "Retirado pelo(a) Autor(a)",
+   "situacao_data": null,
+   "categoria": "encerrado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2418358",
+   "primeiro_autor": true
   },
   {
    "id": 2390019,
@@ -135,7 +221,12 @@
    "numero": 4634,
    "ano": 2023,
    "ementa": "Confere ao Município de Hidrolândia, no Estado de Goiás, o título de Capital Nacional da Jabuticaba, reconhecendo sua contribuição significativa para a produção e preservação desta fruta emblemática, bem como seu compromisso com a promoção do turismo e da cultura relacionados à jabuticabeira.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2390019"
+   "apresentacao": "2023-09-25",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2390019",
+   "primeiro_autor": true
   },
   {
    "id": 2357500,
@@ -143,7 +234,12 @@
    "numero": 2028,
    "ano": 2023,
    "ementa": "Dispõe sobre o endurecimento da fiscalização e o cumprimento da faixa etária para jogos eletrônicos.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2357500"
+   "apresentacao": "2023-04-19",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2357500",
+   "primeiro_autor": true
   },
   {
    "id": 2349706,
@@ -151,7 +247,12 @@
    "numero": 763,
    "ano": 2023,
    "ementa": "Altera a Lei no 10.406, de 10 de janeiro de 2002 (Código Civil), para possibilitar a USUCAPIÃO FAMILIAR ESPECIAL de pessoa vítima de violência doméstica, pessoa idosa ou pessoa com deficiência.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2349706"
+   "apresentacao": "2023-03-01",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2349706",
+   "primeiro_autor": true
   },
   {
    "id": 2354228,
@@ -159,7 +260,12 @@
    "numero": 88,
    "ano": 2023,
    "ementa": "Susta os efeitos do artigo 18 do Decreto nº. 10.540 de 5 de novembro de 2020, que “Dispõe sobre o padrão mínimo de qualidade do Sistema Único e Integrado de Execução Orçamentária, Administração Financeira e Controle.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2354228"
+   "apresentacao": "2023-03-29",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2354228",
+   "primeiro_autor": true
   },
   {
    "id": 2404706,
@@ -167,7 +273,12 @@
    "numero": 62,
    "ano": 2023,
    "ementa": "Altera o artigo 122 do Ato das Disposições Constitucionais Transitórias.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2404706"
+   "apresentacao": "2023-11-21",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2404706",
+   "primeiro_autor": false
   },
   {
    "id": 2380340,
@@ -175,7 +286,12 @@
    "numero": 38,
    "ano": 2023,
    "ementa": "Modifica as regras dos regimes próprios de previdência social dos servidores dos municípios, objetivando o equilíbrio financeiro e atuarial dos regimes e a sustentabilidade fiscal desses entes, e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2380340"
+   "apresentacao": "2023-08-16",
+   "situacao": "Aguardando Designação - Aguardando Devolução de Relator(a) que deixou de ser Membro",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2380340",
+   "primeiro_autor": false
   },
   {
    "id": 2351506,
@@ -183,7 +299,12 @@
    "numero": 5,
    "ano": 2023,
    "ementa": "Acrescenta § 4º-A ao art. 150 da Constituição Federal, para dispor sobre a imunidade tributária de que tratam as suas alíneas “b” e “c” do inciso VI.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2351506"
+   "apresentacao": "2023-03-15",
+   "situacao": "Aguardando Apreciação pelo Senado Federal",
+   "situacao_data": null,
+   "categoria": "aprovado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2351506",
+   "primeiro_autor": false
   }
  ]
 }

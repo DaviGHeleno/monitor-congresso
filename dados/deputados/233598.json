@@ -1,5 +1,11 @@
 {
  "id": 233598,
+ "resumo": {
+  "lei": 0,
+  "aprovado": 0,
+  "tramitacao": 7,
+  "encerrado": 0
+ },
  "projetos": [
   {
    "id": 2581258,
@@ -7,7 +13,12 @@
    "numero": 5629,
    "ano": 2025,
    "ementa": "Institui o programa Parceria Empresa Escola, com a concessão de incentivo fiscal do Imposto sobre a Renda da Pessoa Jurídica (IRPJ) às empresas que executarem reformas e estruturações de escolas de ensino fundamental e ensino médio.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2581258"
+   "apresentacao": "2025-11-04",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2581258",
+   "primeiro_autor": true
   },
   {
    "id": 2574160,
@@ -15,7 +26,12 @@
    "numero": 5335,
    "ano": 2025,
    "ementa": "Altera a Lei nº 9.985, de 18 de julho de 2000, e a Lei nº 12.651, de 25 de maio de 2012, para incluir diretrizes para a conectividade ecológica de unidades de conservação e outras áreas legalmente protegidas, além de dispositivos sobre criação e gestão de corredores ecológicos.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2574160"
+   "apresentacao": "2025-10-21",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2574160",
+   "primeiro_autor": true
   },
   {
    "id": 2572469,
@@ -23,7 +39,12 @@
    "numero": 5207,
    "ano": 2025,
    "ementa": "Dispõe sobre a isenção do Imposto de Importação e do Imposto sobre Produtos Industrializados incidentes sobre a importação e comercialização no mercado interno de instrumentos musicais novos acústicos e eletrônicos, quando adquiridos por escolas, institutos e associações de ensino gratuito de música.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2572469"
+   "apresentacao": "2025-10-15",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2572469",
+   "primeiro_autor": true
   },
   {
    "id": 2561205,
@@ -31,7 +52,12 @@
    "numero": 4592,
    "ano": 2025,
    "ementa": "Dispõe sobre a criação do “Programa de Medicina preventiva Escolar”, por meio da articulação entre o Programa de Saúde da Família – PSF e o Programa Saúde na Escola – PSE e do fortalecimento do Programa Mais Médicos para o Brasil.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2561205"
+   "apresentacao": "2025-09-16",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2561205",
+   "primeiro_autor": true
   },
   {
    "id": 2561190,
@@ -39,7 +65,12 @@
    "numero": 4589,
    "ano": 2025,
    "ementa": "Institui o Dia Nacional da Gratidão.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2561190"
+   "apresentacao": "2025-09-16",
+   "situacao": "Pronta para Pauta",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2561190",
+   "primeiro_autor": true
   },
   {
    "id": 2557019,
@@ -47,7 +78,12 @@
    "numero": 4423,
    "ano": 2025,
    "ementa": "Cria o Programa de Incentivo à Industrialização Regional Descentralizada (PIRD) e estabelece diretrizes para a atração e instalação de indústrias em zonas rurais e municípios com população inferior a 150 mil habitantes, situados até 100 km do município com população superior a 500 mil habitantes.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2557019"
+   "apresentacao": "2025-09-03",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2557019",
+   "primeiro_autor": true
   },
   {
    "id": 2591196,
@@ -55,7 +91,12 @@
    "numero": 46,
    "ano": 2025,
    "ementa": "Altera a redação do § 4º do art. 212 da Constituição Federal para considerar o programa de alimentação escolar como despesa de manutenção e desenvolvimento de ensino.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2591196"
+   "apresentacao": "2025-12-02",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2591196",
+   "primeiro_autor": false
   }
  ]
 }

@@ -1,5 +1,11 @@
 {
  "id": 229259,
+ "resumo": {
+  "lei": 0,
+  "aprovado": 0,
+  "tramitacao": 4,
+  "encerrado": 0
+ },
  "projetos": [
   {
    "id": 2465106,
@@ -7,7 +13,12 @@
    "numero": 4115,
    "ano": 2024,
    "ementa": "Altera a Lei n. 7.797 de 10 de JULHO de 1989 e a Lei n. 9.250, de 26 de dezembro de 1995 para autorizar a dedução do imposto de renda devido pelas pessoas físicas e jurídicas as doações efetuadas aos Fundos Municipais, Estaduais e Nacional do Meio Ambiente e de Enfrentamento aos Efeitos da Emergência Climática.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2465106"
+   "apresentacao": "2024-10-29",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2465106",
+   "primeiro_autor": true
   },
   {
    "id": 2457350,
@@ -15,7 +26,12 @@
    "numero": 3492,
    "ano": 2024,
    "ementa": "Assegura às pessoas hipossuficientes a assistência técnica pública e gratuita para preservação de bens de interesse cultural.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2457350"
+   "apresentacao": "2024-09-10",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2457350",
+   "primeiro_autor": true
   },
   {
    "id": 2463235,
@@ -23,7 +39,12 @@
    "numero": 165,
    "ano": 2024,
    "ementa": "Altera a Lei Complementar nº 200, de 2023, para excluir dos limites do Novo Arcabouço Fiscal as despesas que especifica.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2463235"
+   "apresentacao": "2024-10-17",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2463235",
+   "primeiro_autor": false
   },
   {
    "id": 2447265,
@@ -31,7 +52,12 @@
    "numero": 27,
    "ano": 2024,
    "ementa": "Altera a Constituição Federal para acrescentar o Capítulo IX - Da Promoção Da Igualdade Racial, que institui o Fundo Nacional de Reparação Econômica e de Promoção da Igualdade Racial (FNREPIR) com o objetivo de promover a igualdade de oportunidades e a inclusão social dos brasileiros pretos e pardos, e dá outras providências",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2447265"
+   "apresentacao": "2024-07-08",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2447265",
+   "primeiro_autor": false
   }
  ]
 }

@@ -1,5 +1,11 @@
 {
  "id": 227800,
+ "resumo": {
+  "lei": 0,
+  "aprovado": 0,
+  "tramitacao": 3,
+  "encerrado": 1
+ },
  "projetos": [
   {
    "id": 2439351,
@@ -7,7 +13,12 @@
    "numero": 2272,
    "ano": 2024,
    "ementa": "Dispõe sobre o transporte rodoviário de cargas que contenham donativos destinados a regiões em estado de calamidade pública reconhecido pelo Governo Federal",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2439351"
+   "apresentacao": "2024-06-10",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2439351",
+   "primeiro_autor": true
   },
   {
    "id": 2427043,
@@ -15,7 +26,12 @@
    "numero": 1277,
    "ano": 2024,
    "ementa": "Destina percentual de 5% (cinco por cento) da Compensação Financeira pela Exploração de Recursos Minerais (CFEM) a órgãos municipais de meio ambiente e projetos ambientais.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2427043"
+   "apresentacao": "2024-04-16",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2427043",
+   "primeiro_autor": true
   },
   {
    "id": 2425738,
@@ -23,7 +39,12 @@
    "numero": 1185,
    "ano": 2024,
    "ementa": "Institui o Selo “Produzido com Ingredientes Exclusivamente Nacionais”, concedido aos fabricantes de leite em pó que utilizem ingredientes exclusivamente nacionais na fabricação do produto.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2425738"
+   "apresentacao": "2024-04-10",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2425738",
+   "primeiro_autor": true
   },
   {
    "id": 2425720,
@@ -31,7 +52,12 @@
    "numero": 1182,
    "ano": 2024,
    "ementa": "Altera a Lei nº 8.112/1990 para dispor sobre ausência ao serviço público para realização de exames preventivos de câncer de mama e de próstata.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2425720"
+   "apresentacao": "2024-04-10",
+   "situacao": "Devolvida ao(à) Autor(a)",
+   "situacao_data": null,
+   "categoria": "encerrado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2425720",
+   "primeiro_autor": true
   }
  ]
 }

@@ -1,5 +1,11 @@
 {
  "id": 194260,
+ "resumo": {
+  "lei": 0,
+  "aprovado": 0,
+  "tramitacao": 2,
+  "encerrado": 0
+ },
  "projetos": [
   {
    "id": 2643956,
@@ -7,7 +13,12 @@
    "numero": 5109,
    "ano": 2026,
    "ementa": "Altera a Lei nº 15.211, de 17 de setembro de 2025, que dispõe sobre a proteção de crianças e adolescentes em ambientes digitais (Estatuto Digital da Criança e do Adolescente), para estabelecer regras de proteção de crianças e adolescentes na adoção e no uso de tecnologias educacionais.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643956"
+   "apresentacao": "2026-08-18",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643956",
+   "primeiro_autor": true
   },
   {
    "id": 2644800,
@@ -15,7 +26,12 @@
    "numero": 16,
    "ano": 2026,
    "ementa": "Acrescenta os art. 68-A no Ato das Disposições Constitucionais Transitórias para ratificar os registros de imóveis rurais em faixa de fronteira concedidos pelos estados antes da promulgação desta Constituição Federal e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644800"
+   "apresentacao": "2026-08-28",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644800",
+   "primeiro_autor": false
   }
  ]
 }

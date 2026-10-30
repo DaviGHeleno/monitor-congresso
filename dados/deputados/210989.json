@@ -1,5 +1,11 @@
 {
  "id": 210989,
+ "resumo": {
+  "lei": 0,
+  "aprovado": 2,
+  "tramitacao": 42,
+  "encerrado": 3
+ },
  "projetos": [
   {
    "id": 2639821,
@@ -7,7 +13,12 @@
    "numero": 3730,
    "ano": 2026,
    "ementa": "Dispõe sobre a oferta de próteses e dispositivos de reabilitação para pacientes com perdas de substância corporal decorrentes de doenças, síndromes ou traumas, no âmbito do Sistema Único de Saúde (SUS), e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2639821"
+   "apresentacao": "2026-07-15",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2639821",
+   "primeiro_autor": true
   },
   {
    "id": 2639820,
@@ -15,7 +26,12 @@
    "numero": 3729,
    "ano": 2026,
    "ementa": "Cria a Universidade Federal da Enfermagem.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2639820"
+   "apresentacao": "2026-07-15",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Autorização)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2639820",
+   "primeiro_autor": true
   },
   {
    "id": 2639819,
@@ -23,7 +39,12 @@
    "numero": 3728,
    "ano": 2026,
    "ementa": "Dispõe sobre o dimensionamento mínimo das equipes do Serviço de Atendimento Móvel de Urgência (SAMU), estabelece parâmetros para a composição dos profissionais da enfermagem nas unidades móveis de atendimento pré-hospitalar e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2639819"
+   "apresentacao": "2026-07-15",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2639819",
+   "primeiro_autor": true
   },
   {
    "id": 2639818,
@@ -31,7 +52,12 @@
    "numero": 3727,
    "ano": 2026,
    "ementa": "Esta Lei estabelece o padrão mínimo de funcionamento das Instituições de Longa Permanência para Idosos e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2639818"
+   "apresentacao": "2026-07-15",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2639818",
+   "primeiro_autor": true
   },
   {
    "id": 2635553,
@@ -39,7 +65,12 @@
    "numero": 3338,
    "ano": 2026,
    "ementa": "Dispõe sobre a obrigatoriedade de assistência médica e hospitalar aos profissionais de enfermagem pelas instituições de saúde empregadoras e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2635553"
+   "apresentacao": "2026-06-30",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2635553",
+   "primeiro_autor": true
   },
   {
    "id": 2634570,
@@ -47,7 +78,12 @@
    "numero": 3240,
    "ano": 2026,
    "ementa": "Institui o Dia Nacional da Cirurgia Segura, a ser celebrado anualmente em 17 de junho, e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2634570"
+   "apresentacao": "2026-06-22",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2634570",
+   "primeiro_autor": true
   },
   {
    "id": 2633488,
@@ -55,7 +91,12 @@
    "numero": 15,
    "ano": 2026,
    "ementa": "Altera os art. 150 Constituição Federal para incluir as entidades esportivas sem fins lucrativos.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2633488"
+   "apresentacao": "2026-06-17",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2633488",
+   "primeiro_autor": false
   },
   {
    "id": 2604173,
@@ -63,7 +104,12 @@
    "numero": 3,
    "ano": 2026,
    "ementa": "Altera o art. 155 da Constituição Federal para estabelecer alíquota máxima e base de cálculo exclusiva do Imposto sobre a Propriedade de Veículos Automotores – IPVA, e acrescenta dispositivos ao Ato das Disposições Constitucionais Transitórias para limitar despesas com publicidade institucional e com o Poder Legislativo.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2604173"
+   "apresentacao": "2026-02-24",
+   "situacao": "Aguardando Criação de Comissão Temporária",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2604173",
+   "primeiro_autor": false
   },
   {
    "id": 2592083,
@@ -71,7 +117,12 @@
    "numero": 6146,
    "ano": 2025,
    "ementa": "Fica instituído o Estatuto do Parto Humanizado para garantir atendimento interdisciplinar à mulher e ao recém-nascido por um enfermeiro obstetra ou obstetriz na assistência ao trabalho de parto, parto, nascimento e período puerperal nas instituições públicas e privadas de saúde em âmbito nacional e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2592083"
+   "apresentacao": "2025-12-03",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2592083",
+   "primeiro_autor": true
   },
   {
    "id": 2529077,
@@ -79,7 +130,12 @@
    "numero": 3108,
    "ano": 2025,
    "ementa": "\"Dispõe sobre a criação e manutenção de uma plataforma eletrônica de transparência sobre os repasses e pagamentos relativos ao Piso Nacional da Enfermagem e dá outras providências.\"",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2529077"
+   "apresentacao": "2025-06-27",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2529077",
+   "primeiro_autor": true
   },
   {
    "id": 2582387,
@@ -87,7 +143,12 @@
    "numero": 236,
    "ano": 2025,
    "ementa": "Dispõe sobre a aposentadoria especial dos profissionais de Enfermagem, na forma dos artigos 201, § 1º, inciso II, e 40, § 4º-C, da Constituição Federal, e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2582387"
+   "apresentacao": "2025-11-06",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2582387",
+   "primeiro_autor": true
   },
   {
    "id": 2482673,
@@ -95,7 +156,12 @@
    "numero": 213,
    "ano": 2025,
    "ementa": "Institui o Programa Nacional de Apoio à Aquisição de Habitação para Profissionais da Enfermagem e dá outras providencias.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2482673"
+   "apresentacao": "2025-02-04",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2482673",
+   "primeiro_autor": true
   },
   {
    "id": 2482663,
@@ -103,7 +169,12 @@
    "numero": 203,
    "ano": 2025,
    "ementa": "Esta lei regulamenta o exercício da profissão de Cuidador de idosos.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2482663"
+   "apresentacao": "2025-02-04",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2482663",
+   "primeiro_autor": true
   },
   {
    "id": 2482644,
@@ -111,7 +182,12 @@
    "numero": 190,
    "ano": 2025,
    "ementa": "Estabelece critérios para o reenquadramento dos Auxiliares de Enfermagem em Técnicos de Enfermagem.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2482644"
+   "apresentacao": "2025-02-04",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2482644",
+   "primeiro_autor": true
   },
   {
    "id": 2544926,
@@ -119,7 +195,12 @@
    "numero": 31,
    "ano": 2025,
    "ementa": "Altera os arts. 5º e 10 da Emenda Constitucional nº 103, de 12 de novembro de 2019, para reduzir a idade de aposentadoria da mulher ocupante de cargo de agente penitenciário, agente socioeducativo ou de policial dos órgãos referidos.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2544926"
+   "apresentacao": "2025-08-13",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2544926",
+   "primeiro_autor": false
   },
   {
    "id": 2499794,
@@ -127,7 +208,12 @@
    "numero": 17,
    "ano": 2025,
    "ementa": "Acrescenta os §§ 11, 12 e 13 ao art. 144 da Constituição Federal, para instituir o piso salarial dos servidores policiais civis e militares e bombeiros militares.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2499794"
+   "apresentacao": "2025-04-23",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2499794",
+   "primeiro_autor": false
   },
   {
    "id": 2485767,
@@ -135,7 +221,12 @@
    "numero": 9,
    "ano": 2025,
    "ementa": "Acrescenta o § 16 ao art. 198 da Constituição Federal, para dispor sobre as diretrizes para os Planos de Carreira e os pisos salariais nacionais dos profissionais de saúde do Sistema Único de Saúde.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2485767"
+   "apresentacao": "2025-02-27",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2485767",
+   "primeiro_autor": false
   },
   {
    "id": 2485341,
@@ -143,7 +234,12 @@
    "numero": 8,
    "ano": 2025,
    "ementa": "Dá nova redação ao inciso XIII, do artigo 7° da Constituição Federal para dispor sobre a redução da jornada de trabalho para quatro dias por semana no Brasil.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2485341"
+   "apresentacao": "2025-02-25",
+   "situacao": "Arquivada",
+   "situacao_data": null,
+   "categoria": "encerrado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2485341",
+   "primeiro_autor": false
   },
   {
    "id": 2483164,
@@ -151,7 +247,12 @@
    "numero": 2,
    "ano": 2025,
    "ementa": "Dá nova redação ao Capítulo II, do Título IV, da Constituição Federal, que dispõe sobre o Poder Executivo e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2483164"
+   "apresentacao": "2025-02-06",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2483164",
+   "primeiro_autor": false
   },
   {
    "id": 2477164,
@@ -159,7 +260,12 @@
    "numero": 4760,
    "ano": 2024,
    "ementa": "Inclui o inciso V no parágrafo primeiro do artigo 3º-A da Lei nº 12.764 de 27 de Dezembro de 2012 para dispor sobre a obrigatoriedade de todas as Carteiras de Identificação da Pessoa com Transtorno do Espectro Autista (Ciptea), conterem um QR CODE com as principais informações.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2477164"
+   "apresentacao": "2024-12-09",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2477164",
+   "primeiro_autor": true
   },
   {
    "id": 2476525,
@@ -167,7 +273,12 @@
    "numero": 4718,
    "ano": 2024,
    "ementa": "Institui objetivos e diretrizes relacionados com a inserção de Enfermeiros, Técnicos e Auxiliares de Enfermagem recém-formados no mercado de trabalho em todo país.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2476525"
+   "apresentacao": "2024-12-05",
+   "situacao": "Pronta para Pauta",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2476525",
+   "primeiro_autor": true
   },
   {
    "id": 2473784,
@@ -175,7 +286,12 @@
    "numero": 4627,
    "ano": 2024,
    "ementa": "Determina a obrigatoriedade de capacitação dos agentes de segurança pública e privada nas abordagens/ocorrências que envolvam pessoas com Transtorno do Espectro Autista (TEA).",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2473784"
+   "apresentacao": "2024-12-02",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2473784",
+   "primeiro_autor": true
   },
   {
    "id": 2455553,
@@ -183,7 +299,12 @@
    "numero": 3336,
    "ano": 2024,
    "ementa": "“Dispõe sobre a criação da Universidade Federal do Vale do Mucuri no Estado de Minas Gerais, com sede na cidade de Teofilo Otoni”.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2455553"
+   "apresentacao": "2024-08-27",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2455553",
+   "primeiro_autor": true
   },
   {
    "id": 2449299,
@@ -191,7 +312,12 @@
    "numero": 2897,
    "ano": 2024,
    "ementa": "Cria o \"Paraíso Nacional das Rochas\" no Nordeste de Minas Gerais, abrangendo os Vales do Jequitinhonha e do Mucuri, e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2449299"
+   "apresentacao": "2024-07-15",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2449299",
+   "primeiro_autor": true
   },
   {
    "id": 2424619,
@@ -199,7 +325,12 @@
    "numero": 1091,
    "ano": 2024,
    "ementa": "Estabelece parâmetros mínimos para dimensionar o quantitativo de profissionais das diferentes categorias de enfermagem para os serviços e locais em que são realizadas atividades de enfermagem.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2424619"
+   "apresentacao": "2024-04-04",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2424619",
+   "primeiro_autor": true
   },
   {
    "id": 2420867,
@@ -207,7 +338,12 @@
    "numero": 745,
    "ano": 2024,
    "ementa": "Acrescenta os artigos 15-F e 15-G na Lei nº 7.498, de 25 de junho de 1986, a fim de dispor sobre a jornada de trabalho dos profissionais de enfermagem.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2420867"
+   "apresentacao": "2024-03-13",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2420867",
+   "primeiro_autor": true
   },
   {
    "id": 2420809,
@@ -215,7 +351,12 @@
    "numero": 743,
    "ano": 2024,
    "ementa": "Altera o artigo 192 do Decreto-Lei nº 5.452, de 1º de Maio de 1943, a fim de dispor sobre o adicional de insalubridade devido aos profissionais de enfermagem.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2420809"
+   "apresentacao": "2024-03-13",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2420809",
+   "primeiro_autor": true
   },
   {
    "id": 2453702,
@@ -223,7 +364,12 @@
    "numero": 134,
    "ano": 2024,
    "ementa": "Altera o art. 2º da Lei Complementar nº 125, de 3 de Janeiro de 2007, para incluir o Município de Gouveia do Estado de Minas Gerais na área de atuação da Superintendência do Desenvolvimento do Nordeste (Sudene).",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2453702"
+   "apresentacao": "2024-08-16",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2453702",
+   "primeiro_autor": true
   },
   {
    "id": 2479738,
@@ -231,7 +377,12 @@
    "numero": 51,
    "ano": 2024,
    "ementa": "Altera o art. 7º e o Ato das Disposições Constitucionais Transitórias da Constituição Federal de 1988, para dispor sobre as condições especiais de trabalho do motorista profissional empregado no transporte rodoviário de cargas e de passageiros.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2479738"
+   "apresentacao": "2024-12-12",
+   "situacao": "Aguardando Criação de Comissão Temporária",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2479738",
+   "primeiro_autor": false
   },
   {
    "id": 2447265,
@@ -239,7 +390,12 @@
    "numero": 27,
    "ano": 2024,
    "ementa": "Altera a Constituição Federal para acrescentar o Capítulo IX - Da Promoção Da Igualdade Racial, que institui o Fundo Nacional de Reparação Econômica e de Promoção da Igualdade Racial (FNREPIR) com o objetivo de promover a igualdade de oportunidades e a inclusão social dos brasileiros pretos e pardos, e dá outras providências",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2447265"
+   "apresentacao": "2024-07-08",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2447265",
+   "primeiro_autor": false
   },
   {
    "id": 2436224,
@@ -247,7 +403,12 @@
    "numero": 21,
    "ano": 2024,
    "ementa": "Altera o art. 198 da Constituição Federal, para promover o enquadramento dos servidores públicos federais ocupantes do cargo de auxiliar de enfermagem para a carreira dos técnicos de enfermagem.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2436224"
+   "apresentacao": "2024-05-23",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2436224",
+   "primeiro_autor": false
   },
   {
    "id": 2392080,
@@ -255,7 +416,12 @@
    "numero": 4763,
    "ano": 2023,
    "ementa": "Altera o artigo 3-A da Lei nº 12.764, de 27 de dezembro de 2012 para conferir validade nacional a CIPTEA (Carteira de Identificação da Pessoa com Transtorno do Espectro Autista) e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2392080"
+   "apresentacao": "2023-10-02",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2392080",
+   "primeiro_autor": true
   },
   {
    "id": 2385689,
@@ -263,7 +429,12 @@
    "numero": 4308,
    "ano": 2023,
    "ementa": "Acrescenta o artigo 7-A na Lei nº 12.764, de 27 de Dezembro de 2012, para garantir o acompanhamento escolar dos alunos com transtorno do espectro autista, ou com qualquer outro tipo de deficiência por um monitor devidamente capacitado.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2385689"
+   "apresentacao": "2023-09-05",
+   "situacao": "Retirado pelo(a) Autor(a)",
+   "situacao_data": null,
+   "categoria": "encerrado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2385689",
+   "primeiro_autor": true
   },
   {
    "id": 2374315,
@@ -271,7 +442,12 @@
    "numero": 3597,
    "ano": 2023,
    "ementa": "“Altera a Lei nº 13.146, de 6 de Julho de 2015, para incluir as empresas privadas na garantia de acessibilidade em eventos, e cria o artigo 45-A para  dispor sobre sanções em caso de descumprimento das normas de acessibilidade previstas na Lei.”",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2374315"
+   "apresentacao": "2023-07-20",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2374315",
+   "primeiro_autor": true
   },
   {
    "id": 2359470,
@@ -279,7 +455,12 @@
    "numero": 2296,
    "ano": 2023,
    "ementa": "“Altera a Lei nº 7.498, de 25 de junho de 1986, para incluir o artigo 15-D que garante o reajuste anual automático do piso salarial dos profissionais da enfermagem”.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2359470"
+   "apresentacao": "2023-05-02",
+   "situacao": "Devolvida ao(à) Autor(a)",
+   "situacao_data": null,
+   "categoria": "encerrado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2359470",
+   "primeiro_autor": true
   },
   {
    "id": 2358549,
@@ -287,7 +468,12 @@
    "numero": 2163,
    "ano": 2023,
    "ementa": "“Altera a Lei nº 7.498, de 25 de junho de 1986, para incluir o artigo 15-D que garante o reajuste anual automático do piso salarial dos profissionais da enfermagem”.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2358549"
+   "apresentacao": "2023-04-26",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2358549",
+   "primeiro_autor": true
   },
   {
    "id": 2354858,
@@ -295,7 +481,12 @@
    "numero": 1600,
    "ano": 2023,
    "ementa": "Altera o artigo 88 da Lei nº 13.146, de 06 de julho de 2015 para aumentar a pena em 1/3 de crime praticado contra vítima portadora de transtorno do espectro autista (TEA).",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2354858"
+   "apresentacao": "2023-04-03",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2354858",
+   "primeiro_autor": true
   },
   {
    "id": 2406638,
@@ -303,7 +494,12 @@
    "numero": 64,
    "ano": 2023,
    "ementa": "Altera  disposições  sobre  servidores policiais, para dispor sobre seu Regime Jurídico Policial.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2406638"
+   "apresentacao": "2023-11-24",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2406638",
+   "primeiro_autor": false
   },
   {
    "id": 2405983,
@@ -311,7 +507,12 @@
    "numero": 63,
    "ano": 2023,
    "ementa": "Dá nova redação ao art. 195 da Constituição Federal, para substituir as contribuições sobre a folha de salários e sobre a receita ou faturamento pela contribuição sobre a movimentação ou transmissão de valores e de créditos e direitos de natureza financeira, e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2405983"
+   "apresentacao": "2023-11-22",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2405983",
+   "primeiro_autor": false
   },
   {
    "id": 2402861,
@@ -319,15 +520,25 @@
    "numero": 57,
    "ano": 2023,
    "ementa": "Altera os arts. 40 e 144 da Constituição Federal para dispor sobre as Polícias Municipais.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2402861"
+   "apresentacao": "2023-11-08",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2402861",
+   "primeiro_autor": false
   },
   {
    "id": 2388029,
    "sigla": "PEC",
    "numero": 44,
    "ano": 2023,
-   "ementa": "Adiciona-se parágrafo 9ºB ao artigo 166 da Constituição Federal para permitir o emendamento em reserva, de 5% para o uso em catástrofes e emergências naturais.\n\n\n  NOVA EMENTA: Altera o art. 166 da Constituição Federal e acrescenta o art. 138 no Ato das Disposições Constitucionais Transitórias, para destinar parte dos recursos das emendas individuais e de bancadas estaduais e do orçamento da União a ações de prevenção, mitigação, preparação, resposta e recuperação de desastres.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2388029"
+   "ementa": "Adiciona-se parágrafo 9ºB ao artigo 166 da Constituição Federal para permitir o emendamento em reserva, de 5% para o uso em catástrofes e emergências naturais.\n\n\n\r\n\r\nNOVA EMENTA: Altera o art. 166 da Constituição Federal e acrescenta o art. 138 no Ato das Disposições Constitucionais Transitórias, para destinar parte dos recursos das emendas individuais e de bancadas estaduais e do orçamento da União a ações de prevenção, mitigação, preparação, resposta e recuperação de desastres.",
+   "apresentacao": "2023-09-14",
+   "situacao": "Aguardando Apreciação pelo Senado Federal",
+   "situacao_data": null,
+   "categoria": "aprovado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2388029",
+   "primeiro_autor": false
   },
   {
    "id": 2380340,
@@ -335,7 +546,12 @@
    "numero": 38,
    "ano": 2023,
    "ementa": "Modifica as regras dos regimes próprios de previdência social dos servidores dos municípios, objetivando o equilíbrio financeiro e atuarial dos regimes e a sustentabilidade fiscal desses entes, e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2380340"
+   "apresentacao": "2023-08-16",
+   "situacao": "Aguardando Designação - Aguardando Devolução de Relator(a) que deixou de ser Membro",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2380340",
+   "primeiro_autor": false
   },
   {
    "id": 2363434,
@@ -343,7 +559,12 @@
    "numero": 27,
    "ano": 2023,
    "ementa": "Altera o art. 159 da Constituição Federal para disciplinar a distribuição de recursos pela União ao Fundo de Participação dos Municípios, criar os Fundos Constitucionais de financiamento das Regiões Sul e Sudeste, e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2363434"
+   "apresentacao": "2023-05-18",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2363434",
+   "primeiro_autor": false
   },
   {
    "id": 2362526,
@@ -351,7 +572,12 @@
    "numero": 25,
    "ano": 2023,
    "ementa": "Acrescenta o Capítulo IX ao Título VIII para oferecer diretrizes sobre o direito social ao transporte previsto no art. 6º e sobre o Sistema único de Mobilidade e autoriza a União, Distrito Federal e Municípios a instituírem\ncontribuição pelo uso do sistema viário, destinada ao custeio do transporte público coletivo urbano.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2362526"
+   "apresentacao": "2023-05-16",
+   "situacao": "Pronta para Pauta",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2362526",
+   "primeiro_autor": false
   },
   {
    "id": 2361500,
@@ -359,7 +585,12 @@
    "numero": 23,
    "ano": 2023,
    "ementa": "Acrescenta o artigo 135-A e Seção V ao Capítulo IV, Das Funções Essenciais à Justiça e altera o disposto no § 4-B do art. 40 todos da Constituição Federal.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2361500"
+   "apresentacao": "2023-05-10",
+   "situacao": "Aguardando Criação de Comissão Temporária",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2361500",
+   "primeiro_autor": false
   },
   {
    "id": 2351506,
@@ -367,7 +598,12 @@
    "numero": 5,
    "ano": 2023,
    "ementa": "Acrescenta § 4º-A ao art. 150 da Constituição Federal, para dispor sobre a imunidade tributária de que tratam as suas alíneas “b” e “c” do inciso VI.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2351506"
+   "apresentacao": "2023-03-15",
+   "situacao": "Aguardando Apreciação pelo Senado Federal",
+   "situacao_data": null,
+   "categoria": "aprovado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2351506",
+   "primeiro_autor": false
   },
   {
    "id": 2350490,
@@ -375,7 +611,12 @@
    "numero": 2,
    "ano": 2023,
    "ementa": "Dá nova redação ao art. 6º da Constituição Federal, ao inserir a CULTURA no rol de nossos direitos sociais.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2350490"
+   "apresentacao": "2023-03-08",
+   "situacao": "Aguardando Criação de Comissão Temporária",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2350490",
+   "primeiro_autor": false
   }
  ]
 }

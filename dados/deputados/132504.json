@@ -1,5 +1,11 @@
 {
  "id": 132504,
+ "resumo": {
+  "lei": 0,
+  "aprovado": 0,
+  "tramitacao": 1,
+  "encerrado": 0
+ },
  "projetos": [
   {
    "id": 2345660,
@@ -7,7 +13,12 @@
    "numero": 21,
    "ano": 2023,
    "ementa": "\"Institui o dia nacional de defesa da democracia.\"",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2345660"
+   "apresentacao": "2023-02-02",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2345660",
+   "primeiro_autor": false
   }
  ]
 }

@@ -1,5 +1,11 @@
 {
  "id": 164360,
+ "resumo": {
+  "lei": 0,
+  "aprovado": 1,
+  "tramitacao": 10,
+  "encerrado": 1
+ },
  "projetos": [
   {
    "id": 2481660,
@@ -7,7 +13,12 @@
    "numero": 5022,
    "ano": 2024,
    "ementa": "Dispõe sobre a fixação de prazo para a análise e decisão dos pedidos de habilitações de serviços e programas de saúde no âmbito do Sistema Único de Saúde (SUS), e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2481660"
+   "apresentacao": "2024-12-19",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2481660",
+   "primeiro_autor": true
   },
   {
    "id": 2481382,
@@ -15,7 +26,12 @@
    "numero": 4996,
    "ano": 2024,
    "ementa": "Altera o art. 6º da Lei nº 8.906, de 4 de julho de 1994 (Estatuto da Advocacia e da OAB), para assegurar a prerrogativa de sustentação oral em tempo real nas sessões de julgamento virtuais.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2481382"
+   "apresentacao": "2024-12-19",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2481382",
+   "primeiro_autor": true
   },
   {
    "id": 2467573,
@@ -23,7 +39,12 @@
    "numero": 4290,
    "ano": 2024,
    "ementa": "Institui a Semana Nacional da Medicina do Estilo de Vida e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2467573"
+   "apresentacao": "2024-11-05",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2467573",
+   "primeiro_autor": true
   },
   {
    "id": 2463580,
@@ -31,7 +52,12 @@
    "numero": 4026,
    "ano": 2024,
    "ementa": "Altera a Lei nº 9.656, de 3 de junho de 1998, que dispõe sobre planos privados de assistência à saúde, para obrigar a cobertura de tratamento cirúrgico com a utilização de laser endovenoso para paciente com insuficiência venosa crônica.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2463580"
+   "apresentacao": "2024-10-21",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2463580",
+   "primeiro_autor": true
   },
   {
    "id": 2462086,
@@ -39,7 +65,12 @@
    "numero": 3903,
    "ano": 2024,
    "ementa": "Altera a Lei nº 9.434, de 4 de Fevereiro de 1997, que dispõe sobre  a remoção de órgãos, tecidos e partes do corpo humano para fins de transplante e tratamento e dá outras providências, para permitir doação de órgãos em situações de doação pareada.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2462086"
+   "apresentacao": "2024-10-10",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2462086",
+   "primeiro_autor": true
   },
   {
    "id": 2451758,
@@ -47,7 +78,12 @@
    "numero": 3094,
    "ano": 2024,
    "ementa": "Altera a Lei nº 9.503, de 23 de setembro de 1997, Código de Trânsito Brasileiro, para dispor sobre sinalização em locais destinados a travessias de pedestres, e a Lei nº 10.257, de 10 de julho de 2001, Estatuto da Cidade, para tratar de plano de rotas acessíveis para pessoas com transtorno do espectro autista.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2451758"
+   "apresentacao": "2024-08-08",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2451758",
+   "primeiro_autor": true
   },
   {
    "id": 2451322,
@@ -55,7 +91,12 @@
    "numero": 3080,
    "ano": 2024,
    "ementa": "Altera a Lei n º 7.713, de 22 de dezembro de 1988, para isentar do Imposto de Renda os valores recebidos por atletas brasileiros medalhistas em Jogos Olímpicos e Paralímpicos a título de premiação, pagos pelo Comitê Olímpico Brasileiro (COB) ou pelo Comitê Paralímpico Brasileiro (CPB).",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2451322"
+   "apresentacao": "2024-08-07",
+   "situacao": "Arquivada",
+   "situacao_data": null,
+   "categoria": "encerrado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2451322",
+   "primeiro_autor": true
   },
   {
    "id": 2454257,
@@ -63,7 +104,12 @@
    "numero": 136,
    "ano": 2024,
    "ementa": "Altera a Lei Complementar nº79, de 7 de janeiro de 1994, e a Leinº 13.756, de 12 de dezembro de 2018, para dispor, expressamente, sobre a aplicação de recursos do Fundo Penitenciário Nacional (FUPEN) e do Fundo Nacional de Segurança Pública (FNSP) em órgãos e entidadesque implementam ações de prevenção e enfrentamento da violência contra a mulher nos âmbitos estadual e municipal.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2454257"
+   "apresentacao": "2024-08-21",
+   "situacao": "Aguardando Apreciação pelo Senado Federal",
+   "situacao_data": null,
+   "categoria": "aprovado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2454257",
+   "primeiro_autor": false
   },
   {
    "id": 2458742,
@@ -71,7 +117,12 @@
    "numero": 34,
    "ano": 2024,
    "ementa": "Inclui a primeira infância como beneficiária de direitos e garantias, no Texto Constitucional.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2458742"
+   "apresentacao": "2024-09-19",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2458742",
+   "primeiro_autor": false
   },
   {
    "id": 2455515,
@@ -79,7 +130,12 @@
    "numero": 31,
    "ano": 2024,
    "ementa": "Acrescenta os arts.91-A, 91-B e a alínea “g” do inciso I do artigo 159 da Constituição Federal, para instituir o Conselho Nacional de Mudança Climática, a Autoridade Climática Nacional e o Fundo Nacional de Mudança Climática.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2455515"
+   "apresentacao": "2024-08-27",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2455515",
+   "primeiro_autor": false
   },
   {
    "id": 2448732,
@@ -87,7 +143,12 @@
    "numero": 28,
    "ano": 2024,
    "ementa": "Acrescenta o art. 97-A e §§4º e 5º da Constituição Federal de 1988, para estabelecer o julgamento de referendo de liminares pelo colegiado de Tribunal, bem como criar hipótese de sustação de decisão do Supremo Tribunal Federal.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2448732"
+   "apresentacao": "2024-07-10",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2448732",
+   "primeiro_autor": false
   },
   {
    "id": 2406306,
@@ -95,7 +156,12 @@
    "numero": 5679,
    "ano": 2023,
    "ementa": "Altera o § 6° do art 10 da Lei nº 9.263, de 12 de janeiro de 1996, para prever que a esterilização cirúrgica em pessoas absolutamente incapazes ou com deficiência mental ou intelectual que não possam exprimir sua vontade, somente poderá ocorrer mediante autorização judicial, com oitiva obrigatória do Ministério Público e terá prioridade de realização dentro dos procedimentos de esterilização cirúrgica eletiva.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2406306"
+   "apresentacao": "2023-11-23",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2406306",
+   "primeiro_autor": true
   }
  ]
 }

@@ -1,5 +1,11 @@
 {
  "id": 229333,
+ "resumo": {
+  "lei": 0,
+  "aprovado": 1,
+  "tramitacao": 3,
+  "encerrado": 0
+ },
  "projetos": [
   {
    "id": 2459399,
@@ -7,7 +13,12 @@
    "numero": 3741,
    "ano": 2024,
    "ementa": "Assegura o direito de pessoas com Transtorno do Espectro Autista (TEA) e outras pessoas com deficiência de ingressarem em locais públicos ou privados abertos ao público portando utensílios e alimentos próprios para seu uso e consumo, e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2459399"
+   "apresentacao": "2024-09-27",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2459399",
+   "primeiro_autor": true
   },
   {
    "id": 2450709,
@@ -15,7 +26,12 @@
    "numero": 3028,
    "ano": 2024,
    "ementa": "Altera o art. 6º da Lei nº 7.713, de 22 de dezembro de 1988, para isentar do Imposto de Renda os valores recebidos por atletas brasileiros como premiação em torneios internacionais em que representem oficialmente o Brasil.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2450709"
+   "apresentacao": "2024-08-05",
+   "situacao": "Aguardando Apreciação pelo Senado Federal",
+   "situacao_data": null,
+   "categoria": "aprovado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2450709",
+   "primeiro_autor": false
   },
   {
    "id": 2450405,
@@ -23,7 +39,12 @@
    "numero": 2983,
    "ano": 2024,
    "ementa": "Acrescenta uma qualificadora ao art. 148 do Decreto-Lei nº 2.848, de 7 de dezembro de 1940 – Código Penal, para aumentar a pena em caso de sequestro de recém-nascidos e crianças menores de doze anos.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2450405"
+   "apresentacao": "2024-07-24",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2450405",
+   "primeiro_autor": true
   },
   {
    "id": 2467670,
@@ -31,7 +52,12 @@
    "numero": 42,
    "ano": 2024,
    "ementa": "Acrescenta o inciso VI ao art. 51 da Constituição Federal, para estabelecer competência privativa à Câmara dos Deputados relativa à fiscalização das atividades das agências reguladoras.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2467670"
+   "apresentacao": "2024-11-11",
+   "situacao": "Aguardando Criação de Comissão Temporária",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2467670",
+   "primeiro_autor": false
   }
  ]
 }

@@ -1,5 +1,11 @@
 {
  "id": 229939,
+ "resumo": {
+  "lei": 0,
+  "aprovado": 0,
+  "tramitacao": 2,
+  "encerrado": 0
+ },
  "projetos": [
   {
    "id": 2481733,
@@ -7,7 +13,12 @@
    "numero": 5033,
    "ano": 2024,
    "ementa": "Dispõe sobre os princípios, as diretrizes e o Comitê de Cooperação entre instituições públicas e privadas no âmbito do atendimento a vítimas e a familiares de vítimas de acidentes aéreos.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2481733"
+   "apresentacao": "2024-12-20",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2481733",
+   "primeiro_autor": false
   },
   {
    "id": 2481694,
@@ -15,7 +26,12 @@
    "numero": 5024,
    "ano": 2024,
    "ementa": "Dá nova redação à Lei nº 9.074, de 7 de julho de 1995, referente a Aproveitamentos Hidrelétricos e Termoelétricos até 10.000 kW, usinas dispensadas de concessão, permissão ou autorização.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2481694"
+   "apresentacao": "2024-12-19",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2481694",
+   "primeiro_autor": true
   }
  ]
 }

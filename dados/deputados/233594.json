@@ -1,5 +1,11 @@
 {
  "id": 233594,
+ "resumo": {
+  "lei": 0,
+  "aprovado": 0,
+  "tramitacao": 21,
+  "encerrado": 0
+ },
  "projetos": [
   {
    "id": 2644754,
@@ -7,7 +13,12 @@
    "numero": 5207,
    "ano": 2026,
    "ementa": "Estabelece atendimento multiprofissional nos planos e seguros de saúde ao segurado diagnosticado com Transtorno do Espectro Autista – TEA ou que possua atrasos no seu desenvolvimento que indiquem risco de TEA.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644754"
+   "apresentacao": "2026-08-28",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644754",
+   "primeiro_autor": true
   },
   {
    "id": 2642685,
@@ -15,7 +26,12 @@
    "numero": 4988,
    "ano": 2026,
    "ementa": "Altera a Lei nº 9.985, de 18 de julho de 2000, e a Lei nº 10.406, de 10 de janeiro de 2002 (Código Civil), para garantir ao possuidor de boa-fé de imóvel rural produtivo, direito à indenização ou à compensação e à realocação.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2642685"
+   "apresentacao": "2026-08-11",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2642685",
+   "primeiro_autor": true
   },
   {
    "id": 2627891,
@@ -23,7 +39,12 @@
    "numero": 2616,
    "ano": 2026,
    "ementa": "Altera a Lei nº 8.429, de 2 de junho de 1992, configurando como ato de improbidade administrativa a não aplicação dos recursos públicos disponíveis por omissão ou negligência.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2627891"
+   "apresentacao": "2026-05-26",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2627891",
+   "primeiro_autor": true
   },
   {
    "id": 2628193,
@@ -31,7 +52,12 @@
    "numero": 481,
    "ano": 2026,
    "ementa": "Susta as Resoluções Homologatórias que determinaram aumento nas tarifas de energia elétrica.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2628193"
+   "apresentacao": "2026-05-27",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2628193",
+   "primeiro_autor": true
   },
   {
    "id": 2601251,
@@ -39,7 +65,12 @@
    "numero": 371,
    "ano": 2026,
    "ementa": "Altera a Lei nº 12.527, de 18 de novembro de 2011 (Lei de Acesso à Informação), para garantir transparência integral sobre o uso de recursos públicos.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2601251"
+   "apresentacao": "2026-02-06",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2601251",
+   "primeiro_autor": true
   },
   {
    "id": 2601250,
@@ -47,7 +78,12 @@
    "numero": 369,
    "ano": 2026,
    "ementa": "Concede ao usuário de rodovia o direito de atravessar gratuitamente praça de pedágio se estiver transportando paciente que esteja realizando tratamento médico.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2601250"
+   "apresentacao": "2026-02-06",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2601250",
+   "primeiro_autor": true
   },
   {
    "id": 2623837,
@@ -55,7 +91,12 @@
    "numero": 134,
    "ano": 2026,
    "ementa": "Acrescenta §3° no Art. 74 da Lei n° 5.172 de 25 de outubro de 1966, incluindo equiparação tributária entre União e Estados, em se tratando de redução de alíquota de imposto nos combustíveis.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2623837"
+   "apresentacao": "2026-05-12",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2623837",
+   "primeiro_autor": true
   },
   {
    "id": 2644800,
@@ -63,7 +104,12 @@
    "numero": 16,
    "ano": 2026,
    "ementa": "Acrescenta os art. 68-A no Ato das Disposições Constitucionais Transitórias para ratificar os registros de imóveis rurais em faixa de fronteira concedidos pelos estados antes da promulgação desta Constituição Federal e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644800"
+   "apresentacao": "2026-08-28",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644800",
+   "primeiro_autor": false
   },
   {
    "id": 2604173,
@@ -71,7 +117,12 @@
    "numero": 3,
    "ano": 2026,
    "ementa": "Altera o art. 155 da Constituição Federal para estabelecer alíquota máxima e base de cálculo exclusiva do Imposto sobre a Propriedade de Veículos Automotores – IPVA, e acrescenta dispositivos ao Ato das Disposições Constitucionais Transitórias para limitar despesas com publicidade institucional e com o Poder Legislativo.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2604173"
+   "apresentacao": "2026-02-24",
+   "situacao": "Aguardando Criação de Comissão Temporária",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2604173",
+   "primeiro_autor": false
   },
   {
    "id": 2593770,
@@ -79,7 +130,12 @@
    "numero": 6236,
    "ano": 2025,
    "ementa": "Altera o art. 154-A do Decreto-Lei nº 2.848, de 7 de dezembro de 1940 – Código Penal para aumentar a pena do crime de invasão de dispositivo informático e o roubo de dados públicos e privados.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2593770"
+   "apresentacao": "2025-12-09",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2593770",
+   "primeiro_autor": true
   },
   {
    "id": 2574709,
@@ -87,7 +143,12 @@
    "numero": 5349,
    "ano": 2025,
    "ementa": "Altera a Lei nº 9.656, de 3 de junho de 1998, proibindo o reajuste por faixa etária e   regulamentando a inflação apurada como limite para os reajustes dos planos de saúde.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2574709"
+   "apresentacao": "2025-10-22",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2574709",
+   "primeiro_autor": true
   },
   {
    "id": 2572612,
@@ -95,7 +156,12 @@
    "numero": 5215,
    "ano": 2025,
    "ementa": "Altera a Lei n° 13.959, de 18 de dezembro de 2019, viabilizando a participação resumida no revalida dos profissionais médicos que atuam no programa Mais Médicos.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2572612"
+   "apresentacao": "2025-10-15",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2572612",
+   "primeiro_autor": true
   },
   {
    "id": 2555617,
@@ -103,7 +169,12 @@
    "numero": 4355,
    "ano": 2025,
    "ementa": "Estabelece aos servidores integrantes do sistema de segurança pública, previstos no Artigo 144 da Constituição Federal, aos guardas municipais e a Polícia Penal, a percepção de indenização por Atividade de Risco Policial e Bombeiro Militar.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2555617"
+   "apresentacao": "2025-09-02",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Autorização)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2555617",
+   "primeiro_autor": true
   },
   {
    "id": 2552071,
@@ -111,7 +182,12 @@
    "numero": 4207,
    "ano": 2025,
    "ementa": "Altera a Lei n° 11.445 de 05 de janeiro de 2007, para disciplinar a cobrança da taxa de água pelas concessionárias ou permissionárias públicas ou privadas de saneamento básico, proibindo a cobrança de taxas quando não houver consumo, e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2552071"
+   "apresentacao": "2025-08-26",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2552071",
+   "primeiro_autor": true
   },
   {
    "id": 2542456,
@@ -119,7 +195,12 @@
    "numero": 3904,
    "ano": 2025,
    "ementa": "Altera a Lei n. 11.947, de 16 de junho de 2009, para autorizar a distribuição de alimentação escolar aos estudantes das escolas públicas de educação básica, durante o período de férias escolares, ou suspensão das aulas em razão de estado de emergência, estado de calamidade pública, estado de sítio ou estado de defesa; e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2542456"
+   "apresentacao": "2025-08-12",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2542456",
+   "primeiro_autor": true
   },
   {
    "id": 2542353,
@@ -127,7 +208,12 @@
    "numero": 3882,
    "ano": 2025,
    "ementa": "Altera a Lei n° 10.304, de 5 de novembro de 2001, para dispor sobre a transferência ao domínio do Estado de Rondônia das terras de propriedade da União localizadas em seu território.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2542353"
+   "apresentacao": "2025-08-11",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2542353",
+   "primeiro_autor": false
   },
   {
    "id": 2594285,
@@ -135,7 +221,12 @@
    "numero": 1161,
    "ano": 2025,
    "ementa": "Susta a Resolução Homologatória da ANEEL que determinou o aumento na tarifa de energia elétrica em Rondônia de 09 de dezembro de 2025.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2594285"
+   "apresentacao": "2025-12-09",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2594285",
+   "primeiro_autor": true
   },
   {
    "id": 2542861,
@@ -143,7 +234,12 @@
    "numero": 540,
    "ano": 2025,
    "ementa": "Susta as Resoluções Homologatórias que determinaram aumento nas tarifas de energia elétrica no ano de 2025.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2542861"
+   "apresentacao": "2025-08-12",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2542861",
+   "primeiro_autor": true
   },
   {
    "id": 2593774,
@@ -151,7 +247,12 @@
    "numero": 258,
    "ano": 2025,
    "ementa": "Altera os arts. 3º e 16 da Lei Complementar nº 123, de 14 de dezembro de 2006, para permitir a adesão ao Simples Nacional no decurso do ano-calendário de 2026, e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2593774"
+   "apresentacao": "2025-12-09",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2593774",
+   "primeiro_autor": true
   },
   {
    "id": 2593773,
@@ -159,7 +260,12 @@
    "numero": 257,
    "ano": 2025,
    "ementa": "Altera a Lei Complementar nº 123, de 14 de dezembro de 2006, aumentando o patamar máximo de faturamento bruto anual do microempreendedor individual e da empresa de pequeno porte.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2593773"
+   "apresentacao": "2025-12-09",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2593773",
+   "primeiro_autor": true
   },
   {
    "id": 2543145,
@@ -167,7 +273,12 @@
    "numero": 30,
    "ano": 2025,
    "ementa": "Altera a Constituição Federal e o Ato das Disposições Constitucionais Transitórias para estabelecer regras antiprivilégios para agentes públicos.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2543145"
+   "apresentacao": "2025-08-12",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2543145",
+   "primeiro_autor": false
   }
  ]
 }

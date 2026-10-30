@@ -1,5 +1,11 @@
 {
  "id": 204419,
+ "resumo": {
+  "lei": 0,
+  "aprovado": 1,
+  "tramitacao": 20,
+  "encerrado": 3
+ },
  "projetos": [
   {
    "id": 2649062,
@@ -7,7 +13,12 @@
    "numero": 5671,
    "ano": 2026,
    "ementa": "Altera a legislação eleitoral para instituir o sistema federativo misto majoritário-proporcional para as eleições de Deputado Federal, Deputado Estadual, Deputado Distrital e Vereador.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649062"
+   "apresentacao": "2026-10-27",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649062",
+   "primeiro_autor": true
   },
   {
    "id": 2648384,
@@ -15,7 +26,12 @@
    "numero": 5597,
    "ano": 2026,
    "ementa": "Altera a legislação eleitoral para instituir o sistema federativo misto nas eleições de Deputado Federal, Deputado Estadual, Deputado Distrital e Vereador.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2648384"
+   "apresentacao": "2026-10-19",
+   "situacao": "Retirado pelo(a) Autor(a)",
+   "situacao_data": null,
+   "categoria": "encerrado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2648384",
+   "primeiro_autor": true
   },
   {
    "id": 2630300,
@@ -23,7 +39,12 @@
    "numero": 2915,
    "ano": 2026,
    "ementa": "Confere ao Município de Palmelo, no Estado de Goiás, o título de Capital Espírita do Brasil.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2630300"
+   "apresentacao": "2026-06-08",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2630300",
+   "primeiro_autor": true
   },
   {
    "id": 2623604,
@@ -31,7 +52,12 @@
    "numero": 9,
    "ano": 2026,
    "ementa": "Altera o art. 228 da Constituição Federal, para reduzir a idade mínima de imputabilidade penal, nas condições que estabelece.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2623604"
+   "apresentacao": "2026-05-12",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2623604",
+   "primeiro_autor": false
   },
   {
    "id": 2595723,
@@ -39,7 +65,12 @@
    "numero": 6332,
    "ano": 2025,
    "ementa": "Altera a Lei nº 13.756, de 12 de dezembro de 2018, para incluir a destinação de recursos da arrecadação das loterias ao diagnóstico e à intervenção precoce de pessoas com Transtorno do Espectro Autista (TEA)",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2595723"
+   "apresentacao": "2025-12-10",
+   "situacao": "Pronta para Pauta",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2595723",
+   "primeiro_autor": true
   },
   {
    "id": 2487429,
@@ -47,7 +78,12 @@
    "numero": 1083,
    "ano": 2025,
    "ementa": "Altera a Lei nº 9.503, de 1997, Código de Trânsito Brasileiro, para permitir ao candidato de dezesseis anos idade iniciar o processo de habilitação de condutores.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2487429"
+   "apresentacao": "2025-03-18",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2487429",
+   "primeiro_autor": true
   },
   {
    "id": 2487390,
@@ -55,7 +91,12 @@
    "numero": 11,
    "ano": 2025,
    "ementa": "Dá nova redação ao art. 71 da Constituição Federal, para alterar a prerrogativa de controle externo, a cargo do Congresso Nacional, com auxílio do Tribunal de Contas da União, no que se refere às contas nacionais das empresas supranacionais de cujo capital social a União participe, de forma direta ou indireta.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2487390"
+   "apresentacao": "2025-03-18",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2487390",
+   "primeiro_autor": false
   },
   {
    "id": 2485767,
@@ -63,7 +104,12 @@
    "numero": 9,
    "ano": 2025,
    "ementa": "Acrescenta o § 16 ao art. 198 da Constituição Federal, para dispor sobre as diretrizes para os Planos de Carreira e os pisos salariais nacionais dos profissionais de saúde do Sistema Único de Saúde.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2485767"
+   "apresentacao": "2025-02-27",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2485767",
+   "primeiro_autor": false
   },
   {
    "id": 2467637,
@@ -71,7 +117,12 @@
    "numero": 4299,
    "ano": 2024,
    "ementa": "Acrescenta os Arts. 7º-A, 7º-B, 7º-C, 7º-D, 7º-E, 7º-F, 7º-G e 7º-H à Lei nº 12.764, de 27 de dezembro de 2012, que Institui a Política Nacional de Proteção dos Direitos da Pessoa com Transtorno do Espectro Autista; e altera o § 3º do art. 98 da Lei nº 8.112, de 11 de dezembro de 1990.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2467637"
+   "apresentacao": "2024-11-08",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2467637",
+   "primeiro_autor": true
   },
   {
    "id": 2426135,
@@ -79,7 +130,12 @@
    "numero": 1225,
    "ano": 2024,
    "ementa": "Dá nova redação aos arts. 21, §2º, II da Lei nº 8.212, de 24 de julho de 1991, incluindo o item “c”, para dispor sobre o Sistema Especial de Inclusão Previdenciária para assegurar as mães atípica a condição de segurada facultativa.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2426135"
+   "apresentacao": "2024-04-11",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2426135",
+   "primeiro_autor": true
   },
   {
    "id": 2423598,
@@ -87,7 +143,12 @@
    "numero": 975,
    "ano": 2024,
    "ementa": "Dá nova redação ao art. 1º da Lei nº 13.185, de 6 de novembro de 2015, para excluir a exigência da conduta repetitiva para configuração de intimidação sistemática (bullying).",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2423598"
+   "apresentacao": "2024-03-26",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2423598",
+   "primeiro_autor": true
   },
   {
    "id": 2442880,
@@ -95,7 +156,12 @@
    "numero": 24,
    "ano": 2024,
    "ementa": "Altera os §§ 4º, 4°-B e 7º do art. 40 da Constituição Federal e os artigos 5º, 10, 23, 24 e 26 da Emenda Constitucional nº 103, de 2019, acrescenta o art. 144-A a Constituição e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2442880"
+   "apresentacao": "2024-06-24",
+   "situacao": "Aguardando Constituição de Comissão Temporária",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2442880",
+   "primeiro_autor": false
   },
   {
    "id": 2436619,
@@ -103,7 +169,12 @@
    "numero": 23,
    "ano": 2024,
    "ementa": "Acrescenta o §2º no Art. 4º da Constituição para acrescentar a integração dos países de língua portuguesa entre os princípios que regem as relações internacionais da República Federativa do Brasil.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2436619"
+   "apresentacao": "2024-05-27",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2436619",
+   "primeiro_autor": false
   },
   {
    "id": 2384733,
@@ -111,7 +182,12 @@
    "numero": 4249,
    "ano": 2023,
    "ementa": "Altera a Lei nº 9.455, de 7 de abril de 1997, que define os crimes de tortura e dá outras providências, a fim de prever a violência praticada contra crianças e adolescentes, em âmbito escolar, física ou psicológica, como crime de tortura.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2384733"
+   "apresentacao": "2023-08-31",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2384733",
+   "primeiro_autor": true
   },
   {
    "id": 2358771,
@@ -119,7 +195,12 @@
    "numero": 2213,
    "ano": 2023,
    "ementa": "Proíbe o registro e a divulgação de dados pessoais sensíveis referentes a pessoa agonizando ou cadáver.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2358771"
+   "apresentacao": "2023-04-27",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2358771",
+   "primeiro_autor": true
   },
   {
    "id": 2390236,
@@ -127,7 +208,12 @@
    "numero": 340,
    "ano": 2023,
    "ementa": "Susta a Resolução nº 02, de 19 de setembro de 2023, do Conselho Nacional dos Direitos das Pessoas Lésbicas, Gays, Bissexuais, Travestis, Transexuais, Queers, Intersexos, Assexuais e Outras (CNLGBTQIA+) do Ministério dos Direitos Humanos e da Cidadania.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2390236"
+   "apresentacao": "2023-09-25",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2390236",
+   "primeiro_autor": false
   },
   {
    "id": 2375067,
@@ -135,7 +221,12 @@
    "numero": 207,
    "ano": 2023,
    "ementa": "Susta a Resolução nº 715, de 20 de julho de 2023, do Conselho Nacional de Saúde – CNS, que dispõe sobre as orientações estratégicas para o Plano Plurianual e para o Plano Nacional de Saúde provenientes da 17ª Conferência Nacional de Saúde e sobre as prioridades para as ações e serviços públicos de saúde aprovadas pelo Conselho Nacional de Saúde.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2375067"
+   "apresentacao": "2023-08-02",
+   "situacao": "Devolvida ao(à) Autor(a)",
+   "situacao_data": null,
+   "categoria": "encerrado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2375067",
+   "primeiro_autor": false
   },
   {
    "id": 2406638,
@@ -143,7 +234,12 @@
    "numero": 64,
    "ano": 2023,
    "ementa": "Altera  disposições  sobre  servidores policiais, para dispor sobre seu Regime Jurídico Policial.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2406638"
+   "apresentacao": "2023-11-24",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2406638",
+   "primeiro_autor": false
   },
   {
    "id": 2404706,
@@ -151,7 +247,12 @@
    "numero": 62,
    "ano": 2023,
    "ementa": "Altera o artigo 122 do Ato das Disposições Constitucionais Transitórias.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2404706"
+   "apresentacao": "2023-11-21",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2404706",
+   "primeiro_autor": false
   },
   {
    "id": 2380340,
@@ -159,7 +260,12 @@
    "numero": 38,
    "ano": 2023,
    "ementa": "Modifica as regras dos regimes próprios de previdência social dos servidores dos municípios, objetivando o equilíbrio financeiro e atuarial dos regimes e a sustentabilidade fiscal desses entes, e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2380340"
+   "apresentacao": "2023-08-16",
+   "situacao": "Aguardando Designação - Aguardando Devolução de Relator(a) que deixou de ser Membro",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2380340",
+   "primeiro_autor": false
   },
   {
    "id": 2377463,
@@ -167,7 +273,12 @@
    "numero": 34,
    "ano": 2023,
    "ementa": "Inclui dispositivos nos artigos 3º e 5º da Constituição da República Federativa do Brasil, estabelecendo o combate às drogas ilícitas como princípio fundamental e vedando expressamente a descriminalização do tráfico e a legalização de novas drogas recreativas.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2377463"
+   "apresentacao": "2023-08-09",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2377463",
+   "primeiro_autor": false
   },
   {
    "id": 2362646,
@@ -175,7 +286,12 @@
    "numero": 26,
    "ano": 2023,
    "ementa": "Dá nova redação ao Art. 166-A  da Constituição Federal, para autorizar a Transferência Especial de recursos federais a Estados, ao Distrito Federal e a Municípios mediante emendas individuais e bancadas ao projeto de lei orçamentária anual.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2362646"
+   "apresentacao": "2023-05-17",
+   "situacao": "Retirado pelo(a) Autor(a)",
+   "situacao_data": null,
+   "categoria": "encerrado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2362646",
+   "primeiro_autor": false
   },
   {
    "id": 2351506,
@@ -183,7 +299,12 @@
    "numero": 5,
    "ano": 2023,
    "ementa": "Acrescenta § 4º-A ao art. 150 da Constituição Federal, para dispor sobre a imunidade tributária de que tratam as suas alíneas “b” e “c” do inciso VI.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2351506"
+   "apresentacao": "2023-03-15",
+   "situacao": "Aguardando Apreciação pelo Senado Federal",
+   "situacao_data": null,
+   "categoria": "aprovado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2351506",
+   "primeiro_autor": false
   },
   {
    "id": 2345680,
@@ -191,7 +312,12 @@
    "numero": 3,
    "ano": 2023,
    "ementa": "Susta o Decreto nº 11.366, de 1º de janeiro 2023, que limita o registro e a aquisição de armas de fogos.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2345680"
+   "apresentacao": "2023-02-02",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2345680",
+   "primeiro_autor": false
   }
  ]
 }

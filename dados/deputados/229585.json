@@ -1,5 +1,11 @@
 {
  "id": 229585,
+ "resumo": {
+  "lei": 0,
+  "aprovado": 0,
+  "tramitacao": 17,
+  "encerrado": 0
+ },
  "projetos": [
   {
    "id": 2612861,
@@ -7,7 +13,12 @@
    "numero": 1537,
    "ano": 2026,
    "ementa": "Dispõe sobre o reconhecimento, valorização, proteção previdenciária e salvaguarda do ofício, saberes e práticas das parteiras tradicionais como atividade essencial à reprodução social, cultural e comunitária, e dá outras providências, nos termos da Constituição Federal.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2612861"
+   "apresentacao": "2026-03-30",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2612861",
+   "primeiro_autor": false
   },
   {
    "id": 2612583,
@@ -15,7 +26,12 @@
    "numero": 1459,
    "ano": 2026,
    "ementa": "Torna o dia 17 de agosto Feriado Nacional, dia Nacional de Bernadete Pacífico e da Consciência Quilombola",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2612583"
+   "apresentacao": "2026-03-27",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2612583",
+   "primeiro_autor": true
   },
   {
    "id": 2610264,
@@ -23,7 +39,12 @@
    "numero": 1251,
    "ano": 2026,
    "ementa": "Altera a Lei nº 9.394, de 20 de dezembro de 1996, para incluir, nas diretrizes curriculares do curso de graduação em medicina, conteúdo obrigatório sobre fitoterapia.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2610264"
+   "apresentacao": "2026-03-18",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2610264",
+   "primeiro_autor": false
   },
   {
    "id": 2610262,
@@ -31,7 +52,12 @@
    "numero": 1250,
    "ano": 2026,
    "ementa": "Institui a Política Nacional de Desenvolvimento da Cadeia Produtiva dos Medicamentos Fitoterápicos, e altera a Lei nº 13.021, de 8 de agosto de 2014.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2610262"
+   "apresentacao": "2026-03-18",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2610262",
+   "primeiro_autor": false
   },
   {
    "id": 2608783,
@@ -39,7 +65,12 @@
    "numero": 1155,
    "ano": 2026,
    "ementa": "Altera a Lei nº 9.504, de 30 de setembro de 1997, para vincular a quota mínima de candidaturas de mulheres nas eleições proporcionais à proporção de mulheres na população brasileira apurada pelo Censo Demográfico.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2608783"
+   "apresentacao": "2026-03-13",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2608783",
+   "primeiro_autor": true
   },
   {
    "id": 2608782,
@@ -47,7 +78,12 @@
    "numero": 1154,
    "ano": 2026,
    "ementa": "Altera a Lei nº 15.223, de 2025, e a Lei nº 8.171, de 1991, para institucionalizar garantias de crédito e transparência orçamentária para mulheres e jovens da agricultura familiar.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2608782"
+   "apresentacao": "2026-03-13",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2608782",
+   "primeiro_autor": true
   },
   {
    "id": 2608574,
@@ -55,7 +91,12 @@
    "numero": 1138,
    "ano": 2026,
    "ementa": "Institui a Política Nacional de Programas e Grupos Reflexivos sobre Masculinidades, Prevenção da Violência e Cultura de Paz, estabelece seus princípios, objetivos e diretrizes, e dá outras providências",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2608574"
+   "apresentacao": "2026-03-12",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2608574",
+   "primeiro_autor": false
   },
   {
    "id": 2607582,
@@ -63,7 +104,12 @@
    "numero": 1042,
    "ano": 2026,
    "ementa": "Institui a Política de Atenção Integral e Proteção às Mulheres Sobreviventes de Tentativas de Feminicídio",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2607582"
+   "apresentacao": "2026-03-09",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2607582",
+   "primeiro_autor": false
   },
   {
    "id": 2607443,
@@ -71,7 +117,12 @@
    "numero": 1008,
    "ano": 2026,
    "ementa": "Altera a Lei nº 11.340, de 7 de agosto de 2006 (Lei Maria da Penha), para estabelecer princípios e diretrizes para a cobertura jornalística e publicitária da violência contra a mulher, promovendo a informação responsável e a proteção das vítimas, com respeito à liberdade de imprensa.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2607443"
+   "apresentacao": "2026-03-06",
+   "situacao": "Aguardando Encaminhamento",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2607443",
+   "primeiro_autor": false
   },
   {
    "id": 2605145,
@@ -79,7 +130,12 @@
    "numero": 805,
    "ano": 2026,
    "ementa": "Dispõe sobre o enfrentamento à violência digital contra as mulheres por sua condição de mulher, com base na Lei Modelo Interamericana para Prevenir, Punir e Erradicar a Violência Digital de Gênero contra as Mulheres, elaborada no âmbito da Organização dos Estados Americanos (OEA).",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2605145"
+   "apresentacao": "2026-02-26",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2605145",
+   "primeiro_autor": false
   },
   {
    "id": 2601971,
@@ -87,7 +143,12 @@
    "numero": 431,
    "ano": 2026,
    "ementa": "Cria o Fundo Nacional de Desenvolvimento da Cadeia do Leite – FNDCL, com recursos vinculados a parcela do Imposto de Importação incidente sobre produtos lácteos, e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2601971"
+   "apresentacao": "2026-02-10",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2601971",
+   "primeiro_autor": false
   },
   {
    "id": 2470420,
@@ -95,7 +156,12 @@
    "numero": 4447,
    "ano": 2024,
    "ementa": "Institui a Política Brasileira de Capacitação de Microempreendedores Individuais, Microempresas e Empresas de Pequeno Porte do Simples Nacional – PBCSIMPLES.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2470420"
+   "apresentacao": "2024-11-19",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2470420",
+   "primeiro_autor": true
   },
   {
    "id": 2470237,
@@ -103,7 +169,12 @@
    "numero": 4437,
    "ano": 2024,
    "ementa": "Cria o Serviço Nacional de Apoio ao Agricultor e Agricultora Familiar (SENAAF), e dá outras providências",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2470237"
+   "apresentacao": "2024-11-19",
+   "situacao": "Aguardando Autorização do Despacho",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2470237",
+   "primeiro_autor": true
   },
   {
    "id": 2465525,
@@ -111,7 +182,12 @@
    "numero": 4137,
    "ano": 2024,
    "ementa": "Altera a Consolidação das Leis do Trabalho para dispor sobre o afastamento do trabalho da mulher que possua endometriose, mioma ou outra doença que aumente o fluxo sanguíneo durante o período menstrual.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2465525"
+   "apresentacao": "2024-10-30",
+   "situacao": "Pronta para Pauta",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2465525",
+   "primeiro_autor": true
   },
   {
    "id": 2463518,
@@ -119,7 +195,12 @@
    "numero": 4025,
    "ano": 2024,
    "ementa": "Altera a Lei nº 14.995, de 10 de outubro de 2024, para incentivar os empreendimentos femininos no Programa Acredita no Primeiro Passo.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2463518"
+   "apresentacao": "2024-10-21",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2463518",
+   "primeiro_autor": true
   },
   {
    "id": 2470422,
@@ -127,7 +208,12 @@
    "numero": 203,
    "ano": 2024,
    "ementa": "Institui o Imposto sobre Grandes Fortunas (IGF), previsto no art. 153, VII, da Constituição Federal.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2470422"
+   "apresentacao": "2024-11-19",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2470422",
+   "primeiro_autor": true
   },
   {
    "id": 2470421,
@@ -135,7 +221,12 @@
    "numero": 202,
    "ano": 2024,
    "ementa": "Altera a Lei Complementar nº 193, de 17 de março de 2022, para abrir novo prazo para o Programa de Reescalonamento do Pagamento de Débitos no Âmbito do Simples Nacional – Relp.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2470421"
+   "apresentacao": "2024-11-19",
+   "situacao": "Pronta para Pauta",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2470421",
+   "primeiro_autor": true
   }
  ]
 }

@@ -1,5 +1,11 @@
 {
  "id": 217480,
+ "resumo": {
+  "lei": 0,
+  "aprovado": 0,
+  "tramitacao": 7,
+  "encerrado": 2
+ },
  "projetos": [
   {
    "id": 2403522,
@@ -7,7 +13,12 @@
    "numero": 5471,
    "ano": 2023,
    "ementa": "Altera a Lei nº 13.675, de 11 de junho de 2018, e a Lei nº 13.756, de 12 de dezembro de 2018, para definir a carga horária de trabalho dos profissionais de Segurança Pública e Defesa Social, no âmbito das políticas e ações de saúde ocupacional e de segurança no trabalho, em consonância com as ações e diretrizes do Programa Pró-Vida.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2403522"
+   "apresentacao": "2023-11-13",
+   "situacao": "Devolvida ao(à) Autor(a)",
+   "situacao_data": null,
+   "categoria": "encerrado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2403522",
+   "primeiro_autor": true
   },
   {
    "id": 2401234,
@@ -15,7 +26,12 @@
    "numero": 5353,
    "ano": 2023,
    "ementa": "Altera o Decreto-Lei n. 2.848, de 7 de dezembro de 1940, para incluir como crime de constituição de milícia privada a exploração ilegal de serviços públicos essenciais.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2401234"
+   "apresentacao": "2023-11-06",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2401234",
+   "primeiro_autor": false
   },
   {
    "id": 2401233,
@@ -23,7 +39,12 @@
    "numero": 5352,
    "ano": 2023,
    "ementa": "Altera a Lei n. 10.826, de 22 de dezembro de 2003, para aumentar a pena em crime de posse ou porte de arma de fogo de uso restrito ou proibido que possuam alto potencial destrutivo.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2401233"
+   "apresentacao": "2023-11-06",
+   "situacao": "Arquivada",
+   "situacao_data": null,
+   "categoria": "encerrado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2401233",
+   "primeiro_autor": false
   },
   {
    "id": 2401231,
@@ -31,7 +52,12 @@
    "numero": 5351,
    "ano": 2023,
    "ementa": "Altera a Lei n. 7.210, de 11 de julho de 1984, para estabelecer percentuais para progressão de pena em crimes de lavagem de dinheiro e crime de porte de arma de uso restrito quando a arma possuir alto potencial destrutivo.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2401231"
+   "apresentacao": "2023-11-06",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2401231",
+   "primeiro_autor": false
   },
   {
    "id": 2383013,
@@ -39,7 +65,12 @@
    "numero": 4160,
    "ano": 2023,
    "ementa": "Altera a Lei nº 7.661, de 16 de maio de 1988, que “Institui o Plano Nacional de Gerenciamento Costeiro e dá outras providências”, para adequar e estabelecer outros procedimentos de proteção ao meio ambiente marinho e costeiro da costa brasileira.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2383013"
+   "apresentacao": "2023-08-28",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2383013",
+   "primeiro_autor": true
   },
   {
    "id": 2375383,
@@ -47,7 +78,12 @@
    "numero": 3706,
    "ano": 2023,
    "ementa": "Altera dispositivos da Lei nº 11.096, de 13 de janeiro de 2005, para garantir acesso à Universidade, através do PROUNI, aos profissionais de Segurança Pública e seus dependentes.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2375383"
+   "apresentacao": "2023-08-02",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2375383",
+   "primeiro_autor": true
   },
   {
    "id": 2368328,
@@ -55,7 +91,12 @@
    "numero": 2984,
    "ano": 2023,
    "ementa": "Dispõe sobre a obrigação das empresas distribuidoras de energia elétrica ofertarem planos de consumo controlado aos clientes domiciliares.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2368328"
+   "apresentacao": "2023-06-07",
+   "situacao": "Pronta para Pauta",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2368328",
+   "primeiro_autor": true
   },
   {
    "id": 2402861,
@@ -63,7 +104,12 @@
    "numero": 57,
    "ano": 2023,
    "ementa": "Altera os arts. 40 e 144 da Constituição Federal para dispor sobre as Polícias Municipais.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2402861"
+   "apresentacao": "2023-11-08",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2402861",
+   "primeiro_autor": true
   },
   {
    "id": 2377463,
@@ -71,7 +117,12 @@
    "numero": 34,
    "ano": 2023,
    "ementa": "Inclui dispositivos nos artigos 3º e 5º da Constituição da República Federativa do Brasil, estabelecendo o combate às drogas ilícitas como princípio fundamental e vedando expressamente a descriminalização do tráfico e a legalização de novas drogas recreativas.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2377463"
+   "apresentacao": "2023-08-09",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2377463",
+   "primeiro_autor": false
   }
  ]
 }

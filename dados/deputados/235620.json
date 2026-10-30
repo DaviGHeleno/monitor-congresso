@@ -1,5 +1,11 @@
 {
  "id": 235620,
+ "resumo": {
+  "lei": 0,
+  "aprovado": 0,
+  "tramitacao": 8,
+  "encerrado": 0
+ },
  "projetos": [
   {
    "id": 2641591,
@@ -7,7 +13,12 @@
    "numero": 4789,
    "ano": 2026,
    "ementa": "Institui o piso salarial profissional nacional dos motoristas profissionais empregados no transporte rodoviário de cargas que atuem em operações de longa distância",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641591"
+   "apresentacao": "2026-07-24",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641591",
+   "primeiro_autor": true
   },
   {
    "id": 2634048,
@@ -15,7 +26,12 @@
    "numero": 3207,
    "ano": 2026,
    "ementa": "Altera a Lei nº 9.503, de 1997, Código de Trânsito Brasileiro, para agravar as penalidades a condutores que dirigirem sob influência de álcool.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2634048"
+   "apresentacao": "2026-06-18",
+   "situacao": "Aguardando Apensação",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2634048",
+   "primeiro_autor": true
   },
   {
    "id": 2634044,
@@ -23,7 +39,12 @@
    "numero": 3206,
    "ano": 2026,
    "ementa": "Dispõe sobre a competência do fisioterapeuta para prescrever medicamentos, insumos e produtos relacionados à sua área de atuação profissional e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2634044"
+   "apresentacao": "2026-06-18",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2634044",
+   "primeiro_autor": true
   },
   {
    "id": 2632180,
@@ -31,7 +52,12 @@
    "numero": 3069,
    "ano": 2026,
    "ementa": "Institui o Programa Nacional da Primeira Empresa para estabelecer medidas de incentivo à formalização e ao empreendedorismo por meio da criação de regime jurídico diferenciado para pessoas naturais que constituam sua primeira empresa.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2632180"
+   "apresentacao": "2026-06-11",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2632180",
+   "primeiro_autor": true
   },
   {
    "id": 2632104,
@@ -39,7 +65,12 @@
    "numero": 3068,
    "ano": 2026,
    "ementa": "Altera a Lei nº 11.101, de 9 de fevereiro de 2005, para instituir o procedimento simplificado de recuperação judicial destinado aos devedores de baixo endividamento.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2632104"
+   "apresentacao": "2026-06-11",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2632104",
+   "primeiro_autor": true
   },
   {
    "id": 2628182,
@@ -47,7 +78,12 @@
    "numero": 2636,
    "ano": 2026,
    "ementa": "Cria a Identidade Empresarial Única do Empreendedor (IEUE), vinculada ao Cadastro de Pessoas Físicas (CPF), com a finalidade de consolidar e portar o histórico empresarial da pessoa física empreendedora, e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2628182"
+   "apresentacao": "2026-05-27",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2628182",
+   "primeiro_autor": true
   },
   {
    "id": 2628181,
@@ -55,7 +91,12 @@
    "numero": 2635,
    "ano": 2026,
    "ementa": "Dispõe sobre a inclusão do fisioterapeuta do trabalho na composição dos Serviços Especializados em Engenharia de Segurança e em Medicina do Trabalho (SESMT), previstos na NR-4, e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2628181"
+   "apresentacao": "2026-05-27",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2628181",
+   "primeiro_autor": true
   },
   {
    "id": 2628180,
@@ -63,7 +104,12 @@
    "numero": 2634,
    "ano": 2026,
    "ementa": "Modifica os arts. 302, 303 e 306 da Lei nº 9.503, de 23 de setembro de 1997 (Código de Trânsito Brasileiro), para recrudescer as penas dos crimes praticados sob a influência de álcool.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2628180"
+   "apresentacao": "2026-05-27",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2628180",
+   "primeiro_autor": true
   }
  ]
 }

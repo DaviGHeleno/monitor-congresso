@@ -1,5 +1,11 @@
 {
  "id": 204353,
+ "resumo": {
+  "lei": 0,
+  "aprovado": 0,
+  "tramitacao": 11,
+  "encerrado": 0
+ },
  "projetos": [
   {
    "id": 2649633,
@@ -7,7 +13,12 @@
    "numero": 5704,
    "ano": 2026,
    "ementa": "Institui o Programa Nacional Escola Segura — Infância Protegida, destinado à prevenção de situações de risco envolvendo crianças e adolescentes no ambiente escolar e em seu entorno, e estabelece diretrizes para cooperação, monitoramento preventivo e resposta a ocorrências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649633"
+   "apresentacao": "2026-10-29",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649633",
+   "primeiro_autor": true
   },
   {
    "id": 2648324,
@@ -15,7 +26,12 @@
    "numero": 5591,
    "ano": 2026,
    "ementa": "Institui a Lei Amapá Tucujú, estabelece diretrizes para a prioridade de investimentos em infraestrutura petrolífera no Estado do Amapá e dispõe sobre o desenvolvimento econômico e social associado às atividades de petróleo e gás natural da Margem Equatorial Brasileira.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2648324"
+   "apresentacao": "2026-10-16",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2648324",
+   "primeiro_autor": true
   },
   {
    "id": 2646839,
@@ -23,7 +39,12 @@
    "numero": 5413,
    "ano": 2026,
    "ementa": "Institui o Programa Auxílio-Creche Primeira Infância, destinado a assegurar apoio temporário às famílias de baixa renda que não tenham acesso a vaga na rede pública de educação infantil, e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646839"
+   "apresentacao": "2026-09-21",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646839",
+   "primeiro_autor": true
   },
   {
    "id": 2646838,
@@ -31,7 +52,12 @@
    "numero": 5412,
    "ano": 2026,
    "ementa": "Institui o Programa Reconstruir Lar, destinado a apoiar famílias de baixa renda em situação de vulnerabilidade habitacional na realização de reformas, melhorias e adaptações essenciais em suas moradias.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646838"
+   "apresentacao": "2026-09-21",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646838",
+   "primeiro_autor": true
   },
   {
    "id": 2646836,
@@ -39,7 +65,12 @@
    "numero": 5410,
    "ano": 2026,
    "ementa": "Institui o Programa Mandioca Viva, destinado ao apoio emergencial, à proteção de renda e à recuperação produtiva de agricultores e comunidades atingidos por emergência fitossanitária da cultura da mandioca.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646836"
+   "apresentacao": "2026-09-21",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646836",
+   "primeiro_autor": true
   },
   {
    "id": 2645408,
@@ -47,7 +78,12 @@
    "numero": 5272,
    "ano": 2026,
    "ementa": "Institui o Programa Nacional SPA – Saúde Mental e Bem-Estar, estabelece diretrizes para a promoção da saúde mental e a prevenção do sofrimento psíquico no âmbito do Sistema Único de Saúde – SUS, e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2645408"
+   "apresentacao": "2026-09-01",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2645408",
+   "primeiro_autor": true
   },
   {
    "id": 2639254,
@@ -55,7 +91,12 @@
    "numero": 3658,
    "ano": 2026,
    "ementa": "Institui a Política Nacional de Segurança Neonatal em maternidades e estabelecimentos de saúde que realizem partos, com medidas destinadas à prevenção da subtração, sequestro, desaparecimento e troca de recém-nascidos.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2639254"
+   "apresentacao": "2026-07-13",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2639254",
+   "primeiro_autor": true
   },
   {
    "id": 2563702,
@@ -63,7 +104,12 @@
    "numero": 4733,
    "ano": 2025,
    "ementa": "Altera a Lei nº 13.146, de 6 de julho de 2015, Estatuto da Pessoa com Deficiência, para incluir ações voltadas ao reconhecimento precoce de deficiências e à facilitação do acesso aos serviços de saúde.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2563702"
+   "apresentacao": "2025-09-23",
+   "situacao": "Aguardando Designação - Aguardando Devolução de Relator(a) que deixou de ser Membro",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2563702",
+   "primeiro_autor": true
   },
   {
    "id": 2563700,
@@ -71,7 +117,12 @@
    "numero": 4732,
    "ano": 2025,
    "ementa": "Institui a Política Nacional de Atenção em Oftalmologia no âmbito do Sistema Único de Saúde.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2563700"
+   "apresentacao": "2025-09-23",
+   "situacao": "Aguardando Deliberação",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2563700",
+   "primeiro_autor": true
   },
   {
    "id": 2561171,
@@ -79,7 +130,12 @@
    "numero": 4588,
    "ano": 2025,
    "ementa": "“Institui o Cadastro Nacional de Pedófilos e Agressores Sexuais”.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2561171"
+   "apresentacao": "2025-09-16",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2561171",
+   "primeiro_autor": true
   },
   {
    "id": 2549696,
@@ -87,7 +143,12 @@
    "numero": 4110,
    "ano": 2025,
    "ementa": "Altera a Lei nº 11.959, de 29 de junho de 2009, que \"Dispõe sobre Política Nacional de Desenvolvimento Sustentável da Aquicultura e da Pesca\", para incluir entre as competências do Poder Público, as ações de repovoamento com alevinos nas águas interiores e continentais.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2549696"
+   "apresentacao": "2025-08-19",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2549696",
+   "primeiro_autor": true
   }
  ]
 }

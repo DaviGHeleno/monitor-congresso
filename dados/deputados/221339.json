@@ -1,5 +1,11 @@
 {
  "id": 221339,
+ "resumo": {
+  "lei": 0,
+  "aprovado": 0,
+  "tramitacao": 6,
+  "encerrado": 2
+ },
  "projetos": [
   {
    "id": 2429912,
@@ -7,7 +13,12 @@
    "numero": 1419,
    "ano": 2024,
    "ementa": "Altera a Lei nº 13.722, de 4 de outubro de 2018, que torna obrigatória a capacitação em noções básicas de primeiros socorros de professores e funcionários de estabelecimentos de ensino públicos e privados de educação básica e de estabelecimentos de recreação infantil, para incluir como conteúdos básicos o atendimento a obstrução das vias aéreas e às emergências no diabetes tipo 1.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2429912"
+   "apresentacao": "2024-04-24",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2429912",
+   "primeiro_autor": true
   },
   {
    "id": 2447265,
@@ -15,7 +26,12 @@
    "numero": 27,
    "ano": 2024,
    "ementa": "Altera a Constituição Federal para acrescentar o Capítulo IX - Da Promoção Da Igualdade Racial, que institui o Fundo Nacional de Reparação Econômica e de Promoção da Igualdade Racial (FNREPIR) com o objetivo de promover a igualdade de oportunidades e a inclusão social dos brasileiros pretos e pardos, e dá outras providências",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2447265"
+   "apresentacao": "2024-07-08",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2447265",
+   "primeiro_autor": false
   },
   {
    "id": 2386182,
@@ -23,7 +39,12 @@
    "numero": 4360,
    "ano": 2023,
    "ementa": "Institui o Programa Nacional de Tratamento Cirúrgico de Fraturas e Controle de Complicações Decorrentes.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2386182"
+   "apresentacao": "2023-09-05",
+   "situacao": "Arquivada",
+   "situacao_data": null,
+   "categoria": "encerrado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2386182",
+   "primeiro_autor": true
   },
   {
    "id": 2349641,
@@ -31,7 +52,12 @@
    "numero": 746,
    "ano": 2023,
    "ementa": "Institui o Programa Nacional de Tratamento da Obesidade Mórbida.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2349641"
+   "apresentacao": "2023-03-01",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2349641",
+   "primeiro_autor": true
   },
   {
    "id": 2348772,
@@ -39,7 +65,12 @@
    "numero": 513,
    "ano": 2023,
    "ementa": "Institui o Programa Nacional de Controle do Câncer Colorretal.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2348772"
+   "apresentacao": "2023-02-14",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2348772",
+   "primeiro_autor": true
   },
   {
    "id": 2382571,
@@ -47,7 +78,12 @@
    "numero": 106,
    "ano": 2023,
    "ementa": "Denomina “Ala Eduardo Barbosa” o corredor de acesso às Comissões Permanentes da Câmara dos Deputados, na área limítrofe entre os Anexos 2 e 3, no pavimento térreo.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2382571"
+   "apresentacao": "2023-08-24",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2382571",
+   "primeiro_autor": false
   },
   {
    "id": 2362646,
@@ -55,7 +91,12 @@
    "numero": 26,
    "ano": 2023,
    "ementa": "Dá nova redação ao Art. 166-A  da Constituição Federal, para autorizar a Transferência Especial de recursos federais a Estados, ao Distrito Federal e a Municípios mediante emendas individuais e bancadas ao projeto de lei orçamentária anual.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2362646"
+   "apresentacao": "2023-05-17",
+   "situacao": "Retirado pelo(a) Autor(a)",
+   "situacao_data": null,
+   "categoria": "encerrado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2362646",
+   "primeiro_autor": false
   },
   {
    "id": 2362526,
@@ -63,7 +104,12 @@
    "numero": 25,
    "ano": 2023,
    "ementa": "Acrescenta o Capítulo IX ao Título VIII para oferecer diretrizes sobre o direito social ao transporte previsto no art. 6º e sobre o Sistema único de Mobilidade e autoriza a União, Distrito Federal e Municípios a instituírem\ncontribuição pelo uso do sistema viário, destinada ao custeio do transporte público coletivo urbano.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2362526"
+   "apresentacao": "2023-05-16",
+   "situacao": "Pronta para Pauta",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2362526",
+   "primeiro_autor": false
   }
  ]
 }

@@ -1,5 +1,11 @@
 {
  "id": 204563,
+ "resumo": {
+  "lei": 0,
+  "aprovado": 1,
+  "tramitacao": 8,
+  "encerrado": 1
+ },
  "projetos": [
   {
    "id": 2644800,
@@ -7,7 +13,12 @@
    "numero": 16,
    "ano": 2026,
    "ementa": "Acrescenta os art. 68-A no Ato das Disposições Constitucionais Transitórias para ratificar os registros de imóveis rurais em faixa de fronteira concedidos pelos estados antes da promulgação desta Constituição Federal e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644800"
+   "apresentacao": "2026-08-28",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644800",
+   "primeiro_autor": false
   },
   {
    "id": 2503894,
@@ -15,7 +26,12 @@
    "numero": 2088,
    "ano": 2025,
    "ementa": "Altera a Lei nº 10.257, de 10 de julho de 2001, para dispor sobre sustentabilidade ambiental, inclusão social e gestão democrática nas cidades.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2503894"
+   "apresentacao": "2025-05-06",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2503894",
+   "primeiro_autor": true
   },
   {
    "id": 2490058,
@@ -23,7 +39,12 @@
    "numero": 1238,
    "ano": 2025,
    "ementa": "Altera a Lei nº 13.364, de 29 de novembro de 2016, para prever práticas voltadas ao bem-estar animal.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2490058"
+   "apresentacao": "2025-03-26",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2490058",
+   "primeiro_autor": true
   },
   {
    "id": 2557024,
@@ -31,7 +52,12 @@
    "numero": 34,
    "ano": 2025,
    "ementa": "Acrescenta o inciso IX ao art. 225, §º1 da Constituição Federal, a alínea “e” ao inciso II do art. 9º, §3º e o §14 ao art. 9º da Emenda Constitucional 132/2023 para corrigir o tratamento injusto concedido pela Reforma Tributária aos agentes que atuam no setor de reciclagem, desvalorizando os materiais recicláveis e desincentivando a economia circular.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2557024"
+   "apresentacao": "2025-09-03",
+   "situacao": "Aguardando Constituição de Comissão Temporária",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2557024",
+   "primeiro_autor": false
   },
   {
    "id": 2461412,
@@ -39,7 +65,12 @@
    "numero": 3850,
    "ano": 2024,
    "ementa": "Institui diretrizes para Programa de Combate a Violência em instituições de ensino.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2461412"
+   "apresentacao": "2024-10-08",
+   "situacao": "Arquivada",
+   "situacao_data": null,
+   "categoria": "encerrado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2461412",
+   "primeiro_autor": true
   },
   {
    "id": 2441060,
@@ -47,7 +78,12 @@
    "numero": 2402,
    "ano": 2024,
    "ementa": "Institui linha especial de crédito rural.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2441060"
+   "apresentacao": "2024-06-17",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2441060",
+   "primeiro_autor": true
   },
   {
    "id": 2402145,
@@ -55,7 +91,12 @@
    "numero": 5393,
    "ano": 2023,
    "ementa": "Dispõe sobre o acesso de clientes às cozinhas de estabelecimentos que comercializam alimentos preparados para consumo e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2402145"
+   "apresentacao": "2023-11-07",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2402145",
+   "primeiro_autor": true
   },
   {
    "id": 2387807,
@@ -63,7 +104,12 @@
    "numero": 4473,
    "ano": 2023,
    "ementa": "Dispõe sobre a obrigatoriedade do fornecimento de fraldas descartáveis aos idosos em estado de vulnerabilidade social.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2387807"
+   "apresentacao": "2023-09-13",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2387807",
+   "primeiro_autor": true
   },
   {
    "id": 2380340,
@@ -71,7 +117,12 @@
    "numero": 38,
    "ano": 2023,
    "ementa": "Modifica as regras dos regimes próprios de previdência social dos servidores dos municípios, objetivando o equilíbrio financeiro e atuarial dos regimes e a sustentabilidade fiscal desses entes, e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2380340"
+   "apresentacao": "2023-08-16",
+   "situacao": "Aguardando Designação - Aguardando Devolução de Relator(a) que deixou de ser Membro",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2380340",
+   "primeiro_autor": false
   },
   {
    "id": 2351506,
@@ -79,7 +130,12 @@
    "numero": 5,
    "ano": 2023,
    "ementa": "Acrescenta § 4º-A ao art. 150 da Constituição Federal, para dispor sobre a imunidade tributária de que tratam as suas alíneas “b” e “c” do inciso VI.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2351506"
+   "apresentacao": "2023-03-15",
+   "situacao": "Aguardando Apreciação pelo Senado Federal",
+   "situacao_data": null,
+   "categoria": "aprovado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2351506",
+   "primeiro_autor": false
   }
  ]
 }

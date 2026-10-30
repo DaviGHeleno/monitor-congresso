@@ -1,5 +1,11 @@
 {
  "id": 226075,
+ "resumo": {
+  "lei": 1,
+  "aprovado": 1,
+  "tramitacao": 12,
+  "encerrado": 2
+ },
  "projetos": [
   {
    "id": 2399581,
@@ -7,7 +13,12 @@
    "numero": 5224,
    "ano": 2023,
    "ementa": "Institui a Política Nacional de Proteção Institucional à Criança e ao Adolescente - PPCA e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2399581"
+   "apresentacao": "2023-10-26",
+   "situacao": "Aguardando Apreciação pelo Senado Federal",
+   "situacao_data": null,
+   "categoria": "aprovado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2399581",
+   "primeiro_autor": true
   },
   {
    "id": 2399579,
@@ -15,7 +26,12 @@
    "numero": 5222,
    "ano": 2023,
    "ementa": "Altera o art. 140, do Decreto-Lei nº 2.848, de 1940 (Código Penal).",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2399579"
+   "apresentacao": "2023-10-26",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2399579",
+   "primeiro_autor": true
   },
   {
    "id": 2399574,
@@ -23,7 +39,12 @@
    "numero": 5219,
    "ano": 2023,
    "ementa": "Dispõe sobre inclusão de amparo ao idoso no quesito de novas tecnologias.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2399574"
+   "apresentacao": "2023-10-26",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2399574",
+   "primeiro_autor": true
   },
   {
    "id": 2399560,
@@ -31,7 +52,12 @@
    "numero": 5218,
    "ano": 2023,
    "ementa": "Altera os artigos 22, 181 e 269 do código de Trânsito Brasileiro.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2399560"
+   "apresentacao": "2023-10-26",
+   "situacao": "Arquivada",
+   "situacao_data": null,
+   "categoria": "encerrado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2399560",
+   "primeiro_autor": true
   },
   {
    "id": 2399559,
@@ -39,7 +65,12 @@
    "numero": 5217,
    "ano": 2023,
    "ementa": "Altera o art. 147-B do Código Penal Brasileiro.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2399559"
+   "apresentacao": "2023-10-26",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2399559",
+   "primeiro_autor": true
   },
   {
    "id": 2396351,
@@ -47,7 +78,12 @@
    "numero": 5021,
    "ano": 2023,
    "ementa": "Institui a Lista de Organizações Terroristas, altera a Lei nº 13.260, de 16 de março de 2016, e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2396351"
+   "apresentacao": "2023-10-17",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2396351",
+   "primeiro_autor": false
   },
   {
    "id": 2396161,
@@ -55,7 +91,12 @@
    "numero": 5016,
    "ano": 2023,
    "ementa": "Dispõe sobre o cancelamento de vistos e extradição em caso de apoio a organizações terroristas.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2396161"
+   "apresentacao": "2023-10-17",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2396161",
+   "primeiro_autor": true
   },
   {
    "id": 2396156,
@@ -63,7 +104,12 @@
    "numero": 5015,
    "ano": 2023,
    "ementa": "Institui o Dia de Prevenção à Automutilação e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2396156"
+   "apresentacao": "2023-10-17",
+   "situacao": "Transformado em Norma Jurídica",
+   "situacao_data": null,
+   "categoria": "lei",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2396156",
+   "primeiro_autor": true
   },
   {
    "id": 2396155,
@@ -71,7 +117,12 @@
    "numero": 5014,
    "ano": 2023,
    "ementa": "Institui o Dia do Ventre Protegido e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2396155"
+   "apresentacao": "2023-10-17",
+   "situacao": "Pronta para Pauta",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2396155",
+   "primeiro_autor": true
   },
   {
    "id": 2396152,
@@ -79,7 +130,12 @@
    "numero": 5013,
    "ano": 2023,
    "ementa": "Dispõe sobre o banimento de contas e domínios que promovam o aborto por meio de sites, aplicativos e plataformas online, e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2396152"
+   "apresentacao": "2023-10-17",
+   "situacao": "Aguardando Designação - Aguardando Devolução de Relator(a) que deixou de ser Membro",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2396152",
+   "primeiro_autor": true
   },
   {
    "id": 2394641,
@@ -87,7 +143,12 @@
    "numero": 4894,
    "ano": 2023,
    "ementa": "Dispõe sobre sanções políticas e econômicas relacionadas ao Hamas e ao Hezbollah, os classifica como grupos terroristas, e criminaliza manifestações de apoio a esses grupos.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2394641"
+   "apresentacao": "2023-10-09",
+   "situacao": "Pronta para Pauta",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2394641",
+   "primeiro_autor": false
   },
   {
    "id": 2388371,
@@ -95,7 +156,12 @@
    "numero": 4525,
    "ano": 2023,
    "ementa": "Proíbe a veiculação de propaganda e anúncio de serviços de acompanhantes, prostituição e outros serviços de sexo em equipamentos públicos e em eventos que tenham recebido verba pública, e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2388371"
+   "apresentacao": "2023-09-18",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2388371",
+   "primeiro_autor": true
   },
   {
    "id": 2388370,
@@ -103,7 +169,12 @@
    "numero": 4524,
    "ano": 2023,
    "ementa": "Acrescenta o Capítulo VIII ao Título IV da Parte Especial do Decreto-Lei no 2.848, de 7 de dezembro de 1940 - Código Penal, e altera o art. 1º da Lei no 8.072, de 25 de julho de 1990, que dispõe sobre os crimes hediondos, nos termos do inciso XLIII do art. 5o da Constituição Federal.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2388370"
+   "apresentacao": "2023-09-18",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2388370",
+   "primeiro_autor": true
   },
   {
    "id": 2374503,
@@ -111,7 +182,12 @@
    "numero": 198,
    "ano": 2023,
    "ementa": "Susta os efeitos da Resolução nº 715, de 20 de julho de 2023, do Conselho Nacional de Saúde, que trata das “orientações estratégicas para o Plano Plurianual (PPA) e para o Plano Nacional de Saúde (PNS) 2024-2027”.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2374503"
+   "apresentacao": "2023-07-28",
+   "situacao": "Devolvida ao(à) Autor(a)",
+   "situacao_data": null,
+   "categoria": "encerrado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2374503",
+   "primeiro_autor": false
   },
   {
    "id": 2372482,
@@ -119,7 +195,12 @@
    "numero": 141,
    "ano": 2023,
    "ementa": "Altera o inciso XIV do artigo 22, da Lei Complementar nº 64, de 18 de maio de 1990, para determinar que a sanção de inelegibilidade para as eleições a se realizarem seja nos 2 (dois) anos subsequentes à eleição.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2372482"
+   "apresentacao": "2023-07-04",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2372482",
+   "primeiro_autor": false
   },
   {
    "id": 2377463,
@@ -127,7 +208,12 @@
    "numero": 34,
    "ano": 2023,
    "ementa": "Inclui dispositivos nos artigos 3º e 5º da Constituição da República Federativa do Brasil, estabelecendo o combate às drogas ilícitas como princípio fundamental e vedando expressamente a descriminalização do tráfico e a legalização de novas drogas recreativas.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2377463"
+   "apresentacao": "2023-08-09",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2377463",
+   "primeiro_autor": false
   }
  ]
 }

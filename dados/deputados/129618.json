@@ -1,5 +1,11 @@
 {
  "id": 129618,
+ "resumo": {
+  "lei": 1,
+  "aprovado": 0,
+  "tramitacao": 1,
+  "encerrado": 0
+ },
  "projetos": [
   {
    "id": 2604314,
@@ -7,7 +13,12 @@
    "numero": 727,
    "ano": 2026,
    "ementa": "Dispõe sobre a comercialização, a aquisição, a posse e o porte de aerossol de extratos vegetais por mulheres para fins de defesa pessoal, estabelece penalidades pelo uso indevido e altera a Lei nº 10.826, de 22 de dezembro de 2003 (Estatuto do Desarmamento).",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2604314"
+   "apresentacao": "2026-02-24",
+   "situacao": "Transformado em Norma Jurídica",
+   "situacao_data": null,
+   "categoria": "lei",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2604314",
+   "primeiro_autor": true
   },
   {
    "id": 2600984,
@@ -15,7 +26,12 @@
    "numero": 297,
    "ano": 2026,
    "ementa": "Dispõe sobre a comercialização, a aquisição, a posse e o porte de spray de pimenta por mulheres para fins de defesa pessoal, estabelece penalidades pelo uso indevido e altera a Lei nº 10.826, de 22 de dezembro de 2003 (Estatuto do Desarmamento).",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2600984"
+   "apresentacao": "2026-02-04",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2600984",
+   "primeiro_autor": true
   }
  ]
 }

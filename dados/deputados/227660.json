@@ -1,5 +1,11 @@
 {
  "id": 227660,
+ "resumo": {
+  "lei": 0,
+  "aprovado": 3,
+  "tramitacao": 35,
+  "encerrado": 5
+ },
  "projetos": [
   {
    "id": 2529550,
@@ -7,7 +13,12 @@
    "numero": 3146,
    "ano": 2025,
    "ementa": "Reconhece como Patrimônio Cultural de Natureza Imaterial do Brasil os Tapetes de Grãos confeccionados no Estado de Sergipe durante as celebrações de Corpus Christi.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2529550"
+   "apresentacao": "2025-07-01",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2529550",
+   "primeiro_autor": true
   },
   {
    "id": 2529548,
@@ -15,7 +26,12 @@
    "numero": 3143,
    "ano": 2025,
    "ementa": "Destina 5% dos recursos federais destinados à cultura para aplicação paritária por estados e municípios na preservação e difusão das manifestações culturais reconhecidas como Patrimônio Cultural Imaterial e Histórico do Brasil por meio de lei aprovada no Congresso Nacional.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2529548"
+   "apresentacao": "2025-07-01",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2529548",
+   "primeiro_autor": true
   },
   {
    "id": 2529544,
@@ -23,7 +39,12 @@
    "numero": 3142,
    "ano": 2025,
    "ementa": "Reconhece a Festa do Mastro de Capela, realizada no Município de Capela, Estado de Sergipe, como manifestação da cultura nacional e Patrimônio Cultural Imaterial do Brasil.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2529544"
+   "apresentacao": "2025-07-01",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2529544",
+   "primeiro_autor": true
   },
   {
    "id": 2521258,
@@ -31,7 +52,12 @@
    "numero": 2764,
    "ano": 2025,
    "ementa": "Dispõe sobre a obrigatoriedade de advertência de risco de dependência e indicação da idade mínima em anúncios de jogos de apostas (“bets”), jogos de azar, jogos online e de cassino, e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2521258"
+   "apresentacao": "2025-06-10",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2521258",
+   "primeiro_autor": true
   },
   {
    "id": 2521257,
@@ -39,7 +65,12 @@
    "numero": 2763,
    "ano": 2025,
    "ementa": "Reconhece como Patrimônio Cultural Imaterial do Brasil a Vila do Forró, localizada no município de Aracaju, Estado de Sergipe.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2521257"
+   "apresentacao": "2025-06-10",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2521257",
+   "primeiro_autor": true
   },
   {
    "id": 2517289,
@@ -47,7 +78,12 @@
    "numero": 2582,
    "ano": 2025,
    "ementa": "Reconhece a Feirinha da Praça Tobias Barreto, localizada no Município de Aracaju, Estado de Sergipe, como Patrimônio Cultural Imaterial do Brasil.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2517289"
+   "apresentacao": "2025-05-27",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2517289",
+   "primeiro_autor": true
   },
   {
    "id": 2515792,
@@ -55,7 +91,12 @@
    "numero": 2512,
    "ano": 2025,
    "ementa": "Reconhece a Procissão de Divina Pastora, realizada no Estado de Sergipe, como Patrimônio Cultural e Histórico do Brasil.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2515792"
+   "apresentacao": "2025-05-23",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2515792",
+   "primeiro_autor": true
   },
   {
    "id": 2515791,
@@ -63,7 +104,12 @@
    "numero": 2511,
    "ano": 2025,
    "ementa": "Reconhece o Forró Siri, realizado no Município de Nossa Senhora do Socorro, Estado de Sergipe, como Patrimônio Cultural Imaterial do Brasil.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2515791"
+   "apresentacao": "2025-05-23",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2515791",
+   "primeiro_autor": true
   },
   {
    "id": 2515790,
@@ -71,7 +117,12 @@
    "numero": 2510,
    "ano": 2025,
    "ementa": "Reconhece o Forró Caju, realizado no Município de Aracaju, Estado de Sergipe, como Patrimônio Cultural Imaterial do Brasil",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2515790"
+   "apresentacao": "2025-05-23",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2515790",
+   "primeiro_autor": true
   },
   {
    "id": 2515789,
@@ -79,7 +130,12 @@
    "numero": 2509,
    "ano": 2025,
    "ementa": "Reconhece como Patrimônio Cultural Imaterial do Brasil o Festival da Mandioca do Município de Lagarto, no Estado de Sergipe.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2515789"
+   "apresentacao": "2025-05-23",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2515789",
+   "primeiro_autor": true
   },
   {
    "id": 2515788,
@@ -87,7 +143,12 @@
    "numero": 2508,
    "ano": 2025,
    "ementa": "Reconhece como Patrimônio Cultural Imaterial do Brasil o Carnaval do Município de Itabaianinha, no Estado de Sergipe.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2515788"
+   "apresentacao": "2025-05-23",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2515788",
+   "primeiro_autor": true
   },
   {
    "id": 2515784,
@@ -95,7 +156,12 @@
    "numero": 2507,
    "ano": 2025,
    "ementa": "Reconhece a Festa do Caminhoneiro, realizada no município de Itabaiana, Estado de Sergipe, como Patrimônio Cultural Imaterial do Brasil",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2515784"
+   "apresentacao": "2025-05-23",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2515784",
+   "primeiro_autor": true
   },
   {
    "id": 2515783,
@@ -103,7 +169,12 @@
    "numero": 2506,
    "ano": 2025,
    "ementa": "Reconhece a Procissão de Nossa Senhora Aparecida, realizada no Estado de Sergipe, como Patrimônio Cultural e Histórico do Brasil.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2515783"
+   "apresentacao": "2025-05-23",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2515783",
+   "primeiro_autor": true
   },
   {
    "id": 2514760,
@@ -111,7 +182,12 @@
    "numero": 2432,
    "ano": 2025,
    "ementa": "Dispõe sobre a obrigatoriedade do envio mensal do contracheque impresso e da notificação domiciliar de descontos aos aposentados e pensionistas do Instituto Nacional do Seguro Social (INSS).",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2514760"
+   "apresentacao": "2025-05-21",
+   "situacao": "Arquivada",
+   "situacao_data": null,
+   "categoria": "encerrado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2514760",
+   "primeiro_autor": true
   },
   {
    "id": 2514759,
@@ -119,7 +195,12 @@
    "numero": 2431,
    "ano": 2025,
    "ementa": "Dispõe sobre a obrigatoriedade das instituições financeiras e bancárias de notificarem por escrito, previamente, os titulares de benefícios previdenciários sobre quaisquer descontos em folha decorrentes de empréstimos consignados, associações, seguros, planos de saúde e planos funerários.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2514759"
+   "apresentacao": "2025-05-21",
+   "situacao": "Arquivada",
+   "situacao_data": null,
+   "categoria": "encerrado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2514759",
+   "primeiro_autor": true
   },
   {
    "id": 2511778,
@@ -127,7 +208,12 @@
    "numero": 2386,
    "ano": 2025,
    "ementa": "Reconhece o “Forró Alegre” do Município de Monte Alegre de Sergipe como Patrimônio Cultural Imaterial do Brasil e institui medidas de proteção, incentivo e valorização.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2511778"
+   "apresentacao": "2025-05-20",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2511778",
+   "primeiro_autor": true
   },
   {
    "id": 2505399,
@@ -135,7 +221,12 @@
    "numero": 2153,
    "ano": 2025,
    "ementa": "Dispõe sobre a obrigatoriedade da implantação de placas de advertência e placas indicativas de rotas alternativas de fuga em áreas sujeitas a risco de alagamento em todo o território nacional.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2505399"
+   "apresentacao": "2025-05-07",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2505399",
+   "primeiro_autor": true
   },
   {
    "id": 2504727,
@@ -143,7 +234,12 @@
    "numero": 2139,
    "ano": 2025,
    "ementa": "Institui diretrizes nacionais para a promoção da saúde mental de crianças e adolescentes no ambiente digital, mediante mecanismos obrigatórios de alerta de uso contínuo e pausas saudáveis em plataformas digitais, e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2504727"
+   "apresentacao": "2025-05-06",
+   "situacao": "Pronta para Pauta",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2504727",
+   "primeiro_autor": true
   },
   {
    "id": 2504715,
@@ -151,7 +247,12 @@
    "numero": 2138,
    "ano": 2025,
    "ementa": "Dispõe sobre a obrigatoriedade da oferta de atividades de terapia ocupacional em Instituições de Longa Permanência para Idosos (ILPIs) e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2504715"
+   "apresentacao": "2025-05-06",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2504715",
+   "primeiro_autor": true
   },
   {
    "id": 2504708,
@@ -159,7 +260,12 @@
    "numero": 2137,
    "ano": 2025,
    "ementa": "Dispõe sobre a obrigatoriedade de estabelecimentos de prestação de serviços de saúde e dependências de acesso público do serviço funerário manterem fixadas orientações sobre o SPVAT.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2504708"
+   "apresentacao": "2025-05-06",
+   "situacao": "Arquivada",
+   "situacao_data": null,
+   "categoria": "encerrado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2504708",
+   "primeiro_autor": true
   },
   {
    "id": 2504698,
@@ -167,7 +273,12 @@
    "numero": 2136,
    "ano": 2025,
    "ementa": "Reconhece a Procissão Fluvial de Bom Jesus dos Navegantes do Baixo São Francisco como Patrimônio Cultural Imaterial do Brasil e institui medidas de proteção, incentivo e valorização.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2504698"
+   "apresentacao": "2025-05-06",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2504698",
+   "primeiro_autor": true
   },
   {
    "id": 2504674,
@@ -175,7 +286,12 @@
    "numero": 2130,
    "ano": 2025,
    "ementa": "Institui a Semana Nacional de Conscientização sobre a Prioridade da Faixa de Pedestres e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2504674"
+   "apresentacao": "2025-05-06",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2504674",
+   "primeiro_autor": true
   },
   {
    "id": 2504671,
@@ -183,7 +299,12 @@
    "numero": 2129,
    "ano": 2025,
    "ementa": "Dispõe sobre a obrigatoriedade de inclusão de conteúdos relacionados à inteligência artificial no currículo da educação básica.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2504671"
+   "apresentacao": "2025-05-06",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2504671",
+   "primeiro_autor": true
   },
   {
    "id": 2485085,
@@ -191,7 +312,12 @@
    "numero": 606,
    "ano": 2025,
    "ementa": "Dispõe sobre a proibição da cobrança de taxa fixa em estacionamentos e obrigatoriedade do pagamento por tempo de uso.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2485085"
+   "apresentacao": "2025-02-20",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2485085",
+   "primeiro_autor": true
   },
   {
    "id": 2485084,
@@ -199,7 +325,12 @@
    "numero": 605,
    "ano": 2025,
    "ementa": "Dispõe sobre a proibição da contratação de indivíduos indiciados, processados e/ou apenados por crimes sexuais no âmbito da rede pública de ensino municipal, estadual e federal.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2485084"
+   "apresentacao": "2025-02-20",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2485084",
+   "primeiro_autor": true
   },
   {
    "id": 2485083,
@@ -207,7 +338,12 @@
    "numero": 604,
    "ano": 2025,
    "ementa": "Dispõe sobre medidas de combate à importunação, ao abuso sexual e ao abuso sexual digital na rede de ensino, em cumprimento aos princípios de proteção e segurança previstos no Estatuto da Criança e do Adolescente.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2485083"
+   "apresentacao": "2025-02-20",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2485083",
+   "primeiro_autor": true
   },
   {
    "id": 2483958,
@@ -215,7 +351,12 @@
    "numero": 447,
    "ano": 2025,
    "ementa": "Dispõe sobre a obrigatoriedade de inclusão do teor de álcool na rotulagem de alimentos que contenham álcool em sua composição.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2483958"
+   "apresentacao": "2025-02-13",
+   "situacao": "Retirado pelo(a) Autor(a)",
+   "situacao_data": null,
+   "categoria": "encerrado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2483958",
+   "primeiro_autor": true
   },
   {
    "id": 2483840,
@@ -223,7 +364,12 @@
    "numero": 410,
    "ano": 2025,
    "ementa": "Dispõe sobre a criação da Rede Nacional de Ambientes Seguros para Grupos em Situação de Vulnerabilidade Social.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2483840"
+   "apresentacao": "2025-02-12",
+   "situacao": "Pronta para Pauta",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2483840",
+   "primeiro_autor": true
   },
   {
    "id": 2485767,
@@ -231,7 +377,12 @@
    "numero": 9,
    "ano": 2025,
    "ementa": "Acrescenta o § 16 ao art. 198 da Constituição Federal, para dispor sobre as diretrizes para os Planos de Carreira e os pisos salariais nacionais dos profissionais de saúde do Sistema Único de Saúde.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2485767"
+   "apresentacao": "2025-02-27",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2485767",
+   "primeiro_autor": false
   },
   {
    "id": 2485341,
@@ -239,7 +390,12 @@
    "numero": 8,
    "ano": 2025,
    "ementa": "Dá nova redação ao inciso XIII, do artigo 7° da Constituição Federal para dispor sobre a redução da jornada de trabalho para quatro dias por semana no Brasil.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2485341"
+   "apresentacao": "2025-02-25",
+   "situacao": "Arquivada",
+   "situacao_data": null,
+   "categoria": "encerrado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2485341",
+   "primeiro_autor": false
   },
   {
    "id": 2445278,
@@ -247,7 +403,12 @@
    "numero": 2696,
    "ano": 2024,
    "ementa": "Dispõe sobre a realização de campanha permanente nos departamentos de saúde para orientação e conscientização sobre a necessidade do exame de trombofilia antes do uso de anticoncepcionais, e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2445278"
+   "apresentacao": "2024-07-03",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2445278",
+   "primeiro_autor": true
   },
   {
    "id": 2434202,
@@ -255,7 +416,12 @@
    "numero": 1864,
    "ano": 2024,
    "ementa": "Inclui no Calendário Turístico Nacional o Festival de Inverno do Povoado Palmares, no município de Riachão do Dantas, Estado de Sergipe.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2434202"
+   "apresentacao": "2024-05-15",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2434202",
+   "primeiro_autor": true
   },
   {
    "id": 2434200,
@@ -263,7 +429,12 @@
    "numero": 1863,
    "ano": 2024,
    "ementa": "Inclui e declara o Caranguejo, como Patrimônio Nacional, Histórico e Cultural do Brasile dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2434200"
+   "apresentacao": "2024-05-15",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2434200",
+   "primeiro_autor": true
   },
   {
    "id": 2434143,
@@ -271,7 +442,12 @@
    "numero": 1857,
    "ano": 2024,
    "ementa": "Dispõe sobre a validade do laudo médico que atesta a síndrome de fibromialgia, e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2434143"
+   "apresentacao": "2024-05-15",
+   "situacao": "Aguardando Apreciação pelo Senado Federal",
+   "situacao_data": null,
+   "categoria": "aprovado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2434143",
+   "primeiro_autor": true
   },
   {
    "id": 2430657,
@@ -279,7 +455,12 @@
    "numero": 1513,
    "ano": 2024,
    "ementa": "Cria a Rota Turística do Cangaço, no litoral dos estados de Sergipe e Alagoas.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2430657"
+   "apresentacao": "2024-05-02",
+   "situacao": "Aguardando Apreciação pelo Senado Federal",
+   "situacao_data": null,
+   "categoria": "aprovado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2430657",
+   "primeiro_autor": true
   },
   {
    "id": 2430656,
@@ -287,7 +468,12 @@
    "numero": 1512,
    "ano": 2024,
    "ementa": "Cria a Rota Turística do Imperador, no litoral dos estados de Sergipe e Alagoas.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2430656"
+   "apresentacao": "2024-05-02",
+   "situacao": "Aguardando Apreciação pelo Senado Federal",
+   "situacao_data": null,
+   "categoria": "aprovado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2430656",
+   "primeiro_autor": true
   },
   {
    "id": 2430148,
@@ -295,7 +481,12 @@
    "numero": 1452,
    "ano": 2024,
    "ementa": "Inclui e declara a tradição do Barco de Fogo, como Patrimônio Nacional, Histórico e Cultural do Brasil e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2430148"
+   "apresentacao": "2024-04-25",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2430148",
+   "primeiro_autor": true
   },
   {
    "id": 2430147,
@@ -303,7 +494,12 @@
    "numero": 1451,
    "ano": 2024,
    "ementa": "Inclui e declara o Bacamarte, como Patrimônio Nacional, Histórico e Cultural do Brasil.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2430147"
+   "apresentacao": "2024-04-25",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2430147",
+   "primeiro_autor": true
   },
   {
    "id": 2428324,
@@ -311,7 +507,12 @@
    "numero": 1352,
    "ano": 2024,
    "ementa": "Altera a Lei nº 14.062, de 23 de setembro de 2020, para dispor sobre a Semana de Conscientização sobre a Atrofia Muscular Espinhal.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2428324"
+   "apresentacao": "2024-04-18",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2428324",
+   "primeiro_autor": true
   },
   {
    "id": 2458742,
@@ -319,7 +520,12 @@
    "numero": 34,
    "ano": 2024,
    "ementa": "Inclui a primeira infância como beneficiária de direitos e garantias, no Texto Constitucional.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2458742"
+   "apresentacao": "2024-09-19",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2458742",
+   "primeiro_autor": false
   },
   {
    "id": 2455515,
@@ -327,7 +533,12 @@
    "numero": 31,
    "ano": 2024,
    "ementa": "Acrescenta os arts.91-A, 91-B e a alínea “g” do inciso I do artigo 159 da Constituição Federal, para instituir o Conselho Nacional de Mudança Climática, a Autoridade Climática Nacional e o Fundo Nacional de Mudança Climática.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2455515"
+   "apresentacao": "2024-08-27",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2455515",
+   "primeiro_autor": false
   },
   {
    "id": 2436619,
@@ -335,7 +546,12 @@
    "numero": 23,
    "ano": 2024,
    "ementa": "Acrescenta o §2º no Art. 4º da Constituição para acrescentar a integração dos países de língua portuguesa entre os princípios que regem as relações internacionais da República Federativa do Brasil.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2436619"
+   "apresentacao": "2024-05-27",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2436619",
+   "primeiro_autor": false
   },
   {
    "id": 2432987,
@@ -343,7 +559,12 @@
    "numero": 17,
    "ano": 2024,
    "ementa": "Acrescenta art. 132-A e altera o art. 168 da Constituição Federal, para conferir autonomia orçamentária às Procuradorias dos Estados e do Distrito Federal e à Advocacia-Geral da União e seus órgãos vinculados.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2432987"
+   "apresentacao": "2024-05-13",
+   "situacao": "Aguardando Criação de Comissão Temporária",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2432987",
+   "primeiro_autor": false
   }
  ]
 }

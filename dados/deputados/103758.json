@@ -1,5 +1,11 @@
 {
  "id": 103758,
+ "resumo": {
+  "lei": 1,
+  "aprovado": 0,
+  "tramitacao": 17,
+  "encerrado": 2
+ },
  "projetos": [
   {
    "id": 2456681,
@@ -7,7 +13,12 @@
    "numero": 3463,
    "ano": 2024,
    "ementa": "Inclui o item 38 ao inc. II do art. 167 e o inc. IV e parágrafo único ao art. 233, ambos da Lei nº 6.015, de 31 de  dezembro de 1973, para estabelecer nova hipótese de averbação e cancelamento de matrícula; acrescenta a alínea f no § 6º do art. 47 da Lei nº 8.212, de 24 de julho de 1991, para definir a averbação de imóvel destruído por força de eventos climáticos ou fenômeno geológico ou hidrológico relevante; e estabelece que o perecimento total do imóvel em face de eventos climáticos ou fenômeno geológico ou hidrológico relevante, assim reconhecido pelo Poder Público, enseja a extinção de suas obrigações tributárias e administrativas.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2456681"
+   "apresentacao": "2024-09-05",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2456681",
+   "primeiro_autor": true
   },
   {
    "id": 2429579,
@@ -15,7 +26,12 @@
    "numero": 1407,
    "ano": 2024,
    "ementa": "Altera a Lei nº 8.212, de 24 de julho de 1991, para estabelecer que, à semelhança da construção, não será devida contribuição à Seguridade Social em caso de demolição de residencial unifamiliar.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2429579"
+   "apresentacao": "2024-04-24",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2429579",
+   "primeiro_autor": true
   },
   {
    "id": 2426891,
@@ -23,7 +39,12 @@
    "numero": 1260,
    "ano": 2024,
    "ementa": "Altera a Lei nº 6.766, de 19 de dezembro de 1979, para estabelecer novo prazo de registro imobiliário do decreto de aprovação de loteamento ou de desmembramento.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2426891"
+   "apresentacao": "2024-04-16",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2426891",
+   "primeiro_autor": true
   },
   {
    "id": 2442880,
@@ -31,7 +52,12 @@
    "numero": 24,
    "ano": 2024,
    "ementa": "Altera os §§ 4º, 4°-B e 7º do art. 40 da Constituição Federal e os artigos 5º, 10, 23, 24 e 26 da Emenda Constitucional nº 103, de 2019, acrescenta o art. 144-A a Constituição e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2442880"
+   "apresentacao": "2024-06-24",
+   "situacao": "Aguardando Constituição de Comissão Temporária",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2442880",
+   "primeiro_autor": false
   },
   {
    "id": 2435133,
@@ -39,7 +65,12 @@
    "numero": 20,
    "ano": 2024,
    "ementa": "Institui o Regime Extraordinário Fiscal, Financeiro e de Contratações destinado ao enfrentamento de calamidade pública e à reconstrução da infraestrutura física e social no Estado do Rio Grande do Sul, bem como ao suporte direto às famílias afetadas.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2435133"
+   "apresentacao": "2024-05-21",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2435133",
+   "primeiro_autor": false
   },
   {
    "id": 2399184,
@@ -47,7 +78,12 @@
    "numero": 5159,
    "ano": 2023,
    "ementa": "Altera a Lei nº 13.756, de 12 de dezembro de 2018, para garantir a transferência, de forma direta, de recursos do Fundo Nacional de Segurança Pública aos Municípios com população igual ou superior a duzentos mil habitantes.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2399184"
+   "apresentacao": "2023-10-25",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2399184",
+   "primeiro_autor": true
   },
   {
    "id": 2369063,
@@ -55,7 +91,12 @@
    "numero": 3057,
    "ano": 2023,
    "ementa": "Regulamenta o inciso III, do art. 28, da Lei º 10.741, de 1º de outubro de 2023, institui o Programa Nacional de Incentivo à Contratação de Idosos – Pró-Idoso.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2369063"
+   "apresentacao": "2023-06-14",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2369063",
+   "primeiro_autor": true
   },
   {
    "id": 2361428,
@@ -63,7 +104,12 @@
    "numero": 2466,
    "ano": 2023,
    "ementa": "Altera a Lei nº 7.716, de 5 de janeiro de 1989, para acrescentar novo núcleo penal para o crime de discriminação e racismo.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2361428"
+   "apresentacao": "2023-05-10",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2361428",
+   "primeiro_autor": true
   },
   {
    "id": 2361123,
@@ -71,7 +117,12 @@
    "numero": 2434,
    "ano": 2023,
    "ementa": "Dispõe sobre incentivos e benefícios fiscais para fomentar as atividades desportivas de clubes brasileiros de futebol de menor investimento e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2361123"
+   "apresentacao": "2023-05-09",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2361123",
+   "primeiro_autor": true
   },
   {
    "id": 2357317,
@@ -79,7 +130,12 @@
    "numero": 2000,
    "ano": 2023,
    "ementa": "Altera o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 – Código Penal -, para tipificar, de forma mais gravosa, os crimes de furto e roubo de bem móvel de escola, hospital, asilo, casa de assistência, ou de qualquer instituição, pública ou privada, que preste serviço essencial à população na área da saúde ou educação.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2357317"
+   "apresentacao": "2023-04-19",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2357317",
+   "primeiro_autor": true
   },
   {
    "id": 2356096,
@@ -87,7 +143,12 @@
    "numero": 1859,
    "ano": 2023,
    "ementa": "Altera a Lei nº 8.078, de 11 de setembro de 1990, a fim de instituir atendimento especializado em defesa dos consumidores nos aeroportos dotados de instalações e facilidades para apoio de operações de aeronaves e de embarque e desembarque de pessoas e cargas, localizados nas capitais e regiões metropolitanas.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2356096"
+   "apresentacao": "2023-04-13",
+   "situacao": "Pronta para Pauta",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2356096",
+   "primeiro_autor": true
   },
   {
    "id": 2354404,
@@ -95,7 +156,12 @@
    "numero": 1538,
    "ano": 2023,
    "ementa": "Altera o Decreto-Lei nº 2848, de 7 de dezembro de 1940 – Código Penal -, para aumentar as penas do crime de lesão corporal, se for praticado contra criança menor de 12 anos, dos crimes sexuais contra vulnerável previstos nos artigos 217-A, 218, 218-A, 218-B e 218-C e, dos crimes de lenocínio e exploração sexual, quando envolver vítima menor de 18 anos, previstos nos artigos 227, 228 e 230.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2354404"
+   "apresentacao": "2023-03-30",
+   "situacao": "Arquivada",
+   "situacao_data": null,
+   "categoria": "encerrado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2354404",
+   "primeiro_autor": true
   },
   {
    "id": 2353010,
@@ -103,7 +169,12 @@
    "numero": 1362,
    "ano": 2023,
    "ementa": "Altera a Lei nº 9.455, de 07 de abril de julho de 1997, que “define os crimes de tortura e dá outras providências”, para aplicar a pena em dobro do crime de tortura, quando for cometido contra criança e adolescente e, na sua presença, o autor praticar violência física contra seus pais ou responsável.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2353010"
+   "apresentacao": "2023-03-23",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2353010",
+   "primeiro_autor": true
   },
   {
    "id": 2352065,
@@ -111,7 +182,12 @@
    "numero": 1261,
    "ano": 2023,
    "ementa": "Altera a Lei nº 9.504, de 30 de setembro, de 1997, para definir a devolução de recursos públicos recebidos em campanha eleitoral nos casos de renúncia de candidatura sem impedimento legal.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2352065"
+   "apresentacao": "2023-03-21",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2352065",
+   "primeiro_autor": true
   },
   {
    "id": 2351429,
@@ -119,7 +195,12 @@
    "numero": 1164,
    "ano": 2023,
    "ementa": "Altera a Lei nº 12.881, de 12 de novembro de 2013, que dispõe sobre as Instituições Comunitárias de Educação Superior – ICES, para incluir que as ICES terão condições de participação equiparadas às universidades públicas no acesso aos editais de órgãos governamentais de fomento.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2351429"
+   "apresentacao": "2023-03-15",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2351429",
+   "primeiro_autor": true
   },
   {
    "id": 2402861,
@@ -127,7 +208,12 @@
    "numero": 57,
    "ano": 2023,
    "ementa": "Altera os arts. 40 e 144 da Constituição Federal para dispor sobre as Polícias Municipais.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2402861"
+   "apresentacao": "2023-11-08",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2402861",
+   "primeiro_autor": false
   },
   {
    "id": 2380340,
@@ -135,7 +221,12 @@
    "numero": 38,
    "ano": 2023,
    "ementa": "Modifica as regras dos regimes próprios de previdência social dos servidores dos municípios, objetivando o equilíbrio financeiro e atuarial dos regimes e a sustentabilidade fiscal desses entes, e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2380340"
+   "apresentacao": "2023-08-16",
+   "situacao": "Aguardando Designação - Aguardando Devolução de Relator(a) que deixou de ser Membro",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2380340",
+   "primeiro_autor": false
   },
   {
    "id": 2363434,
@@ -143,7 +234,12 @@
    "numero": 27,
    "ano": 2023,
    "ementa": "Altera o art. 159 da Constituição Federal para disciplinar a distribuição de recursos pela União ao Fundo de Participação dos Municípios, criar os Fundos Constitucionais de financiamento das Regiões Sul e Sudeste, e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2363434"
+   "apresentacao": "2023-05-18",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2363434",
+   "primeiro_autor": false
   },
   {
    "id": 2362646,
@@ -151,15 +247,25 @@
    "numero": 26,
    "ano": 2023,
    "ementa": "Dá nova redação ao Art. 166-A  da Constituição Federal, para autorizar a Transferência Especial de recursos federais a Estados, ao Distrito Federal e a Municípios mediante emendas individuais e bancadas ao projeto de lei orçamentária anual.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2362646"
+   "apresentacao": "2023-05-17",
+   "situacao": "Retirado pelo(a) Autor(a)",
+   "situacao_data": null,
+   "categoria": "encerrado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2362646",
+   "primeiro_autor": false
   },
   {
    "id": 2352476,
    "sigla": "PEC",
    "numero": 9,
    "ano": 2023,
-   "ementa": "Altera a Emenda Constitucional nº 117, de 5 de abril de 2022, quanto à aplicação de sanções aos partidos que não preencheram a cota mínima de recursos ou que não destinaram os valores mínimos em razão de sexo e raça em eleições, bem como nas prestações de contas anuais e eleitorais.  NOVA EMENTA: Impõe aos partidos políticos a obrigatoriedade da aplicação de recursos financeiros para as candidaturas de pessoas pretas e pardas; estabelece parâmetros e condições para regularização e refinanciamento de débitos de partidos políticos; e reforça a imunidade tributária dos partidos políticos conforme previsto na Constituição Federal.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2352476"
+   "ementa": "Altera a Emenda Constitucional nº 117, de 5 de abril de 2022, quanto à aplicação de sanções aos partidos que não preencheram a cota mínima de recursos ou que não destinaram os valores mínimos em razão de sexo e raça em eleições, bem como nas prestações de contas anuais e eleitorais.\r\n\r\nNOVA EMENTA: Impõe aos partidos políticos a obrigatoriedade da aplicação de recursos financeiros para as candidaturas de pessoas pretas e pardas; estabelece parâmetros e condições para regularização e refinanciamento de débitos de partidos políticos; e reforça a imunidade tributária dos partidos políticos conforme previsto na Constituição Federal.",
+   "apresentacao": "2023-03-22",
+   "situacao": "Transformado em Norma Jurídica",
+   "situacao_data": null,
+   "categoria": "lei",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2352476",
+   "primeiro_autor": false
   }
  ]
 }

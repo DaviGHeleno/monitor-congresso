@@ -1,5 +1,11 @@
 {
  "id": 171139,
+ "resumo": {
+  "lei": 0,
+  "aprovado": 0,
+  "tramitacao": 9,
+  "encerrado": 1
+ },
  "projetos": [
   {
    "id": 2449738,
@@ -7,7 +13,12 @@
    "numero": 2941,
    "ano": 2024,
    "ementa": "Altera a Lei nº 9.074, de 7 de julho de 1995, para definir regras para instalação e funcionamento de Usinas Termelétricas",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2449738"
+   "apresentacao": "2024-07-17",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2449738",
+   "primeiro_autor": true
   },
   {
    "id": 2448764,
@@ -15,7 +26,12 @@
    "numero": 2843,
    "ano": 2024,
    "ementa": "Altera a Lei n° 9.503, de 23 de setembro de 1997, Código de Trânsito Brasileiro, para dispor sobre a proibição de acumulação de cargos de motorista de transporte coletivo e cobrador.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2448764"
+   "apresentacao": "2024-07-10",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2448764",
+   "primeiro_autor": true
   },
   {
    "id": 2448718,
@@ -23,7 +39,12 @@
    "numero": 2839,
    "ano": 2024,
    "ementa": "Altera a Lei n. 9.250, de 26 de dezembro de 1995, para dispor sobre a dedução de gastos com veterinários e clínicas e hospitais veterinários da base de cálculo do imposto de renda",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2448718"
+   "apresentacao": "2024-07-10",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2448718",
+   "primeiro_autor": true
   },
   {
    "id": 2433972,
@@ -31,7 +52,12 @@
    "numero": 1836,
    "ano": 2024,
    "ementa": "Altera a Lei nº 9.250, de 26 de dezembro de 1995, para permitir a dedução de doações aos contribuintes que optarem pelo desconto simplificado do Imposto de Renda.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2433972"
+   "apresentacao": "2024-05-15",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2433972",
+   "primeiro_autor": true
   },
   {
    "id": 2433879,
@@ -39,7 +65,12 @@
    "numero": 1828,
    "ano": 2024,
    "ementa": "Altera as Leis nº 8.001, de 13 de março de 1990, e 12.187, de 29 de dezembro de 2009, para destinar recursos oriundos da Compensação Financeira pela Exploração de Recursos Minerais (CFEM) para o Fundo Nacional para Calamidades Públicas, Proteção e Defesa Civil (Funcap) e para a Política Nacional sobre Mudança do Clima (PNMC).",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2433879"
+   "apresentacao": "2024-05-15",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2433879",
+   "primeiro_autor": true
   },
   {
    "id": 2429610,
@@ -47,7 +78,12 @@
    "numero": 1410,
    "ano": 2024,
    "ementa": "Altera a Lei nº 10.257, de 10 de julho de 2001, para possibilitar a associação entre municípios limítrofes para realizações de obras de melhorias em seus territórios.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2429610"
+   "apresentacao": "2024-04-24",
+   "situacao": "Arquivada",
+   "situacao_data": null,
+   "categoria": "encerrado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2429610",
+   "primeiro_autor": true
   },
   {
    "id": 2425829,
@@ -55,7 +91,12 @@
    "numero": 1204,
    "ano": 2024,
    "ementa": "Cria a Universidade Federal de Taubaté (UFTAU).",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2425829"
+   "apresentacao": "2024-04-10",
+   "situacao": "Pronta para Pauta",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2425829",
+   "primeiro_autor": true
   },
   {
    "id": 2450355,
@@ -63,7 +104,12 @@
    "numero": 126,
    "ano": 2024,
    "ementa": "Altera a Lei Complementar nº 207, de 16 de maio de 2024, para permitir que empregadores utilizem recursos do Seguro Obrigatório para Proteção de Vítimas de Acidentes de Trânsito (SPVAT) para indenizar trabalhadores vítimas de acidentes de trânsito no trajeto para o trabalho, tornando o processo mais ágil e reduzindo custos.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2450355"
+   "apresentacao": "2024-07-23",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2450355",
+   "primeiro_autor": true
   },
   {
    "id": 2436224,
@@ -71,7 +117,12 @@
    "numero": 21,
    "ano": 2024,
    "ementa": "Altera o art. 198 da Constituição Federal, para promover o enquadramento dos servidores públicos federais ocupantes do cargo de auxiliar de enfermagem para a carreira dos técnicos de enfermagem.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2436224"
+   "apresentacao": "2024-05-23",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2436224",
+   "primeiro_autor": false
   },
   {
    "id": 2432987,
@@ -79,7 +130,12 @@
    "numero": 17,
    "ano": 2024,
    "ementa": "Acrescenta art. 132-A e altera o art. 168 da Constituição Federal, para conferir autonomia orçamentária às Procuradorias dos Estados e do Distrito Federal e à Advocacia-Geral da União e seus órgãos vinculados.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2432987"
+   "apresentacao": "2024-05-13",
+   "situacao": "Aguardando Criação de Comissão Temporária",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2432987",
+   "primeiro_autor": false
   }
  ]
 }

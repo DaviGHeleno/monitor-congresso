@@ -1,5 +1,11 @@
 {
  "id": 227324,
+ "resumo": {
+  "lei": 0,
+  "aprovado": 0,
+  "tramitacao": 3,
+  "encerrado": 0
+ },
  "projetos": [
   {
    "id": 2419027,
@@ -7,7 +13,12 @@
    "numero": 515,
    "ano": 2024,
    "ementa": "Altera a Lei nº 11.445, de 5 de janeiro de 2007, que estabelece as diretrizes nacionais para o saneamento básico, para limitar a taxa ou tarifa de esgoto a 40% da de água tratada.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2419027"
+   "apresentacao": "2024-02-29",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2419027",
+   "primeiro_autor": true
   },
   {
    "id": 2418077,
@@ -15,7 +26,12 @@
    "numero": 314,
    "ano": 2024,
    "ementa": "Altera as Leis nº 12.587, de 3 de janeiro de 2012, e nº 12.468, de 26 de agosto de 2011, para incluir as viagens compartilhadas nos serviços de táxi. (Táxi Lotação)",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2418077"
+   "apresentacao": "2024-02-20",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2418077",
+   "primeiro_autor": true
   },
   {
    "id": 2419252,
@@ -23,7 +39,12 @@
    "numero": 6,
    "ano": 2024,
    "ementa": "Altera o inciso X do § 22 e insere o § 21-A no art. 40 da Constituição, altera o art. 11 da Emenda Constitucional nº 103, de 12 de novembro de 2019 e revoga os §§ 1º-A, 1º-B e 1º-C do art. 149 da Constituição e o § 8º do art. 9º da Emenda Constitucional nº 103, de 2019.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2419252"
+   "apresentacao": "2024-03-05",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2419252",
+   "primeiro_autor": false
   }
  ]
 }

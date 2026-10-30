@@ -1,5 +1,11 @@
 {
  "id": 204531,
+ "resumo": {
+  "lei": 0,
+  "aprovado": 0,
+  "tramitacao": 8,
+  "encerrado": 1
+ },
  "projetos": [
   {
    "id": 2624348,
@@ -7,7 +13,12 @@
    "numero": 2366,
    "ano": 2026,
    "ementa": "Esta Lei dispõe sobre procedimentos de investigação digital e interação entre órgãos públicos e empresas privadas na repressão a crimes",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2624348"
+   "apresentacao": "2026-05-13",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2624348",
+   "primeiro_autor": true
   },
   {
    "id": 2623431,
@@ -15,7 +26,12 @@
    "numero": 2301,
    "ano": 2026,
    "ementa": "Inclui no rol dos crimes hediondos as figuras agravadas de homicídio doloso, latrocínio e extorsão praticadas por integrantes de organização criminosa ultraviolenta, grupo paramilitar ou milícia privada, introduzidas pela Lei nº 15.358, de 24 de março de 2026.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2623431"
+   "apresentacao": "2026-05-11",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2623431",
+   "primeiro_autor": true
   },
   {
    "id": 2633488,
@@ -23,7 +39,12 @@
    "numero": 15,
    "ano": 2026,
    "ementa": "Altera os art. 150 Constituição Federal para incluir as entidades esportivas sem fins lucrativos.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2633488"
+   "apresentacao": "2026-06-17",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2633488",
+   "primeiro_autor": false
   },
   {
    "id": 2623604,
@@ -31,7 +52,12 @@
    "numero": 9,
    "ano": 2026,
    "ementa": "Altera o art. 228 da Constituição Federal, para reduzir a idade mínima de imputabilidade penal, nas condições que estabelece.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2623604"
+   "apresentacao": "2026-05-12",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2623604",
+   "primeiro_autor": false
   },
   {
    "id": 2623400,
@@ -39,7 +65,12 @@
    "numero": 8,
    "ano": 2026,
    "ementa": "Altera o art. 228 da Constituição Federal para admitir, em caráter excepcional, a redução da maioridade penal em casos de crimes hediondos e de crueldade extrema contra pessoas e animais.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2623400"
+   "apresentacao": "2026-05-11",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2623400",
+   "primeiro_autor": false
   },
   {
    "id": 2604173,
@@ -47,7 +78,12 @@
    "numero": 3,
    "ano": 2026,
    "ementa": "Altera o art. 155 da Constituição Federal para estabelecer alíquota máxima e base de cálculo exclusiva do Imposto sobre a Propriedade de Veículos Automotores – IPVA, e acrescenta dispositivos ao Ato das Disposições Constitucionais Transitórias para limitar despesas com publicidade institucional e com o Poder Legislativo.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2604173"
+   "apresentacao": "2026-02-24",
+   "situacao": "Aguardando Criação de Comissão Temporária",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2604173",
+   "primeiro_autor": false
   },
   {
    "id": 2421904,
@@ -55,7 +91,12 @@
    "numero": 855,
    "ano": 2024,
    "ementa": "Altera o Decreto-Lei 3.689, de 03 de outubro de 1941 (Código de Processo Penal), para estabelecer como regra a audiência de custódia por sistema de videoconferência, e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2421904"
+   "apresentacao": "2024-03-19",
+   "situacao": "Arquivada",
+   "situacao_data": null,
+   "categoria": "encerrado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2421904",
+   "primeiro_autor": true
   },
   {
    "id": 2421903,
@@ -63,7 +104,12 @@
    "numero": 854,
    "ano": 2024,
    "ementa": "Altera o Decreto-Lei 3.689, de 03 de outubro de 1941 (Código de Processo Penal), para estabelecer que, durante a audiência de custódia ou em qualquer outro ato processual em que esteja presente o acusado, constatada a pendência de citação em outros processos criminais, deverá a autoridade judicial proceder a citação pessoal, comunicando de imediato o juízo competente.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2421903"
+   "apresentacao": "2024-03-19",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2421903",
+   "primeiro_autor": true
   },
   {
    "id": 2422073,
@@ -71,7 +117,12 @@
    "numero": 30,
    "ano": 2024,
    "ementa": "Altera a Lei Complementar nº 152, de 3 de dezembro de 2015, para estabelecer que o servidor público policial será aposentado, compulsoriamente, com proventos proporcionais ao tempo de serviço, aos 65 anos (sessenta e cinco) anos de idade, qualquer que seja a natureza dos serviços prestados.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2422073"
+   "apresentacao": "2024-03-19",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2422073",
+   "primeiro_autor": true
   }
  ]
 }

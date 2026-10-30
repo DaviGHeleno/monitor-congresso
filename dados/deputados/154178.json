@@ -1,5 +1,11 @@
 {
  "id": 154178,
+ "resumo": {
+  "lei": 2,
+  "aprovado": 1,
+  "tramitacao": 12,
+  "encerrado": 2
+ },
  "projetos": [
   {
    "id": 2642458,
@@ -7,7 +13,12 @@
    "numero": 4965,
    "ano": 2026,
    "ementa": "Altera a Lei nº 11.340, de 7 de agosto de 2006 – Lei Maria da Penha, para ampliar a proteção às mulheres em situação de violência baseada no gênero, independentemente da existência de vínculo anterior com o agressor.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2642458"
+   "apresentacao": "2026-08-11",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2642458",
+   "primeiro_autor": true
   },
   {
    "id": 2642343,
@@ -15,7 +26,12 @@
    "numero": 4953,
    "ano": 2026,
    "ementa": "Altera a Lei nº 9.394, de 20 de dezembro de 1996 (Lei de Diretrizes e Bases da Educação Nacional), para instituir a Política Nacional da Educação Inclusiva Plural, assegurar a coexistência da educação inclusiva e da educação especializada e garantir a participação da família na definição da modalidade educacional mais adequada ao estudante com deficiência, Transtorno do Espectro Autista (TEA) e outras condições do neurodesenvolvimento.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2642343"
+   "apresentacao": "2026-08-10",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2642343",
+   "primeiro_autor": true
   },
   {
    "id": 2623410,
@@ -23,7 +39,12 @@
    "numero": 2299,
    "ano": 2026,
    "ementa": "Altera a Lei nº 9.503, de 23 de setembro de 1997 (Código de Trânsito Brasileiro), para dispor sobre a obrigatoriedade do uso de lacre físico de segurança na fixação das placas de identificação de veículos de duas ou três rodas e quadriciclos.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2623410"
+   "apresentacao": "2026-05-11",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2623410",
+   "primeiro_autor": true
   },
   {
    "id": 2618847,
@@ -31,7 +52,12 @@
    "numero": 2020,
    "ano": 2026,
    "ementa": "Institui medidas de proteção contra a evasão acadêmica feminina no âmbito das instituições de ensino superior e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2618847"
+   "apresentacao": "2026-04-28",
+   "situacao": "Pronta para Pauta",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2618847",
+   "primeiro_autor": true
   },
   {
    "id": 2616616,
@@ -39,7 +65,12 @@
    "numero": 1849,
    "ano": 2026,
    "ementa": "Altera a Lei nº 14.620, de 13 de julho de 2023, para vedar a utilização exclusiva de registros em cadastros de inadimplentes como critério impeditivo ao acesso a programas habitacionais de interesse social.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2616616"
+   "apresentacao": "2026-04-15",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2616616",
+   "primeiro_autor": true
   },
   {
    "id": 2616114,
@@ -47,7 +78,12 @@
    "numero": 1836,
    "ano": 2026,
    "ementa": "Institui a Política Nacional de Transparência e Consentimento Parental na Educação Básica, assegurando o direito à informação e à participação dos pais ou responsáveis legais quanto à participação de seus filhos em atividades pedagógicas relacionadas a temas sensíveis, e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2616114"
+   "apresentacao": "2026-04-14",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2616114",
+   "primeiro_autor": true
   },
   {
    "id": 2616113,
@@ -55,7 +91,12 @@
    "numero": 1835,
    "ano": 2026,
    "ementa": "Institui o “Dia Nacional Família ao Pé da Cruz”, a ser celebrado anualmente na Sexta-Feira Santa, e o inclui no Calendário Oficial da União",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2616113"
+   "apresentacao": "2026-04-14",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2616113",
+   "primeiro_autor": true
   },
   {
    "id": 2361001,
@@ -63,7 +104,12 @@
    "numero": 2425,
    "ano": 2023,
    "ementa": "Altera a Lei nº 13.146, de 6 de julho de 2015, para dispor sobre a exigência de conhecimentos técnicos sobre Transtorno Global de Desenvolvimento (TGD) de crianças e adolescentes, nos editais de concursos públicos para professor.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2361001"
+   "apresentacao": "2023-05-09",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2361001",
+   "primeiro_autor": true
   },
   {
    "id": 2358548,
@@ -71,7 +117,12 @@
    "numero": 2162,
    "ano": 2023,
    "ementa": "Concede anistia aos participantes das manifestações reivindicatórias de motivação política ocorridas entre o dia 30 de outubro de 2022 e o dia de entrada em vigor desta Lei, e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2358548"
+   "apresentacao": "2023-04-26",
+   "situacao": "Transformado em Norma Jurídica",
+   "situacao_data": null,
+   "categoria": "lei",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2358548",
+   "primeiro_autor": false
   },
   {
    "id": 2356139,
@@ -79,7 +130,12 @@
    "numero": 1864,
    "ano": 2023,
    "ementa": "Dispõe sobre a utilização de detectores de metais nos acessos às escolas públicas e privadas de ensino.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2356139"
+   "apresentacao": "2023-04-13",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2356139",
+   "primeiro_autor": true
   },
   {
    "id": 2353396,
@@ -87,7 +143,12 @@
    "numero": 1395,
    "ano": 2023,
    "ementa": "Dispõe sobre o Sistema Nacional de Identificação Civil do cidadão bariátrico, para criar e assegurar aos pacientes bariátricos a identificação civil, direitos e a saúde, em todo território nacional.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2353396"
+   "apresentacao": "2023-03-24",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2353396",
+   "primeiro_autor": true
   },
   {
    "id": 2347116,
@@ -95,7 +156,12 @@
    "numero": 301,
    "ano": 2023,
    "ementa": "Altera a Lei nº 8.080, de 19 de setembro de 1990, para dispor sobre os procedimentos necessários para a realização de aborto em caso de gravidez resultante de estupro.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2347116"
+   "apresentacao": "2023-02-06",
+   "situacao": "Retirado pelo(a) Autor(a)",
+   "situacao_data": null,
+   "categoria": "encerrado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2347116",
+   "primeiro_autor": true
   },
   {
    "id": 2353965,
@@ -103,7 +169,12 @@
    "numero": 86,
    "ano": 2023,
    "ementa": "Susta os efeitos do Decreto Nº 11.446, de 21 de março de 2023.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2353965"
+   "apresentacao": "2023-03-28",
+   "situacao": "Devolvida ao(à) Autor(a)",
+   "situacao_data": null,
+   "categoria": "encerrado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2353965",
+   "primeiro_autor": true
   },
   {
    "id": 2348342,
@@ -111,7 +182,12 @@
    "numero": 40,
    "ano": 2023,
    "ementa": "Susta os efeitos do item 2, alínea C, inciso IV, art. 32 do Decreto Nº 11.366, de 1º de Janeiro de 2023.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2348342"
+   "apresentacao": "2023-02-09",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2348342",
+   "primeiro_autor": true
   },
   {
    "id": 2347101,
@@ -119,15 +195,25 @@
    "numero": 21,
    "ano": 2023,
    "ementa": "Susta os efeitos do item 11 do anexo da Portaria Conjunta – FUNAI/SESAI Nº 01, de 30 de janeiro de 2023, por violar os direitos individuais e coletivos consagrados no art. 5º da Constituição Federal.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2347101"
+   "apresentacao": "2023-02-06",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2347101",
+   "primeiro_autor": true
   },
   {
    "id": 2352476,
    "sigla": "PEC",
    "numero": 9,
    "ano": 2023,
-   "ementa": "Altera a Emenda Constitucional nº 117, de 5 de abril de 2022, quanto à aplicação de sanções aos partidos que não preencheram a cota mínima de recursos ou que não destinaram os valores mínimos em razão de sexo e raça em eleições, bem como nas prestações de contas anuais e eleitorais.  NOVA EMENTA: Impõe aos partidos políticos a obrigatoriedade da aplicação de recursos financeiros para as candidaturas de pessoas pretas e pardas; estabelece parâmetros e condições para regularização e refinanciamento de débitos de partidos políticos; e reforça a imunidade tributária dos partidos políticos conforme previsto na Constituição Federal.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2352476"
+   "ementa": "Altera a Emenda Constitucional nº 117, de 5 de abril de 2022, quanto à aplicação de sanções aos partidos que não preencheram a cota mínima de recursos ou que não destinaram os valores mínimos em razão de sexo e raça em eleições, bem como nas prestações de contas anuais e eleitorais.\r\n\r\nNOVA EMENTA: Impõe aos partidos políticos a obrigatoriedade da aplicação de recursos financeiros para as candidaturas de pessoas pretas e pardas; estabelece parâmetros e condições para regularização e refinanciamento de débitos de partidos políticos; e reforça a imunidade tributária dos partidos políticos conforme previsto na Constituição Federal.",
+   "apresentacao": "2023-03-22",
+   "situacao": "Transformado em Norma Jurídica",
+   "situacao_data": null,
+   "categoria": "lei",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2352476",
+   "primeiro_autor": false
   },
   {
    "id": 2351506,
@@ -135,7 +221,12 @@
    "numero": 5,
    "ano": 2023,
    "ementa": "Acrescenta § 4º-A ao art. 150 da Constituição Federal, para dispor sobre a imunidade tributária de que tratam as suas alíneas “b” e “c” do inciso VI.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2351506"
+   "apresentacao": "2023-03-15",
+   "situacao": "Aguardando Apreciação pelo Senado Federal",
+   "situacao_data": null,
+   "categoria": "aprovado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2351506",
+   "primeiro_autor": false
   }
  ]
 }

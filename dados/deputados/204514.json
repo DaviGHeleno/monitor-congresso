@@ -1,5 +1,11 @@
 {
  "id": 204514,
+ "resumo": {
+  "lei": 0,
+  "aprovado": 0,
+  "tramitacao": 11,
+  "encerrado": 0
+ },
  "projetos": [
   {
    "id": 2536291,
@@ -7,7 +13,12 @@
    "numero": 3406,
    "ano": 2025,
    "ementa": "Institui o Programa Emergencial de Manutenção do Emprego e da Competitividade nas Exportações Brasileiras – PEMECEB, que estabelece a suspensão temporária de tributos federais incidentes sobre empresas exportadoras comprovadamente afetadas por barreiras comerciais externas, mediante contrapartida de manutenção de empregos, e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2536291"
+   "apresentacao": "2025-07-15",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2536291",
+   "primeiro_autor": true
   },
   {
    "id": 2533311,
@@ -15,7 +26,12 @@
    "numero": 3296,
    "ano": 2025,
    "ementa": "Altera a Lei nº 13.954, de 16 de dezembro de 2019, para dispor sobre o tempo mínimo de serviço para transferência à inatividade remunerada, a averbação do tempo de contribuição ao Regime Geral de Previdência Social e a isenção da contribuição previdenciária para militares inativos e pensionistas com proventos até o teto do RGPS.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2533311"
+   "apresentacao": "2025-07-08",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2533311",
+   "primeiro_autor": true
   },
   {
    "id": 2531971,
@@ -23,7 +39,12 @@
    "numero": 3248,
    "ano": 2025,
    "ementa": "Institui o Seguro Entressafra para o Seringueiro Profissional, visando à proteção econômica durante o período de rebrota dos seringais, fortalecendo o extrativismo sustentável e a autonomia produtiva nacional em borracha natural.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2531971"
+   "apresentacao": "2025-07-03",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2531971",
+   "primeiro_autor": true
   },
   {
    "id": 2529478,
@@ -31,7 +52,12 @@
    "numero": 3138,
    "ano": 2025,
    "ementa": "Altera a Lei nº 10.826, de 22 de dezembro de 2003, que dispõe sobre registro, posse e comercialização de armas de fogo e munição, sobre o Sistema Nacional de Armas (SINARM) e define crimes, e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2529478"
+   "apresentacao": "2025-07-01",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2529478",
+   "primeiro_autor": true
   },
   {
    "id": 2528475,
@@ -39,7 +65,12 @@
    "numero": 3071,
    "ano": 2025,
    "ementa": "Altera a Lei nº 10.826, de 22 de dezembro de 2003, que dispõe sobre registro, posse e comercialização de armas de fogo e munição, sobre o Sistema Nacional de Armas (SINARM) e define crimes, e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2528475"
+   "apresentacao": "2025-06-25",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2528475",
+   "primeiro_autor": true
   },
   {
    "id": 2528376,
@@ -47,7 +78,12 @@
    "numero": 3058,
    "ano": 2025,
    "ementa": "Altera a Lei nº 10.826, de 22 de dezembro de 2003, que dispõe sobre registro, posse e comercialização de armas de fogo e munição, sobre o Sistema Nacional de Armas (Sinarm) e define crimes, e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2528376"
+   "apresentacao": "2025-06-25",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2528376",
+   "primeiro_autor": true
   },
   {
    "id": 2528049,
@@ -55,7 +91,12 @@
    "numero": 3046,
    "ano": 2025,
    "ementa": "Altera a Lei 7.103 de 20 de junho de 1983 para dispor sobre os armamentos disponíveis para os vigilantes e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2528049"
+   "apresentacao": "2025-06-24",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2528049",
+   "primeiro_autor": true
   },
   {
    "id": 2527884,
@@ -63,7 +104,12 @@
    "numero": 3025,
    "ano": 2025,
    "ementa": "Altera a Lei nº 8.906, de 4 de julho de 1994 (Estatuto da Advocacia), para dispor sobre a vedação expressa de instauração de processo criminal por desacato contra advogados no exercício da profissão quando comprovados cumulativamente os requisitos do art. 331 do Código Penal.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2527884"
+   "apresentacao": "2025-06-24",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2527884",
+   "primeiro_autor": true
   },
   {
    "id": 2526884,
@@ -71,7 +117,12 @@
    "numero": 2957,
    "ano": 2025,
    "ementa": "Revoga dispositivos da Lei nº 13.964, de 24 de dezembro de 2019, extinguindo a audiência de custódia no ordenamento jurídico brasileiro.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2526884"
+   "apresentacao": "2025-06-17",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2526884",
+   "primeiro_autor": true
   },
   {
    "id": 2529490,
@@ -79,7 +130,12 @@
    "numero": 359,
    "ano": 2025,
    "ementa": "Revoga parcialmente a instrução normativa DG/PF Nº 311, de 27 de julho de 2025, que Disciplina as atividades de colecionamento, tiro desportivo e caça.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2529490"
+   "apresentacao": "2025-07-01",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2529490",
+   "primeiro_autor": true
   },
   {
    "id": 2494797,
@@ -87,7 +143,12 @@
    "numero": 81,
    "ano": 2025,
    "ementa": "Altera a Lei Complementar nº 214, de 16 de janeiro de 2025, para modificar regras relativas ao regime diferenciado do Imposto sobre Bens e Serviços (IBS) e da Contribuição Social sobre Bens e Serviços (CBS) aplicável aos automóveis de passageiros adquiridos por pessoas com deficiência ou com transtorno do espectro autista.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2494797"
+   "apresentacao": "2025-04-07",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2494797",
+   "primeiro_autor": false
   }
  ]
 }

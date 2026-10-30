@@ -1,5 +1,11 @@
 {
  "id": 222565,
+ "resumo": {
+  "lei": 0,
+  "aprovado": 1,
+  "tramitacao": 5,
+  "encerrado": 0
+ },
  "projetos": [
   {
    "id": 2611604,
@@ -7,7 +13,12 @@
    "numero": 1373,
    "ano": 2026,
    "ementa": "Altera a Lei nº 14.965, de 9 de setembro de 2024, para dispor sobre a obrigatoriedade de inclusão de questões relativas às prerrogativas da advocacia nos concursos públicos em que especifica.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2611604"
+   "apresentacao": "2026-03-24",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2611604",
+   "primeiro_autor": true
   },
   {
    "id": 2609091,
@@ -15,7 +26,12 @@
    "numero": 1188,
    "ano": 2026,
    "ementa": "Institui o Cadastro Nacional de Vítimas da Violência de Facções (CADVIT) e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2609091"
+   "apresentacao": "2026-03-16",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2609091",
+   "primeiro_autor": true
   },
   {
    "id": 2604032,
@@ -23,7 +39,12 @@
    "numero": 685,
    "ano": 2026,
    "ementa": "Altera a Lei nº 14.967, de 9 de setembro de 2024, que institui o Estatuto da Segurança Privada e da Segurança das Instituições Financeiras, para incentivar e estabelecer benefícios às pessoas jurídicas que doarem veículos blindados para os órgãos integrantes do Sistema Único de Segurança Pública (Susp), e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2604032"
+   "apresentacao": "2026-02-24",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2604032",
+   "primeiro_autor": true
   },
   {
    "id": 2604025,
@@ -31,7 +52,12 @@
    "numero": 680,
    "ano": 2026,
    "ementa": "Altera o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), para aumenta as penas dos crimes de receptação e receptação qualificada.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2604025"
+   "apresentacao": "2026-02-24",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2604025",
+   "primeiro_autor": true
   },
   {
    "id": 2604173,
@@ -39,7 +65,12 @@
    "numero": 3,
    "ano": 2026,
    "ementa": "Altera o art. 155 da Constituição Federal para estabelecer alíquota máxima e base de cálculo exclusiva do Imposto sobre a Propriedade de Veículos Automotores – IPVA, e acrescenta dispositivos ao Ato das Disposições Constitucionais Transitórias para limitar despesas com publicidade institucional e com o Poder Legislativo.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2604173"
+   "apresentacao": "2026-02-24",
+   "situacao": "Aguardando Criação de Comissão Temporária",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2604173",
+   "primeiro_autor": false
   },
   {
    "id": 2412181,
@@ -47,7 +78,12 @@
    "numero": 5967,
    "ano": 2023,
    "ementa": "Acrescenta os parágrafos 1º a 5º ao art. 24 do Decreto-Lei nº 667, de 2 de julho de 1969, para assegurar aos policiais militares e bombeiros militares a carga horária de 144 horas mensais, bem como a remuneração extraordinária no trabalho realizado que extrapole a carga horária vigente, remuneração em dobro nos feriados e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2412181"
+   "apresentacao": "2023-12-12",
+   "situacao": "Aguardando Apreciação pelo Senado Federal",
+   "situacao_data": null,
+   "categoria": "aprovado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2412181",
+   "primeiro_autor": false
   }
  ]
 }

@@ -1,5 +1,11 @@
 {
  "id": 204496,
+ "resumo": {
+  "lei": 0,
+  "aprovado": 3,
+  "tramitacao": 18,
+  "encerrado": 0
+ },
  "projetos": [
   {
    "id": 2643187,
@@ -7,7 +13,12 @@
    "numero": 5035,
    "ano": 2026,
    "ementa": "Altera a Lei nº 7.998, de 11 de janeiro de 1990, para assegurar ao empregado doméstico o direito ao abono salarial.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643187"
+   "apresentacao": "2026-08-12",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643187",
+   "primeiro_autor": true
   },
   {
    "id": 2643185,
@@ -15,7 +26,12 @@
    "numero": 5034,
    "ano": 2026,
    "ementa": "Confere o título de Capital Nacional da Fé e da Diversidade Religiosa ao Município de Belém, no Estado do Pará.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643185"
+   "apresentacao": "2026-08-12",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Autorização)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643185",
+   "primeiro_autor": true
   },
   {
    "id": 2643184,
@@ -23,7 +39,12 @@
    "numero": 5033,
    "ano": 2026,
    "ementa": "Institui o Código de Conduta Brasil para Prevenção e Enfrentamento da Exploração Sexual de Crianças e Adolescentes no Turismo e estabelece diretrizes para sua observância nos meios de hospedagem.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643184"
+   "apresentacao": "2026-08-12",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Autorização)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643184",
+   "primeiro_autor": true
   },
   {
    "id": 2643182,
@@ -31,7 +52,12 @@
    "numero": 5032,
    "ano": 2026,
    "ementa": "Confere o título de Capital Nacional da Fé e da Diversidade Religiosa ao Município de Belém, no Estado do Pará.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643182"
+   "apresentacao": "2026-08-12",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Autorização)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643182",
+   "primeiro_autor": true
   },
   {
    "id": 2643181,
@@ -39,7 +65,12 @@
    "numero": 5031,
    "ano": 2026,
    "ementa": "Institui o Código de Conduta Brasil para Prevenção e Enfrentamento da Exploração Sexual de Crianças e Adolescentes no Turismo e estabelece diretrizes para sua observância nos meios de hospedagem.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643181"
+   "apresentacao": "2026-08-12",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Autorização)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643181",
+   "primeiro_autor": true
   },
   {
    "id": 2625355,
@@ -47,7 +78,12 @@
    "numero": 2430,
    "ano": 2026,
    "ementa": "Institui o Código de Conduta Brasil para Prevenção e Enfrentamento da Exploração Sexual de Crianças e Adolescentes no Turismo e estabelece diretrizes para sua observância nos meios de hospedagem.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2625355"
+   "apresentacao": "2026-05-18",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2625355",
+   "primeiro_autor": true
   },
   {
    "id": 2625345,
@@ -55,7 +91,12 @@
    "numero": 2429,
    "ano": 2026,
    "ementa": "Confere o título de Capital Nacional da Fé e da Diversidade Religiosa ao Município de Belém, no Estado do Pará.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2625345"
+   "apresentacao": "2026-05-18",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2625345",
+   "primeiro_autor": true
   },
   {
    "id": 2643198,
@@ -63,7 +104,12 @@
    "numero": 929,
    "ano": 2026,
    "ementa": "Susta os efeitos do ato normativo da Agência Nacional de Energia Elétrica – ANEEL que homologou o Reajuste Tarifário Anual de 2026 da Equatorial Pará Distribuidora de Energia S.A., por extrapolação dos limites da competência regulamentar e em razão da necessidade de observância dos princípios da modicidade tarifária, da razoabilidade e da adequada prestação do serviço público.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643198"
+   "apresentacao": "2026-08-12",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643198",
+   "primeiro_autor": true
   },
   {
    "id": 2631190,
@@ -71,7 +117,12 @@
    "numero": 13,
    "ano": 2026,
    "ementa": "Altera o art. 9º da Emenda Constitucional nº 132, de 20 de dezembro de 2023, para permitir a concessão de créditos do Imposto sobre Bens e Serviços através de fomento indireto a doadores e patrocinadores de projetos culturais e esportivos.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2631190"
+   "apresentacao": "2026-06-10",
+   "situacao": "Pronta para Pauta",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2631190",
+   "primeiro_autor": false
   },
   {
    "id": 2371505,
@@ -79,7 +130,12 @@
    "numero": 3264,
    "ano": 2023,
    "ementa": "Inclui no calendário turístico oficial do País o Festival do Çairé, no Distrito de Alter do Chão, no Município de Santarém, no Estado do Pará.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2371505"
+   "apresentacao": "2023-06-26",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2371505",
+   "primeiro_autor": true
   },
   {
    "id": 2369137,
@@ -87,7 +143,12 @@
    "numero": 3062,
    "ano": 2023,
    "ementa": "Confere ao Município de Xinguara, no Estado do Pará, o título de Capital Nacional do Boi Gordo.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2369137"
+   "apresentacao": "2023-06-14",
+   "situacao": "Aguardando Apreciação pelo Senado Federal",
+   "situacao_data": null,
+   "categoria": "aprovado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2369137",
+   "primeiro_autor": true
   },
   {
    "id": 2369136,
@@ -95,7 +156,12 @@
    "numero": 3061,
    "ano": 2023,
    "ementa": "Confere ao Município de Cametá, no estado do Pará, o título de Capital Nacional do Peixe Mapará.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2369136"
+   "apresentacao": "2023-06-14",
+   "situacao": "Aguardando Designação - Aguardando Devolução de Relator(a) que deixou de ser Membro",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2369136",
+   "primeiro_autor": true
   },
   {
    "id": 2369135,
@@ -103,7 +169,12 @@
    "numero": 3060,
    "ano": 2023,
    "ementa": "Confere ao Município de Floresta do Araguaia, no estado do Pará, o título de Capital Nacional do Abacaxi.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2369135"
+   "apresentacao": "2023-06-14",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2369135",
+   "primeiro_autor": true
   },
   {
    "id": 2364441,
@@ -111,7 +182,12 @@
    "numero": 2743,
    "ano": 2023,
    "ementa": "Confere ao Município de Moju, no Estado do Pará, o título de Capital Nacional do Dendê.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2364441"
+   "apresentacao": "2023-05-23",
+   "situacao": "Aguardando Apreciação pelo Senado Federal",
+   "situacao_data": null,
+   "categoria": "aprovado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2364441",
+   "primeiro_autor": true
   },
   {
    "id": 2363833,
@@ -119,7 +195,12 @@
    "numero": 2700,
    "ano": 2023,
    "ementa": "Confere ao Município de Igarapé-Miri, no Estado do Pará, o título de capital nacional do açaí.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2363833"
+   "apresentacao": "2023-05-18",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2363833",
+   "primeiro_autor": true
   },
   {
    "id": 2351434,
@@ -127,7 +208,12 @@
    "numero": 1165,
    "ano": 2023,
    "ementa": "Altera a Lei nº 9.250, de 26 de dezembro de 1995, para permitir a dedução da base de cálculo do Imposto de Renda das Pessoas Físicas dos pagamentos efetuados com a aquisição, o treinamento, a alimentação, a acomodação e despesas veterinárias de cão-guia.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2351434"
+   "apresentacao": "2023-03-15",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2351434",
+   "primeiro_autor": true
   },
   {
    "id": 2349305,
@@ -135,7 +221,12 @@
    "numero": 657,
    "ano": 2023,
    "ementa": "Acrescenta parágrafos aos arts. 121, 157 e 158 do Decreto-Lei nº 2.848, de 7 de dezembro de 1940 - Código Penal, estipulando que no homicídio doloso, no feminicídio, no latrocínio e na extorsão mediante sequestro de que resulte a morte, praticados mediante mais de uma ação, as penas privativas de liberdade serão aplicadas cumulativamente, ainda que cometidos em continuação decorrente das condições de tempo, lugar, maneira de execução e outras semelhantes.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2349305"
+   "apresentacao": "2023-02-24",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2349305",
+   "primeiro_autor": true
   },
   {
    "id": 2346926,
@@ -143,7 +234,12 @@
    "numero": 189,
    "ano": 2023,
    "ementa": "Altera a redação da Lei nº 12.212, de 20 de janeiro de 2010, para assegurar a inscrição da unidade consumidora onde resida pessoa com Transtorno do Espectro Autista como beneficiária da tarifa social de energia elétrica.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2346926"
+   "apresentacao": "2023-02-02",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2346926",
+   "primeiro_autor": true
   },
   {
    "id": 2363477,
@@ -151,7 +247,12 @@
    "numero": 67,
    "ano": 2023,
    "ementa": "Altera a redação do inciso XIII, do art. 32, do Regimento Interno da Câmara dos Deputados, para acrescentar direitos dos animais como campo temático da Comissão de Meio Ambiente e Desenvolvimento Sustentável.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2363477"
+   "apresentacao": "2023-05-18",
+   "situacao": "Aguardando Recurso",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2363477",
+   "primeiro_autor": false
   },
   {
    "id": 2351506,
@@ -159,7 +260,12 @@
    "numero": 5,
    "ano": 2023,
    "ementa": "Acrescenta § 4º-A ao art. 150 da Constituição Federal, para dispor sobre a imunidade tributária de que tratam as suas alíneas “b” e “c” do inciso VI.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2351506"
+   "apresentacao": "2023-03-15",
+   "situacao": "Aguardando Apreciação pelo Senado Federal",
+   "situacao_data": null,
+   "categoria": "aprovado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2351506",
+   "primeiro_autor": false
   },
   {
    "id": 2350568,
@@ -167,7 +273,12 @@
    "numero": 3,
    "ano": 2023,
    "ementa": "Acrescenta o inciso XVIII ao art. 49, para estabelecer competência ao Congresso Nacional para autorizar operações de crédito por instituições financeiras controladas pela União, sempre que o objeto da operação vier a ser executado fora do País.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2350568"
+   "apresentacao": "2023-03-08",
+   "situacao": "Aguardando Criação de Comissão Temporária",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2350568",
+   "primeiro_autor": false
   }
  ]
 }

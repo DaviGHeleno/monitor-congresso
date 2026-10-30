@@ -1,5 +1,11 @@
 {
  "id": 225730,
+ "resumo": {
+  "lei": 0,
+  "aprovado": 0,
+  "tramitacao": 33,
+  "encerrado": 4
+ },
  "projetos": [
   {
    "id": 2611252,
@@ -7,7 +13,12 @@
    "numero": 1331,
    "ano": 2026,
    "ementa": "Altera a Lei nº 7.498, de 25 de junho de 1986, para dispor sobre o dimensionamento de profissionais de Enfermagem.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2611252"
+   "apresentacao": "2026-03-23",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2611252",
+   "primeiro_autor": true
   },
   {
    "id": 2611251,
@@ -15,7 +26,12 @@
    "numero": 1330,
    "ano": 2026,
    "ementa": "Altera a Lei nº 7.498, de 25 de junho de 1986, para dispor sobre a responsabilidade técnica em serviços de Enfermagem.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2611251"
+   "apresentacao": "2026-03-23",
+   "situacao": "Pronta para Pauta",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2611251",
+   "primeiro_autor": true
   },
   {
    "id": 2604328,
@@ -23,7 +39,12 @@
    "numero": 732,
    "ano": 2026,
    "ementa": "Institui o Programa Nacional de Soberania da Propriedade Intelectual (PNSPI), cria o Fundo de Investimento em Patentes Internacionais (FIPI) e estabelece mecanismos de incentivo fiscal para o suporte à inovação científica brasileira.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2604328"
+   "apresentacao": "2026-02-24",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2604328",
+   "primeiro_autor": true
   },
   {
    "id": 2598873,
@@ -31,7 +52,12 @@
    "numero": 6608,
    "ano": 2025,
    "ementa": "Altera a Lei nº 12.933, de 26 de dezembro de 2013, para incluir os professores da educação básica e superior como beneficiários do direito à meia-entrada.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2598873"
+   "apresentacao": "2025-12-19",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2598873",
+   "primeiro_autor": true
   },
   {
    "id": 2598439,
@@ -39,7 +65,12 @@
    "numero": 6519,
    "ano": 2025,
    "ementa": "Altera a Lei nº 7.498, de 25 de junho de 1986, para dispor sobre a administração de medicamentos por via parenteral como atividade privativa do enfermeiro.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2598439"
+   "apresentacao": "2025-12-17",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2598439",
+   "primeiro_autor": true
   },
   {
    "id": 2587597,
@@ -47,7 +78,12 @@
    "numero": 5957,
    "ano": 2025,
    "ementa": "Dispõe sobre a obrigatoriedade da presença de intérpretes da Língua Brasileira de Sinais (Libras) nos serviços públicos e privados de saúde.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2587597"
+   "apresentacao": "2025-11-25",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2587597",
+   "primeiro_autor": true
   },
   {
    "id": 2587593,
@@ -55,7 +91,12 @@
    "numero": 5956,
    "ano": 2025,
    "ementa": "Dispõe sobre a obrigatoriedade da presença de socorristas habilitados em casas de show, eventos musicais e demais estabelecimentos de grande circulação e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2587593"
+   "apresentacao": "2025-11-25",
+   "situacao": "Pronta para Pauta",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2587593",
+   "primeiro_autor": true
   },
   {
    "id": 2581513,
@@ -63,7 +104,12 @@
    "numero": 5657,
    "ano": 2025,
    "ementa": "Institui o Cadastro Nacional de Doenças Raras (CNDR), destinado à identificação, registro, acompanhamento e referência de pacientes diagnosticados com doenças raras no território nacional, e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2581513"
+   "apresentacao": "2025-11-04",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2581513",
+   "primeiro_autor": true
   },
   {
    "id": 2581479,
@@ -71,7 +117,12 @@
    "numero": 5654,
    "ano": 2025,
    "ementa": "Institui a Política de Proteção e Incentivo aos Profissionais de Saúde em Áreas de Conflito e Alta Periculosidade, bem como o Adicional Nacional de Risco por Exposição à Violência (ANRV).",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2581479"
+   "apresentacao": "2025-11-04",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2581479",
+   "primeiro_autor": true
   },
   {
    "id": 2579171,
@@ -79,7 +130,12 @@
    "numero": 5542,
    "ano": 2025,
    "ementa": "Dispõe sobre a destinação de percentual dos royalties oriundos da exploração de petróleo e gás natural na Margem Equatorial ao Sistema Único de Saúde (SUS) e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2579171"
+   "apresentacao": "2025-10-30",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2579171",
+   "primeiro_autor": true
   },
   {
    "id": 2579169,
@@ -87,7 +143,12 @@
    "numero": 5541,
    "ano": 2025,
    "ementa": "Dispõe sobre a inclusão da atividade de profissionais de enfermagem forense no acolhimento às vítimas de violência sexual e de gênero, e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2579169"
+   "apresentacao": "2025-10-30",
+   "situacao": "Pronta para Pauta",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2579169",
+   "primeiro_autor": true
   },
   {
    "id": 2575147,
@@ -95,7 +156,12 @@
    "numero": 5370,
    "ano": 2025,
    "ementa": "Altera o art. 13 da Lei nº 9.656, de 3 de junho de 1998, que dispõe sobre os planos e seguros privados de assistência à saúde, para modificar as regras de rescisão unilateral por inadimplência, aumentando o prazo de atraso e vedando a consideração de atrasos não consecutivos para fins de cancelamento.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2575147"
+   "apresentacao": "2025-10-22",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2575147",
+   "primeiro_autor": true
   },
   {
    "id": 2573175,
@@ -103,7 +169,12 @@
    "numero": 5268,
    "ano": 2025,
    "ementa": "Dispõe sobre a criação o 14º (décimo quarto) salário dos profissionais de enfermagem",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2573175"
+   "apresentacao": "2025-10-17",
+   "situacao": "Pronta para Pauta",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2573175",
+   "primeiro_autor": true
   },
   {
    "id": 2572513,
@@ -111,7 +182,12 @@
    "numero": 5211,
    "ano": 2025,
    "ementa": "Altera a Lei nº 9.605, de 12 de fevereiro de 1998, para aumentar a pena para quem poluir praias e áreas costeiras.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2572513"
+   "apresentacao": "2025-10-15",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2572513",
+   "primeiro_autor": true
   },
   {
    "id": 2570993,
@@ -119,7 +195,12 @@
    "numero": 5113,
    "ano": 2025,
    "ementa": "Institui a tarifa zero no transporte coletivo urbano e intermunicipal para os profissionais de enfermagem regularmente inscritos no Conselho Regional de Enfermagem (COREN).",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2570993"
+   "apresentacao": "2025-10-14",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Autorização)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2570993",
+   "primeiro_autor": true
   },
   {
    "id": 2570522,
@@ -127,7 +208,12 @@
    "numero": 5078,
    "ano": 2025,
    "ementa": "Dispõe sobre o reconhecimento do tempo de serviço prestado em condições especiais por profissionais da saúde e autoriza sua contagem diferenciada para fins de aposentadoria, com possibilidade de aplicação retroativa.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2570522"
+   "apresentacao": "2025-10-09",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2570522",
+   "primeiro_autor": true
   },
   {
    "id": 2567207,
@@ -135,7 +221,12 @@
    "numero": 4944,
    "ano": 2025,
    "ementa": "Institui a meia-entrada para os profissionais de enfermagem em meio artístico-culturais e esportivos, no âmbito nacional.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2567207"
+   "apresentacao": "2025-10-02",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2567207",
+   "primeiro_autor": true
   },
   {
    "id": 2567192,
@@ -143,7 +234,12 @@
    "numero": 4941,
    "ano": 2025,
    "ementa": "Altera a legislação do imposto de renda, para instituir a isenção para proventos de aposentadoria dos profissionais de enfermagem.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2567192"
+   "apresentacao": "2025-10-02",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2567192",
+   "primeiro_autor": true
   },
   {
    "id": 2518160,
@@ -151,7 +247,12 @@
    "numero": 2631,
    "ano": 2025,
    "ementa": "Institui o Dia Nacional de Conscientização da Esofagite Eosinofílica (EoE), a ser celebrado anualmente no dia 22 de maio.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2518160"
+   "apresentacao": "2025-05-28",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2518160",
+   "primeiro_autor": true
   },
   {
    "id": 2506420,
@@ -159,7 +260,12 @@
    "numero": 2169,
    "ano": 2025,
    "ementa": "Altera o Decreto-Lei nº 5.452, de 1º de maio de 1943 (Consolidação das Leis do Trabalho), e a Lei nº 8.213, de 24 de julho de 1991, para dispor sobre a prorrogação da licença-maternidade nos casos de parto prematuro.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2506420"
+   "apresentacao": "2025-05-07",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2506420",
+   "primeiro_autor": true
   },
   {
    "id": 2491110,
@@ -167,7 +273,12 @@
    "numero": 1329,
    "ano": 2025,
    "ementa": "Altera Lei a Lei nº 5.905, de 12 de julho de 1973, para dispor sobre o Exame de Proficiência em Enfermagem.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2491110"
+   "apresentacao": "2025-03-31",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2491110",
+   "primeiro_autor": true
   },
   {
    "id": 2487440,
@@ -175,7 +286,12 @@
    "numero": 1090,
    "ano": 2025,
    "ementa": "Altera a Lei nº 7.498, de 25 de junho de 1986, para dispor sobre os critérios de reenquadramento de auxiliares de enfermagem em técnicos de enfermagem.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2487440"
+   "apresentacao": "2025-03-18",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2487440",
+   "primeiro_autor": true
   },
   {
    "id": 2599202,
@@ -183,7 +299,12 @@
    "numero": 284,
    "ano": 2025,
    "ementa": "Dispõe sobre o reconhecimento do tempo de serviço prestado em condições especiais por profissionais da saúde e autoriza sua contagem diferenciada para fins de aposentadoria, com possibilidade de aplicação retroativa.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2599202"
+   "apresentacao": "2025-12-22",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2599202",
+   "primeiro_autor": true
   },
   {
    "id": 2598301,
@@ -191,7 +312,12 @@
    "numero": 50,
    "ano": 2025,
    "ementa": "Altera os artigos 103-B e 130-A da Constituição Federal, para modificar a composição do Conselho Nacional de Justiça e do Conselho Nacional do Ministério Público.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2598301"
+   "apresentacao": "2025-12-17",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2598301",
+   "primeiro_autor": false
   },
   {
    "id": 2595818,
@@ -199,7 +325,12 @@
    "numero": 48,
    "ano": 2025,
    "ementa": "Altera o inciso XVI do art. 37 da Constituição Federal para permitir a acumulação de cargos públicos por outros profissionais da área da educação.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2595818"
+   "apresentacao": "2025-12-10",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2595818",
+   "primeiro_autor": false
   },
   {
    "id": 2557024,
@@ -207,7 +338,12 @@
    "numero": 34,
    "ano": 2025,
    "ementa": "Acrescenta o inciso IX ao art. 225, §º1 da Constituição Federal, a alínea “e” ao inciso II do art. 9º, §3º e o §14 ao art. 9º da Emenda Constitucional 132/2023 para corrigir o tratamento injusto concedido pela Reforma Tributária aos agentes que atuam no setor de reciclagem, desvalorizando os materiais recicláveis e desincentivando a economia circular.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2557024"
+   "apresentacao": "2025-09-03",
+   "situacao": "Aguardando Constituição de Comissão Temporária",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2557024",
+   "primeiro_autor": false
   },
   {
    "id": 2544926,
@@ -215,7 +351,12 @@
    "numero": 31,
    "ano": 2025,
    "ementa": "Altera os arts. 5º e 10 da Emenda Constitucional nº 103, de 12 de novembro de 2019, para reduzir a idade de aposentadoria da mulher ocupante de cargo de agente penitenciário, agente socioeducativo ou de policial dos órgãos referidos.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2544926"
+   "apresentacao": "2025-08-13",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2544926",
+   "primeiro_autor": false
   },
   {
    "id": 2384605,
@@ -223,7 +364,12 @@
    "numero": 4237,
    "ano": 2023,
    "ementa": "Altera o Decreto-Lei nº 2.848, de 7 de dezembro de 1940, para agravar pena por crime de ameaça quando praticado contra profissionais de enfermagem e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2384605"
+   "apresentacao": "2023-08-30",
+   "situacao": "Arquivada",
+   "situacao_data": null,
+   "categoria": "encerrado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2384605",
+   "primeiro_autor": true
   },
   {
    "id": 2384603,
@@ -231,7 +377,12 @@
    "numero": 4236,
    "ano": 2023,
    "ementa": "Altera o Decreto-Lei nº 2.848, de 7 de dezembro de 1940, para agravar pena por crime de lesão corporal praticado contra profissionais de enfermagem.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2384603"
+   "apresentacao": "2023-08-30",
+   "situacao": "Arquivada",
+   "situacao_data": null,
+   "categoria": "encerrado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2384603",
+   "primeiro_autor": true
   },
   {
    "id": 2380933,
@@ -239,7 +390,12 @@
    "numero": 4023,
    "ano": 2023,
    "ementa": "Altera o Decreto-Lei nº 2.848, de 7 de dezembro de 1940, para agravar pena por crime contra a honra de profissionais de enfermagem e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2380933"
+   "apresentacao": "2023-08-21",
+   "situacao": "Arquivada",
+   "situacao_data": null,
+   "categoria": "encerrado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2380933",
+   "primeiro_autor": true
   },
   {
    "id": 2380929,
@@ -247,7 +403,12 @@
    "numero": 4022,
    "ano": 2023,
    "ementa": "Acrescenta dispositivo ao artigo 7º da  Lei nº 8.080, de 19 de setembro de 1990, que  dispõe sobre as condições para a promoção, proteção e recuperação da saúde, a organização dos serviços correspondentes e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2380929"
+   "apresentacao": "2023-08-21",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2380929",
+   "primeiro_autor": true
   },
   {
    "id": 2380900,
@@ -255,7 +416,12 @@
    "numero": 4018,
    "ano": 2023,
    "ementa": "Altera a Lei nº 7.498, de 25 de junho de 1986, para incluir a emissão de atestados de enfermagem como competência privativa do enfermeiro (a).",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2380900"
+   "apresentacao": "2023-08-21",
+   "situacao": "Pronta para Pauta",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2380900",
+   "primeiro_autor": true
   },
   {
    "id": 2380173,
@@ -263,7 +429,12 @@
    "numero": 3949,
    "ano": 2023,
    "ementa": "Altera a Lei no 7.498, de 25 de junho de 1986, para estabelecer novas regras para a prescrição de medicamentos por enfermeiros autônomos em exercício em consultório ou clínica de enfermagem, bem como penalidades para o descumprimento da norma.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2380173"
+   "apresentacao": "2023-08-16",
+   "situacao": "Pronta para Pauta",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2380173",
+   "primeiro_autor": true
   },
   {
    "id": 2377172,
@@ -271,7 +442,12 @@
    "numero": 3840,
    "ano": 2023,
    "ementa": "Altera a Lei nº 8.745, de 9 de dezembro de 1993, e a Lei nº 13.019, de 31 de julho de 2014, para dispor sobre a reserva de vagas para profissionais da enfermagem recém-formados, nos processos seletivos para contratação temporária e nos contratos de gestão, na forma que especifica.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2377172"
+   "apresentacao": "2023-08-09",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2377172",
+   "primeiro_autor": true
   },
   {
    "id": 2369953,
@@ -279,7 +455,12 @@
    "numero": 3122,
    "ano": 2023,
    "ementa": "Altera a Lei nº 7.498, de 25 de junho de 1986, para estabelecer novas regras para a prescrição de medicamentos por profissionais da enfermagem, bem como penalidades para o descumprimento da norma.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2369953"
+   "apresentacao": "2023-06-16",
+   "situacao": "Retirado pelo(a) Autor(a)",
+   "situacao_data": null,
+   "categoria": "encerrado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2369953",
+   "primeiro_autor": true
   },
   {
    "id": 2369874,
@@ -287,7 +468,12 @@
    "numero": 3111,
    "ano": 2023,
    "ementa": "Altera a Lei n.º 11.340, de 7 de agosto de 2006 – Lei Maria da Penha, para estabelecer que a ofendida seja ouvida antes da extinção das medidas protetivas aplicadas em face de seu agressor, bem como permitir que essas medidas sejam mantidas após o arquivamento do inquérito ou da ação penal.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2369874"
+   "apresentacao": "2023-06-15",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2369874",
+   "primeiro_autor": true
   },
   {
    "id": 2382571,
@@ -295,7 +481,12 @@
    "numero": 106,
    "ano": 2023,
    "ementa": "Denomina “Ala Eduardo Barbosa” o corredor de acesso às Comissões Permanentes da Câmara dos Deputados, na área limítrofe entre os Anexos 2 e 3, no pavimento térreo.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2382571"
+   "apresentacao": "2023-08-24",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2382571",
+   "primeiro_autor": false
   }
  ]
 }

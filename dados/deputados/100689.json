@@ -1,5 +1,11 @@
 {
  "id": 100689,
+ "resumo": {
+  "lei": 0,
+  "aprovado": 0,
+  "tramitacao": 8,
+  "encerrado": 1
+ },
  "projetos": [
   {
    "id": 2425873,
@@ -7,7 +13,12 @@
    "numero": 1211,
    "ano": 2024,
    "ementa": "Denomina “Rodovia Adenival Tavares Pereira) (VALE)” a rodovia BR 414, no trecho compreendido entre o entroncamento com a BR-153 em Anápolis até o povoado de Assunção de Goiás no entroncamento com a BR-080,\npassando por Corumbá e Cocalzinho de Goiás, no estado de Goiás.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2425873"
+   "apresentacao": "2024-04-10",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2425873",
+   "primeiro_autor": true
   },
   {
    "id": 2424250,
@@ -15,7 +26,12 @@
    "numero": 1043,
    "ano": 2024,
    "ementa": "Dispõe sobre a regulamentação de tarifas cobradas pelos serviços de transporte privado por aplicativo.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2424250"
+   "apresentacao": "2024-04-01",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2424250",
+   "primeiro_autor": true
   },
   {
    "id": 2424246,
@@ -23,7 +39,12 @@
    "numero": 1042,
    "ano": 2024,
    "ementa": "Dispõe sobre a regulamentação de Mídias Exteriores como outdoors eletrônicos em vias de trânsito e em imóveis com vistas a não prejudicar a visibilidade dos motoristas.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2424246"
+   "apresentacao": "2024-04-01",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2424246",
+   "primeiro_autor": true
   },
   {
    "id": 2421554,
@@ -31,7 +52,12 @@
    "numero": 815,
    "ano": 2024,
    "ementa": "Denomina “Rodovia Jiribita” o trecho da Rodovia GO-070, localizado entre o município de Águas Lindas de Goiás, no Estado de Goiás, e o viaduto de início da EPCL, no Distrito Federal.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2421554"
+   "apresentacao": "2024-03-18",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2421554",
+   "primeiro_autor": true
   },
   {
    "id": 2420646,
@@ -39,7 +65,12 @@
    "numero": 726,
    "ano": 2024,
    "ementa": "Altera a Lei nº 9.424, de 24 de dezembro de 1996, para permitir o uso de recursos do Salário-Educação para alimentação escolar",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2420646"
+   "apresentacao": "2024-03-12",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2420646",
+   "primeiro_autor": true
   },
   {
    "id": 2420645,
@@ -47,7 +78,12 @@
    "numero": 725,
    "ano": 2024,
    "ementa": "Altera a Lei nº 9.424, de 24 de dezembro de 1996, para permitir o uso de recursos do Salário-Educação para compra de uniforme escolar.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2420645"
+   "apresentacao": "2024-03-12",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2420645",
+   "primeiro_autor": true
   },
   {
    "id": 2424243,
@@ -55,7 +91,12 @@
    "numero": 41,
    "ano": 2024,
    "ementa": "Destina percentual de recursos do Fundo Constitucional de Financiamento do Centro Oeste - FCO para projetos voltados à Região Integrada de Desenvolvimento do Distrito Federal e Entorno - RIDE.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2424243"
+   "apresentacao": "2024-04-01",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2424243",
+   "primeiro_autor": true
   },
   {
    "id": 2421102,
@@ -63,7 +104,12 @@
    "numero": 22,
    "ano": 2024,
    "ementa": "Disciplina a remuneração mínima devida pelas empresas operadoras de aplicativos de transporte remunerado privado individual de passageiros em veículos automotores de quatro rodas aos seus motoristas.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2421102"
+   "apresentacao": "2024-03-13",
+   "situacao": "Aguardando Designação - Aguardando Devolução de Relator(a) que deixou de ser Membro",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2421102",
+   "primeiro_autor": true
   },
   {
    "id": 2418633,
@@ -71,7 +117,12 @@
    "numero": 16,
    "ano": 2024,
    "ementa": "Susta, nos termos do art. 49, V da Constituição Federal, a Deliberação nº 40, de 21 de fevereiro de 2024, da Agência Nacional de Transportes Terrestres (ANTT), que autoriza o reajuste de 8,566% no preço das passagens de ônibus entre o Distrito Federal e o Entorno.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2418633"
+   "apresentacao": "2024-02-26",
+   "situacao": "Devolvida ao(à) Autor(a)",
+   "situacao_data": null,
+   "categoria": "encerrado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2418633",
+   "primeiro_autor": true
   }
  ]
 }

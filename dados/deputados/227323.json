@@ -1,5 +1,11 @@
 {
  "id": 227323,
+ "resumo": {
+  "lei": 0,
+  "aprovado": 1,
+  "tramitacao": 4,
+  "encerrado": 1
+ },
  "projetos": [
   {
    "id": 2424541,
@@ -7,7 +13,12 @@
    "numero": 1079,
    "ano": 2024,
    "ementa": "Dispõe sobre a obrigatoriedade de instalação de pontos de apoio no Brasil para caminhoneiros e ajudantes nos estabelecimentos que recebam ou despachem mercadorias por meio de caminhões.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2424541"
+   "apresentacao": "2024-04-03",
+   "situacao": "Arquivada",
+   "situacao_data": null,
+   "categoria": "encerrado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2424541",
+   "primeiro_autor": true
   },
   {
    "id": 2424539,
@@ -15,7 +26,12 @@
    "numero": 1078,
    "ano": 2024,
    "ementa": "Institui o programa de cirurgias capilares pelo Sistema Único de Saúde (SUS) para pessoas vítimas de doenças graves ou acidentes que resultem em perda capilar significativa.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2424539"
+   "apresentacao": "2024-04-03",
+   "situacao": "Pronta para Pauta",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2424539",
+   "primeiro_autor": true
   },
   {
    "id": 2422751,
@@ -23,7 +39,12 @@
    "numero": 918,
    "ano": 2024,
    "ementa": "Acrescenta o §3º ao art. 10 é altera os artigos 9º, 24º e o inciso IX do artigo 6º da Lei nº 10.826, de 22 de dezembro de 2003 – Estatuto do Desarmamento, para tornar vinculado o porte de arma de fogo de uso permitido para os integrantes das entidades de desporto legalmente constituídas.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2422751"
+   "apresentacao": "2024-03-21",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2422751",
+   "primeiro_autor": true
   },
   {
    "id": 2422750,
@@ -31,7 +52,12 @@
    "numero": 917,
    "ano": 2024,
    "ementa": "Acrescenta o § 9o ao art. 98 da Lei no 13.105, de 16 de março de 2015 (Código de Processo Civil), para prever o direito à gratuidade da justiça aos pacientes em tratamento do câncer, deficientes físicos ou pessoas com\ntranstorno do espectro autista  (TEA).",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2422750"
+   "apresentacao": "2024-03-21",
+   "situacao": "Aguardando Envio à Redação Final",
+   "situacao_data": null,
+   "categoria": "aprovado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2422750",
+   "primeiro_autor": true
   },
   {
    "id": 2422739,
@@ -39,7 +65,12 @@
    "numero": 916,
    "ano": 2024,
    "ementa": "Dispõe sobre a gratuidade nas contas de luz e água para pacientes em tratamento do câncer pelo sistema único de saúde (SUS), deficientes físicos, pessoas com transtorno do espectro autista (TEA).",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2422739"
+   "apresentacao": "2024-03-21",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2422739",
+   "primeiro_autor": true
   },
   {
    "id": 2421654,
@@ -47,7 +78,12 @@
    "numero": 822,
    "ano": 2024,
    "ementa": "Altera o Decreto-Lei nº 2.848 de 07 de dezembro de 1940 – Código Penal Brasileiro, para dispor sobre a exposição da intimidade sexual.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2421654"
+   "apresentacao": "2024-03-19",
+   "situacao": "Aguardando Designação - Aguardando Devolução de Relator(a) que deixou de ser Membro",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2421654",
+   "primeiro_autor": true
   }
  ]
 }

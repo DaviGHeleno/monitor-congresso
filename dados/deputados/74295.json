@@ -1,5 +1,11 @@
 {
  "id": 74295,
+ "resumo": {
+  "lei": 0,
+  "aprovado": 0,
+  "tramitacao": 3,
+  "encerrado": 0
+ },
  "projetos": [
   {
    "id": 2643736,
@@ -7,7 +13,12 @@
    "numero": 5072,
    "ano": 2026,
    "ementa": "Institui o Passe Enem, benefício tarifário destinado a assegurar gratuidade no transporte público coletivo aos participantes do Exame Nacional do Ensino Médio nos dias de aplicação das provas, e dispõe sobre seu custeio pela União.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643736"
+   "apresentacao": "2026-08-13",
+   "situacao": "Aguardando Autorização do Despacho",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643736",
+   "primeiro_autor": false
   },
   {
    "id": 2630533,
@@ -15,7 +26,12 @@
    "numero": 2936,
    "ano": 2026,
    "ementa": "Autoriza a utilização de veículos destinados ao transporte escolar, adquiridos ou mantidos com recursos de programas federais, para o transporte intermunicipal e interestadual de estudantes da educação profissional, tecnológica e superior.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2630533"
+   "apresentacao": "2026-06-09",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2630533",
+   "primeiro_autor": true
   },
   {
    "id": 2631190,
@@ -23,7 +39,12 @@
    "numero": 13,
    "ano": 2026,
    "ementa": "Altera o art. 9º da Emenda Constitucional nº 132, de 20 de dezembro de 2023, para permitir a concessão de créditos do Imposto sobre Bens e Serviços através de fomento indireto a doadores e patrocinadores de projetos culturais e esportivos.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2631190"
+   "apresentacao": "2026-06-10",
+   "situacao": "Pronta para Pauta",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2631190",
+   "primeiro_autor": false
   }
  ]
 }

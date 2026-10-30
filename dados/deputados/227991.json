@@ -1,5 +1,11 @@
 {
  "id": 227991,
+ "resumo": {
+  "lei": 0,
+  "aprovado": 0,
+  "tramitacao": 13,
+  "encerrado": 0
+ },
  "projetos": [
   {
    "id": 2645610,
@@ -7,7 +13,12 @@
    "numero": 5281,
    "ano": 2026,
    "ementa": "Dispõe sobre a autorização para uso compassivo de medicamentos ainda não registrados no país e estabelece prazo para decisão da Agência Nacional de Vigilância Sanitária – Anvisa.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2645610"
+   "apresentacao": "2026-09-02",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2645610",
+   "primeiro_autor": false
   },
   {
    "id": 2628479,
@@ -15,7 +26,12 @@
    "numero": 2674,
    "ano": 2026,
    "ementa": "Altera a Lei n. 13.675, de 11 de junho de 2018, para inserir expressamente as polícias penais federal, estaduais e distrital no rol de integrantes operacionais do Sistema Único de Segurança Pública (Susp).",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2628479"
+   "apresentacao": "2026-05-27",
+   "situacao": "Pronta para Pauta",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2628479",
+   "primeiro_autor": true
   },
   {
    "id": 2626363,
@@ -23,7 +39,12 @@
    "numero": 2517,
    "ano": 2026,
    "ementa": "Altera a Lei n. 8.213, de 24 de julho de 1991, para prever a concessão automática de salário maternidade sob a responsabilidade do Instituto Nacional do Seguro Social (INSS).",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2626363"
+   "apresentacao": "2026-05-20",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2626363",
+   "primeiro_autor": true
   },
   {
    "id": 2623969,
@@ -31,7 +52,12 @@
    "numero": 2341,
    "ano": 2026,
    "ementa": "Institui a Linha de Crédito Especial Pronaf Conectividade no âmbito do Programa Nacional de Fortalecimento da Agricultura Familiar.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2623969"
+   "apresentacao": "2026-05-12",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2623969",
+   "primeiro_autor": true
   },
   {
    "id": 2620010,
@@ -39,7 +65,12 @@
    "numero": 2078,
    "ano": 2026,
    "ementa": "Altera a Lei nº 12.764, de 27 de dezembro de 2012, para dispor sobre o Desenvolvimento Psicossocial Continuado da Pessoa Adulta com Transtorno do Espectro Autista.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2620010"
+   "apresentacao": "2026-04-29",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2620010",
+   "primeiro_autor": true
   },
   {
    "id": 2619995,
@@ -47,7 +78,12 @@
    "numero": 2071,
    "ano": 2026,
    "ementa": "Dispõe sobre o comércio intermunicipal e interestadual dos produtos sob inspeção dos Serviços de Inspeção Municipal que se enquadram como alimentos artesanais e tradicionais da agricultura familiar.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2619995"
+   "apresentacao": "2026-04-29",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2619995",
+   "primeiro_autor": true
   },
   {
    "id": 2617450,
@@ -55,7 +91,12 @@
    "numero": 255,
    "ano": 2026,
    "ementa": "Susta a eficácia do inciso XL do Art. 9°-C do Anexo XXI da Portaria de Consolidação GM/MS n° 2, de 28 de setembro de 2017, incluído pela Portaria GM/MS n° 10.719, de 7 de abril de 2026, que dispõe sobre a composição do Comitê Técnico Nacional de Saúde LGBTIA+.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2617450"
+   "apresentacao": "2026-04-22",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2617450",
+   "primeiro_autor": false
   },
   {
    "id": 2644800,
@@ -63,7 +104,12 @@
    "numero": 16,
    "ano": 2026,
    "ementa": "Acrescenta os art. 68-A no Ato das Disposições Constitucionais Transitórias para ratificar os registros de imóveis rurais em faixa de fronteira concedidos pelos estados antes da promulgação desta Constituição Federal e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644800"
+   "apresentacao": "2026-08-28",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644800",
+   "primeiro_autor": false
   },
   {
    "id": 2623604,
@@ -71,7 +117,12 @@
    "numero": 9,
    "ano": 2026,
    "ementa": "Altera o art. 228 da Constituição Federal, para reduzir a idade mínima de imputabilidade penal, nas condições que estabelece.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2623604"
+   "apresentacao": "2026-05-12",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2623604",
+   "primeiro_autor": false
   },
   {
    "id": 2608967,
@@ -79,7 +130,12 @@
    "numero": 9,
    "ano": 2026,
    "ementa": "Acrescenta o parágrafo § 6º ao art. 39 do Regimento Interno da Câmara dos Deputados, para estabelecer que os cargos de Presidente e de Vice-Presidentes da Comissão de Defesa dos Direitos da Mulher sejam ocupados exclusivamente por Deputadas do sexo feminino.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2608967"
+   "apresentacao": "2026-03-16",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2608967",
+   "primeiro_autor": false
   },
   {
    "id": 2623400,
@@ -87,7 +143,12 @@
    "numero": 8,
    "ano": 2026,
    "ementa": "Altera o art. 228 da Constituição Federal para admitir, em caráter excepcional, a redução da maioridade penal em casos de crimes hediondos e de crueldade extrema contra pessoas e animais.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2623400"
+   "apresentacao": "2026-05-11",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2623400",
+   "primeiro_autor": false
   },
   {
    "id": 2440619,
@@ -95,7 +156,12 @@
    "numero": 2371,
    "ano": 2024,
    "ementa": "Acrescenta a Seção I-A ao Capítulo IV do Título I do Código de Defesa do Consumidor, para disciplinar o direito à segurança e à preservação da saúde do consumidor no transporte aéreo de passageiros ofertado por companhias que operam voos comerciais em território nacional.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2440619"
+   "apresentacao": "2024-06-13",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2440619",
+   "primeiro_autor": true
   },
   {
    "id": 2448732,
@@ -103,7 +169,12 @@
    "numero": 28,
    "ano": 2024,
    "ementa": "Acrescenta o art. 97-A e §§4º e 5º da Constituição Federal de 1988, para estabelecer o julgamento de referendo de liminares pelo colegiado de Tribunal, bem como criar hipótese de sustação de decisão do Supremo Tribunal Federal.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2448732"
+   "apresentacao": "2024-07-10",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2448732",
+   "primeiro_autor": false
   }
  ]
 }

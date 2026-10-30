@@ -1,5 +1,11 @@
 {
  "id": 228272,
+ "resumo": {
+  "lei": 0,
+  "aprovado": 0,
+  "tramitacao": 3,
+  "encerrado": 0
+ },
  "projetos": [
   {
    "id": 2448703,
@@ -7,7 +13,12 @@
    "numero": 2838,
    "ano": 2024,
    "ementa": "Reconhece as “Festas de agosto de Montes Claros”, Minas Gerais, e as atividades folclóricas montes-clarenses de Catopês, Marujos e Caboclinhos como manifestações culturais nacionais, e as eleva à condição de Patrimônio Imaterial do Brasil, e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2448703"
+   "apresentacao": "2024-07-10",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2448703",
+   "primeiro_autor": true
   },
   {
    "id": 2448701,
@@ -15,7 +26,12 @@
    "numero": 2837,
    "ano": 2024,
    "ementa": "Acrescenta inciso XVI ao art. 7º da Lei nº 8.080, de 19 de setembro de 1990, para incluir a racionalização no agendamento de consultas, exames e procedimentos entre os princípios do Sistema Único de Saúde - SUS, e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2448701"
+   "apresentacao": "2024-07-10",
+   "situacao": "Aguardando Deliberação",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2448701",
+   "primeiro_autor": true
   },
   {
    "id": 2436224,
@@ -23,7 +39,12 @@
    "numero": 21,
    "ano": 2024,
    "ementa": "Altera o art. 198 da Constituição Federal, para promover o enquadramento dos servidores públicos federais ocupantes do cargo de auxiliar de enfermagem para a carreira dos técnicos de enfermagem.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2436224"
+   "apresentacao": "2024-05-23",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2436224",
+   "primeiro_autor": false
   }
  ]
 }

@@ -1,5 +1,11 @@
 {
  "id": 227401,
+ "resumo": {
+  "lei": 0,
+  "aprovado": 0,
+  "tramitacao": 5,
+  "encerrado": 0
+ },
  "projetos": [
   {
    "id": 2426082,
@@ -7,7 +13,12 @@
    "numero": 1224,
    "ano": 2024,
    "ementa": "Altera a Lei nº 9.394, de 20 de dezembro de 1996, para dispor sobre o ensino de música no currículo da educação básica.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2426082"
+   "apresentacao": "2024-04-11",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2426082",
+   "primeiro_autor": true
   },
   {
    "id": 2421735,
@@ -15,7 +26,12 @@
    "numero": 833,
    "ano": 2024,
    "ementa": "Dispõe sobre a gratuidade do transporte público coletivo para as pessoas portadoras de doenças graves.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2421735"
+   "apresentacao": "2024-03-19",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2421735",
+   "primeiro_autor": true
   },
   {
    "id": 2417312,
@@ -23,7 +39,12 @@
    "numero": 160,
    "ano": 2024,
    "ementa": "Dispõe sobre a exclusão dos valores relativos à Conta de Desenvolvimento Energético - CDE das bases de cálculo da Contribuição para os Programas de Integração Social e de Formação do Patrimônio do Servidor Público - PIS/Pasep e da Contribuição para o Financiamento da Seguridade Social - Cofins.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2417312"
+   "apresentacao": "2024-02-06",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2417312",
+   "primeiro_autor": true
   },
   {
    "id": 2416280,
@@ -31,7 +52,12 @@
    "numero": 6170,
    "ano": 2023,
    "ementa": "Altera a Lei nº 9.394, de 20 de dezembro de 1996, para dispor sobre o ensino de primeiros socorros básicos no ensino médio.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2416280"
+   "apresentacao": "2023-12-21",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2416280",
+   "primeiro_autor": true
   },
   {
    "id": 2416279,
@@ -39,7 +65,12 @@
    "numero": 6169,
    "ano": 2023,
    "ementa": "Institui a Lei da Valorização dos Heróis da Saúde para conceder adicional de insalubridade de 40% (quarenta por cento) aos agentes comunitários de saúde (ACS) e agentes de combate a endemias (ACE).",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2416279"
+   "apresentacao": "2023-12-21",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2416279",
+   "primeiro_autor": true
   }
  ]
 }

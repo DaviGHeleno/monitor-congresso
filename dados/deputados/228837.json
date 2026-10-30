@@ -1,5 +1,11 @@
 {
  "id": 228837,
+ "resumo": {
+  "lei": 0,
+  "aprovado": 1,
+  "tramitacao": 4,
+  "encerrado": 0
+ },
  "projetos": [
   {
    "id": 2459239,
@@ -7,7 +13,12 @@
    "numero": 3705,
    "ano": 2024,
    "ementa": "Altera o art. 9º da Lei nº 11.340, de 7 de agosto de 2006 - Lei Maria da Penha, para incluir a previsão de benefícios da previdência social às vítimas de violência doméstica.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2459239"
+   "apresentacao": "2024-09-25",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2459239",
+   "primeiro_autor": false
   },
   {
    "id": 2448300,
@@ -15,7 +26,12 @@
    "numero": 2815,
    "ano": 2024,
    "ementa": "Altera-se a Lei nº 13.260, de 16 de março de 2016 para incluir, dentre os atos de terrorismo, o crime de esbulho possessório. Altera o Capítulo III, do Título II, da Parte Especial do Decreto-Lei n.º 2.848, de 7 de dezembro de 1940 (Código Penal), cria o crime do art. 163-A do Código Penal, cria o crime do art. 244-D na Lei n.º 8.069, de 13 de julho de 1990 (Estatuto da Criança e do Adolescente), e inclui a Seção VI no Capítulo V da Lei n.º 9.605, de 12 de fevereiro de 1998 (Lei dos Crimes Ambientais), para aumentar as penas dos crimes tratados pelos correlatos dispositivos legais, alterar os requisitos do tipo de esbulho possessório, readequando suas penas e criar majorantes e qualificadoras para ele, de modo a coibir as invasões de terra e os crimes ambientais delas decorrentes, bem como para criar causa especial de aumento de pena quando os crimes se derem em áreas rurais ou locais ermos e reprimir a exposição de crianças e adolescentes a situações de risco envolvendo invasões de propriedades imóveis rurais ou urbanas.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2448300"
+   "apresentacao": "2024-07-10",
+   "situacao": "Pronta para Pauta",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2448300",
+   "primeiro_autor": true
   },
   {
    "id": 2454257,
@@ -23,7 +39,12 @@
    "numero": 136,
    "ano": 2024,
    "ementa": "Altera a Lei Complementar nº79, de 7 de janeiro de 1994, e a Leinº 13.756, de 12 de dezembro de 2018, para dispor, expressamente, sobre a aplicação de recursos do Fundo Penitenciário Nacional (FUPEN) e do Fundo Nacional de Segurança Pública (FNSP) em órgãos e entidadesque implementam ações de prevenção e enfrentamento da violência contra a mulher nos âmbitos estadual e municipal.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2454257"
+   "apresentacao": "2024-08-21",
+   "situacao": "Aguardando Apreciação pelo Senado Federal",
+   "situacao_data": null,
+   "categoria": "aprovado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2454257",
+   "primeiro_autor": false
   },
   {
    "id": 2455515,
@@ -31,7 +52,12 @@
    "numero": 31,
    "ano": 2024,
    "ementa": "Acrescenta os arts.91-A, 91-B e a alínea “g” do inciso I do artigo 159 da Constituição Federal, para instituir o Conselho Nacional de Mudança Climática, a Autoridade Climática Nacional e o Fundo Nacional de Mudança Climática.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2455515"
+   "apresentacao": "2024-08-27",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2455515",
+   "primeiro_autor": false
   },
   {
    "id": 2442880,
@@ -39,7 +65,12 @@
    "numero": 24,
    "ano": 2024,
    "ementa": "Altera os §§ 4º, 4°-B e 7º do art. 40 da Constituição Federal e os artigos 5º, 10, 23, 24 e 26 da Emenda Constitucional nº 103, de 2019, acrescenta o art. 144-A a Constituição e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2442880"
+   "apresentacao": "2024-06-24",
+   "situacao": "Aguardando Constituição de Comissão Temporária",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2442880",
+   "primeiro_autor": false
   }
  ]
 }

@@ -1,5 +1,11 @@
 {
  "id": 229082,
+ "resumo": {
+  "lei": 0,
+  "aprovado": 0,
+  "tramitacao": 6,
+  "encerrado": 0
+ },
  "projetos": [
   {
    "id": 2458487,
@@ -7,7 +13,12 @@
    "numero": 3591,
    "ano": 2024,
    "ementa": "Institui a Política Nacional de Saúde na Escola.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2458487"
+   "apresentacao": "2024-09-17",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2458487",
+   "primeiro_autor": true
   },
   {
    "id": 2458210,
@@ -15,7 +26,12 @@
    "numero": 3549,
    "ano": 2024,
    "ementa": "Institui o Dia Nacional de Conscientização sobre a Dupla Excepcionalidade.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2458210"
+   "apresentacao": "2024-09-12",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2458210",
+   "primeiro_autor": true
   },
   {
    "id": 2458208,
@@ -23,7 +39,12 @@
    "numero": 3548,
    "ano": 2024,
    "ementa": "Institui o Dia Nacional de Combate ao Capacitismo.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2458208"
+   "apresentacao": "2024-09-12",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2458208",
+   "primeiro_autor": true
   },
   {
    "id": 2454158,
@@ -31,7 +52,12 @@
    "numero": 3233,
    "ano": 2024,
    "ementa": "Altera a Lei nº 9.250, de 26 de dezembro de 1995, para permitir a dedução, da base de cálculo do IRPF, das despesas relativas a consultas com enfermeiros.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2454158"
+   "apresentacao": "2024-08-20",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2454158",
+   "primeiro_autor": true
   },
   {
    "id": 2448752,
@@ -39,7 +65,12 @@
    "numero": 29,
    "ano": 2024,
    "ementa": "Altera a Constituição Federal para acrescentar no art. 5º texto sobre o marco temporal de início da vida humana explicitando de forma inequívoca a inviolabilidade do direito à vida, desde a sua concepção, bem como cria o inciso LXXX para especificar que a concepção é a junção do gameta masculino e o feminino, ocorrida durante a fecundação, em local propício para o desenvolvimento celular.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2448752"
+   "apresentacao": "2024-07-10",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2448752",
+   "primeiro_autor": false
   },
   {
    "id": 2447265,
@@ -47,7 +78,12 @@
    "numero": 27,
    "ano": 2024,
    "ementa": "Altera a Constituição Federal para acrescentar o Capítulo IX - Da Promoção Da Igualdade Racial, que institui o Fundo Nacional de Reparação Econômica e de Promoção da Igualdade Racial (FNREPIR) com o objetivo de promover a igualdade de oportunidades e a inclusão social dos brasileiros pretos e pardos, e dá outras providências",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2447265"
+   "apresentacao": "2024-07-08",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2447265",
+   "primeiro_autor": false
   }
  ]
 }

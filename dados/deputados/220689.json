@@ -1,5 +1,11 @@
 {
  "id": 220689,
+ "resumo": {
+  "lei": 1,
+  "aprovado": 1,
+  "tramitacao": 15,
+  "encerrado": 1
+ },
  "projetos": [
   {
    "id": 2636783,
@@ -7,7 +13,12 @@
    "numero": 3439,
    "ano": 2026,
    "ementa": "Reconhece o Festejo de São Raimundo Nonato dos Mulundus, realizado no Município de Vargem Grande, Estado do Maranhão, como manifestação da cultura nacional.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2636783"
+   "apresentacao": "2026-07-02",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2636783",
+   "primeiro_autor": true
   },
   {
    "id": 2644800,
@@ -15,7 +26,12 @@
    "numero": 16,
    "ano": 2026,
    "ementa": "Acrescenta os art. 68-A no Ato das Disposições Constitucionais Transitórias para ratificar os registros de imóveis rurais em faixa de fronteira concedidos pelos estados antes da promulgação desta Constituição Federal e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644800"
+   "apresentacao": "2026-08-28",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644800",
+   "primeiro_autor": false
   },
   {
    "id": 2556855,
@@ -23,7 +39,12 @@
    "numero": 4403,
    "ano": 2025,
    "ementa": "Dispõe sobre a isenção do Imposto de Importação (II) e do Imposto sobre Produtos Industrializados (IPI) para coletes, jaquetas e macacões de proteção equipados com sistema de bolsas de ar infláveis (airbag), destinados a condutores e passageiros de veículos automotores de duas, três ou quatro rodas.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2556855"
+   "apresentacao": "2025-09-03",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2556855",
+   "primeiro_autor": true
   },
   {
    "id": 2542124,
@@ -31,7 +52,12 @@
    "numero": 3857,
    "ano": 2025,
    "ementa": "Dispõe sobre a responsabilização civil e penal de familiares de autores de violência doméstica e familiar que pratiquem atos de revitimização da ofendida, especialmente por meio de ameaças, intimidações ou pressões ilegítimas.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2542124"
+   "apresentacao": "2025-08-11",
+   "situacao": "Pronta para Pauta",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2542124",
+   "primeiro_autor": true
   },
   {
    "id": 2557024,
@@ -39,7 +65,12 @@
    "numero": 34,
    "ano": 2025,
    "ementa": "Acrescenta o inciso IX ao art. 225, §º1 da Constituição Federal, a alínea “e” ao inciso II do art. 9º, §3º e o §14 ao art. 9º da Emenda Constitucional 132/2023 para corrigir o tratamento injusto concedido pela Reforma Tributária aos agentes que atuam no setor de reciclagem, desvalorizando os materiais recicláveis e desincentivando a economia circular.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2557024"
+   "apresentacao": "2025-09-03",
+   "situacao": "Aguardando Constituição de Comissão Temporária",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2557024",
+   "primeiro_autor": false
   },
   {
    "id": 2473397,
@@ -47,7 +78,12 @@
    "numero": 4615,
    "ano": 2024,
    "ementa": "Institui a Campanha Nacional de Conscientização sobre a Vacinação dos Prematuros.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2473397"
+   "apresentacao": "2024-11-29",
+   "situacao": "Pronta para Pauta",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2473397",
+   "primeiro_autor": true
   },
   {
    "id": 2461412,
@@ -55,7 +91,12 @@
    "numero": 3850,
    "ano": 2024,
    "ementa": "Institui diretrizes para Programa de Combate a Violência em instituições de ensino.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2461412"
+   "apresentacao": "2024-10-08",
+   "situacao": "Arquivada",
+   "situacao_data": null,
+   "categoria": "encerrado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2461412",
+   "primeiro_autor": false
   },
   {
    "id": 2447046,
@@ -63,7 +104,12 @@
    "numero": 2763,
    "ano": 2024,
    "ementa": "Institui Diretrizes para o Programa de Incentivo à utilização da Musicoterapia como Tratamento Terapêutico Complementar e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2447046"
+   "apresentacao": "2024-07-08",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2447046",
+   "primeiro_autor": true
   },
   {
    "id": 2434115,
@@ -71,7 +117,12 @@
    "numero": 1850,
    "ano": 2024,
    "ementa": "Dispõe sobre a veiculação de campanha nacional em canais de teledifusão para que pessoas surdas acessem conteúdo multimídia na Língua Brasileira de Sinais - Libras.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2434115"
+   "apresentacao": "2024-05-15",
+   "situacao": "Pronta para Pauta",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2434115",
+   "primeiro_autor": true
   },
   {
    "id": 2426880,
@@ -79,7 +130,12 @@
    "numero": 1259,
    "ano": 2024,
    "ementa": "Altera a Lei nº 10.257, de 2001, para determinar inclusão da acessibilidade às praias no plano de rotas acessíveis dos municípios.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2426880"
+   "apresentacao": "2024-04-16",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2426880",
+   "primeiro_autor": true
   },
   {
    "id": 2448752,
@@ -87,7 +143,12 @@
    "numero": 29,
    "ano": 2024,
    "ementa": "Altera a Constituição Federal para acrescentar no art. 5º texto sobre o marco temporal de início da vida humana explicitando de forma inequívoca a inviolabilidade do direito à vida, desde a sua concepção, bem como cria o inciso LXXX para especificar que a concepção é a junção do gameta masculino e o feminino, ocorrida durante a fecundação, em local propício para o desenvolvimento celular.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2448752"
+   "apresentacao": "2024-07-10",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2448752",
+   "primeiro_autor": false
   },
   {
    "id": 2403536,
@@ -95,7 +156,12 @@
    "numero": 5476,
    "ano": 2023,
    "ementa": "Reconhece a \"Dança Portugues\" do Estado do Maranhão como manifestação da cultura nacional.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2403536"
+   "apresentacao": "2023-11-13",
+   "situacao": "Aguardando Parecer",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2403536",
+   "primeiro_autor": true
   },
   {
    "id": 2403526,
@@ -103,7 +169,12 @@
    "numero": 5474,
    "ano": 2023,
    "ementa": "Estabelece a destinação pelos serviços sociais autônomos de aprendizagem profissional do “Sistema S” de cinco por cento das vagas gratuitas em cursos e programas de educação profissional a adolescentes órfãos e altera a Lei nº 8.069, de 13 de julho de 1990, que “dispõe sobre o Estatuto da Criança e do Adolescente e dá outras providências”, e a Lei nº 8.213, de 24 de julho de 1991, para dispor sobre o acesso dos adolescentes e dos jovens órfãos em instituições de acolhimento e guarda ou delas egressos ao mercado de trabalho.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2403526"
+   "apresentacao": "2023-11-13",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2403526",
+   "primeiro_autor": true
   },
   {
    "id": 2359098,
@@ -111,7 +182,12 @@
    "numero": 2265,
    "ano": 2023,
    "ementa": "Isenta as famílias em vulnerabilidade socioeconômica de pessoas portadoras de necessidades especiais do pagamento das tarifas de energia elétrica, água e esgoto, e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2359098"
+   "apresentacao": "2023-04-29",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2359098",
+   "primeiro_autor": true
   },
   {
    "id": 2353391,
@@ -119,7 +195,12 @@
    "numero": 1394,
    "ano": 2023,
    "ementa": "Constitui o Círio de Nazaré, no Estado do Maranhão, em Patrimônio Cultural Imaterial do Brasil.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2353391"
+   "apresentacao": "2023-03-23",
+   "situacao": "Transformado em Norma Jurídica",
+   "situacao_data": null,
+   "categoria": "lei",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2353391",
+   "primeiro_autor": true
   },
   {
    "id": 2348973,
@@ -127,7 +208,12 @@
    "numero": 581,
    "ano": 2023,
    "ementa": "Institui a Campanha \"Com a Força do Coração Lilás\" nas Unidades de Ensino da Rede Pública e Privada, no âmbito nacional e determina disponibilizar no ato da matrícula do aluno, ficha de dados com o intuito de obter informações como medida de prevenção à violência doméstica e familiar e dá outras providências.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2348973"
+   "apresentacao": "2023-02-16",
+   "situacao": "Tramitando em Conjunto",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2348973",
+   "primeiro_autor": true
   },
   {
    "id": 2402861,
@@ -135,7 +221,12 @@
    "numero": 57,
    "ano": 2023,
    "ementa": "Altera os arts. 40 e 144 da Constituição Federal para dispor sobre as Polícias Municipais.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2402861"
+   "apresentacao": "2023-11-08",
+   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2402861",
+   "primeiro_autor": false
   },
   {
    "id": 2351506,
@@ -143,7 +234,12 @@
    "numero": 5,
    "ano": 2023,
    "ementa": "Acrescenta § 4º-A ao art. 150 da Constituição Federal, para dispor sobre a imunidade tributária de que tratam as suas alíneas “b” e “c” do inciso VI.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2351506"
+   "apresentacao": "2023-03-15",
+   "situacao": "Aguardando Apreciação pelo Senado Federal",
+   "situacao_data": null,
+   "categoria": "aprovado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2351506",
+   "primeiro_autor": false
   }
  ]
 }
