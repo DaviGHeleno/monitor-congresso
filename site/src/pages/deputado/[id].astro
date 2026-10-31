@@ -33,12 +33,15 @@ const gabinete = p?.gabinete
 
 // Situação dos projetos (só quando o coletor já gravou a situação).
 const comSituacao = projs.some((x) => x.categoria);
-const porCategoria: Record<string, number> = { lei: 0, aprovado: 0, tramitacao: 0, encerrado: 0 };
-for (const x of projs) if (x.categoria) porCategoria[x.categoria]++;
+// Sem texto de situação = Câmara não informou (fica fora das quatro categorias).
+const cat = (x: (typeof projs)[number]) => (x.situacao ? x.categoria ?? "tramitacao" : "sem_informacao");
+const porCategoria: Record<string, number> = { lei: 0, aprovado: 0, tramitacao: 0, encerrado: 0, sem_informacao: 0 };
+for (const x of projs) if (x.categoria || "situacao" in x) porCategoria[cat(x)]++;
 const primeiroAutor = projs.filter((x) => x.primeiro_autor).length;
-const ordemCategoria = ["lei", "aprovado", "tramitacao", "encerrado"];
+const ordemCategoria = ["lei", "aprovado", "tramitacao", "encerrado", "sem_informacao"];
+const caixas = ordemCategoria.slice(0, 4);
 const projsOrdenados = comSituacao
-  ? [...projs].sort((a, b) => ordemCategoria.indexOf(a.categoria ?? "tramitacao") - ordemCategoria.indexOf(b.categoria ?? "tramitacao")
+  ? [...projs].sort((a, b) => ordemCategoria.indexOf(cat(a)) - ordemCategoria.indexOf(cat(b))
       || (b.apresentacao ?? "").localeCompare(a.apresentacao ?? ""))
   : projs;
 
@@ -132,12 +135,15 @@ const compacto = votos.map((v) => [posicao.get(v.votacao.id), v.voto, v.partido 
       {comSituacao && (
         <div class="numeros" role="group" aria-label="Projetos por situação">
           <div class="numero"><b>{projs.length.toLocaleString("pt-BR")}</b><span>Projetos ({primeiroAutor.toLocaleString("pt-BR")} como primeiro autor)</span></div>
-          {ordemCategoria.map((c) => (
+          {caixas.map((c) => (
             <button type="button" class={`numero filtro-categoria cat-${c}`} data-categoria={c} title={CATEGORIA_PROJETO[c].descricao}>
               <b>{porCategoria[c].toLocaleString("pt-BR")}</b><span>{CATEGORIA_PROJETO[c].rotulo}</span>
             </button>
           ))}
         </div>
+      )}
+      {comSituacao && porCategoria.sem_informacao > 0 && (
+        <p class="contagem">{porCategoria.sem_informacao.toLocaleString("pt-BR")} {porCategoria.sem_informacao === 1 ? "projeto está" : "projetos estão"} sem situação informada pela Câmara.</p>
       )}
       <form class="filtros" onsubmit="return false">
         <label>Buscar<input type="search" id="p-texto" placeholder="Tema ou número" autocomplete="off" /></label>
@@ -145,7 +151,8 @@ const compacto = votos.map((v) => [posicao.get(v.votacao.id), v.voto, v.partido 
           <label>Situação
             <select id="p-categoria">
               <option value="">Todas</option>
-              {ordemCategoria.map((c) => <option value={c}>{CATEGORIA_PROJETO[c].rotulo}</option>)}
+              {ordemCategoria.filter((c) => c !== "sem_informacao" || porCategoria.sem_informacao > 0)
+                .map((c) => <option value={c}>{CATEGORIA_PROJETO[c].rotulo}</option>)}
             </select>
           </label>
         )}
@@ -154,11 +161,11 @@ const compacto = votos.map((v) => [posicao.get(v.votacao.id), v.voto, v.partido 
       <p class="contagem" id="p-contagem" aria-live="polite">{projs.length.toLocaleString("pt-BR")} projetos</p>
       <ul class="lista-simples" id="p-lista">
         {projsOrdenados.map((x) => (
-          <li class="projeto" data-categoria={x.categoria ?? ""} data-primeiro={x.primeiro_autor ? "1" : "0"}
+          <li class="projeto" data-categoria={comSituacao ? cat(x) : ""} data-primeiro={x.primeiro_autor ? "1" : "0"}
               data-busca={[proposicao(x), `${x.sigla} ${x.numero}/${x.ano}`, `${x.sigla}${x.numero}`, x.ementa].filter(Boolean).join(" ").toLowerCase()}>
             <div class="projeto-topo">
               {x.url ? <a href={x.url} rel="noopener"><b>{proposicao(x)}</b></a> : <b>{proposicao(x)}</b>}
-              {x.categoria && <span class={`etiqueta cat-${x.categoria}`}>{CATEGORIA_PROJETO[x.categoria].rotulo}</span>}
+              {comSituacao && <span class={`etiqueta cat-${cat(x)}`}>{CATEGORIA_PROJETO[cat(x)].rotulo}</span>}
               {x.primeiro_autor === false && <span class="coautor">coautoria</span>}
             </div>
             {x.ementa && <div class="projeto-ementa">{x.ementa}</div>}

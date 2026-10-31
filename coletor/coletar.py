@@ -213,6 +213,17 @@ def atualizar_deputados(cliente: Cliente, armazem: Armazem) -> None:
     # Projetos primeiro: vêm de arquivos estáticos, que respondem bem mesmo com a API sobrecarregada.
     atualizar_projetos(cliente, armazem, sorted(cadastro))
     atualizar_perfis(cliente, armazem, cadastro)
+    if ids_exercicio is None:
+        # Lista indisponível: usa a situação informada no perfil buscado hoje ("Exercício", "Fim de Mandato"...).
+        mudou = False
+        for d in cadastro.values():
+            perfil = d.get("perfil") or {}
+            if perfil.get("atualizado_em") == hoje().isoformat() and perfil.get("situacao"):
+                novo = perfil["situacao"] == "Exercício"
+                mudou |= d.get("em_exercicio") != novo
+                d["em_exercicio"] = novo
+        if mudou:
+            armazem.gravar_deputados(cadastro)
 
 
 def _lista_ou_none(cliente: Cliente, caminho: str, params: dict) -> list[dict] | None:

@@ -20,6 +20,10 @@ from coletor import projetos
     ("Tramitando em Conjunto", "tramitacao"),
     ("Pronta para Pauta no PLENÁRIO (PLEN)", "tramitacao"),
     ("Aguardando Designação de Relator(a)", "tramitacao"),
+    ("Ag. Análise de Inconstitucionalidade", "tramitacao"),
+    ("Aguardando Redação Final", "aprovado"),
+    ("Aguardando Envio à Redação Final", "aprovado"),
+    ("Aguardando Apreciação do Veto", "aprovado"),
     (None, "tramitacao"),
 ])
 def test_categoria(situacao, esperado):
@@ -59,7 +63,9 @@ def test_projetos_por_deputado():
     assert sorted(p["id"] for p in r[7]) == [2400001, 2400002]
     assert {p["id"]: p["primeiro_autor"] for p in r[7]} == {2400001: True, 2400002: False}
     assert [p["primeiro_autor"] for p in r[8]] == [False]
-    assert projetos.resumo(r[7]) == {"lei": 1, "aprovado": 0, "tramitacao": 0, "encerrado": 1}
+    assert projetos.resumo(r[7]) == {"lei": 1, "aprovado": 0, "tramitacao": 0, "encerrado": 1, "sem_informacao": 0}
+    sem = projetos.projeto_do_arquivo({**PROP_ANINHADA, "ultimoStatus": {}})
+    assert sem["categoria"] is None and projetos.resumo([sem])["sem_informacao"] == 1
 
 
 def test_perfil_nao_guarda_cpf():

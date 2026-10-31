@@ -198,3 +198,4 @@ button.numero[aria-pressed="true"] { outline: 2px solid var(--destaque); outline
 .projeto-topo { display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center; }
 .projeto-ementa { color: var(--texto); margin-top: 4px; }
 .projeto-situacao, .coautor { color: var(--texto-2); font-size: 0.82rem; margin-top: 4px; }
+.etiqueta.cat-sem_informacao { border-style: dashed; color: var(--texto-2); }

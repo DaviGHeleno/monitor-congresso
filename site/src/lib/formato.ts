@@ -80,6 +80,7 @@ export const CATEGORIA_PROJETO: Record<string, { rotulo: string; descricao: stri
   aprovado: { rotulo: "Aprovado na Câmara", descricao: "Foi ao Senado, aguarda sanção ou promulgação" },
   tramitacao: { rotulo: "Em tramitação", descricao: "Ainda em análise nas comissões ou no Plenário" },
   encerrado: { rotulo: "Arquivado ou rejeitado", descricao: "Arquivado, rejeitado, retirado, prejudicado ou vetado" },
+  sem_informacao: { rotulo: "Situação não informada", descricao: "A Câmara não informou a situação atual" },
 };
 
 /** Idade em anos completos numa data (padrão: hoje). */

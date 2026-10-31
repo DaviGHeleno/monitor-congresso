@@ -60,7 +60,7 @@ export type CategoriaProjeto = "lei" | "aprovado" | "tramitacao" | "encerrado";
 export type Projeto = {
   id: number; sigla: string; numero: number; ano: number; ementa: string | null; url: string | null;
   apresentacao?: string | null; situacao?: string | null; situacao_data?: string | null;
-  categoria?: CategoriaProjeto; primeiro_autor?: boolean;
+  categoria?: CategoriaProjeto | null; primeiro_autor?: boolean;
 };
 
 function ler<T>(relativo: string, padrao: T): T {

@@ -12,6 +12,7 @@ Categorias de situação (sempre com o texto oficial guardado ao lado):
   aprovado      aprovado na Câmara: foi ao Senado, aguarda sanção ou promulgação
   tramitacao    ainda em análise (padrão quando a situação não indica desfecho)
   encerrado     arquivado, rejeitado, retirado, devolvido, prejudicado ou vetado
+  (None)        a Câmara não informou a situação: exibido como "Situação não informada"
 """
 
 from __future__ import annotations
@@ -25,9 +26,10 @@ CATEGORIAS = ("lei", "aprovado", "tramitacao", "encerrado")
 # Ordem importa: a primeira regra que casar decide.
 _REGRAS = [
     ("lei", ("norma juridica",)),
+    ("aprovado", ("apreciacao do veto",)),  # aprovado pelo Congresso, aguardando decisão sobre veto
     ("encerrado", ("vetad", "arquivad", "remessa ao arquivo", "rejeitad", "retirad", "devolvid", "prejudicad", "perdeu a eficacia",
-                   "nao conhecid", "inconstitucional")),
-    ("aprovado", ("senado", "sancao", "promulgacao", "remetid", "enviad", "aguardando envio", "autografo")),
+                   "nao conhecid")),
+    ("aprovado", ("senado", "sancao", "promulgacao", "remetid", "enviad", "aguardando envio", "autografo", "redacao final")),
 ]
 
 
@@ -86,7 +88,7 @@ def projeto_do_arquivo(r: dict) -> dict | None:
         "situacao": situacao.strip() if isinstance(situacao, str) else None,
         "situacao_data": str(_campo(r, "ultimoStatus.dataHora", "ultimoStatus_dataHora",
                                     "statusProposicao.dataHora") or "")[:10] or None,
-        "categoria": categoria(situacao) if situacao else "tramitacao",
+        "categoria": categoria(situacao) if situacao else None,  # sem situação informada pela Câmara
         "url": f"https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao={pid}",
     }
 
@@ -125,8 +127,9 @@ def projetos_por_deputado(proposicoes: list[dict], autores: list[dict], desde: s
 
 def resumo(projetos: list[dict]) -> dict[str, int]:
     contagem = {c: 0 for c in CATEGORIAS}
+    contagem["sem_informacao"] = 0
     for p in projetos:
-        contagem[p.get("categoria") or "tramitacao"] += 1
+        contagem[p.get("categoria") or "sem_informacao"] += 1
     return contagem
 
 

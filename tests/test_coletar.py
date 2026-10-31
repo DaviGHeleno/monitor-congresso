@@ -213,3 +213,19 @@ def test_perfis_respeitam_validade_e_tempo(tmp_path):
     cadastro[3]["perfil"] = None
     coletar.atualizar_perfis(Falsa(), armazem, cadastro, tempo_maximo=-1)
     assert chamadas == []
+
+
+def test_sem_lista_usa_situacao_do_perfil(tmp_path):
+    class Falsa(CamaraFalsa):
+        def paginar(self, caminho, params=None):
+            raise ErroCamara("HTTP 504")
+
+        def dados(self, caminho, params=None):
+            if caminho == "/deputados/7":
+                return {"nomeCivil": "Ana", "ultimoStatus": {"situacao": "Fim de Mandato"}}
+            return []
+
+    armazem = Armazem(tmp_path)
+    armazem.gravar_deputados({7: {"id": 7, "nome": "Ana", "em_exercicio": True}})
+    coletar.atualizar_deputados(Falsa(), armazem)
+    assert armazem.deputados()[7]["em_exercicio"] is False
