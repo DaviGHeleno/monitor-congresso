@@ -3,8 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 5,
-  "tramitacao": 53,
-  "encerrado": 2
+  "tramitacao": 52,
+  "encerrado": 2,
+  "sem_informacao": 1
  },
  "projetos": [
   {
@@ -692,7 +693,7 @@
    "apresentacao": "2023-02-02",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2346928",
    "primeiro_autor": false
   },

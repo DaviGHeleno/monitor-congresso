@@ -3,8 +3,9 @@
  "resumo": {
   "lei": 2,
   "aprovado": 2,
-  "tramitacao": 86,
-  "encerrado": 7
+  "tramitacao": 78,
+  "encerrado": 7,
+  "sem_informacao": 8
  },
  "projetos": [
   {
@@ -16,7 +17,7 @@
    "apresentacao": "2026-05-19",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2625893",
    "primeiro_autor": false
   },
@@ -406,7 +407,7 @@
    "apresentacao": "2025-08-15",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2547244",
    "primeiro_autor": true
   },
@@ -640,7 +641,7 @@
    "apresentacao": "2024-05-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2434528",
    "primeiro_autor": false
   },
@@ -796,7 +797,7 @@
    "apresentacao": "2024-09-19",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2458742",
    "primeiro_autor": false
   },
@@ -809,7 +810,7 @@
    "apresentacao": "2024-07-08",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2447265",
    "primeiro_autor": false
   },
@@ -1056,7 +1057,7 @@
    "apresentacao": "2023-05-16",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2362539",
    "primeiro_autor": false
   },
@@ -1108,7 +1109,7 @@
    "apresentacao": "2023-04-05",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2355013",
    "primeiro_autor": false
   },
@@ -1134,7 +1135,7 @@
    "apresentacao": "2023-03-21",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2352071",
    "primeiro_autor": false
   },

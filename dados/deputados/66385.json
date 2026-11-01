@@ -2,9 +2,10 @@
  "id": 66385,
  "resumo": {
   "lei": 1,
-  "aprovado": 2,
-  "tramitacao": 31,
-  "encerrado": 1
+  "aprovado": 3,
+  "tramitacao": 27,
+  "encerrado": 1,
+  "sem_informacao": 3
  },
  "projetos": [
   {
@@ -133,7 +134,7 @@
    "apresentacao": "2025-02-03",
    "situacao": "Aguardando Redação Final",
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": "aprovado",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2482281",
    "primeiro_autor": true
   },
@@ -237,7 +238,7 @@
    "apresentacao": "2024-03-13",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2420961",
    "primeiro_autor": true
   },
@@ -315,7 +316,7 @@
    "apresentacao": "2023-09-26",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2390580",
    "primeiro_autor": false
   },
@@ -341,7 +342,7 @@
    "apresentacao": "2023-09-26",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2390577",
    "primeiro_autor": false
   },

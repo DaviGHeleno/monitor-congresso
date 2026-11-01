@@ -3,8 +3,9 @@
  "resumo": {
   "lei": 1,
   "aprovado": 1,
-  "tramitacao": 31,
-  "encerrado": 4
+  "tramitacao": 27,
+  "encerrado": 4,
+  "sem_informacao": 4
  },
  "projetos": [
   {
@@ -16,7 +17,7 @@
    "apresentacao": "2026-02-02",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2600082",
    "primeiro_autor": true
   },
@@ -237,7 +238,7 @@
    "apresentacao": "2024-09-19",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2458742",
    "primeiro_autor": false
   },
@@ -367,7 +368,7 @@
    "apresentacao": "2023-03-07",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2350319",
    "primeiro_autor": true
   },
@@ -419,7 +420,7 @@
    "apresentacao": "2023-05-18",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2363434",
    "primeiro_autor": false
   },

@@ -3,8 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 0,
-  "tramitacao": 19,
-  "encerrado": 1
+  "tramitacao": 18,
+  "encerrado": 1,
+  "sem_informacao": 1
  },
  "projetos": [
   {
@@ -224,7 +225,7 @@
    "apresentacao": "2023-05-18",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2363434",
    "primeiro_autor": false
   },

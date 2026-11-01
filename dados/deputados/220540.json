@@ -3,8 +3,9 @@
  "resumo": {
   "lei": 2,
   "aprovado": 4,
-  "tramitacao": 1155,
-  "encerrado": 19
+  "tramitacao": 895,
+  "encerrado": 13,
+  "sem_informacao": 266
  },
  "projetos": [
   {
@@ -16,7 +17,7 @@
    "apresentacao": "2026-09-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646622",
    "primeiro_autor": true
   },
@@ -29,7 +30,7 @@
    "apresentacao": "2026-09-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646602",
    "primeiro_autor": true
   },
@@ -55,7 +56,7 @@
    "apresentacao": "2026-07-29",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641708",
    "primeiro_autor": true
   },
@@ -68,7 +69,7 @@
    "apresentacao": "2026-07-21",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641446",
    "primeiro_autor": true
   },
@@ -81,7 +82,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641414",
    "primeiro_autor": true
   },
@@ -289,7 +290,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641398",
    "primeiro_autor": true
   },
@@ -302,7 +303,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641397",
    "primeiro_autor": true
   },
@@ -328,7 +329,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641395",
    "primeiro_autor": true
   },
@@ -354,7 +355,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641393",
    "primeiro_autor": true
   },
@@ -445,7 +446,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641386",
    "primeiro_autor": true
   },
@@ -497,7 +498,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641382",
    "primeiro_autor": true
   },
@@ -510,7 +511,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641381",
    "primeiro_autor": true
   },
@@ -562,7 +563,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641377",
    "primeiro_autor": true
   },
@@ -601,7 +602,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641374",
    "primeiro_autor": true
   },
@@ -653,7 +654,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641370",
    "primeiro_autor": true
   },
@@ -705,7 +706,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641366",
    "primeiro_autor": true
   },
@@ -718,7 +719,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641365",
    "primeiro_autor": true
   },
@@ -731,7 +732,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641364",
    "primeiro_autor": true
   },
@@ -757,7 +758,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641362",
    "primeiro_autor": true
   },
@@ -770,7 +771,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641361",
    "primeiro_autor": true
   },
@@ -796,7 +797,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641359",
    "primeiro_autor": true
   },
@@ -809,7 +810,7 @@
    "apresentacao": "2026-07-17",
    "situacao": "Ag. Análise de Inconstitucionalidade",
    "situacao_data": null,
-   "categoria": "encerrado",
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641358",
    "primeiro_autor": true
   },
@@ -835,7 +836,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641356",
    "primeiro_autor": true
   },
@@ -861,7 +862,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641354",
    "primeiro_autor": true
   },
@@ -887,7 +888,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641352",
    "primeiro_autor": true
   },
@@ -900,7 +901,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641351",
    "primeiro_autor": true
   },
@@ -926,7 +927,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641349",
    "primeiro_autor": true
   },
@@ -939,7 +940,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641348",
    "primeiro_autor": true
   },
@@ -952,7 +953,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641347",
    "primeiro_autor": true
   },
@@ -1004,7 +1005,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641343",
    "primeiro_autor": true
   },
@@ -1017,7 +1018,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641342",
    "primeiro_autor": true
   },
@@ -1030,7 +1031,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641341",
    "primeiro_autor": true
   },
@@ -1121,7 +1122,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641334",
    "primeiro_autor": true
   },
@@ -1134,7 +1135,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641333",
    "primeiro_autor": true
   },
@@ -1212,7 +1213,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641327",
    "primeiro_autor": true
   },
@@ -1225,7 +1226,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641326",
    "primeiro_autor": true
   },
@@ -1238,7 +1239,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641325",
    "primeiro_autor": true
   },
@@ -1264,7 +1265,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641323",
    "primeiro_autor": true
   },
@@ -1277,7 +1278,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641322",
    "primeiro_autor": true
   },
@@ -1303,7 +1304,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641320",
    "primeiro_autor": true
   },
@@ -1368,7 +1369,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641315",
    "primeiro_autor": true
   },
@@ -1381,7 +1382,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641314",
    "primeiro_autor": true
   },
@@ -1394,7 +1395,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641313",
    "primeiro_autor": true
   },
@@ -1433,7 +1434,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641310",
    "primeiro_autor": true
   },
@@ -1446,7 +1447,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641309",
    "primeiro_autor": true
   },
@@ -1459,7 +1460,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641308",
    "primeiro_autor": true
   },
@@ -1485,7 +1486,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641306",
    "primeiro_autor": true
   },
@@ -1511,7 +1512,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641304",
    "primeiro_autor": true
   },
@@ -1550,7 +1551,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641301",
    "primeiro_autor": true
   },
@@ -1576,7 +1577,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641299",
    "primeiro_autor": true
   },
@@ -1589,7 +1590,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641298",
    "primeiro_autor": true
   },
@@ -1602,7 +1603,7 @@
    "apresentacao": "2026-07-17",
    "situacao": "Ag. Análise de Inconstitucionalidade",
    "situacao_data": null,
-   "categoria": "encerrado",
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641297",
    "primeiro_autor": true
   },
@@ -1628,7 +1629,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641293",
    "primeiro_autor": true
   },
@@ -1654,7 +1655,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641290",
    "primeiro_autor": true
   },
@@ -1667,7 +1668,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641289",
    "primeiro_autor": true
   },
@@ -1680,7 +1681,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641285",
    "primeiro_autor": true
   },
@@ -1745,7 +1746,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641279",
    "primeiro_autor": true
   },
@@ -1758,7 +1759,7 @@
    "apresentacao": "2026-07-17",
    "situacao": "Ag. Análise de Inconstitucionalidade",
    "situacao_data": null,
-   "categoria": "encerrado",
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641278",
    "primeiro_autor": true
   },
@@ -1771,7 +1772,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641277",
    "primeiro_autor": true
   },
@@ -1784,7 +1785,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641276",
    "primeiro_autor": true
   },
@@ -1810,7 +1811,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641274",
    "primeiro_autor": true
   },
@@ -1901,7 +1902,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641267",
    "primeiro_autor": true
   },
@@ -2005,7 +2006,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641259",
    "primeiro_autor": true
   },
@@ -2031,7 +2032,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641257",
    "primeiro_autor": true
   },
@@ -2057,7 +2058,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641255",
    "primeiro_autor": true
   },
@@ -2083,7 +2084,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641253",
    "primeiro_autor": true
   },
@@ -2135,7 +2136,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641249",
    "primeiro_autor": true
   },
@@ -2252,7 +2253,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641240",
    "primeiro_autor": true
   },
@@ -2291,7 +2292,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641237",
    "primeiro_autor": true
   },
@@ -2304,7 +2305,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641236",
    "primeiro_autor": true
   },
@@ -2317,7 +2318,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641235",
    "primeiro_autor": true
   },
@@ -2473,7 +2474,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641223",
    "primeiro_autor": true
   },
@@ -2486,7 +2487,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641222",
    "primeiro_autor": true
   },
@@ -2525,7 +2526,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641219",
    "primeiro_autor": true
   },
@@ -2538,7 +2539,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641218",
    "primeiro_autor": true
   },
@@ -2590,7 +2591,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641214",
    "primeiro_autor": true
   },
@@ -2616,7 +2617,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641212",
    "primeiro_autor": true
   },
@@ -2642,7 +2643,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641210",
    "primeiro_autor": true
   },
@@ -2668,7 +2669,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641208",
    "primeiro_autor": true
   },
@@ -2694,7 +2695,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641206",
    "primeiro_autor": true
   },
@@ -2707,7 +2708,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641205",
    "primeiro_autor": true
   },
@@ -2720,7 +2721,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641204",
    "primeiro_autor": true
   },
@@ -2733,7 +2734,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641203",
    "primeiro_autor": true
   },
@@ -2772,7 +2773,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641200",
    "primeiro_autor": true
   },
@@ -2785,7 +2786,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641199",
    "primeiro_autor": true
   },
@@ -2798,7 +2799,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641198",
    "primeiro_autor": true
   },
@@ -2811,7 +2812,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641197",
    "primeiro_autor": true
   },
@@ -2837,7 +2838,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641195",
    "primeiro_autor": true
   },
@@ -2850,7 +2851,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641194",
    "primeiro_autor": true
   },
@@ -2876,7 +2877,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641192",
    "primeiro_autor": true
   },
@@ -2902,7 +2903,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641190",
    "primeiro_autor": true
   },
@@ -2928,7 +2929,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641188",
    "primeiro_autor": true
   },
@@ -2941,7 +2942,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641187",
    "primeiro_autor": true
   },
@@ -2980,7 +2981,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641184",
    "primeiro_autor": true
   },
@@ -3032,7 +3033,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641180",
    "primeiro_autor": true
   },
@@ -3058,7 +3059,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641177",
    "primeiro_autor": true
   },
@@ -3084,7 +3085,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641175",
    "primeiro_autor": true
   },
@@ -3097,7 +3098,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641174",
    "primeiro_autor": true
   },
@@ -3279,7 +3280,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641160",
    "primeiro_autor": true
   },
@@ -3292,7 +3293,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641159",
    "primeiro_autor": true
   },
@@ -3305,7 +3306,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641158",
    "primeiro_autor": true
   },
@@ -3318,7 +3319,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641157",
    "primeiro_autor": true
   },
@@ -3357,7 +3358,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641154",
    "primeiro_autor": true
   },
@@ -3370,7 +3371,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641153",
    "primeiro_autor": true
   },
@@ -3383,7 +3384,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641152",
    "primeiro_autor": true
   },
@@ -3396,7 +3397,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641151",
    "primeiro_autor": true
   },
@@ -3409,7 +3410,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641150",
    "primeiro_autor": true
   },
@@ -3422,7 +3423,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641149",
    "primeiro_autor": true
   },
@@ -3435,7 +3436,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641148",
    "primeiro_autor": true
   },
@@ -3448,7 +3449,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641147",
    "primeiro_autor": true
   },
@@ -3461,7 +3462,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641146",
    "primeiro_autor": true
   },
@@ -3474,7 +3475,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641145",
    "primeiro_autor": true
   },
@@ -3487,7 +3488,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641144",
    "primeiro_autor": true
   },
@@ -3500,7 +3501,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641143",
    "primeiro_autor": true
   },
@@ -3513,7 +3514,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641142",
    "primeiro_autor": true
   },
@@ -3526,7 +3527,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641141",
    "primeiro_autor": true
   },
@@ -3539,7 +3540,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641140",
    "primeiro_autor": true
   },
@@ -3552,7 +3553,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641139",
    "primeiro_autor": true
   },
@@ -3565,7 +3566,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641138",
    "primeiro_autor": true
   },
@@ -3578,7 +3579,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641137",
    "primeiro_autor": true
   },
@@ -3591,7 +3592,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641136",
    "primeiro_autor": true
   },
@@ -3604,7 +3605,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641135",
    "primeiro_autor": true
   },
@@ -3617,7 +3618,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641134",
    "primeiro_autor": true
   },
@@ -3630,7 +3631,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641133",
    "primeiro_autor": true
   },
@@ -3643,7 +3644,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641132",
    "primeiro_autor": true
   },
@@ -3656,7 +3657,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641131",
    "primeiro_autor": true
   },
@@ -3669,7 +3670,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641130",
    "primeiro_autor": true
   },
@@ -3682,7 +3683,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641129",
    "primeiro_autor": true
   },
@@ -3695,7 +3696,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641128",
    "primeiro_autor": true
   },
@@ -3708,7 +3709,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641127",
    "primeiro_autor": true
   },
@@ -3721,7 +3722,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641126",
    "primeiro_autor": true
   },
@@ -3734,7 +3735,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641125",
    "primeiro_autor": true
   },
@@ -3747,7 +3748,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641124",
    "primeiro_autor": true
   },
@@ -3760,7 +3761,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641123",
    "primeiro_autor": true
   },
@@ -3773,7 +3774,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641122",
    "primeiro_autor": true
   },
@@ -3786,7 +3787,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641121",
    "primeiro_autor": true
   },
@@ -3799,7 +3800,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641120",
    "primeiro_autor": true
   },
@@ -3812,7 +3813,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641119",
    "primeiro_autor": true
   },
@@ -3825,7 +3826,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641118",
    "primeiro_autor": true
   },
@@ -3838,7 +3839,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641117",
    "primeiro_autor": true
   },
@@ -3851,7 +3852,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641116",
    "primeiro_autor": true
   },
@@ -3864,7 +3865,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641115",
    "primeiro_autor": true
   },
@@ -3877,7 +3878,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641114",
    "primeiro_autor": true
   },
@@ -3890,7 +3891,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641113",
    "primeiro_autor": true
   },
@@ -3903,7 +3904,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641112",
    "primeiro_autor": true
   },
@@ -3916,7 +3917,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641111",
    "primeiro_autor": true
   },
@@ -3929,7 +3930,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641110",
    "primeiro_autor": true
   },
@@ -3942,7 +3943,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641109",
    "primeiro_autor": true
   },
@@ -3955,7 +3956,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641108",
    "primeiro_autor": true
   },
@@ -3968,7 +3969,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641107",
    "primeiro_autor": true
   },
@@ -3981,7 +3982,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641106",
    "primeiro_autor": true
   },
@@ -3994,7 +3995,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641105",
    "primeiro_autor": true
   },
@@ -4020,7 +4021,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641103",
    "primeiro_autor": true
   },
@@ -4033,7 +4034,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641102",
    "primeiro_autor": true
   },
@@ -4046,7 +4047,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641101",
    "primeiro_autor": true
   },
@@ -4059,7 +4060,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641100",
    "primeiro_autor": true
   },
@@ -4072,7 +4073,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641099",
    "primeiro_autor": true
   },
@@ -4085,7 +4086,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641098",
    "primeiro_autor": true
   },
@@ -4098,7 +4099,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641097",
    "primeiro_autor": true
   },
@@ -4111,7 +4112,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641096",
    "primeiro_autor": true
   },
@@ -4124,7 +4125,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641095",
    "primeiro_autor": true
   },
@@ -4137,7 +4138,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641094",
    "primeiro_autor": true
   },
@@ -4150,7 +4151,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641093",
    "primeiro_autor": true
   },
@@ -4163,7 +4164,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641092",
    "primeiro_autor": true
   },
@@ -4189,7 +4190,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641090",
    "primeiro_autor": true
   },
@@ -4215,7 +4216,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641088",
    "primeiro_autor": true
   },
@@ -4228,7 +4229,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641087",
    "primeiro_autor": true
   },
@@ -4241,7 +4242,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641086",
    "primeiro_autor": true
   },
@@ -4254,7 +4255,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641085",
    "primeiro_autor": true
   },
@@ -4267,7 +4268,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641084",
    "primeiro_autor": true
   },
@@ -4280,7 +4281,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641083",
    "primeiro_autor": true
   },
@@ -4293,7 +4294,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641082",
    "primeiro_autor": true
   },
@@ -4306,7 +4307,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641081",
    "primeiro_autor": true
   },
@@ -4319,7 +4320,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641080",
    "primeiro_autor": true
   },
@@ -4332,7 +4333,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641079",
    "primeiro_autor": true
   },
@@ -4345,7 +4346,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641078",
    "primeiro_autor": true
   },
@@ -4358,7 +4359,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641074",
    "primeiro_autor": true
   },
@@ -4371,7 +4372,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641073",
    "primeiro_autor": true
   },
@@ -4384,7 +4385,7 @@
    "apresentacao": "2026-07-17",
    "situacao": "Ag. Análise de Inconstitucionalidade",
    "situacao_data": null,
-   "categoria": "encerrado",
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641072",
    "primeiro_autor": true
   },
@@ -4397,7 +4398,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641071",
    "primeiro_autor": true
   },
@@ -4410,7 +4411,7 @@
    "apresentacao": "2026-07-17",
    "situacao": "Ag. Análise de Inconstitucionalidade",
    "situacao_data": null,
-   "categoria": "encerrado",
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641070",
    "primeiro_autor": true
   },
@@ -4423,7 +4424,7 @@
    "apresentacao": "2026-07-17",
    "situacao": "Ag. Análise de Inconstitucionalidade",
    "situacao_data": null,
-   "categoria": "encerrado",
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641069",
    "primeiro_autor": true
   },
@@ -4436,7 +4437,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641068",
    "primeiro_autor": true
   },
@@ -4449,7 +4450,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641067",
    "primeiro_autor": true
   },
@@ -4462,7 +4463,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641066",
    "primeiro_autor": true
   },
@@ -4475,7 +4476,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641065",
    "primeiro_autor": true
   },
@@ -4488,7 +4489,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641064",
    "primeiro_autor": true
   },
@@ -4501,7 +4502,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641063",
    "primeiro_autor": true
   },
@@ -4514,7 +4515,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641062",
    "primeiro_autor": true
   },
@@ -4527,7 +4528,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641061",
    "primeiro_autor": true
   },
@@ -4540,7 +4541,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641060",
    "primeiro_autor": true
   },
@@ -4553,7 +4554,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641059",
    "primeiro_autor": true
   },
@@ -4566,7 +4567,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641058",
    "primeiro_autor": true
   },
@@ -4579,7 +4580,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641057",
    "primeiro_autor": true
   },
@@ -4592,7 +4593,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641056",
    "primeiro_autor": true
   },
@@ -4605,7 +4606,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641055",
    "primeiro_autor": true
   },
@@ -4618,7 +4619,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641054",
    "primeiro_autor": true
   },
@@ -4631,7 +4632,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641053",
    "primeiro_autor": true
   },
@@ -4644,7 +4645,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641052",
    "primeiro_autor": true
   },
@@ -4657,7 +4658,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641051",
    "primeiro_autor": true
   },
@@ -4670,7 +4671,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641050",
    "primeiro_autor": true
   },
@@ -4683,7 +4684,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641049",
    "primeiro_autor": true
   },
@@ -4696,7 +4697,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641048",
    "primeiro_autor": true
   },
@@ -4709,7 +4710,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641047",
    "primeiro_autor": true
   },
@@ -4722,7 +4723,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641046",
    "primeiro_autor": true
   },
@@ -4735,7 +4736,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641045",
    "primeiro_autor": true
   },
@@ -4748,7 +4749,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641044",
    "primeiro_autor": true
   },
@@ -4761,7 +4762,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641043",
    "primeiro_autor": true
   },
@@ -4774,7 +4775,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641042",
    "primeiro_autor": true
   },
@@ -4787,7 +4788,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641041",
    "primeiro_autor": true
   },
@@ -4800,7 +4801,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641040",
    "primeiro_autor": true
   },
@@ -4813,7 +4814,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641039",
    "primeiro_autor": true
   },
@@ -4826,7 +4827,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641038",
    "primeiro_autor": true
   },
@@ -4839,7 +4840,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641037",
    "primeiro_autor": true
   },
@@ -4852,7 +4853,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641036",
    "primeiro_autor": true
   },
@@ -4865,7 +4866,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641035",
    "primeiro_autor": true
   },
@@ -4878,7 +4879,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641034",
    "primeiro_autor": true
   },
@@ -4891,7 +4892,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641033",
    "primeiro_autor": true
   },
@@ -4904,7 +4905,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641032",
    "primeiro_autor": true
   },
@@ -4917,7 +4918,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641031",
    "primeiro_autor": true
   },
@@ -4930,7 +4931,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641030",
    "primeiro_autor": true
   },
@@ -4943,7 +4944,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641029",
    "primeiro_autor": true
   },
@@ -4956,7 +4957,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641028",
    "primeiro_autor": true
   },
@@ -4969,7 +4970,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641027",
    "primeiro_autor": true
   },
@@ -4982,7 +4983,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641026",
    "primeiro_autor": true
   },
@@ -4995,7 +4996,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641025",
    "primeiro_autor": true
   },
@@ -5008,7 +5009,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641024",
    "primeiro_autor": true
   },
@@ -5021,7 +5022,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641023",
    "primeiro_autor": true
   },
@@ -5034,7 +5035,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641022",
    "primeiro_autor": true
   },
@@ -5047,7 +5048,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641021",
    "primeiro_autor": true
   },
@@ -5060,7 +5061,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641020",
    "primeiro_autor": true
   },
@@ -5073,7 +5074,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641019",
    "primeiro_autor": true
   },
@@ -5086,7 +5087,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641018",
    "primeiro_autor": true
   },
@@ -5099,7 +5100,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641017",
    "primeiro_autor": true
   },
@@ -5112,7 +5113,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641016",
    "primeiro_autor": true
   },
@@ -5125,7 +5126,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641015",
    "primeiro_autor": true
   },
@@ -5138,7 +5139,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641014",
    "primeiro_autor": true
   },
@@ -5151,7 +5152,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641013",
    "primeiro_autor": true
   },
@@ -5164,7 +5165,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641012",
    "primeiro_autor": true
   },
@@ -5177,7 +5178,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641011",
    "primeiro_autor": true
   },
@@ -5190,7 +5191,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641010",
    "primeiro_autor": true
   },
@@ -5203,7 +5204,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641009",
    "primeiro_autor": true
   },
@@ -5216,7 +5217,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641008",
    "primeiro_autor": true
   },
@@ -5229,7 +5230,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641007",
    "primeiro_autor": true
   },
@@ -5242,7 +5243,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641006",
    "primeiro_autor": true
   },
@@ -5255,7 +5256,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641005",
    "primeiro_autor": true
   },
@@ -5294,7 +5295,7 @@
    "apresentacao": "2026-07-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2640436",
    "primeiro_autor": true
   },
@@ -6074,7 +6075,7 @@
    "apresentacao": "2026-02-11",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2602597",
    "primeiro_autor": true
   },
@@ -6841,7 +6842,7 @@
    "apresentacao": "2025-12-22",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2599663",
    "primeiro_autor": true
   },
@@ -6984,7 +6985,7 @@
    "apresentacao": "2025-12-22",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2599652",
    "primeiro_autor": true
   },
@@ -6997,7 +6998,7 @@
    "apresentacao": "2025-12-22",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2599651",
    "primeiro_autor": true
   },
@@ -7036,7 +7037,7 @@
    "apresentacao": "2025-12-22",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2599648",
    "primeiro_autor": true
   },
@@ -7075,7 +7076,7 @@
    "apresentacao": "2025-12-22",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2599645",
    "primeiro_autor": true
   },
@@ -7166,7 +7167,7 @@
    "apresentacao": "2025-12-22",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2599638",
    "primeiro_autor": true
   },
@@ -8414,7 +8415,7 @@
    "apresentacao": "2025-12-22",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2599542",
    "primeiro_autor": true
   },
@@ -8440,7 +8441,7 @@
    "apresentacao": "2025-12-22",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2599540",
    "primeiro_autor": true
   },
@@ -11781,7 +11782,7 @@
    "apresentacao": "2025-07-18",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2538318",
    "primeiro_autor": true
   },
@@ -12392,7 +12393,7 @@
    "apresentacao": "2025-07-02",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2531515",
    "primeiro_autor": true
   },
@@ -12405,7 +12406,7 @@
    "apresentacao": "2025-07-02",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2531514",
    "primeiro_autor": true
   },
@@ -13367,7 +13368,7 @@
    "apresentacao": "2025-03-11",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2486453",
    "primeiro_autor": true
   },
@@ -13705,7 +13706,7 @@
    "apresentacao": "2025-02-03",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2482500",
    "primeiro_autor": true
   },
@@ -14381,7 +14382,7 @@
    "apresentacao": "2024-07-08",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2447110",
    "primeiro_autor": true
   },
@@ -14524,7 +14525,7 @@
    "apresentacao": "2024-05-15",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2434255",
    "primeiro_autor": true
   },
@@ -14576,7 +14577,7 @@
    "apresentacao": "2024-05-15",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2434248",
    "primeiro_autor": true
   },
@@ -14589,7 +14590,7 @@
    "apresentacao": "2024-05-08",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2432202",
    "primeiro_autor": false
   },
@@ -14628,7 +14629,7 @@
    "apresentacao": "2024-04-24",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2430056",
    "primeiro_autor": false
   },
@@ -14771,7 +14772,7 @@
    "apresentacao": "2024-09-19",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2458742",
    "primeiro_autor": false
   },
@@ -14953,7 +14954,7 @@
    "apresentacao": "2023-12-19",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2415327",
    "primeiro_autor": true
   },
@@ -15031,7 +15032,7 @@
    "apresentacao": "2023-12-14",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2413656",
    "primeiro_autor": true
   },
@@ -15148,7 +15149,7 @@
    "apresentacao": "2023-11-23",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2406281",
    "primeiro_autor": true
   },
@@ -15161,7 +15162,7 @@
    "apresentacao": "2023-11-23",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2406280",
    "primeiro_autor": true
   },
@@ -15304,7 +15305,7 @@
    "apresentacao": "2023-05-16",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2362564",
    "primeiro_autor": true
   },

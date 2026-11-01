@@ -3,8 +3,9 @@
  "resumo": {
   "lei": 3,
   "aprovado": 2,
-  "tramitacao": 21,
-  "encerrado": 5
+  "tramitacao": 19,
+  "encerrado": 4,
+  "sem_informacao": 3
  },
  "projetos": [
   {
@@ -16,7 +17,7 @@
    "apresentacao": "2026-08-14",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643776",
    "primeiro_autor": false
   },
@@ -42,7 +43,7 @@
    "apresentacao": "2026-08-12",
    "situacao": "Ag. Análise de Inconstitucionalidade",
    "situacao_data": null,
-   "categoria": "encerrado",
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643283",
    "primeiro_autor": false
   },
@@ -263,7 +264,7 @@
    "apresentacao": "2024-07-08",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2447265",
    "primeiro_autor": false
   },
@@ -380,7 +381,7 @@
    "apresentacao": "2023-05-18",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2363434",
    "primeiro_autor": false
   },

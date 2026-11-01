@@ -2,9 +2,10 @@
  "id": 220603,
  "resumo": {
   "lei": 1,
-  "aprovado": 3,
-  "tramitacao": 41,
-  "encerrado": 3
+  "aprovado": 4,
+  "tramitacao": 34,
+  "encerrado": 3,
+  "sem_informacao": 6
  },
  "projetos": [
   {
@@ -16,7 +17,7 @@
    "apresentacao": "2026-10-29",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649526",
    "primeiro_autor": true
   },
@@ -29,7 +30,7 @@
    "apresentacao": "2026-10-29",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649525",
    "primeiro_autor": true
   },
@@ -42,7 +43,7 @@
    "apresentacao": "2026-10-29",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649524",
    "primeiro_autor": true
   },
@@ -55,7 +56,7 @@
    "apresentacao": "2026-10-29",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649523",
    "primeiro_autor": true
   },
@@ -68,7 +69,7 @@
    "apresentacao": "2026-10-29",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649521",
    "primeiro_autor": true
   },
@@ -536,7 +537,7 @@
    "apresentacao": "2023-08-28",
    "situacao": "Aguardando Apreciação do Veto",
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": "aprovado",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2383019",
    "primeiro_autor": true
   },
@@ -575,7 +576,7 @@
    "apresentacao": "2023-02-03",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2346887",
    "primeiro_autor": true
   },

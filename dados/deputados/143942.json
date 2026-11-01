@@ -3,8 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 0,
-  "tramitacao": 18,
-  "encerrado": 3
+  "tramitacao": 17,
+  "encerrado": 3,
+  "sem_informacao": 1
  },
  "projetos": [
   {
@@ -172,7 +173,7 @@
    "apresentacao": "2023-09-14",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2388067",
    "primeiro_autor": true
   },

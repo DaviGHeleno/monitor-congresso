@@ -2,9 +2,10 @@
  "id": 220663,
  "resumo": {
   "lei": 3,
-  "aprovado": 4,
-  "tramitacao": 44,
-  "encerrado": 2
+  "aprovado": 5,
+  "tramitacao": 40,
+  "encerrado": 2,
+  "sem_informacao": 3
  },
  "projetos": [
   {
@@ -263,7 +264,7 @@
    "apresentacao": "2024-04-24",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2430056",
    "primeiro_autor": false
   },
@@ -289,7 +290,7 @@
    "apresentacao": "2024-03-27",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2423919",
    "primeiro_autor": true
   },
@@ -341,7 +342,7 @@
    "apresentacao": "2024-07-08",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2447265",
    "primeiro_autor": false
   },
@@ -484,7 +485,7 @@
    "apresentacao": "2023-08-17",
    "situacao": "Aguardando Redação Final",
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": "aprovado",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2380482",
    "primeiro_autor": true
   },

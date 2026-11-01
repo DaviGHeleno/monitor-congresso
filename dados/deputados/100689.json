@@ -3,8 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 0,
-  "tramitacao": 8,
-  "encerrado": 1
+  "tramitacao": 7,
+  "encerrado": 1,
+  "sem_informacao": 1
  },
  "projetos": [
   {
@@ -29,7 +30,7 @@
    "apresentacao": "2024-04-01",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2424250",
    "primeiro_autor": true
   },

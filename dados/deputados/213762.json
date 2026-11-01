@@ -3,8 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 1,
-  "tramitacao": 79,
-  "encerrado": 6
+  "tramitacao": 67,
+  "encerrado": 6,
+  "sem_informacao": 12
  },
  "projetos": [
   {
@@ -16,7 +17,7 @@
    "apresentacao": "2026-10-14",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2647657",
    "primeiro_autor": true
   },
@@ -40,7 +41,7 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 11.959, de 29 de junho de 2009, para instituir o Sistema Nacional de Rastreabilidade da Pesca Artesanal (SNRPA), criar a Guia Nacional de Trânsito e Rastreabilidade do Pescado Artesanal (GNTRPA), disciplinar a rastreabilidade, a circulação, o transporte e a primeira comercialização do pescado artesanal, promover a integração eletrônica entre os órgãos públicos competentes, simplificar procedimentos administrativos, fortalecer a pesca artesanal brasileira e dar outras providências.",
    "apresentacao": "2026-08-12",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+   "situacao": "Aguardando Autorização do Despacho",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2642903",
@@ -68,7 +69,7 @@
    "apresentacao": "2026-07-20",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641423",
    "primeiro_autor": true
   },
@@ -81,7 +82,7 @@
    "apresentacao": "2026-07-20",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641422",
    "primeiro_autor": true
   },
@@ -94,7 +95,7 @@
    "apresentacao": "2026-07-20",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641421",
    "primeiro_autor": true
   },
@@ -120,7 +121,7 @@
    "apresentacao": "2026-07-20",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641419",
    "primeiro_autor": true
   },
@@ -133,7 +134,7 @@
    "apresentacao": "2026-07-20",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641418",
    "primeiro_autor": true
   },
@@ -146,7 +147,7 @@
    "apresentacao": "2026-07-20",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641417",
    "primeiro_autor": true
   },
@@ -224,7 +225,7 @@
    "apresentacao": "2026-05-19",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2625893",
    "primeiro_autor": false
   },
@@ -263,7 +264,7 @@
    "apresentacao": "2026-04-22",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2617671",
    "primeiro_autor": true
   },
@@ -315,7 +316,7 @@
    "apresentacao": "2026-02-24",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2604280",
    "primeiro_autor": true
   },
@@ -614,7 +615,7 @@
    "apresentacao": "2025-09-30",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2565708",
    "primeiro_autor": true
   },
@@ -809,7 +810,7 @@
    "apresentacao": "2025-10-22",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2575218",
    "primeiro_autor": true
   },

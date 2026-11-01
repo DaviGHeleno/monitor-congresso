@@ -3,8 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 9,
-  "tramitacao": 202,
-  "encerrado": 14
+  "tramitacao": 183,
+  "encerrado": 14,
+  "sem_informacao": 19
  },
  "projetos": [
   {
@@ -16,7 +17,7 @@
    "apresentacao": "2026-10-13",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2647471",
    "primeiro_autor": true
   },
@@ -29,7 +30,7 @@
    "apresentacao": "2026-09-04",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2645985",
    "primeiro_autor": true
   },
@@ -42,7 +43,7 @@
    "apresentacao": "2026-08-25",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644537",
    "primeiro_autor": true
   },
@@ -55,7 +56,7 @@
    "apresentacao": "2026-08-24",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644388",
    "primeiro_autor": true
   },
@@ -92,7 +93,7 @@
    "ano": 2026,
    "ementa": "Concede prioridade aos profissionais de segurança pública e aos agentes do sistema socioeducativo no recebimento da restituição do Imposto sobre a Renda da Pessoa Física – IRPF, mediante alteração da Lei nº 9.250, de 26 de dezembro de 1995.",
    "apresentacao": "2026-08-12",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+   "situacao": "Aguardando Autorização do Despacho",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2642885",
@@ -133,7 +134,7 @@
    "apresentacao": "2026-08-06",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2642115",
    "primeiro_autor": true
   },
@@ -146,7 +147,7 @@
    "apresentacao": "2026-08-05",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641965",
    "primeiro_autor": true
   },
@@ -172,7 +173,7 @@
    "apresentacao": "2026-07-22",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641463",
    "primeiro_autor": true
   },
@@ -393,7 +394,7 @@
    "apresentacao": "2026-04-22",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2617803",
    "primeiro_autor": true
   },
@@ -523,7 +524,7 @@
    "apresentacao": "2026-03-09",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2607573",
    "primeiro_autor": true
   },
@@ -640,7 +641,7 @@
    "apresentacao": "2026-04-17",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2617374",
    "primeiro_autor": true
   },
@@ -848,7 +849,7 @@
    "apresentacao": "2025-12-11",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2595980",
    "primeiro_autor": true
   },
@@ -861,7 +862,7 @@
    "apresentacao": "2025-12-09",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2594688",
    "primeiro_autor": true
   },
@@ -887,7 +888,7 @@
    "apresentacao": "2025-12-06",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2593296",
    "primeiro_autor": true
   },
@@ -1108,7 +1109,7 @@
    "apresentacao": "2025-10-09",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2570364",
    "primeiro_autor": true
   },
@@ -2018,7 +2019,7 @@
    "apresentacao": "2024-04-30",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2430632",
    "primeiro_autor": true
   },
@@ -2083,7 +2084,7 @@
    "apresentacao": "2024-03-19",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2421752",
    "primeiro_autor": true
   },
@@ -2434,7 +2435,7 @@
    "apresentacao": "2023-09-06",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2386359",
    "primeiro_autor": false
   },
@@ -2603,7 +2604,7 @@
    "apresentacao": "2023-03-27",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2353663",
    "primeiro_autor": true
   },
@@ -2655,7 +2656,7 @@
    "apresentacao": "2023-03-07",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2350427",
    "primeiro_autor": false
   },

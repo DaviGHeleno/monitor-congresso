@@ -3,8 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 0,
-  "tramitacao": 37,
-  "encerrado": 6
+  "tramitacao": 36,
+  "encerrado": 6,
+  "sem_informacao": 1
  },
  "projetos": [
   {
@@ -549,7 +550,7 @@
    "apresentacao": "2025-02-03",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2482103",
    "primeiro_autor": false
   },

@@ -3,8 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 0,
-  "tramitacao": 7,
-  "encerrado": 1
+  "tramitacao": 6,
+  "encerrado": 1,
+  "sem_informacao": 1
  },
  "projetos": [
   {
@@ -68,7 +69,7 @@
    "apresentacao": "2024-06-14",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2440821",
    "primeiro_autor": true
   },

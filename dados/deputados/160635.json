@@ -3,8 +3,9 @@
  "resumo": {
   "lei": 1,
   "aprovado": 2,
-  "tramitacao": 39,
-  "encerrado": 5
+  "tramitacao": 37,
+  "encerrado": 5,
+  "sem_informacao": 2
  },
  "projetos": [
   {
@@ -471,7 +472,7 @@
    "apresentacao": "2023-03-20",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2351859",
    "primeiro_autor": true
   },
@@ -484,7 +485,7 @@
    "apresentacao": "2023-03-07",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2350357",
    "primeiro_autor": true
   },

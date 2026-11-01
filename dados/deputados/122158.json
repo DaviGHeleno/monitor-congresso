@@ -3,8 +3,9 @@
  "resumo": {
   "lei": 3,
   "aprovado": 0,
-  "tramitacao": 42,
-  "encerrado": 1
+  "tramitacao": 41,
+  "encerrado": 1,
+  "sem_informacao": 1
  },
  "projetos": [
   {
@@ -367,7 +368,7 @@
    "apresentacao": "2024-09-19",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2458742",
    "primeiro_autor": false
   },

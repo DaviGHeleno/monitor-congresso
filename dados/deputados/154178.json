@@ -3,8 +3,9 @@
  "resumo": {
   "lei": 2,
   "aprovado": 1,
-  "tramitacao": 12,
-  "encerrado": 2
+  "tramitacao": 11,
+  "encerrado": 2,
+  "sem_informacao": 1
  },
  "projetos": [
   {
@@ -185,7 +186,7 @@
    "apresentacao": "2023-02-09",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2348342",
    "primeiro_autor": true
   },

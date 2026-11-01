@@ -2,9 +2,10 @@
  "id": 220537,
  "resumo": {
   "lei": 1,
-  "aprovado": 1,
-  "tramitacao": 40,
-  "encerrado": 2
+  "aprovado": 2,
+  "tramitacao": 38,
+  "encerrado": 2,
+  "sem_informacao": 1
  },
  "projetos": [
   {
@@ -367,7 +368,7 @@
    "apresentacao": "2024-07-08",
    "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2447265",
    "primeiro_autor": false
   },
@@ -419,7 +420,7 @@
    "apresentacao": "2023-11-28",
    "situacao": "Aguardando Redação Final",
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": "aprovado",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2406914",
    "primeiro_autor": true
   },
