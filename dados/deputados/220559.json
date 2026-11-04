@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 5,
-  "tramitacao": 143,
+  "tramitacao": 144,
   "encerrado": 21,
-  "sem_informacao": 7
+  "sem_informacao": 8
  },
  "projetos": [
   {
@@ -54,7 +54,7 @@
    "ano": 2026,
    "ementa": "Limita o crescimento dos encargos setoriais incidentes sobre as tarifas de energia elétrica, veda a criação, ampliação ou prorrogação de subsídios tarifários sem indicação de fonte orçamentária diversa da tarifa, estabelece obrigações de transparência nas faturas de energia elétrica e altera o art. 13 da Lei nº 10.438, de 26 de abril de 2002.",
    "apresentacao": "2026-07-08",
-   "situacao": "Aguardando Apensação",
+   "situacao": "Tramitando em Conjunto",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2638260",
@@ -67,9 +67,9 @@
    "ano": 2026,
    "ementa": "Acrescenta o art. 3º-A à Lei nº 13.874, de 20 de setembro de 2019, para dispor sobre a liberdade de organização do quadro funcional da pessoa jurídica de direito privado e sobre os requisitos de prova para fins sancionatórios.",
    "apresentacao": "2026-07-03",
-   "situacao": null,
+   "situacao": "Aguardando Apensação",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2637095",
    "primeiro_autor": true
   },
@@ -80,9 +80,9 @@
    "ano": 2026,
    "ementa": "Altera o Decreto-Lei nº 5.452, de 1º de maio de 1943 (Consolidação das Leis do Trabalho), para disciplinar a prova nas ações coletivas trabalhistas, vedar o uso de ato infralegal e de disparidade estatística como fundamento de condenação e exigir a comprovação de dolo ou culpa na caracterização do dano moral coletivo, ressalvadas hipóteses específicas de responsabilidade objetiva relacionadas a acidente de trabalho em atividade de risco e ao meio ambiente do trabalho.",
    "apresentacao": "2026-07-01",
-   "situacao": null,
+   "situacao": "Aguardando Apensação",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2636521",
    "primeiro_autor": true
   },
@@ -93,7 +93,7 @@
    "ano": 2026,
    "ementa": "Dispõe sobre a proteção do direito de propriedade do titular de recursos financeiros mantidos em instituições autorizadas a funcionar pelo Banco Central do Brasil, veda sua apropriação pelo Poder Público pelo decurso do tempo, institui mecanismos de devolução automática, assegura o direito de restituição dos valores apropriados, altera as Leis nºs 2.313, de 3 de setembro de 1954, e 8.036, de 11 de maio de 1990, e revoga dispositivos da Lei nº 14.973, de 16 de setembro de 2024.",
    "apresentacao": "2026-07-01",
-   "situacao": "Aguardando Apensação",
+   "situacao": "Tramitando em Conjunto",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2636189",
@@ -197,9 +197,9 @@
    "ano": 2026,
    "ementa": "Reconhece a Oktoberfest de Blumenau, no Estado de Santa Catarina, como patrimônio cultural imaterial do Brasil.",
    "apresentacao": "2026-04-02",
-   "situacao": "Aguardando Encaminhamento",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2613340",
    "primeiro_autor": true
   },
@@ -253,6 +253,32 @@
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2611113",
+   "primeiro_autor": true
+  },
+  {
+   "id": 2649929,
+   "sigla": "PDL",
+   "numero": 1025,
+   "ano": 2026,
+   "ementa": "Susta, nos termos do art. 49, inciso V, da Constituição Federal, dispositivos do Decreto nº 12.955, de 29 de abril de 2026, que regulamenta a Contribuição Social sobre Bens e Serviços – CBS, relativos ao recolhimento na liquidação financeira da\ntransação (split payment)",
+   "apresentacao": "2026-11-03",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649929",
+   "primeiro_autor": true
+  },
+  {
+   "id": 2649725,
+   "sigla": "PDL",
+   "numero": 1023,
+   "ano": 2026,
+   "ementa": "Susta os efeitos da Portaria CGPCIND/DSPRAD/SEDIGI nº 2.272, de 28 de outubro de 2026, da Coordenação-Geral de Políticas de Classificação Indicativa do Ministério da Justiça e Segurança Pública, que atribuiu ao programa “Record Kids – Desenhos Bíblicos” a classificação “não recomendado para menores de doze anos”.",
+   "apresentacao": "2026-11-03",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649725",
    "primeiro_autor": true
   },
   {
@@ -1198,7 +1224,7 @@
    "ano": 2024,
    "ementa": "Veda a reserva de vagas específicas para pessoas “transgênero” em instituições de ensino superior públicas e privadas, bem como em concursos públicos para ingresso no serviço público federal, estadual e municipal.",
    "apresentacao": "2024-10-11",
-   "situacao": "Pronta para Pauta",
+   "situacao": "Aguardando Deliberação",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2462126",
@@ -1731,7 +1757,7 @@
    "ano": 2023,
    "ementa": "Estabelece o sexo biológico como critério único de definição de  \"sexo\" para fins de definição, coordenação e execução de políticas públicas, altera o art. 38 da lei 14.600, de 19 de junho de 2023, e estabelece outras providências.",
    "apresentacao": "2023-10-30",
-   "situacao": "Pronta para Pauta",
+   "situacao": "Aguardando Deliberação",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2400132",

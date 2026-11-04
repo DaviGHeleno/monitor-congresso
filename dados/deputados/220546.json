@@ -5,9 +5,22 @@
   "aprovado": 3,
   "tramitacao": 123,
   "encerrado": 15,
-  "sem_informacao": 8
+  "sem_informacao": 9
  },
  "projetos": [
+  {
+   "id": 2649670,
+   "sigla": "PL",
+   "numero": 5725,
+   "ano": 2026,
+   "ementa": "Altera a Lei nº 9.504, de 30 de setembro de 1997, para disciplinar a autenticação biométrica e facial, a verificação especial de identidade e o videomonitoramento dos procedimentos de habilitação eleitoral.",
+   "apresentacao": "2026-11-02",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649670",
+   "primeiro_autor": true
+  },
   {
    "id": 2646666,
    "sigla": "PL",
@@ -1484,7 +1497,7 @@
    "ano": 2023,
    "ementa": "Dispõe sobre sanções políticas e econômicas relacionadas ao Hamas e ao Hezbollah, os classifica como grupos terroristas, e criminaliza manifestações de apoio a esses grupos.",
    "apresentacao": "2023-10-09",
-   "situacao": "Pronta para Pauta",
+   "situacao": "Aguardando Deliberação",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2394641",

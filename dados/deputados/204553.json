@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 2,
-  "tramitacao": 65,
+  "tramitacao": 64,
   "encerrado": 7,
-  "sem_informacao": 6
+  "sem_informacao": 7
  },
  "projetos": [
   {
@@ -15,7 +15,7 @@
    "ano": 2026,
    "ementa": "Institui o Auxílio Emergencial às Famílias de Vítimas de Violência Urbana praticada por Agentes Públicos da União, dos Estados ou do Distrito Federal, destinado aos dependentes em situação de vulnerabilidade econômica, assegura a análise, a implantação e o primeiro pagamento no prazo de trinta dias contado do requerimento e regulamenta o art. 245 da Constituição Federal.",
    "apresentacao": "2026-08-14",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+   "situacao": "Aguardando Autorização do Despacho",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643797",
@@ -925,9 +925,9 @@
    "ano": 2023,
    "ementa": "Declara o \"Círculo de Oração\" (Reunião de Mulheres de Oração) em todo o Brasil, Patrimônio Cultural e Imaterial da Nação.",
    "apresentacao": "2023-12-21",
-   "situacao": "Tramitando em Conjunto",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2416287",
    "primeiro_autor": true
   },

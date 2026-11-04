@@ -5,7 +5,7 @@
   "aprovado": 3,
   "tramitacao": 107,
   "encerrado": 9,
-  "sem_informacao": 6
+  "sem_informacao": 7
  },
  "projetos": [
   {
@@ -20,6 +20,19 @@
    "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649364",
    "primeiro_autor": true
+  },
+  {
+   "id": 2649985,
+   "sigla": "PDL",
+   "numero": 1027,
+   "ano": 2026,
+   "ementa": "Susta, parcialmente, os efeitos da Norma Técnica GT-SEG.2026.11, da Agência Nacional de Telecomunicações (Anatel), na parte em que estabelece a validação biométrica facial obrigatória como condição para contratação, alteração cadastral e manutenção de acessos ao Serviço Móvel Pessoal (SMP).",
+   "apresentacao": "2026-11-03",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649985",
+   "primeiro_autor": false
   },
   {
    "id": 2617450,
@@ -197,7 +210,7 @@
    "ano": 2025,
    "ementa": "Reconhece o Festival Folclórico Duelo na Fronteira, em Guajará-Mirim, no Estado de Rondônia, como manifestação da cultura nacional.",
    "apresentacao": "2025-11-12",
-   "situacao": "Aguardando Parecer",
+   "situacao": "Aguardando Análise de Parecer",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2584504",

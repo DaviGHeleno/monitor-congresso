@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 1,
   "aprovado": 2,
-  "tramitacao": 68,
+  "tramitacao": 70,
   "encerrado": 2,
-  "sem_informacao": 8
+  "sem_informacao": 6
  },
  "projetos": [
   {
@@ -41,9 +41,9 @@
    "ano": 2026,
    "ementa": "Institui o Estatuto Nacional de Integridade e Responsabilidade Anticorrupção no Setor Privado, dispõe sobre a prevenção, detecção, investigação, responsabilização e reparação de atos de corrupção praticados em relações privadas, estabelece deveres de integridade empresarial, disciplina a responsabilidade de pessoas naturais e jurídicas, cria mecanismos de proteção ao denunciante e de cooperação com as autoridades públicas, altera o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), a Lei nº 12.846, de 1º de agosto de 2013, a Lei nº 13.608, de 10 de janeiro de 2018, a Lei nº 12.529, de 30 de novembro de 2011, a Lei nº 6.404, de 15 de dezembro de 1976, e a Lei nº 7.492, de 16 de junho de 1986, e dá outras providências.",
    "apresentacao": "2026-09-14",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646428",
    "primeiro_autor": true
   },
@@ -54,9 +54,9 @@
    "ano": 2026,
    "ementa": "Institui normas sobre declaração, transparência, atualização, fiscalização e controle da evolução patrimonial de agentes públicos e de pessoas investidas em funções de relevante interesse público; estabelece regime nacional de publicidade ativa das informações patrimoniais; e dá outras providências.",
    "apresentacao": "2026-09-14",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646419",
    "primeiro_autor": true
   },
@@ -730,7 +730,7 @@
    "ano": 2023,
    "ementa": "Dispõe sobre sanções políticas e econômicas relacionadas ao Hamas e ao Hezbollah, os classifica como grupos terroristas, e criminaliza manifestações de apoio a esses grupos.",
    "apresentacao": "2023-10-09",
-   "situacao": "Pronta para Pauta",
+   "situacao": "Aguardando Deliberação",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2394641",

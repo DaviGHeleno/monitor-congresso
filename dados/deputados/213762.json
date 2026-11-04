@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 1,
-  "tramitacao": 67,
+  "tramitacao": 66,
   "encerrado": 6,
-  "sem_informacao": 12
+  "sem_informacao": 13
  },
  "projetos": [
   {
@@ -782,9 +782,9 @@
    "ano": 2025,
    "ementa": "Institui diretrizes para a instalação e adequação progressiva de faixas de travessia de pedestres com sinalização acessível, tátil e pictográfica, voltadas à inclusão e segurança de pessoas com deficiência, no âmbito do Sistema Nacional de Trânsito",
    "apresentacao": "2025-04-09",
-   "situacao": "Aguardando Encaminhamento",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2496312",
    "primeiro_autor": true
   },

@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 0,
-  "tramitacao": 44,
+  "tramitacao": 43,
   "encerrado": 3,
-  "sem_informacao": 11
+  "sem_informacao": 12
  },
  "projetos": [
   {
@@ -132,7 +132,7 @@
    "ano": 2026,
    "ementa": "Dispõe sobre a vedação da utilização de dispositivos de bloqueio remoto de veículos automotores em razão de mora ou inadimplemento contratual, e dá outras providências.",
    "apresentacao": "2026-05-07",
-   "situacao": "Pronta para Pauta",
+   "situacao": "Aguardando Deliberação",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2623153",
@@ -314,9 +314,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 11.340, de 7 de agosto de 2006 (Lei Maria da Penha), para estabelecer princípios e diretrizes para a cobertura jornalística e publicitária da violência contra a mulher, promovendo a informação responsável e a proteção das vítimas, com respeito à liberdade de imprensa.",
    "apresentacao": "2026-03-06",
-   "situacao": "Aguardando Encaminhamento",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2607443",
    "primeiro_autor": false
   },

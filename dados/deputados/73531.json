@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 0,
-  "tramitacao": 54,
+  "tramitacao": 53,
   "encerrado": 3,
-  "sem_informacao": 8
+  "sem_informacao": 9
  },
  "projetos": [
   {
@@ -730,9 +730,9 @@
    "ano": 2023,
    "ementa": "Proíbe homenagem a escravocratas, higienistas ou genocidas no Sistema Nacional de Viação – SNV, em obras de arte, nomeação de Prédios Públicos da Administração Federal e nos Monumentos Nacionais em todo território nacional e altera a Lei nº 6.682/79 e Lei nº 6.682/79, para substituir  homenagens a escravocratas, higienistas e genocidas por nomes de eventos ou personalidades históricas cuja ocorrência ou vida tenha sido notabilizada pela defesa de direitos individuais, coletivos ou difusos de pessoas negras ou indígenas",
    "apresentacao": "2023-02-23",
-   "situacao": "Tramitando em Conjunto",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2349133",
    "primeiro_autor": false
   },

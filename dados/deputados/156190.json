@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 1,
   "aprovado": 4,
-  "tramitacao": 143,
+  "tramitacao": 147,
   "encerrado": 18,
-  "sem_informacao": 6
+  "sem_informacao": 2
  },
  "projetos": [
   {
@@ -15,9 +15,9 @@
    "ano": 2026,
    "ementa": "Dispõe sobre a autorização para uso compassivo de medicamentos ainda não registrados no país e estabelece prazo para decisão da Agência Nacional de Vigilância Sanitária – Anvisa.",
    "apresentacao": "2026-09-02",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2645610",
    "primeiro_autor": false
   },
@@ -28,9 +28,9 @@
    "ano": 2026,
    "ementa": "Institui o Programa Conecta Trabalho (CONECTA), com a finalidade de ampliar o acesso à educação profissional e tecnológica e ao mercado de trabalho.",
    "apresentacao": "2026-07-17",
-   "situacao": null,
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2640435",
    "primeiro_autor": true
   },
@@ -41,9 +41,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 8.036, de 11 de maio de 1990, para estabelecer remuneração mínima das contas vinculadas do Fundo de Garantia do Tempo de Serviço (FGTS) correspondente à variação do Índice Nacional de Preços ao Consumidor Amplo (IPCA) acrescida dos juros legais.",
    "apresentacao": "2026-07-17",
-   "situacao": null,
+   "situacao": "Aguardando Apensação",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2640434",
    "primeiro_autor": true
   },
@@ -54,9 +54,9 @@
    "ano": 2026,
    "ementa": "Estabelece mecanismos para assegurar o atendimento tempestivo no âmbito do Sistema Único de Saúde (SUS), disciplina o aproveitamento de exames realizados na rede privada e institui medidas para os casos de descumprimento dos prazos de referência.",
    "apresentacao": "2026-07-16",
-   "situacao": null,
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2640024",
    "primeiro_autor": true
   },
@@ -1614,7 +1614,7 @@
    "ano": 2023,
    "ementa": "Dispõe sobre sanções políticas e econômicas relacionadas ao Hamas e ao Hezbollah, os classifica como grupos terroristas, e criminaliza manifestações de apoio a esses grupos.",
    "apresentacao": "2023-10-09",
-   "situacao": "Pronta para Pauta",
+   "situacao": "Aguardando Deliberação",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2394641",

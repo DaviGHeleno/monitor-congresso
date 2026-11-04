@@ -5,7 +5,7 @@
   "aprovado": 5,
   "tramitacao": 91,
   "encerrado": 9,
-  "sem_informacao": 1
+  "sem_informacao": 2
  },
  "projetos": [
   {
@@ -106,7 +106,7 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 14.597, de 14 de junho de 2023, Lei Geral do Esporte, para dispor sobre a prevenção e o enfrentamento ao abuso, ao assédio e à exploração sexual no esporte.",
    "apresentacao": "2026-04-29",
-   "situacao": "Aguardando Deliberação",
+   "situacao": "Pronta para Pauta",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2620008",
@@ -162,6 +162,19 @@
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2607631",
+   "primeiro_autor": true
+  },
+  {
+   "id": 2649677,
+   "sigla": "PDL",
+   "numero": 1016,
+   "ano": 2026,
+   "ementa": "Susta os efeitos da Portaria CGPCIND/DSPRAD/SEDIGI nº 2.272, de 28 de outubro de 2026, do Ministério da Justiça e Segurança Pública.",
+   "apresentacao": "2026-11-03",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649677",
    "primeiro_autor": true
   },
   {
@@ -1016,7 +1029,7 @@
    "ano": 2023,
    "ementa": "Dispõe sobre sanções políticas e econômicas relacionadas ao Hamas e ao Hezbollah, os classifica como grupos terroristas, e criminaliza manifestações de apoio a esses grupos.",
    "apresentacao": "2023-10-09",
-   "situacao": "Pronta para Pauta",
+   "situacao": "Aguardando Deliberação",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2394641",

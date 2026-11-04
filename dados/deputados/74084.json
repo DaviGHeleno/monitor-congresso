@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 5,
   "aprovado": 4,
-  "tramitacao": 162,
+  "tramitacao": 163,
   "encerrado": 13,
-  "sem_informacao": 9
+  "sem_informacao": 8
  },
  "projetos": [
   {
@@ -15,9 +15,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 14.790, de 29 de dezembro de 2023, para reforçar as regras relativas à publicidade e à comunicação comercial das apostas de quota fixa.",
    "apresentacao": "2026-07-17",
-   "situacao": null,
+   "situacao": "Tramitando em Conjunto",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2640420",
    "primeiro_autor": true
   },
@@ -509,7 +509,7 @@
    "ano": 2026,
    "ementa": "Dispõe sobre o Viva – Programa Nacional de Defesa Pessoal para Mulheres e dá outras providências.",
    "apresentacao": "2026-02-25",
-   "situacao": "Pronta para Pauta",
+   "situacao": "Aguardando Deliberação",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2604967",

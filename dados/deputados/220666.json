@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 2,
   "aprovado": 3,
-  "tramitacao": 103,
+  "tramitacao": 104,
   "encerrado": 10,
-  "sem_informacao": 11
+  "sem_informacao": 10
  },
  "projetos": [
   {
@@ -41,9 +41,9 @@
    "ano": 2026,
    "ementa": "Dispõe sobre a autorização para uso compassivo de medicamentos ainda não registrados no país e estabelece prazo para decisão da Agência Nacional de Vigilância Sanitária – Anvisa.",
    "apresentacao": "2026-09-02",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2645610",
    "primeiro_autor": false
   },
@@ -67,7 +67,7 @@
    "ano": 2026,
    "ementa": "Institui o Dia Nacional do Provedor Regional de Internet.",
    "apresentacao": "2026-08-24",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+   "situacao": "Aguardando Autorização do Despacho",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644372",
@@ -80,7 +80,7 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 10.826, de 22 de dezembro de 2003 – Estatuto do Desarmamento, para autorizar o porte de arma aos Auditores Fiscais Federais Agropecuários.",
    "apresentacao": "2026-08-24",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+   "situacao": "Aguardando Autorização do Despacho",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644364",

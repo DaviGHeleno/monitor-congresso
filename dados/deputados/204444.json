@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 5,
-  "tramitacao": 132,
+  "tramitacao": 130,
   "encerrado": 12,
-  "sem_informacao": 8
+  "sem_informacao": 10
  },
  "projetos": [
   {
@@ -1042,9 +1042,9 @@
    "ano": 2024,
    "ementa": "Institui o “Dia Nacional de Combate à Ludopatia e Proteção de Crianças e Adolescentes contra os Perigos dos Jogos de Azar” e dá outras providências.",
    "apresentacao": "2024-09-27",
-   "situacao": "Tramitando em Conjunto",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2459452",
    "primeiro_autor": true
   },
@@ -1107,9 +1107,9 @@
    "ano": 2024,
    "ementa": "Institui a \"Semana Nacional de Combate à Ludopatia e Proteção de Crianças e Adolescentes contra os Perigos dos Jogos de Azar\" e dá outras providências.",
    "apresentacao": "2024-09-27",
-   "situacao": "Aguardando Encaminhamento",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2459446",
    "primeiro_autor": true
   },

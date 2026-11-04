@@ -5,7 +5,7 @@
   "aprovado": 0,
   "tramitacao": 30,
   "encerrado": 1,
-  "sem_informacao": 5
+  "sem_informacao": 6
  },
  "projetos": [
   {
@@ -15,7 +15,7 @@
    "ano": 2026,
    "ementa": "Altera as Leis nº 9.504, de 30 de setembro de 1997, nº 8.429, de 2 de junho de 1992, e nº 13.303, de 30 de junho de 2016, para dispor sobre a divulgação de demonstrações financeiras obrigatórias de empresas estatais, sociedades de economia mista e suas subsidiárias para fins de registro de candidatura e a responsabilização decorrente de sua não divulgação.",
    "apresentacao": "2026-08-24",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+   "situacao": "Aguardando Autorização do Despacho",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644370",
@@ -28,7 +28,7 @@
    "ano": 2026,
    "ementa": "Cria o Parque Nacional da Serrinha do Paranoá, unidade de conservação de proteção integral, no Distrito Federal, nos termos da Lei nº 9.985, de 18 de julho de 2000, e dá outras providências.",
    "apresentacao": "2026-08-24",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+   "situacao": "Aguardando Autorização do Despacho",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644368",
@@ -119,7 +119,7 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 12.305, de 2 de agosto de 2010, que institui a Política Nacional de Resíduos Sólidos, para estabelecer tratamento diferenciado às cooperativas e às associações de catadores de materiais reutilizáveis e recicláveis nos procedimentos de contratação dos serviços públicos de coleta seletiva, e atualizar remissão à legislação de licitações e contratos administrativos.",
    "apresentacao": "2026-07-06",
-   "situacao": "Aguardando Apensação",
+   "situacao": "Tramitando em Conjunto",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2637380",
@@ -306,6 +306,19 @@
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2604649",
    "primeiro_autor": true
+  },
+  {
+   "id": 2649648,
+   "sigla": "PLP",
+   "numero": 278,
+   "ano": 2026,
+   "ementa": "Altera a Lei Complementar nº 64, de 18 de maio de 1990 (Lei de Inelegibilidades), para incluir, entre as causas de inelegibilidade decorrentes de condenação criminal, a lesão corporal praticada contra a mulher por razões da condição do sexo feminino.",
+   "apresentacao": "2026-10-30",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649648",
+   "primeiro_autor": false
   },
   {
    "id": 2644369,

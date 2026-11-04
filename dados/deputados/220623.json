@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 2,
   "aprovado": 5,
-  "tramitacao": 161,
+  "tramitacao": 163,
   "encerrado": 11,
-  "sem_informacao": 19
+  "sem_informacao": 17
  },
  "projetos": [
   {
@@ -80,9 +80,9 @@
    "ano": 2026,
    "ementa": "Dispõe sobre vedação aos empreendedores minerários de patrocinarem e apoiarem eventos e iniciativas culturais, esportivas, educacionais e comunitárias, promovidas por entidades públicas e/ou privadas, durante a tramitação do licenciamento ambiental.",
    "apresentacao": "2026-09-09",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646284",
    "primeiro_autor": false
   },
@@ -93,9 +93,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 9.504, de 30 de setembro de 1997, para dispor sobre a obrigatoriedade de registro do uso de aeronaves em campanhas eleitorais como doação estimável em dinheiro.",
    "apresentacao": "2026-09-03",
-   "situacao": null,
+   "situacao": "Aguardando Autorização do Despacho",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2645680",
    "primeiro_autor": true
   },
@@ -2264,7 +2264,7 @@
    "ano": 2023,
    "ementa": "Dispõe sobre a criação do Dia Nacional da Visibilidade Lésbica.",
    "apresentacao": "2023-06-27",
-   "situacao": "Pronta para Pauta",
+   "situacao": "Aguardando Deliberação",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2371631",

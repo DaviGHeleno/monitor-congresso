@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 4,
-  "tramitacao": 193,
+  "tramitacao": 196,
   "encerrado": 16,
-  "sem_informacao": 22
+  "sem_informacao": 20
  },
  "projetos": [
   {
@@ -28,9 +28,9 @@
    "ano": 2026,
    "ementa": "Institui o Programa Nacional de Proteção e Resiliência da Atividade Circense – Programa Circo Seguro, destinado à prevenção de danos, proteção securitária, recuperação e continuidade das atividades circenses atingidas por eventos climáticos extremos e desastres.",
    "apresentacao": "2026-09-14",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646390",
    "primeiro_autor": true
   },
@@ -41,9 +41,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 8.036, de 11 de maio de 1990, para estabelecer critérios de territorialização e retorno local dos recursos do Fundo de Garantia do Tempo de Serviço – FGTS destinados a investimentos.",
    "apresentacao": "2026-09-11",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646368",
    "primeiro_autor": true
   },
@@ -184,9 +184,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 11.340, de 7 de agosto de 2006 (Lei Maria da Penha), e o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), para tipificar o monitoramento e o rastreamento não consentido de pessoa, por meio de aplicativo, programa ou dispositivo instalado em equipamento de sua titularidade ou uso, como forma de violência doméstica e familiar contra a mulher; para estabelecer obrigações a provedores de aplicação e a prestadoras de serviço de telecomunicações para a prevenção e coibição dessas condutas; e dá outras providências.",
    "apresentacao": "2026-07-30",
-   "situacao": null,
+   "situacao": "Aguardando Encaminhamento",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641733",
    "primeiro_autor": true
   },
@@ -236,9 +236,9 @@
    "ano": 2026,
    "ementa": "Dispõe sobre a obrigatoriedade de sistema de consulta eletrônica ao registro no Conselho Regional de Medicina (CRM) dos médicos em atividade nos estabelecimentos hospitalares públicos e privados e dá outras providências.",
    "apresentacao": "2026-07-15",
-   "situacao": null,
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2639718",
    "primeiro_autor": true
   },
@@ -620,6 +620,19 @@
    "primeiro_autor": true
   },
   {
+   "id": 2649676,
+   "sigla": "PDL",
+   "numero": 1015,
+   "ano": 2026,
+   "ementa": "Susta os efeitos da Portaria CGPCIND/DSPRAD/SEDIGI nº 2.272, de 28 de outubro de 2026, da Coordenação-Geral de Políticas de Classificação Indicativa do Ministério da Justiça e Segurança Pública, que atribuiu à obra audiovisual \"Record Kids – Desenhos Bíblicos\" a classificação indicativa \"não recomendado para menores de 12 (doze) anos\".",
+   "apresentacao": "2026-11-03",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649676",
+   "primeiro_autor": true
+  },
+  {
    "id": 2607456,
    "sigla": "PL",
    "numero": 1015,
@@ -925,9 +938,9 @@
    "ano": 2025,
    "ementa": "Institui a Política Nacional de Transição para Alimentação Saudável, estabelece a vedação gradual de aquisição de alimentos ultraprocessados pela Administração Pública Federal, Estadual, Distrital e Municipal, define categorias de alimentos permitidos, condicionados e vedados, altera a Lei nº 11.947, de 16 de junho de 2009, e dá outras providências.",
    "apresentacao": "2025-12-18",
-   "situacao": "Aguardando Encaminhamento",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2598490",
    "primeiro_autor": true
   },

@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 4,
-  "tramitacao": 63,
+  "tramitacao": 60,
   "encerrado": 5,
-  "sem_informacao": 12
+  "sem_informacao": 15
  },
  "projetos": [
   {
@@ -275,7 +275,7 @@
    "ano": 2025,
    "ementa": "Altera a Lei nº 10.406, de 10 de janeiro de 2002 (Código Civil), para vedar a participação de menores de 18 anos como sócios em sociedades empresárias, simples ou cooperativas.",
    "apresentacao": "2025-10-06",
-   "situacao": "Aguardando Deliberação",
+   "situacao": "Pronta para Pauta",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2567594",
@@ -314,7 +314,7 @@
    "ano": 2025,
    "ementa": "Institui a Política Nacional de Compras Públicas de Produtos Perecíveis de Pequenos e Médios Produtores Rurais.",
    "apresentacao": "2025-09-29",
-   "situacao": "Pronta para Pauta",
+   "situacao": "Aguardando Deliberação",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2565301",
@@ -535,9 +535,9 @@
    "ano": 2024,
    "ementa": "Reconhece as Folias de Reis de Muqui, Espírito Santo, como manifestação cultural e patrimônio imaterial do Brasil.",
    "apresentacao": "2024-12-18",
-   "situacao": "Aguardando Encaminhamento",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2480998",
    "primeiro_autor": true
   },
@@ -548,9 +548,9 @@
    "ano": 2024,
    "ementa": "Reconhece o Congo Capixaba como manifestação cultural e patrimônio imaterial do Brasil.",
    "apresentacao": "2024-12-18",
-   "situacao": "Aguardando Encaminhamento",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2480976",
    "primeiro_autor": true
   },
@@ -561,9 +561,9 @@
    "ano": 2024,
    "ementa": "Reconhece o Ticumbi como manifestação cultural e patrimônio imaterial do Brasil.",
    "apresentacao": "2024-12-18",
-   "situacao": "Aguardando Encaminhamento",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2480975",
    "primeiro_autor": true
   },

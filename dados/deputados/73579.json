@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 8,
-  "tramitacao": 233,
+  "tramitacao": 234,
   "encerrado": 24,
-  "sem_informacao": 13
+  "sem_informacao": 12
  },
  "projetos": [
   {
@@ -41,9 +41,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 11.903, de 14 de janeiro de 2009, para dispor sobre o Sistema Nacional de Controle de Medicamentos, objetivando informação à sociedade e consolidação de políticas e medidas públicas para o enfrentamento ao roubo, furto, receptação e outros ilícitos envolvendo medicamentos, e dá outras providências.",
    "apresentacao": "2026-07-15",
-   "situacao": null,
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2639772",
    "primeiro_autor": true
   },
@@ -184,7 +184,7 @@
    "ano": 2026,
    "ementa": "Acrescenta parágrafo único ao art. 8º da Lei nº 13.261, de 22 de março de 2016, para dispor sobre contratos de serviços funerários em locais que autorizem o sepultamento de animais de estimação em jazigos familiares, e dá outras providências.",
    "apresentacao": "2026-02-11",
-   "situacao": "Aguardando Parecer",
+   "situacao": "Pronta para Pauta",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2602461",

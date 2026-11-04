@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 0,
-  "tramitacao": 14,
+  "tramitacao": 16,
   "encerrado": 1,
-  "sem_informacao": 9
+  "sem_informacao": 7
  },
  "projetos": [
   {
@@ -41,9 +41,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 15.211, de 17 de setembro de 2025, para vedar o cadastro e o acesso de menores de 16 (dezesseis) anos a redes sociais e prever a realização de campanhas de conscientização sobre os riscos do uso precoce de redes sociais.",
    "apresentacao": "2026-09-01",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2645359",
    "primeiro_autor": true
   },
@@ -106,9 +106,9 @@
    "ano": 2026,
    "ementa": "Altera o Decreto-Lei nº 986, de 21 de outubro de 1969, para dispor sobre a publicação, nos rótulos, embalagens e materiais publicitários dos alimentos, do percentual de fruta presente na composição, e das condições de uso de termos sobre a efetiva utilização de frutas no produto final.",
    "apresentacao": "2026-07-30",
-   "situacao": null,
+   "situacao": "Aguardando Encaminhamento",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641741",
    "primeiro_autor": true
   },

@@ -5,9 +5,35 @@
   "aprovado": 2,
   "tramitacao": 58,
   "encerrado": 1,
-  "sem_informacao": 12
+  "sem_informacao": 14
  },
  "projetos": [
+  {
+   "id": 2650116,
+   "sigla": "PL",
+   "numero": 5746,
+   "ano": 2026,
+   "ementa": "Dispõe sobre a Política Nacional de Soberania Digital, estabelece diretrizes para a jurisdição do espaço digital brasileiro, regulamenta a atuação de empresas de tecnologia e institui a obrigatoriedade de interoperabilidade entre plataformas, e dá outras providências.",
+   "apresentacao": "2026-11-03",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2650116",
+   "primeiro_autor": true
+  },
+  {
+   "id": 2650114,
+   "sigla": "PL",
+   "numero": 5745,
+   "ano": 2026,
+   "ementa": "Altera o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), para tipificar o crime de criação, produção e disseminação deliberada de desinformação (notícias falsas) que atente contra a saúde pública, a ordem econômica e a paz social, e dá outras providências.",
+   "apresentacao": "2026-11-03",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2650114",
+   "primeiro_autor": true
+  },
   {
    "id": 2649499,
    "sigla": "PL",

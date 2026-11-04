@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 7,
-  "tramitacao": 46,
+  "tramitacao": 47,
   "encerrado": 2,
-  "sem_informacao": 8
+  "sem_informacao": 7
  },
  "projetos": [
   {
@@ -28,9 +28,9 @@
    "ano": 2026,
    "ementa": "Institui diretrizes nacionais para a atenção integral às pessoas com doenças respiratórias crônicas no âmbito do Sistema Único de Saúde (SUS).",
    "apresentacao": "2026-09-14",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646425",
    "primeiro_autor": true
   },
@@ -41,7 +41,7 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 8.142, de 28 de dezembro de 1990, para instituir a avaliação periódica da satisfação dos usuários do Sistema Único de Saúde.",
    "apresentacao": "2026-08-27",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+   "situacao": "Aguardando Autorização do Despacho",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644746",

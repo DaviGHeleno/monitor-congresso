@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 2,
-  "tramitacao": 45,
+  "tramitacao": 46,
   "encerrado": 4,
-  "sem_informacao": 7
+  "sem_informacao": 6
  },
  "projetos": [
   {
@@ -15,9 +15,9 @@
    "ano": 2026,
    "ementa": "Institui o Programa Brasil Pescador de Desenvolvimento, Renda e Valorização da Pesca Artesanal, estabelece a Bolsa Pescador Empreendedor e dispõe sobre medidas de fortalecimento da cadeia produtiva da pesca artesanal.",
    "apresentacao": "2026-09-08",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646239",
    "primeiro_autor": true
   },
@@ -67,7 +67,7 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 12.068, de 29 de outubro de 2009, para instituir o Dia Nacional do Pescador Artesanal.",
    "apresentacao": "2026-04-14",
-   "situacao": "Aguardando Parecer",
+   "situacao": "Pronta para Pauta",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2616056",

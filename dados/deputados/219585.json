@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 2,
   "aprovado": 2,
-  "tramitacao": 49,
+  "tramitacao": 48,
   "encerrado": 0,
-  "sem_informacao": 6
+  "sem_informacao": 7
  },
  "projetos": [
   {
@@ -457,9 +457,9 @@
    "ano": 2023,
    "ementa": "Dispõe sobre a autorização do uso dos nomes de pessoas vivas que tenham notoriedade na sociedade, para denominar bens públicos de qualquer natureza, pertencentes à União ou às pessoas jurídicas da Administração indireta.",
    "apresentacao": "2023-07-04",
-   "situacao": "Tramitando em Conjunto",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2372494",
    "primeiro_autor": true
   },

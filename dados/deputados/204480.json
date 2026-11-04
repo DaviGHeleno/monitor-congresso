@@ -5,9 +5,35 @@
   "aprovado": 1,
   "tramitacao": 59,
   "encerrado": 6,
-  "sem_informacao": 9
+  "sem_informacao": 11
  },
  "projetos": [
+  {
+   "id": 2649935,
+   "sigla": "PL",
+   "numero": 5738,
+   "ano": 2026,
+   "ementa": "Institui o Cadastro Nacional de Empregadores e Empresas Responsabilizados por Assédio Eleitoral, estabelece critérios para sua inclusão, manutenção e exclusão, dispõe sobre sua divulgação e atualização pelos órgãos públicos e estabelece restrições à contratação com o poder público e ao acesso a recursos públicos.",
+   "apresentacao": "2026-11-03",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649935",
+   "primeiro_autor": true
+  },
+  {
+   "id": 2649934,
+   "sigla": "PL",
+   "numero": 5737,
+   "ano": 2026,
+   "ementa": "Altera a Lei nº 4.737, de 15 de julho de 1965, para agravar as penas dos crimes contra a liberdade do sufrágio e estabelecer causas de aumento de pena para condutas praticadas mediante abuso de poder econômico, hierárquico ou de relações familiares e de cuidado, especialmente contra pessoas idosas.",
+   "apresentacao": "2026-11-03",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649934",
+   "primeiro_autor": true
+  },
   {
    "id": 2649499,
    "sigla": "PL",
@@ -80,9 +106,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 7.713, de 22 de dezembro de 1988, para conceder isenção do Imposto sobre a Renda da Pessoa Física incidente sobre rendimentos de aposentadoria, pensão e demais benefícios previdenciários.",
    "apresentacao": "2026-07-15",
-   "situacao": null,
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2639736",
    "primeiro_autor": false
   },
@@ -275,9 +301,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 11.340, de 7 de agosto de 2006 (Lei Maria da Penha), para estabelecer princípios e diretrizes para a cobertura jornalística e publicitária da violência contra a mulher, promovendo a informação responsável e a proteção das vítimas, com respeito à liberdade de imprensa.",
    "apresentacao": "2026-03-06",
-   "situacao": "Aguardando Encaminhamento",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2607443",
    "primeiro_autor": false
   },

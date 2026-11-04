@@ -5,7 +5,7 @@
   "aprovado": 8,
   "tramitacao": 46,
   "encerrado": 7,
-  "sem_informacao": 5
+  "sem_informacao": 6
  },
  "projetos": [
   {
@@ -123,6 +123,19 @@
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2605145",
+   "primeiro_autor": false
+  },
+  {
+   "id": 2649648,
+   "sigla": "PLP",
+   "numero": 278,
+   "ano": 2026,
+   "ementa": "Altera a Lei Complementar nº 64, de 18 de maio de 1990 (Lei de Inelegibilidades), para incluir, entre as causas de inelegibilidade decorrentes de condenação criminal, a lesão corporal praticada contra a mulher por razões da condição do sexo feminino.",
+   "apresentacao": "2026-10-30",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649648",
    "primeiro_autor": false
   },
   {
@@ -691,7 +704,7 @@
    "ano": 2023,
    "ementa": "Cria o Programa Criança na Escola, que estabelece medidas de combate à evasão escolar e institui diretrizes para a promoção da permanência dos estudantes nas instituições de ensino.",
    "apresentacao": "2023-06-13",
-   "situacao": "Pronta para Pauta",
+   "situacao": "Aguardando Deliberação",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2368785",

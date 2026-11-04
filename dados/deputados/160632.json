@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 2,
   "aprovado": 1,
-  "tramitacao": 35,
+  "tramitacao": 36,
   "encerrado": 3,
-  "sem_informacao": 8
+  "sem_informacao": 7
  },
  "projetos": [
   {
@@ -41,9 +41,9 @@
    "ano": 2026,
    "ementa": "Institui a Política Nacional de Assistência Técnica e Extensão para a Mineração Artesanal e de Pequena Escala PNAT-MAPE e o Programa Nacional de Assistência Técnica e Extensão para a Mineração Artesanal e de Pequena Escala PRONAT-MAPE, e dá outras providências.",
    "apresentacao": "2026-09-03",
-   "situacao": null,
+   "situacao": "Aguardando Autorização do Despacho",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2645813",
    "primeiro_autor": true
   },

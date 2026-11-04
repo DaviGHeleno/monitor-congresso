@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 2,
   "aprovado": 5,
-  "tramitacao": 92,
+  "tramitacao": 91,
   "encerrado": 5,
-  "sem_informacao": 15
+  "sem_informacao": 16
  },
  "projetos": [
   {
@@ -28,7 +28,7 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 5.889, de 8 de junho de 1973, para estabelecer critérios específicos para a aplicação de multas administrativas aos agricultores familiares.",
    "apresentacao": "2026-08-24",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+   "situacao": "Aguardando Autorização do Despacho",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644384",
@@ -223,7 +223,7 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 13.445, de 24 de maio de 2017 (Lei de Migração), dispõe sobre o estatuto do imigrante sazonal.",
    "apresentacao": "2026-04-07",
-   "situacao": "Pronta para Pauta",
+   "situacao": "Aguardando Deliberação",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2613879",
@@ -327,9 +327,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 11.340, de 7 de agosto de 2006 (Lei Maria da Penha), para estabelecer princípios e diretrizes para a cobertura jornalística e publicitária da violência contra a mulher, promovendo a informação responsável e a proteção das vítimas, com respeito à liberdade de imprensa.",
    "apresentacao": "2026-03-06",
-   "situacao": "Aguardando Encaminhamento",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2607443",
    "primeiro_autor": false
   },
@@ -652,7 +652,7 @@
    "ano": 2025,
    "ementa": "Dispõe sobre a atuação das Casas da Mulher Brasileira na proteção e acolhimento integral das mulheres e crianças, vítimas de violência doméstica e familiar.",
    "apresentacao": "2025-08-12",
-   "situacao": "Pronta para Pauta",
+   "situacao": "Aguardando Deliberação",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2543173",

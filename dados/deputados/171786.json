@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 1,
   "aprovado": 0,
-  "tramitacao": 19,
+  "tramitacao": 20,
   "encerrado": 3,
-  "sem_informacao": 5
+  "sem_informacao": 4
  },
  "projetos": [
   {
@@ -28,9 +28,9 @@
    "ano": 2026,
    "ementa": "Estabelece normas gerais de motivação, transparência e rastreabilidade na utilização de recursos públicos para a realização de eventos festivos e para a contratação de apresentações artísticas no âmbito da União, dos Estados, do Distrito Federal e dos Municípios.",
    "apresentacao": "2026-09-03",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2645892",
    "primeiro_autor": true
   },

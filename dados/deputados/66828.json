@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 1,
   "aprovado": 1,
-  "tramitacao": 61,
+  "tramitacao": 62,
   "encerrado": 8,
-  "sem_informacao": 4
+  "sem_informacao": 3
  },
  "projetos": [
   {
@@ -15,9 +15,9 @@
    "ano": 2026,
    "ementa": "Institui o Programa Nacional de Atenção Integral à Obesidade no âmbito do Sistema Único de Saúde – SUS, estabelece protocolo específico para pessoas com obesidade de alto grau e comorbidades e dispõe sobre tratamento multidisciplinar e farmacológico.",
    "apresentacao": "2026-09-04",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646116",
    "primeiro_autor": true
   },

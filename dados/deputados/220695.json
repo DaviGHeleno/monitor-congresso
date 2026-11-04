@@ -3,7 +3,7 @@
  "resumo": {
   "lei": 2,
   "aprovado": 7,
-  "tramitacao": 115,
+  "tramitacao": 116,
   "encerrado": 12,
   "sem_informacao": 10
  },
@@ -54,9 +54,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 10.257, de 2001, e a Lei nº 11.445, de 2007, para dispor sobre a promoção da segurança, da acessibilidade e da manutenção adequada dos espaços públicos e dos equipamentos de infraestrutura urbana e de saneamento",
    "apresentacao": "2026-09-10",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646327",
    "primeiro_autor": true
   },
@@ -163,6 +163,19 @@
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2612333",
    "primeiro_autor": false
+  },
+  {
+   "id": 2649702,
+   "sigla": "PDL",
+   "numero": 1019,
+   "ano": 2026,
+   "ementa": "Susta os efeitos da Portaria nº 2.272, do Ministério da Justiça e Segurança Pública, que altera a classificação indicativa do programa \"Record Kids – Desenhos Bíblicos\".",
+   "apresentacao": "2026-11-03",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649702",
+   "primeiro_autor": true
   },
   {
    "id": 2607407,

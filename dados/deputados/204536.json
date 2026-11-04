@@ -3,11 +3,24 @@
  "resumo": {
   "lei": 3,
   "aprovado": 3,
-  "tramitacao": 287,
+  "tramitacao": 288,
   "encerrado": 22,
-  "sem_informacao": 29
+  "sem_informacao": 30
  },
  "projetos": [
+  {
+   "id": 2649668,
+   "sigla": "PL",
+   "numero": 5724,
+   "ano": 2026,
+   "ementa": "Altera o Decreto-Lei nº 2.848, de 1940 (Código Penal) para instituir como agravante de pena o uso de máscara ou adereço que impeça ou dificulte a identificação",
+   "apresentacao": "2026-10-30",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649668",
+   "primeiro_autor": true
+  },
   {
    "id": 2648397,
    "sigla": "PL",
@@ -210,9 +223,9 @@
    "ano": 2026,
    "ementa": "Altera o Decreto-Lei n° 3.689, de 3 de outubro de 1941 (Código de Processo Penal), e as Leis n° 10.826, de 22 de dezembro de 2003, e 11.340, de 7 de agosto de 2006 (Lei Maria da Penha), para instituir, como medida protetiva de urgência, o reconhecimento judicial da situação de risco, a concessão cautelar de autorização provisória e o processamento prioritário dos pedidos de aquisição, registro e porte de arma de fogo de uso permitido formulados por vítimas de violência doméstica e familiar ou de crimes praticados mediante violência ou grave ameaça à pessoa.",
    "apresentacao": "2026-07-30",
-   "situacao": null,
+   "situacao": "Aguardando Encaminhamento",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641736",
    "primeiro_autor": true
   },
@@ -721,6 +734,19 @@
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2626967",
+   "primeiro_autor": true
+  },
+  {
+   "id": 2649667,
+   "sigla": "PLP",
+   "numero": 279,
+   "ano": 2026,
+   "ementa": "Altera a Lei Complementar nº 101, de 2000 (Lei de Responsabilidade Fiscal) e a Lei nº 9.504, de 1997 (Lei das Eleições), a fim de impedir a concessão de benefícios com a finalidade de influenciar as eleições",
+   "apresentacao": "2026-10-30",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649667",
    "primeiro_autor": true
   },
   {
@@ -1341,7 +1367,7 @@
    "ano": 2025,
    "ementa": "Altera o Decreto-Lei n. 1.804, de 3 de setembro de 1980, para restabelecer a isenção de imposto de importação em compras de até 50 dólares.",
    "apresentacao": "2025-07-04",
-   "situacao": "Aguardando Parecer",
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2532058",
@@ -2940,7 +2966,7 @@
    "ano": 2023,
    "ementa": "Altera o Decreto-Lei nº 2848, de 07 de dezembro de 1940 – Código Penal, para dispor sobre o uso de drones no espaço aéreo dos presídios.",
    "apresentacao": "2023-12-06",
-   "situacao": "Pronta para Pauta",
+   "situacao": "Aguardando Deliberação",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2410357",

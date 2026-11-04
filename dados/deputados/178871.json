@@ -3,7 +3,7 @@
  "resumo": {
   "lei": 2,
   "aprovado": 11,
-  "tramitacao": 263,
+  "tramitacao": 264,
   "encerrado": 32,
   "sem_informacao": 18
  },
@@ -67,9 +67,9 @@
    "ano": 2026,
    "ementa": "Dispõe sobre a autorização para uso compassivo de medicamentos ainda não registrados no país e estabelece prazo para decisão da Agência Nacional de Vigilância Sanitária – Anvisa.",
    "apresentacao": "2026-09-02",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2645610",
    "primeiro_autor": false
   },
@@ -357,6 +357,19 @@
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2613378",
+   "primeiro_autor": true
+  },
+  {
+   "id": 2650107,
+   "sigla": "PDL",
+   "numero": 1030,
+   "ano": 2026,
+   "ementa": "Susta os efeitos da Portaria CGPCIND/DSPRAD/SEDIGI nº 2.272, de 28 de outubro de 2026, do Ministério da Justiça e Segurança Pública, que atribui classificação indicativa de não recomendado para menores de doze anos ao programa televisivo “Record Kids – Desenhos Bíblicos”.",
+   "apresentacao": "2026-11-03",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2650107",
    "primeiro_autor": true
   },
   {

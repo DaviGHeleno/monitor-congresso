@@ -3,11 +3,24 @@
  "resumo": {
   "lei": 1,
   "aprovado": 6,
-  "tramitacao": 256,
+  "tramitacao": 257,
   "encerrado": 22,
-  "sem_informacao": 10
+  "sem_informacao": 11
  },
  "projetos": [
+  {
+   "id": 2649804,
+   "sigla": "PL",
+   "numero": 5734,
+   "ano": 2026,
+   "ementa": "Altera a Lei nº 8.069, de 13 de julho de 1990 (Estatuto da Criança e do Adolescente), para estabelecer critérios de contextualização e garantias procedimentais na classificação indicativa de diversões e espetáculos públicos e de programas de rádio e televisão.",
+   "apresentacao": "2026-11-03",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649804",
+   "primeiro_autor": true
+  },
   {
    "id": 2641757,
    "sigla": "PL",
@@ -15,9 +28,9 @@
    "ano": 2026,
    "ementa": "Estabelece normas de transparência e integridade para convênios firmados entre empresas estatais federais e instituições de ensino superior para concessão de bolsas, e dá outras providências.",
    "apresentacao": "2026-07-31",
-   "situacao": null,
+   "situacao": "Aguardando Encaminhamento",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641757",
    "primeiro_autor": true
   },
@@ -513,6 +526,19 @@
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2607624",
+   "primeiro_autor": true
+  },
+  {
+   "id": 2649826,
+   "sigla": "PDL",
+   "numero": 1024,
+   "ano": 2026,
+   "ementa": "Susta os efeitos da Portaria nº 2.272, de 28 de outubro de 2026, da Coordenação-Geral de Políticas de Classificação Indicativa do Ministério da Justiça e Segurança Pública, que atribuiu ao programa “Record Kids: Desenhos Bíblicos” a classificação “não recomendado para menores de 12 anos”.",
+   "apresentacao": "2026-11-03",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649826",
    "primeiro_autor": true
   },
   {
@@ -2160,7 +2186,7 @@
    "ano": 2024,
    "ementa": "Dispõe sobre uso de etanol e outras fontes de combustível renovável para veículos da União.",
    "apresentacao": "2024-07-31",
-   "situacao": "Aguardando Parecer",
+   "situacao": "Pronta para Pauta",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2450533",
@@ -2615,7 +2641,7 @@
    "ano": 2023,
    "ementa": "Dispõe sobre sanções políticas e econômicas relacionadas ao Hamas e ao Hezbollah, os classifica como grupos terroristas, e criminaliza manifestações de apoio a esses grupos.",
    "apresentacao": "2023-10-09",
-   "situacao": "Pronta para Pauta",
+   "situacao": "Aguardando Deliberação",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2394641",
@@ -3499,7 +3525,7 @@
    "ano": 2023,
    "ementa": "Estabelece a isenção de taxa de renovação e demais exames necessários à renovação da Carteira Nacional de Habilitação aos profissionais condutores de veículos de urgência públicos.",
    "apresentacao": "2023-03-07",
-   "situacao": "Aguardando Encaminhamento",
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2350381",

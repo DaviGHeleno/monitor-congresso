@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 1,
   "aprovado": 5,
-  "tramitacao": 53,
+  "tramitacao": 54,
   "encerrado": 4,
-  "sem_informacao": 1
+  "sem_informacao": 0
  },
  "projetos": [
   {
@@ -15,7 +15,7 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 11.340, de 7 de agosto de 2006 – Lei Maria da Penha, a fim de estabelecer garantias mínimas para a execução da monitoração eletrônica como medida protetiva de urgência, inclusive quanto à emissão de alertas sonoros e luminosos, à utilização excepcional de mecanismo de contenção física remota e à proteção da vítima.",
    "apresentacao": "2026-10-13",
-   "situacao": "Pronta para Pauta",
+   "situacao": "Aguardando Deliberação",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2647427",
@@ -28,9 +28,9 @@
    "ano": 2026,
    "ementa": "Denomina “Agência Huberto Cabral”, a agência do INSS no município de Crato, Estado do Ceará.",
    "apresentacao": "2026-09-02",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2645634",
    "primeiro_autor": true
   },
