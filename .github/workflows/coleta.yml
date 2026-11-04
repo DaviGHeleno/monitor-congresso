@@ -1,0 +1,71 @@
+name: Coletar votações
+
+# De hora em hora: votações novas do Plenário (API da Câmara).
+# Uma vez por dia: reconciliação com o arquivo anual, para completar o que a API não trouxe.
+# Só publica o site quando algum dado mudou.
+on:
+  schedule:
+    - cron: "23 * * * *"   # toda hora, aos 23 minutos
+    - cron: "43 7 * * *"   # 04:43 em Brasília: reconciliação diária
+  workflow_dispatch:
+    inputs:
+      modo:
+        description: "O que rodar"
+        type: choice
+        options: [incremental, reconciliar]
+        default: incremental
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: dados
+  cancel-in-progress: false
+
+jobs:
+  coletar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    outputs:
+      mudou: ${{ steps.salvar.outputs.mudou }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependências
+        run: pip install -r requirements.txt
+
+      - name: Coletar
+        env:
+          MODO: ${{ github.event.schedule == '43 7 * * *' && 'reconciliar' || inputs.modo || 'incremental' }}
+        run: python -m coletor.coletar --$MODO
+
+      - name: Salvar dados no repositório
+        id: salvar
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dados
+          if git diff --cached --quiet; then
+            echo "Nada novo."
+            echo "mudou=false" >> "$GITHUB_OUTPUT"
+          else
+            NOVAS=$(git diff --cached --name-only --diff-filter=A -- 'dados/votacoes/*-*.json' | wc -l)
+            git commit -m "dados: votações ($NOVAS novas)"
+            git pull --rebase
+            git push
+            echo "mudou=true" >> "$GITHUB_OUTPUT"
+            echo "### $NOVAS votações novas" >> "$GITHUB_STEP_SUMMARY"
+            git diff --name-only --diff-filter=A HEAD~1 HEAD -- 'dados/votacoes/*-*.json' | head -30 >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+  publicar:
+    needs: coletar
+    if: needs.coletar.outputs.mudou == 'true'
+    uses: ./.github/workflows/publicar.yml

@@ -116,3 +116,8 @@ export function todosDeputados(): Deputado[] {
   }
   return [...mapa.values()].sort((a, b) => a.nome.localeCompare(b.nome, "pt-BR"));
 }
+
+/** Controle da coleta: data da última consulta à Câmara e da votação mais recente. */
+export function estadoColeta(): { ultima_data?: string | null; ultima_consulta?: string | null } {
+  return ler("estado-coleta.json", {});
+}

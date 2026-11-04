@@ -127,7 +127,7 @@ def carga_inicial(cliente: Cliente, armazem: Armazem, desde: str) -> None:
             if recente:
                 mais_recente = max(mais_recente or "", recente)
             log.info("[%s] %s votações gravadas, %s pendentes", ano, gravadas, len(pend))
-            armazem.gravar_estado({"ultima_data": mais_recente, "pendentes": sorted(pendentes)})
+            armazem.gravar_estado({**armazem.estado(), "ultima_data": mais_recente, "pendentes": sorted(pendentes)})
             armazem.reconstruir_indice()
 
 
@@ -137,44 +137,69 @@ def reconciliar(cliente: Cliente, armazem: Armazem) -> None:
         ano = hoje().year
         _, pend, recente = processar_ano_arquivo(cliente, armazem, ano, f"{ano}-01-01", Path(tmp))
     ultima = max(estado.get("ultima_data") or "", recente or "") or None
-    armazem.gravar_estado({"ultima_data": ultima, "pendentes": ainda_pendentes(armazem, set(estado.get("pendentes", [])) | pend)})
+    armazem.gravar_estado({**estado, "ultima_data": ultima, "pendentes": ainda_pendentes(armazem, set(estado.get("pendentes", [])) | pend)})
     armazem.reconstruir_indice()
 
 
+JANELA_PENDENTES_DIAS = 10
+
+
 def incremental(cliente: Cliente, armazem: Armazem) -> None:
+    """Roda de hora em hora: votações novas do Plenário desde a última consulta.
+
+    - Janela: da última consulta (menos 2 dias de folga) até hoje.
+    - Votações simbólicas (sem placar) ficam memorizadas por alguns dias para não serem consultadas a cada hora.
+    - Pendentes recentes (votos ou orientações publicados com atraso) são revisitadas; as antigas ficam
+      para a reconciliação diária com o arquivo anual.
+    """
     estado = armazem.estado()
     fim = hoje()
-    inicio = date.fromisoformat(estado["ultima_data"]) - timedelta(days=1) if estado.get("ultima_data") else fim - timedelta(days=3)
+    base_data = estado.get("ultima_consulta") or estado.get("ultima_data")
+    inicio = date.fromisoformat(base_data) - timedelta(days=2) if base_data else fim - timedelta(days=3)
+    inicio = max(inicio, fim - timedelta(days=60))  # a API recusa intervalos muito longos
     log.info("buscando votações de %s a %s", inicio, fim)
 
-    lista = cliente.paginar(
-        "/votacoes",
-        {"dataInicio": inicio.isoformat(), "dataFim": fim.isoformat(), "idOrgao": ID_PLENARIO,
-         "ordem": "ASC", "ordenarPor": "dataHoraRegistro"},
-    )
+    lista = []
+    for ano in range(inicio.year, fim.year + 1):  # uma consulta por ano: a API pode recusar períodos que cruzam anos
+        de, ate = max(inicio, date(ano, 1, 1)), min(fim, date(ano, 12, 31))
+        lista += cliente.paginar(
+            "/votacoes",
+            {"dataInicio": de.isoformat(), "dataFim": ate.isoformat(), "idOrgao": ID_PLENARIO,
+             "ordem": "ASC", "ordenarPor": "dataHoraRegistro"},
+        )
     lista = [v for v in lista if v.get("siglaOrgao") in (None, "PLEN")]
     pendentes = set(estado.get("pendentes", []))
+    nao_nominais = {vid: d for vid, d in (estado.get("nao_nominais") or {}).items() if d >= inicio.isoformat()}
     ultima = estado.get("ultima_data")
     novas = 0
     for base in lista:
         vid = str(base["id"])
+        if vid in nao_nominais:
+            continue
         existente = armazem.votacao(vid)
         if existente and not precisa_revisitar(existente):
             continue
         nominal, pendente = processar_votacao_api(cliente, armazem, base)
         if not nominal:
+            nao_nominais[vid] = base.get("data") or fim.isoformat()
             continue
         novas += existente is None
         (pendentes.add if pendente else pendentes.discard)(vid)
         ultima = max(ultima or "", base.get("data") or "")
 
-    # Revisita pendentes antigas (votos ou orientações publicados depois).
-    for vid in sorted(pendentes - {str(v["id"]) for v in lista}):
+    # Revisita pendentes recentes que não vieram na lista desta hora.
+    limite = (fim - timedelta(days=JANELA_PENDENTES_DIAS)).isoformat()
+    vistas = {str(v["id"]) for v in lista}
+    for vid in sorted(pendentes - vistas):
+        salva = armazem.votacao(vid)
+        if not salva or (salva.get("data") or "") < limite:
+            continue
         nominal, pendente = processar_votacao_api(cliente, armazem, {"id": vid})
         if nominal and not pendente:
             pendentes.discard(vid)
 
-    armazem.gravar_estado({"ultima_data": ultima, "pendentes": sorted(pendentes)})
+    armazem.gravar_estado({**estado, "ultima_data": ultima, "ultima_consulta": fim.isoformat(),
+                           "pendentes": sorted(pendentes), "nao_nominais": dict(sorted(nao_nominais.items()))})
     armazem.reconstruir_indice()
     log.info("%s votações novas; %s pendentes", novas, len(pendentes))
 

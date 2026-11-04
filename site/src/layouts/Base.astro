@@ -1,6 +1,7 @@
 ---
 import "../styles/global.css";
-import { url } from "../lib/formato";
+import { data, url } from "../lib/formato";
+import { estadoColeta } from "../lib/dados";
 
 interface Props {
   titulo: string;
@@ -8,6 +9,8 @@ interface Props {
   secao?: "inicio" | "votacoes" | "deputados";
 }
 const { titulo, descricao = "Votações da Câmara dos Deputados: placar por partido e voto de cada deputado.", secao } = Astro.props;
+const estado = estadoColeta();
+const geradoEm = new Date().toLocaleString("pt-BR", { timeZone: "America/Sao_Paulo", dateStyle: "short", timeStyle: "short" });
 const atual = (s: string) => (s === secao ? "page" : undefined);
 const tituloCompleto = titulo === "Monitor do Congresso" ? titulo : `${titulo} · Monitor do Congresso`;
 ---
@@ -41,6 +44,7 @@ const tituloCompleto = titulo === "Monitor do Congresso" ? titulo : `${titulo} �
       <div class="conteiner">
         Dados oficiais de <a href="https://dadosabertos.camara.leg.br" rel="noopener">Dados Abertos da Câmara dos Deputados</a>.
         Somente fatos publicados pela Câmara, sem classificação ideológica.
+        <br />Site atualizado em {geradoEm}{estado.ultima_data && ` · votação mais recente: ${data(estado.ultima_data)}`}.
       </div>
     </footer>
   </body>

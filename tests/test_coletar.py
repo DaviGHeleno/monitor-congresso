@@ -229,3 +229,54 @@ def test_sem_lista_usa_situacao_do_perfil(tmp_path):
     armazem.gravar_deputados({7: {"id": 7, "nome": "Ana", "em_exercicio": True}})
     coletar.atualizar_deputados(Falsa(), armazem)
     assert armazem.deputados()[7]["em_exercicio"] is False
+
+
+def test_incremental_memoriza_simbolicas_e_nao_repete(tmp_path):
+    data = carregar("api-votacao-2025-04.json")["data"]
+
+    class Falsa(CamaraFalsa):
+        def paginar(self, caminho, params=None):
+            self.chamadas.append(caminho)
+            return [{"id": ID_API, "data": data, "siglaOrgao": "PLEN"},
+                    {"id": "5-5", "data": data, "siglaOrgao": "PLEN"}]
+
+        def dados(self, caminho, params=None):
+            if caminho.startswith("/votacoes/5-5"):
+                self.chamadas.append(caminho)
+                return {"id": "5-5", "data": data, "descricao": "Aprovada a Redação Final."} if caminho == "/votacoes/5-5" else []
+            return super().dados(caminho, params)
+
+    armazem = Armazem(tmp_path)
+    camara = Falsa()
+    coletar.incremental(camara, armazem)
+    assert armazem.votacao("5-5") is None
+    estado = armazem.estado()
+    assert "5-5" in estado["nao_nominais"] and estado["ultima_consulta"] == "2025-04-10"
+
+    segunda = Falsa()
+    coletar.incremental(segunda, armazem)
+    assert not any(c.startswith("/votacoes/5-5") for c in segunda.chamadas)
+    assert f"/votacoes/{ID_API}" not in segunda.chamadas  # completa: não busca de novo
+
+
+def test_reconciliar_preserva_estado_do_incremental(tmp_path):
+    armazem = Armazem(tmp_path)
+    armazem.gravar_estado({"ultima_data": "2025-04-01", "ultima_consulta": "2025-04-10", "pendentes": [], "nao_nominais": {"1-1": "2025-04-09"}})
+    coletar.reconciliar(CamaraFalsa(), armazem)
+    e = armazem.estado()
+    assert e["ultima_consulta"] == "2025-04-10" and e["nao_nominais"] == {"1-1": "2025-04-09"}
+
+
+def test_incremental_divide_consulta_na_virada_do_ano(tmp_path, monkeypatch):
+    monkeypatch.setattr(coletar, "hoje", lambda: date(2027, 1, 2))
+    periodos = []
+
+    class Falsa(CamaraFalsa):
+        def paginar(self, caminho, params=None):
+            periodos.append((params["dataInicio"], params["dataFim"]))
+            return []
+
+    armazem = Armazem(tmp_path)
+    armazem.gravar_estado({"ultima_data": "2026-12-20", "ultima_consulta": "2026-12-30", "pendentes": []})
+    coletar.incremental(Falsa(), armazem)
+    assert periodos == [("2026-12-28", "2026-12-31"), ("2027-01-01", "2027-01-02")]
