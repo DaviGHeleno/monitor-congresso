@@ -121,3 +121,38 @@ export function todosDeputados(): Deputado[] {
 export function estadoColeta(): { ultima_data?: string | null; ultima_consulta?: string | null } {
   return ler("estado-coleta.json", {});
 }
+
+export type Mosaico = {
+  colunas: number; linhas: number; colunas_celular: number; linhas_celular: number;
+  largura: number; altura: number; ids: number[];
+} | null;
+
+/** Grade de fotos gerada pelo coletor (coletor/mosaico.py). Null se ainda não existir. */
+export function mosaico(): Mosaico {
+  const m = ler<Mosaico>("mosaico.json", null);
+  const temImagens = fs.existsSync(caminhoMosaico()) && fs.existsSync(caminhoMosaico(true));
+  return m && m.colunas_celular && temImagens ? m : null;
+}
+
+export function caminhoMosaico(celular = false): string {
+  return path.join(RAIZ, celular ? "mosaico-celular.jpg" : "mosaico.jpg");
+}
+
+/** Projetos apresentados por deputados desde 2023, sem repetir coautorias, contados por situação. */
+export function resumoProjetos(): { total: number; lei: number; aprovado: number; tramitacao: number; encerrado: number; sem_informacao: number } {
+  const pasta = path.join(RAIZ, "deputados");
+  const vistos = new Map<number, Projeto>();
+  if (fs.existsSync(pasta)) {
+    for (const nome of fs.readdirSync(pasta)) {
+      if (!nome.endsWith(".json")) continue;
+      const { projetos = [] } = JSON.parse(fs.readFileSync(path.join(pasta, nome), "utf-8")) as { projetos?: Projeto[] };
+      for (const p of projetos) vistos.set(p.id, p);
+    }
+  }
+  const r = { total: vistos.size, lei: 0, aprovado: 0, tramitacao: 0, encerrado: 0, sem_informacao: 0 };
+  for (const p of vistos.values()) {
+    const cat = p.situacao ? (p.categoria ?? "tramitacao") : "sem_informacao";
+    r[cat as keyof typeof r]++;
+  }
+  return r;
+}

@@ -1,0 +1,32 @@
+---
+// Desenhos do Congresso Nacional (Oscar Niemeyer), em traço chapado.
+// "camara": a cúpula voltada para cima, sobre o plenário da Câmara.
+// "senado": a cúpula voltada para baixo, sobre o plenário do Senado.
+// "congresso": o conjunto, com as duas torres no centro.
+interface Props { tipo: "camara" | "senado" | "congresso"; rotulo: string; classe?: string }
+const { tipo, rotulo, classe } = Astro.props;
+---
+{tipo === "camara" && (
+  <svg class={classe} viewBox="0 0 400 200" role="img" aria-label={rotulo}>
+    <rect x="0" y="150" width="400" height="14" fill="currentColor" />
+    <path d="M40 40 Q200 210 360 40 L330 40 Q200 170 70 40 Z" fill="currentColor" />
+    <rect x="186" y="120" width="28" height="30" fill="currentColor" />
+  </svg>
+)}
+{tipo === "senado" && (
+  <svg class={classe} viewBox="0 0 400 200" role="img" aria-label={rotulo}>
+    <rect x="0" y="150" width="400" height="14" fill="currentColor" />
+    <path d="M100 150 Q200 40 300 150 Z" fill="currentColor" />
+  </svg>
+)}
+{tipo === "congresso" && (
+  <svg class={classe} viewBox="0 0 200 200" role="img" aria-label={rotulo}>
+    <rect x="0" y="150" width="200" height="8" fill="currentColor" />
+    <path d="M8 104 Q48 168 88 104 L80 104 Q48 152 16 104 Z" fill="currentColor" />
+    <rect x="44" y="132" width="8" height="18" fill="currentColor" />
+    <rect x="88" y="20" width="10" height="130" fill="currentColor" />
+    <rect x="102" y="20" width="10" height="130" fill="currentColor" />
+    <rect x="88" y="78" width="24" height="5" fill="currentColor" />
+    <path d="M122 150 Q156 104 190 150 Z" fill="currentColor" />
+  </svg>
+)}

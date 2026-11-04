@@ -1,42 +1,433 @@
 ---
-// Página inicial provisória. A versão final (explicações sobre política, Câmara e Senado, efeitos visuais) é a Fase 4.
-import Base from "../layouts/Base.astro";
-import Barra from "../components/Barra.astro";
-import { indice, todosDeputados } from "../lib/dados";
-import { RESULTADO, TIPO, data, descricaoCurta, proposicao, url } from "../lib/formato";
+// Página inicial. Direção visual: "relatório impresso" (fundo carvão, blocos de cor chapada, eixo a 42% da largura).
+// Tem layout e estilos próprios (src/styles/inicio.css); as demais páginas usam o layout Base.
+import "../styles/inicio.css";
+import Desenho from "../components/Desenho.astro";
+import { deputados, estadoColeta, indice, mosaico, resumoProjetos, votacao } from "../lib/dados";
+import { RESULTADO, data, descricaoCurta, hora, proposicao, total, url } from "../lib/formato";
 
 const itens = indice();
-const recentes = itens.filter((i) => i.tipo === "merito").slice(0, 6);
-const emExercicio = todosDeputados().filter((d) => d.em_exercicio).length;
+const estado = estadoColeta();
+const geradoEm = new Date().toLocaleString("pt-BR", { timeZone: "America/Sao_Paulo", dateStyle: "short", timeStyle: "short" });
+const n = (x: number) => x.toLocaleString("pt-BR");
+
+// ---------------------------------------------------------------- mosaico
+const m = mosaico();
+const cadastro = deputados();
+const exercendo = [...cadastro.values()].filter((d) => d.em_exercicio);
+const ordemIds = m
+  ? m.ids
+  : (() => {
+      const tamanho = new Map<string, number>();
+      for (const d of exercendo) tamanho.set(d.partido ?? "", (tamanho.get(d.partido ?? "") ?? 0) + 1);
+      return exercendo
+        .sort((a, b) => (tamanho.get(b.partido ?? "")! - tamanho.get(a.partido ?? "")!) || (a.partido ?? "").localeCompare(b.partido ?? "") || a.nome.localeCompare(b.nome, "pt-BR"))
+        .map((d) => d.id);
+    })();
+const assentos = ordemIds.map((id) => {
+  const d = cadastro.get(id);
+  return { id, nome: d?.nome ?? `Deputado ${id}`, rotulo: [d?.partido, d?.uf].filter(Boolean).join("-") };
+});
+
+// Votações que o mosaico pode mostrar: as 6 mais recentes de mérito com votos individuais.
+const CODIGO: Record<string, string> = { Sim: "S", Não: "N", Abstenção: "A", Obstrução: "O", "Artigo 17": "P" };
+const opcoes = itens.filter((i) => i.tipo === "merito" && i.votos_disponiveis && !i.secreta).slice(0, 6).map((i) => {
+  const votos = new Map(votacao(i.id).votos.map(([id, , , voto]) => [id, CODIGO[voto] ?? "A"]));
+  const codigos = assentos.map((a) => votos.get(a.id) ?? "-").join("");
+  return {
+    id: i.id,
+    rotulo: `${data(i.data)} · ${proposicao(i.proposicao) || "Votação"} · ${RESULTADO[i.resultado]}`,
+    titulo: descricaoCurta(i.descricao),
+    href: url(`/votacao/${i.id}/`),
+    codigos,
+  };
+});
+const inicial = opcoes[0];
+const contar = (codigos: string) => {
+  const c: Record<string, number> = { S: 0, N: 0, A: 0, O: 0, P: 0, "-": 0 };
+  for (const ch of codigos) c[ch]++;
+  return c;
+};
+const contagemInicial = inicial ? contar(inicial.codigos) : null;
+
+// ---------------------------------------------------------------- fragmento: placar por partido da votação mais recente
+const porPartido = (() => {
+  if (!inicial) return [];
+  const t = new Map<string, Record<string, number>>();
+  for (const [, partido, , voto] of votacao(inicial.id).votos) {
+    const p = partido ?? "Sem partido";
+    const r = t.get(p) ?? {};
+    r[voto] = (r[voto] ?? 0) + 1;
+    t.set(p, r);
+  }
+  return [...t.entries()].sort((a, b) => total(b[1]) - total(a[1])).slice(0, 8);
+})();
+const maiorBancada = Math.max(1, ...porPartido.map(([, t]) => total(t)));
+// Fragmento: os primeiros nomes, em ordem alfabética, da tabela de votos dessa votação.
+const amostraVotos = inicial
+  ? votacao(inicial.id).votos
+      .map(([id, partido, uf, voto]) => ({ id, nome: cadastro.get(id)?.nome ?? `Deputado ${id}`, sigla: [partido, uf].filter(Boolean).join("-"), voto }))
+      .sort((a, b) => a.nome.localeCompare(b.nome, "pt-BR"))
+      .slice(0, 5)
+  : [];
+
+// ---------------------------------------------------------------- projetos
+const proj = resumoProjetos();
+const segmentos = [
+  { chave: "tramitacao", qtd: proj.tramitacao, rotulo: "em tramitação", texto: "Ainda em análise nas comissões ou no Plenário." },
+  { chave: "encerrado", qtd: proj.encerrado, rotulo: "arquivados ou rejeitados", texto: "Arquivados, rejeitados, retirados pelo autor ou vetados." },
+  { chave: "aprovado", qtd: proj.aprovado, rotulo: "aprovados na Câmara", texto: "Passaram pela Câmara e aguardam o Senado ou a sanção." },
+  { chave: "lei", qtd: proj.lei, rotulo: "viraram lei", texto: "Sancionados ou promulgados e publicados." },
+];
+
+// ---------------------------------------------------------------- últimas votações, por dia
+const dias: { data: string; itens: typeof itens }[] = [];
+for (const i of itens) {
+  const ultimo = dias.at(-1);
+  if (ultimo && ultimo.data === i.data) ultimo.itens.push(i);
+  else if (dias.length < 5) dias.push({ data: i.data, itens: [i] });
+  else break;
+}
+const DIAS_SEMANA = ["domingo", "segunda", "terça", "quarta", "quinta", "sexta", "sábado"];
+const diaSemana = (iso: string) => DIAS_SEMANA[new Date(`${iso}T12:00:00`).getDay()];
+const pct = (t: Record<string, number>, v: string) => ((t[v] ?? 0) / Math.max(1, total(t))) * 100;
 ---
-<Base titulo="Monitor do Congresso" secao="inicio">
-  <h1>Monitor do Congresso</h1>
-  <p class="subtitulo">Como votou a Câmara dos Deputados: placar por partido e o voto de cada deputado, com dados oficiais.</p>
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Monitor do Congresso: como vota a Câmara dos Deputados</title>
+  <meta name="description" content="Votação por votação: o placar de cada partido e o voto de cada um dos 513 deputados, com dados oficiais da Câmara. E como funciona o Congresso brasileiro." />
+  <link rel="icon" href={url("/favicon.svg")} type="image/svg+xml" />
+  <link rel="preload" href={url("/fonts/switzer-latin-600-normal.woff2")} as="font" type="font/woff2" crossorigin />
+</head>
+<body class="inicio">
 
-  <div class="numeros">
-    <div class="numero"><b>{itens.length.toLocaleString("pt-BR")}</b><span>votações nominais desde 2023</span></div>
-    <div class="numero"><b>{emExercicio || 513}</b><span>deputados em exercício</span></div>
-    <div class="numero"><b>{data(itens[0]?.data)}</b><span>votação mais recente</span></div>
+<header class="topo">
+  <a class="marca" href={url("/")}>Monitor do Congresso</a>
+  <nav class="topo-links" aria-label="Principal">
+    <a href={url("/votacoes/")}>Votações</a>
+    <a href={url("/deputados/")}>Deputados</a>
+    <a href="#como-funciona" class="so-desktop">Como funciona</a>
+  </nav>
+  <a class="botao topo-acao" href={url("/votacoes/")}>Ver votações</a>
+</header>
+
+<main>
+  <!-- ============================================================ abertura -->
+  <section class="abertura" aria-labelledby="titulo">
+    <figure class="mosaico">
+      <div class={`mosaico-quadro${m ? " com-fotos" : ""}`}
+           style={m ? `--cols:${m.colunas};--linhas:${m.linhas};--cols-cel:${m.colunas_celular};--linhas-cel:${m.linhas_celular}` : undefined}>
+        {m && (
+          <picture>
+            <source media="(max-width: 760px)" srcset={url("/mosaico-celular.jpg")}
+                    width={m.colunas_celular * m.largura} height={m.linhas_celular * m.altura} />
+            <img src={url("/mosaico.jpg")} width={m.colunas * m.largura} height={m.linhas * m.altura}
+                 alt={`Fotos oficiais dos ${assentos.length} deputados em exercício, agrupados por partido`} fetchpriority="high" />
+          </picture>
+        )}
+        <div class="assentos" id="assentos">
+          {assentos.map((a, i) => (
+            <a class={`assento v-${inicial?.codigos[i] ?? "-"}`} href={url(`/deputado/${a.id}/`)} tabindex="-1"
+               title={`${a.nome} (${a.rotulo})`} style={`--i:${i}`}></a>
+          ))}
+        </div>
+      </div>
+      {inicial && contagemInicial && (
+        <figcaption class="mosaico-legenda">
+          <label class="mosaico-escolha">
+            <span>Cada quadrado é um dos {assentos.length} deputados em exercício, agrupados por partido. A cor mostra o voto em</span>
+            <select id="m-votacao">
+              {opcoes.map((o, k) => <option value={k}>{o.rotulo}</option>)}
+            </select>
+          </label>
+          <p class="mosaico-placar" id="m-placar" aria-live="polite">
+            <span class="chip v-S">Sim <b data-c="S">{contagemInicial.S}</b></span>
+            <span class="chip v-N">Não <b data-c="N">{contagemInicial.N}</b></span>
+            <span class="chip v-A">Abstenção <b data-c="A">{contagemInicial.A}</b></span>
+            <span class="chip v-O">Obstrução <b data-c="O">{contagemInicial.O}</b></span>
+            {contagemInicial.P > 0 && <span class="chip v-P">Presidente, Art. 17 <b data-c="P">{contagemInicial.P}</b></span>}
+            <span class="chip v--">Não votou <b data-c="-">{contagemInicial["-"]}</b></span>
+            <a id="m-link" href={inicial.href}>{inicial.titulo}</a>
+          </p>
+        </figcaption>
+      )}
+    </figure>
+
+    <div class="eixo abertura-texto">
+      <p class="lateral abertura-apoio">
+        Votação por votação: o placar de cada partido e o voto de cada um dos 513 deputados, com dados oficiais da Câmara.
+      </p>
+      <div class="principal">
+        <h1 id="titulo" class="titulo-mascara"><span><span>Como vota</span></span> <span><span>a Câmara</span></span></h1>
+        <p class="abertura-acoes">
+          <a class="botao" href={url("/votacoes/")}>Ver votações</a>
+          <a class="link-forte" href={url("/deputados/")}>Buscar deputado</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ como o site funciona -->
+  <section class="secao como" id="como-funciona" aria-labelledby="t-como">
+    <div class="eixo" data-entra>
+      <div class="lateral como-figura">
+        {porPartido.length > 0 && (
+          <figure class="fragmento" data-ui>
+            <figcaption>{inicial!.rotulo}: votos por partido</figcaption>
+            {porPartido.map(([p, t]) => (
+              <div class="frag-linha">
+                <span class="frag-nome">{p}</span>
+                <span class="frag-barra" style={`width:${(total(t) / maiorBancada) * 100}%`}>
+                  <i class="v-S" style={`width:${pct(t, "Sim")}%`} /><i class="v-N" style={`width:${pct(t, "Não")}%`} /><i class="v-A" style={`width:${100 - pct(t, "Sim") - pct(t, "Não")}%`} />
+                </span>
+              </div>
+            ))}
+          </figure>
+        )}
+        {amostraVotos.length > 0 && (
+          <figure class="fragmento" data-ui>
+            <figcaption>Voto de cada deputado, em ordem alfabética</figcaption>
+            {amostraVotos.map((v) => (
+              <a class="frag-voto" href={url(`/deputado/${v.id}/`)}>
+                <span class="frag-nome">{v.nome}</span><span class="frag-sigla">{v.sigla}</span>
+                <span class={`frag-chip v-${CODIGO[v.voto] ?? "A"}`}>{v.voto}</span>
+              </a>
+            ))}
+          </figure>
+        )}
+        <p class="nota">
+          Atualizado a cada hora.<br />
+          {estado.ultima_data && <>Votação mais recente: {data(estado.ultima_data)}.<br /></>}
+          {n(itens.length)} votações nominais desde fevereiro de 2023.
+        </p>
+      </div>
+      <div class="principal">
+        <h2 id="t-como" class="titulo-secao">Como o site funciona</h2>
+        <p class="enunciado">
+          Tudo vem do portal de Dados Abertos da Câmara dos Deputados. O site não cria nem edita informação: organiza o que a Câmara publica e procura votações novas a cada hora.
+        </p>
+        <div class="colunas">
+          <p><strong>Votações.</strong> Para cada votação nominal do Plenário: o que estava em jogo, o resultado, como cada partido votou, a orientação das lideranças e o voto de cada deputado.</p>
+          <p><strong>Deputados.</strong> Para cada um: os dados declarados à Câmara, o histórico de votos e os projetos apresentados, com a situação de cada projeto.</p>
+          <p><strong>Só fatos.</strong> Ninguém é classificado como de esquerda, centro ou direita, e não há notas. Cada informação leva à fonte oficial.</p>
+          <p><strong>Conferência diária.</strong> Uma vez por dia o site confere tudo com os arquivos completos da Câmara e atualiza perfis e projetos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ política no Brasil -->
+  <section class="secao politica campo campo-azul" aria-labelledby="t-politica">
+    <div class="eixo" data-entra>
+      <dl class="lateral poderes">
+        <div><dt>Executivo</dt><dd>Governa e executa as leis e o orçamento. Presidente da República e ministros.</dd></div>
+        <div><dt>Legislativo</dt><dd>Faz as leis e fiscaliza o Executivo. Congresso Nacional: Câmara e Senado.</dd></div>
+        <div><dt>Judiciário</dt><dd>Julga conflitos e garante a Constituição. Supremo Tribunal Federal e demais tribunais.</dd></div>
+      </dl>
+      <div class="principal">
+        <h2 id="t-politica" class="titulo-secao">Como funciona a política no Brasil</h2>
+        <p class="enunciado capitular">
+          <Desenho tipo="congresso" rotulo="Desenho do Congresso Nacional, com as duas torres e as duas cúpulas" classe="capitular-desenho" />
+          O Brasil é uma república federativa: o poder se divide entre a União, os 26 estados e o Distrito Federal e os municípios. Em cada nível, ele é separado em três Poderes independentes entre si.
+        </p>
+        <p class="enunciado suave">
+          No nível federal, o Legislativo é o Congresso Nacional, com duas casas: a Câmara dos Deputados e o Senado Federal. Quase toda lei federal passa pelas duas: uma começa a análise, a outra revisa.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ caminho da lei -->
+  <section class="secao caminho" aria-labelledby="t-caminho">
+    <h2 id="t-caminho" class="titulo-grande">Do projeto à lei</h2>
+    <p class="caminho-frase">Dos {n(proj.total)} projetos apresentados por deputados desde 2023, {n(proj.lei)} viraram lei.</p>
+    <div class="barra-etapas" data-ui role="img"
+         aria-label={segmentos.map((s) => `${n(s.qtd)} ${s.rotulo}`).join(", ")}>
+      {segmentos.map((s) => (
+        <div class={`etapa etapa-${s.chave}`} style={`flex-grow:${Math.max(s.qtd, proj.total * 0.12)}`}>
+          <b>{n(s.qtd)}</b><span class="etapa-rotulo">{s.rotulo}</span><span class="etapa-texto">{s.texto}</span>
+        </div>
+      ))}
+    </div>
+    {proj.sem_informacao > 0 && <p class="nota">Outros {n(proj.sem_informacao)} projetos estão sem situação informada pela Câmara.</p>}
+
+    <div class="eixo caminho-passos" data-entra>
+      <aside class="lateral nota-tipos">
+        <p><strong>Emenda à Constituição (PEC):</strong> 3/5 dos votos em dois turnos em cada casa, 308 deputados e 49 senadores. Não passa por sanção.</p>
+        <p><strong>Lei complementar (PLP):</strong> maioria absoluta, 257 deputados.</p>
+        <p><strong>Medida provisória (MPV):</strong> editada pelo presidente, vale na hora e precisa ser aprovada pelo Congresso em até 120 dias.</p>
+      </aside>
+      <div class="principal">
+        <h3 class="subtitulo">O caminho de um projeto de lei apresentado na Câmara</h3>
+        <ol class="passos">
+          <li><strong>Apresentação.</strong> Podem propor: deputados, senadores, comissões, o presidente da República, o STF, tribunais superiores, o procurador-geral da República e os cidadãos, com assinaturas de 1% do eleitorado.</li>
+          <li><strong>Comissões.</strong> Comissões temáticas analisam o projeto; um relator pode mudar o texto. A Comissão de Constituição e Justiça verifica se ele respeita a Constituição. Muitos projetos são decididos só nas comissões.</li>
+          <li><strong>Plenário.</strong> A votação só vale com pelo menos 257 deputados presentes. Para aprovar, basta a maioria dos votos.</li>
+          <li><strong>Senado.</strong> Aprovado na Câmara, o projeto segue para o Senado, que revisa.</li>
+          <li><strong>Volta, se mudou.</strong> Se o Senado alterar o texto, a Câmara vota só as mudanças e dá a palavra final.</li>
+          <li><strong>Sanção ou veto.</strong> O presidente da República tem 15 dias úteis para sancionar ou vetar, no todo ou em parte.</li>
+          <li><strong>Análise do veto.</strong> Os vetos voltam ao Congresso, em sessão conjunta, que pode mantê-los ou derrubá-los.</li>
+          <li><strong>Publicação.</strong> A lei passa a valer depois de publicada no Diário Oficial da União.</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ Câmara e Senado -->
+  <section class="casas" aria-labelledby="t-casas">
+    <h2 id="t-casas" class="casas-titulo"><span class="casas-t1">Câmara</span><span class="visualmente-oculto"> e </span><span class="casas-t2">Senado</span></h2>
+    <div class="casa casa-camara" data-entra>
+      <h3 class="casa-nome">Câmara dos Deputados</h3>
+      <Desenho tipo="camara" rotulo="A cúpula voltada para cima, sobre o plenário da Câmara" classe="casa-desenho" />
+      <p class="casa-numero"><b>513</b> deputados</p>
+      <dl class="casa-fatos">
+        <div><dt>Representam</dt><dd>a população. Cada estado elege um número proporcional aos habitantes, de 8 a 70.</dd></div>
+        <div><dt>Eleição</dt><dd>proporcional. Os votos de todos os candidatos de um partido ou federação definem quantas cadeiras ele conquista; elas vão para os mais votados dele.</dd></div>
+        <div><dt>Mandato</dt><dd>4 anos, com reeleição. Idade mínima: 21 anos.</dd></div>
+        <div><dt>O que faz</dt><dd>propõe leis e emendas, relata e vota projetos, fiscaliza o governo (convoca ministros, cria CPIs) e vota o orçamento com o Senado.</dd></div>
+        <div><dt>Só a Câmara pode</dt><dd>autorizar, com 342 votos (2/3), a abertura de processo contra o presidente da República.</dd></div>
+      </dl>
+    </div>
+    <div class="casa casa-senado" data-entra>
+      <h3 class="casa-nome">Senado Federal</h3>
+      <Desenho tipo="senado" rotulo="A cúpula voltada para baixo, sobre o plenário do Senado" classe="casa-desenho" />
+      <p class="casa-numero"><b>81</b> senadores</p>
+      <dl class="casa-fatos">
+        <div><dt>Representam</dt><dd>os estados. Três por estado e três pelo Distrito Federal, qualquer que seja a população.</dd></div>
+        <div><dt>Eleição</dt><dd>majoritária: vence o mais votado. Cada senador é eleito com dois suplentes.</dd></div>
+        <div><dt>Mandato</dt><dd>8 anos. A cada 4 anos se renova 1/3 das cadeiras (27) ou 2/3 (54), alternadamente. Idade mínima: 35 anos.</dd></div>
+        <div><dt>O que faz</dt><dd>propõe, revisa e vota leis, vota o orçamento e fiscaliza o governo. Em geral revisa os projetos que vêm da Câmara.</dd></div>
+        <div><dt>Só o Senado pode</dt><dd>julgar o presidente em crimes de responsabilidade; aprovar ministros do STF, o procurador-geral, o presidente e os diretores do Banco Central e embaixadores; autorizar operações financeiras externas e fixar limites da dívida pública.</dd></div>
+      </dl>
+      <p class="casa-aviso">Esta versão acompanha a Câmara. Os dados do Senado chegam numa versão futura.</p>
+    </div>
+  </section>
+
+  <!-- ============================================================ glossário -->
+  <section class="secao glossario" aria-labelledby="t-glossario">
+    <div class="par par-cabeca"><h2 id="t-glossario" class="pergunta suave">Termos que aparecem no site</h2></div>
+    <dl>
+      <div class="par" data-entra><dt class="pergunta">Votação nominal ou simbólica?</dt><dd>Na nominal, cada deputado registra o voto no painel eletrônico; é a que o site mostra. Na simbólica, o presidente da sessão pede que quem concorda permaneça como está e anuncia o resultado, sem registro de voto individual.</dd></div>
+      <div class="par" data-entra><dt class="pergunta">Mérito ou procedimental?</dt><dd>Mérito decide o conteúdo: aprovar ou rejeitar um projeto, uma emenda, um trecho. Procedimental decide o andamento da sessão: urgência, adiamento, retirada de pauta, ordem de votação.</dd></div>
+      <div class="par" data-entra><dt class="pergunta">O que é urgência?</dt><dd>Um pedido para que o projeto pule etapas nas comissões e vá direto ao Plenário.</dd></div>
+      <div class="par" data-entra><dt class="pergunta">E um destaque?</dt><dd>Um pedido para votar separadamente um trecho do texto, que pode ser mantido, retirado ou alterado.</dd></div>
+      <div class="par" data-entra><dt class="pergunta">O que é orientação?</dt><dd>A recomendação do líder sobre como a bancada deve votar. Governo, maioria, minoria e oposição também orientam. Cada deputado registra o próprio voto.</dd></div>
+      <div class="par" data-entra><dt class="pergunta">O que é obstrução?</dt><dd>Uma forma de protesto: o deputado marca presença sem votar, para dificultar que a votação alcance o número mínimo de participantes.</dd></div>
+      <div class="par" data-entra><dt class="pergunta">Por que aparece "Artigo 17"?</dt><dd>É o registro do presidente da Câmara, que pelo Regimento Interno só vota em casos específicos, como desempate ou votação secreta.</dd></div>
+    </dl>
+  </section>
+
+  <!-- ============================================================ últimas votações -->
+  <section class="secao ultimas" aria-labelledby="t-ultimas">
+    <div class="ultimas-cabeca">
+      <h2 id="t-ultimas" class="titulo-secao"><span class="suave">As votações</span><br />mais recentes</h2>
+      <a class="botao" href={url("/votacoes/")}>Ver todas</a>
+    </div>
+    <div class="agenda" data-entra>
+      <div class="dias" role="tablist" aria-label="Dias com votação">
+        {dias.map((d, k) => (
+          <button type="button" role="tab" class="dia" id={`aba-${k}`} aria-controls={`dia-${k}`} aria-selected={k === 0 ? "true" : "false"} tabindex={k === 0 ? 0 : -1}>
+            <b>{diaSemana(d.data)}</b><span>{data(d.data)}</span>
+          </button>
+        ))}
+      </div>
+      <div class="sessoes">
+        {dias.map((d, k) => (
+          <ul class="faixas" id={`dia-${k}`} role="tabpanel" aria-labelledby={`aba-${k}`} data-painel>
+            {d.itens.map((i) => (
+              <li>
+                <a class="faixa" href={url(`/votacao/${i.id}/`)}>
+                  <span class="faixa-hora">{hora(i.data_hora) || "—"}</span>
+                  <span class="faixa-texto">
+                    <span class="faixa-titulo">{descricaoCurta(i.descricao)}</span>
+                    <span class="faixa-nota">{[proposicao(i.proposicao), i.tipo === "merito" ? "Mérito" : "Procedimental"].filter(Boolean).join(" · ")}</span>
+                  </span>
+                  <span class="faixa-resultado">
+                    <span class={`res res-${i.resultado}`}>{RESULTADO[i.resultado]}</span>
+                    <span class="mini" aria-hidden="true"><i class="v-S" style={`width:${pct(i.totais, "Sim")}%`} /><i class="v-N" style={`width:${pct(i.totais, "Não")}%`} /></span>
+                  </span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        ))}
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ============================================================ rodapé -->
+<footer class="rodape-inicio">
+  <div class="rodape-topo">
+    <p><b>Monitor do Congresso.</b> Dados oficiais da Câmara dos Deputados, organizados sem edição e sem classificação ideológica.</p>
+    <p>Atualizado em {geradoEm}.{estado.ultima_data && ` Votação mais recente: ${data(estado.ultima_data)}.`}</p>
+    <p>Os eleitos em outubro de 2026 tomam posse em 1º de fevereiro de 2027. O site acompanha a legislatura 2023–2027.</p>
+    <a class="link-forte" href="#titulo">Voltar ao topo</a>
   </div>
+  <h2 class="rodape-linha"><a href="https://dadosabertos.camara.leg.br" rel="noopener">Dados Abertos<br />da Câmara</a></h2>
+  <div class="rodape-meta">
+    <p><a href={url("/votacoes/")}>Votações</a> · <a href={url("/deputados/")}>Deputados</a></p>
+    <p>Fotos oficiais: Câmara dos Deputados. Fonte tipográfica Switzer: Indian Type Foundry.</p>
+    <p>Legislatura 2023–2027</p>
+  </div>
+</footer>
 
-  <h2>Últimas votações de mérito</h2>
-  <ul class="lista-votacoes">
-    {recentes.map((i) => (
-      <li class="item-votacao">
-        <div class="linha-meta">
-          <time datetime={i.data}>{data(i.data)}</time>
-          <span class={`etiqueta ${i.tipo}`}>{TIPO[i.tipo]}</span>
-          {i.proposicao && <span>{proposicao(i.proposicao)}</span>}
-        </div>
-        <div class="titulo">{descricaoCurta(i.descricao)}</div>
-        {i.proposicao?.ementa && <div class="ementa">{i.proposicao.ementa}</div>}
-        <div class="acao">
-          <span class={`resultado ${i.resultado}`}>{RESULTADO[i.resultado]}</span>
-          <Barra totais={i.totais} />
-          <a class="botao" href={url(`/votacao/${i.id}/`)}>Ver votação</a>
-        </div>
-      </li>
-    ))}
-  </ul>
-  <p style="margin-top:1.25rem"><a class="botao secundario" href={url("/votacoes/")}>Ver todas as votações</a></p>
-</Base>
+<script>
+  // Mosaico: trocar a votação pinta de novo cada rosto.
+  const CODIGOS = ["S", "N", "A", "O", "P", "-"];
+  const opcoesEl = document.getElementById("m-opcoes");
+  const escolha = document.getElementById("m-votacao") as HTMLSelectElement | null;
+  if (escolha && opcoesEl) {
+    const opcoes = JSON.parse(opcoesEl.textContent || "[]") as { codigos: string; href: string; titulo: string }[];
+    const assentos = Array.from(document.querySelectorAll<HTMLElement>("#assentos .assento"));
+    const link = document.getElementById("m-link") as HTMLAnchorElement;
+    const contadores = Object.fromEntries(Array.from(document.querySelectorAll<HTMLElement>("#m-placar [data-c]")).map((b) => [b.dataset.c!, b]));
+    escolha.addEventListener("change", () => {
+      const o = opcoes[Number(escolha.value)];
+      const conta: Record<string, number> = Object.fromEntries(CODIGOS.map((c) => [c, 0]));
+      assentos.forEach((a, i) => {
+        const c = o.codigos[i] ?? "-";
+        conta[c]++;
+        CODIGOS.forEach((x) => a.classList.toggle(`v-${x}`, x === c));
+      });
+      for (const [c, el] of Object.entries(contadores)) el.textContent = String(conta[c] ?? 0);
+      link.href = o.href;
+      link.textContent = o.titulo;
+    });
+  }
+
+  // Abas dos dias de votação.
+  const abas = Array.from(document.querySelectorAll<HTMLButtonElement>(".dias [role=tab]"));
+  const paineis = Array.from(document.querySelectorAll<HTMLElement>("[data-painel]"));
+  const ativar = (k: number, foco = false) => {
+    abas.forEach((a, j) => { a.setAttribute("aria-selected", String(j === k)); a.tabIndex = j === k ? 0 : -1; });
+    paineis.forEach((p, j) => (p.hidden = j !== k));
+    if (foco) abas[k].focus();
+  };
+  abas.forEach((a, k) => {
+    a.addEventListener("click", () => ativar(k));
+    a.addEventListener("keydown", (e) => {
+      const passo = { ArrowRight: 1, ArrowDown: 1, ArrowLeft: -1, ArrowUp: -1 }[e.key];
+      if (passo) { e.preventDefault(); ativar((k + passo + abas.length) % abas.length, true); }
+    });
+  });
+  if (abas.length) ativar(0);
+
+  // Entrada das seções: título, texto e figura sobem em sequência, uma vez.
+  document.documentElement.classList.add("js");
+  const alvos = document.querySelectorAll<HTMLElement>("[data-entra]");
+  if ("IntersectionObserver" in window) {
+    const io = new IntersectionObserver((entradas) => {
+      for (const e of entradas) if (e.isIntersecting) { e.target.classList.add("entrou"); io.unobserve(e.target); }
+    }, { rootMargin: "0px 0px -4% 0px" });
+    alvos.forEach((el) => io.observe(el));
+  } else {
+    alvos.forEach((el) => el.classList.add("entrou"));
+  }
+</script>
+<script type="application/json" id="m-opcoes" set:html={JSON.stringify(opcoes.map(({ codigos, href, titulo }) => ({ codigos, href, titulo })))} />
+</body>
+</html>
