@@ -2,10 +2,10 @@
  "id": 204536,
  "resumo": {
   "lei": 3,
-  "aprovado": 3,
-  "tramitacao": 288,
+  "aprovado": 4,
+  "tramitacao": 286,
   "encerrado": 22,
-  "sem_informacao": 30
+  "sem_informacao": 31
  },
  "projetos": [
   {
@@ -80,7 +80,7 @@
    "ano": 2026,
    "ementa": "Dispõe sobre a obrigatoriedade de participação dos candidatos à eleição majoritária, com representação no congresso nacional, em debates eleitorais transmitidos por emissoras de rádio e televisão e altera a Lei nº 9.504, de 30 de setembro de 1997 (Lei das Eleições).",
    "apresentacao": "2026-08-24",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+   "situacao": "Aguardando Autorização do Despacho",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644358",
@@ -106,7 +106,7 @@
    "ano": 2026,
    "ementa": "Altera o Decreto-Lei n. 2.848, de 7 de dezembro de 1940 (Código Penal), para estabelecer tratamento penal mais gravoso aos crimes de furto e roubo que tenham por objeto equipamento, ferramenta, uniforme, veículo ou utensílio utilizado para o trabalho ou a subsistência da vítima.",
    "apresentacao": "2026-08-14",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+   "situacao": "Aguardando Autorização do Despacho",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643803",
@@ -223,7 +223,7 @@
    "ano": 2026,
    "ementa": "Altera o Decreto-Lei n° 3.689, de 3 de outubro de 1941 (Código de Processo Penal), e as Leis n° 10.826, de 22 de dezembro de 2003, e 11.340, de 7 de agosto de 2006 (Lei Maria da Penha), para instituir, como medida protetiva de urgência, o reconhecimento judicial da situação de risco, a concessão cautelar de autorização provisória e o processamento prioritário dos pedidos de aquisição, registro e porte de arma de fogo de uso permitido formulados por vítimas de violência doméstica e familiar ou de crimes praticados mediante violência ou grave ameaça à pessoa.",
    "apresentacao": "2026-07-30",
-   "situacao": "Aguardando Encaminhamento",
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641736",
@@ -1328,7 +1328,7 @@
    "ano": 2025,
    "ementa": "Altera a  Lei n. 13.105, de 16 de março de 2015 (Código de Processo Civil), Lei n. 8.906, de 4 de julho de 1994 (Estatuto da Advocacia) e a Lei n. 13.327, de 29 de julho de 2016, para estabelecer que os honorários advocatícios de sucumbência nas causas em que a parte parte vencedora for a União, as autarquias e as fundações públicas federais são recursos de natureza pública e pertencem integralmente aos  cofres públicos.",
    "apresentacao": "2025-07-17",
-   "situacao": "Pronta para Pauta",
+   "situacao": "Aguardando Parecer",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2537861",
@@ -1367,9 +1367,9 @@
    "ano": 2025,
    "ementa": "Altera o Decreto-Lei n. 1.804, de 3 de setembro de 1980, para restabelecer a isenção de imposto de importação em compras de até 50 dólares.",
    "apresentacao": "2025-07-04",
-   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2532058",
    "primeiro_autor": true
   },
@@ -2966,9 +2966,9 @@
    "ano": 2023,
    "ementa": "Altera o Decreto-Lei nº 2848, de 07 de dezembro de 1940 – Código Penal, para dispor sobre o uso de drones no espaço aéreo dos presídios.",
    "apresentacao": "2023-12-06",
-   "situacao": "Aguardando Deliberação",
+   "situacao": "Aguardando Envio ao Senado Federal",
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": "aprovado",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2410357",
    "primeiro_autor": true
   },

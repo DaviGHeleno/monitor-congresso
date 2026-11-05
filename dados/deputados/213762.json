@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 1,
-  "tramitacao": 66,
+  "tramitacao": 67,
   "encerrado": 6,
-  "sem_informacao": 13
+  "sem_informacao": 12
  },
  "projetos": [
   {
@@ -301,7 +301,7 @@
    "ano": 2026,
    "ementa": "Dispõe sobre normas gerais de natureza civil e administrativa para a prevenção e repressão da usurpação epistêmica em processos de avaliação por pares, institui o Glossário Científico de Editoração e Avaliação Acadêmica e dá outras providências",
    "apresentacao": "2026-02-26",
-   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao": "Aguardando Parecer",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2605076",
@@ -782,9 +782,9 @@
    "ano": 2025,
    "ementa": "Institui diretrizes para a instalação e adequação progressiva de faixas de travessia de pedestres com sinalização acessível, tátil e pictográfica, voltadas à inclusão e segurança de pessoas com deficiência, no âmbito do Sistema Nacional de Trânsito",
    "apresentacao": "2025-04-09",
-   "situacao": null,
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2496312",
    "primeiro_autor": true
   },

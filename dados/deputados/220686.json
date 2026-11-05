@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 7,
   "aprovado": 7,
-  "tramitacao": 247,
+  "tramitacao": 246,
   "encerrado": 11,
-  "sem_informacao": 15
+  "sem_informacao": 16
  },
  "projetos": [
   {
@@ -470,7 +470,7 @@
    "ano": 2026,
    "ementa": "Altera a redação do art. 31 da Lei nº 9.656, de 3 de junho de 1998.",
    "apresentacao": "2026-02-20",
-   "situacao": "Aguardando Parecer",
+   "situacao": "Pronta para Pauta",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2603481",
@@ -1159,9 +1159,9 @@
    "ano": 2025,
    "ementa": "Institui o Dia Nacional de Conscientização sobre a Síndrome de Alagille, a ser celebrado, anualmente, no dia 24 de janeiro, e dá outras providências.",
    "apresentacao": "2025-04-11",
-   "situacao": "Aguardando Deliberação",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2497370",
    "primeiro_autor": true
   },

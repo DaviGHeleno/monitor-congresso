@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 1,
   "aprovado": 5,
-  "tramitacao": 102,
+  "tramitacao": 101,
   "encerrado": 15,
-  "sem_informacao": 4
+  "sem_informacao": 5
  },
  "projetos": [
   {
@@ -379,9 +379,9 @@
    "ano": 2025,
    "ementa": "Declara o município de Timbó Grande, no estado de Santa Catarina, como a \"Capital Nacional da Guerra do Contestado\".",
    "apresentacao": "2025-07-21",
-   "situacao": "Aguardando Deliberação",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2538358",
    "primeiro_autor": true
   },
@@ -834,7 +834,7 @@
    "ano": 2024,
    "ementa": "Confere ao Município de Treze Tílias, no Estado de Santa Catarina, o título de Cidade mais Austríaca do Brasil.",
    "apresentacao": "2024-05-28",
-   "situacao": "Aguardando Deliberação",
+   "situacao": "Pronta para Pauta",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2436947",
@@ -847,7 +847,7 @@
    "ano": 2024,
    "ementa": "Estabelece a realização de concursos excepcionais especiais de loterias numéricas pela Caixa Econômica Federal, cujos lucros líquidos serão direcionados para os municípios que se encontram em estado de calamidade pública em decorrência de desastres naturais.",
    "apresentacao": "2024-05-27",
-   "situacao": "Aguardando Parecer",
+   "situacao": "Pronta para Pauta",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2436538",

@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 3,
   "aprovado": 3,
-  "tramitacao": 46,
+  "tramitacao": 47,
   "encerrado": 3,
-  "sem_informacao": 3
+  "sem_informacao": 2
  },
  "projetos": [
   {
@@ -15,9 +15,9 @@
    "ano": 2026,
    "ementa": "Institui o Defeso do Açaí, cria o Seguro-Defeso do Trabalhador Extrativista do Açaí, estabelece medidas de proteção social, valorização profissional e sustentabilidade da atividade extrativista e produtiva do açaí e dá outras providências.",
    "apresentacao": "2026-09-16",
-   "situacao": null,
+   "situacao": "Aguardando Autorização do Despacho",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646484",
    "primeiro_autor": true
   },
@@ -80,7 +80,7 @@
    "ano": 2026,
    "ementa": "Institui a Política Nacional de Promoção da Saúde Visual na Infância e Adolescência, altera a Lei nº 8.069, de 13 de julho de 1990, e a Lei nº 8.080, de 19 de setembro de 1990.",
    "apresentacao": "2026-03-05",
-   "situacao": "Aguardando Deliberação",
+   "situacao": "Pronta para Pauta",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2607231",

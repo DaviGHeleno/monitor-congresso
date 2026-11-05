@@ -5,9 +5,22 @@
   "aprovado": 2,
   "tramitacao": 124,
   "encerrado": 10,
-  "sem_informacao": 16
+  "sem_informacao": 17
  },
  "projetos": [
+  {
+   "id": 2651092,
+   "sigla": "PL",
+   "numero": 5773,
+   "ano": 2026,
+   "ementa": "Altera a Lei nº 9.504, de 30 de setembro de 1997, para exigir declaração sobre a titularidade de passaporte estrangeiro por candidatos a cargos eletivos.",
+   "apresentacao": "2026-11-04",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651092",
+   "primeiro_autor": true
+  },
   {
    "id": 2648811,
    "sigla": "PL",
@@ -210,7 +223,7 @@
    "ano": 2026,
    "ementa": "Dispõe sobre a vedação de homenagens públicas a pessoas condenadas por crimes violentos contra a mulher e estabelece diretrizes para revisão de denominações e honrarias incompatíveis com esta Lei.",
    "apresentacao": "2026-03-13",
-   "situacao": "Aguardando Parecer",
+   "situacao": "Pronta para Pauta",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2608924",

@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 1,
   "aprovado": 2,
-  "tramitacao": 59,
+  "tramitacao": 58,
   "encerrado": 1,
-  "sem_informacao": 2
+  "sem_informacao": 3
  },
  "projetos": [
   {
@@ -28,7 +28,7 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 11.340, de 7 de agosto de 2006 (Lei Maria da Penha), para isentar de custas processuais, emolumentos e demais despesas processuais as vítimas de violência doméstica e familiar em ações de conhecimento no juízo cível destinadas à reparação de danos materiais e morais e em cumprimento de sentença ou de condenação criminal transitada em julgado que tenha fixado ressarcimento de danos, independentemente de comprovação de hipossuficiência econômica.",
    "apresentacao": "2026-07-29",
-   "situacao": "Aguardando Encaminhamento",
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641724",
@@ -54,9 +54,9 @@
    "ano": 2026,
    "ementa": "Institui o Dia Nacional do Atacadista Distribuidor.",
    "apresentacao": "2026-02-23",
-   "situacao": "Aguardando Deliberação",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2603727",
    "primeiro_autor": true
   },
@@ -184,7 +184,7 @@
    "ano": 2025,
    "ementa": "Institui o Programa Banco Social do Emprego.",
    "apresentacao": "2025-05-19",
-   "situacao": "Aguardando Parecer",
+   "situacao": "Pronta para Pauta",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2510766",

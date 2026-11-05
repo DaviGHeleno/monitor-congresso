@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 7,
   "aprovado": 8,
-  "tramitacao": 46,
+  "tramitacao": 45,
   "encerrado": 7,
-  "sem_informacao": 6
+  "sem_informacao": 7
  },
  "projetos": [
   {
@@ -704,9 +704,9 @@
    "ano": 2023,
    "ementa": "Cria o Programa Criança na Escola, que estabelece medidas de combate à evasão escolar e institui diretrizes para a promoção da permanência dos estudantes nas instituições de ensino.",
    "apresentacao": "2023-06-13",
-   "situacao": "Aguardando Deliberação",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2368785",
    "primeiro_autor": true
   },

@@ -5,9 +5,22 @@
   "aprovado": 1,
   "tramitacao": 37,
   "encerrado": 2,
-  "sem_informacao": 4
+  "sem_informacao": 5
  },
  "projetos": [
+  {
+   "id": 2651082,
+   "sigla": "PL",
+   "numero": 5772,
+   "ano": 2026,
+   "ementa": "Dispõe sobre a execução subsidiária, pelo Poder Público, de obras de conservação e restauração de fachadas de imóveis tombados em estado de abandono, com posterior ressarcimento das despesas pelo proprietário.",
+   "apresentacao": "2026-11-04",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651082",
+   "primeiro_autor": true
+  },
   {
    "id": 2628779,
    "sigla": "PL",
@@ -249,7 +262,7 @@
    "ano": 2025,
    "ementa": "Institui o Programa Atividade Física é Saúde, no âmbito do Sistema Único de Saúde (SUS), com o objetivo de promover a saúde por meio da atuação de profissionais de Educação Física.",
    "apresentacao": "2025-11-10",
-   "situacao": "Aguardando Deliberação",
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2583128",

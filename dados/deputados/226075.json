@@ -5,9 +5,35 @@
   "aprovado": 1,
   "tramitacao": 11,
   "encerrado": 2,
-  "sem_informacao": 1
+  "sem_informacao": 3
  },
  "projetos": [
+  {
+   "id": 2650499,
+   "sigla": "PL",
+   "numero": 5752,
+   "ano": 2026,
+   "ementa": "Altera a Lei nº 12.527, de 18 de novembro de 2011, para instituir relatório de transparência das despesas da Presidência e da Vice-Presidência da República ao encerramento do mandato e assegurar consulta pública acessível e rastreável.",
+   "apresentacao": "2026-11-04",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2650499",
+   "primeiro_autor": true
+  },
+  {
+   "id": 2650498,
+   "sigla": "PDL",
+   "numero": 1032,
+   "ano": 2026,
+   "ementa": "Susta os efeitos da Portaria CGPCIND/DSPRAD/SEDIGI nº 2.272, de 28 de outubro de 2026, do Ministério da Justiça e Segurança Pública, que atribuiu classificação indicativa de não recomendado para menores de 12 (doze) anos ao programa televisivo “Record Kids – Desenhos Bíblicos”.",
+   "apresentacao": "2026-11-04",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2650498",
+   "primeiro_autor": true
+  },
   {
    "id": 2399581,
    "sigla": "PL",
@@ -145,7 +171,7 @@
    "ano": 2023,
    "ementa": "Dispõe sobre sanções políticas e econômicas relacionadas ao Hamas e ao Hezbollah, os classifica como grupos terroristas, e criminaliza manifestações de apoio a esses grupos.",
    "apresentacao": "2023-10-09",
-   "situacao": "Aguardando Deliberação",
+   "situacao": "Aguardando Vistas",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2394641",

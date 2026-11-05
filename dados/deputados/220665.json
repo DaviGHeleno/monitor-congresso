@@ -5,9 +5,22 @@
   "aprovado": 3,
   "tramitacao": 73,
   "encerrado": 8,
-  "sem_informacao": 7
+  "sem_informacao": 8
  },
  "projetos": [
+  {
+   "id": 2650489,
+   "sigla": "PL",
+   "numero": 5751,
+   "ano": 2026,
+   "ementa": "Altera a Lei nº 8.080, de 19 de setembro de 1990, para assegurar ajuda de custo ou transporte a pacientes do Sistema Único de Saúde que necessitem realizar tratamento em outro município.",
+   "apresentacao": "2026-11-04",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2650489",
+   "primeiro_autor": true
+  },
   {
    "id": 2646915,
    "sigla": "PL",

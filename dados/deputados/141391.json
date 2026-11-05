@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 2,
   "aprovado": 1,
-  "tramitacao": 24,
+  "tramitacao": 23,
   "encerrado": 3,
-  "sem_informacao": 3
+  "sem_informacao": 4
  },
  "projetos": [
   {
@@ -106,7 +106,7 @@
    "ano": 2026,
    "ementa": "Estabelece normas gerais de direito financeiro, governança e responsabilidade na gestão dos fundos extra orçamentários, encargos e subsídios do setor elétrico, e dá outras providências.",
    "apresentacao": "2026-04-09",
-   "situacao": "Aguardando Deliberação",
+   "situacao": "Pronta para Pauta",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2615068",
@@ -236,9 +236,9 @@
    "ano": 2024,
    "ementa": "Reconhece como patrimônio histórico-cultural brasileiro o basquete de Franca, no estado de São Paulo.",
    "apresentacao": "2024-06-20",
-   "situacao": "Aguardando Deliberação",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2442465",
    "primeiro_autor": true
   },

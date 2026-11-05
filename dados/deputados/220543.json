@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 3,
   "aprovado": 5,
-  "tramitacao": 109,
+  "tramitacao": 108,
   "encerrado": 22,
-  "sem_informacao": 16
+  "sem_informacao": 17
  },
  "projetos": [
   {
@@ -223,7 +223,7 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 9.503, de 23 de setembro de 1997 – Código de Trânsito Brasileiro, para disciplinar a remoção de veículos abandonados em propriedade privada.",
    "apresentacao": "2026-08-17",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+   "situacao": "Aguardando Autorização do Despacho",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643935",
@@ -418,7 +418,7 @@
    "ano": 2025,
    "ementa": "Institui a Rota Turística do Rio Araguaia e dá outras providências.",
    "apresentacao": "2025-12-19",
-   "situacao": "Aguardando Parecer",
+   "situacao": "Pronta para Pauta",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2598960",
@@ -509,9 +509,9 @@
    "ano": 2025,
    "ementa": "Revoga a taxação de compras internacionais de até US$ 50 e restabelece o regime de isenção tributária.",
    "apresentacao": "2025-07-14",
-   "situacao": "Tramitando em Conjunto",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2535487",
    "primeiro_autor": true
   },
@@ -977,7 +977,7 @@
    "ano": 2024,
    "ementa": "Altera a Lei nº 8.078, de 11 de setembro de 1990, “que dispõe sobre a proteção do consumidor e dá outras providências”, para incluir, como causa obstativa da decadência, a formalização de reclamação junto a órgão de defesa do consumidor.",
    "apresentacao": "2024-06-14",
-   "situacao": "Aguardando Deliberação",
+   "situacao": "Pronta para Pauta",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2440839",
@@ -1055,7 +1055,7 @@
    "ano": 2024,
    "ementa": "Institui o Fator Amazônico como critério de ponderação na formulação e execução de Políticas Públicas de desenvolvimento social, com foco na redução das desigualdades regionais, na dignidade da pessoa humana e na equidade.",
    "apresentacao": "2024-05-08",
-   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao": "Aguardando Parecer",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2432141",

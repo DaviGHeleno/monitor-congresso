@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 2,
   "aprovado": 6,
-  "tramitacao": 79,
+  "tramitacao": 78,
   "encerrado": 8,
-  "sem_informacao": 10
+  "sem_informacao": 11
  },
  "projetos": [
   {
@@ -912,9 +912,9 @@
    "ano": 2024,
    "ementa": "Acrescenta § 9º ao Art. 98 da Lei n°13.105 de 16 de março de 2015, para determinar a garantia de gratuidade da justiça a toda pessoa física inscrita no Cadastro Único Para Programas Sociais – CadÚnico.",
    "apresentacao": "2024-04-16",
-   "situacao": "Aguardando Deliberação",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2427146",
    "primeiro_autor": true
   },

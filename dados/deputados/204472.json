@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 5,
-  "tramitacao": 350,
+  "tramitacao": 351,
   "encerrado": 26,
-  "sem_informacao": 25
+  "sem_informacao": 24
  },
  "projetos": [
   {
@@ -236,9 +236,9 @@
    "ano": 2026,
    "ementa": "Institui a modalidade de Microgeração Solar Residencial Simplificada, estabelece regras para sistemas fotovoltaicos plugáveis de baixa potência destinados ao atendimento de unidades consumidoras residenciais, simplifica os procedimentos de conexão e registro, estabelece requisitos de segurança, qualidade e certificação dos equipamentos e dá outras providências.",
    "apresentacao": "2026-09-15",
-   "situacao": null,
+   "situacao": "Aguardando Autorização do Despacho",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646458",
    "primeiro_autor": true
   },
@@ -301,7 +301,7 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 8.989, de 24 de fevereiro de 1995, e a Lei nº 12.009, de 29 de julho de 2009, para estender aos mototaxistas os benefícios concedidos aos taxistas na aquisição de veículos destinados ao exercício da atividade profissional e dá outras providências.",
    "apresentacao": "2026-07-15",
-   "situacao": "Aguardando Apensação",
+   "situacao": "Tramitando em Conjunto",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2639930",
@@ -418,7 +418,7 @@
    "ano": 2026,
    "ementa": "Institui a Política Nacional de Prioridade para Conclusão de Obras Públicas – Lei do Abandono Zero de Obras Públicas –, estabelece condicionantes para o início de novas obras públicas de grande vulto e dá outras providências.",
    "apresentacao": "2026-07-08",
-   "situacao": "Aguardando Apensação",
+   "situacao": "Tramitando em Conjunto",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2638237",
@@ -574,7 +574,7 @@
    "ano": 2026,
    "ementa": "Dispõe sobre critérios de elegibilidade em competições esportivas oficiais financiadas com recursos públicos e dá outras providências.",
    "apresentacao": "2026-06-15",
-   "situacao": "Aguardando Apensação",
+   "situacao": "Tramitando em Conjunto",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2632432",

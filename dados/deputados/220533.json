@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 1,
-  "tramitacao": 57,
+  "tramitacao": 56,
   "encerrado": 5,
-  "sem_informacao": 9
+  "sem_informacao": 10
  },
  "projetos": [
   {
@@ -678,9 +678,9 @@
    "ano": 2024,
    "ementa": "Institui a Semana Nacional de Conscientização e Defesa da Promoção da Educação Inclusiva.",
    "apresentacao": "2024-03-06",
-   "situacao": "Tramitando em Conjunto",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2419712",
    "primeiro_autor": true
   },

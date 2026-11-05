@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 3,
-  "tramitacao": 32,
+  "tramitacao": 30,
   "encerrado": 0,
-  "sem_informacao": 2
+  "sem_informacao": 4
  },
  "projetos": [
   {
@@ -54,9 +54,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei Complementar nº 214, de 16 de janeiro de 2025.",
    "apresentacao": "2026-07-21",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641440",
    "primeiro_autor": true
   },
@@ -197,7 +197,7 @@
    "ano": 2024,
    "ementa": "Altera a Lei nº 8.078, de 11 de setembro de 1990, que dispõe sobre a proteção do consumidor e dá outras providências.",
    "apresentacao": "2024-05-28",
-   "situacao": "Aguardando Deliberação",
+   "situacao": "Pronta para Pauta",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2437040",
@@ -340,9 +340,9 @@
    "ano": 2023,
    "ementa": "Altera a Lei 14.133, de 1º de abril de 2021.",
    "apresentacao": "2023-11-29",
-   "situacao": "Aguardando Encaminhamento",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2408101",
    "primeiro_autor": true
   },

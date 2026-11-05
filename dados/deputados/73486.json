@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 1,
   "aprovado": 8,
-  "tramitacao": 208,
+  "tramitacao": 207,
   "encerrado": 24,
-  "sem_informacao": 11
+  "sem_informacao": 12
  },
  "projetos": [
   {
@@ -145,7 +145,7 @@
    "ano": 2026,
    "ementa": "Revoga a Lei nº 6.634, de 2 de maio de 1979, que dispõe sobre a Faixa de Fronteira.",
    "apresentacao": "2026-05-04",
-   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao": "Aguardando Parecer",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2620906",
@@ -509,7 +509,7 @@
    "ano": 2025,
    "ementa": "Altera os Decretos-Leis nº 2.848, de 7 de dezembro de 1940 (Código Penal), e nº 3.689, de 3 de outubro de 1941 (Código de Processo Penal), e as Leis nº 8.257, de 26 de novembro de 1991, e nº 11.343, de 23 de agosto de 2006, para dispor sobre a destinação de bens, direitos e valores apreendidos ou confiscados, incluindo os Estados e o Distrito Federal como beneficiários nos casos de competência da Justiça Estadual.",
    "apresentacao": "2025-11-13",
-   "situacao": "Aguardando Parecer",
+   "situacao": "Pronta para Pauta",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2584902",
@@ -665,7 +665,7 @@
    "ano": 2025,
    "ementa": "Proíbe a produção de mudas, o cultivo, o plantio, a comercialização, a doação, a distribuição e a manutenção de exemplares da espécie exótica Spathodea campanulata (espatódea), estabelece diretrizes para substituição por espécies nativas e dá outras providências.",
    "apresentacao": "2025-10-22",
-   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao": "Aguardando Parecer",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2574815",
@@ -808,9 +808,9 @@
    "ano": 2025,
    "ementa": "Institui o Dia Nacional do Atletismo",
    "apresentacao": "2025-08-19",
-   "situacao": "Aguardando Deliberação",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2549486",
    "primeiro_autor": true
   },

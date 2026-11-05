@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 1,
   "aprovado": 1,
-  "tramitacao": 94,
+  "tramitacao": 91,
   "encerrado": 8,
-  "sem_informacao": 11
+  "sem_informacao": 14
  },
  "projetos": [
   {
@@ -223,9 +223,9 @@
    "ano": 2026,
    "ementa": "Institui o Dia Nacional do Técnico Judiciário do Poder Judiciário.",
    "apresentacao": "2026-03-12",
-   "situacao": "Aguardando Deliberação",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2608573",
    "primeiro_autor": true
   },
@@ -444,9 +444,9 @@
    "ano": 2025,
    "ementa": "Institui o Dia da Valorização das Mulheres na Infraestrutura Nacional, a ser celebrado anualmente no dia 23 de junho.",
    "apresentacao": "2025-09-03",
-   "situacao": "Aguardando Deliberação",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2557001",
    "primeiro_autor": true
   },
@@ -769,9 +769,9 @@
    "ano": 2024,
    "ementa": "Reconhece o rock nacional como manifestação da cultura nacional.",
    "apresentacao": "2024-11-12",
-   "situacao": "Aguardando Deliberação",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2468640",
    "primeiro_autor": true
   },

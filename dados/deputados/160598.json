@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 8,
   "aprovado": 8,
-  "tramitacao": 108,
+  "tramitacao": 107,
   "encerrado": 13,
-  "sem_informacao": 10
+  "sem_informacao": 11
  },
  "projetos": [
   {
@@ -1055,9 +1055,9 @@
    "ano": 2024,
    "ementa": "Declara o Jiu-Jitsu como manifestação da cultura brasileira e patrimônio cultural imaterial, e institui o Dia do Jiu-Jitsu.",
    "apresentacao": "2024-02-05",
-   "situacao": "Tramitando em Conjunto",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2416920",
    "primeiro_autor": true
   },
