@@ -18,6 +18,7 @@
   "Não": 61,
   "Sim": 404
  },
+ "totais_fonte": "descricao",
  "orientacoes": [
   {
    "sigla": "AVANTE",
@@ -97,7 +98,6 @@
  ],
  "votos": [],
  "votos_disponiveis": false,
- "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2645346-18",
  "secreta": false,
- "totais_fonte": "descricao"
+ "url_api": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2645346-18"
 }
