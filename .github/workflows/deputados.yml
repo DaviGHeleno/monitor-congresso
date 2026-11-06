@@ -33,11 +33,6 @@ jobs:
       - name: Deputados, perfis e projetos
         run: python -m coletor.coletar --deputados
 
-      - name: Mosaico de fotos da página inicial
-        if: always()
-        continue-on-error: true
-        run: python -m coletor.mosaico
-
       - name: Resumo
         if: always()
         run: |

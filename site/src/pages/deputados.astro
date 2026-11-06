@@ -10,10 +10,12 @@ const ufs = [...new Set(lista.map((d) => d.uf).filter(Boolean))].sort() as strin
 const emExercicio = lista.filter((d) => d.em_exercicio).length;
 ---
 <Base titulo="Deputados" secao="deputados">
-  <h1>Deputados</h1>
-  <p class="subtitulo">
-    Todos que exerceram mandato na legislatura iniciada em 2023, incluindo suplentes. Partido e estado atuais segundo a Câmara.
-  </p>
+  <div class="cabeca-pagina">
+    <h1>Deputados</h1>
+    <p class="subtitulo">
+      Todos que exerceram mandato na legislatura iniciada em 2023, incluindo suplentes. Partido e estado atuais segundo a Câmara.
+    </p>
+  </div>
 
   <form class="filtros" onsubmit="return false">
     <label>Nome<input type="search" id="d-nome" placeholder="Buscar deputado" autocomplete="off" /></label>

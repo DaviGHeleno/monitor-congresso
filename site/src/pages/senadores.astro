@@ -1,0 +1,27 @@
+---
+// Senadores. Enquanto os dados do Senado não são coletados, a página explica o que vai mostrar.
+// Quando dados/senado/ existir, esta página passa a listar os senadores (próxima etapa).
+import Base from "../layouts/Base.astro";
+import Desenho from "../components/Desenho.astro";
+---
+<Base titulo="Senadores" secao="senadores" descricao="Senadores: votos e projetos de cada um, com dados oficiais do Senado Federal.">
+  <div class="cabeca-pagina">
+    <h1>Senadores</h1>
+    <p class="subtitulo">
+      Os 81 senadores em exercício: partido, estado, como votou cada um no Plenário e os projetos que apresentou, com dados oficiais do Senado Federal.
+    </p>
+  </div>
+
+  <section class="descricao-deputado" aria-labelledby="t-preparo">
+    <Desenho tipo="senado" rotulo="A cúpula voltada para baixo, sobre o plenário do Senado" classe="senado-desenho" />
+    <h2 id="t-preparo" style="margin-top:24px">Em preparação</h2>
+    <p class="frase">
+      A coleta de dados do Senado está sendo montada. Assim que estiver pronta, esta página lista cada senador, com o histórico de votos e os projetos apresentados, como a página de deputados.
+    </p>
+    <p class="fonte">Fonte: Dados Abertos do Senado Federal.</p>
+  </section>
+</Base>
+
+<style>
+  .senado-desenho { width: min(260px, 60%); height: auto; color: #fff; }
+</style>

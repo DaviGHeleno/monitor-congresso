@@ -1,0 +1,35 @@
+name: Spike - dados do Senado
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  spike:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Rodar spike do Senado
+        run: python coletor/spike_senado.py --saida saida-spike-senado
+      - name: Mostrar relatório na página da execução
+        if: always()
+        run: |
+          if [ -f saida-spike-senado/relatorio-senado.md ]; then
+            head -c 900000 saida-spike-senado/relatorio-senado.md >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "Relatório não foi gerado." >> "$GITHUB_STEP_SUMMARY"
+          fi
+      - name: Guardar relatório e amostras
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: resultado-spike-senado
+          path: saida-spike-senado/
+          if-no-files-found: warn

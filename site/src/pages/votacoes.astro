@@ -8,10 +8,12 @@ const itens = indice();
 const anos = [...new Set(itens.map((i) => i.data.slice(0, 4)))].sort().reverse();
 ---
 <Base titulo="Votações" secao="votacoes">
-  <h1>Votações nominais do Plenário</h1>
-  <p class="subtitulo">
-    Todas as votações em que cada deputado registrou seu voto, desde fevereiro de 2023. Mais recentes primeiro.
-  </p>
+  <div class="cabeca-pagina">
+    <h1>Votações na Câmara</h1>
+    <p class="subtitulo">
+      Todas as votações nominais do Plenário, em que cada deputado registrou seu voto, desde fevereiro de 2023. Mais recentes primeiro.
+    </p>
+  </div>
 
   <form class="filtros" id="filtros" onsubmit="return false">
     <label>Buscar

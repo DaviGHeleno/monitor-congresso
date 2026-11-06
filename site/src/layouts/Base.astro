@@ -6,9 +6,10 @@ import { estadoColeta } from "../lib/dados";
 interface Props {
   titulo: string;
   descricao?: string;
-  secao?: "inicio" | "votacoes" | "deputados";
+  secao?: "inicio" | "votacoes" | "deputados" | "senadores";
+  largo?: boolean; // conteúdo de borda a borda (página inicial)
 }
-const { titulo, descricao = "Votações da Câmara dos Deputados: placar por partido e voto de cada deputado.", secao } = Astro.props;
+const { titulo, descricao = "Votações do Congresso: placar por partido e voto de cada parlamentar, com dados oficiais.", secao, largo = false } = Astro.props;
 const estado = estadoColeta();
 const geradoEm = new Date().toLocaleString("pt-BR", { timeZone: "America/Sao_Paulo", dateStyle: "short", timeStyle: "short" });
 const atual = (s: string) => (s === secao ? "page" : undefined);
@@ -22,29 +23,35 @@ const tituloCompleto = titulo === "Monitor do Congresso" ? titulo : `${titulo} �
     <title>{tituloCompleto}</title>
     <meta name="description" content={descricao} />
     <link rel="icon" href={url("/favicon.svg")} type="image/svg+xml" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link rel="preload" href={url("/fonts/switzer-latin-500-normal.woff2")} as="font" type="font/woff2" crossorigin />
   </head>
   <body>
     <header class="topo">
-      <div class="conteiner">
+      <div class="topo-dentro">
         <a class="marca" href={url("/")}>Monitor do Congresso</a>
-        <nav class="nav" aria-label="Principal">
+        <nav class="abas" aria-label="Principal">
           <a href={url("/")} aria-current={atual("inicio")}>Início</a>
           <a href={url("/votacoes/")} aria-current={atual("votacoes")}>Votações</a>
           <a href={url("/deputados/")} aria-current={atual("deputados")}>Deputados</a>
+          <a href={url("/senadores/")} aria-current={atual("senadores")}>Senadores</a>
         </nav>
       </div>
     </header>
-    <main class="conteiner">
+    <main class={largo ? "largo" : "conteiner"}>
       <slot />
     </main>
     <footer class="rodape">
-      <div class="conteiner">
-        Dados oficiais de <a href="https://dadosabertos.camara.leg.br" rel="noopener">Dados Abertos da Câmara dos Deputados</a>.
-        Somente fatos publicados pela Câmara, sem classificação ideológica.
-        <br />Site atualizado em {geradoEm}{estado.ultima_data && ` · votação mais recente: ${data(estado.ultima_data)}`}.
+      <div class="rodape-topo">
+        <p><b>Monitor do Congresso.</b> Dados oficiais da Câmara dos Deputados e do Senado Federal, organizados sem edição e sem classificação ideológica.</p>
+        <p>Atualizado em {geradoEm}.{estado.ultima_data && ` Votação mais recente na Câmara: ${data(estado.ultima_data)}.`}</p>
+        <p>Os eleitos em outubro de 2026 tomam posse em 1º de fevereiro de 2027. O site acompanha a legislatura 2023–2027.</p>
+        <a class="link-forte" href="#">Voltar ao topo</a>
+      </div>
+      <p class="rodape-linha"><a href="https://dadosabertos.camara.leg.br" rel="noopener">Dados Abertos<br />da Câmara</a></p>
+      <div class="rodape-meta">
+        <p><a href={url("/votacoes/")}>Votações</a> · <a href={url("/deputados/")}>Deputados</a> · <a href={url("/senadores/")}>Senadores</a></p>
+        <p>Fotos oficiais: Câmara dos Deputados. Fonte tipográfica Switzer: Indian Type Foundry.</p>
+        <p>Legislatura 2023–2027</p>
       </div>
     </footer>
   </body>
