@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 3,
   "aprovado": 4,
-  "tramitacao": 88,
+  "tramitacao": 89,
   "encerrado": 8,
-  "sem_informacao": 9
+  "sem_informacao": 8
  },
  "projetos": [
   {
@@ -15,9 +15,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 9.605, de 12 de fevereiro de 1998, para estabelecer causa de aumento de pena para os crimes de maus-tratos praticados contra cães e gatos idosos e para conferir tratamento penal mais gravoso quando desses crimes resultar a morte de animal idoso.",
    "apresentacao": "2026-09-16",
-   "situacao": null,
+   "situacao": "Aguardando Autorização do Despacho",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646510",
    "primeiro_autor": true
   },

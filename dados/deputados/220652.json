@@ -5,9 +5,22 @@
   "aprovado": 3,
   "tramitacao": 111,
   "encerrado": 8,
-  "sem_informacao": 8
+  "sem_informacao": 9
  },
  "projetos": [
+  {
+   "id": 2651096,
+   "sigla": "PL",
+   "numero": 5774,
+   "ano": 2026,
+   "ementa": "Altera a Lei nº 15.409, de 20 de maio de 2026, para assegurar à mulher o direito de consultar o Cadastro Nacional de Pessoas Condenadas por Violência contra a Mulher (CNVM).",
+   "apresentacao": "2026-11-05",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651096",
+   "primeiro_autor": true
+  },
   {
    "id": 2648420,
    "sigla": "PL",

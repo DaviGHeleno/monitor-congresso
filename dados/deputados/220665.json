@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 3,
-  "tramitacao": 73,
+  "tramitacao": 74,
   "encerrado": 8,
-  "sem_informacao": 8
+  "sem_informacao": 7
  },
  "projetos": [
   {
@@ -41,7 +41,7 @@
    "ano": 2026,
    "ementa": "Dispõe sobre o recolhimento e a destinação ambientalmente adequada de materiais utilizados em oferendas, rituais, cerimônias religiosas, manifestações culturais e atividades similares realizadas em espaços públicos e áreas ambientalmente sensíveis.",
    "apresentacao": "2026-08-14",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+   "situacao": "Aguardando Autorização do Despacho",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643816",
@@ -873,9 +873,9 @@
    "ano": 2023,
    "ementa": "Institui o Dia Nacional, assim como considera Patrimônio Religioso Cultural e Imaterial, o “Círculo de Oração”.",
    "apresentacao": "2023-07-06",
-   "situacao": null,
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2373003",
    "primeiro_autor": true
   },

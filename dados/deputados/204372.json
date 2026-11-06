@@ -5,7 +5,7 @@
   "aprovado": 0,
   "tramitacao": 70,
   "encerrado": 1,
-  "sem_informacao": 11
+  "sem_informacao": 12
  },
  "projetos": [
   {
@@ -28,7 +28,7 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 10.741, de 1º de outubro de 2003 – Estatuto da Pessoa Idosa, para instituir o Serviço de Acolhimento e Orientação da Pessoa Idosa (Acesso 60+) nos centros integrados e unidades de atendimento presencial ao cidadão.",
    "apresentacao": "2026-09-10",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+   "situacao": "Aguardando Autorização do Despacho",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646345",
@@ -41,7 +41,7 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 9.870, de 23 de novembro de 1999, para estabelecer regras de transparência, antecedência e estabilidade na divulgação da relação de livros e materiais escolares exigidos pelas instituições de ensino da educação básica.",
    "apresentacao": "2026-09-10",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+   "situacao": "Aguardando Autorização do Despacho",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646344",
@@ -54,7 +54,7 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 8.742, de 7 de dezembro de 1993, para estabelecer diretrizes de transição da proteção social às famílias de baixa renda que aumentarem sua renda em razão do ingresso no mercado de trabalho.",
    "apresentacao": "2026-09-10",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+   "situacao": "Aguardando Autorização do Despacho",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646343",
@@ -282,13 +282,26 @@
    "primeiro_autor": true
   },
   {
+   "id": 2651228,
+   "sigla": "PLP",
+   "numero": 285,
+   "ano": 2026,
+   "ementa": "Altera a Lei Complementar nº 214, de 16 de janeiro de 2025, para autorizar que o aproveitamento de créditos relativos à Contribuição sobre Bens e Serviços (CBS) passíveis de ressarcimento ou restituição seja realizado mediante compensação com débitos relativos a tributos administrados pela Secretaria Especial da Receita Federal do Brasil.",
+   "apresentacao": "2026-11-05",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651228",
+   "primeiro_autor": true
+  },
+  {
    "id": 2649422,
    "sigla": "PLP",
    "numero": 275,
    "ano": 2026,
    "ementa": "Altera a Lei Complementar nº 235, de 27 de agosto de 2026, para preservar o critério de cálculo e de atualização do aporte anual da União ao Fundo Constitucional do Distrito Federal (FCDF).",
    "apresentacao": "2026-10-28",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+   "situacao": "Aguardando Autorização do Despacho",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649422",

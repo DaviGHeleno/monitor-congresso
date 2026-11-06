@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 1,
   "aprovado": 2,
-  "tramitacao": 110,
+  "tramitacao": 109,
   "encerrado": 6,
-  "sem_informacao": 8
+  "sem_informacao": 9
  },
  "projetos": [
   {
@@ -15,7 +15,7 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 14.904, de 27 de junho de 2024, para incluir medidas de proteção à população em episódios de calor extremo e estabelecer diretrizes para a implantação e divulgação de refúgios climáticos.",
    "apresentacao": "2026-09-03",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+   "situacao": "Aguardando Autorização do Despacho",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2645965",
@@ -301,7 +301,7 @@
    "ano": 2025,
    "ementa": "Institui a Política Nacional de Enfrentamento às Doenças Climáticas (PNEDC) e dá outras providências.",
    "apresentacao": "2025-10-28",
-   "situacao": "Aguardando Parecer",
+   "situacao": "Pronta para Pauta",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2577604",
@@ -1016,9 +1016,9 @@
    "ano": 2024,
    "ementa": "Acrescenta dispositivo na Lei nº 6.015, de 31 de dezembro de 1973, que dispõe sobre os registros públicos, e dá outras providências, de forma a garantir a possibilidade de exclusão de sobrenome do agressor no caso de violência sexual.",
    "apresentacao": "2024-06-04",
-   "situacao": "Tramitando em Conjunto",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2437745",
    "primeiro_autor": true
   },

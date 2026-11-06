@@ -2,10 +2,10 @@
  "id": 73486,
  "resumo": {
   "lei": 1,
-  "aprovado": 8,
+  "aprovado": 9,
   "tramitacao": 207,
   "encerrado": 24,
-  "sem_informacao": 12
+  "sem_informacao": 11
  },
  "projetos": [
   {
@@ -561,9 +561,9 @@
    "ano": 2025,
    "ementa": "Reconhece a Poesia Oral Improvisada como manifestação da cultura nacional e expressão viva da tradição literária popular do Brasil.",
    "apresentacao": "2025-11-03",
-   "situacao": null,
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2580011",
    "primeiro_autor": true
   },
@@ -3096,9 +3096,9 @@
    "ano": 2023,
    "ementa": "Dá ao túnel que conecta os anexos II e IV da Câmara dos Deputados a denominação José Richa.",
    "apresentacao": "2023-09-21",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+   "situacao": "Aguardando Autógrafos na Mesa",
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": "aprovado",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2389679",
    "primeiro_autor": true
   },

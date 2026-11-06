@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 0,
-  "tramitacao": 7,
+  "tramitacao": 6,
   "encerrado": 1,
-  "sem_informacao": 1
+  "sem_informacao": 2
  },
  "projetos": [
   {
@@ -93,9 +93,9 @@
    "ano": 2024,
    "ementa": "Destina percentual de recursos do Fundo Constitucional de Financiamento do Centro Oeste - FCO para projetos voltados à Região Integrada de Desenvolvimento do Distrito Federal e Entorno - RIDE.",
    "apresentacao": "2024-04-01",
-   "situacao": "Tramitando em Conjunto",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2424243",
    "primeiro_autor": true
   },

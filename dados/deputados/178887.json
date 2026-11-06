@@ -3,11 +3,24 @@
  "resumo": {
   "lei": 3,
   "aprovado": 5,
-  "tramitacao": 198,
+  "tramitacao": 199,
   "encerrado": 10,
   "sem_informacao": 39
  },
  "projetos": [
+  {
+   "id": 2651114,
+   "sigla": "PL",
+   "numero": 5776,
+   "ano": 2026,
+   "ementa": "Altera a Lei nº 13.675, de 11 de junho de 2018, para instituir diretrizes para a proteção de servidores do sistema penal e de segurança pública ameaçados em razão da função.",
+   "apresentacao": "2026-11-05",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651114",
+   "primeiro_autor": true
+  },
   {
    "id": 2649802,
    "sigla": "PL",
@@ -548,9 +561,9 @@
    "ano": 2026,
    "ementa": "Estabelece rito prioritário e prazos máximos para julgamento de temas reconhecidos como de repercussão geral pelo Supremo Tribunal Federal e de afetação da sistemática de recursos repetitivos pelo Superior Tribunal de Justiça; disciplina a conclusão do juízo de conformação e a modulação de efeitos nas instâncias ordinárias; cria a Força?Tarefa Nacional de Uniformização Jurisprudencial para acompanhamento, transparência e suporte técnico à implementação imediata das decisões, e dispõe sobre medidas administrativas de alocação de recursos e uso de tecnologia processual para casos de massa.",
    "apresentacao": "2026-07-01",
-   "situacao": null,
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2636046",
    "primeiro_autor": true
   },
@@ -847,7 +860,7 @@
    "ano": 2026,
    "ementa": "Disciplina o acesso, o manuseio, a custódia e o compartilhamento de material apreendido em investigações e operações policiais que contenham dados pessoais, dispondo sobre requisitos técnicos de armazenamento, inventário auditável e cadeia de custódia; estabelece procedimento de separação técnica e redação de dados pessoais estritamente privados sob supervisão judicial antes de qualquer compartilhamento; condiciona o fornecimento de cópias a comissões parlamentares e a outros órgãos à autorização judicial específica, motivada e temporalmente limitada; determina prazos e procedimentos para restituição ou destruição de dados irrelevantes; prevê sanções administrativas e criminais para divulgação ou vazamento indevido de conteúdo íntimo e medidas de fiscalização, auditoria e transparência; e dá outras providências.",
    "apresentacao": "2026-03-30",
-   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao": "Aguardando Parecer",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2612805",
@@ -1419,7 +1432,7 @@
    "ano": 2026,
    "ementa": "Estabelece normas mínimas de segurança, comunicação imediata e responsabilidade civil para excursões e atividades extracurriculares promovidas por instituições de ensino e dá outras providências.",
    "apresentacao": "2026-03-04",
-   "situacao": "Aguardando Parecer",
+   "situacao": "Pronta para Pauta",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2606929",

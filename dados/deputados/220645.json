@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 2,
   "aprovado": 3,
-  "tramitacao": 110,
+  "tramitacao": 111,
   "encerrado": 6,
-  "sem_informacao": 9
+  "sem_informacao": 8
  },
  "projetos": [
   {
@@ -444,7 +444,7 @@
    "ano": 2025,
    "ementa": "Altera a Lei n° 11.788, de 25 de setembro de 2008, que dispõe sobre o estágio dos estudantes, para tornar obrigatório a concessão de auxílio-refeição, gratificação natalina e abono no recesso por parte das concedentes de estágio e dá outras providências.",
    "apresentacao": "2025-09-26",
-   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao": "Aguardando Parecer",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2565087",
@@ -1289,9 +1289,9 @@
    "ano": 2023,
    "ementa": "Institui o Dia Nacional de Incentivo à Leitura - Carolina Maria de Jesus, a ser comemorado no dia 19 de agosto de cada ano.",
    "apresentacao": "2023-07-25",
-   "situacao": null,
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2374387",
    "primeiro_autor": true
   },

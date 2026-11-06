@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 2,
   "aprovado": 1,
-  "tramitacao": 37,
+  "tramitacao": 38,
   "encerrado": 2,
-  "sem_informacao": 5
+  "sem_informacao": 4
  },
  "projetos": [
   {
@@ -236,9 +236,9 @@
    "ano": 2025,
    "ementa": "Altera a Lei nº 11.976, de 7 de julho de 2009, para dispor sobre a obrigação dos cartórios de registro civil de encaminhar às Secretarias de Saúde as informações constantes nas certidões de óbito e estabelecer a implementação de sistema informatizado de compartilhamento dessas informações entre os cartórios, o Ministério da Saúde e as Secretarias Estaduais e Municipais de Saúde.",
    "apresentacao": "2025-11-10",
-   "situacao": null,
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2583130",
    "primeiro_autor": true
   },

@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 2,
-  "tramitacao": 41,
+  "tramitacao": 42,
   "encerrado": 5,
-  "sem_informacao": 1
+  "sem_informacao": 0
  },
  "projetos": [
   {
@@ -249,9 +249,9 @@
    "ano": 2026,
    "ementa": "Declara como patrimônio cultural do povo brasileiro os grupos de foliões denominados “Clóvis” ou “Bate Bolas”.",
    "apresentacao": "2026-02-02",
-   "situacao": null,
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2600184",
    "primeiro_autor": true
   },
@@ -288,7 +288,7 @@
    "ano": 2025,
    "ementa": "Institui a obrigatoriedade de horário especial destinado às pessoas com impedimentos de natureza física, sensorial, intelectual, mental, transtorno de espectro autista, idosos e seus acompanhantes no âmbito do território nacional, em museus, centros culturais e ambientes similares.",
    "apresentacao": "2025-12-01",
-   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao": "Aguardando Parecer",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2589678",

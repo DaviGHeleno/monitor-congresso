@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 5,
   "aprovado": 4,
-  "tramitacao": 163,
+  "tramitacao": 164,
   "encerrado": 13,
-  "sem_informacao": 8
+  "sem_informacao": 7
  },
  "projetos": [
   {
@@ -327,9 +327,9 @@
    "ano": 2026,
    "ementa": "Institui diretrizes nacionais para o incentivo à alimentação adequada e saudável e para o fortalecimento das ações de educação alimentar e nutricional na educação básica, em articulação com o Sistema Nacional de Segurança Alimentar e Nutricional e com o Programa Nacional de Alimentação Escolar.",
    "apresentacao": "2026-07-03",
-   "situacao": null,
+   "situacao": "Aguardando Apensação",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2637109",
    "primeiro_autor": true
   },

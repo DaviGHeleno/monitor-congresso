@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 7,
-  "tramitacao": 47,
+  "tramitacao": 48,
   "encerrado": 2,
-  "sem_informacao": 7
+  "sem_informacao": 6
  },
  "projetos": [
   {
@@ -15,9 +15,9 @@
    "ano": 2026,
    "ementa": "Institui a Política Nacional do Método Canguru, destinada à promoção da atenção humanizada ao recém-nascido pré-termo ou de baixo peso, no âmbito do Sistema Único de Saúde (SUS).",
    "apresentacao": "2026-09-16",
-   "situacao": null,
+   "situacao": "Aguardando Autorização do Despacho",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646498",
    "primeiro_autor": true
   },

@@ -5,9 +5,35 @@
   "aprovado": 2,
   "tramitacao": 92,
   "encerrado": 5,
-  "sem_informacao": 7
+  "sem_informacao": 9
  },
  "projetos": [
+  {
+   "id": 2651186,
+   "sigla": "PL",
+   "numero": 5779,
+   "ano": 2026,
+   "ementa": "Institui diretrizes nacionais para a valorização dos Agentes de Proteção da Infância e da Juventude e estabelece princípios para o reconhecimento, a capacitação e o apoio ao exercício de suas atividades.",
+   "apresentacao": "2026-11-05",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651186",
+   "primeiro_autor": true
+  },
+  {
+   "id": 2651185,
+   "sigla": "PL",
+   "numero": 5778,
+   "ano": 2026,
+   "ementa": "Dispõe sobre a obrigatoriedade da presença de Agentes de Proteção da Infância e Juventude em eventos públicos de grande porte, estabelece medidas de prevenção à violação dos direitos de crianças e adolescentes e dá outras providências.",
+   "apresentacao": "2026-11-05",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651185",
+   "primeiro_autor": true
+  },
   {
    "id": 2634848,
    "sigla": "PL",
@@ -67,7 +93,7 @@
    "ano": 2026,
    "ementa": "Dispõe sobre a proibição de cobrança de tarifa do Sistema Kiss & Fly e de estacionamento em áreas de embarque/desembarque para motoristas de aplicativos em aeroportos, e dá outras providências.",
    "apresentacao": "2026-04-16",
-   "situacao": "Pronta para Pauta",
+   "situacao": "Aguardando Deliberação",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2617082",

@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 2,
   "aprovado": 6,
-  "tramitacao": 117,
+  "tramitacao": 116,
   "encerrado": 11,
-  "sem_informacao": 9
+  "sem_informacao": 10
  },
  "projetos": [
   {
@@ -1471,9 +1471,9 @@
    "ano": 2023,
    "ementa": "Altera a Lei nº 6.015, de 31 de dezembro de 1973 (Lei de Registros Públicos), para permitir a exclusão do nome e do sobrenome do genitor do registro de nascimento e casamento do filho, e a Lei nº 10.406, de 10 de janeiro de 2002 (Código Civil), para excluir o genitor da sucessão do filho, nos casos de condenação criminal, transitada em julgado, pela prática do crime contra a dignidade sexual de que trata o Título VI, da Parte Especial, Decreto-Lei 2.848, de 7 de dezembro de 1940 (Código Penal) e os artigos 240 a 241-E da Lei 8.069, de 13 de julho de 1.990 (Estatuto da Criança e do Adolescente), praticado pelo genitor contra o referido descendente.",
    "apresentacao": "2023-11-09",
-   "situacao": "Tramitando em Conjunto",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2403203",
    "primeiro_autor": true
   },

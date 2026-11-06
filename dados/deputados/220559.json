@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 5,
-  "tramitacao": 144,
+  "tramitacao": 145,
   "encerrado": 21,
-  "sem_informacao": 8
+  "sem_informacao": 7
  },
  "projetos": [
   {
@@ -197,9 +197,9 @@
    "ano": 2026,
    "ementa": "Reconhece a Oktoberfest de Blumenau, no Estado de Santa Catarina, como patrimônio cultural imaterial do Brasil.",
    "apresentacao": "2026-04-02",
-   "situacao": null,
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2613340",
    "primeiro_autor": true
   },

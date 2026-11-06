@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 1,
   "aprovado": 1,
-  "tramitacao": 124,
+  "tramitacao": 125,
   "encerrado": 12,
-  "sem_informacao": 7
+  "sem_informacao": 6
  },
  "projetos": [
   {
@@ -1614,9 +1614,9 @@
    "ano": 2023,
    "ementa": "Susta o Decreto nº 11.768, de 6 de novembro de 2023, que autoriza a reversão do processo de dissolução societária da empresa pública Centro Nacional de Tecnologia Eletrônica Avançada S.A. - Ceitec.",
    "apresentacao": "2023-11-08",
-   "situacao": null,
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2402642",
    "primeiro_autor": true
   },

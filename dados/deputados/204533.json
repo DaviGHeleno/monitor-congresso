@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 1,
   "aprovado": 0,
-  "tramitacao": 18,
+  "tramitacao": 19,
   "encerrado": 2,
-  "sem_informacao": 4
+  "sem_informacao": 3
  },
  "projetos": [
   {
@@ -106,9 +106,9 @@
    "ano": 2024,
    "ementa": "Altera a Lei nº 14.817, de 16 de janeiro de 2024, que estabelece diretrizes para a valorização dos profissionais da educação escolar básica pública, para definir redução de carga horária e afastamento para os profissionais em formação continuada em cursos de pós-graduação stricto sensu.",
    "apresentacao": "2024-02-05",
-   "situacao": null,
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2417053",
    "primeiro_autor": true
   },

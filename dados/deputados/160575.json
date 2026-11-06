@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 1,
   "aprovado": 1,
-  "tramitacao": 91,
+  "tramitacao": 92,
   "encerrado": 8,
-  "sem_informacao": 14
+  "sem_informacao": 13
  },
  "projetos": [
   {
@@ -886,9 +886,9 @@
    "ano": 2024,
    "ementa": "Institui o Dia Nacional do Entregador por Aplicativo, a ser comemorado, anualmente, em 1º de julho.",
    "apresentacao": "2024-10-01",
-   "situacao": null,
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2459677",
    "primeiro_autor": true
   },
