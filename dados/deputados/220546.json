@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 1,
   "aprovado": 3,
-  "tramitacao": 123,
+  "tramitacao": 124,
   "encerrado": 15,
-  "sem_informacao": 9
+  "sem_informacao": 8
  },
  "projetos": [
   {
@@ -28,9 +28,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 13.260, de 16 de março de 2016, para incluir entre os atos de terrorismo a invasão ou ocupação de imóvel rural que impeça o exercício da posse ou da atividade produtiva.",
    "apresentacao": "2026-09-18",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646666",
    "primeiro_autor": true
   },
@@ -80,7 +80,7 @@
    "ano": 2026,
    "ementa": "Altera o Decreto-Lei nº 667, de 2 de julho de 1969, que reorganiza as Polícias Militares e os Corpos de Bombeiros Militares dos Estados, dos Territórios e do Distrito Federal, e dá outras providências, para assegurar acesso a plano de saúde a policiais e bombeiros militares.",
    "apresentacao": "2026-04-30",
-   "situacao": "Pronta para Pauta",
+   "situacao": "Aguardando Deliberação",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2620243",
@@ -470,7 +470,7 @@
    "ano": 2025,
    "ementa": "Altera o Código de Processo Penal para tornar obrigatória a prisão preventiva em casos de violência contra a mulher, na audiência de custódia, salvo prova cabal de inexistência de risco.",
    "apresentacao": "2025-08-15",
-   "situacao": "Pronta para Pauta",
+   "situacao": "Aguardando Parecer",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2547124",

@@ -5,9 +5,22 @@
   "aprovado": 3,
   "tramitacao": 74,
   "encerrado": 8,
-  "sem_informacao": 7
+  "sem_informacao": 8
  },
  "projetos": [
+  {
+   "id": 2651263,
+   "sigla": "PL",
+   "numero": 5786,
+   "ano": 2026,
+   "ementa": "Altera a Lei nº 12.594, de 18 de janeiro de 2012, para vedar a visita íntima a adolescente privado de liberdade no âmbito do Sistema Nacional de Atendimento Socioeducativo (Sinase), e revoga o art. 68 da mesma Lei.",
+   "apresentacao": "2026-11-06",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651263",
+   "primeiro_autor": true
+  },
   {
    "id": 2650489,
    "sigla": "PL",
@@ -41,7 +54,7 @@
    "ano": 2026,
    "ementa": "Dispõe sobre o recolhimento e a destinação ambientalmente adequada de materiais utilizados em oferendas, rituais, cerimônias religiosas, manifestações culturais e atividades similares realizadas em espaços públicos e áreas ambientalmente sensíveis.",
    "apresentacao": "2026-08-14",
-   "situacao": "Aguardando Autorização do Despacho",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643816",
@@ -54,7 +67,7 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 9.394, de 20 de dezembro de 1996 (LDB), para incluir o estudo dos princípios e fundamentos da Constituição Federal na educação básica.",
    "apresentacao": "2026-07-15",
-   "situacao": "Aguardando Apensação",
+   "situacao": "Tramitando em Conjunto",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2639648",
@@ -80,7 +93,7 @@
    "ano": 2026,
    "ementa": "Dispõe sobre a criação de plataforma tecnológica para notificação em tempo real às vítimas de violência doméstica e familiar acerca da aproximação de agressores submetidos a medidas protetivas de urgência e monitoramento eletrônico.",
    "apresentacao": "2026-03-23",
-   "situacao": "Pronta para Pauta",
+   "situacao": "Aguardando Deliberação",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2611195",

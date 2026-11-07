@@ -2,10 +2,10 @@
  "id": 139285,
  "resumo": {
   "lei": 7,
-  "aprovado": 8,
+  "aprovado": 10,
   "tramitacao": 52,
   "encerrado": 5,
-  "sem_informacao": 15
+  "sem_informacao": 13
  },
  "projetos": [
   {
@@ -41,7 +41,7 @@
    "ano": 2026,
    "ementa": "Institui a Política Nacional de Internacionalização da Educação Pública e cria o Programa Nacional Ganhe o Mundo.",
    "apresentacao": "2026-08-31",
-   "situacao": "Aguardando Autorização do Despacho",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2645036",
@@ -288,9 +288,9 @@
    "ano": 2025,
    "ementa": "Reconhecida a Romaria de Todos os Santos, que se realiza anualmente no município de Monte Santo, no estado da Bahia, como manifestação da cultura nacional.",
    "apresentacao": "2025-02-06",
-   "situacao": null,
+   "situacao": "Aguardando Autógrafos na Mesa",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "aprovado",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2483161",
    "primeiro_autor": true
   },
@@ -301,9 +301,9 @@
    "ano": 2025,
    "ementa": "Reconhece a Axé Music como manifestação da cultura nacional.",
    "apresentacao": "2025-02-06",
-   "situacao": null,
+   "situacao": "Aguardando Autógrafos na Mesa",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "aprovado",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2483160",
    "primeiro_autor": true
   },

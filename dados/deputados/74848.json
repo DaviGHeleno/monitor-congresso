@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 2,
   "aprovado": 3,
-  "tramitacao": 44,
+  "tramitacao": 45,
   "encerrado": 2,
-  "sem_informacao": 9
+  "sem_informacao": 8
  },
  "projetos": [
   {
@@ -28,9 +28,9 @@
    "ano": 2026,
    "ementa": "Dispõe sobre as empresas de contratação e colocação de gente do mar, sobre o emprego da gente do mar brasileira em embarcações de bandeira estrangeira autorizadas a operar em águas jurisdicionais brasileiras, sobre o direito ao desembarque ou à repatriação e dá outras providências.",
    "apresentacao": "2026-09-21",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646837",
    "primeiro_autor": true
   },

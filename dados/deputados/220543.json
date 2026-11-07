@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 3,
   "aprovado": 5,
-  "tramitacao": 110,
+  "tramitacao": 111,
   "encerrado": 22,
-  "sem_informacao": 15
+  "sem_informacao": 14
  },
  "projetos": [
   {
@@ -54,9 +54,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei n° 8.069, de 13 de julho de 1990, para incentivar o estabelecimento de diretrizes de segurança na assistência ao trabalho de parto, promovendo a identificação precoce de sinais de distocias e de comprometimento materno ou fetal durante o trabalho de parto.",
    "apresentacao": "2026-09-17",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646662",
    "primeiro_autor": true
   },
@@ -67,7 +67,7 @@
    "ano": 2026,
    "ementa": "Institui o Programa Nacional de Acesso a Pesquisas e Ensaios Clínicos para Pessoas com Doenças Raras e Ultrarraras sem Tratamento Disponível, no âmbito do Sistema Único de Saúde (SUS), e dá outras providências.",
    "apresentacao": "2026-09-16",
-   "situacao": "Aguardando Autorização do Despacho",
+   "situacao": "Aguardando Chancela e Publicação do Despacho",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646511",
@@ -80,7 +80,7 @@
    "ano": 2026,
    "ementa": "Altera o caput do art. 22 da Lei nº 9.394, de 20 de dezembro de 1996, para incluir, entre as finalidades da educação básica, a compreensão do funcionamento das instituições públicas, das finanças públicas e dos mecanismos de transparência, participação e controle social.",
    "apresentacao": "2026-09-16",
-   "situacao": "Aguardando Autorização do Despacho",
+   "situacao": "Aguardando Chancela e Publicação do Despacho",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646507",
@@ -223,7 +223,7 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 9.503, de 23 de setembro de 1997 – Código de Trânsito Brasileiro, para disciplinar a remoção de veículos abandonados em propriedade privada.",
    "apresentacao": "2026-08-17",
-   "situacao": "Aguardando Autorização do Despacho",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643935",
@@ -457,7 +457,7 @@
    "ano": 2025,
    "ementa": "Altera a Lei nº 10.257, de 10 de julho de 2001 (Estatuto da Cidade), para instituir o sistema interfederativo de informações urbanas, sob coordenação da União, e dá outras providências.",
    "apresentacao": "2025-11-11",
-   "situacao": "Pronta para Pauta",
+   "situacao": "Aguardando Deliberação",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2583438",
@@ -977,7 +977,7 @@
    "ano": 2024,
    "ementa": "Altera a Lei nº 8.078, de 11 de setembro de 1990, “que dispõe sobre a proteção do consumidor e dá outras providências”, para incluir, como causa obstativa da decadência, a formalização de reclamação junto a órgão de defesa do consumidor.",
    "apresentacao": "2024-06-14",
-   "situacao": "Pronta para Pauta",
+   "situacao": "Aguardando Deliberação",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2440839",

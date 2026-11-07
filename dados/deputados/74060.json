@@ -2,8 +2,8 @@
  "id": 74060,
  "resumo": {
   "lei": 0,
-  "aprovado": 1,
-  "tramitacao": 38,
+  "aprovado": 0,
+  "tramitacao": 39,
   "encerrado": 4,
   "sem_informacao": 6
  },
@@ -171,9 +171,9 @@
    "ano": 2025,
    "ementa": "Institui o Dia Nacional do Frentista",
    "apresentacao": "2025-05-14",
-   "situacao": "Aguardando Redação Final",
+   "situacao": "Aguardando Parecer",
    "situacao_data": null,
-   "categoria": "aprovado",
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2508903",
    "primeiro_autor": true
   },

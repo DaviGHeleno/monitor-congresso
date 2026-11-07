@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 0,
-  "tramitacao": 5,
+  "tramitacao": 6,
   "encerrado": 0,
-  "sem_informacao": 1
+  "sem_informacao": 0
  },
  "projetos": [
   {
@@ -67,9 +67,9 @@
    "ano": 2025,
    "ementa": "Inclui, na grade curricular obrigatória dos cursos de Licenciaturas e Pedagogia no Ensino Superior, as disciplinas Neurociências, Física Quântica e Ensino Transdisciplinar por Problemas e/ou Necessidades, com o objetivo de transformar o processo educativo, alinhando o pensamento, visão, sentimento e ação dos estudantes, promovendo o êxito no projeto de vida de cada estudante.",
    "apresentacao": "2025-10-15",
-   "situacao": null,
+   "situacao": "Aguardando Recurso",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2572437",
    "primeiro_autor": true
   },
