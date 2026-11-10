@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 2,
   "aprovado": 0,
-  "tramitacao": 55,
+  "tramitacao": 56,
   "encerrado": 5,
-  "sem_informacao": 8
+  "sem_informacao": 7
  },
  "projetos": [
   {
@@ -15,9 +15,9 @@
    "ano": 2026,
    "ementa": "Altera as Leis nº 14.597, de 14 de junho de 2023, e nº 15.522, de 28 de setembro de 2026, para estabelecer que atletas nascidos em países integrantes do Mercado Comum do Sul – Mercosul não sejam considerados estrangeiros para fins esportivos, especialmente para inscrição, registro, escalação, participação e composição de equipes e elencos.",
    "apresentacao": "2026-10-02",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2647289",
    "primeiro_autor": true
   },
@@ -28,7 +28,7 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 14.790, de 29 de dezembro de 2023, para estabelecer limites prudenciais obrigatórios para as apostas realizadas nas plataformas de apostas de quota fixa (bets) e restringir o uso de sistemas de jogos que possam estimular comportamentos de risco.",
    "apresentacao": "2026-09-21",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+   "situacao": "Aguardando Autorização do Despacho",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646840",

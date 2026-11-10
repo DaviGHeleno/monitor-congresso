@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 3,
   "aprovado": 2,
-  "tramitacao": 90,
+  "tramitacao": 91,
   "encerrado": 9,
-  "sem_informacao": 5
+  "sem_informacao": 4
  },
  "projetos": [
   {
@@ -28,9 +28,9 @@
    "ano": 2026,
    "ementa": "Acrescenta artigo à Lei nº 7.565, de 19 de dezembro de 1986, que dispõe sobre o Código Brasileiro de Aeronáutica, para exigir a instalação de Gravador de Voz da Cabine (Cockpit Voice Recorder - CVR) e Gravador de Dados de Voo (Flight Data Recorder - FDR), equipamento de comunicação por Datalink com o controle de tráfego aéreo, quando a aeronave tiver sofrido grandes modificações aviônicas, e gerador de impulsos acústicos acionado automaticamente em contato com a água para localização subaquática (Underwater Locator Beacon - ULB).",
    "apresentacao": "2026-09-22",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646921",
    "primeiro_autor": true
   },

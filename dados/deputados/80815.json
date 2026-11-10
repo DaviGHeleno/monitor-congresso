@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 1,
   "aprovado": 3,
-  "tramitacao": 92,
+  "tramitacao": 91,
   "encerrado": 5,
-  "sem_informacao": 8
+  "sem_informacao": 9
  },
  "projetos": [
   {
@@ -457,7 +457,7 @@
    "ano": 2025,
    "ementa": "Altera a Lei nº 12.764, de 27 de dezembro de 2012, para obrigar o Sistema Único de Saúde a disponibilizar testes automatizados de rastreamento ocular para detecção do transtorno do espectro autista",
    "apresentacao": "2025-07-15",
-   "situacao": "Pronta para Pauta",
+   "situacao": "Aguardando Deliberação",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2536567",
@@ -1315,9 +1315,9 @@
    "ano": 2023,
    "ementa": "Altera o §1º do art. 25 da Lei n° 14.113 de 25 de dezembro de 2020, que regulamenta o Fundo de Manutenção e Desenvolvimento da Educação Básica e de Valorização dos Profissionais da Educação (Fundeb), e dá outras providências",
    "apresentacao": "2023-02-06",
-   "situacao": "Tramitando em Conjunto",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2347086",
    "primeiro_autor": true
   },

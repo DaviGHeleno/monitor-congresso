@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 1,
-  "tramitacao": 59,
+  "tramitacao": 60,
   "encerrado": 6,
-  "sem_informacao": 11
+  "sem_informacao": 10
  },
  "projetos": [
   {
@@ -67,9 +67,9 @@
    "ano": 2026,
    "ementa": "Reconhece as expressões culturais e populares dedicadas a Nossa Senhora Aparecida, Padroeira do Brasil, como Patrimônio Cultural Imaterial do Brasil.",
    "apresentacao": "2026-09-28",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2647188",
    "primeiro_autor": false
   },

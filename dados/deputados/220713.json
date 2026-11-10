@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 4,
-  "tramitacao": 54,
+  "tramitacao": 53,
   "encerrado": 5,
-  "sem_informacao": 13
+  "sem_informacao": 14
  },
  "projetos": [
   {
@@ -470,7 +470,7 @@
    "ano": 2024,
    "ementa": "“Institui a Campanha de Conscientização e Prevenção contra Crimes Cibernéticos, cometidos por meio do uso indevido da inteligência artificial, contra crianças e adolescentes.”",
    "apresentacao": "2024-02-06",
-   "situacao": "Pronta para Pauta",
+   "situacao": "Aguardando Deliberação",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2417362",
@@ -626,9 +626,9 @@
    "ano": 2023,
    "ementa": "Altera os artigos 26 e 36  da Lei nº 9.394  20 de dezembro de 1996 (Lei de Diretrizes e Bases de Educação) e dá outras providências.",
    "apresentacao": "2023-10-03",
-   "situacao": "Tramitando em Conjunto",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2392938",
    "primeiro_autor": true
   },

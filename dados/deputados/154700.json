@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 0,
-  "tramitacao": 14,
+  "tramitacao": 15,
   "encerrado": 0,
-  "sem_informacao": 2
+  "sem_informacao": 1
  },
  "projetos": [
   {
@@ -15,9 +15,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 9.504, de 30 de setembro de 1997 (Lei das Eleições), para vedar a utilização de banners de haste flexível (wind banners, fly banners e assemelhados) na propaganda eleitoral.",
    "apresentacao": "2026-10-13",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2647503",
    "primeiro_autor": true
   },

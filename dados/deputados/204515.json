@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 2,
-  "tramitacao": 16,
+  "tramitacao": 17,
   "encerrado": 1,
-  "sem_informacao": 2
+  "sem_informacao": 1
  },
  "projetos": [
   {
@@ -15,9 +15,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 8.213, de 24 de julho de 1991, para assegurar o pagamento em dobro do abono anual a todos os aposentados do Regime Geral de Previdência Social.",
    "apresentacao": "2026-10-18",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2648334",
    "primeiro_autor": true
   },

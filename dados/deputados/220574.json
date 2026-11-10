@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 1,
   "aprovado": 6,
-  "tramitacao": 258,
+  "tramitacao": 259,
   "encerrado": 22,
-  "sem_informacao": 11
+  "sem_informacao": 10
  },
  "projetos": [
   {
@@ -548,9 +548,9 @@
    "ano": 2026,
    "ementa": "Susta os efeitos da Portaria nº 2.272, de 28 de outubro de 2026, da Coordenação-Geral de Políticas de Classificação Indicativa do Ministério da Justiça e Segurança Pública, que atribuiu ao programa “Record Kids: Desenhos Bíblicos” a classificação “não recomendado para menores de 12 anos”.",
    "apresentacao": "2026-11-03",
-   "situacao": null,
+   "situacao": "Prejudicialidade",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649826",
    "primeiro_autor": true
   },
@@ -2654,7 +2654,7 @@
    "ano": 2023,
    "ementa": "Dispõe sobre sanções políticas e econômicas relacionadas ao Hamas e ao Hezbollah, os classifica como grupos terroristas, e criminaliza manifestações de apoio a esses grupos.",
    "apresentacao": "2023-10-09",
-   "situacao": "Aguardando Vistas",
+   "situacao": "Aguardando Deliberação",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2394641",

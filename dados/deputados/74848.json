@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 2,
   "aprovado": 3,
-  "tramitacao": 45,
+  "tramitacao": 46,
   "encerrado": 2,
-  "sem_informacao": 8
+  "sem_informacao": 7
  },
  "projetos": [
   {
@@ -15,9 +15,9 @@
    "ano": 2026,
    "ementa": "Veda o controle ou a limitação, pelo empregador, do uso do banheiro durante a jornada de trabalho do empregado.",
    "apresentacao": "2026-09-29",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2647206",
    "primeiro_autor": true
   },

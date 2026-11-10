@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 2,
   "aprovado": 4,
-  "tramitacao": 56,
+  "tramitacao": 55,
   "encerrado": 5,
-  "sem_informacao": 8
+  "sem_informacao": 9
  },
  "projetos": [
   {
@@ -28,9 +28,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 9.656, de 3 de junho de 1998, para prever, nos planos privados de assistência à saúde, a cobertura do serviço de cuidador de pessoa idosa no âmbito da internação domiciliar prestada em substituição à internação hospitalar.",
    "apresentacao": "2026-09-29",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2647194",
    "primeiro_autor": true
   },
@@ -106,7 +106,7 @@
    "ano": 2026,
    "ementa": "Torna obrigatória a inserção dos links da bio nas redes sociais do parlamentar nas transmissões oficiais em que houver pronunciamento.",
    "apresentacao": "2026-09-29",
-   "situacao": "Ag. Análise de Inconstitucionalidade",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Autorização)",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2647193",
@@ -574,9 +574,9 @@
    "ano": 2024,
    "ementa": "Altera a redação do § 9º do art. 26 da Lei nº 9.394, de 1996, de diretrizes e bases da educação nacional, para inserir os direitos dos animais entre os temas transversais dos currículos da educação básica.",
    "apresentacao": "2024-07-17",
-   "situacao": "Tramitando em Conjunto",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2449713",
    "primeiro_autor": true
   },
@@ -808,9 +808,9 @@
    "ano": 2023,
    "ementa": "Institui o Dia do Lixo Zero em todas as escolas públicas e privadas da educação básica do país.",
    "apresentacao": "2023-08-02",
-   "situacao": "Tramitando em Conjunto",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2375105",
    "primeiro_autor": true
   },

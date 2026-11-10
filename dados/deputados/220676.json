@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 2,
   "aprovado": 0,
-  "tramitacao": 31,
+  "tramitacao": 32,
   "encerrado": 8,
-  "sem_informacao": 4
+  "sem_informacao": 3
  },
  "projetos": [
   {
@@ -28,9 +28,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei Complementar nº 64, de 18 de maio de 1990 (Lei de Inelegibilidades), para incluir, entre as causas de inelegibilidade decorrentes de condenação criminal, a lesão corporal praticada contra a mulher por razões da condição do sexo feminino.",
    "apresentacao": "2026-10-30",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649648",
    "primeiro_autor": false
   },

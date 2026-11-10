@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 1,
   "aprovado": 2,
-  "tramitacao": 37,
+  "tramitacao": 38,
   "encerrado": 2,
-  "sem_informacao": 7
+  "sem_informacao": 6
  },
  "projetos": [
   {
@@ -28,9 +28,9 @@
    "ano": 2026,
    "ementa": "Altera as Leis nºs 11.076, de 30 de dezembro de 2004 e 11.033, de 21 de dezembro de 2004 para instituir o Certificado de Recebíveis do Seguro Rural (CRSR).",
    "apresentacao": "2026-10-19",
-   "situacao": null,
+   "situacao": "Aguardando Autorização do Despacho",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2648382",
    "primeiro_autor": true
   },

@@ -3,11 +3,24 @@
  "resumo": {
   "lei": 20,
   "aprovado": 47,
-  "tramitacao": 233,
+  "tramitacao": 236,
   "encerrado": 14,
-  "sem_informacao": 45
+  "sem_informacao": 43
  },
  "projetos": [
+  {
+   "id": 2651340,
+   "sigla": "PL",
+   "numero": 5793,
+   "ano": 2026,
+   "ementa": "Dispõe sobre os recursos cabíveis contra as decisões judiciais que concedem, indeferem ou reveem as medidas protetivas de urgência previstas na Lei nº 11.340, de 7 de agosto de 2006 (Lei Maria da Penha).",
+   "apresentacao": "2026-11-06",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651340",
+   "primeiro_autor": true
+  },
   {
    "id": 2648292,
    "sigla": "PL",
@@ -15,9 +28,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 13.675, de 11 de junho de 2018, para instituir o Programa Brasil contra o Crime Organizado no âmbito da Política Nacional de Segurança Pública e Defesa Social",
    "apresentacao": "2026-10-15",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2648292",
    "primeiro_autor": true
   },
@@ -28,9 +41,9 @@
    "ano": 2026,
    "ementa": "Estabelece medidas destinadas a garantir o acesso à água potável e a proteção da saúde dos consumidores em eventos abertos ao público.",
    "apresentacao": "2026-10-02",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2647295",
    "primeiro_autor": true
   },
@@ -41,9 +54,9 @@
    "ano": 2026,
    "ementa": "Institui a Política Marítima Nacional (PMN), estabelece seus princípios, objetivos, diretrizes e parâmetros de implementação, e dá outras providências",
    "apresentacao": "2026-10-02",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2647293",
    "primeiro_autor": true
   },
@@ -1016,7 +1029,7 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 11.340, de 7 de agosto de 2006 (Lei Maria da Penha), a fim de determinar a isenção de custas processuais para a solicitação, a revisão e a adoção de medidas protetivas à mulher em situação de violência doméstica e familiar, independentemente de comprovação de hipossuficiência financeira.",
    "apresentacao": "2026-06-03",
-   "situacao": "Aguardando Encaminhamento",
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2630021",
@@ -1588,7 +1601,7 @@
    "ano": 2026,
    "ementa": "Acrescenta parágrafo único ao art. 106 da Lei nº 8.213, de 24 de julho de 1991, para dispor sobre o reconhecimento do exercício de atividade rural em período anterior ao documento mais antigo apresentado, para fins de concessão de benefício previdenciário, desde que exista início de prova material corroborado por prova testemunhal idônea, colhida sob o contraditório",
    "apresentacao": "2026-02-02",
-   "situacao": "Pronta para Pauta",
+   "situacao": "Aguardando Deliberação",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2600321",

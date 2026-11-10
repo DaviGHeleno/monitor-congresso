@@ -5,7 +5,7 @@
   "aprovado": 0,
   "tramitacao": 74,
   "encerrado": 7,
-  "sem_informacao": 13
+  "sem_informacao": 15
  },
  "projetos": [
   {
@@ -422,6 +422,32 @@
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2605327",
+   "primeiro_autor": true
+  },
+  {
+   "id": 2651866,
+   "sigla": "PLP",
+   "numero": 288,
+   "ano": 2026,
+   "ementa": "Altera a Lei Complementar nº 101, de 4 de maio de 2000, para ampliar o intervalo de tolerância para verificação do cumprimento das metas anuais de resultado primário da União.",
+   "apresentacao": "2026-11-09",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651866",
+   "primeiro_autor": true
+  },
+  {
+   "id": 2651858,
+   "sigla": "PLP",
+   "numero": 287,
+   "ano": 2026,
+   "ementa": "Exclui os investimentos públicos dos limites de despesas primárias e os protege da limitação de empenho e movimentação financeira no âmbito da União.",
+   "apresentacao": "2026-11-09",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651858",
    "primeiro_autor": true
   },
   {

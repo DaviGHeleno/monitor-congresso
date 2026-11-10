@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 3,
   "aprovado": 4,
-  "tramitacao": 286,
+  "tramitacao": 288,
   "encerrado": 22,
-  "sem_informacao": 31
+  "sem_informacao": 29
  },
  "projetos": [
   {
@@ -41,9 +41,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 9.504, de 30 de setembro de 1997 (Lei das Eleições) para proibir a restrição do alcance das redes sociais dos candidatos aos cargos eletivos, conhecido como “shadowban”, durante o período eleitoral.",
    "apresentacao": "2026-09-22",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646929",
    "primeiro_autor": true
   },
@@ -743,9 +743,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei Complementar nº 101, de 2000 (Lei de Responsabilidade Fiscal) e a Lei nº 9.504, de 1997 (Lei das Eleições), a fim de impedir a concessão de benefícios com a finalidade de influenciar as eleições",
    "apresentacao": "2026-10-30",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649667",
    "primeiro_autor": true
   },

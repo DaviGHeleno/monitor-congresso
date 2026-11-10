@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 2,
   "aprovado": 3,
-  "tramitacao": 118,
+  "tramitacao": 119,
   "encerrado": 7,
-  "sem_informacao": 10
+  "sem_informacao": 9
  },
  "projetos": [
   {
@@ -171,9 +171,9 @@
    "ano": 2026,
    "ementa": "Susta os efeitos da Portaria CGPCIND/DSPRAD/SEDIGI Nº 2.272, de 28 de outubro de  2026, que classifica a exibição de desenhos bíblicos não recomendado para menores de doze anos",
    "apresentacao": "2026-11-03",
-   "situacao": null,
+   "situacao": "Prejudicialidade",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649682",
    "primeiro_autor": true
   },

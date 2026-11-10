@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 4,
-  "tramitacao": 95,
+  "tramitacao": 94,
   "encerrado": 9,
-  "sem_informacao": 6
+  "sem_informacao": 7
  },
  "projetos": [
   {
@@ -54,7 +54,7 @@
    "ano": 2026,
    "ementa": "Dispõe sobre o estabelecimento de centros de acolhimento de pessoas idosas durante curta estadia.",
    "apresentacao": "2026-04-10",
-   "situacao": "Aguardando Parecer",
+   "situacao": "Aguardando Deliberação",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2615337",
@@ -704,9 +704,9 @@
    "ano": 2024,
    "ementa": "Altera a Lei nº 9.394 de 1996 para tornar obrigatória a abordagem sobre políticas públicas de limpeza urbana.",
    "apresentacao": "2024-08-21",
-   "situacao": "Tramitando em Conjunto",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2454321",
    "primeiro_autor": true
   },

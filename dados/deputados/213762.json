@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 1,
-  "tramitacao": 67,
+  "tramitacao": 68,
   "encerrado": 6,
-  "sem_informacao": 12
+  "sem_informacao": 11
  },
  "projetos": [
   {
@@ -15,9 +15,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 12.990, de 9 de junho de 2014, e a Lei nº 15.142, de 3 de junho de 2025, para estipular critérios objetivos, dever de motivação exauriente, gravação padronizada e responsabilização nos procedimentos de heteroidentificação no âmbito de concursos públicos e seleções de pós-graduação promovidos pela Administração Pública Federal.",
    "apresentacao": "2026-10-14",
-   "situacao": null,
+   "situacao": "Aguardando Autorização do Despacho",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2647657",
    "primeiro_autor": true
   },
@@ -431,7 +431,7 @@
    "ano": 2026,
    "ementa": "Institui o Marco Nacional de Reconhecimento Jurídico da Pessoa Idosa, estabelece categorias etárias para fins de proteção jurídica progressiva, fixa critérios gerais para aplicação dos direitos da pessoa idosa e dá outras providências.",
    "apresentacao": "2026-02-03",
-   "situacao": "Pronta para Pauta",
+   "situacao": "Aguardando Deliberação",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2600450",

@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 5,
   "aprovado": 7,
-  "tramitacao": 187,
+  "tramitacao": 189,
   "encerrado": 17,
-  "sem_informacao": 10
+  "sem_informacao": 8
  },
  "projetos": [
   {
@@ -15,9 +15,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 11.340, de 7 de agosto de 2006 (Lei Maria da Penha), para prever a notificação de atos processuais ao cônjuge, companheiro, ascendente, descendente ou irmão da ofendida na impossibilidade de sua notificação pessoal.",
    "apresentacao": "2026-10-07",
-   "situacao": null,
+   "situacao": "Aguardando Autorização do Despacho",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2647323",
    "primeiro_autor": true
   },
@@ -28,9 +28,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 8.080, de 19 de setembro de 1990, para especificar ações de telessaúde na assistência às pessoas com doenças raras.",
    "apresentacao": "2026-09-25",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2647149",
    "primeiro_autor": true
   },
@@ -2069,7 +2069,7 @@
    "ano": 2023,
    "ementa": "Dispõe sobre sanções políticas e econômicas relacionadas ao Hamas e ao Hezbollah, os classifica como grupos terroristas, e criminaliza manifestações de apoio a esses grupos.",
    "apresentacao": "2023-10-09",
-   "situacao": "Aguardando Vistas",
+   "situacao": "Aguardando Deliberação",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2394641",

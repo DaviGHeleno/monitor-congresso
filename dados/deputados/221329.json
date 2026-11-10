@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 1,
-  "tramitacao": 38,
+  "tramitacao": 39,
   "encerrado": 1,
-  "sem_informacao": 3
+  "sem_informacao": 2
  },
  "projetos": [
   {
@@ -15,9 +15,9 @@
    "ano": 2026,
    "ementa": "Institui a Lei de Restituição Integral e Reparação ao Apostador, para disciplinar o direito à devolução e ao ressarcimento de valores e perdas decorrentes de operações de apostas de quota fixa (popularmente conhecidas como 'bets') realizadas no território nacional, estabelece regras de apuração da perda líquida, deveres de informação, transparência e rastreabilidade pelas operadoras, e dá outras providências.",
    "apresentacao": "2026-10-01",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2647274",
    "primeiro_autor": true
   },

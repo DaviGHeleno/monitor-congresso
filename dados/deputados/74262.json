@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 0,
-  "tramitacao": 30,
+  "tramitacao": 31,
   "encerrado": 2,
-  "sem_informacao": 2
+  "sem_informacao": 1
  },
  "projetos": [
   {
@@ -15,9 +15,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 14.601, de 19 de junho de 2023, para estabelecer periodicidade anual e critério objetivo para a correção dos benefícios financeiros do Programa Bolsa Família e dispor sobre a transparência na divulgação de seus reajustes.",
    "apresentacao": "2026-09-24",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646973",
    "primeiro_autor": true
   },

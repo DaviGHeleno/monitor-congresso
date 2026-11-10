@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 2,
   "aprovado": 7,
-  "tramitacao": 116,
+  "tramitacao": 120,
   "encerrado": 12,
-  "sem_informacao": 10
+  "sem_informacao": 6
  },
  "projetos": [
   {
@@ -15,9 +15,9 @@
    "ano": 2026,
    "ementa": "Institui o Programa de Acesso Orientado à Atividade Física para pessoas de baixa renda e estabelece diretrizes para sua implementação",
    "apresentacao": "2026-09-24",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646987",
    "primeiro_autor": true
   },
@@ -28,9 +28,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 8.069, de 13 de julho de 1990 – Estatuto da Criança e do Adolescente, para aperfeiçoar as diretrizes relativas à produção de estudos, pesquisas e informações sobre a violência contra crianças e adolescentes",
    "apresentacao": "2026-09-23",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646956",
    "primeiro_autor": true
   },
@@ -41,9 +41,9 @@
    "ano": 2026,
    "ementa": "Institui o Dia Nacional de Enfrentamento à Violência Sexual contra Crianças e Adolescentes no Ambiente Digital.",
    "apresentacao": "2026-09-22",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646920",
    "primeiro_autor": true
   },
@@ -171,9 +171,9 @@
    "ano": 2026,
    "ementa": "Susta os efeitos da Portaria nº 2.272, do Ministério da Justiça e Segurança Pública, que altera a classificação indicativa do programa \"Record Kids – Desenhos Bíblicos\".",
    "apresentacao": "2026-11-03",
-   "situacao": null,
+   "situacao": "Prejudicialidade",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649702",
    "primeiro_autor": true
   },
@@ -1744,7 +1744,7 @@
    "ano": 2023,
    "ementa": "Autoriza ao Poder Executivo Federal promover a criação e o funcionamento ininterrupto das Delegacias Especializadas de Proteção e Atendimento à criança e ao adolescente.",
    "apresentacao": "2023-04-13",
-   "situacao": "Pronta para Pauta",
+   "situacao": "Aguardando Deliberação",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2356228",

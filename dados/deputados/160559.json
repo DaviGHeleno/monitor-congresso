@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 2,
   "aprovado": 3,
-  "tramitacao": 66,
+  "tramitacao": 65,
   "encerrado": 4,
-  "sem_informacao": 3
+  "sem_informacao": 4
  },
  "projetos": [
   {
@@ -210,9 +210,9 @@
    "ano": 2025,
    "ementa": "Altera a Lei nº 7.678, de 8 de novembro de 1988, que dispõe sobre a produção, circulação e comercialização do vinho e derivados da uva e do vinho, para incluir o vinagre colonial no regime jurídico aplicável ao vinho colonial produzido por agricultor familiar, e dá outras providências.",
    "apresentacao": "2025-12-18",
-   "situacao": "Aguardando Encaminhamento",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2598491",
    "primeiro_autor": true
   },

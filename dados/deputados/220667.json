@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 5,
   "aprovado": 4,
-  "tramitacao": 75,
+  "tramitacao": 78,
   "encerrado": 7,
-  "sem_informacao": 13
+  "sem_informacao": 10
  },
  "projetos": [
   {
@@ -15,9 +15,9 @@
    "ano": 2026,
    "ementa": "Dispõe sobre a disponibilização e a utilização de canais institucionais de comunicação e sobre o registro das informações produzidas ou recebidas no exercício da função pública, no âmbito dos Poderes da União, do Tribunal de Contas da União, do Ministério Público da União e da Defensoria Pública da União.",
    "apresentacao": "2026-10-13",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2647501",
    "primeiro_autor": true
   },
@@ -28,9 +28,9 @@
    "ano": 2026,
    "ementa": "Confere ao Município de Nazaré da Mata, no Estado de Pernambuco, o título de Capital Nacional do Maracatu de Baque Solto.",
    "apresentacao": "2026-10-01",
-   "situacao": null,
+   "situacao": "Aguardando Autorização do Despacho",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2647281",
    "primeiro_autor": true
   },
@@ -41,9 +41,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 12.212, de 20 de janeiro de 2010, para ampliar a faixa de consumo com desconto integral da Tarifa Social de Energia Elétrica em razão do uso de equipamentos necessários a tratamento de saúde no domicílio.",
    "apresentacao": "2026-10-01",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2647280",
    "primeiro_autor": true
   },
@@ -171,9 +171,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei Complementar nº 64, de 18 de maio de 1990 (Lei de Inelegibilidades), para incluir, entre as causas de inelegibilidade decorrentes de condenação criminal, a lesão corporal praticada contra a mulher por razões da condição do sexo feminino.",
    "apresentacao": "2026-10-30",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649648",
    "primeiro_autor": false
   },
@@ -1133,9 +1133,9 @@
    "ano": 2023,
    "ementa": "Altera a Lei nº 9.394, de 20 de dezembro de 1996, para incluir a educação climática como base da educação escolar.",
    "apresentacao": "2023-06-06",
-   "situacao": "Tramitando em Conjunto",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2367806",
    "primeiro_autor": false
   },

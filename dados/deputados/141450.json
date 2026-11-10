@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 1,
   "aprovado": 1,
-  "tramitacao": 55,
+  "tramitacao": 56,
   "encerrado": 1,
-  "sem_informacao": 6
+  "sem_informacao": 5
  },
  "projetos": [
   {
@@ -15,9 +15,9 @@
    "ano": 2026,
    "ementa": "Denomina “Viaduto Nivaldo Nilton Thedim” o viaduto localizado no Km 80 da BR-116, entroncamento com a RJ-130, no bairro Prata, Município de Teresópolis, Estado do Rio de Janeiro.",
    "apresentacao": "2026-09-28",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2647162",
    "primeiro_autor": true
   },
@@ -41,7 +41,7 @@
    "ano": 2026,
    "ementa": "Dispõe sobre os requisitos para implantação, operação e fiscalização dos sistemas de estacionamento rotativo pago e altera a Lei nº 9.503, de 23 de setembro de 1997 - Código de Trânsito Brasileiro.",
    "apresentacao": "2026-08-20",
-   "situacao": "Ag. Análise de Inconstitucionalidade",
+   "situacao": "Aguardando Autorização do Despacho",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644271",
