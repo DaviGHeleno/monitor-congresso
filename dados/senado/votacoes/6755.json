@@ -1,0 +1,595 @@
+{
+ "id": "6755",
+ "data": "2023-09-27",
+ "data_hora": "2023-09-27",
+ "descricao": "Votação nominal do Requerimento nº 31, de 2023, da CCJ - Solicita urgência para o PL nº 2.903/2023.",
+ "resultado": "aprovada",
+ "tipo": "procedimental",
+ "proposicao": {
+  "id": 160211,
+  "sigla": "REQ",
+  "numero": 31,
+  "ano": 2023,
+  "ementa": "Requer urgência para o PL 2903/2023",
+  "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/160211"
+ },
+ "totais": {
+  "Sim": 41,
+  "Não": 20,
+  "Presidente": 1
+ },
+ "totais_fonte": "votos",
+ "votos_disponiveis": true,
+ "secreta": false,
+ "informe": "Apresentado requerimento (Urgência para matéria) na Comissão nesta data às 14:24.",
+ "votos": [
+  [
+   5672,
+   "UNIÃO",
+   "AC",
+   "Sim",
+   "Alan Rick"
+  ],
+  [
+   5982,
+   "MDB",
+   "SE",
+   "Não",
+   "Alessandro Vieira"
+  ],
+  [
+   6358,
+   "PSB",
+   "MA",
+   "Não",
+   "Ana Paula Lobato"
+  ],
+  [
+   5967,
+   "PSD",
+   "BA",
+   "Missão oficial",
+   "Angelo Coronel"
+  ],
+  [
+   6009,
+   "PL",
+   "SP",
+   "Missão oficial",
+   "Astronauta Marcos Pontes"
+  ],
+  [
+   6350,
+   "PT",
+   "CE",
+   "Presente, não votou",
+   "Augusta Brito"
+  ],
+  [
+   4639,
+   "PT",
+   "PA",
+   "Não",
+   "Beto Faro"
+  ],
+  [
+   5936,
+   "PL",
+   "RJ",
+   "Ausente em atividade parlamentar",
+   "Carlos Portinho"
+  ],
+  [
+   5990,
+   "PODE",
+   "MG",
+   "Sim",
+   "Carlos Viana"
+  ],
+  [
+   470,
+   "PSB",
+   "RR",
+   "Missão oficial",
+   "Chico Rodrigues"
+  ],
+  [
+   5973,
+   "PDT",
+   "CE",
+   "Sim",
+   "Cid Gomes"
+  ],
+  [
+   739,
+   "PP",
+   "PI",
+   "Sim",
+   "Ciro Nogueira"
+  ],
+  [
+   6337,
+   "REPUBLICANOS",
+   "MG",
+   "Sim",
+   "Cleitinho"
+  ],
+  [
+   475,
+   "MDB",
+   "RO",
+   "Não",
+   "Confúcio Moura"
+  ],
+  [
+   6335,
+   "REPUBLICANOS",
+   "DF",
+   "Sim",
+   "Damares Alves"
+  ],
+  [
+   5998,
+   "PSD",
+   "PB",
+   "Sim",
+   "Daniella Ribeiro"
+  ],
+  [
+   3830,
+   "UNIÃO",
+   "AP",
+   "Sim",
+   "Davi Alcolumbre"
+  ],
+  [
+   5793,
+   "PP",
+   "RR",
+   "Sim",
+   "Dr. Hiran"
+  ],
+  [
+   4994,
+   "MDB",
+   "AM",
+   "Não",
+   "Eduardo Braga"
+  ],
+  [
+   5976,
+   "NOVO",
+   "CE",
+   "Sim",
+   "Eduardo Girão"
+  ],
+  [
+   3777,
+   "PL",
+   "TO",
+   "Sim",
+   "Eduardo Gomes"
+  ],
+  [
+   4642,
+   "UNIÃO",
+   "PB",
+   "Sim",
+   "Efraim Filho"
+  ],
+  [
+   5718,
+   "PSD",
+   "MA",
+   "Não",
+   "Eliziane Gama"
+  ],
+  [
+   22,
+   "PP",
+   "SC",
+   "Sim",
+   "Esperidião Amin"
+  ],
+  [
+   5953,
+   "PT",
+   "ES",
+   "Não",
+   "Fabiano Contarato"
+  ],
+  [
+   5917,
+   "MDB",
+   "PE",
+   "Não",
+   "Fernando Dueire"
+  ],
+  [
+   6345,
+   "MDB",
+   "AL",
+   "Não",
+   "Fernando Farias"
+  ],
+  [
+   345,
+   "PSB",
+   "PR",
+   "Sim",
+   "Flávio Arns"
+  ],
+  [
+   5894,
+   "PL",
+   "RJ",
+   "Ausente em atividade parlamentar",
+   "Flávio Bolsonaro"
+  ],
+  [
+   6008,
+   "MDB",
+   "SP",
+   "Presente, não votou",
+   "Giordano"
+  ],
+  [
+   6341,
+   "REPUBLICANOS",
+   "RS",
+   "Sim",
+   "Hamilton Mourão"
+  ],
+  [
+   5008,
+   "PT",
+   "PE",
+   "Não",
+   "Humberto Costa"
+  ],
+  [
+   5385,
+   "PSD",
+   "TO",
+   "Ausente em atividade parlamentar",
+   "Irajá"
+  ],
+  [
+   6010,
+   "MDB",
+   "SC",
+   "Licença saúde",
+   "Ivete da Silveira"
+  ],
+  [
+   4770,
+   "PSDB",
+   "DF",
+   "Ausente em atividade parlamentar",
+   "Izalci Lucas"
+  ],
+  [
+   35,
+   "MDB",
+   "PA",
+   "Ausente em atividade parlamentar",
+   "Jader Barbalho"
+  ],
+  [
+   6340,
+   "PL",
+   "RO",
+   "Sim",
+   "Jaime Bagattoli"
+  ],
+  [
+   581,
+   "PT",
+   "BA",
+   "Não",
+   "Jaques Wagner"
+  ],
+  [
+   4531,
+   "UNIÃO",
+   "MT",
+   "Sim",
+   "Jayme Campos"
+  ],
+  [
+   5895,
+   "PSB",
+   "GO",
+   "Não",
+   "Jorge Kajuru"
+  ],
+  [
+   6342,
+   "PL",
+   "SC",
+   "Sim",
+   "Jorge Seif"
+  ],
+  [
+   6369,
+   "PSD",
+   "PI",
+   "Não",
+   "Jussara Lima"
+  ],
+  [
+   4811,
+   "PP",
+   "SE",
+   "Sim",
+   "Laércio Oliveira"
+  ],
+  [
+   5979,
+   "PDT",
+   "DF",
+   "Não",
+   "Leila Barros"
+  ],
+  [
+   5926,
+   "PSD",
+   "AP",
+   "Sim",
+   "Lucas Barreto"
+  ],
+  [
+   1186,
+   "PP",
+   "RS",
+   "Licença saúde",
+   "Luis Carlos Heinze"
+  ],
+  [
+   631,
+   "PL",
+   "ES",
+   "Sim",
+   "Magno Malta"
+  ],
+  [
+   5376,
+   "PSD",
+   "SP",
+   "Licença saúde",
+   "Mara Gabrilli"
+  ],
+  [
+   742,
+   "MDB",
+   "PI",
+   "Presente, não votou",
+   "Marcelo Castro"
+  ],
+  [
+   285,
+   "UNIÃO",
+   "AC",
+   "Sim",
+   "Marcio Bittar"
+  ],
+  [
+   5422,
+   "PL",
+   "RO",
+   "Sim",
+   "Marcos Rogério"
+  ],
+  [
+   5942,
+   "PODE",
+   "ES",
+   "Sim",
+   "Marcos do Val"
+  ],
+  [
+   6304,
+   "PSD",
+   "MT",
+   "Sim",
+   "Margareth Buzetti"
+  ],
+  [
+   6362,
+   "UNIÃO",
+   "MT",
+   "Sim",
+   "Mauro Carvalho Junior"
+  ],
+  [
+   6027,
+   "REPUBLICANOS",
+   "RR",
+   "Sim",
+   "Mecias de Jesus"
+  ],
+  [
+   5985,
+   "PSD",
+   "MS",
+   "Missão oficial",
+   "Nelsinho Trad"
+  ],
+  [
+   5525,
+   "PSD",
+   "AM",
+   "Presente, não votou",
+   "Omar Aziz"
+  ],
+  [
+   5924,
+   "PODE",
+   "PR",
+   "Sim",
+   "Oriovisto Guimarães"
+  ],
+  [
+   5523,
+   "PSD",
+   "BA",
+   "Não",
+   "Otto Alencar"
+  ],
+  [
+   825,
+   "PT",
+   "RS",
+   "Não",
+   "Paulo Paim"
+  ],
+  [
+   5502,
+   "PSDB",
+   "AM",
+   "Sim",
+   "Plínio Valério"
+  ],
+  [
+   5386,
+   "UNIÃO",
+   "TO",
+   "Sim",
+   "Professora Dorinha Seabra"
+  ],
+  [
+   5012,
+   "REDE",
+   "AP",
+   "Não",
+   "Randolfe Rodrigues"
+  ],
+  [
+   70,
+   "MDB",
+   "AL",
+   "Não",
+   "Renan Calheiros"
+  ],
+  [
+   5905,
+   "PODE",
+   "AL",
+   "Sim",
+   "Rodrigo Cunha"
+  ],
+  [
+   5732,
+   "PSD",
+   "MG",
+   "Presidente",
+   "Rodrigo Pacheco"
+  ],
+  [
+   4694,
+   "PL",
+   "RN",
+   "Sim",
+   "Rogerio Marinho"
+  ],
+  [
+   5352,
+   "PT",
+   "SE",
+   "Não",
+   "Rogério Carvalho"
+  ],
+  [
+   5322,
+   "PL",
+   "RJ",
+   "Sim",
+   "Romário"
+  ],
+  [
+   6331,
+   "UNIÃO",
+   "PR",
+   "Sim",
+   "Sergio Moro"
+  ],
+  [
+   5988,
+   "PODE",
+   "MS",
+   "Sim",
+   "Soraya Thronicke"
+  ],
+  [
+   5959,
+   "PODE",
+   "RN",
+   "Sim",
+   "Styvenson Valentim"
+  ],
+  [
+   4560,
+   "PSD",
+   "AC",
+   "Missão oficial",
+   "Sérgio Petecão"
+  ],
+  [
+   6338,
+   "PT",
+   "PE",
+   "Missão oficial",
+   "Teresa Leitão"
+  ],
+  [
+   5736,
+   "PP",
+   "MS",
+   "Sim",
+   "Tereza Cristina"
+  ],
+  [
+   5899,
+   "PSD",
+   "GO",
+   "Sim",
+   "Vanderlan Cardoso"
+  ],
+  [
+   5748,
+   "MDB",
+   "PB",
+   "Ausente em atividade parlamentar",
+   "Veneziano Vital do Rêgo"
+  ],
+  [
+   5411,
+   "PDT",
+   "MA",
+   "Sim",
+   "Weverton"
+  ],
+  [
+   5070,
+   "PL",
+   "GO",
+   "Sim",
+   "Wilder Morais"
+  ],
+  [
+   5783,
+   "PSD",
+   "RN",
+   "Não",
+   "Zenaide Maia"
+  ],
+  [
+   3806,
+   "PODE",
+   "PA",
+   "Sim",
+   "Zequinha Marinho"
+  ]
+ ],
+ "url_api": "https://legis.senado.leg.br/dadosabertos/votacao?codigoSessao=359754"
+}

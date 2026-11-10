@@ -1,0 +1,595 @@
+{
+ "id": "6849",
+ "data": "2024-07-03",
+ "data_hora": "2024-07-03",
+ "descricao": "Votação nominal da Emenda nº 26 ao Projeto de Lei nº 2.308, de 2023, destacada.",
+ "resultado": "rejeitada",
+ "tipo": "merito",
+ "proposicao": {
+  "id": 161391,
+  "sigla": "PL",
+  "numero": 2308,
+  "ano": 2023,
+  "ementa": "Institui o marco legal do hidrogênio de baixa emissão de carbono; dispõe sobre a Política Nacional do Hidrogênio de Baixa Emissão de Carbono; institui incentivos para a indústria do hidrogênio de baixa emissão de carbono; institui o Regime Especial de Incentivos para a Produção de Hidrogênio de Baixa Emissão de Carbono (Rehidro); cria o Programa de Desenvolvimento do Hidrogênio de Baixa Emissão de Carbono (PHBC); e altera as Leis nºs 9.427, de 26 de dezembro de 1996, e 9.478, de 6 de agosto de 1997.",
+  "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/161391"
+ },
+ "totais": {
+  "Não": 50,
+  "Sim": 8,
+  "Presidente": 1
+ },
+ "totais_fonte": "votos",
+ "votos_disponiveis": true,
+ "secreta": false,
+ "informe": "(Sessão Deliberativa Ordinária realizada em 03/07/2024) \r\nÀ deliberação dos destaques: \r\n- Rejeitado o art. 38 constante da Emenda nº 20, com os votos contrários dos senadores Cid Gomes, Marcelo Castro, Lucas Barreto, Carlos Viana, André Amaral e Flavio Azevedo;  \r\n- Rejeitada a Emenda nº 24, nos termos do inciso XVII do art. 300 do Regimento Interno do Senado.  \r\n- Rejeitada a Emenda nº 26, considerando o seguinte resultado: sim – 8, não – 50, Presidente – 1, total – 59 (Verificação de votação, por meio do processo nominal, solicitada pelo Senador Cid Gomes com apoiamento regimental); e  \r\n- Rejeitada a Emenda nº 25, nos termos do inciso XVII do art. 300 do Regimento Interno do Senado.  \r\nEncaminhado à publicação o Parecer nº 100, de 2024-PLEN/SF, da Comissão Diretora, oferecendo a redação final. \r\nEncaminhada à publicação a Emenda nº 45-PLEN/SF, de redação, à redação final. \r\nEncaminhado à publicação o Parecer nº 101, de 2024-PLEN/SF, proferido pelo Senador Otto Alencar, favorável à Emenda nº 45-PLEN/SF. \r\nAprovada a redação final com a Emenda nº 45-PLEN/SF. \r\nEncaminhado à publicação o Parecer nº 102, de 2024-PLEN/SF, da Comissão Diretora, oferecendo nova redação final.  \r\nAprovada a redação final, nos termos do parecer. \r\nA matéria retorna à Câmara dos Deputados.",
+ "votos": [
+  [
+   5672,
+   "UNIÃO",
+   "AC",
+   "Não",
+   "Alan Rick"
+  ],
+  [
+   5982,
+   "MDB",
+   "SE",
+   "Não",
+   "Alessandro Vieira"
+  ],
+  [
+   6358,
+   "PDT",
+   "MA",
+   "Não",
+   "Ana Paula Lobato"
+  ],
+  [
+   6366,
+   "UNIÃO",
+   "PB",
+   "Não",
+   "André Amaral"
+  ],
+  [
+   5967,
+   "PSD",
+   "BA",
+   "Ausente em atividade parlamentar",
+   "Angelo Coronel"
+  ],
+  [
+   6009,
+   "PL",
+   "SP",
+   "Não",
+   "Astronauta Marcos Pontes"
+  ],
+  [
+   4639,
+   "PT",
+   "PA",
+   "Não",
+   "Beto Faro"
+  ],
+  [
+   5936,
+   "PL",
+   "RJ",
+   "Ausente em atividade parlamentar",
+   "Carlos Portinho"
+  ],
+  [
+   5990,
+   "PODE",
+   "MG",
+   "Não",
+   "Carlos Viana"
+  ],
+  [
+   470,
+   "PSB",
+   "RR",
+   "Sim",
+   "Chico Rodrigues"
+  ],
+  [
+   5973,
+   "PSB",
+   "CE",
+   "Sim",
+   "Cid Gomes"
+  ],
+  [
+   739,
+   "PP",
+   "PI",
+   "Presente, não votou",
+   "Ciro Nogueira"
+  ],
+  [
+   6337,
+   "REPUBLICANOS",
+   "MG",
+   "Não",
+   "Cleitinho"
+  ],
+  [
+   475,
+   "MDB",
+   "RO",
+   "Não",
+   "Confúcio Moura"
+  ],
+  [
+   6335,
+   "REPUBLICANOS",
+   "DF",
+   "Não",
+   "Damares Alves"
+  ],
+  [
+   5998,
+   "PSD",
+   "PB",
+   "Missão oficial",
+   "Daniella Ribeiro"
+  ],
+  [
+   3830,
+   "UNIÃO",
+   "AP",
+   "Não",
+   "Davi Alcolumbre"
+  ],
+  [
+   5793,
+   "PP",
+   "RR",
+   "Não",
+   "Dr. Hiran"
+  ],
+  [
+   4994,
+   "MDB",
+   "AM",
+   "Ausente em atividade parlamentar",
+   "Eduardo Braga"
+  ],
+  [
+   5976,
+   "NOVO",
+   "CE",
+   "Sim",
+   "Eduardo Girão"
+  ],
+  [
+   3777,
+   "PL",
+   "TO",
+   "Não",
+   "Eduardo Gomes"
+  ],
+  [
+   5718,
+   "PSD",
+   "MA",
+   "Ausente em atividade parlamentar",
+   "Eliziane Gama"
+  ],
+  [
+   22,
+   "PP",
+   "SC",
+   "Não",
+   "Esperidião Amin"
+  ],
+  [
+   5953,
+   "PT",
+   "ES",
+   "Não",
+   "Fabiano Contarato"
+  ],
+  [
+   5917,
+   "MDB",
+   "PE",
+   "Licença saúde",
+   "Fernando Dueire"
+  ],
+  [
+   6345,
+   "MDB",
+   "AL",
+   "Não",
+   "Fernando Farias"
+  ],
+  [
+   6374,
+   "PL",
+   "RN",
+   "Sim",
+   "Flavio Azevedo"
+  ],
+  [
+   345,
+   "PSB",
+   "PR",
+   "Não",
+   "Flávio Arns"
+  ],
+  [
+   5894,
+   "PL",
+   "RJ",
+   "Presente, não votou",
+   "Flávio Bolsonaro"
+  ],
+  [
+   6008,
+   "MDB",
+   "SP",
+   "Ausente em atividade parlamentar",
+   "Giordano"
+  ],
+  [
+   6341,
+   "REPUBLICANOS",
+   "RS",
+   "Sim",
+   "Hamilton Mourão"
+  ],
+  [
+   5008,
+   "PT",
+   "PE",
+   "Não",
+   "Humberto Costa"
+  ],
+  [
+   5385,
+   "PSD",
+   "TO",
+   "Sim",
+   "Irajá"
+  ],
+  [
+   6015,
+   "PP",
+   "RS",
+   "Ausente em atividade parlamentar",
+   "Ireneu Orth"
+  ],
+  [
+   6010,
+   "MDB",
+   "SC",
+   "Não",
+   "Ivete da Silveira"
+  ],
+  [
+   4770,
+   "PL",
+   "DF",
+   "Não",
+   "Izalci Lucas"
+  ],
+  [
+   35,
+   "MDB",
+   "PA",
+   "Ausente em atividade parlamentar",
+   "Jader Barbalho"
+  ],
+  [
+   6340,
+   "PL",
+   "RO",
+   "Ausente em atividade parlamentar",
+   "Jaime Bagattoli"
+  ],
+  [
+   6351,
+   "PT",
+   "CE",
+   "Não",
+   "Janaína Farias"
+  ],
+  [
+   581,
+   "PT",
+   "BA",
+   "Não",
+   "Jaques Wagner"
+  ],
+  [
+   4531,
+   "UNIÃO",
+   "MT",
+   "Presente, não votou",
+   "Jayme Campos"
+  ],
+  [
+   5895,
+   "PSB",
+   "GO",
+   "Não",
+   "Jorge Kajuru"
+  ],
+  [
+   6342,
+   "PL",
+   "SC",
+   "Não",
+   "Jorge Seif"
+  ],
+  [
+   6369,
+   "PSD",
+   "PI",
+   "Não",
+   "Jussara Lima"
+  ],
+  [
+   4811,
+   "PP",
+   "SE",
+   "Ausente em atividade parlamentar",
+   "Laércio Oliveira"
+  ],
+  [
+   5979,
+   "PDT",
+   "DF",
+   "Não",
+   "Leila Barros"
+  ],
+  [
+   5926,
+   "PSD",
+   "AP",
+   "Não",
+   "Lucas Barreto"
+  ],
+  [
+   631,
+   "PL",
+   "ES",
+   "Licença saúde",
+   "Magno Malta"
+  ],
+  [
+   5376,
+   "PSD",
+   "SP",
+   "Não",
+   "Mara Gabrilli"
+  ],
+  [
+   742,
+   "MDB",
+   "PI",
+   "Sim",
+   "Marcelo Castro"
+  ],
+  [
+   285,
+   "UNIÃO",
+   "AC",
+   "Ausente em atividade parlamentar",
+   "Marcio Bittar"
+  ],
+  [
+   5422,
+   "PL",
+   "RO",
+   "Não",
+   "Marcos Rogério"
+  ],
+  [
+   5942,
+   "PODE",
+   "ES",
+   "Ausente em atividade parlamentar",
+   "Marcos do Val"
+  ],
+  [
+   6304,
+   "PSD",
+   "MT",
+   "Presente, não votou",
+   "Margareth Buzetti"
+  ],
+  [
+   6027,
+   "REPUBLICANOS",
+   "RR",
+   "Presente, não votou",
+   "Mecias de Jesus"
+  ],
+  [
+   5985,
+   "PSD",
+   "MS",
+   "Não",
+   "Nelsinho Trad"
+  ],
+  [
+   5525,
+   "PSD",
+   "AM",
+   "Não",
+   "Omar Aziz"
+  ],
+  [
+   5924,
+   "PODE",
+   "PR",
+   "Sim",
+   "Oriovisto Guimarães"
+  ],
+  [
+   5523,
+   "PSD",
+   "BA",
+   "Não",
+   "Otto Alencar"
+  ],
+  [
+   825,
+   "PT",
+   "RS",
+   "Não",
+   "Paulo Paim"
+  ],
+  [
+   5502,
+   "PSDB",
+   "AM",
+   "Não",
+   "Plínio Valério"
+  ],
+  [
+   5386,
+   "UNIÃO",
+   "TO",
+   "Não",
+   "Professora Dorinha Seabra"
+  ],
+  [
+   5012,
+   "S/Partido",
+   "AP",
+   "Não",
+   "Randolfe Rodrigues"
+  ],
+  [
+   70,
+   "MDB",
+   "AL",
+   "Presente, não votou",
+   "Renan Calheiros"
+  ],
+  [
+   5905,
+   "PODE",
+   "AL",
+   "Não",
+   "Rodrigo Cunha"
+  ],
+  [
+   5732,
+   "PSD",
+   "MG",
+   "Ausente em atividade parlamentar",
+   "Rodrigo Pacheco"
+  ],
+  [
+   5352,
+   "PT",
+   "SE",
+   "Não",
+   "Rogério Carvalho"
+  ],
+  [
+   5322,
+   "PL",
+   "RJ",
+   "Não",
+   "Romário"
+  ],
+  [
+   6363,
+   "PL",
+   "MT",
+   "Não",
+   "Rosana Martinelli"
+  ],
+  [
+   6331,
+   "UNIÃO",
+   "PR",
+   "Não",
+   "Sergio Moro"
+  ],
+  [
+   5988,
+   "PODE",
+   "MS",
+   "Não",
+   "Soraya Thronicke"
+  ],
+  [
+   5959,
+   "PODE",
+   "RN",
+   "Ausente em atividade parlamentar",
+   "Styvenson Valentim"
+  ],
+  [
+   4560,
+   "PSD",
+   "AC",
+   "Não",
+   "Sérgio Petecão"
+  ],
+  [
+   6338,
+   "PT",
+   "PE",
+   "Não",
+   "Teresa Leitão"
+  ],
+  [
+   5736,
+   "PP",
+   "MS",
+   "Não",
+   "Tereza Cristina"
+  ],
+  [
+   5899,
+   "PSD",
+   "GO",
+   "Não",
+   "Vanderlan Cardoso"
+  ],
+  [
+   5748,
+   "MDB",
+   "PB",
+   "Presidente",
+   "Veneziano Vital do Rêgo"
+  ],
+  [
+   5411,
+   "PDT",
+   "MA",
+   "Não",
+   "Weverton"
+  ],
+  [
+   5070,
+   "PL",
+   "GO",
+   "Não",
+   "Wilder Morais"
+  ],
+  [
+   5783,
+   "PSD",
+   "RN",
+   "Não",
+   "Zenaide Maia"
+  ],
+  [
+   3806,
+   "PODE",
+   "PA",
+   "Não",
+   "Zequinha Marinho"
+  ]
+ ],
+ "url_api": "https://legis.senado.leg.br/dadosabertos/votacao?codigoSessao=414902"
+}

@@ -1,0 +1,594 @@
+{
+ "id": "7113",
+ "data": "2026-11-10",
+ "data_hora": "2026-11-10",
+ "descricao": "Votação nominal do Projeto de Lei Complementar nº 109, de 2025, nos termos dos pareceres.",
+ "resultado": "aprovada",
+ "tipo": "merito",
+ "proposicao": {
+  "id": 173581,
+  "sigla": "PLP",
+  "numero": 109,
+  "ano": 2025,
+  "ementa": "Dispõe sobre o acesso da Agência Nacional do Petróleo, Gás Natural e Biocombustíveis (ANP) às informações fiscais dos agentes regulados para fins de fiscalização e regulação do setor, nos termos do § 1º do art. 145 da Constituição Federal.",
+  "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/173581"
+ },
+ "totais": {
+  "Sim": 72,
+  "Presidente": 1
+ },
+ "totais_fonte": "votos",
+ "votos_disponiveis": true,
+ "secreta": false,
+ "informe": "(Sessão Deliberativa Ordinária de 10 de novembro de 2026)  \nDiscussão da matéria encerrada. \nProjeto aprovado, com as Emendas nºs 1 a 3, de redação. (Sim: 72; Não: 0 ; Abstenção: 0; Presidente: 1; Total: 73).  \nParecer nº 218/2026-Plen/SF, da Comissão Diretora, com a redação final, encaminhado à publicação. \nRedação final aprovada. \nA matéria vai à sanção.  \nA Câmara dos Deputados será comunicada.",
+ "votos": [
+  [
+   5672,
+   "REPUBLICANOS",
+   "AC",
+   "Não compareceu",
+   "Alan Rick"
+  ],
+  [
+   5982,
+   "MDB",
+   "SE",
+   "Sim",
+   "Alessandro Vieira"
+  ],
+  [
+   6358,
+   "PSB",
+   "MA",
+   "Sim",
+   "Ana Paula Lobato"
+  ],
+  [
+   5967,
+   "REPUBLICANOS",
+   "BA",
+   "Sim",
+   "Angelo Coronel"
+  ],
+  [
+   6009,
+   "PL",
+   "SP",
+   "Sim",
+   "Astronauta Marcos Pontes"
+  ],
+  [
+   4639,
+   "PT",
+   "PA",
+   "Sim",
+   "Beto Faro"
+  ],
+  [
+   6336,
+   "PT",
+   "CE",
+   "Sim",
+   "Camilo Santana"
+  ],
+  [
+   6295,
+   "PSD",
+   "MT",
+   "Sim",
+   "Carlos Fávaro"
+  ],
+  [
+   5936,
+   "PL",
+   "RJ",
+   "Sim",
+   "Carlos Portinho"
+  ],
+  [
+   5990,
+   "PSD",
+   "MG",
+   "Sim",
+   "Carlos Viana"
+  ],
+  [
+   470,
+   "PSB",
+   "RR",
+   "Sim",
+   "Chico Rodrigues"
+  ],
+  [
+   5973,
+   "PSB",
+   "CE",
+   "Sim",
+   "Cid Gomes"
+  ],
+  [
+   739,
+   "PP",
+   "PI",
+   "Sim",
+   "Ciro Nogueira"
+  ],
+  [
+   6337,
+   "REPUBLICANOS",
+   "MG",
+   "Sim",
+   "Cleitinho"
+  ],
+  [
+   475,
+   "MDB",
+   "RO",
+   "Sim",
+   "Confúcio Moura"
+  ],
+  [
+   6335,
+   "REPUBLICANOS",
+   "DF",
+   "Sim",
+   "Damares Alves"
+  ],
+  [
+   5998,
+   "PP",
+   "PB",
+   "Sim",
+   "Daniella Ribeiro"
+  ],
+  [
+   3830,
+   "UNIÃO",
+   "AP",
+   "Presidente",
+   "Davi Alcolumbre"
+  ],
+  [
+   5793,
+   "PP",
+   "RR",
+   "Sim",
+   "Dr. Hiran"
+  ],
+  [
+   5906,
+   "PSDB",
+   "AL",
+   "Sim",
+   "Dra. Eudócia"
+  ],
+  [
+   4994,
+   "MDB",
+   "AM",
+   "Sim",
+   "Eduardo Braga"
+  ],
+  [
+   3777,
+   "PL",
+   "TO",
+   "Sim",
+   "Eduardo Gomes"
+  ],
+  [
+   4642,
+   "PL",
+   "PB",
+   "Sim",
+   "Efraim Filho"
+  ],
+  [
+   5718,
+   "PSD",
+   "MA",
+   "Sim",
+   "Eliziane Gama"
+  ],
+  [
+   22,
+   "PP",
+   "SC",
+   "Sim",
+   "Esperidião Amin"
+  ],
+  [
+   5953,
+   "PT",
+   "ES",
+   "Missão oficial",
+   "Fabiano Contarato"
+  ],
+  [
+   5917,
+   "PSD",
+   "PE",
+   "Sim",
+   "Fernando Dueire"
+  ],
+  [
+   345,
+   "PSB",
+   "PR",
+   "Sim",
+   "Flávio Arns"
+  ],
+  [
+   5894,
+   "PL",
+   "RJ",
+   "Sim",
+   "Flávio Bolsonaro"
+  ],
+  [
+   6008,
+   "PODE",
+   "SP",
+   "Missão oficial",
+   "Giordano"
+  ],
+  [
+   6341,
+   "REPUBLICANOS",
+   "RS",
+   "Sim",
+   "Hamilton Mourão"
+  ],
+  [
+   5008,
+   "PT",
+   "PE",
+   "Ausente em atividade parlamentar",
+   "Humberto Costa"
+  ],
+  [
+   5385,
+   "PSD",
+   "TO",
+   "Sim",
+   "Irajá"
+  ],
+  [
+   6010,
+   "MDB",
+   "SC",
+   "Sim",
+   "Ivete da Silveira"
+  ],
+  [
+   4770,
+   "PL",
+   "DF",
+   "Sim",
+   "Izalci Lucas"
+  ],
+  [
+   35,
+   "MDB",
+   "PA",
+   "Sim",
+   "Jader Barbalho"
+  ],
+  [
+   6340,
+   "PL",
+   "RO",
+   "Sim",
+   "Jaime Bagattoli"
+  ],
+  [
+   581,
+   "PT",
+   "BA",
+   "Sim",
+   "Jaques Wagner"
+  ],
+  [
+   4531,
+   "UNIÃO",
+   "MT",
+   "Sim",
+   "Jayme Campos"
+  ],
+  [
+   5895,
+   "PSB",
+   "GO",
+   "Sim",
+   "Jorge Kajuru"
+  ],
+  [
+   6342,
+   "PL",
+   "SC",
+   "Sim",
+   "Jorge Seif"
+  ],
+  [
+   6369,
+   "PSD",
+   "PI",
+   "Sim",
+   "Jussara Lima"
+  ],
+  [
+   4811,
+   "PP",
+   "SE",
+   "Sim",
+   "Laércio Oliveira"
+  ],
+  [
+   5977,
+   "PSB",
+   "DF",
+   "Missão oficial",
+   "Leany Lemos"
+  ],
+  [
+   5926,
+   "PSD",
+   "AP",
+   "Sim",
+   "Lucas Barreto"
+  ],
+  [
+   1186,
+   "PP",
+   "RS",
+   "Sim",
+   "Luis Carlos Heinze"
+  ],
+  [
+   631,
+   "PL",
+   "ES",
+   "Sim",
+   "Magno Malta"
+  ],
+  [
+   5376,
+   "PSD",
+   "SP",
+   "Sim",
+   "Mara Gabrilli"
+  ],
+  [
+   742,
+   "MDB",
+   "PI",
+   "Sim",
+   "Marcelo Castro"
+  ],
+  [
+   285,
+   "PL",
+   "AC",
+   "Sim",
+   "Marcio Bittar"
+  ],
+  [
+   5422,
+   "PL",
+   "RO",
+   "Sim",
+   "Marcos Rogério"
+  ],
+  [
+   5942,
+   "AVANTE",
+   "ES",
+   "Sim",
+   "Marcos do Val"
+  ],
+  [
+   5985,
+   "PSD",
+   "MS",
+   "Sim",
+   "Nelsinho Trad"
+  ],
+  [
+   5525,
+   "PSD",
+   "AM",
+   "Sim",
+   "Omar Aziz"
+  ],
+  [
+   5924,
+   "PSDB",
+   "PR",
+   "Sim",
+   "Oriovisto Guimarães"
+  ],
+  [
+   5523,
+   "PSD",
+   "BA",
+   "Sim",
+   "Otto Alencar"
+  ],
+  [
+   825,
+   "PT",
+   "RS",
+   "Sim",
+   "Paulo Paim"
+  ],
+  [
+   5502,
+   "PSDB",
+   "AM",
+   "Sim",
+   "Plínio Valério"
+  ],
+  [
+   5386,
+   "UNIÃO",
+   "TO",
+   "Sim",
+   "Professora Dorinha Seabra"
+  ],
+  [
+   5012,
+   "PT",
+   "AP",
+   "Sim",
+   "Randolfe Rodrigues"
+  ],
+  [
+   70,
+   "MDB",
+   "AL",
+   "Sim",
+   "Renan Calheiros"
+  ],
+  [
+   5207,
+   "MDB",
+   "AL",
+   "Sim",
+   "Renan Filho"
+  ],
+  [
+   5257,
+   "PP",
+   "MG",
+   "Sim",
+   "Renzo Braz"
+  ],
+  [
+   6025,
+   "REPUBLICANOS",
+   "RR",
+   "Sim",
+   "Roberta Acioly"
+  ],
+  [
+   4694,
+   "PL",
+   "RN",
+   "Sim",
+   "Rogerio Marinho"
+  ],
+  [
+   5352,
+   "PT",
+   "SE",
+   "Sim",
+   "Rogério Carvalho"
+  ],
+  [
+   5322,
+   "S/Partido",
+   "RJ",
+   "Sim",
+   "Romário"
+  ],
+  [
+   5974,
+   "PSDB",
+   "CE",
+   "Sim",
+   "Sargento Reginauro"
+  ],
+  [
+   6331,
+   "PL",
+   "PR",
+   "Não compareceu",
+   "Sergio Moro"
+  ],
+  [
+   5988,
+   "PSB",
+   "MS",
+   "Missão oficial",
+   "Soraya Thronicke"
+  ],
+  [
+   5959,
+   "PODE",
+   "RN",
+   "Sim",
+   "Styvenson Valentim"
+  ],
+  [
+   4560,
+   "PSD",
+   "AC",
+   "Sim",
+   "Sérgio Petecão"
+  ],
+  [
+   6338,
+   "PT",
+   "PE",
+   "Sim",
+   "Teresa Leitão"
+  ],
+  [
+   5736,
+   "PP",
+   "MS",
+   "Sim",
+   "Tereza Cristina"
+  ],
+  [
+   5899,
+   "PSD",
+   "GO",
+   "Sim",
+   "Vanderlan Cardoso"
+  ],
+  [
+   5748,
+   "MDB",
+   "PB",
+   "Missão oficial",
+   "Veneziano Vital do Rêgo"
+  ],
+  [
+   1173,
+   "PL",
+   "MT",
+   "Sim",
+   "Wellington Fagundes"
+  ],
+  [
+   5411,
+   "PDT",
+   "MA",
+   "Sim",
+   "Weverton"
+  ],
+  [
+   5070,
+   "PL",
+   "GO",
+   "Sim",
+   "Wilder Morais"
+  ],
+  [
+   5783,
+   "PSD",
+   "RN",
+   "Sim",
+   "Zenaide Maia"
+  ],
+  [
+   3806,
+   "PODE",
+   "PA",
+   "Sim",
+   "Zequinha Marinho"
+  ]
+ ],
+ "url_api": "https://legis.senado.leg.br/dadosabertos/votacao?codigoSessao=594172"
+}
