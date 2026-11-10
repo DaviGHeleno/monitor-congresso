@@ -140,3 +140,56 @@ export function resumoProjetos(): { total: number; lei: number; aprovado: number
   }
   return r;
 }
+
+// ---------- Senado (dados/senado/) ----------
+
+export type Senador = {
+  id: number; nome: string; nome_completo?: string | null; sexo?: "M" | "F" | null; partido: string | null; uf: string | null;
+  foto?: string | null; email?: string | null; url?: string | null; bloco?: string | null; participacao?: string | null;
+  em_exercicio?: boolean;
+};
+export type VotoSenado = [number, string | null, string | null, string, string | null]; // [código, partido, UF, voto, nome]
+export type VotacaoSenado = ItemIndice & { votos: VotoSenado[]; totais_fonte?: string; informe?: string; url_api: string };
+
+/** Rótulos de voto que contam no placar do Senado (os demais são ausências e licenças). */
+export const VOTOS_SENADO = ["Sim", "Não", "Abstenção", "Obstrução", "Presidente"];
+
+let _indiceSenado: ItemIndice[] | null = null;
+export function indiceSenado(): ItemIndice[] {
+  return (_indiceSenado ??= ler<ItemIndice[]>("senado/votacoes/indice.json", []));
+}
+
+export function votacaoSenado(id: string): VotacaoSenado {
+  return ler<VotacaoSenado>(`senado/votacoes/${id}.json`, null as unknown as VotacaoSenado);
+}
+
+export function projetosSenador(id: number): Projeto[] {
+  return ler<{ projetos: Projeto[] }>(`senado/senadores/${id}.json`, { projetos: [] }).projetos;
+}
+
+export type VotoDoSenador = { votacao: ItemIndice; voto: string; partido: string | null };
+let _histSenado: Map<number, VotoDoSenador[]> | null = null;
+let _nomesSenado: Map<number, { nome: string; partido: string | null; uf: string | null }> | null = null;
+export function historicoSenado(): Map<number, VotoDoSenador[]> {
+  if (_histSenado) return _histSenado;
+  const mapa = new Map<number, VotoDoSenador[]>();
+  _nomesSenado = new Map();
+  for (const item of indiceSenado()) {
+    for (const [id, partido, uf, voto, nome] of votacaoSenado(item.id)?.votos ?? []) {
+      if (!mapa.has(id)) mapa.set(id, []);
+      mapa.get(id)!.push({ votacao: item, voto, partido });
+      if (!_nomesSenado.has(id) && nome) _nomesSenado.set(id, { nome, partido, uf });
+    }
+  }
+  return (_histSenado = mapa);
+}
+
+/** Senadores em exercício mais quem votou no período (suplentes e ex-senadores), por nome. */
+export function todosSenadores(): Senador[] {
+  const mapa = new Map(ler<Senador[]>("senado/senadores.json", []).map((s) => [s.id, s]));
+  historicoSenado();
+  for (const [id, n] of _nomesSenado!) {
+    if (!mapa.has(id)) mapa.set(id, { id, nome: n.nome, partido: n.partido, uf: n.uf, em_exercicio: false });
+  }
+  return [...mapa.values()].sort((a, b) => a.nome.localeCompare(b.nome, "pt-BR"));
+}

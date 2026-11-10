@@ -1,0 +1,14 @@
+---
+// Alternância Câmara | Senado no topo das listas de votações.
+import { url } from "../lib/formato";
+const { atual } = Astro.props as { atual: "camara" | "senado" };
+---
+<nav class="abas-casa" aria-label="Casa legislativa">
+  <a href={url("/votacoes/")} aria-current={atual === "camara" ? "page" : undefined}>Câmara</a>
+  <a href={url("/votacoes-senado/")} aria-current={atual === "senado" ? "page" : undefined}>Senado</a>
+</nav>
+<style>
+  .abas-casa { display: inline-flex; gap: 4px; padding: 4px; background: var(--surface); border-radius: 999px; margin: 0 0 20px; }
+  .abas-casa a { padding: 8px 18px; border-radius: 999px; text-decoration: none; color: var(--ink); font-weight: 500; }
+  .abas-casa a[aria-current="page"] { background: var(--ink); color: var(--bg); }
+</style>

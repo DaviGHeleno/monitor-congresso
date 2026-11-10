@@ -1,0 +1,70 @@
+name: Atualizar Senado
+
+# Senadores, votações nominais do Plenário e projetos de cada senador (API de Dados Abertos do Senado).
+# Roda todo dia à noite e pode ser disparado à mão. Marque "carga inicial" na primeira vez (busca desde 02/2023).
+on:
+  schedule:
+    - cron: "37 0 * * *" # 21:37 em Brasília
+  workflow_dispatch:
+    inputs:
+      inicial:
+        description: "Carga inicial (votações desde fevereiro de 2023)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: dados
+  cancel-in-progress: false
+
+jobs:
+  coletar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+
+      - name: Coletar Senado
+        run: python -m coletor.senado ${{ inputs.inicial && '--inicial' || '' }}
+
+      - name: Resumo
+        if: always()
+        run: |
+          python - <<'EOF' >> "$GITHUB_STEP_SUMMARY"
+          import json, collections, pathlib
+          p = pathlib.Path("dados/senado")
+          if not p.exists(): print("Nada coletado."); raise SystemExit
+          sen = json.loads((p / "senadores.json").read_text()) if (p / "senadores.json").exists() else []
+          idx = json.loads((p / "votacoes/indice.json").read_text()) if (p / "votacoes/indice.json").exists() else []
+          print(f"## Senado\n\n- Senadores em exercício: **{len(sen)}**\n- Votações nominais: **{len(idx)}**")
+          if idx: print(f"- Mais recente: {idx[0]['data']}")
+          cat, sit = collections.Counter(), collections.Counter()
+          for f in (p / "senadores").glob("*.json"):
+              for x in json.loads(f.read_text())["projetos"]: cat[x.get("categoria")] += 1; sit[x.get("situacao")] += 1
+          print("\n| Categoria | Autorias |\n|---|---|"); [print(f"| {k} | {n} |") for k, n in cat.most_common()]
+          print("\n| Situação oficial | Autorias |\n|---|---|"); [print(f"| {k} | {n} |") for k, n in sit.most_common(25)]
+          EOF
+
+      - name: Salvar dados no repositório
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dados
+          if git diff --cached --quiet; then echo "Nada novo."; else
+            git commit -m "dados: Senado"
+            git pull --rebase
+            git push
+          fi
+
+  publicar:
+    needs: coletar
+    uses: ./.github/workflows/publicar.yml

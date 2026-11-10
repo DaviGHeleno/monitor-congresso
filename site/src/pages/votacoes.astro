@@ -1,6 +1,7 @@
 ---
 import Base from "../layouts/Base.astro";
 import Barra from "../components/Barra.astro";
+import AbasCasa from "../components/AbasCasa.astro";
 import { indice } from "../lib/dados";
 import { RESULTADO, TIPO, buscaProposicao, data, descricaoCurta, proposicao, url } from "../lib/formato";
 
@@ -9,6 +10,7 @@ const anos = [...new Set(itens.map((i) => i.data.slice(0, 4)))].sort().reverse()
 ---
 <Base titulo="Votações" secao="votacoes">
   <div class="cabeca-pagina">
+    <AbasCasa atual="camara" />
     <h1>Votações na Câmara</h1>
     <p class="subtitulo">
       Todas as votações nominais do Plenário, em que cada deputado registrou seu voto, desde fevereiro de 2023. Mais recentes primeiro.

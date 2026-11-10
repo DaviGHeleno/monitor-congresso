@@ -1,0 +1,220 @@
+---
+import Base from "../../layouts/Base.astro";
+import { VOTOS_SENADO, historicoSenado, projetosSenador, todosSenadores, type Senador } from "../../lib/dados";
+import { CATEGORIA_PROJETO_SENADO as CAT, TIPO, classeVotoSenado, data, descricaoCurta, proposicao, url } from "../../lib/formato";
+
+export function getStaticPaths() {
+  return todosSenadores().map((s) => ({ params: { id: String(s.id) }, props: { s } }));
+}
+
+const { s } = Astro.props as { s: Senador };
+const todos = historicoSenado().get(s.id) ?? [];
+const votos = todos.filter((v) => VOTOS_SENADO.includes(v.voto));
+const ausencias = todos.length - votos.length;
+const projs = projetosSenador(s.id);
+const contagem: Record<string, number> = {};
+for (const v of votos) contagem[v.voto] = (contagem[v.voto] ?? 0) + 1;
+const partidosNoPeriodo = [...new Set(todos.map((v) => v.partido).filter(Boolean))];
+const anos = [...new Set(todos.map((v) => v.votacao.data.slice(0, 4)))].sort().reverse();
+const fem = s.sexo === "F";
+const cargo = s.em_exercicio === false ? (fem ? "Votou como senadora" : "Votou como senador") : (fem ? "Senadora" : "Senador");
+const frase = `${cargo}${s.uf ? ` por ${s.uf}` : ""}${s.partido ? ` (${s.partido})` : ""}${s.em_exercicio === false ? " no período desde 2023; não está em exercício hoje." : "."}`
+  + (s.participacao ? ` Mandato como ${s.participacao.toLowerCase()}.` : "")
+  + (s.bloco ? ` Integra o ${s.bloco}.` : "");
+
+const comSituacao = projs.some((x) => x.categoria);
+const cat = (x: (typeof projs)[number]) => (x.situacao ? x.categoria ?? "tramitacao" : "sem_informacao");
+const porCategoria: Record<string, number> = { lei: 0, aprovado: 0, tramitacao: 0, encerrado: 0, sem_informacao: 0 };
+for (const x of projs) porCategoria[cat(x)]++;
+const primeiroAutor = projs.filter((x) => x.primeiro_autor).length;
+const ordemCategoria = ["lei", "aprovado", "tramitacao", "encerrado", "sem_informacao"];
+const caixas = ordemCategoria.slice(0, 4);
+const projsOrdenados = [...projs].sort((a, b) => ordemCategoria.indexOf(cat(a)) - ordemCategoria.indexOf(cat(b))
+  || (b.apresentacao ?? "").localeCompare(a.apresentacao ?? ""));
+---
+<Base titulo={s.nome} descricao={`Votos e projetos de ${s.nome} (${s.partido ?? ""}-${s.uf ?? ""}) no Senado Federal.`} secao="senadores">
+  <div class="migalha"><a href={url("/senadores/")}>Senadores</a> › {s.nome}</div>
+
+  <div class="perfil">
+    {s.foto && <img src={s.foto} alt={`Foto oficial de ${s.nome}`} width="96" height="128" loading="lazy" />}
+    <div>
+      <h1 style="margin-bottom:.2rem">{s.nome}</h1>
+      <p class="subtitulo" style="margin:0">
+        {[s.partido, s.uf].filter(Boolean).join(" · ")}{s.em_exercicio === false && " · Fora de exercício"}
+      </p>
+      {partidosNoPeriodo.length > 1 && (
+        <p style="margin:.4rem 0 0;font-size:.9rem;color:var(--texto-2)">Votou por mais de um partido no período: {partidosNoPeriodo.join(", ")}.</p>
+      )}
+      <p style="margin:.5rem 0 0"><a href={s.url ?? `https://www25.senado.leg.br/web/senadores/senador/-/perfil/${s.id}`} rel="noopener">Página oficial no Senado ↗</a></p>
+    </div>
+  </div>
+
+  <section class="cartao descricao-deputado" aria-labelledby="t-sobre">
+    <h2 id="t-sobre" style="margin-top:0">Sobre</h2>
+    <p class="frase">{frase}</p>
+    <dl class="ficha">
+      {s.nome_completo && <><dt>Nome completo</dt><dd>{s.nome_completo}</dd></>}
+      {s.email && <><dt>E-mail</dt><dd><a href={`mailto:${s.email}`}>{s.email}</a></dd></>}
+    </dl>
+    <p class="fonte">Dados do Senado Federal.</p>
+  </section>
+
+  <h2>Votos registrados</h2>
+  {todos.length === 0 ? <p>Nenhum voto nominal registrado no período.</p> : (
+    <>
+      <div class="numeros">
+        <div class="numero"><b>{votos.length}</b><span>Votos</span></div>
+        {Object.entries(contagem).sort((a, b) => b[1] - a[1]).map(([v, n]) => <div class="numero"><b>{n}</b><span>{v}</span></div>)}
+        {ausencias > 0 && <div class="numero"><b>{ausencias}</b><span>Não votou (ausência, licença ou missão)</span></div>}
+      </div>
+      <form class="filtros" onsubmit="return false">
+        <label>Buscar<input type="search" id="h-texto" placeholder="Tema ou projeto" autocomplete="off" /></label>
+        <label>Ano<select id="h-ano"><option value="">Todos</option>{anos.map((a) => <option>{a}</option>)}</select></label>
+        <label class="check"><input type="checkbox" id="h-ausencias" /> Mostrar ausências</label>
+        <label class="check"><input type="checkbox" id="h-proc" /> Esconder procedimentais</label>
+      </form>
+      <p class="contagem" id="h-contagem" aria-live="polite"></p>
+      <div class="tabela-rolagem">
+        <table>
+          <thead><tr><th>Data</th><th>Votação</th><th>Voto</th></tr></thead>
+          <tbody id="h-corpo">
+            {todos.map((v) => (
+              <tr data-ano={v.votacao.data.slice(0, 4)} data-tipo={v.votacao.tipo} data-voto={VOTOS_SENADO.includes(v.voto) ? "1" : "0"}
+                  data-busca={[proposicao(v.votacao.proposicao), v.votacao.descricao, v.votacao.proposicao?.ementa].filter(Boolean).join(" ").toLowerCase()}>
+                <td style="white-space:nowrap">{data(v.votacao.data)}</td>
+                <td><a href={url(`/votacao-senado/${v.votacao.id}/`)}>{descricaoCurta(v.votacao.descricao)}</a>
+                  <div style="font-size:.82rem;color:var(--texto-2);margin-top:2px">{[proposicao(v.votacao.proposicao), TIPO[v.votacao.tipo],
+                    v.partido && v.partido !== s.partido ? `votou como ${v.partido}` : ""].filter(Boolean).join(" · ")}</div></td>
+                <td><span class={`voto ${classeVotoSenado(v.voto)}`}>{v.voto}</span></td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <p class="paginacao"><button type="button" id="h-mais" class="oculto">Mostrar mais</button></p>
+    </>
+  )}
+
+  <h2>Projetos apresentados</h2>
+  <p class="subtitulo">Projetos de lei, de lei complementar, de emenda à Constituição, de decreto legislativo e de resolução do Senado apresentados desde fevereiro de 2023 em que é autor ou coautor. Situação atual segundo o Senado.</p>
+  {projs.length === 0 ? <p>Nenhum projeto encontrado.</p> : (
+    <>
+      {comSituacao && (
+        <div class="numeros" role="group" aria-label="Projetos por situação">
+          <div class="numero"><b>{projs.length.toLocaleString("pt-BR")}</b><span>Projetos ({primeiroAutor.toLocaleString("pt-BR")} como primeiro autor)</span></div>
+          {caixas.map((c) => (
+            <button type="button" class={`numero filtro-categoria cat-${c}`} data-categoria={c} title={CAT[c].descricao}>
+              <b>{porCategoria[c].toLocaleString("pt-BR")}</b><span>{CAT[c].rotulo}</span>
+            </button>
+          ))}
+        </div>
+      )}
+      {comSituacao && porCategoria.sem_informacao > 0 && (
+        <p class="contagem">{porCategoria.sem_informacao.toLocaleString("pt-BR")} {porCategoria.sem_informacao === 1 ? "projeto está" : "projetos estão"} sem situação informada pelo Senado.</p>
+      )}
+      <form class="filtros" onsubmit="return false">
+        <label>Buscar<input type="search" id="p-texto" placeholder="Tema ou número" autocomplete="off" /></label>
+        {comSituacao && (
+          <label>Situação
+            <select id="p-categoria">
+              <option value="">Todas</option>
+              {ordemCategoria.filter((c) => c !== "sem_informacao" || porCategoria.sem_informacao > 0)
+                .map((c) => <option value={c}>{CAT[c].rotulo}</option>)}
+            </select>
+          </label>
+        )}
+        {primeiroAutor > 0 && <label class="check"><input type="checkbox" id="p-primeiro" /> Só como primeiro autor</label>}
+      </form>
+      <p class="contagem" id="p-contagem" aria-live="polite">{projs.length.toLocaleString("pt-BR")} projetos</p>
+      <ul class="lista-simples" id="p-lista">
+        {projsOrdenados.map((x) => (
+          <li class="projeto" data-categoria={comSituacao ? cat(x) : ""} data-primeiro={x.primeiro_autor ? "1" : "0"}
+              data-busca={[proposicao(x), `${x.sigla} ${x.numero}/${x.ano}`, `${x.sigla}${x.numero}`, x.ementa].filter(Boolean).join(" ").toLowerCase()}>
+            <div class="projeto-topo">
+              {x.url ? <a href={x.url} rel="noopener"><b>{proposicao(x)}</b></a> : <b>{proposicao(x)}</b>}
+              {comSituacao && <span class={`etiqueta cat-${cat(x)}`}>{CAT[cat(x)].rotulo}</span>}
+              {x.primeiro_autor === false && <span class="coautor">coautoria</span>}
+            </div>
+            {x.ementa && <div class="projeto-ementa">{x.ementa}</div>}
+            {x.situacao && <div class="projeto-situacao">Situação: {x.situacao}{x.situacao_data && ` (desde ${data(x.situacao_data)})`}</div>}
+          </li>
+        ))}
+      </ul>
+      <p class="paginacao"><button type="button" id="p-mais" class="oculto">Mostrar mais</button></p>
+    </>
+  )}
+</Base>
+
+<script>
+  // Projetos: filtros + "mostrar mais" (50 por vez).
+  {
+    const lista = document.getElementById("p-lista");
+    if (lista) {
+      const itens = Array.from(lista.querySelectorAll<HTMLLIElement>("li.projeto"));
+      const texto = document.getElementById("p-texto") as HTMLInputElement;
+      const cat = document.getElementById("p-categoria") as HTMLSelectElement | null;
+      const primeiro = document.getElementById("p-primeiro") as HTMLInputElement | null;
+      const contagem = document.getElementById("p-contagem")!;
+      const mais = document.getElementById("p-mais")!;
+      const botoes = Array.from(document.querySelectorAll<HTMLButtonElement>(".filtro-categoria"));
+      const norm = (s: string) => s.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+      itens.forEach((li) => (li.dataset.busca = norm(li.dataset.busca ?? "")));
+      let limite = 50;
+      const aplicar = () => {
+        const termos = norm(texto.value).split(/\s+/).filter(Boolean);
+        const vis = itens.filter((li) => (!cat?.value || li.dataset.categoria === cat.value)
+          && (!primeiro?.checked || li.dataset.primeiro === "1") && termos.every((t) => li.dataset.busca!.includes(t)));
+        const mostrar = new Set(vis.slice(0, limite));
+        itens.forEach((li) => li.classList.toggle("oculto", !mostrar.has(li)));
+        contagem.textContent = vis.length === 1 ? "1 projeto" : `${vis.length.toLocaleString("pt-BR")} projetos`;
+        mais.classList.toggle("oculto", vis.length <= limite);
+        mais.textContent = `Mostrar mais (${(vis.length - limite).toLocaleString("pt-BR")} restantes)`;
+        botoes.forEach((b) => b.setAttribute("aria-pressed", String(!!cat && b.dataset.categoria === cat.value)));
+      };
+      const reiniciar = () => { limite = 50; aplicar(); };
+      texto.addEventListener("input", reiniciar);
+      cat?.addEventListener("change", reiniciar);
+      primeiro?.addEventListener("change", reiniciar);
+      botoes.forEach((b) => b.addEventListener("click", () => {
+        if (!cat) return;
+        cat.value = cat.value === b.dataset.categoria ? "" : b.dataset.categoria!;
+        reiniciar();
+        document.getElementById("p-lista")!.scrollIntoView({ behavior: "smooth", block: "start" });
+      }));
+      mais.addEventListener("click", () => { limite += 150; aplicar(); });
+      aplicar();
+    }
+  }
+
+</script>
+
+<script>
+  {
+    const linhas = Array.from(document.querySelectorAll<HTMLTableRowElement>("#h-corpo tr"));
+    const $ = (id: string) => document.getElementById(id) as HTMLInputElement | null;
+    const f = { texto: $("h-texto"), ano: $("h-ano"), aus: $("h-ausencias"), proc: $("h-proc") };
+    const contagem = document.getElementById("h-contagem");
+    const mais = document.getElementById("h-mais");
+    if (f.texto && contagem && mais) {
+      const norm = (s: string) => s.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+      linhas.forEach((tr) => (tr.dataset.busca = norm(tr.dataset.busca ?? "")));
+      let limite = 100;
+      const aplicar = () => {
+        const termos = norm(f.texto!.value).split(/\s+/).filter(Boolean);
+        const vis = linhas.filter((tr) => { const d = tr.dataset;
+          return (!f.ano!.value || d.ano === f.ano!.value) && (f.aus!.checked || d.voto === "1")
+            && (!f.proc!.checked || d.tipo !== "procedimental") && termos.every((t) => d.busca!.includes(t)); });
+        const mostrar = new Set(vis.slice(0, limite));
+        linhas.forEach((tr) => tr.classList.toggle("oculto", !mostrar.has(tr)));
+        contagem.textContent = vis.length === 1 ? "1 registro" : `${vis.length.toLocaleString("pt-BR")} registros`;
+        mais.classList.toggle("oculto", vis.length <= limite);
+        mais.textContent = `Mostrar mais (${(vis.length - limite).toLocaleString("pt-BR")} restantes)`;
+      };
+      const reiniciar = () => { limite = 100; aplicar(); };
+      f.texto.addEventListener("input", reiniciar);
+      [f.ano, f.aus, f.proc].forEach((c) => c!.addEventListener("change", reiniciar));
+      mais.addEventListener("click", () => { limite += 300; aplicar(); });
+      aplicar();
+    }
+  }
+</script>

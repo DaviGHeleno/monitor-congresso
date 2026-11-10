@@ -101,3 +101,14 @@ export function nomeRede(endereco: string): string {
   };
   return nomes[host] ?? host;
 }
+
+/** Mesmas categorias, com o texto do ponto de vista do Senado. */
+export const CATEGORIA_PROJETO_SENADO: Record<string, { rotulo: string; descricao: string }> = {
+  ...CATEGORIA_PROJETO,
+  aprovado: { rotulo: "Aprovado no Senado", descricao: "Foi à Câmara, aguarda sanção ou promulgação" },
+  sem_informacao: { rotulo: "Situação não informada", descricao: "O Senado não informou a situação atual" },
+};
+
+export function classeVotoSenado(voto: string): string {
+  return voto === "Presidente" ? "outro" : classeVoto(voto);
+}

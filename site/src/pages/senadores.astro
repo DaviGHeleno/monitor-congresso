@@ -1,27 +1,93 @@
 ---
-// Senadores. Enquanto os dados do Senado não são coletados, a página explica o que vai mostrar.
-// Quando dados/senado/ existir, esta página passa a listar os senadores (próxima etapa).
+// Lista de senadores: os 81 em exercício e quem votou no Plenário desde 2023 (suplentes e ex-senadores).
 import Base from "../layouts/Base.astro";
 import Desenho from "../components/Desenho.astro";
+import { historicoSenado, indiceSenado, todosSenadores } from "../lib/dados";
+import { url } from "../lib/formato";
+
+const lista = todosSenadores();
+const hist = historicoSenado();
+const partidos = [...new Set(lista.map((s) => s.partido).filter(Boolean))].sort() as string[];
+const ufs = [...new Set(lista.map((s) => s.uf).filter(Boolean))].sort() as string[];
+const emExercicio = lista.filter((s) => s.em_exercicio).length;
+const nVotacoes = indiceSenado().length;
 ---
 <Base titulo="Senadores" secao="senadores" descricao="Senadores: votos e projetos de cada um, com dados oficiais do Senado Federal.">
   <div class="cabeca-pagina">
     <h1>Senadores</h1>
     <p class="subtitulo">
-      Os 81 senadores em exercício: partido, estado, como votou cada um no Plenário e os projetos que apresentou, com dados oficiais do Senado Federal.
+      Os senadores em exercício e quem votou no Plenário desde fevereiro de 2023, incluindo suplentes. Partido e estado atuais segundo o Senado.
     </p>
   </div>
 
-  <section class="descricao-deputado" aria-labelledby="t-preparo">
-    <Desenho tipo="senado" rotulo="A cúpula voltada para baixo, sobre o plenário do Senado" classe="senado-desenho" />
-    <h2 id="t-preparo" style="margin-top:24px">Em preparação</h2>
-    <p class="frase">
-      A coleta de dados do Senado está sendo montada. Assim que estiver pronta, esta página lista cada senador, com o histórico de votos e os projetos apresentados, como a página de deputados.
-    </p>
-    <p class="fonte">Fonte: Dados Abertos do Senado Federal.</p>
-  </section>
+  {lista.length === 0 ? (
+    <section class="descricao-deputado" aria-labelledby="t-preparo">
+      <Desenho tipo="senado" rotulo="A cúpula voltada para baixo, sobre o plenário do Senado" classe="senado-desenho" />
+      <h2 id="t-preparo" style="margin-top:24px">Em preparação</h2>
+      <p class="frase">A primeira coleta de dados do Senado ainda não rodou. Assim que rodar, esta página lista cada senador com votos e projetos.</p>
+    </section>
+  ) : (
+    <>
+      <p><a class="botao" href={url("/votacoes-senado/")}>Ver as {nVotacoes.toLocaleString("pt-BR")} votações do Senado</a></p>
+      <form class="filtros" onsubmit="return false">
+        <label>Nome<input type="search" id="d-nome" placeholder="Buscar senador" autocomplete="off" /></label>
+        <label>Partido
+          <select id="d-partido"><option value="">Todos</option>{partidos.map((p) => <option>{p}</option>)}</select>
+        </label>
+        <label>Estado
+          <select id="d-uf"><option value="">Todos</option>{ufs.map((u) => <option>{u}</option>)}</select>
+        </label>
+        {emExercicio > 0 && emExercicio < lista.length && (
+          <label class="check"><input type="checkbox" id="d-exercicio" checked /> Só em exercício</label>
+        )}
+      </form>
+      <p class="contagem" id="d-contagem" aria-live="polite">{lista.length} senadores</p>
+      <div class="tabela-rolagem">
+        <table>
+          <thead><tr><th>Nome</th><th>Partido</th><th>UF</th><th class="num">Votos registrados</th></tr></thead>
+          <tbody id="d-corpo">
+            {lista.map((s) => (
+              <tr data-nome={s.nome.toLowerCase()} data-partido={s.partido ?? ""} data-uf={s.uf ?? ""} data-exercicio={s.em_exercicio ? "1" : "0"}>
+                <td><a href={url(`/senador/${s.id}/`)}>{s.nome}</a></td>
+                <td>{s.partido ?? "—"}</td>
+                <td>{s.uf ?? "—"}</td>
+                <td class="num">{(hist.get(s.id)?.length ?? 0).toLocaleString("pt-BR")}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </>
+  )}
+  <p class="fonte">Fonte: Dados Abertos do Senado Federal.</p>
 </Base>
 
 <style>
   .senado-desenho { width: min(260px, 60%); height: auto; color: #fff; }
 </style>
+
+<script>
+  const linhas = Array.from(document.querySelectorAll<HTMLTableRowElement>("#d-corpo tr"));
+  const $ = (id: string) => document.getElementById(id) as HTMLInputElement | null;
+  const f = { nome: $("d-nome"), partido: $("d-partido"), uf: $("d-uf"), exercicio: $("d-exercicio") };
+  const contagem = document.getElementById("d-contagem");
+  if (f.nome && contagem) {
+    const norm = (s: string) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+    linhas.forEach((tr) => (tr.dataset.nome = norm(tr.dataset.nome ?? "")));
+    const aplicar = () => {
+      const nome = norm(f.nome!.value.trim());
+      let n = 0;
+      for (const tr of linhas) {
+        const d = tr.dataset;
+        const ok = (!nome || d.nome!.includes(nome)) && (!f.partido!.value || d.partido === f.partido!.value)
+          && (!f.uf!.value || d.uf === f.uf!.value) && (!f.exercicio?.checked || d.exercicio === "1");
+        tr.classList.toggle("oculto", !ok);
+        n += Number(ok);
+      }
+      contagem.textContent = n === 1 ? "1 senador" : `${n} senadores`;
+    };
+    f.nome.addEventListener("input", aplicar);
+    [f.partido, f.uf, f.exercicio].forEach((c) => c?.addEventListener("change", aplicar));
+    aplicar();
+  }
+</script>
