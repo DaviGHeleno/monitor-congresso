@@ -1,0 +1,51 @@
+name: E-mail diário
+
+# Às 18h (Brasília): atualiza as votações do Senado e manda o resumo das últimas 24 horas por e-mail.
+# A Câmara já é atualizada de hora em hora pelo workflow "Coletar votações".
+# Segredos necessários (Settings > Secrets and variables > Actions):
+#   GMAIL_USER, GMAIL_APP_PASSWORD, EMAIL_DESTINO
+# O GitHub pode atrasar horários agendados em alguns minutos.
+on:
+  schedule:
+    - cron: "0 21 * * *" # 18:00 em Brasília
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dados
+  cancel-in-progress: false
+
+jobs:
+  email:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+
+      - name: Atualizar votações do Senado
+        continue-on-error: true # se o Senado estiver fora do ar, manda o e-mail com o que já tem
+        run: python -m coletor.senado --sem-projetos
+
+      - name: Salvar dados
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dados
+          if ! git diff --cached --quiet; then
+            git commit -m "dados: Senado (antes do e-mail)"
+            git pull --rebase
+            git push
+          fi
+
+      - name: Enviar e-mail
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          EMAIL_DESTINO: ${{ secrets.EMAIL_DESTINO }}
+        run: python -m coletor.email_diario
