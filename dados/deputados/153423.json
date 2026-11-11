@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 3,
   "aprovado": 3,
-  "tramitacao": 47,
+  "tramitacao": 46,
   "encerrado": 3,
-  "sem_informacao": 3
+  "sem_informacao": 4
  },
  "projetos": [
   {
@@ -80,9 +80,9 @@
    "ano": 2026,
    "ementa": "Institui a Política Nacional de Atenção Integral à Pessoa com Diabetes Mellitus Tipo 1; altera a Lei nº 8.080/1990 e a Lei nº 13.895/2019; e dá outras providências.",
    "apresentacao": "2026-03-05",
-   "situacao": "Tramitando em Conjunto",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2607232",
    "primeiro_autor": true
   },

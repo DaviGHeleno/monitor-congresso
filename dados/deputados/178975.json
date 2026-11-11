@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 1,
   "aprovado": 1,
-  "tramitacao": 23,
+  "tramitacao": 22,
   "encerrado": 1,
-  "sem_informacao": 2
+  "sem_informacao": 3
  },
  "projetos": [
   {
@@ -93,7 +93,7 @@
    "ano": 2026,
    "ementa": "Dispõe sobre a utilização de recursos digitais computadores, tablets e telefones celulares, por terapeutas no ambiente escolar como ferramentas de apoio terapêutico aos estudantes com Transtorno do Espectro Autista (TEA).",
    "apresentacao": "2026-02-05",
-   "situacao": "Aguardando Deliberação",
+   "situacao": "Aguardando Encaminhamento",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2601056",
@@ -301,9 +301,9 @@
    "ano": 2023,
    "ementa": "Altera a Lei nº 6.684, de 1979, que \"regulamenta as Profissões de Biólogo e de Biomédico, cria o Conselho Federal e os Conselhos Regionais de Biologia e Biomedicina, e dá outras providências\n\".",
    "apresentacao": "2023-06-06",
-   "situacao": "Aguardando Deliberação",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2367579",
    "primeiro_autor": true
   },

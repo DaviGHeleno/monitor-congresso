@@ -2,10 +2,10 @@
  "id": 220556,
  "resumo": {
   "lei": 4,
-  "aprovado": 3,
+  "aprovado": 4,
   "tramitacao": 110,
-  "encerrado": 5,
-  "sem_informacao": 19
+  "encerrado": 6,
+  "sem_informacao": 18
  },
  "projetos": [
   {
@@ -41,9 +41,9 @@
    "ano": 2026,
    "ementa": "Determina que as despesas de capital e parcela das despesas custeadas com receitas próprias de autarquias federais não sejam alcançadas pelo mecanismo de limitação de empenho e movimentação financeira previsto na LRF, e não sejam incluídas na base de cálculo e nos limites estabelecidos no Novo Arcabouço Fiscal para as despesas primárias do Governo Federal.",
    "apresentacao": "2026-08-12",
-   "situacao": "Ag. Análise de Inconstitucionalidade",
+   "situacao": "Arquivada",
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": "encerrado",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643283",
    "primeiro_autor": false
   },
@@ -457,7 +457,7 @@
    "ano": 2026,
    "ementa": "Altera a Lei n.º 13.675, de 11 de junho de 2018, para instituir o Banco Nacional de Monitoramento de Crimes Violentos Letais Intencionais (BCVLI), no âmbito do Sistema Nacional de Informações de Segurança Pública (Sinesp).",
    "apresentacao": "2026-03-12",
-   "situacao": "Aguardando Deliberação",
+   "situacao": "Aguardando Encaminhamento",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2608753",
@@ -618,6 +618,19 @@
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2603669",
    "primeiro_autor": true
+  },
+  {
+   "id": 2651984,
+   "sigla": "PLP",
+   "numero": 290,
+   "ano": 2026,
+   "ementa": "Determina que as despesas de capital e parcela das despesas custeadas com receitas próprias de autarquias federais não sejam alcançadas pelo mecanismo de limitação de empenho e movimentação financeira previsto na LRF, e não sejam incluídas na base de cálculo e nos limites estabelecidos no Novo Arcabouço Fiscal para as despesas primárias do Governo Federal.",
+   "apresentacao": "2026-08-12",
+   "situacao": "Aguardando Autorização do Despacho",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651984",
+   "primeiro_autor": false
   },
   {
    "id": 2600760,
@@ -1185,9 +1198,9 @@
    "ano": 2024,
    "ementa": "Acrescenta parágrafo único ao art. 133 da Lei nº 8.069, de 13 de julho de 1990, para dispor sobre causas que atentam contra a idoneidade moral do conselheiro tutelar.",
    "apresentacao": "2024-07-02",
-   "situacao": null,
+   "situacao": "Aguardando Autógrafos na Mesa",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "aprovado",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2444640",
    "primeiro_autor": true
   },

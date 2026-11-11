@@ -2,10 +2,10 @@
  "id": 74398,
  "resumo": {
   "lei": 2,
-  "aprovado": 6,
+  "aprovado": 7,
   "tramitacao": 78,
-  "encerrado": 8,
-  "sem_informacao": 11
+  "encerrado": 9,
+  "sem_informacao": 10
  },
  "projetos": [
   {
@@ -54,9 +54,9 @@
    "ano": 2026,
    "ementa": "Determina que as despesas de capital e parcela das despesas custeadas com receitas próprias de autarquias federais não sejam alcançadas pelo mecanismo de limitação de empenho e movimentação financeira previsto na LRF, e não sejam incluídas na base de cálculo e nos limites estabelecidos no Novo Arcabouço Fiscal para as despesas primárias do Governo Federal.",
    "apresentacao": "2026-08-12",
-   "situacao": "Ag. Análise de Inconstitucionalidade",
+   "situacao": "Arquivada",
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": "encerrado",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643283",
    "primeiro_autor": false
   },
@@ -345,6 +345,19 @@
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2601818",
    "primeiro_autor": true
+  },
+  {
+   "id": 2651984,
+   "sigla": "PLP",
+   "numero": 290,
+   "ano": 2026,
+   "ementa": "Determina que as despesas de capital e parcela das despesas custeadas com receitas próprias de autarquias federais não sejam alcançadas pelo mecanismo de limitação de empenho e movimentação financeira previsto na LRF, e não sejam incluídas na base de cálculo e nos limites estabelecidos no Novo Arcabouço Fiscal para as despesas primárias do Governo Federal.",
+   "apresentacao": "2026-08-12",
+   "situacao": "Aguardando Autorização do Despacho",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651984",
+   "primeiro_autor": false
   },
   {
    "id": 2600415,
@@ -912,9 +925,9 @@
    "ano": 2024,
    "ementa": "Acrescenta § 9º ao Art. 98 da Lei n°13.105 de 16 de março de 2015, para determinar a garantia de gratuidade da justiça a toda pessoa física inscrita no Cadastro Único Para Programas Sociais – CadÚnico.",
    "apresentacao": "2024-04-16",
-   "situacao": null,
+   "situacao": "Aguardando Autógrafos na Mesa",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "aprovado",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2427146",
    "primeiro_autor": true
   },

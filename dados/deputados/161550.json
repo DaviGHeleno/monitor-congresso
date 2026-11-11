@@ -5,9 +5,22 @@
   "aprovado": 0,
   "tramitacao": 24,
   "encerrado": 3,
-  "sem_informacao": 1
+  "sem_informacao": 2
  },
  "projetos": [
+  {
+   "id": 2652175,
+   "sigla": "PL",
+   "numero": 5807,
+   "ano": 2026,
+   "ementa": "Cria a Rota Turística Caminho Santa Rita de Cássia, no trecho compreendido entre os Municípios de Passos e Cássia, no Estado de Minas Gerais.",
+   "apresentacao": "2026-11-10",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2652175",
+   "primeiro_autor": true
+  },
   {
    "id": 2637614,
    "sigla": "PL",

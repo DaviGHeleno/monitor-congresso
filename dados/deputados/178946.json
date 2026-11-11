@@ -5,7 +5,7 @@
   "aprovado": 5,
   "tramitacao": 46,
   "encerrado": 6,
-  "sem_informacao": 4
+  "sem_informacao": 5
  },
  "projetos": [
   {
@@ -110,6 +110,19 @@
    "situacao_data": null,
    "categoria": "lei",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2607606",
+   "primeiro_autor": true
+  },
+  {
+   "id": 2652524,
+   "sigla": "PRC",
+   "numero": 50,
+   "ano": 2026,
+   "ementa": "Institui o Prêmio Trajetórias de Êxito na Superdotação e na Dupla Excepcionalidade.",
+   "apresentacao": "2026-11-10",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2652524",
    "primeiro_autor": true
   },
   {

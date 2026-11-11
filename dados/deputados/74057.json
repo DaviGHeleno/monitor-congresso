@@ -4,7 +4,7 @@
   "lei": 2,
   "aprovado": 3,
   "tramitacao": 47,
-  "encerrado": 7,
+  "encerrado": 8,
   "sem_informacao": 4
  },
  "projetos": [
@@ -80,7 +80,7 @@
    "ano": 2026,
    "ementa": "Institui o Passe Enem, benefício tarifário destinado a assegurar gratuidade no transporte público coletivo aos participantes do Exame Nacional do Ensino Médio nos dias de aplicação das provas, e dispõe sobre seu custeio pela União.",
    "apresentacao": "2026-08-13",
-   "situacao": "Aguardando Autorização do Despacho",
+   "situacao": "Pronta para Pauta",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643736",
@@ -93,9 +93,9 @@
    "ano": 2026,
    "ementa": "Determina que as despesas de capital e parcela das despesas custeadas com receitas próprias de autarquias federais não sejam alcançadas pelo mecanismo de limitação de empenho e movimentação financeira previsto na LRF, e não sejam incluídas na base de cálculo e nos limites estabelecidos no Novo Arcabouço Fiscal para as despesas primárias do Governo Federal.",
    "apresentacao": "2026-08-12",
-   "situacao": "Ag. Análise de Inconstitucionalidade",
+   "situacao": "Arquivada",
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": "encerrado",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643283",
    "primeiro_autor": false
   },
@@ -189,6 +189,19 @@
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2625475",
    "primeiro_autor": true
+  },
+  {
+   "id": 2651984,
+   "sigla": "PLP",
+   "numero": 290,
+   "ano": 2026,
+   "ementa": "Determina que as despesas de capital e parcela das despesas custeadas com receitas próprias de autarquias federais não sejam alcançadas pelo mecanismo de limitação de empenho e movimentação financeira previsto na LRF, e não sejam incluídas na base de cálculo e nos limites estabelecidos no Novo Arcabouço Fiscal para as despesas primárias do Governo Federal.",
+   "apresentacao": "2026-08-12",
+   "situacao": "Aguardando Autorização do Despacho",
+   "situacao_data": null,
+   "categoria": "tramitacao",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651984",
+   "primeiro_autor": false
   },
   {
    "id": 2606313,

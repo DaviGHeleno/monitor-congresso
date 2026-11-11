@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 4,
-  "tramitacao": 53,
+  "tramitacao": 54,
   "encerrado": 5,
-  "sem_informacao": 14
+  "sem_informacao": 13
  },
  "projetos": [
   {
@@ -626,9 +626,9 @@
    "ano": 2023,
    "ementa": "Altera os artigos 26 e 36  da Lei nº 9.394  20 de dezembro de 1996 (Lei de Diretrizes e Bases de Educação) e dá outras providências.",
    "apresentacao": "2023-10-03",
-   "situacao": null,
+   "situacao": "Tramitando em Conjunto",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2392938",
    "primeiro_autor": true
   },

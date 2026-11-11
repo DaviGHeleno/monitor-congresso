@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 2,
   "aprovado": 5,
-  "tramitacao": 166,
+  "tramitacao": 168,
   "encerrado": 11,
-  "sem_informacao": 17
+  "sem_informacao": 15
  },
  "projetos": [
   {
@@ -67,7 +67,7 @@
    "ano": 2026,
    "ementa": "Denomina “Aeroporto Internacional de São Paulo/Guarulhos – Lito Sousa” o aeroporto internacional localizado no Município de Guarulhos, Estado de São Paulo.",
    "apresentacao": "2026-10-02",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+   "situacao": "Aguardando Autorização do Despacho",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2647292",
@@ -93,7 +93,7 @@
    "ano": 2026,
    "ementa": "Dispõe sobre o incentivo e a regulamentação da Mineração Urbana; institui a prioridade de aproveitamento de recursos de fontes secundárias; estabelece a obrigatoriedade de se considerar a disponibilidade de minerais a partir de fontes secundárias; e, estabelece a restrição de concessão de lavra e de licença ambiental para a extração de minerais disponíveis no passivo urbano.",
    "apresentacao": "2026-10-01",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+   "situacao": "Aguardando Autorização do Despacho",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2647275",
@@ -106,7 +106,7 @@
    "ano": 2026,
    "ementa": "Institui a Política Nacional de Adequação do Tamanho das Turmas da Educação Básica, estabelece limites máximos de estudantes por turma e cria o Índice Nacional de Superlotação de Turmas.",
    "apresentacao": "2026-09-25",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+   "situacao": "Aguardando Autorização do Despacho",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2647140",
@@ -483,9 +483,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 9.394, de 20 de dezembro de 1996, para incluir a educação para a proteção e o bem-estar animal como tema transversal nos currículos da educação básica.",
    "apresentacao": "2026-03-26",
-   "situacao": null,
+   "situacao": "Tramitando em Conjunto",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2612364",
    "primeiro_autor": true
   },
@@ -2303,7 +2303,7 @@
    "ano": 2023,
    "ementa": "Dispõe sobre a criação do Dia Nacional da Visibilidade Lésbica.",
    "apresentacao": "2023-06-27",
-   "situacao": "Aguardando Deliberação",
+   "situacao": "Pronta para Pauta",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2371631",
@@ -2316,9 +2316,9 @@
    "ano": 2023,
    "ementa": "Altera a Lei nº 9.394, de 20 de dezembro de 1996, para incluir a educação climática como base da educação escolar.",
    "apresentacao": "2023-06-06",
-   "situacao": null,
+   "situacao": "Tramitando em Conjunto",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2367806",
    "primeiro_autor": true
   },

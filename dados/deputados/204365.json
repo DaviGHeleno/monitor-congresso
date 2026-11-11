@@ -3,11 +3,24 @@
  "resumo": {
   "lei": 1,
   "aprovado": 2,
-  "tramitacao": 138,
+  "tramitacao": 137,
   "encerrado": 13,
-  "sem_informacao": 3
+  "sem_informacao": 5
  },
  "projetos": [
+  {
+   "id": 2652515,
+   "sigla": "PL",
+   "numero": 5811,
+   "ano": 2026,
+   "ementa": "Dispõe sobre a oferta e a negociação de contratos derivativos não financeiros referenciados em eventos reais ou virtuais não representativos de referencial econômico-financeiro, a critério da Comissão de Valores Mobiliários, e dá outras providências.",
+   "apresentacao": "2026-11-10",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2652515",
+   "primeiro_autor": true
+  },
   {
    "id": 2643962,
    "sigla": "PL",
@@ -41,7 +54,7 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 8.036, de 11 de maio de 1990, para estabelecer remuneração mínima das contas vinculadas do Fundo de Garantia do Tempo de Serviço (FGTS) correspondente à variação do Índice Nacional de Preços ao Consumidor Amplo (IPCA) acrescida dos juros legais.",
    "apresentacao": "2026-07-17",
-   "situacao": "Aguardando Apensação",
+   "situacao": "Tramitando em Conjunto",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2640434",
@@ -1068,9 +1081,9 @@
    "ano": 2024,
    "ementa": "Altera o Programa Nacional de Pagamento por Serviços Ambientais, para dispor sobre a inclusão de mecanismos de prevenção e combate a incêndios florestais e queimadas irregulares.",
    "apresentacao": "2024-10-15",
-   "situacao": "Aguardando Deliberação",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2462449",
    "primeiro_autor": false
   },

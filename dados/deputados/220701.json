@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 1,
   "aprovado": 5,
-  "tramitacao": 104,
+  "tramitacao": 105,
   "encerrado": 15,
-  "sem_informacao": 18
+  "sem_informacao": 17
  },
  "projetos": [
   {
@@ -1471,9 +1471,9 @@
    "ano": 2023,
    "ementa": "Altera o art. 26 da Lei nº 9.394, de 20 de dezembro de 1996, que estabelece as diretrizes e bases da educação nacional, para incluir o Direito dos Animais e a Proteção Animal como componentes obrigatórios dos currículos do ensino fundamental e do ensino médio.",
    "apresentacao": "2023-02-03",
-   "situacao": null,
+   "situacao": "Tramitando em Conjunto",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2347057",
    "primeiro_autor": false
   },
