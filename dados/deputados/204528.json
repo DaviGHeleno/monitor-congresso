@@ -2,10 +2,10 @@
  "id": 204528,
  "resumo": {
   "lei": 2,
-  "aprovado": 5,
+  "aprovado": 6,
   "tramitacao": 204,
   "encerrado": 21,
-  "sem_informacao": 4
+  "sem_informacao": 3
  },
  "projetos": [
   {
@@ -15,7 +15,7 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 15.040, de 9 de dezembro de 2024, para assegurar a inventariantes, meeiros, herdeiros, beneficiários e demais sucessores legitimados o acesso a informações sobre produto de seguro celebrado por pessoa falecida.",
    "apresentacao": "2026-09-02",
-   "situacao": "Aguardando Chancela e Publicação do Despacho",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2645541",
@@ -41,7 +41,7 @@
    "ano": 2026,
    "ementa": "Institui o Sistema Nacional de Informações sobre Emendas Parlamentares na Saúde.",
    "apresentacao": "2026-08-18",
-   "situacao": "Aguardando Autorização do Despacho",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643962",
@@ -795,7 +795,7 @@
    "ano": 2025,
    "ementa": "Revoga a Lei nº 15.079, de 27 de dezembro de 2024, para extinguir o Adicional da Contribuição Social sobre o Lucro Líquido (CSLL) adotado no processo de adaptação da legislação brasileira às Regras Globais Contra a Erosão da Base Tributária - Regras GloBE.",
    "apresentacao": "2025-04-11",
-   "situacao": "Aguardando Deliberação",
+   "situacao": "Pronta para Pauta",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2497369",
@@ -1588,9 +1588,9 @@
    "ano": 2024,
    "ementa": "Altera o Programa Nacional de Pagamento por Serviços Ambientais, para dispor sobre a inclusão de mecanismos de prevenção e combate a incêndios florestais e queimadas irregulares.",
    "apresentacao": "2024-10-15",
-   "situacao": null,
+   "situacao": "Aguardando Autógrafos na Mesa",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "aprovado",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2462449",
    "primeiro_autor": true
   },

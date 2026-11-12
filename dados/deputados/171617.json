@@ -2,10 +2,10 @@
  "id": 171617,
  "resumo": {
   "lei": 1,
-  "aprovado": 0,
+  "aprovado": 1,
   "tramitacao": 36,
   "encerrado": 1,
-  "sem_informacao": 7
+  "sem_informacao": 6
  },
  "projetos": [
   {
@@ -262,9 +262,9 @@
    "ano": 2025,
    "ementa": "Inscreve Almerinda Farias Gama, grande sufragista da casa feminina do Brasil, no Livro dos Heróis e Heroínas da Pátria.",
    "apresentacao": "2025-08-27",
-   "situacao": null,
+   "situacao": "Aguardando Autógrafos na Mesa",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "aprovado",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2553910",
    "primeiro_autor": true
   },
@@ -431,7 +431,7 @@
    "ano": 2024,
    "ementa": "Altera o art. 198 da Constituição Federal, para promover o enquadramento dos servidores públicos federais ocupantes do cargo de auxiliar de enfermagem para a carreira dos técnicos de enfermagem.",
    "apresentacao": "2024-05-23",
-   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao": "Aguardando Parecer",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2436224",

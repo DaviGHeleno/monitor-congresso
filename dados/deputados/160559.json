@@ -5,7 +5,7 @@
   "aprovado": 3,
   "tramitacao": 65,
   "encerrado": 4,
-  "sem_informacao": 4
+  "sem_informacao": 5
  },
  "projetos": [
   {
@@ -15,7 +15,7 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 9.393, de 19 de dezembro de 1996, para conceder isenção do Imposto sobre a Propriedade Territorial Rural – ITR aos imóveis rurais atingidos por estado de calamidade pública decretado pelo Poder Público municipal e reconhecido pelo Governo Federal.",
    "apresentacao": "2026-09-10",
-   "situacao": "Aguardando Chancela e Publicação do Despacho",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646326",
@@ -71,6 +71,19 @@
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2613498",
+   "primeiro_autor": true
+  },
+  {
+   "id": 2652977,
+   "sigla": "PLP",
+   "numero": 300,
+   "ano": 2026,
+   "ementa": "Altera a Lei Complementar nº 214, de 16 de janeiro de 2025, para estender o diferimento do Imposto sobre Bens e Serviços (IBS) e da Contribuição Social sobre Bens e Serviços (CBS) às operações com produtos agropecuários, aquícolas, pesqueiros, florestais e extrativistas vegetais in natura realizadas entre contribuintes sujeitos ao regime regular e para assegurar a manutenção dos créditos do fornecedor nas operações com diferimento.",
+   "apresentacao": "2026-11-11",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2652977",
    "primeiro_autor": true
   },
   {
@@ -808,7 +821,7 @@
    "ano": 2024,
    "ementa": "Altera o art. 198 da Constituição Federal, para promover o enquadramento dos servidores públicos federais ocupantes do cargo de auxiliar de enfermagem para a carreira dos técnicos de enfermagem.",
    "apresentacao": "2024-05-23",
-   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao": "Aguardando Parecer",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2436224",
