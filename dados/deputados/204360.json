@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 7,
-  "tramitacao": 48,
+  "tramitacao": 45,
   "encerrado": 2,
-  "sem_informacao": 6
+  "sem_informacao": 9
  },
  "projetos": [
   {
@@ -15,9 +15,9 @@
    "ano": 2026,
    "ementa": "Institui a Política Nacional do Método Canguru, destinada à promoção da atenção humanizada ao recém-nascido pré-termo ou de baixo peso, no âmbito do Sistema Único de Saúde (SUS).",
    "apresentacao": "2026-09-16",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646498",
    "primeiro_autor": true
   },
@@ -41,9 +41,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 8.142, de 28 de dezembro de 1990, para instituir a avaliação periódica da satisfação dos usuários do Sistema Único de Saúde.",
    "apresentacao": "2026-08-27",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644746",
    "primeiro_autor": false
   },
@@ -184,9 +184,9 @@
    "ano": 2025,
    "ementa": "Altera dispositivos da lei  6.360, de 23 de setembro de 1976 que  Dispõe sobre a vigilância sanitária a que ficam sujeitos os medicamentos, as drogas, os insumos farmacêuticos e correlatos, cosméticos, saneantes e outros produtos, e dá outras providências.",
    "apresentacao": "2025-12-08",
-   "situacao": "Aguardando Encaminhamento",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2593648",
    "primeiro_autor": true
   },

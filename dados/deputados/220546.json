@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 1,
   "aprovado": 3,
-  "tramitacao": 124,
+  "tramitacao": 125,
   "encerrado": 15,
-  "sem_informacao": 8
+  "sem_informacao": 7
  },
  "projetos": [
   {
@@ -41,9 +41,9 @@
    "ano": 2026,
    "ementa": "Proíbe a exploração, a operação, a oferta e a publicidade das apostas de quota fixa em todo o território nacional, revoga dispositivos da Lei nº 13.756, de 12 de dezembro de 2018, e a Lei nº 14.790, de 29 de dezembro de 2023, e dá outras providências.",
    "apresentacao": "2026-07-13",
-   "situacao": null,
+   "situacao": "Tramitando em Conjunto",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2639250",
    "primeiro_autor": true
   },
@@ -80,7 +80,7 @@
    "ano": 2026,
    "ementa": "Altera o Decreto-Lei nº 667, de 2 de julho de 1969, que reorganiza as Polícias Militares e os Corpos de Bombeiros Militares dos Estados, dos Territórios e do Distrito Federal, e dá outras providências, para assegurar acesso a plano de saúde a policiais e bombeiros militares.",
    "apresentacao": "2026-04-30",
-   "situacao": "Aguardando Encaminhamento",
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2620243",
@@ -470,7 +470,7 @@
    "ano": 2025,
    "ementa": "Altera o Código de Processo Penal para tornar obrigatória a prisão preventiva em casos de violência contra a mulher, na audiência de custódia, salvo prova cabal de inexistência de risco.",
    "apresentacao": "2025-08-15",
-   "situacao": "Aguardando Parecer",
+   "situacao": "Pronta para Pauta",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2547124",

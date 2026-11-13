@@ -1,11 +1,11 @@
 {
  "id": 160665,
  "resumo": {
-  "lei": 0,
-  "aprovado": 3,
-  "tramitacao": 43,
+  "lei": 1,
+  "aprovado": 2,
+  "tramitacao": 41,
   "encerrado": 2,
-  "sem_informacao": 1
+  "sem_informacao": 3
  },
  "projetos": [
   {
@@ -15,9 +15,9 @@
    "ano": 2026,
    "ementa": "Autoriza a concessão de apoio financeiro aos produtores independentes de cana-de-açúcar da Região Nordeste no exercício de 2026 e a destinação de recursos para linhas de financiamento reembolsável destinadas à renovação de frota e altera as Leis nºs 9.818, de 23 de agosto de 1999, 11.540, de 12 de novembro de 2007, e 14.947, de 2 de agosto de 2024.",
    "apresentacao": "2026-10-22",
-   "situacao": "Aguardando Sanção",
+   "situacao": "Transformado em Norma Jurídica",
    "situacao_data": null,
-   "categoria": "aprovado",
+   "categoria": "lei",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2648807",
    "primeiro_autor": true
   },
@@ -28,9 +28,9 @@
    "ano": 2026,
    "ementa": "Altera o art. 149-A do Decreto-Lei nº 2.848, de 7 de dezembro de 1940 – Código Penal, para tornar crime o aliciamento ou recrutamento de pessoa com a finalidade de combate em conflito armado.",
    "apresentacao": "2026-09-09",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646260",
    "primeiro_autor": true
   },
@@ -67,9 +67,9 @@
    "ano": 2026,
    "ementa": "Altera o Decreto-Lei nº 9.295, de 27 de maio de 1946, para aperfeiçoar o regime de cobrança de anuidades do Sistema CFC/CRCs, instituir a modalidade de registro profissional inativo e estabelecer obrigações de transparência financeira.",
    "apresentacao": "2026-05-05",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2621594",
    "primeiro_autor": true
   },

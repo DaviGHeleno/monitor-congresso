@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 0,
-  "tramitacao": 16,
+  "tramitacao": 17,
   "encerrado": 2,
-  "sem_informacao": 7
+  "sem_informacao": 6
  },
  "projetos": [
   {
@@ -145,9 +145,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 14.790, de 29 de dezembro de 2023, para restringir a modalidade lotérica denominada aposta de quota fixa às apostas incidentes sobre eventos reais de temática esportiva e vedar a exploração de apostas baseadas em eventos virtuais aleatórios.",
    "apresentacao": "2026-07-01",
-   "situacao": null,
+   "situacao": "Tramitando em Conjunto",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2636532",
    "primeiro_autor": true
   },

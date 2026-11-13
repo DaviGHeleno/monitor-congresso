@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 1,
-  "tramitacao": 47,
+  "tramitacao": 46,
   "encerrado": 1,
-  "sem_informacao": 3
+  "sem_informacao": 4
  },
  "projetos": [
   {
@@ -132,9 +132,9 @@
    "ano": 2025,
    "ementa": "Altera o art. 8º da Lei nº 14.620, de 13 de julho de 2023, para incluir os professores de escolas públicas entre os beneficiários com prioridade no Programa Minha Casa, Minha Vida.",
    "apresentacao": "2025-09-01",
-   "situacao": "Tramitando em Conjunto",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2555272",
    "primeiro_autor": true
   },

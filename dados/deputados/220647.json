@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 2,
-  "tramitacao": 53,
+  "tramitacao": 52,
   "encerrado": 5,
-  "sem_informacao": 8
+  "sem_informacao": 9
  },
  "projetos": [
   {
@@ -28,9 +28,9 @@
    "ano": 2026,
    "ementa": "Dispõe sobre a subvinculação progressiva de percentual obrigatório das receitas destinadas à Manutenção e Desenvolvimento do Ensino (MDE) e do FUNDEB para o financiamento da inclusão escolar de estudantes com deficiência e Transtorno do Espectro Autista (TEA); altera a Lei nº 8.429/1992 e a Lei Complementar nº 101/2000; e disciplina a fiscalização social e a formação continuada docente.",
    "apresentacao": "2026-08-17",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643902",
    "primeiro_autor": true
   },

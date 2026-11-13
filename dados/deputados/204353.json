@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 0,
-  "tramitacao": 10,
+  "tramitacao": 9,
   "encerrado": 0,
-  "sem_informacao": 1
+  "sem_informacao": 2
  },
  "projetos": [
   {
@@ -28,7 +28,7 @@
    "ano": 2026,
    "ementa": "Institui a Lei Amapá Tucujú, estabelece diretrizes para a prioridade de investimentos em infraestrutura petrolífera no Estado do Amapá e dispõe sobre o desenvolvimento econômico e social associado às atividades de petróleo e gás natural da Margem Equatorial Brasileira.",
    "apresentacao": "2026-10-16",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+   "situacao": "Aguardando Autorização do Despacho",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2648324",
@@ -67,7 +67,7 @@
    "ano": 2026,
    "ementa": "Institui o Programa Mandioca Viva, destinado ao apoio emergencial, à proteção de renda e à recuperação produtiva de agricultores e comunidades atingidos por emergência fitossanitária da cultura da mandioca.",
    "apresentacao": "2026-09-21",
-   "situacao": "Aguardando Autorização do Despacho",
+   "situacao": "Aguardando Chancela e Publicação do Despacho",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646836",
@@ -80,9 +80,9 @@
    "ano": 2026,
    "ementa": "Institui o Programa Nacional SPA – Saúde Mental e Bem-Estar, estabelece diretrizes para a promoção da saúde mental e a prevenção do sofrimento psíquico no âmbito do Sistema Único de Saúde – SUS, e dá outras providências.",
    "apresentacao": "2026-09-01",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2645408",
    "primeiro_autor": true
   },

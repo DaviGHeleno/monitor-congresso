@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 1,
   "aprovado": 1,
-  "tramitacao": 67,
+  "tramitacao": 65,
   "encerrado": 7,
-  "sem_informacao": 1
+  "sem_informacao": 3
  },
  "projetos": [
   {
@@ -15,9 +15,9 @@
    "ano": 2026,
    "ementa": "Institui a Política Nacional para o Desenvolvimento da Medicina Nuclear.",
    "apresentacao": "2026-08-24",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644381",
    "primeiro_autor": true
   },
@@ -28,9 +28,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 13.756, de 12 de dezembro de 2018, para incluir, entre as destinações dos recursos do Fundo Nacional de Segurança Pública (FNSP), o custeio direto da defesa judicial e extrajudicial de agentes públicos federais de segurança pública que respondam a processo judicial ou administrativo em decorrência do exercício regular de suas atribuições constitucionais, legais e regulamentares, e dá outras providências.",
    "apresentacao": "2026-07-27",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641615",
    "primeiro_autor": true
   },
@@ -522,7 +522,7 @@
    "ano": 2024,
    "ementa": "Define prêmios, que não integram o salário de contribuição, na forma do art. 28, § 9º, “z”, da Lei n° 8.212, de 24 de julho de 1991.",
    "apresentacao": "2024-08-22",
-   "situacao": "Aguardando Deliberação",
+   "situacao": "Pronta para Pauta",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2454491",

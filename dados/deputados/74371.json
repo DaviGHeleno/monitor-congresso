@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 1,
   "aprovado": 0,
-  "tramitacao": 59,
+  "tramitacao": 57,
   "encerrado": 12,
-  "sem_informacao": 8
+  "sem_informacao": 10
  },
  "projetos": [
   {
@@ -821,9 +821,9 @@
    "ano": 2023,
    "ementa": "Institui o Programa Casa do Professor, destinado a promover a aquisição de habitação para professores da Rede Pública de Ensino.",
    "apresentacao": "2023-02-02",
-   "situacao": "Tramitando em Conjunto",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2346773",
    "primeiro_autor": true
   },
@@ -938,9 +938,9 @@
    "ano": 2023,
    "ementa": "Altera a Lei nº 14.312, de 14 de março de 2022 para incluir os professores da rede pública de ensino entre os beneficiários do Programa Habite Seguro.",
    "apresentacao": "2023-02-02",
-   "situacao": "Tramitando em Conjunto",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2345741",
    "primeiro_autor": true
   },

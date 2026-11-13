@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 1,
-  "tramitacao": 43,
+  "tramitacao": 44,
   "encerrado": 3,
-  "sem_informacao": 2
+  "sem_informacao": 1
  },
  "projetos": [
   {
@@ -28,9 +28,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 14.790, de 29 de dezembro de 2023, para excluir os jogos virtuais de resultado exclusivamente algorítmico do regime jurídico das apostas de quota fixa, vedar sua exploração em território nacional e dar outras providências.",
    "apresentacao": "2026-07-14",
-   "situacao": null,
+   "situacao": "Tramitando em Conjunto",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2639545",
    "primeiro_autor": true
   },

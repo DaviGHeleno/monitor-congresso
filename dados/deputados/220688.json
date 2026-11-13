@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 1,
   "aprovado": 1,
-  "tramitacao": 44,
+  "tramitacao": 43,
   "encerrado": 3,
-  "sem_informacao": 7
+  "sem_informacao": 8
  },
  "projetos": [
   {
@@ -80,9 +80,9 @@
    "ano": 2026,
    "ementa": "Institui a Política Nacional de Cirurgia Ambulatorial (PNCA).",
    "apresentacao": "2026-05-05",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2621633",
    "primeiro_autor": true
   },
@@ -431,7 +431,7 @@
    "ano": 2024,
    "ementa": "Dispõe sobre o arrendamento do imóvel rural para empreendimentos voltados à geração de energia elétrica a partir de fontes renováveis.",
    "apresentacao": "2024-07-02",
-   "situacao": "Aguardando Parecer",
+   "situacao": "Pronta para Pauta",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2444720",

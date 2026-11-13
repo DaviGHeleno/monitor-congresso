@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 1,
   "aprovado": 4,
-  "tramitacao": 149,
+  "tramitacao": 147,
   "encerrado": 11,
-  "sem_informacao": 4
+  "sem_informacao": 6
  },
  "projetos": [
   {
@@ -15,9 +15,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 13.105, de 16 de março de 2015 (Código de Processo Civil), para disciplinar a concessão de tutela provisória e de decisões judiciais que suspendam a eficácia de leis e de atos normativos de efeito geral.",
    "apresentacao": "2026-09-25",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2647153",
    "primeiro_autor": true
   },
@@ -41,9 +41,9 @@
    "ano": 2026,
    "ementa": "Dispõe sobre o cancelamento de tombamento de bens integrantes do patrimônio cultural brasileiro no âmbito federal, estabelece requisitos para a transferência definitiva de bens culturais da União ao exterior e revoga o Decreto-Lei nº 3.866, de 29 de novembro de 1941.",
    "apresentacao": "2026-08-31",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644975",
    "primeiro_autor": true
   },

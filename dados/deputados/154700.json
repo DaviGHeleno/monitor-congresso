@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 0,
-  "tramitacao": 15,
+  "tramitacao": 13,
   "encerrado": 0,
-  "sem_informacao": 1
+  "sem_informacao": 3
  },
  "projetos": [
   {
@@ -67,9 +67,9 @@
    "ano": 2026,
    "ementa": "Institui o Programa Nacional de Internacionalização de Microempresas e Empresas de Pequeno Porte do Setor Calçadista (PRONIN-Calçados), dispõe sobre os consórcios de exportação de que trata esta Lei e altera a Lei nº 10.668, de 14 de maio de 2003, e a Lei nº 13.043, de 13 de novembro de 2014.",
    "apresentacao": "2026-09-01",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2645216",
    "primeiro_autor": true
   },
@@ -80,9 +80,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 8.213, de 24 de julho de 1991, e a Lei nº 8.742, de 7 de dezembro de 1993, para assegurar ao interessado a apresentação de requerimento administrativo de benefício, ainda que exista requerimento referente à mesma espécie em tramitação.",
    "apresentacao": "2026-09-01",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2645215",
    "primeiro_autor": true
   },

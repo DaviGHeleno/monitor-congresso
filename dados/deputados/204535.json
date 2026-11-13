@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 2,
-  "tramitacao": 124,
+  "tramitacao": 125,
   "encerrado": 10,
-  "sem_informacao": 17
+  "sem_informacao": 16
  },
  "projetos": [
   {
@@ -41,9 +41,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 14.597, de 14 de junho de 2023 (Lei Geral do Esporte), para vedar a publicidade comercial e o patrocínio de empresas e plataformas digitais destinadas à divulgação de conteúdo pornográfico ou à intermediação de serviços sexuais em eventos esportivos e nos uniformes de clubes e entidades esportivas.",
    "apresentacao": "2026-07-17",
-   "situacao": null,
+   "situacao": "Tramitando em Conjunto",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2640428",
    "primeiro_autor": true
   },
@@ -54,9 +54,9 @@
    "ano": 2026,
    "ementa": "Altera as Leis nº 9.294, de 15 de julho de 1996 e 14.790, de 29 de dezembro de 2023, para vedar a propaganda comercial de apostas de quota fixa.",
    "apresentacao": "2026-07-13",
-   "situacao": null,
+   "situacao": "Tramitando em Conjunto",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2639213",
    "primeiro_autor": true
   },
@@ -223,9 +223,9 @@
    "ano": 2026,
    "ementa": "Dispõe sobre a vedação de homenagens públicas a pessoas condenadas por crimes violentos contra a mulher e estabelece diretrizes para revisão de denominações e honrarias incompatíveis com esta Lei.",
    "apresentacao": "2026-03-13",
-   "situacao": "Aguardando Encaminhamento",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2608924",
    "primeiro_autor": true
   },
@@ -314,7 +314,7 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 10.826, de 22 de dezembro de 2003, e o Decreto nº 11.615, de 21 de julho de 2023, para aperfeiçoar os critérios de aferição da idoneidade para registro, posse e comercialização de armas de fogo, especialmente nos casos que envolvem a imposição de medidas protetivas de urgência.",
    "apresentacao": "2026-02-04",
-   "situacao": "Aguardando Deliberação",
+   "situacao": "Aguardando Encaminhamento",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2600787",

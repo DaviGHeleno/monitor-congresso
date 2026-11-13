@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 5,
-  "tramitacao": 140,
+  "tramitacao": 138,
   "encerrado": 9,
-  "sem_informacao": 8
+  "sem_informacao": 10
  },
  "projetos": [
   {
@@ -28,9 +28,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 10.826, de 22 de dezembro de 2003, para instituir procedimento simplificado de renovação periódica do credenciamento de Instrutores de Armamento e Tiro perante a Polícia Federal, vedando a repetição integral de testes e exigências probatórias iniciais aos profissionais em atividade regular.",
    "apresentacao": "2026-09-01",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2645253",
    "primeiro_autor": true
   },
@@ -54,9 +54,9 @@
    "ano": 2026,
    "ementa": "\"Altera a Lei nº 10.741, de 1º de outubro de 2003 (Estatuto da Pessoa Idosa), para ampliar de 2 (dois) para até 6 (seis) salários-mínimos a faixa de renda mensal que assegura a gratuidade e o desconto de cinquenta por cento nas passagens de transporte coletivo interestadual.\"",
    "apresentacao": "2026-09-01",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2645237",
    "primeiro_autor": true
   },

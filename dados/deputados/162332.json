@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 2,
-  "tramitacao": 34,
+  "tramitacao": 33,
   "encerrado": 2,
-  "sem_informacao": 6
+  "sem_informacao": 7
  },
  "projetos": [
   {
@@ -15,9 +15,9 @@
    "ano": 2026,
    "ementa": "Estabelece a obrigatoriedade de monitoramento do volume de água efetivamente tratada por elemento filtrante em aparelhos de melhoria da qualidade da água para consumo humano instalados em estabelecimentos de interesse à saúde, dispõe sobre o registro e o acesso remoto ao histórico de consumo pela autoridade sanitária e institui a capacidade volumétrica como critério de substituição do elemento filtrante, cumulativamente ao prazo máximo de uso declarado pelo fabricante.",
    "apresentacao": "2026-08-28",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644786",
    "primeiro_autor": true
   },

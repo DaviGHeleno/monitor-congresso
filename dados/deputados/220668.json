@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 7,
   "aprovado": 8,
-  "tramitacao": 49,
+  "tramitacao": 48,
   "encerrado": 7,
-  "sem_informacao": 3
+  "sem_informacao": 4
  },
  "projetos": [
   {
@@ -15,7 +15,7 @@
    "ano": 2026,
    "ementa": "Institui o Programa Nacional eMulti Escola.",
    "apresentacao": "2026-10-02",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+   "situacao": "Aguardando Autorização do Despacho",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2647299",
@@ -28,7 +28,7 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 13.675, de 11 de junho de 2018, para dispor sobre a assistência suplementar de saúde no âmbito do Programa Pró-Vida, e a Lei nº 13.756, de 12 de dezembro de 2018, para disciplinar os limites e as condicionantes orçamentárias de aplicação dos recursos do Fundo Nacional de Segurança Pública (FNSP).",
    "apresentacao": "2026-09-21",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+   "situacao": "Aguardando Autorização do Despacho",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646872",
@@ -93,7 +93,7 @@
    "ano": 2026,
    "ementa": "Altera o art. 92 do Decreto-Lei nº 2.848, de 7 de dezembro de 1940 – Código Penal, para tornar efeito da condenação, nos crimes praticados com violência contra a mulher, a suspensão da inscrição em conselho profissional.",
    "apresentacao": "2026-05-19",
-   "situacao": "Aguardando Deliberação",
+   "situacao": "Pronta para Pauta",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2625877",
@@ -730,9 +730,9 @@
    "ano": 2023,
    "ementa": "Esta Lei dispõe sobre o Programa Casa de Professor, destinado a oferecer moradias aos professores da rede pública de ensino.",
    "apresentacao": "2023-04-05",
-   "situacao": "Tramitando em Conjunto",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2355005",
    "primeiro_autor": true
   },

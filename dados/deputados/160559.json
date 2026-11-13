@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 2,
   "aprovado": 3,
-  "tramitacao": 65,
+  "tramitacao": 63,
   "encerrado": 4,
-  "sem_informacao": 5
+  "sem_informacao": 7
  },
  "projetos": [
   {
@@ -15,9 +15,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 9.393, de 19 de dezembro de 1996, para conceder isenção do Imposto sobre a Propriedade Territorial Rural – ITR aos imóveis rurais atingidos por estado de calamidade pública decretado pelo Poder Público municipal e reconhecido pelo Governo Federal.",
    "apresentacao": "2026-09-10",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646326",
    "primeiro_autor": true
   },
@@ -28,9 +28,9 @@
    "ano": 2026,
    "ementa": "Institui a Política Nacional de Pesquisa, Inovação e Promoção da Farinha de Arroz (PNPFA).",
    "apresentacao": "2026-08-26",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644625",
    "primeiro_autor": true
   },

@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 0,
-  "tramitacao": 31,
+  "tramitacao": 29,
   "encerrado": 1,
-  "sem_informacao": 5
+  "sem_informacao": 7
  },
  "projetos": [
   {
@@ -15,9 +15,9 @@
    "ano": 2026,
    "ementa": "Altera as Leis nº 9.504, de 30 de setembro de 1997, nº 8.429, de 2 de junho de 1992, e nº 13.303, de 30 de junho de 2016, para dispor sobre a divulgação de demonstrações financeiras obrigatórias de empresas estatais, sociedades de economia mista e suas subsidiárias para fins de registro de candidatura e a responsabilização decorrente de sua não divulgação.",
    "apresentacao": "2026-08-24",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644370",
    "primeiro_autor": true
   },
@@ -28,9 +28,9 @@
    "ano": 2026,
    "ementa": "Cria o Parque Nacional da Serrinha do Paranoá, unidade de conservação de proteção integral, no Distrito Federal, nos termos da Lei nº 9.985, de 18 de julho de 2000, e dá outras providências.",
    "apresentacao": "2026-08-24",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644368",
    "primeiro_autor": true
   },

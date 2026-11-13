@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 1,
   "aprovado": 2,
-  "tramitacao": 72,
+  "tramitacao": 70,
   "encerrado": 3,
-  "sem_informacao": 0
+  "sem_informacao": 2
  },
  "projetos": [
   {
@@ -15,9 +15,9 @@
    "ano": 2026,
    "ementa": "DISPÕE SOBRE A PROFISSIONALIZAÇÃO E INSERÇÃO NO MERCADO DE TRABALHO DE PAIS OU RESPONSÁVEIS POR PESSOAS COM DEFICIÊNCIA, EM CASO DE ÓBITO DESTAS.",
    "apresentacao": "2026-05-06",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2622262",
    "primeiro_autor": true
   },
@@ -80,9 +80,9 @@
    "ano": 2026,
    "ementa": "DISPÕE SOBRE A ISONOMIA NOS TESTES DE APTIDÃO FÍSICA EM CONCURSOS PÚBLICOS, NO ÂMBITO DA ADMINISTRAÇÃO PÚBLICA FEDERAL DIRETA E INDIRETA E DÁ OUTRAS PROVIDÊNCIAS.",
    "apresentacao": "2026-05-06",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2622241",
    "primeiro_autor": true
   },

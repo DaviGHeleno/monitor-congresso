@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 2,
   "aprovado": 6,
-  "tramitacao": 116,
+  "tramitacao": 115,
   "encerrado": 11,
-  "sem_informacao": 10
+  "sem_informacao": 11
  },
  "projetos": [
   {
@@ -15,7 +15,7 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 11.771, de 17 de setembro de 2008 (Lei Geral do Turismo), para estabelecer regras de acesso e permanência de cães e gatos em estabelecimentos prestadores de serviços turísticos e incentivar o turismo pet friendly no Brasil.",
    "apresentacao": "2026-10-09",
-   "situacao": "Aguardando Autorização do Despacho",
+   "situacao": "Aguardando Chancela e Publicação do Despacho",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2647402",
@@ -28,9 +28,9 @@
    "ano": 2026,
    "ementa": "Altera o Decreto-Lei nº 4.737, de 15 de julho de 1965, que institui o Código Eleitoral, para dispor sobre a compra e a venda de voto.",
    "apresentacao": "2026-09-01",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2645140",
    "primeiro_autor": true
   },

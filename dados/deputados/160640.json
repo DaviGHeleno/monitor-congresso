@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 2,
-  "tramitacao": 60,
+  "tramitacao": 61,
   "encerrado": 7,
-  "sem_informacao": 8
+  "sem_informacao": 7
  },
  "projetos": [
   {
@@ -54,9 +54,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 6.830, de 22 de setembro de 1980 (Lei de Execução Fiscal), para dispor sobre a impenhorabilidade de proventos de aposentadoria e pensões de pessoa idosa em situação de vulnerabilidade econômica.",
    "apresentacao": "2026-10-20",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2648421",
    "primeiro_autor": true
   },
@@ -119,9 +119,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 9.394, de 20 de dezembro de 1996 (Lei de Diretrizes e Bases da Educação Nacional), para assegurar o pleno exercício da identidade confessional, a autonomia pedagógico-religiosa e a celebração de ritos e cultos no âmbito das instituições privadas comunitárias, confessionais e filantrópicas de ensino básico e superior.",
    "apresentacao": "2026-08-13",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643604",
    "primeiro_autor": true
   },
@@ -158,9 +158,9 @@
    "ano": 2026,
    "ementa": "Dispõe sobre a obrigatoriedade de identificação visual, registro e rastreabilidade de dispositivos de transporte de mercadorias utilizados por prestadores de serviços de entrega (delivery) em veículos automotores e de propulsão humana ou elétrica, e dá outras providências",
    "apresentacao": "2026-07-17",
-   "situacao": null,
+   "situacao": "Tramitando em Conjunto",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2640287",
    "primeiro_autor": true
   },

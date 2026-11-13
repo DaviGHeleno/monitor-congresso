@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 3,
   "aprovado": 5,
-  "tramitacao": 130,
+  "tramitacao": 128,
   "encerrado": 9,
-  "sem_informacao": 4
+  "sem_informacao": 6
  },
  "projetos": [
   {
@@ -15,9 +15,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 13.675, de 11 de junho de 2018, que institui o Sistema Único de Segurança Pública (Susp), para estabelecer diretrizes nacionais de conectividade operacional e comunicação segura ininterrupta para as forças de segurança pública e defesa social.",
    "apresentacao": "2026-09-09",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646299",
    "primeiro_autor": true
   },
@@ -28,9 +28,9 @@
    "ano": 2026,
    "ementa": "Altera o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), para dispor sobre o furto, o roubo e a receptação de medicamentos, insumos farmacêuticos, dispositivos médicos e insumos hospitalares e sobre a oferta ilícita desses produtos em plataformas digitais.",
    "apresentacao": "2026-08-31",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644876",
    "primeiro_autor": true
   },

@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 1,
   "aprovado": 4,
-  "tramitacao": 34,
+  "tramitacao": 32,
   "encerrado": 3,
-  "sem_informacao": 7
+  "sem_informacao": 9
  },
  "projetos": [
   {
@@ -106,9 +106,9 @@
    "ano": 2026,
    "ementa": "Estabelece prazo máximo para a realização de avaliação diagnóstica e emissão de laudo relativo aos transtornos de neurodesenvolvimento no âmbito das redes pública e privada de saúde e institui mecanismos de garantia e efetividade temporal do diagnóstico.",
    "apresentacao": "2026-08-24",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644343",
    "primeiro_autor": true
   },
@@ -119,9 +119,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 9.503, de 23 de setembro de 1997, que institui o Código de Trânsito Brasileiro, para aumentar o limite de pontos necessários para a suspensão do direito de dirigir do condutor que exerce atividade remunerada ao veículo.",
    "apresentacao": "2026-08-18",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643943",
    "primeiro_autor": true
   },

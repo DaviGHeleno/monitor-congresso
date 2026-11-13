@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 5,
   "aprovado": 4,
-  "tramitacao": 164,
+  "tramitacao": 163,
   "encerrado": 13,
-  "sem_informacao": 8
+  "sem_informacao": 9
  },
  "projetos": [
   {
@@ -418,9 +418,9 @@
    "ano": 2026,
    "ementa": "Institui o Programa Nacional Permanente de Literatura para Crianças e Jovens, com a finalidade de promover a leitura e incentivar a produção editorial infantojuvenil no País.",
    "apresentacao": "2026-04-24",
-   "situacao": "Aguardando Encaminhamento",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2618495",
    "primeiro_autor": true
   },

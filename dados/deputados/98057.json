@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 1,
   "aprovado": 3,
-  "tramitacao": 57,
+  "tramitacao": 58,
   "encerrado": 1,
-  "sem_informacao": 3
+  "sem_informacao": 2
  },
  "projetos": [
   {
@@ -15,9 +15,9 @@
    "ano": 2026,
    "ementa": "Dispõe sobre a proibição da publicidade, do patrocínio e da promoção comercial de apostas de quota fixa (bets) e jogos online, institui medidas de proteção ao consumidor e de prevenção ao jogo patológico.",
    "apresentacao": "2026-07-08",
-   "situacao": null,
+   "situacao": "Tramitando em Conjunto",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2638299",
    "primeiro_autor": true
   },

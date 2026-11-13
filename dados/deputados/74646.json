@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 1,
-  "tramitacao": 12,
+  "tramitacao": 13,
   "encerrado": 0,
-  "sem_informacao": 2
+  "sem_informacao": 1
  },
  "projetos": [
   {
@@ -15,9 +15,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 14.790, de 29 de dezembro de 2023, para proibir, em todos os meios de comunicação social e de comunicação em massa, incluídos o rádio, a televisão, os serviços de acesso condicionado, os serviços de streaming, as redes sociais e os demais provedores de aplicação de internet e os outdoors, quaisquer ações de comunicação social, de publicidade, de propaganda, de marketing, de merchandising e de patrocínio envolvendo agentes operadores de apostas de quota fixa, excetuadas as hipóteses expressamente previstas nesta Lei.",
    "apresentacao": "2026-07-08",
-   "situacao": null,
+   "situacao": "Tramitando em Conjunto",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2637990",
    "primeiro_autor": true
   },

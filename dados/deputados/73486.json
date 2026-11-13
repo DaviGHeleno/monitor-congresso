@@ -1,11 +1,11 @@
 {
  "id": 73486,
  "resumo": {
-  "lei": 1,
-  "aprovado": 11,
-  "tramitacao": 205,
+  "lei": 2,
+  "aprovado": 10,
+  "tramitacao": 206,
   "encerrado": 24,
-  "sem_informacao": 11
+  "sem_informacao": 10
  },
  "projetos": [
   {
@@ -470,9 +470,9 @@
    "ano": 2025,
    "ementa": "Institui a Política Nacional de Saúde Mental Climática, dispõe sobre a organização da atenção psicossocial em contextos de desastres, cria o Sistema Nacional de Saúde Mental Climática e os Centros de Resiliência, Cura e Reconstrução de Comunidades (CRCRC), e dá outras providências.",
    "apresentacao": "2025-12-03",
-   "situacao": null,
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2592120",
    "primeiro_autor": true
   },
@@ -3096,9 +3096,9 @@
    "ano": 2023,
    "ementa": "Dá ao túnel que conecta os anexos II e IV da Câmara dos Deputados a denominação José Richa.",
    "apresentacao": "2023-09-21",
-   "situacao": "Aguardando Autógrafos na Mesa",
+   "situacao": "Transformado em Norma Jurídica",
    "situacao_data": null,
-   "categoria": "aprovado",
+   "categoria": "lei",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2389679",
    "primeiro_autor": true
   },

@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 1,
   "aprovado": 2,
-  "tramitacao": 22,
+  "tramitacao": 21,
   "encerrado": 1,
-  "sem_informacao": 2
+  "sem_informacao": 3
  },
  "projetos": [
   {
@@ -171,9 +171,9 @@
    "ano": 2025,
    "ementa": "Institui o Dia Nacional do Juiz de Paz e dá outras providências",
    "apresentacao": "2025-09-01",
-   "situacao": "Aguardando Encaminhamento",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2555204",
    "primeiro_autor": true
   },
@@ -197,7 +197,7 @@
    "ano": 2025,
    "ementa": "Dispõe sobre isenção da tarifa de energia elétrica de entidades filantrópicas no território nacional",
    "apresentacao": "2025-04-01",
-   "situacao": "Aguardando Encaminhamento",
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2491311",

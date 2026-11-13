@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 2,
   "aprovado": 3,
-  "tramitacao": 119,
+  "tramitacao": 118,
   "encerrado": 7,
-  "sem_informacao": 9
+  "sem_informacao": 10
  },
  "projetos": [
   {
@@ -15,9 +15,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 15.190, de 8 de agosto de 2025, para dispor sobre a não sujeição a licenciamento ambiental da instalação e da operação de centrais de microgeração e minigeração distribuída de energia elétrica a partir de fonte solar fotovoltaica caracterizadas como de baixo impacto ambiental.",
    "apresentacao": "2026-08-27",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644723",
    "primeiro_autor": true
   },
@@ -106,7 +106,7 @@
    "ano": 2026,
    "ementa": "Altera o art. 141 e o art. 147 do Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), para estabelecer causa de aumento de pena nos crimes contra a honra e no crime de ameaça cometidos no contexto de conflitos no trânsito.",
    "apresentacao": "2026-05-07",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao": "Aguardando Encaminhamento",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2622887",
@@ -392,7 +392,7 @@
    "ano": 2025,
    "ementa": "Altera a Lei nº 9.503, de 1997, Código de Trânsito Brasileiro, para dispor sobre requisitos para a instalação de aparelhos eletrônicos de fiscalização de velocidade.",
    "apresentacao": "2025-08-12",
-   "situacao": "Aguardando Parecer",
+   "situacao": "Aguardando Análise de Parecer",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2542817",

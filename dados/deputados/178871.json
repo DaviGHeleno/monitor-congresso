@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 2,
   "aprovado": 10,
-  "tramitacao": 270,
+  "tramitacao": 268,
   "encerrado": 32,
-  "sem_informacao": 13
+  "sem_informacao": 15
  },
  "projetos": [
   {
@@ -15,7 +15,7 @@
    "ano": 2026,
    "ementa": "Institui a Política Nacional de Micromobilidade Elétrica.",
    "apresentacao": "2026-09-18",
-   "situacao": "Aguardando Autorização do Despacho",
+   "situacao": "Aguardando Chancela e Publicação do Despacho",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646829",
@@ -28,7 +28,7 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 11.340, de 7 de agosto de 2006 (Lei Maria da Penha), para dispor sobre medidas que aprimorem a efetividade das políticas públicas já existentes, no que se refere ao combate à violência doméstica e familiar contra a mulher.",
    "apresentacao": "2026-09-18",
-   "situacao": "Aguardando Autorização do Despacho",
+   "situacao": "Aguardando Chancela e Publicação do Despacho",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646828",
@@ -41,9 +41,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 7.678, de 8 de novembro de 1988, para ampliar os canais de comercialização do vinho produzido por agricultor familiar ou empreendedor familiar rural.",
    "apresentacao": "2026-09-18",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646827",
    "primeiro_autor": true
   },
@@ -93,9 +93,9 @@
    "ano": 2026,
    "ementa": "Concede isenção do Imposto de Importação (II) sobre medicamentos destinados ao tratamento de enfermidades graves ou doenças raras, quando importados por pessoa física para uso próprio ou individual, inclusive por meio de bagagem acompanhada.",
    "apresentacao": "2026-08-14",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643824",
    "primeiro_autor": true
   },

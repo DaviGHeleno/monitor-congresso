@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 8,
   "aprovado": 8,
-  "tramitacao": 108,
+  "tramitacao": 109,
   "encerrado": 13,
-  "sem_informacao": 10
+  "sem_informacao": 9
  },
  "projetos": [
   {
@@ -15,9 +15,9 @@
    "ano": 2026,
    "ementa": "Estabelece o Piso Salarial do Administrador e dá outras providências.",
    "apresentacao": "2026-09-17",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646661",
    "primeiro_autor": true
   },
@@ -80,9 +80,9 @@
    "ano": 2026,
    "ementa": "Dispõe sobre deveres de transparência e responsabilidade na divulgação remunerada de apostas por influenciadores digitais.",
    "apresentacao": "2026-07-15",
-   "situacao": null,
+   "situacao": "Tramitando em Conjunto",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2640016",
    "primeiro_autor": true
   },
@@ -93,9 +93,9 @@
    "ano": 2026,
    "ementa": "Estabelece deveres de transparência e informação em publicidade de apostas de quota fixa e conteúdos promocionais relacionados a apostas online.",
    "apresentacao": "2026-07-15",
-   "situacao": null,
+   "situacao": "Tramitando em Conjunto",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2640015",
    "primeiro_autor": true
   },
@@ -223,7 +223,7 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 8.080, de 19 de setembro de 1990, para explicitar a vedação de barreiras administrativas ao acesso inicial às ações e serviços do Sistema Único de Saúde.",
    "apresentacao": "2026-05-06",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao": "Aguardando Encaminhamento",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2622782",
@@ -236,7 +236,7 @@
    "ano": 2026,
    "ementa": "Dispõe sobre a retirada, por terceiros, de medicamentos dispensados no âmbito da assistência farmacêutica ambulatorial do Sistema Único de Saúde – SUS reconhece a validade da prescrição emitida em meio físico ou eletrônico e estabelece diretrizes para a continuidade do cuidado, a acessibilidade e a desburocratização do acesso.",
    "apresentacao": "2026-05-06",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao": "Aguardando Encaminhamento",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2622489",

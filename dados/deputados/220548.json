@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 3,
   "aprovado": 3,
-  "tramitacao": 109,
+  "tramitacao": 110,
   "encerrado": 7,
-  "sem_informacao": 16
+  "sem_informacao": 15
  },
  "projetos": [
   {
@@ -366,9 +366,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 11.340, de 7 de agosto de 2006 (Lei Maria da Penha), para estabelecer princípios e diretrizes para a cobertura jornalística e publicitária da violência contra a mulher, promovendo a informação responsável e a proteção das vítimas, com respeito à liberdade de imprensa.",
    "apresentacao": "2026-03-06",
-   "situacao": null,
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2607443",
    "primeiro_autor": false
   },
@@ -678,7 +678,7 @@
    "ano": 2025,
    "ementa": "Institui o Programa Nacional de Ambientes Seguros e Inclusivos para Pessoas LGBTQIAPN+ e Mulheres, e cria o Selo BR Diversa para a promoção do letramento em direitos da diversidade no setor de serviços, entretenimento e hospitalidade.",
    "apresentacao": "2025-07-01",
-   "situacao": "Aguardando Deliberação",
+   "situacao": "Pronta para Pauta",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2529531",
@@ -769,7 +769,7 @@
    "ano": 2025,
    "ementa": "Dispõe sobre a destinação de percentual dos recursos depositados em plataformas digitais de operação financeira para contas de poupança de titularidade do usuário, e dá outras providências.",
    "apresentacao": "2025-05-13",
-   "situacao": "Aguardando Parecer",
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2508480",

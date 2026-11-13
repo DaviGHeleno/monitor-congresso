@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 3,
   "aprovado": 5,
-  "tramitacao": 200,
+  "tramitacao": 199,
   "encerrado": 10,
-  "sem_informacao": 40
+  "sem_informacao": 41
  },
  "projetos": [
   {
@@ -366,9 +366,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 14.620, de 13 de julho de 2023, que dispõe sobre o Programa Minha Casa, Minha Vida, para instituir categoria específica de atendimento aos pescadores artesanais e às pescadoras artesanais e estabelecer os respectivos critérios de priorização e de enquadramento.",
    "apresentacao": "2026-09-06",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646139",
    "primeiro_autor": true
   },
@@ -743,7 +743,7 @@
    "ano": 2026,
    "ementa": "Institui a Tarifa Social Regionalizada de Energia Elétrica; cria índice composto regional para ajuste do limite de consumo subsidiado por família que incorpora índice regional de custo de vida para domicílios de baixa renda, índice de necessidade de refrigeração/clima local e indicador de risco de perdas não técnicas; atribui ao Ministério de Estado competente e à ANEEL, em parceria com IBGE e secretarias estaduais, o cálculo e a atualização anual do índice composto; institui mecanismo de compensação financeira federal e estaduais às concessionárias para diferenças tarifárias e investimentos prioritários em medição inteligente, regularização social e redução de perdas; condiciona parcela dos recursos à implementação integrada de programas de regularização, segurança pública e assistência social; obriga monitoramento público e transparência por meio de relatórios anuais; e dá outras providências.",
    "apresentacao": "2026-03-30",
-   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao": "Aguardando Parecer",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2612844",
@@ -1211,7 +1211,7 @@
    "ano": 2026,
    "ementa": "Assegura igualdade plena de licença?parental para mães e pais adotivos no âmbito público e privado, conferindo a adotantes licença remunerada com duração, condições e estabilidade idênticas às previstas para a maternidade biológica, vedando exigência de tempo mínimo de serviço, estabelecendo deveres de informação e procedimentos administrativos aos empregadores, criando mecanismos de fiscalização e prevendo instrumentos de reparação e indenização por violações.",
    "apresentacao": "2026-03-30",
-   "situacao": "Aguardando Deliberação",
+   "situacao": "Aguardando Encaminhamento",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2612715",
@@ -1510,7 +1510,7 @@
    "ano": 2026,
    "ementa": "Estabelece critérios objetivos e procedimentos transparentes para autorizações de visitas de autoridades e agentes políticos a pessoas custodiadas e dá outras providências.",
    "apresentacao": "2026-02-25",
-   "situacao": "Aguardando Parecer",
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2604770",

@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 4,
   "aprovado": 2,
-  "tramitacao": 46,
+  "tramitacao": 45,
   "encerrado": 4,
-  "sem_informacao": 3
+  "sem_informacao": 4
  },
  "projetos": [
   {
@@ -15,9 +15,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 14.790, de 29 de dezembro de 2023, para dispor sobre a responsabilidade civil por danos causados ao apostador decorrentes da publicidade, propaganda e promoção de apostas de quota fixa.",
    "apresentacao": "2026-08-31",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644867",
    "primeiro_autor": true
   },

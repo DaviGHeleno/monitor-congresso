@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 3,
   "aprovado": 4,
-  "tramitacao": 76,
+  "tramitacao": 75,
   "encerrado": 4,
-  "sem_informacao": 6
+  "sem_informacao": 7
  },
  "projetos": [
   {
@@ -15,9 +15,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 9.394, de 20 de dezembro de 1996, para assegurar às instituições privadas e comunitárias confessionais ou com inspiração religiosa o direito de incluir, em sua proposta pedagógica e na parte diversificada de seus currículos, componentes de formação religiosa e atividades litúrgicas próprias de sua identidade confessional, inclusive como atividades curriculares de frequência obrigatória, nas condições que especifica.",
    "apresentacao": "2026-08-12",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643333",
    "primeiro_autor": true
   },

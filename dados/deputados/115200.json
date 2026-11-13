@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 1,
   "aprovado": 0,
-  "tramitacao": 17,
+  "tramitacao": 16,
   "encerrado": 1,
-  "sem_informacao": 0
+  "sem_informacao": 1
  },
  "projetos": [
   {
@@ -15,7 +15,7 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 8.906, de 4 de julho de 1994, para dispor sobre a aferição do desempenho funcional de advogados públicos.",
    "apresentacao": "2026-09-14",
-   "situacao": "Ag. Análise de Inconstitucionalidade",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Autorização)",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646394",
@@ -28,9 +28,9 @@
    "ano": 2026,
    "ementa": "Denomina “Viaduto Empresário José Carlos da Silva Júnior” o viaduto integrante da obra de implantação e pavimentação do Arco Metropolitano de João Pessoa, PB-016, situado sobre a Rodovia BR-230, no Km 48, no Estado da Paraíba.",
    "apresentacao": "2026-09-08",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646200",
    "primeiro_autor": true
   },

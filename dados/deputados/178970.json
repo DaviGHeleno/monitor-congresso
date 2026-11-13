@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 1,
   "aprovado": 1,
-  "tramitacao": 125,
+  "tramitacao": 124,
   "encerrado": 8,
-  "sem_informacao": 11
+  "sem_informacao": 12
  },
  "projetos": [
   {
@@ -1731,9 +1731,9 @@
    "ano": 2023,
    "ementa": "Dispõe sobre aquisição, pelas distribuidoras, de créditos de energia elétrica provenientes de micro e minigeração distribuída de unidades enquadradas como agricultura familiar e microempreendedor individual enquanto durar o financiamento dos equipamentos.",
    "apresentacao": "2023-03-20",
-   "situacao": "Aguardando Encaminhamento",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2351862",
    "primeiro_autor": true
   },

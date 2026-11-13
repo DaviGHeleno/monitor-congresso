@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 0,
-  "tramitacao": 6,
+  "tramitacao": 5,
   "encerrado": 1,
-  "sem_informacao": 2
+  "sem_informacao": 3
  },
  "projetos": [
   {
@@ -15,9 +15,9 @@
    "ano": 2026,
    "ementa": "Institui o Extrato Profissional Digital, assegura ao trabalhador que presta serviços intermediados por plataforma digital o acesso, a portabilidade e o uso de seu histórico profissional digital e estabelece obrigações às plataformas digitais de intermediação.",
    "apresentacao": "2026-09-09",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646308",
    "primeiro_autor": true
   },
@@ -28,9 +28,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 13.022, de 8 de agosto de 2014 (Estatuto Geral das Guardas Municipais) para instituir diretrizes de capacitação, controle e transparência para o armamento das guardas municipais, e dá outras providências.",
    "apresentacao": "2026-08-14",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643856",
    "primeiro_autor": true
   },
@@ -80,9 +80,9 @@
    "ano": 2026,
    "ementa": "Dispõe sobre a identificação física e rastreabilidade da ocupação de postes integrantes das redes de distribuição de energia elétrica por prestadores de serviços de telecomunicações e por outros ocupantes autorizados.",
    "apresentacao": "2026-07-09",
-   "situacao": null,
+   "situacao": "Tramitando em Conjunto",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2638762",
    "primeiro_autor": true
   },
