@@ -3,11 +3,63 @@
  "resumo": {
   "lei": 0,
   "aprovado": 0,
-  "tramitacao": 17,
+  "tramitacao": 14,
   "encerrado": 2,
-  "sem_informacao": 6
+  "sem_informacao": 13
  },
  "projetos": [
+  {
+   "id": 2653947,
+   "sigla": "PL",
+   "numero": 5855,
+   "ano": 2026,
+   "ementa": "Altera a Lei nº 9.249, de 26 de dezembro de 1995, para elevar a alíquota do Imposto de Renda Retido na Fonte incidente sobre os juros sobre o capital próprio.",
+   "apresentacao": "2026-11-13",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653947",
+   "primeiro_autor": false
+  },
+  {
+   "id": 2653946,
+   "sigla": "PL",
+   "numero": 5854,
+   "ano": 2026,
+   "ementa": "Dispõe sobre a incidência do Imposto sobre a Renda das Pessoas Físicas sobre lucros e dividendos distribuídos por pessoas jurídicas, altera as Leis nº 9.249, de 26 de dezembro de 1995, e nº 9.250, de 26 de dezembro de 1995, e dá outras providências.",
+   "apresentacao": "2026-11-13",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653946",
+   "primeiro_autor": false
+  },
+  {
+   "id": 2653945,
+   "sigla": "PL",
+   "numero": 5853,
+   "ano": 2026,
+   "ementa": "Dispõe sobre a incidência do Imposto de Renda Retido na Fonte sobre os rendimentos de títulos e valores mobiliários.",
+   "apresentacao": "2026-11-13",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653945",
+   "primeiro_autor": false
+  },
+  {
+   "id": 2653944,
+   "sigla": "PL",
+   "numero": 5852,
+   "ano": 2026,
+   "ementa": "Institui o Imposto sobre Grandes  Fortunas, previsto no art. 153, inciso VII, da Constituição Federal.",
+   "apresentacao": "2026-11-13",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653944",
+   "primeiro_autor": false
+  },
   {
    "id": 2649499,
    "sigla": "PL",
@@ -41,9 +93,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 15.211, de 17 de setembro de 2025, para vedar o cadastro e o acesso de menores de 16 (dezesseis) anos a redes sociais e prever a realização de campanhas de conscientização sobre os riscos do uso precoce de redes sociais.",
    "apresentacao": "2026-09-01",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2645359",
    "primeiro_autor": true
   },
@@ -80,9 +132,9 @@
    "ano": 2026,
    "ementa": "Institui a Política Nacional de Bebedouros Públicos e Fontes de Água Potável em Espaços Públicos, destinada a assegurar o acesso gratuito à água potável, promover a saúde e o bem-estar da população, fortalecer a adaptação das cidades às mudanças climáticas e reduzir o uso de embalagens plásticas descartáveis.",
    "apresentacao": "2026-08-10",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2642433",
    "primeiro_autor": true
   },
@@ -93,9 +145,9 @@
    "ano": 2026,
    "ementa": "Proíbe a exportação de animais vivos destinados ao abate ou à engorda para posterior abate fora do território nacional, e dá outras providências.",
    "apresentacao": "2026-08-05",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641974",
    "primeiro_autor": true
   },

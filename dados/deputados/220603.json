@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 1,
   "aprovado": 4,
-  "tramitacao": 32,
+  "tramitacao": 30,
   "encerrado": 3,
-  "sem_informacao": 9
+  "sem_informacao": 11
  },
  "projetos": [
   {
@@ -93,9 +93,9 @@
    "ano": 2026,
    "ementa": "Altera o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), para vedar a concessão de livramento condicional aos condenados pela prática de crimes contra a dignidade sexual.",
    "apresentacao": "2026-08-24",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644395",
    "primeiro_autor": true
   },
@@ -132,9 +132,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 8.742, de 7 de dezembro de 1993 (Lei Orgânica da Assistência Social – LOAS), para incentivar a inserção no mercado de trabalho dos pais ou responsáveis legais por crianças e adolescentes com deficiência beneficiários do Benefício de Prestação Continuada – PBC, sem a perda imediata do beneficio assistencial.",
    "apresentacao": "2026-08-12",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643393",
    "primeiro_autor": true
   },

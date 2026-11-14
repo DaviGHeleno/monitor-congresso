@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 1,
-  "tramitacao": 59,
+  "tramitacao": 58,
   "encerrado": 5,
-  "sem_informacao": 5
+  "sem_informacao": 6
  },
  "projetos": [
   {
@@ -15,9 +15,9 @@
    "ano": 2026,
    "ementa": "Altera o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), a Lei nº 8.069, de 13 de julho de 1990 (Estatuto da Criança e do Adolescente), e a Lei nº 13.344, de 6 de outubro de 2016, para agravar a pena do tráfico de pessoas praticado no contexto de organização criminosa, milícia privada ou grupo paramilitar, instituir prestação patrimonial especial destinada à desarticulação econômica da atividade criminosa quando a vítima for criança ou adolescente, estabelecer protocolo de resposta rápida para casos com indícios de transnacionalidade e dispor sobre o monitoramento do embarque de crianças e adolescentes.",
    "apresentacao": "2026-10-15",
-   "situacao": "Aguardando Chancela e Publicação do Despacho",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2647787",
    "primeiro_autor": true
   },

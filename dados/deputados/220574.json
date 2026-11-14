@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 1,
   "aprovado": 6,
-  "tramitacao": 259,
+  "tramitacao": 258,
   "encerrado": 22,
-  "sem_informacao": 12
+  "sem_informacao": 13
  },
  "projetos": [
   {
@@ -899,7 +899,7 @@
    "ano": 2025,
    "ementa": "Veda a simultaneidade de Processo Administrativo Disciplinar com Conselho de Disciplina ou Conselho de Justificação, no âmbito das corporações militares estaduais, e dá outras providências.",
    "apresentacao": "2025-12-10",
-   "situacao": "Pronta para Pauta",
+   "situacao": "Aguardando Deliberação",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2595342",
@@ -925,7 +925,7 @@
    "ano": 2025,
    "ementa": "Dispõe sobre o prazo máximo de tramitação dos Processos Administrativos Disciplinares no âmbito das instituições previstas no art. 144 da Constituição Federal, e dá outras providências.",
    "apresentacao": "2025-12-10",
-   "situacao": "Pronta para Pauta",
+   "situacao": "Aguardando Deliberação",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2595340",
@@ -2680,9 +2680,9 @@
    "ano": 2023,
    "ementa": "Dispõe sobre sanções políticas e econômicas relacionadas ao Hamas e ao Hezbollah, os classifica como grupos terroristas, e criminaliza manifestações de apoio a esses grupos.",
    "apresentacao": "2023-10-09",
-   "situacao": "Aguardando Encaminhamento",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2394641",
    "primeiro_autor": false
   },

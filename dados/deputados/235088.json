@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 0,
-  "tramitacao": 88,
+  "tramitacao": 89,
   "encerrado": 2,
-  "sem_informacao": 5
+  "sem_informacao": 4
  },
  "projetos": [
   {
@@ -600,9 +600,9 @@
    "ano": 2026,
    "ementa": "Dispõe sobre a responsabilização civil de pessoas físicas ou jurídicas que divulguem, compartilhem ou promovam conteúdos falsos ou enganosos que causem danos a terceiros.",
    "apresentacao": "2026-05-05",
-   "situacao": null,
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2621570",
    "primeiro_autor": true
   },

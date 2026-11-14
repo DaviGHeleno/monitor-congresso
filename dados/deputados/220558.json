@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 2,
   "aprovado": 4,
-  "tramitacao": 127,
+  "tramitacao": 126,
   "encerrado": 16,
-  "sem_informacao": 10
+  "sem_informacao": 11
  },
  "projetos": [
   {
@@ -1510,9 +1510,9 @@
    "ano": 2023,
    "ementa": "Dispõe sobre sanções políticas e econômicas relacionadas ao Hamas e ao Hezbollah, os classifica como grupos terroristas, e criminaliza manifestações de apoio a esses grupos.",
    "apresentacao": "2023-10-09",
-   "situacao": "Aguardando Encaminhamento",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2394641",
    "primeiro_autor": false
   },

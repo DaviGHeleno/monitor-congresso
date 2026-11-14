@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 5,
   "aprovado": 4,
-  "tramitacao": 77,
+  "tramitacao": 76,
   "encerrado": 7,
-  "sem_informacao": 11
+  "sem_informacao": 12
  },
  "projetos": [
   {
@@ -15,9 +15,9 @@
    "ano": 2026,
    "ementa": "Dispõe sobre a disponibilização e a utilização de canais institucionais de comunicação e sobre o registro das informações produzidas ou recebidas no exercício da função pública, no âmbito dos Poderes da União, do Tribunal de Contas da União, do Ministério Público da União e da Defensoria Pública da União.",
    "apresentacao": "2026-10-13",
-   "situacao": "Aguardando Chancela e Publicação do Despacho",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2647501",
    "primeiro_autor": true
   },

@@ -5,7 +5,7 @@
   "aprovado": 3,
   "tramitacao": 74,
   "encerrado": 4,
-  "sem_informacao": 6
+  "sem_informacao": 7
  },
  "projetos": [
   {
@@ -97,6 +97,19 @@
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2602630",
+   "primeiro_autor": true
+  },
+  {
+   "id": 2653940,
+   "sigla": "PLP",
+   "numero": 304,
+   "ano": 2026,
+   "ementa": "Altera a Lei Complementar nº 214, de 16 de janeiro de 2025, para instituir devolução geral progressiva da CBS e do IBS segundo a renda domiciliar per capita e ampliar os mecanismos de identificação das famílias beneficiárias e dá outras providências.",
+   "apresentacao": "2026-11-13",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653940",
    "primeiro_autor": true
   },
   {
@@ -379,7 +392,7 @@
    "ano": 2025,
    "ementa": "Cria o Comitê de Triagem e Cooperação para Investimentos Estrangeiros Diretos no Brasil-CTIE e dá outras providências.",
    "apresentacao": "2025-03-18",
-   "situacao": "Aguardando Parecer",
+   "situacao": "Aguardando Deliberação",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2487308",

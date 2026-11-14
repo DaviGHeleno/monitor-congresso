@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 4,
-  "tramitacao": 80,
+  "tramitacao": 81,
   "encerrado": 6,
-  "sem_informacao": 6
+  "sem_informacao": 5
  },
  "projetos": [
   {
@@ -171,7 +171,7 @@
    "ano": 2026,
    "ementa": "Cria o Marco Regulatório dos Planos de Assistência Veterinária (planos de saúde pet) e dá outras providências.",
    "apresentacao": "2026-02-20",
-   "situacao": "Pronta para Pauta",
+   "situacao": "Aguardando Deliberação",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2603689",
@@ -288,7 +288,7 @@
    "ano": 2026,
    "ementa": "Dispõe sobre o direito à desconexão do trabalho, altera a Consolidação das Leis do Trabalho (CLT), e dá outras providências.",
    "apresentacao": "2026-02-02",
-   "situacao": "Pronta para Pauta",
+   "situacao": "Aguardando Deliberação",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2600297",
@@ -587,9 +587,9 @@
    "ano": 2024,
    "ementa": "Institui o Programa Bairro +Perto (BAIRRO + PERTO) e dá outras providências.",
    "apresentacao": "2024-07-02",
-   "situacao": null,
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2444817",
    "primeiro_autor": true
   },

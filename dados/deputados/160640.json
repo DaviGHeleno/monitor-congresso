@@ -3,11 +3,24 @@
  "resumo": {
   "lei": 0,
   "aprovado": 2,
-  "tramitacao": 61,
+  "tramitacao": 59,
   "encerrado": 7,
-  "sem_informacao": 7
+  "sem_informacao": 10
  },
  "projetos": [
+  {
+   "id": 2653816,
+   "sigla": "PL",
+   "numero": 5847,
+   "ano": 2026,
+   "ementa": "Acrescenta o art. 47-A à Lei nº 9.504, de 30 de setembro de 1997 (Lei das Eleições), para destinar percentual mínimo do horário eleitoral gratuito no rádio e na televisão, nas eleições majoritárias, à apresentação de propostas, projetos e compromissos dos candidatos e partidos políticos.",
+   "apresentacao": "2026-11-13",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653816",
+   "primeiro_autor": true
+  },
   {
    "id": 2651261,
    "sigla": "PL",
@@ -54,7 +67,7 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 6.830, de 22 de setembro de 1980 (Lei de Execução Fiscal), para dispor sobre a impenhorabilidade de proventos de aposentadoria e pensões de pessoa idosa em situação de vulnerabilidade econômica.",
    "apresentacao": "2026-10-20",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+   "situacao": "Aguardando Autorização do Despacho",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2648421",
@@ -93,9 +106,9 @@
    "ano": 2026,
    "ementa": "Dispõe sobre a autorização para uso compassivo de medicamentos ainda não registrados no país e estabelece prazo para decisão da Agência Nacional de Vigilância Sanitária – Anvisa.",
    "apresentacao": "2026-09-02",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2645610",
    "primeiro_autor": false
   },
@@ -106,9 +119,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 7.716, de 5 de janeiro de 1989, e a Lei nº 12.965, de 23 de abril de 2014 (Marco Civil da Internet), para assegurar a inviolabilidade do exercício da liberdade religiosa, garantindo a livre manifestação de fé, a pregação, o proselitismo e a citação literal de textos ou escritos sagrados na internet e nos meios de comunicação.",
    "apresentacao": "2026-08-13",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643605",
    "primeiro_autor": true
   },

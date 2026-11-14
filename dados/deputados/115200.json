@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 1,
   "aprovado": 0,
-  "tramitacao": 16,
+  "tramitacao": 15,
   "encerrado": 1,
-  "sem_informacao": 1
+  "sem_informacao": 2
  },
  "projetos": [
   {
@@ -41,9 +41,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 12.852, de 5 de agosto de 2013 (Estatuto da Juventude), e a Lei nº 12.513, de 26 de outubro de 2011, que institui o Programa Nacional de Acesso ao Ensino Técnico e Emprego (Pronatec), para incorporar a dimensão territorial na oferta de educação profissional e tecnológica e na articulação com as políticas de geração de trabalho, emprego e renda.",
    "apresentacao": "2026-09-01",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2645071",
    "primeiro_autor": true
   },

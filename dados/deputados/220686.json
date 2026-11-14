@@ -3,11 +3,37 @@
  "resumo": {
   "lei": 7,
   "aprovado": 9,
-  "tramitacao": 244,
+  "tramitacao": 245,
   "encerrado": 11,
-  "sem_informacao": 16
+  "sem_informacao": 17
  },
  "projetos": [
+  {
+   "id": 2653813,
+   "sigla": "PL",
+   "numero": 5845,
+   "ano": 2026,
+   "ementa": "Dispõe sobre a proibição da fabricação, importação, comercialização, distribuição, armazenamento, transporte e utilização de rojões e demais fogos de artifício e artefatos pirotécnicos que produzam estampidos ou efeitos sonoros de explosão em todo o território nacional, e dá outras providências.",
+   "apresentacao": "2026-11-13",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653813",
+   "primeiro_autor": true
+  },
+  {
+   "id": 2653811,
+   "sigla": "PL",
+   "numero": 5844,
+   "ano": 2026,
+   "ementa": "Altera a Lei nº 9.656, de 3 de junho de 1998, para estabelecer critérios de equiparação dos contratos de planos privados de assistência à saúde coletivos empresariais utilizados exclusivamente por núcleo familiar aos planos individuais ou familiares, assegurando proteção contra reajustes abusivos e outras práticas contratuais prejudiciais aos consumidores.",
+   "apresentacao": "2026-11-13",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653811",
+   "primeiro_autor": true
+  },
   {
    "id": 2641425,
    "sigla": "PL",
@@ -3395,9 +3421,9 @@
    "ano": 2023,
    "ementa": "Revoga o §8º do art. 1º da Lei nº 12.933, de 26 de dezembro de 2015 e altera o §7º do art. 44 da Lei 13.146, de 6 de julho de 2015, para efetivar a todas as pessoas com deficiência e seu acompanhante o direito à cultura, esporte, turismo e lazer assegurando a concessão de gratuidade.",
    "apresentacao": "2023-04-26",
-   "situacao": null,
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2358596",
    "primeiro_autor": true
   },

@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 2,
   "aprovado": 2,
-  "tramitacao": 48,
+  "tramitacao": 47,
   "encerrado": 2,
-  "sem_informacao": 12
+  "sem_informacao": 13
  },
  "projetos": [
   {
@@ -158,9 +158,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 12.527, de 18 de novembro de 2011 (Lei de Acesso a Informação), para dispor sobre a obrigatoriedade de disponibilização de informações em linguagem simples e acessível pelos entes da administração pública direta e indireta em seus portais e sítios eletrônicos oficiais.",
    "apresentacao": "2026-08-20",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644304",
    "primeiro_autor": true
   },

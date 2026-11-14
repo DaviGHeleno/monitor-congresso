@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 2,
   "aprovado": 1,
-  "tramitacao": 43,
+  "tramitacao": 42,
   "encerrado": 3,
-  "sem_informacao": 3
+  "sem_informacao": 4
  },
  "projetos": [
   {
@@ -15,9 +15,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 4.769, de 9 de setembro de 1965, para instituir o Exame Nacional de Suficiência Profissional em Administração como requisito para a obtenção do primeiro registro profissional na categoria de Administrador.",
    "apresentacao": "2026-10-07",
-   "situacao": "Aguardando Chancela e Publicação do Despacho",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2647345",
    "primeiro_autor": true
   },

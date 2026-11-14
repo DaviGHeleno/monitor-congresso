@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 3,
-  "tramitacao": 107,
+  "tramitacao": 105,
   "encerrado": 14,
-  "sem_informacao": 6
+  "sem_informacao": 8
  },
  "projetos": [
   {
@@ -15,9 +15,9 @@
    "ano": 2026,
    "ementa": "Dispõe sobre a autorização para uso compassivo de medicamentos ainda não registrados no país e estabelece prazo para decisão da Agência Nacional de Vigilância Sanitária – Anvisa.",
    "apresentacao": "2026-09-02",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2645610",
    "primeiro_autor": false
   },
@@ -1055,9 +1055,9 @@
    "ano": 2023,
    "ementa": "Dispõe sobre sanções políticas e econômicas relacionadas ao Hamas e ao Hezbollah, os classifica como grupos terroristas, e criminaliza manifestações de apoio a esses grupos.",
    "apresentacao": "2023-10-09",
-   "situacao": "Aguardando Encaminhamento",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2394641",
    "primeiro_autor": false
   },

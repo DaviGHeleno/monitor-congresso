@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 1,
-  "tramitacao": 116,
+  "tramitacao": 117,
   "encerrado": 7,
-  "sem_informacao": 12
+  "sem_informacao": 11
  },
  "projetos": [
   {
@@ -106,7 +106,7 @@
    "ano": 2026,
    "ementa": "Institui o Dia Nacional de Proteção das  Pessoas com Deficiência no Ambiente Escolar, a ser celebrado anualmente em todas as escolas públicas e privadas do País, e dá outras providências.",
    "apresentacao": "2026-06-17",
-   "situacao": "Pronta para Pauta",
+   "situacao": "Aguardando Deliberação",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2633254",
@@ -223,9 +223,9 @@
    "ano": 2026,
    "ementa": "Estabelece normas gerais para regulamentar a oferta do transporte escolar aos estudantes das redes públicas de educação básica.",
    "apresentacao": "2026-05-05",
-   "situacao": null,
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2621671",
    "primeiro_autor": true
   },

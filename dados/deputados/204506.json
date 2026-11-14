@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 1,
   "aprovado": 3,
-  "tramitacao": 9,
+  "tramitacao": 8,
   "encerrado": 1,
-  "sem_informacao": 1
+  "sem_informacao": 2
  },
  "projetos": [
   {
@@ -15,9 +15,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 12.485, de 12 de setembro de 2011, para estabelecer regras de transparência na composição dos pacotes de canais do serviço de acesso condicionado e para assegurar a comunicação prévia e individualizada aos consumidores acerca da retirada, substituição ou descontinuidade de canais integrantes dos pacotes contratados.",
    "apresentacao": "2026-10-13",
-   "situacao": "Aguardando Chancela e Publicação do Despacho",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2647472",
    "primeiro_autor": true
   },

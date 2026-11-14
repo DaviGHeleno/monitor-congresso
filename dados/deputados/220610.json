@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 5,
-  "tramitacao": 138,
+  "tramitacao": 137,
   "encerrado": 9,
-  "sem_informacao": 10
+  "sem_informacao": 11
  },
  "projetos": [
   {
@@ -41,9 +41,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 10.741, de 1º de outubro de 2003 (Estatuto da Pessoa Idosa), para ampliar de 2 (dois) para até 6 (seis) salários-mínimos a faixa de renda mensal que assegura a gratuidade e o desconto de cinquenta por cento nas passagens de transporte coletivo interestadual.",
    "apresentacao": "2026-09-01",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2645247",
    "primeiro_autor": true
   },
@@ -288,9 +288,9 @@
    "ano": 2025,
    "ementa": "\"Institui, no âmbito da União, o Selo “Escola Amiga da Saúde Mental”, destinado a reconhecer instituições de ensino que promovam ações voltadas à promoção da saúde mental de seus estudantes, professores e demais profissionais da comunidade escolar.\"",
    "apresentacao": "2025-07-16",
-   "situacao": null,
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2537559",
    "primeiro_autor": true
   },
@@ -470,7 +470,7 @@
    "ano": 2025,
    "ementa": "\"Institui a Política Nacional de Incentivo à Formação e ao Desenvolvimento de Pessoas com Altas Habilidades ou Superdotação. \"",
    "apresentacao": "2025-06-17",
-   "situacao": "Pronta para Pauta",
+   "situacao": "Aguardando Deliberação",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2526722",
@@ -1692,9 +1692,9 @@
    "ano": 2023,
    "ementa": "Dispõe sobre sanções políticas e econômicas relacionadas ao Hamas e ao Hezbollah, os classifica como grupos terroristas, e criminaliza manifestações de apoio a esses grupos.",
    "apresentacao": "2023-10-09",
-   "situacao": "Aguardando Encaminhamento",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2394641",
    "primeiro_autor": false
   },

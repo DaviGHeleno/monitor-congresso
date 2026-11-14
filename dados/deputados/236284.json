@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 0,
-  "tramitacao": 5,
+  "tramitacao": 4,
   "encerrado": 1,
-  "sem_informacao": 3
+  "sem_informacao": 4
  },
  "projetos": [
   {
@@ -41,9 +41,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 14.790, de 29 de dezembro de 2023, para instituir a Política Nacional de Prevenção ao Transtorno do Jogo e Promoção do Jogo Responsável e fortalecer os mecanismos de proteção aos apostadores.",
    "apresentacao": "2026-08-10",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2642322",
    "primeiro_autor": true
   },

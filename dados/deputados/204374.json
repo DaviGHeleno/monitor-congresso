@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 3,
   "aprovado": 4,
-  "tramitacao": 107,
+  "tramitacao": 108,
   "encerrado": 12,
-  "sem_informacao": 3
+  "sem_informacao": 2
  },
  "projetos": [
   {
@@ -15,7 +15,7 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 1.079, de 10 de abril de 1950, para tipificar como crime de responsabilidade dos Ministros do Supremo Tribunal Federal a interferência indevida no exercício das competências de outro Poder, tribunal ou órgão jurisdicional.",
    "apresentacao": "2026-09-29",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+   "situacao": "Aguardando Autorização do Despacho",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2647212",
@@ -80,9 +80,9 @@
    "ano": 2026,
    "ementa": "Institui diretrizes para a criação do Índice Nacional de Eficiência no Atendimento às Pessoas com Transtorno do Espectro Autista (INEA) e dá outras providências.",
    "apresentacao": "2026-05-06",
-   "situacao": null,
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2622298",
    "primeiro_autor": true
   },

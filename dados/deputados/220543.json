@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 3,
   "aprovado": 5,
-  "tramitacao": 109,
+  "tramitacao": 108,
   "encerrado": 22,
-  "sem_informacao": 16
+  "sem_informacao": 17
  },
  "projetos": [
   {
@@ -197,9 +197,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 8.069, de 13 de julho de 1990 - Estatuto da Criança e do Adolescente, para restringir a exposição de crianças e adolescentes, em eventos esportivos, a marcas de empresas que explorem conteúdo adulto, pornográfico ou serviços de natureza sexual.",
    "apresentacao": "2026-08-19",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644231",
    "primeiro_autor": true
   },
@@ -236,9 +236,9 @@
    "ano": 2026,
    "ementa": "Dispõe sobre a destinação de milhas, pontos e demais benefícios de programas de fidelidade decorrentes da aquisição de passagens aéreas com recursos públicos da União.",
    "apresentacao": "2026-08-17",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643927",
    "primeiro_autor": true
   },
@@ -457,9 +457,9 @@
    "ano": 2025,
    "ementa": "Altera a Lei nº 10.257, de 10 de julho de 2001 (Estatuto da Cidade), para instituir o sistema interfederativo de informações urbanas, sob coordenação da União, e dá outras providências.",
    "apresentacao": "2025-11-11",
-   "situacao": null,
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2583438",
    "primeiro_autor": true
   },
@@ -561,7 +561,7 @@
    "ano": 2025,
    "ementa": "Altera o Art. 286 do Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), para incluir a tipificação de desafios na internet que incitem à prática de crimes e estabelece medidas de prevenção.",
    "apresentacao": "2025-04-25",
-   "situacao": "Pronta para Pauta",
+   "situacao": "Aguardando Deliberação",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2500297",

@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 2,
   "aprovado": 3,
-  "tramitacao": 63,
+  "tramitacao": 64,
   "encerrado": 4,
-  "sem_informacao": 7
+  "sem_informacao": 6
  },
  "projetos": [
   {
@@ -223,9 +223,9 @@
    "ano": 2025,
    "ementa": "Altera a Lei nº 7.678, de 8 de novembro de 1988, que dispõe sobre a produção, circulação e comercialização do vinho e derivados da uva e do vinho, para incluir o vinagre colonial no regime jurídico aplicável ao vinho colonial produzido por agricultor familiar, e dá outras providências.",
    "apresentacao": "2025-12-18",
-   "situacao": null,
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2598491",
    "primeiro_autor": true
   },
@@ -912,7 +912,7 @@
    "ano": 2023,
    "ementa": "Altera a Lei nº 12.711, de 29 de agosto de 2012, para dispor sobre a destinação de vagas, nas instituições de educação superior federais, para participantes de olimpíadas científicas ou do conhecimento.",
    "apresentacao": "2023-08-16",
-   "situacao": "Pronta para Pauta",
+   "situacao": "Aguardando Deliberação",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2380083",

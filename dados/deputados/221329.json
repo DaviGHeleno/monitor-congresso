@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 1,
-  "tramitacao": 38,
+  "tramitacao": 36,
   "encerrado": 1,
-  "sem_informacao": 3
+  "sem_informacao": 5
  },
  "projetos": [
   {
@@ -41,9 +41,9 @@
    "ano": 2026,
    "ementa": "Confere ao Município de Cabo Frio, no Estado do Rio de Janeiro, o título de Capital Nacional da Canoa Havaiana.",
    "apresentacao": "2026-09-21",
-   "situacao": "Aguardando Chancela e Publicação do Despacho",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646869",
    "primeiro_autor": true
   },
@@ -54,9 +54,9 @@
    "ano": 2026,
    "ementa": "Institui a Lei Voo Íntegro, que estabelece mecanismos de autenticação reforçada, segurança, rastreabilidade e restauração de bilhetes e reservas de transporte aéreo; disciplina a compensação financeira automática e o ressarcimento de despesas nos casos de cancelamento ou alteração não autorizada da reserva e de cancelamento de voo imputável ao transportador; assegura proteção aos passageiros em voos domésticos e internacionais; e altera a Lei nº 7.565, de 19 de dezembro de 1986.",
    "apresentacao": "2026-09-21",
-   "situacao": "Aguardando Chancela e Publicação do Despacho",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646868",
    "primeiro_autor": true
   },

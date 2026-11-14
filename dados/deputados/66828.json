@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 1,
   "aprovado": 1,
-  "tramitacao": 62,
+  "tramitacao": 60,
   "encerrado": 8,
-  "sem_informacao": 3
+  "sem_informacao": 5
  },
  "projetos": [
   {
@@ -15,9 +15,9 @@
    "ano": 2026,
    "ementa": "Institui o Programa Nacional de Atenção Integral à Obesidade no âmbito do Sistema Único de Saúde – SUS, estabelece protocolo específico para pessoas com obesidade de alto grau e comorbidades e dispõe sobre tratamento multidisciplinar e farmacológico.",
    "apresentacao": "2026-09-04",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646116",
    "primeiro_autor": true
   },
@@ -41,9 +41,9 @@
    "ano": 2026,
    "ementa": "Estabelece o Programa Mulher Segura e dispõe sobre o Sistema de Prevenção ao Feminicídio, Proteção Silenciosa, Gestão Integrada de Risco e Autonomia da Mulher.",
    "apresentacao": "2026-08-17",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643889",
    "primeiro_autor": true
   },
