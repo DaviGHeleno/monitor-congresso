@@ -1,5 +1,6 @@
 ---
 import Base from "../../layouts/Base.astro";
+import AbasPerfil from "../../components/AbasPerfil.astro";
 import { VOTOS_SENADO, historicoSenado, projetosSenador, todosSenadores, type Senador } from "../../lib/dados";
 import { CATEGORIA_PROJETO_SENADO as CAT, TIPO, classeVotoSenado, data, descricaoCurta, proposicao, url } from "../../lib/formato";
 
@@ -59,6 +60,9 @@ const projsOrdenados = [...projs].sort((a, b) => ordemCategoria.indexOf(cat(a)) 
     <p class="fonte">Dados do Senado Federal.</p>
   </section>
 
+  <AbasPerfil votos={todos.length} projetos={projs.length} />
+
+  <div id="painel-votos" class="painel-aba" role="tabpanel" aria-labelledby="aba-votos">
   <h2>Votos registrados</h2>
   {todos.length === 0 ? <p>Nenhum voto nominal registrado no período.</p> : (
     <>
@@ -95,6 +99,9 @@ const projsOrdenados = [...projs].sort((a, b) => ordemCategoria.indexOf(cat(a)) 
     </>
   )}
 
+  </div>
+
+  <div id="painel-projetos" class="painel-aba" role="tabpanel" aria-labelledby="aba-projetos" hidden>
   <h2>Projetos apresentados</h2>
   <p class="subtitulo">Projetos de lei, de lei complementar, de emenda à Constituição, de decreto legislativo e de resolução do Senado apresentados desde fevereiro de 2023 em que é autor ou coautor. Situação atual segundo o Senado.</p>
   {projs.length === 0 ? <p>Nenhum projeto encontrado.</p> : (
@@ -143,6 +150,7 @@ const projsOrdenados = [...projs].sort((a, b) => ordemCategoria.indexOf(cat(a)) 
       <p class="paginacao"><button type="button" id="p-mais" class="oculto">Mostrar mais</button></p>
     </>
   )}
+  </div>
 </Base>
 
 <script>

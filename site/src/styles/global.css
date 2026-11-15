@@ -416,3 +416,12 @@ button.numero[aria-pressed="true"] span { color: var(--surface-2); }
   html { scroll-behavior: auto; }
   .js [data-entra] > * { opacity: 1; transform: none; }
 }
+
+/* Abas em pílula (Câmara | Senado; Votos | Projetos) */
+.abas-pilula { display: inline-flex; gap: 4px; padding: 4px; background: var(--surface); border-radius: 999px; margin: 32px 0 8px; }
+.abas-pilula a, .abas-pilula button { padding: 10px 20px; border-radius: 999px; text-decoration: none; color: var(--ink); font: inherit;
+  font-weight: 500; background: none; border: 0; cursor: pointer; transition: background 160ms, color 160ms; }
+.abas-pilula a:not([aria-current="page"]):hover, .abas-pilula button:not([aria-selected="true"]):hover { background: var(--surface-2); }
+.abas-pilula [aria-current="page"], .abas-pilula [aria-selected="true"] { background: var(--ink); color: var(--bg); }
+.abas-pilula button span { opacity: 0.6; margin-left: 6px; font-variant-numeric: tabular-nums; }
+.painel-aba[hidden] { display: none; }

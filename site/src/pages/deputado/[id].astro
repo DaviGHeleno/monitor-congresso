@@ -1,5 +1,6 @@
 ---
 import Base from "../../layouts/Base.astro";
+import AbasPerfil from "../../components/AbasPerfil.astro";
 import { historico, indice, projetos, todosDeputados, type Deputado } from "../../lib/dados";
 import { CATEGORIA_PROJETO, data, idade, nomeRede, proposicao, url } from "../../lib/formato";
 
@@ -98,6 +99,9 @@ const compacto = votos.map((v) => [posicao.get(v.votacao.id), v.voto, v.partido 
     </section>
   )}
 
+  <AbasPerfil votos={votos.length} projetos={projs.length} />
+
+  <div id="painel-votos" class="painel-aba" role="tabpanel" aria-labelledby="aba-votos">
   <h2>Votos registrados</h2>
   {votos.length === 0 ? <p>Nenhum voto nominal registrado no período.</p> : (
     <>
@@ -128,6 +132,9 @@ const compacto = votos.map((v) => [posicao.get(v.votacao.id), v.voto, v.partido 
     </>
   )}
 
+  </div>
+
+  <div id="painel-projetos" class="painel-aba" role="tabpanel" aria-labelledby="aba-projetos" hidden>
   <h2>Projetos apresentados</h2>
   <p class="subtitulo">Projetos de lei, de lei complementar, de emenda à Constituição, de decreto legislativo e de resolução apresentados desde fevereiro de 2023 em que é autor ou coautor. Situação atual segundo a Câmara.</p>
   {projs.length === 0 ? <p>Nenhum projeto encontrado.</p> : (
@@ -176,6 +183,7 @@ const compacto = votos.map((v) => [posicao.get(v.votacao.id), v.voto, v.partido 
       <p class="paginacao"><button type="button" id="p-mais" class="oculto">Mostrar mais</button></p>
     </>
   )}
+  </div>
 </Base>
 
 <script>

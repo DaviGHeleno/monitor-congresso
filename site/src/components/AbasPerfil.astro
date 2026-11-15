@@ -1,0 +1,36 @@
+---
+// Abas "Votos | Projetos" nas páginas de deputado e senador. Os painéis são #painel-votos e #painel-projetos.
+// A aba aberta fica no endereço (#projetos), então dá para compartilhar o link já na aba certa.
+const { votos, projetos } = Astro.props as { votos: number; projetos: number };
+const n = (x: number) => x.toLocaleString("pt-BR");
+---
+<nav class="abas-pilula abas-perfil" role="tablist" aria-label="Seções do perfil">
+  <button type="button" role="tab" id="aba-votos" aria-controls="painel-votos" aria-selected="true">Votos <span>{n(votos)}</span></button>
+  <button type="button" role="tab" id="aba-projetos" aria-controls="painel-projetos" aria-selected="false" tabindex="-1">Projetos <span>{n(projetos)}</span></button>
+</nav>
+<script>
+  const abas = Array.from(document.querySelectorAll<HTMLButtonElement>(".abas-perfil [role=tab]"));
+  const abrir = (qual: string, focar = false) => {
+    for (const aba of abas) {
+      const ativa = aba.id === `aba-${qual}`;
+      aba.setAttribute("aria-selected", String(ativa));
+      aba.tabIndex = ativa ? 0 : -1;
+      document.getElementById(aba.getAttribute("aria-controls")!)!.hidden = !ativa;
+      if (ativa && focar) aba.focus();
+    }
+  };
+  abas.forEach((aba, k) => {
+    aba.addEventListener("click", () => {
+      const qual = aba.id.replace("aba-", "");
+      abrir(qual);
+      history.replaceState(null, "", qual === "votos" ? location.pathname + location.search : `#${qual}`);
+    });
+    aba.addEventListener("keydown", (e) => {
+      if (e.key !== "ArrowRight" && e.key !== "ArrowLeft") return;
+      const prox = abas[(k + (e.key === "ArrowRight" ? 1 : abas.length - 1)) % abas.length];
+      prox.click();
+      prox.focus();
+    });
+  });
+  if (location.hash === "#projetos") abrir("projetos");
+</script>
