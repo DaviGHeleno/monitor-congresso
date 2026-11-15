@@ -1,0 +1,23 @@
+---
+// Faixa "Receber por e-mail". Só aparece quando o link do formulário está configurado
+// (variável FORM_INSCRICAO do repositório, passada no build como PUBLIC_FORM_INSCRICAO).
+const form = import.meta.env.PUBLIC_FORM_INSCRICAO;
+---
+{form && (
+  <section class="inscricao" aria-labelledby="t-inscricao">
+    <div>
+      <h2 id="t-inscricao">Receba o resumo do dia por e-mail</h2>
+      <p>Todo dia às 18h: as votações da Câmara e do Senado, com o resultado e o link para ver o voto de cada parlamentar. Basta informar o e-mail. Sem cadastro, sem senha, cancela quando quiser.</p>
+    </div>
+    <a class="inscricao-botao" href={form} rel="noopener" target="_blank">Quero receber</a>
+  </section>
+)}
+<style>
+  .inscricao { background: var(--azul); color: #fff; padding: 40px var(--m); display: flex; gap: 24px 48px;
+    align-items: center; justify-content: space-between; flex-wrap: wrap; }
+  .inscricao h2 { font-size: var(--t-sub); margin: 0 0 8px; letter-spacing: -0.02em; }
+  .inscricao p { margin: 0; max-width: 60ch; opacity: 0.92; }
+  .inscricao-botao { background: #fff; color: var(--azul); padding: 14px 28px; border-radius: 999px; font-weight: 600;
+    text-decoration: none; white-space: nowrap; transition: transform 160ms; }
+  .inscricao-botao:hover { transform: translateY(-2px); }
+</style>

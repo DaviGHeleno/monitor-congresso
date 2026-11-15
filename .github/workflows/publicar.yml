@@ -45,6 +45,8 @@ jobs:
 
       - name: Gerar site
         working-directory: site
+        env:
+          PUBLIC_FORM_INSCRICAO: ${{ vars.FORM_INSCRICAO }}
         run: |
           npm ci
           npm run build

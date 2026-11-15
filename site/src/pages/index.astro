@@ -3,10 +3,18 @@
 // Tem layout e estilos próprios (src/styles/inicio.css); as demais páginas usam o layout Base.
 import Base from "../layouts/Base.astro";
 import Desenho from "../components/Desenho.astro";
-import { deputados, estadoColeta, indice, resumoProjetos } from "../lib/dados";
+import { deputados, estadoColeta, indice, indiceSenado, resumoProjetos, todosSenadores } from "../lib/dados";
 import { RESULTADO, data, descricaoCurta, hora, proposicao, total, url } from "../lib/formato";
 
 const itens = indice();
+const itensSenado = indiceSenado();
+const senadoresExercicio = todosSenadores().filter((s) => s.em_exercicio).length;
+// Câmara e Senado juntos, mais recentes primeiro (no Senado a hora nem sempre vem; fica depois das da Câmara do mesmo dia).
+type ItemCasa = (typeof itens)[number] & { casa: "camara" | "senado" };
+const todas: ItemCasa[] = [
+  ...itens.map((i) => ({ ...i, casa: "camara" as const })),
+  ...itensSenado.map((i) => ({ ...i, casa: "senado" as const })),
+].sort((a, b) => b.data.localeCompare(a.data) || (b.data_hora ?? "").localeCompare(a.data_hora ?? ""));
 const estado = estadoColeta();
 const n = (x: number) => x.toLocaleString("pt-BR");
 
@@ -22,8 +30,8 @@ const segmentos = [
 ];
 
 // ---------------------------------------------------------------- últimas votações, por dia
-const dias: { data: string; itens: typeof itens }[] = [];
-for (const i of itens) {
+const dias: { data: string; itens: ItemCasa[] }[] = [];
+for (const i of todas) {
   const ultimo = dias.at(-1);
   if (ultimo && ultimo.data === i.data) ultimo.itens.push(i);
   else if (dias.length < 5) dias.push({ data: i.data, itens: [i] });
@@ -57,20 +65,60 @@ const pct = (t: Record<string, number>, v: string) => ((t[v] ?? 0) / Math.max(1,
       <div class="lateral como-lado">
         <div class="numero"><b>{n(itens.length)}</b><span>votações nominais na Câmara desde fevereiro de 2023</span></div>
         <div class="numero"><b>{n(emExercicio)}</b><span>deputados em exercício</span></div>
+        {itensSenado.length > 0 && <div class="numero"><b>{n(itensSenado.length)}</b><span>votações nominais no Senado desde fevereiro de 2023</span></div>}
+        {senadoresExercicio > 0 && <div class="numero"><b>{n(senadoresExercicio)}</b><span>senadores em exercício</span></div>}
         <div class="numero"><b>{n(proj.total)}</b><span>projetos apresentados por deputados desde 2023</span></div>
         <p class="nota">Atualizado a cada hora.{estado.ultima_data && ` Votação mais recente: ${data(estado.ultima_data)}.`}</p>
       </div>
       <div class="principal">
         <h2 id="t-como" class="titulo-secao">Como o site funciona</h2>
         <p class="enunciado">
-          Tudo vem do portal de Dados Abertos da Câmara dos Deputados. O site não cria nem edita informação: organiza o que a Câmara publica e procura votações novas a cada hora.
+          Tudo vem dos portais de Dados Abertos da Câmara dos Deputados e do Senado Federal. O site não cria nem edita informação: organiza o que as duas casas publicam e procura votações novas todos os dias.
         </p>
         <div class="colunas">
-          <p><strong>Votações.</strong> Para cada votação nominal do Plenário: o que estava em jogo, o resultado, como cada partido votou, a orientação das lideranças e o voto de cada deputado.</p>
-          <p><strong>Deputados.</strong> Para cada um: os dados declarados à Câmara, o histórico de votos e os projetos apresentados, com a situação de cada projeto.</p>
+          <p><strong>Votações.</strong> Para cada votação nominal do Plenário: o que estava em jogo, o resultado, como cada partido votou e o voto de cada deputado e de cada senador.</p>
+          <p><strong>Deputados e senadores.</strong> Para cada um: os dados oficiais, o histórico de votos e os projetos apresentados, com a situação de cada projeto.</p>
           <p><strong>Só fatos.</strong> Ninguém é classificado como de esquerda, centro ou direita, e não há notas. Cada informação leva à fonte oficial.</p>
           <p><strong>Conferência diária.</strong> Uma vez por dia o site confere tudo com os arquivos completos da Câmara e atualiza perfis e projetos.</p>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ últimas votações -->
+  <section class="secao ultimas" aria-labelledby="t-ultimas">
+    <div class="ultimas-cabeca">
+      <h2 id="t-ultimas" class="titulo-secao"><span class="suave">As votações</span><br />mais recentes</h2>
+      <a class="botao" href={url("/votacoes/")}>Ver todas</a>
+    </div>
+    <div class="agenda" data-entra>
+      <div class="dias" role="tablist" aria-label="Dias com votação">
+        {dias.map((d, k) => (
+          <button type="button" role="tab" class="dia" id={`aba-${k}`} aria-controls={`dia-${k}`} aria-selected={k === 0 ? "true" : "false"} tabindex={k === 0 ? 0 : -1}>
+            <b>{diaSemana(d.data)}</b><span>{data(d.data)}</span>
+          </button>
+        ))}
+      </div>
+      <div class="sessoes">
+        {dias.map((d, k) => (
+          <ul class="faixas" id={`dia-${k}`} role="tabpanel" aria-labelledby={`aba-${k}`} data-painel>
+            {d.itens.map((i) => (
+              <li>
+                <a class="faixa" href={url(i.casa === "senado" ? `/votacao-senado/${i.id}/` : `/votacao/${i.id}/`)}>
+                  <span class="faixa-hora">{hora(i.data_hora) || "—"}</span>
+                  <span class="faixa-texto">
+                    <span class="faixa-titulo">{descricaoCurta(i.descricao)}</span>
+                    <span class="faixa-nota">{[i.casa === "senado" ? "Senado" : "Câmara", proposicao(i.proposicao), i.tipo === "merito" ? "Mérito" : "Procedimental"].filter(Boolean).join(" · ")}</span>
+                  </span>
+                  <span class="faixa-resultado">
+                    <span class={`res res-${i.resultado}`}>{RESULTADO[i.resultado]}</span>
+                    <span class="mini" aria-hidden="true"><i class="v-S" style={`width:${pct(i.totais, "Sim")}%`} /><i class="v-N" style={`width:${pct(i.totais, "Não")}%`} /></span>
+                  </span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        ))}
       </div>
     </div>
   </section>
@@ -176,43 +224,6 @@ const pct = (t: Record<string, number>, v: string) => ((t[v] ?? 0) / Math.max(1,
     </dl>
   </section>
 
-  <!-- ============================================================ últimas votações -->
-  <section class="secao ultimas" aria-labelledby="t-ultimas">
-    <div class="ultimas-cabeca">
-      <h2 id="t-ultimas" class="titulo-secao"><span class="suave">As votações</span><br />mais recentes</h2>
-      <a class="botao" href={url("/votacoes/")}>Ver todas</a>
-    </div>
-    <div class="agenda" data-entra>
-      <div class="dias" role="tablist" aria-label="Dias com votação">
-        {dias.map((d, k) => (
-          <button type="button" role="tab" class="dia" id={`aba-${k}`} aria-controls={`dia-${k}`} aria-selected={k === 0 ? "true" : "false"} tabindex={k === 0 ? 0 : -1}>
-            <b>{diaSemana(d.data)}</b><span>{data(d.data)}</span>
-          </button>
-        ))}
-      </div>
-      <div class="sessoes">
-        {dias.map((d, k) => (
-          <ul class="faixas" id={`dia-${k}`} role="tabpanel" aria-labelledby={`aba-${k}`} data-painel>
-            {d.itens.map((i) => (
-              <li>
-                <a class="faixa" href={url(`/votacao/${i.id}/`)}>
-                  <span class="faixa-hora">{hora(i.data_hora) || "—"}</span>
-                  <span class="faixa-texto">
-                    <span class="faixa-titulo">{descricaoCurta(i.descricao)}</span>
-                    <span class="faixa-nota">{[proposicao(i.proposicao), i.tipo === "merito" ? "Mérito" : "Procedimental"].filter(Boolean).join(" · ")}</span>
-                  </span>
-                  <span class="faixa-resultado">
-                    <span class={`res res-${i.resultado}`}>{RESULTADO[i.resultado]}</span>
-                    <span class="mini" aria-hidden="true"><i class="v-S" style={`width:${pct(i.totais, "Sim")}%`} /><i class="v-N" style={`width:${pct(i.totais, "Não")}%`} /></span>
-                  </span>
-                </a>
-              </li>
-            ))}
-          </ul>
-        ))}
-      </div>
-    </div>
-  </section>
 <script>
   // Abas dos dias de votação.
   const abas = Array.from(document.querySelectorAll<HTMLButtonElement>(".dias [role=tab]"));

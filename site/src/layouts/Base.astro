@@ -1,4 +1,5 @@
 ---
+import Inscricao from "../components/Inscricao.astro";
 import "../styles/global.css";
 import { data, url } from "../lib/formato";
 import { estadoColeta } from "../lib/dados";
@@ -40,6 +41,7 @@ const tituloCompleto = titulo === "Monitor do Congresso" ? titulo : `${titulo} �
     <main class={largo ? "largo" : "conteiner"}>
       <slot />
     </main>
+    <Inscricao />
     <footer class="rodape">
       <div class="rodape-topo">
         <p><b>Monitor do Congresso.</b> Dados oficiais da Câmara dos Deputados e do Senado Federal, organizados sem edição e sem classificação ideológica.</p>

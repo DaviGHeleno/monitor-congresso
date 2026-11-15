@@ -3,7 +3,8 @@ name: E-mail diário
 # Às 18h (Brasília): atualiza as votações do Senado e manda o resumo das últimas 24 horas por e-mail.
 # A Câmara já é atualizada de hora em hora pelo workflow "Coletar votações".
 # Segredos necessários (Settings > Secrets and variables > Actions):
-#   GMAIL_USER, GMAIL_APP_PASSWORD, EMAIL_DESTINO
+#   GMAIL_USER, GMAIL_APP_PASSWORD, EMAIL_DESTINO, INSCRICOES_CSV, CANCELAMENTOS_CSV
+# Variáveis (aba Variables): FORM_INSCRICAO, FORM_CANCELAR
 # O GitHub pode atrasar horários agendados em alguns minutos.
 on:
   schedule:
@@ -48,4 +49,7 @@ jobs:
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           EMAIL_DESTINO: ${{ secrets.EMAIL_DESTINO }}
+          INSCRICOES_CSV: ${{ secrets.INSCRICOES_CSV }}
+          CANCELAMENTOS_CSV: ${{ secrets.CANCELAMENTOS_CSV }}
+          FORM_CANCELAR: ${{ vars.FORM_CANCELAR }}
         run: python -m coletor.email_diario

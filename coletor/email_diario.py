@@ -9,20 +9,31 @@ entram pelo dia: as de hoje.
 Variáveis de ambiente (segredos do GitHub):
   GMAIL_USER          conta Gmail que envia (ex.: fulana@gmail.com)
   GMAIL_APP_PASSWORD  senha de app do Gmail (16 letras), não a senha normal
-  EMAIL_DESTINO       quem recebe; vários separados por vírgula (padrão: o próprio GMAIL_USER)
+  EMAIL_DESTINO       quem sempre recebe; vários separados por vírgula (padrão: o próprio GMAIL_USER)
+  INSCRICOES_CSV      (opcional) link CSV da planilha do Google Forms de inscrição
+  CANCELAMENTOS_CSV   (opcional) link CSV da planilha do Google Forms de cancelamento
+  FORM_CANCELAR       (opcional) link do formulário de cancelamento, posto no rodapé do e-mail
+
+Inscritos: quem aparece na planilha de inscrição, menos quem cancelou depois da última inscrição.
+Os inscritos vão em cópia oculta (ninguém vê o e-mail dos outros), em lotes de 90.
 """
 
 from __future__ import annotations
 
 import argparse
+import csv
 import html
+import io
 import json
 import os
+import re
 import smtplib
 import sys
 from datetime import datetime, timedelta, timezone
 from email.message import EmailMessage
 from pathlib import Path
+
+import requests
 
 SITE = "https://davigheleno.github.io/monitor-congresso"
 BRASILIA = timezone(timedelta(hours=-3))
@@ -67,7 +78,46 @@ def _curta(texto: str | None) -> str:
     return t[:corte].strip() if corte > 0 else t
 
 
-def montar(camara: list[dict], senado: list[dict], fim: datetime) -> tuple[str, str, str]:
+EMAIL = re.compile(r"^[^@\s,;]+@[^@\s,;]+\.[^@\s,;]+$")
+
+
+def _momento(texto: str) -> datetime:
+    for fmt in ("%d/%m/%Y %H:%M:%S", "%d/%m/%Y %H:%M", "%m/%d/%Y %H:%M:%S", "%Y-%m-%d %H:%M:%S"):
+        try:
+            return datetime.strptime(texto.strip(), fmt)
+        except ValueError:
+            pass
+    return datetime.min
+
+
+def respostas(texto_csv: str) -> dict[str, datetime]:
+    """E-mail -> momento mais recente, a partir do CSV de um Google Forms (qualquer coluna com e-mail)."""
+    saida: dict[str, datetime] = {}
+    linhas = list(csv.reader(io.StringIO(texto_csv)))
+    for linha in linhas[1:]:
+        quando = _momento(linha[0]) if linha else datetime.min
+        for celula in linha:
+            e = celula.strip().lower()
+            if EMAIL.match(e):
+                saida[e] = max(saida.get(e, datetime.min), quando)
+    return saida
+
+
+def inscritos(texto_inscricoes: str, texto_cancelamentos: str = "") -> list[str]:
+    entrou, saiu = respostas(texto_inscricoes), respostas(texto_cancelamentos)
+    return sorted(e for e, quando in entrou.items() if e not in saiu or quando > saiu[e])
+
+
+def _baixar(url: str | None) -> str:
+    if not url:
+        return ""
+    r = requests.get(url, timeout=60)
+    r.raise_for_status()
+    r.encoding = "utf-8"
+    return r.text
+
+
+def montar(camara: list[dict], senado: list[dict], fim: datetime, cancelar: str | None = None) -> tuple[str, str, str]:
     """Devolve (assunto, texto simples, html)."""
     casas = [("Câmara dos Deputados", "votacao", [i for i in camara if na_janela(i, fim)]),
              ("Senado Federal", "votacao-senado", [i for i in senado if na_janela(i, fim)])]
@@ -108,6 +158,9 @@ def montar(camara: list[dict], senado: list[dict], fim: datetime) -> tuple[str, 
             texto.append(f"  {frase}")
         texto.append("")
     rodape = f'Dados oficiais da Câmara e do Senado. <a href="{SITE}/" style="color:#1e4bd7">Abrir o Monitor do Congresso</a>'
+    if cancelar:
+        rodape += f'<br>Não quer mais receber? <a href="{cancelar}" style="color:#1e4bd7">Cancelar inscrição</a>'
+        texto.append(f"Cancelar inscrição: {cancelar}")
     corpo = ('<div style="font-family:Arial,Helvetica,sans-serif;max-width:640px;margin:0 auto;color:#191919;line-height:1.45">'
              f'<h1 style="font-size:22px;margin:0 0 4px">Como votou o Congresso hoje</h1>{"".join(partes)}'
              f'<p style="font-size:12px;color:#777;margin-top:28px">{rodape}</p></div>')
@@ -115,17 +168,27 @@ def montar(camara: list[dict], senado: list[dict], fim: datetime) -> tuple[str, 
     return assunto, "\n".join(texto), corpo
 
 
-def enviar(assunto: str, texto: str, corpo_html: str) -> None:
+def enviar(assunto: str, texto: str, corpo_html: str) -> int:
     usuario = os.environ["GMAIL_USER"].strip()
     senha = os.environ["GMAIL_APP_PASSWORD"].replace(" ", "").strip()
-    destino = [d.strip() for d in (os.environ.get("EMAIL_DESTINO") or usuario).split(",") if d.strip()]
-    msg = EmailMessage()
-    msg["Subject"], msg["From"], msg["To"] = assunto, f"Monitor do Congresso <{usuario}>", ", ".join(destino)
-    msg.set_content(texto)
-    msg.add_alternative(corpo_html, subtype="html")
+    fixos = [d.strip().lower() for d in (os.environ.get("EMAIL_DESTINO") or usuario).split(",") if d.strip()]
+    try:
+        publico = inscritos(_baixar(os.environ.get("INSCRICOES_CSV")), _baixar(os.environ.get("CANCELAMENTOS_CSV")))
+    except requests.RequestException as e:  # planilha fora do ar: manda só para os fixos
+        print(f"aviso: não consegui ler as planilhas de inscrição ({e})")
+        publico = []
+    todos = list(dict.fromkeys(fixos + publico))
+    print(f"Destinatários: {len(fixos)} fixos + {len([e for e in publico if e not in fixos])} inscritos")
     with smtplib.SMTP_SSL("smtp.gmail.com", 465, timeout=60) as s:
         s.login(usuario, senha)
-        s.send_message(msg)
+        for n in range(0, len(todos), 90):
+            msg = EmailMessage()
+            msg["Subject"], msg["From"], msg["To"] = assunto, f"Monitor do Congresso <{usuario}>", usuario
+            msg["Bcc"] = ", ".join(todos[n:n + 90])
+            msg.set_content(texto)
+            msg.add_alternative(corpo_html, subtype="html")
+            s.send_message(msg)
+    return len(todos)
 
 
 def main(argv=None) -> int:
@@ -134,14 +197,14 @@ def main(argv=None) -> int:
     ap.add_argument("--previa", action="store_true")
     args = ap.parse_args(argv)
     d = Path(args.dados)
-    assunto, texto, corpo = montar(_ler(d / "votacoes/indice.json"), _ler(d / "senado/votacoes/indice.json"), agora())
+    assunto, texto, corpo = montar(_ler(d / "votacoes/indice.json"), _ler(d / "senado/votacoes/indice.json"), agora(),
+                                  os.environ.get("FORM_CANCELAR") or None)
     print(assunto)
     print(texto)
     if args.previa:
         Path("previa-email.html").write_text(corpo, encoding="utf-8")
         return 0
-    enviar(assunto, texto, corpo)
-    print("E-mail enviado.")
+    print(f"E-mail enviado para {enviar(assunto, texto, corpo)} endereço(s).")
     return 0
 
 

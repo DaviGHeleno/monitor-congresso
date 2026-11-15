@@ -32,3 +32,17 @@ def test_montar():
 def test_sem_votacoes():
     assunto, texto, _ = montar([], [], FIM)
     assert "nenhuma votação" in assunto and "Nenhuma votação nominal" in texto
+
+
+def test_inscritos():
+    entrada = ("Carimbo de data/hora,E-mail\n10/11/2026 10:00:00,Ana@Gmail.com\n10/11/2026 11:00:00,bia@x.com\n"
+               "12/11/2026 09:00:00,carla@y.com.br\n10/11/2026 12:00:00,nao-e-email\n13/11/2026 08:00:00,bia@x.com\n")
+    saida = "Carimbo de data/hora,E-mail\n11/11/2026 10:00:00,ana@gmail.com\n11/11/2026 10:00:00,bia@x.com\n"
+    from coletor.email_diario import inscritos
+    # ana cancelou; bia cancelou e se inscreveu de novo depois
+    assert inscritos(entrada, saida) == ["bia@x.com", "carla@y.com.br"]
+
+
+def test_rodape_cancelar():
+    _, texto, corpo = montar([], [], FIM, "https://forms.gle/xyz")
+    assert "Cancelar inscrição" in corpo and "https://forms.gle/xyz" in texto
