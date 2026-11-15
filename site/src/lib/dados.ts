@@ -193,3 +193,39 @@ export function todosSenadores(): Senador[] {
   }
   return [...mapa.values()].sort((a, b) => a.nome.localeCompare(b.nome, "pt-BR"));
 }
+
+// ---------- Todos os projetos (Câmara e Senado) ----------
+
+export type AutorProjeto = { casa: "camara" | "senado"; id: number; nome: string; partido: string | null; uf: string | null; primeiro: boolean };
+export type ProjetoGeral = Projeto & { casa: "camara" | "senado"; autores: AutorProjeto[] };
+
+let _todosProjetos: ProjetoGeral[] | null = null;
+/** Projetos dos deputados e dos senadores, sem repetição, mais recentes primeiro. Autores: primeiros autores antes. */
+export function todosProjetos(): ProjetoGeral[] {
+  if (_todosProjetos) return _todosProjetos;
+  const mapa = new Map<string, ProjetoGeral>();
+  const juntar = (casa: "camara" | "senado", pasta: string, pessoa: (id: number) => { nome: string; partido: string | null; uf: string | null }) => {
+    const dir = path.join(RAIZ, pasta);
+    if (!fs.existsSync(dir)) return;
+    for (const nome of fs.readdirSync(dir)) {
+      if (!nome.endsWith(".json")) continue;
+      const id = Number(nome.replace(".json", ""));
+      if (!Number.isFinite(id)) continue;
+      const { projetos = [] } = JSON.parse(fs.readFileSync(path.join(dir, nome), "utf-8")) as { projetos?: Projeto[] };
+      const p = pessoa(id);
+      for (const x of projetos) {
+        const chave = `${casa}-${x.id}`;
+        if (!mapa.has(chave)) mapa.set(chave, { ...x, primeiro_autor: undefined, casa, autores: [] });
+        mapa.get(chave)!.autores.push({ casa, id, nome: p.nome, partido: p.partido, uf: p.uf, primeiro: !!x.primeiro_autor });
+      }
+    }
+  };
+  const deps = deputados();
+  juntar("camara", "deputados", (id) => deps.get(id) ?? { nome: `Deputado ${id}`, partido: null, uf: null });
+  const sens = new Map(todosSenadores().map((s) => [s.id, s]));
+  juntar("senado", "senado/senadores", (id) => sens.get(id) ?? { nome: `Senador ${id}`, partido: null, uf: null });
+  const lista = [...mapa.values()];
+  for (const p of lista) p.autores.sort((a, b) => Number(b.primeiro) - Number(a.primeiro) || a.nome.localeCompare(b.nome, "pt-BR"));
+  lista.sort((a, b) => (b.apresentacao ?? "").localeCompare(a.apresentacao ?? "") || b.ano - a.ano || b.numero - a.numero);
+  return (_todosProjetos = lista);
+}

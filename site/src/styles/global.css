@@ -369,7 +369,7 @@ button.numero[aria-pressed="true"] span { color: var(--surface-2); }
 
 /* ---------------------------------------------------------------- celular */
 @media (max-width: 760px) {
-  .abas { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; }
+  .abas { display: grid; grid-template-columns: repeat(3, 1fr); gap: 4px; }
   .abas a { padding: 0 4px; justify-content: center; font-size: var(--t-small); }
   th, td { padding: 10px 10px; }
   main { padding-top: 28px; }

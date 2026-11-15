@@ -7,7 +7,7 @@ import { estadoColeta } from "../lib/dados";
 interface Props {
   titulo: string;
   descricao?: string;
-  secao?: "inicio" | "votacoes" | "deputados" | "senadores";
+  secao?: "inicio" | "votacoes" | "deputados" | "senadores" | "projetos";
   largo?: boolean; // conteúdo de borda a borda (página inicial)
 }
 const { titulo, descricao = "Votações do Congresso: placar por partido e voto de cada parlamentar, com dados oficiais.", secao, largo = false } = Astro.props;
@@ -35,6 +35,7 @@ const tituloCompleto = titulo === "Monitor do Congresso" ? titulo : `${titulo} �
           <a href={url("/votacoes/")} aria-current={atual("votacoes")}>Votações</a>
           <a href={url("/deputados/")} aria-current={atual("deputados")}>Deputados</a>
           <a href={url("/senadores/")} aria-current={atual("senadores")}>Senadores</a>
+          <a href={url("/projetos/")} aria-current={atual("projetos")}>Projetos</a>
         </nav>
       </div>
     </header>
@@ -51,7 +52,7 @@ const tituloCompleto = titulo === "Monitor do Congresso" ? titulo : `${titulo} �
       </div>
       <p class="rodape-linha"><a href="https://dadosabertos.camara.leg.br" rel="noopener">Dados Abertos</a><br /><a href="https://legis.senado.leg.br/dadosabertos" rel="noopener">do Congresso</a></p>
       <div class="rodape-meta">
-        <p><a href={url("/votacoes/")}>Votações</a> · <a href={url("/deputados/")}>Deputados</a> · <a href={url("/senadores/")}>Senadores</a></p>
+        <p><a href={url("/votacoes/")}>Votações</a> · <a href={url("/deputados/")}>Deputados</a> · <a href={url("/senadores/")}>Senadores</a> · <a href={url("/projetos/")}>Projetos</a></p>
         <p>Fotos oficiais: Câmara dos Deputados e Senado Federal. Fonte tipográfica Switzer: Indian Type Foundry.</p>
         <p>Legislatura 2023–2027</p>
       </div>

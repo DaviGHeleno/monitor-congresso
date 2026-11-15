@@ -1,0 +1,153 @@
+---
+// Projetos: tudo o que deputados e senadores apresentaram desde fevereiro de 2023, mais recentes primeiro.
+// A página já vem com os 60 mais recentes; o resto (e os filtros) chega de dados/projetos.json.
+import Base from "../layouts/Base.astro";
+import { todosProjetos, type ProjetoGeral } from "../lib/dados";
+import { data, url } from "../lib/formato";
+
+const todos = todosProjetos();
+const primeiros = todos.slice(0, 60);
+const n = (x: number) => x.toLocaleString("pt-BR");
+const nCamara = todos.filter((p) => p.casa === "camara").length;
+const nSenado = todos.length - nCamara;
+const siglas = [...new Set(todos.map((p) => p.sigla))].sort();
+const anos = [...new Set(todos.map((p) => (p.apresentacao ?? String(p.ano)).slice(0, 4)))].sort().reverse();
+const cat = (p: ProjetoGeral) => (p.situacao ? p.categoria ?? "tramitacao" : "sem_informacao");
+const ROTULO: Record<string, string> = {
+  lei: "Virou lei", tramitacao: "Em tramitação", encerrado: "Arquivado ou rejeitado", sem_informacao: "Situação não informada",
+};
+const rotulo = (p: ProjetoGeral) => (cat(p) === "aprovado" ? (p.casa === "senado" ? "Aprovado no Senado" : "Aprovado na Câmara") : ROTULO[cat(p)]);
+const NOME_SIGLA: Record<string, string> = {
+  PL: "Projeto de lei", PLP: "Projeto de lei complementar", PEC: "Proposta de emenda à Constituição",
+  PDL: "Projeto de decreto legislativo", PRS: "Projeto de resolução do Senado", PRC: "Projeto de resolução da Câmara",
+};
+---
+<Base titulo="Projetos" secao="projetos" descricao="Os projetos de lei e de emenda à Constituição apresentados por deputados e senadores, do mais recente ao mais antigo.">
+  <div class="cabeca-pagina">
+    <h1>Projetos</h1>
+    <p class="subtitulo">
+      Projetos de lei, de lei complementar, de emenda à Constituição, de decreto legislativo e de resolução apresentados por deputados e senadores desde fevereiro de 2023, do mais recente ao mais antigo. Situação atual segundo a Câmara e o Senado.
+    </p>
+  </div>
+
+  {todos.length === 0 ? <p>Nenhum projeto coletado ainda.</p> : (
+    <>
+      <div class="numeros">
+        <div class="numero"><b>{n(todos.length)}</b><span>Projetos</span></div>
+        <div class="numero"><b>{n(nCamara)}</b><span>Apresentados na Câmara</span></div>
+        <div class="numero"><b>{n(nSenado)}</b><span>Apresentados no Senado</span></div>
+      </div>
+
+      <form class="filtros" onsubmit="return false">
+        <label>Buscar<input type="search" id="pj-texto" placeholder="Tema, número ou autor" autocomplete="off" /></label>
+        <label>Casa
+          <select id="pj-casa"><option value="">Câmara e Senado</option><option value="c">Câmara</option><option value="s">Senado</option></select>
+        </label>
+        <label>Situação
+          <select id="pj-cat">
+            <option value="">Todas</option><option value="lei">Virou lei</option><option value="aprovado">Aprovado na casa de origem</option>
+            <option value="tramitacao">Em tramitação</option><option value="encerrado">Arquivado ou rejeitado</option>
+            <option value="sem_informacao">Situação não informada</option>
+          </select>
+        </label>
+        <label>Tipo
+          <select id="pj-sigla"><option value="">Todos</option>{siglas.map((s) => <option value={s}>{NOME_SIGLA[s] ? `${s} · ${NOME_SIGLA[s]}` : s}</option>)}</select>
+        </label>
+        <label>Ano
+          <select id="pj-ano"><option value="">Todos</option>{anos.map((a) => <option>{a}</option>)}</select>
+        </label>
+      </form>
+      <p class="contagem" id="pj-contagem" aria-live="polite">{n(todos.length)} projetos</p>
+
+      <ul class="lista-simples" id="pj-lista">
+        {primeiros.map((p) => (
+          <li class="projeto">
+            <div class="projeto-topo">
+              <span class="pj-data">{p.apresentacao ? data(p.apresentacao) : p.ano}</span>
+              {p.url ? <a href={p.url} rel="noopener"><b>{p.sigla} {p.numero}/{p.ano}</b></a> : <b>{p.sigla} {p.numero}/{p.ano}</b>}
+              <span class="etiqueta">{p.casa === "senado" ? "Senado" : "Câmara"}</span>
+              <span class={`etiqueta cat-${cat(p)}`}>{rotulo(p)}</span>
+            </div>
+            {p.ementa && <div class="projeto-ementa">{p.ementa}</div>}
+            <div class="projeto-situacao">
+              {p.autores.slice(0, 4).map((a, k) => (
+                <>{k > 0 && ", "}<a href={url(a.casa === "senado" ? `/senador/${a.id}/` : `/deputado/${a.id}/`)}>{a.nome}</a>{(a.partido || a.uf) && ` (${[a.partido, a.uf].filter(Boolean).join("-")})`}</>
+              ))}
+              {p.autores.length > 4 && ` e mais ${p.autores.length - 4}`}
+            </div>
+            {p.situacao && <div class="projeto-situacao">Situação: {p.situacao}</div>}
+          </li>
+        ))}
+      </ul>
+      <p class="paginacao"><button type="button" id="pj-mais">Mostrar mais</button></p>
+    </>
+  )}
+  <p class="fonte">Fonte: Dados Abertos da Câmara dos Deputados e do Senado Federal. O número do projeto leva à ficha oficial.</p>
+</Base>
+
+<style>
+  .pj-data { font-size: var(--t-small); color: var(--texto-2); font-variant-numeric: tabular-nums; min-width: 6.5em; }
+</style>
+
+<script>
+  type Autor = [string, number, string, string, number];
+  type Linha = [string, string, number, number, string, string, string, string, string, Autor[], number];
+
+  const lista = document.getElementById("pj-lista");
+  const contagem = document.getElementById("pj-contagem");
+  const mais = document.getElementById("pj-mais") as HTMLButtonElement | null;
+  const $ = (id: string) => document.getElementById(id) as HTMLInputElement;
+
+  if (lista && contagem && mais) {
+    const base = document.querySelector<HTMLAnchorElement>(".marca")!.getAttribute("href")!.replace(/\/$/, "");
+    const ROTULO: Record<string, string> = {
+      lei: "Virou lei", tramitacao: "Em tramitação", encerrado: "Arquivado ou rejeitado", sem_informacao: "Situação não informada",
+    };
+    const norm = (s: string) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+    const esc = (s: string) => s.replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]!);
+    const dataBR = (iso: string) => (iso ? iso.slice(0, 10).split("-").reverse().join("/") : "");
+    let dados: { l: Linha; busca: string }[] = [];
+    let limite = 60;
+
+    const item = (l: Linha) => {
+      const [casa, sigla, numero, ano, apres, ementa, link, situacao, cat, autores, nAutores] = l;
+      const nome = `${sigla} ${numero}/${ano}`;
+      const rot = cat === "aprovado" ? (casa === "s" ? "Aprovado no Senado" : "Aprovado na Câmara") : ROTULO[cat];
+      const quem = autores.map(([c, id, n, pu]) =>
+        `<a href="${base}/${c === "s" ? "senador" : "deputado"}/${id}/">${esc(n)}</a>${pu ? ` (${esc(pu)})` : ""}`).join(", ")
+        + (nAutores > autores.length ? ` e mais ${nAutores - autores.length}` : "");
+      return `<li class="projeto"><div class="projeto-topo"><span class="pj-data">${apres ? dataBR(apres) : ano}</span>`
+        + (link ? `<a href="${esc(link)}" rel="noopener"><b>${nome}</b></a>` : `<b>${nome}</b>`)
+        + `<span class="etiqueta">${casa === "s" ? "Senado" : "Câmara"}</span><span class="etiqueta cat-${cat}">${rot}</span></div>`
+        + (ementa ? `<div class="projeto-ementa">${esc(ementa)}</div>` : "")
+        + (quem ? `<div class="projeto-situacao">${quem}</div>` : "")
+        + (situacao ? `<div class="projeto-situacao">Situação: ${esc(situacao)}</div>` : "") + `</li>`;
+    };
+
+    const aplicar = () => {
+      const termos = norm($("pj-texto").value).split(/\s+/).filter(Boolean);
+      const casa = $("pj-casa").value, cat = $("pj-cat").value, sigla = $("pj-sigla").value, ano = $("pj-ano").value;
+      const vis = dados.filter(({ l, busca }) =>
+        (!casa || l[0] === casa) && (!cat || l[8] === cat) && (!sigla || l[1] === sigla)
+        && (!ano || (l[4] || String(l[3])).startsWith(ano)) && termos.every((t) => busca.includes(t)));
+      lista.innerHTML = vis.slice(0, limite).map(({ l }) => item(l)).join("") || "<li>Nenhum projeto com esses filtros.</li>";
+      contagem.textContent = vis.length === 1 ? "1 projeto" : `${vis.length.toLocaleString("pt-BR")} projetos`;
+      mais.classList.toggle("oculto", vis.length <= limite);
+      mais.textContent = `Mostrar mais (${(vis.length - limite).toLocaleString("pt-BR")} restantes)`;
+    };
+
+    mais.disabled = true;
+    fetch(`${base}/dados/projetos.json`).then((r) => r.json()).then((linhas: Linha[]) => {
+      dados = linhas.map((l) => ({
+        l,
+        busca: norm([`${l[1]} ${l[2]}/${l[3]}`, `${l[1]}${l[2]}`, `${l[1]} ${l[2]}`, l[5], l[9].map((a) => a[2]).join(" ")].join(" ")),
+      }));
+      mais.disabled = false;
+      const reiniciar = () => { limite = 60; aplicar(); };
+      $("pj-texto").addEventListener("input", reiniciar);
+      ["pj-casa", "pj-cat", "pj-sigla", "pj-ano"].forEach((id) => $(id).addEventListener("change", reiniciar));
+      mais.addEventListener("click", () => { limite += 100; aplicar(); });
+      aplicar();
+    });
+  }
+</script>
