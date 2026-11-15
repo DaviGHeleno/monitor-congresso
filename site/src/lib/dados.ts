@@ -229,3 +229,15 @@ export function todosProjetos(): ProjetoGeral[] {
   lista.sort((a, b) => (b.apresentacao ?? "").localeCompare(a.apresentacao ?? "") || b.ano - a.ano || b.numero - a.numero);
   return (_todosProjetos = lista);
 }
+
+// ---------- Gastos da cota parlamentar (dados/gastos/) ----------
+
+export type Gastos = {
+  total: number; n: number; por_ano: Record<string, number>;
+  por_categoria: { categoria: string; valor: number }[];
+  fornecedores: { nome: string; cnpj: string | null; valor: number; n: number }[];
+  ultimas: { data: string; categoria: string; fornecedor: string; valor: number; url: string | null }[];
+};
+export function gastos(casa: "camara" | "senado", id: number): Gastos | null {
+  return ler<Gastos | null>(`gastos/${casa}/${id}.json`, null);
+}

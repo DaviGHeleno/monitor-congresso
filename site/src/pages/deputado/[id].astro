@@ -1,7 +1,9 @@
 ---
 import Base from "../../layouts/Base.astro";
 import AbasPerfil from "../../components/AbasPerfil.astro";
+import PainelGastos from "../../components/PainelGastos.astro";
 import { historico, indice, projetos, todosDeputados, type Deputado } from "../../lib/dados";
+import { gastos } from "../../lib/dados";
 import { CATEGORIA_PROJETO, data, idade, nomeRede, proposicao, url } from "../../lib/formato";
 
 export function getStaticPaths() {
@@ -50,6 +52,7 @@ const projsOrdenados = comSituacao
 // O texto das votações vem do arquivo compartilhado, baixado uma vez para todas as páginas de deputado.
 const posicao = new Map(indice().map((i, n) => [i.id, n]));
 const compacto = votos.map((v) => [posicao.get(v.votacao.id), v.voto, v.partido && v.partido !== d.partido ? v.partido : 0]);
+const g = gastos("camara", d.id);
 ---
 <Base titulo={d.nome} descricao={`Votos e projetos de ${d.nome} (${d.partido ?? ""}-${d.uf ?? ""}) na Câmara dos Deputados.`} secao="deputados">
   <div class="migalha"><a href={url("/deputados/")}>Deputados</a> › {d.nome}</div>
@@ -99,7 +102,7 @@ const compacto = votos.map((v) => [posicao.get(v.votacao.id), v.voto, v.partido 
     </section>
   )}
 
-  <AbasPerfil votos={votos.length} projetos={projs.length} />
+  <AbasPerfil votos={votos.length} projetos={projs.length} gastos={g?.total ?? null} />
 
   <div id="painel-votos" class="painel-aba" role="tabpanel" aria-labelledby="aba-votos">
   <h2>Votos registrados</h2>
@@ -183,6 +186,11 @@ const compacto = votos.map((v) => [posicao.get(v.votacao.id), v.voto, v.partido 
       <p class="paginacao"><button type="button" id="p-mais" class="oculto">Mostrar mais</button></p>
     </>
   )}
+  </div>
+
+  <div id="painel-gastos" class="painel-aba" role="tabpanel" aria-labelledby="aba-gastos" hidden>
+    <h2>Gastos</h2>
+    <PainelGastos g={g} casa="camara" />
   </div>
 </Base>
 

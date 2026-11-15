@@ -1,7 +1,9 @@
 ---
 import Base from "../../layouts/Base.astro";
 import AbasPerfil from "../../components/AbasPerfil.astro";
+import PainelGastos from "../../components/PainelGastos.astro";
 import { VOTOS_SENADO, historicoSenado, projetosSenador, todosSenadores, type Senador } from "../../lib/dados";
+import { gastos } from "../../lib/dados";
 import { CATEGORIA_PROJETO_SENADO as CAT, TIPO, classeVotoSenado, data, descricaoCurta, proposicao, url } from "../../lib/formato";
 
 export function getStaticPaths() {
@@ -32,6 +34,7 @@ const ordemCategoria = ["lei", "aprovado", "tramitacao", "encerrado", "sem_infor
 const caixas = ordemCategoria.slice(0, 4);
 const projsOrdenados = [...projs].sort((a, b) => ordemCategoria.indexOf(cat(a)) - ordemCategoria.indexOf(cat(b))
   || (b.apresentacao ?? "").localeCompare(a.apresentacao ?? ""));
+const g = gastos("senado", s.id);
 ---
 <Base titulo={s.nome} descricao={`Votos e projetos de ${s.nome} (${s.partido ?? ""}-${s.uf ?? ""}) no Senado Federal.`} secao="senadores">
   <div class="migalha"><a href={url("/senadores/")}>Senadores</a> › {s.nome}</div>
@@ -60,7 +63,7 @@ const projsOrdenados = [...projs].sort((a, b) => ordemCategoria.indexOf(cat(a)) 
     <p class="fonte">Dados do Senado Federal.</p>
   </section>
 
-  <AbasPerfil votos={todos.length} projetos={projs.length} />
+  <AbasPerfil votos={todos.length} projetos={projs.length} gastos={g?.total ?? null} />
 
   <div id="painel-votos" class="painel-aba" role="tabpanel" aria-labelledby="aba-votos">
   <h2>Votos registrados</h2>
@@ -150,6 +153,11 @@ const projsOrdenados = [...projs].sort((a, b) => ordemCategoria.indexOf(cat(a)) 
       <p class="paginacao"><button type="button" id="p-mais" class="oculto">Mostrar mais</button></p>
     </>
   )}
+  </div>
+
+  <div id="painel-gastos" class="painel-aba" role="tabpanel" aria-labelledby="aba-gastos" hidden>
+    <h2>Gastos</h2>
+    <PainelGastos g={g} casa="senado" />
   </div>
 </Base>
 

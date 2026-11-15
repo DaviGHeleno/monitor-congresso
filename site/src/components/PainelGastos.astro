@@ -1,0 +1,100 @@
+---
+// Aba "Gastos" dos perfis: salário e cota parlamentar (CEAP na Câmara, CEAPS no Senado), desde fevereiro de 2023.
+import type { Gastos } from "../lib/dados";
+import { data } from "../lib/formato";
+
+const { g, casa } = Astro.props as { g: Gastos | null; casa: "camara" | "senado" };
+const SALARIO = 46366.19; // subsídio bruto mensal desde 01/02/2025 (Decreto Legislativo 172/2022), igual nas duas casas
+const reais = (v: number, dec = 0) => v.toLocaleString("pt-BR", { style: "currency", currency: "BRL", minimumFractionDigits: dec, maximumFractionDigits: dec });
+const cnpj = (c: string) => c.replace(/^(\d{2})(\d{3})(\d{3})(\d{4})(\d{2})$/, "$1.$2.$3/$4-$5");
+const anos = g ? Object.entries(g.por_ano) : [];
+const maxAno = Math.max(1, ...anos.map(([, v]) => v));
+const cats = g?.por_categoria.slice(0, 10) ?? [];
+const outrasCats = (g?.por_categoria.slice(10) ?? []).reduce((s, c) => s + c.valor, 0);
+const maxCat = Math.max(1, ...cats.map((c) => c.valor));
+const nomeCota = casa === "senado" ? "CEAPS" : "CEAP";
+const fonte = casa === "senado"
+  ? "Senado Federal, Cota para o Exercício da Atividade Parlamentar dos Senadores (CEAPS)."
+  : "Câmara dos Deputados, Cota para o Exercício da Atividade Parlamentar (CEAP).";
+---
+<div class="numeros gastos-numeros">
+  <div class="numero"><b>{reais(SALARIO)}</b><span>Salário bruto por mês hoje · {reais(SALARIO * 12)} por ano</span></div>
+  <div class="numero"><b>{g ? reais(g.total) : "—"}</b><span>Gastos da cota parlamentar desde fevereiro de 2023{g && ` · ${g.n.toLocaleString("pt-BR")} despesas`}</span></div>
+  {g && cats[0] && <div class="numero"><b>{reais(cats[0].valor)}</b><span>Maior categoria: {cats[0].categoria.replace(/\.$/, "")}</span></div>}
+</div>
+
+<p class="gastos-nota">
+  <strong>O que é a cota parlamentar.</strong> Além do salário, cada parlamentar tem uma verba mensal ({nomeCota}) para despesas do mandato: passagens, combustível, aluguel e manutenção de escritório no estado, divulgação, consultorias. O valor varia por estado. A despesa é paga pelo parlamentar e reembolsada com a apresentação da nota fiscal. O salário de deputados e senadores é o mesmo, fixado em lei; o valor acima é o bruto, antes de impostos.
+</p>
+
+{!g ? <p>Nenhum gasto da cota registrado para este parlamentar desde fevereiro de 2023.</p> : (
+  <>
+    <h3>Por ano</h3>
+    <ul class="barras-gasto">
+      {anos.map(([ano, v]) => (
+        <li><span class="rotulo">{ano}</span><span class="trilho"><i style={`width:${(v / maxAno) * 100}%`} /></span><span class="valor">{reais(v)}</span></li>
+      ))}
+    </ul>
+
+    <h3>Por categoria</h3>
+    <ul class="barras-gasto barras-largas">
+      {cats.map((c) => (
+        <li><span class="rotulo">{c.categoria.replace(/\.$/, "")}</span><span class="trilho"><i style={`width:${(c.valor / maxCat) * 100}%`} /></span><span class="valor">{reais(c.valor)}</span></li>
+      ))}
+      {outrasCats > 0 && <li><span class="rotulo">Outras categorias</span><span class="trilho" /><span class="valor">{reais(outrasCats)}</span></li>}
+    </ul>
+
+    <h3>Quem mais recebeu</h3>
+    <div class="tabela-rolagem">
+      <table>
+        <thead><tr><th>Fornecedor</th><th class="num">Despesas</th><th class="num">Total</th></tr></thead>
+        <tbody>
+          {g.fornecedores.map((f) => (
+            <tr><td>{f.nome}{f.cnpj && <div class="miudo">CNPJ {cnpj(f.cnpj)}</div>}</td><td class="num">{f.n}</td><td class="num">{reais(f.valor, 2)}</td></tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+
+    <h3>Últimas despesas</h3>
+    <div class="tabela-rolagem">
+      <table>
+        <thead><tr><th>Data</th><th>Categoria e fornecedor</th><th class="num">Valor</th></tr></thead>
+        <tbody>
+          {g.ultimas.map((d, k) => (
+            <tr class={k >= 15 ? "oculto extra-gasto" : undefined}>
+              <td style="white-space:nowrap">{d.data ? data(d.data) : "—"}</td>
+              <td>{d.fornecedor}<div class="miudo">{d.categoria.replace(/\.$/, "")}{d.url && <> · <a href={d.url} rel="noopener">nota fiscal ↗</a></>}</div></td>
+              <td class="num" style="white-space:nowrap">{reais(d.valor, 2)}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+    {g.ultimas.length > 15 && <p class="paginacao"><button type="button" id="gastos-mais">Mostrar mais {g.ultimas.length - 15}</button></p>}
+  </>
+)}
+<p class="fonte">Fonte: {fonte} Atualizado todo dia.</p>
+
+<script>
+  document.getElementById("gastos-mais")?.addEventListener("click", (e) => {
+    document.querySelectorAll(".extra-gasto").forEach((tr) => tr.classList.remove("oculto"));
+    (e.currentTarget as HTMLElement).remove();
+  });
+</script>
+
+<style>
+  .gastos-nota { max-width: 75ch; color: var(--texto-2); }
+  h3 { margin: 32px 0 12px; font-size: var(--t-lead); }
+  .barras-gasto { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }
+  .barras-gasto li { display: grid; grid-template-columns: 70px 1fr auto; gap: 12px; align-items: center; font-size: var(--t-small); }
+  .barras-largas li { grid-template-columns: minmax(140px, 300px) 1fr auto; }
+  .trilho { height: 14px; background: var(--surface); }
+  .trilho i { display: block; height: 100%; background: var(--azul); }
+  .valor { font-variant-numeric: tabular-nums; min-width: 9ch; text-align: right; }
+  .miudo { font-size: var(--t-small); color: var(--texto-2); margin-top: 2px; }
+  @media (max-width: 760px) {
+    .barras-largas li { grid-template-columns: 1fr auto; }
+    .barras-largas .trilho { grid-column: 1 / -1; grid-row: 2; }
+  }
+</style>

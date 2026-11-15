@@ -1,12 +1,13 @@
 ---
-// Abas "Votos | Projetos" nas páginas de deputado e senador. Os painéis são #painel-votos e #painel-projetos.
-// A aba aberta fica no endereço (#projetos), então dá para compartilhar o link já na aba certa.
-const { votos, projetos } = Astro.props as { votos: number; projetos: number };
+// Abas "Votos | Projetos | Gastos" nas páginas de deputado e senador. Os painéis são #painel-votos, #painel-projetos e #painel-gastos.
+// A aba aberta fica no endereço (#projetos, #gastos), então dá para compartilhar o link já na aba certa.
+const { votos, projetos, gastos } = Astro.props as { votos: number; projetos: number; gastos?: number | null };
 const n = (x: number) => x.toLocaleString("pt-BR");
 ---
 <nav class="abas-pilula abas-perfil" role="tablist" aria-label="Seções do perfil">
   <button type="button" role="tab" id="aba-votos" aria-controls="painel-votos" aria-selected="true">Votos <span>{n(votos)}</span></button>
   <button type="button" role="tab" id="aba-projetos" aria-controls="painel-projetos" aria-selected="false" tabindex="-1">Projetos <span>{n(projetos)}</span></button>
+  <button type="button" role="tab" id="aba-gastos" aria-controls="painel-gastos" aria-selected="false" tabindex="-1">Gastos{gastos != null && <span>{gastos.toLocaleString("pt-BR", { style: "currency", currency: "BRL", notation: "compact", maximumFractionDigits: 1 })}</span>}</button>
 </nav>
 <script>
   const abas = Array.from(document.querySelectorAll<HTMLButtonElement>(".abas-perfil [role=tab]"));
@@ -32,5 +33,5 @@ const n = (x: number) => x.toLocaleString("pt-BR");
       prox.focus();
     });
   });
-  if (location.hash === "#projetos") abrir("projetos");
+  if (["#projetos", "#gastos"].includes(location.hash)) abrir(location.hash.slice(1));
 </script>
