@@ -37,6 +37,13 @@ jobs:
           pip install -r requirements.txt
           python -c "from coletor.armazenamento import Armazem; a = Armazem('dados'); a.migrar(); a.reconstruir_indice()"
 
+      - name: Detalhe dos gastos (guardado em cache, não no repositório)
+        uses: actions/cache/restore@v4
+        with:
+          path: dados/gastos/*/detalhe
+          key: gastos-detalhe-nada
+          restore-keys: gastos-detalhe-
+
       - uses: actions/setup-node@v4
         with:
           node-version: "22"

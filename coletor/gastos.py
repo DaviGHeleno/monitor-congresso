@@ -14,7 +14,9 @@ Grava em dados/gastos/:
   estado.json                              o que foi coletado e de onde
 
 As despesas linha a linha não ficam no repositório (seriam centenas de MB): todo dia os arquivos anuais
-são baixados de novo e só o resumo de cada parlamentar é guardado.
+são baixados de novo; o resumo de cada parlamentar vai para o repositório e a lista completa
+(camara/detalhe/<id>.json, senado/detalhe/<código>.json) vai para o cache do GitHub Actions, de onde
+o workflow de publicação a lê.
 
 CPF de pessoa física não é guardado: fornecedor pessoa física aparece só com o nome.
 """
@@ -158,6 +160,31 @@ def resumir(despesas: list[dict]) -> dict:
     }
 
 
+URL_CAMARA = "https://www.camara.leg.br/cota-parlamentar/"
+
+
+def detalhe(despesas: list[dict]) -> dict:
+    """Todas as despesas do parlamentar, compactas, para a página com filtros.
+    d: [data, índice da categoria, índice do fornecedor, valor, link da nota (sem o começo comum) ou ""]."""
+    validas = sorted((d for d in despesas if d["valor"] and (not d["data"] or d["data"] >= DESDE)),
+                     key=lambda d: (d["data"], d["valor"]), reverse=True)
+    cats: dict[str, int] = {}
+    forn: dict[str, int] = {}
+    lista_forn: list[list] = []
+    linhas = []
+    for d in validas:
+        c = cats.setdefault(d["categoria"], len(cats))
+        chave = d["cnpj"] or _norm(d["fornecedor"])
+        if chave not in forn:
+            forn[chave] = len(lista_forn)
+            lista_forn.append([d["fornecedor"], d["cnpj"] or ""])
+        url = d["url"] or ""
+        if url.startswith(URL_CAMARA):
+            url = url[len(URL_CAMARA):]
+        linhas.append([d["data"] or f"{d['ano']}-{d['mes']:02d}-01", c, forn[chave], d["valor"], url])
+    return {"prefixo_url": URL_CAMARA, "categorias": list(cats), "fornecedores": lista_forn, "d": linhas}
+
+
 # ---------- Download ----------
 
 def _get(url: str, **kw) -> requests.Response:
@@ -285,6 +312,7 @@ def main(argv=None) -> int:
             continue
         for pid, lista in por_pessoa.items():
             _gravar(pasta / casa / f"{pid}.json", resumir(lista))
+            _gravar(pasta / casa / "detalhe" / f"{pid}.json", detalhe(lista))
         print(f"{casa}: {len(por_pessoa)} parlamentares com despesas", flush=True)
 
     estado["atualizado_em"] = hoje.isoformat()

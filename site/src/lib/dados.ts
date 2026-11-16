@@ -199,6 +199,7 @@ export function todosSenadores(): Senador[] {
 export type AutorProjeto = { casa: "camara" | "senado"; id: number; nome: string; partido: string | null; uf: string | null; primeiro: boolean };
 export type ProjetoGeral = Projeto & { casa: "camara" | "senado"; autores: AutorProjeto[] };
 
+let _idsGastos = new Map<string, number[]>();
 let _todosProjetos: ProjetoGeral[] | null = null;
 /** Projetos dos deputados e dos senadores, sem repetição, mais recentes primeiro. Autores: primeiros autores antes. */
 export function todosProjetos(): ProjetoGeral[] {
@@ -240,4 +241,17 @@ export type Gastos = {
 };
 export function gastos(casa: "camara" | "senado", id: number): Gastos | null {
   return ler<Gastos | null>(`gastos/${casa}/${id}.json`, null);
+}
+
+/** Parlamentares com o detalhe de gastos coletado (para gerar as páginas de gastos). */
+export function idsComGastos(casa: "camara" | "senado"): number[] {
+  if (_idsGastos.has(casa)) return _idsGastos.get(casa)!;
+  const dir = path.join(RAIZ, "gastos", casa, "detalhe");
+  if (!fs.existsSync(dir)) return [];
+  const ids = fs.readdirSync(dir).filter((n) => n.endsWith(".json")).map((n) => Number(n.replace(".json", ""))).filter(Number.isFinite);
+  _idsGastos.set(casa, ids);
+  return ids;
+}
+export function gastosDetalheTexto(casa: "camara" | "senado", id: number): string {
+  return fs.readFileSync(path.join(RAIZ, "gastos", casa, "detalhe", `${id}.json`), "utf-8");
 }

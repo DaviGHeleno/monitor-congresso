@@ -1,0 +1,291 @@
+---
+// Todos os gastos da cota de um parlamentar, com filtros por período, área (categoria) e fornecedor.
+// Os dados chegam de /dados/gastos/<casa>/<id>.json; tudo é calculado no navegador.
+import Base from "../../../layouts/Base.astro";
+import { deputados, idsComGastos, todosSenadores } from "../../../lib/dados";
+import { url } from "../../../lib/formato";
+
+export function getStaticPaths() {
+  const deps = deputados();
+  const sens = new Map(todosSenadores().map((s) => [s.id, s]));
+  return [
+    ...idsComGastos("camara").filter((id) => deps.has(id)).map((id) => {
+      const d = deps.get(id)!;
+      return { params: { casa: "camara", id: String(id) }, props: { nome: d.nome, partido: d.partido, uf: d.uf, perfil: `/deputado/${id}/` } };
+    }),
+    ...idsComGastos("senado").filter((id) => sens.has(id)).map((id) => {
+      const s = sens.get(id)!;
+      return { params: { casa: "senado", id: String(id) }, props: { nome: s.nome, partido: s.partido, uf: s.uf, perfil: `/senador/${id}/` } };
+    }),
+  ];
+}
+
+const { casa, id } = Astro.params as { casa: "camara" | "senado"; id: string };
+const { nome, partido, uf, perfil } = Astro.props as { nome: string; partido: string | null; uf: string | null; perfil: string };
+const secao = casa === "senado" ? "senadores" : "deputados";
+const lista = casa === "senado" ? "/senadores/" : "/deputados/";
+const nomeCota = casa === "senado" ? "CEAPS" : "CEAP";
+---
+<Base titulo={`Gastos de ${nome}`} secao={secao} descricao={`Todos os gastos da cota parlamentar de ${nome} desde 2023, com filtros por período e por área.`}>
+  <div class="migalha">
+    <a href={url(lista)}>{casa === "senado" ? "Senadores" : "Deputados"}</a> › <a href={url(`${perfil}#gastos`)}>{nome}</a> › Gastos
+  </div>
+  <div class="cabeca-pagina">
+    <h1>Gastos de {nome}</h1>
+    <p class="subtitulo">
+      {[partido, uf].filter(Boolean).join(" · ")}. Cada despesa paga com a cota parlamentar ({nomeCota}) desde fevereiro de 2023. Filtre por período, por área ou por fornecedor; os números e gráficos mudam junto.
+    </p>
+  </div>
+
+  <div id="gx" data-fonte={url(`/dados/gastos/${casa}/${id}.json`)} data-nome={nome}>
+    <p id="gx-carregando">Carregando as despesas…</p>
+
+    <div id="gx-app" hidden>
+      <section class="gx-filtros" aria-label="Filtros">
+        <div class="gx-linha">
+          <span class="gx-rotulo">Período</span>
+          <div class="gx-chips" id="gx-presets"></div>
+        </div>
+        <div class="gx-linha gx-campos">
+          <label>De<input type="month" id="gx-de" /></label>
+          <label>Até<input type="month" id="gx-ate" /></label>
+          <label>Área<select id="gx-cat"><option value="">Todas as áreas</option></select></label>
+          <label class="gx-busca">Fornecedor<input type="search" id="gx-busca" placeholder="Nome ou CNPJ" autocomplete="off" /></label>
+          <button type="button" class="gx-limpar" id="gx-limpar">Limpar filtros</button>
+        </div>
+      </section>
+
+      <div class="numeros">
+        <div class="numero"><b id="gx-total">—</b><span>Total no período</span></div>
+        <div class="numero"><b id="gx-n">—</b><span>Despesas</span></div>
+        <div class="numero"><b id="gx-media">—</b><span id="gx-media-rot">Média por mês</span></div>
+        <div class="numero"><b id="gx-maior">—</b><span id="gx-maior-rot">Maior despesa</span></div>
+      </div>
+
+      <h2>Mês a mês</h2>
+      <div class="gx-meses" id="gx-meses" role="img" aria-label="Gasto por mês no período filtrado"></div>
+      <div class="gx-eixo" id="gx-eixo" aria-hidden="true"></div>
+
+      <div class="gx-duas">
+        <section>
+          <h2>Por área</h2>
+          <p class="gx-dica">Clique numa área para filtrar.</p>
+          <ul class="gx-barras" id="gx-cats"></ul>
+        </section>
+        <section>
+          <h2>Fornecedores</h2>
+          <p class="gx-dica">Clique num fornecedor para ver só as despesas dele.</p>
+          <ul class="gx-barras" id="gx-forn"></ul>
+        </section>
+      </div>
+
+      <div class="gx-cabeca-lista">
+        <h2>Despesas</h2>
+        <div>
+          <label class="gx-ordem">Ordenar
+            <select id="gx-ordem">
+              <option value="data-desc">Mais recentes</option><option value="data-asc">Mais antigas</option>
+              <option value="valor-desc">Maior valor</option><option value="valor-asc">Menor valor</option>
+            </select>
+          </label>
+          <button type="button" id="gx-csv">Baixar planilha (CSV)</button>
+        </div>
+      </div>
+      <div class="tabela-rolagem">
+        <table>
+          <thead><tr><th>Data</th><th>Fornecedor</th><th>Área</th><th class="num">Valor</th></tr></thead>
+          <tbody id="gx-corpo"></tbody>
+        </table>
+      </div>
+      <p class="paginacao"><button type="button" id="gx-mais">Mostrar mais</button></p>
+    </div>
+  </div>
+
+  <p class="fonte">
+    Fonte: {casa === "senado" ? "Senado Federal, CEAPS." : "Câmara dos Deputados, CEAP. A nota fiscal de cada despesa abre no site da Câmara."} Valores reembolsados, como publicados. Atualizado todo dia.
+  </p>
+</Base>
+
+<style is:global>
+  .gx-filtros { background: var(--surface); padding: 20px; margin: 24px 0; display: grid; gap: 16px; }
+  .gx-linha { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+  .gx-rotulo { font-weight: 600; min-width: 70px; }
+  .gx-chips { display: flex; flex-wrap: wrap; gap: 6px; flex: 1 1 0; min-width: 0; }
+  .gx-campos > label { flex: 1 1 140px; min-width: 0; }
+  .gx-campos input, .gx-campos select { width: 100%; box-sizing: border-box; }
+  .gx-eixo { display: flex; gap: 2px; font-size: var(--t-small); color: var(--texto-2); margin-top: 4px; }
+  .gx-eixo span { flex: 1 1 0; min-width: 0; white-space: nowrap; overflow: visible; }
+  .gx-chips button { border: 1px solid var(--surface-2); background: var(--bg); padding: 8px 14px; border-radius: 999px; font: inherit; cursor: pointer; }
+  .gx-chips button[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+  .gx-campos label { display: grid; gap: 4px; font-size: var(--t-small); font-weight: 500; }
+  .gx-campos input, .gx-campos select { font: inherit; padding: 8px 10px; border: 1px solid var(--surface-2); background: var(--bg); min-height: 42px; }
+  .gx-busca { flex: 1 1 220px; }
+  .gx-limpar, #gx-csv { font: inherit; padding: 10px 16px; border: 1px solid var(--ink); background: none; cursor: pointer; align-self: end; min-height: 42px; }
+  #gx-csv { background: var(--ink); color: var(--bg); }
+  .gx-meses { display: flex; align-items: flex-end; gap: 2px; height: 180px; padding-top: 8px; border-bottom: 1px solid var(--surface-2); }
+  .gx-meses div { flex: 1 1 0; min-width: 0; background: var(--azul); min-height: 1px; position: relative; }
+  .gx-meses div:hover { background: var(--ink); }
+  .gx-duas { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
+  .gx-dica { font-size: var(--t-small); color: var(--texto-2); margin: -4px 0 12px; }
+  .gx-barras { list-style: none; padding: 0; margin: 0; display: grid; gap: 4px; }
+  .gx-barras button { width: 100%; display: grid; grid-template-columns: 1fr auto; gap: 2px 12px; text-align: left; font: inherit; font-size: var(--t-small);
+    background: none; border: 0; padding: 6px 4px; cursor: pointer; }
+  .gx-barras button:hover { background: var(--surface); }
+  .gx-barras button[aria-pressed="true"] { background: var(--surface-2); font-weight: 600; }
+  .gx-barras i { grid-column: 1 / -1; display: block; height: 8px; background: var(--azul); }
+  .gx-barras .v { font-variant-numeric: tabular-nums; }
+  .gx-cabeca-lista { display: flex; justify-content: space-between; align-items: end; flex-wrap: wrap; gap: 12px; margin-top: 32px; }
+  .gx-cabeca-lista > div { display: flex; gap: 12px; align-items: end; flex-wrap: wrap; }
+  .gx-ordem { display: grid; gap: 4px; font-size: var(--t-small); }
+  .gx-ordem select { font: inherit; padding: 8px; min-height: 42px; }
+  #gx .miudo { font-size: var(--t-small); color: var(--texto-2); }
+  @media (max-width: 760px) { .gx-duas { grid-template-columns: 1fr; gap: 8px; } }
+</style>
+
+<script>
+  type Dados = { prefixo_url: string; categorias: string[]; fornecedores: [string, string][]; d: [string, number, number, number, string][] };
+  const raiz = document.getElementById("gx")!;
+  const $ = <T extends HTMLElement = HTMLElement>(id: string) => document.getElementById(id) as T;
+  const reais = (v: number, dec = 2) => v.toLocaleString("pt-BR", { style: "currency", currency: "BRL", minimumFractionDigits: dec, maximumFractionDigits: dec });
+  const dataBR = (s: string) => s.split("-").reverse().join("/");
+  const MESES = ["jan", "fev", "mar", "abr", "mai", "jun", "jul", "ago", "set", "out", "nov", "dez"];
+  const norm = (s: string) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+  const esc = (s: string) => s.replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]!);
+  const cnpjFmt = (c: string) => c.replace(/^(\d{2})(\d{3})(\d{3})(\d{4})(\d{2})$/, "$1.$2.$3/$4-$5");
+  const semPonto = (s: string) => s.replace(/\.$/, "");
+
+  fetch(raiz.dataset.fonte!).then((r) => r.json()).then((D: Dados) => {
+    $("gx-carregando").remove();
+    $("gx-app").hidden = false;
+    const linhas = D.d.map(([data, c, f, valor, link]) => ({
+      data, mes: data.slice(0, 7), c, f, valor, link: link ? (link.startsWith("http") ? link : D.prefixo_url + link) : "",
+      busca: norm(`${D.fornecedores[f][0]} ${D.fornecedores[f][1]}`),
+    }));
+    const meses = linhas.map((l) => l.mes).sort();
+    const primeiro = meses[0] ?? "2023-02", ultimo = meses[meses.length - 1] ?? primeiro;
+    const anos = [...new Set(meses.map((m) => m.slice(0, 4)))].sort();
+
+    const sel = $<HTMLSelectElement>("gx-cat");
+    const somaCat = new Map<number, number>();
+    linhas.forEach((l) => somaCat.set(l.c, (somaCat.get(l.c) ?? 0) + l.valor));
+    [...somaCat.entries()].sort((a, b) => b[1] - a[1]).forEach(([c]) => sel.add(new Option(semPonto(D.categorias[c]), String(c))));
+
+    const filtro = { de: primeiro, ate: ultimo, cat: "", forn: -1, busca: "", ordem: "data-desc", limite: 50 };
+    const de = $<HTMLInputElement>("gx-de"), ate = $<HTMLInputElement>("gx-ate"), busca = $<HTMLInputElement>("gx-busca");
+    de.min = ate.min = primeiro; de.max = ate.max = ultimo;
+
+    // Atalhos de período
+    const somaMes = (m: string, n: number) => { const [a, b] = m.split("-").map(Number); const t = a * 12 + b - 1 + n; return `${Math.floor(t / 12)}-${String((t % 12) + 1).padStart(2, "0")}`; };
+    const presets: [string, string, string][] = [["Tudo", primeiro, ultimo], ["Últimos 12 meses", somaMes(ultimo, -11) < primeiro ? primeiro : somaMes(ultimo, -11), ultimo],
+      ...anos.map((a) => [a, `${a}-01` < primeiro ? primeiro : `${a}-01`, `${a}-12` > ultimo ? ultimo : `${a}-12`] as [string, string, string])];
+    const chips = $("gx-presets");
+    presets.forEach(([rot, a, b]) => {
+      const bt = document.createElement("button");
+      bt.type = "button"; bt.textContent = rot; bt.dataset.de = a; bt.dataset.ate = b;
+      bt.addEventListener("click", () => { filtro.de = a; filtro.ate = b; reiniciar(); });
+      chips.append(bt);
+    });
+
+    const filtradas = () => linhas.filter((l) => l.mes >= filtro.de && l.mes <= filtro.ate
+      && (!filtro.cat || l.c === Number(filtro.cat)) && (filtro.forn < 0 || l.f === filtro.forn)
+      && (!filtro.busca || filtro.busca.split(/\s+/).every((t) => l.busca.includes(t))));
+
+    const barras = (ul: HTMLElement, itens: { rot: string; sub?: string; v: number; ativo: boolean; clique: () => void }[]) => {
+      const max = Math.max(1, ...itens.map((i) => i.v));
+      ul.innerHTML = "";
+      if (!itens.length) { ul.innerHTML = "<li class='miudo'>Nada no período.</li>"; return; }
+      for (const i of itens) {
+        const li = document.createElement("li");
+        const bt = document.createElement("button");
+        bt.type = "button"; bt.setAttribute("aria-pressed", String(i.ativo));
+        bt.innerHTML = `<span>${esc(i.rot)}${i.sub ? `<span class="miudo"> · ${esc(i.sub)}</span>` : ""}</span><span class="v">${reais(i.v, 0)}</span><i style="width:${(i.v / max) * 100}%"></i>`;
+        bt.addEventListener("click", i.clique);
+        li.append(bt); ul.append(li);
+      }
+    };
+
+    let atuais: typeof linhas = [];
+    const desenhar = () => {
+      de.value = filtro.de; ate.value = filtro.ate; sel.value = filtro.cat; $<HTMLSelectElement>("gx-ordem").value = filtro.ordem;
+      chips.querySelectorAll("button").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.de === filtro.de && b.dataset.ate === filtro.ate)));
+      atuais = filtradas();
+      const total = atuais.reduce((s, l) => s + l.valor, 0);
+      // meses no intervalo
+      const lista: string[] = [];
+      for (let m = filtro.de; m <= filtro.ate && lista.length < 200; m = somaMes(m, 1)) lista.push(m);
+      $("gx-total").textContent = reais(total, 0);
+      $("gx-n").textContent = atuais.length.toLocaleString("pt-BR");
+      $("gx-media").textContent = reais(total / Math.max(1, lista.length), 0);
+      $("gx-media-rot").textContent = `Média por mês (${lista.length} ${lista.length === 1 ? "mês" : "meses"})`;
+      const maior = atuais.reduce((m, l) => (l.valor > (m?.valor ?? -1) ? l : m), null as (typeof linhas)[number] | null);
+      $("gx-maior").textContent = maior ? reais(maior.valor, 0) : "—";
+      $("gx-maior-rot").textContent = maior ? `Maior despesa · ${D.fornecedores[maior.f][0]}, ${dataBR(maior.data)}` : "Maior despesa";
+
+      // mês a mês
+      const porMes = new Map<string, number>();
+      atuais.forEach((l) => porMes.set(l.mes, (porMes.get(l.mes) ?? 0) + l.valor));
+      const maxMes = Math.max(1, ...porMes.values());
+      $("gx-meses").innerHTML = lista.map((m) => {
+        const v = porMes.get(m) ?? 0;
+        return `<div style="height:${(v / maxMes) * 100}%" title="${MESES[Number(m.slice(5)) - 1]}/${m.slice(0, 4)}: ${reais(v, 2)}"></div>`;
+      }).join("");
+      $("gx-eixo").innerHTML = lista.map((m, k) => `<span>${m.endsWith("-01") || k === 0 ? (lista.length > 24 ? m.slice(0, 4) : `${MESES[Number(m.slice(5)) - 1]}/${m.slice(2, 4)}`) : lista.length <= 24 ? MESES[Number(m.slice(5)) - 1] : ""}</span>`).join("");
+
+      // por área
+      const porCat = new Map<number, number>();
+      linhas.filter((l) => l.mes >= filtro.de && l.mes <= filtro.ate && (filtro.forn < 0 || l.f === filtro.forn)
+        && (!filtro.busca || filtro.busca.split(/\s+/).every((t) => l.busca.includes(t))))
+        .forEach((l) => porCat.set(l.c, (porCat.get(l.c) ?? 0) + l.valor));
+      barras($("gx-cats"), [...porCat.entries()].sort((a, b) => b[1] - a[1]).map(([c, v]) => ({
+        rot: semPonto(D.categorias[c]), v, ativo: filtro.cat === String(c),
+        clique: () => { filtro.cat = filtro.cat === String(c) ? "" : String(c); reiniciar(); },
+      })));
+
+      // fornecedores
+      const porForn = new Map<number, number>();
+      atuais.forEach((l) => porForn.set(l.f, (porForn.get(l.f) ?? 0) + l.valor));
+      const topo = [...porForn.entries()].sort((a, b) => b[1] - a[1]).slice(0, 15);
+      if (filtro.forn >= 0 && !topo.some(([f]) => f === filtro.forn) && porForn.has(filtro.forn)) topo.push([filtro.forn, porForn.get(filtro.forn)!]);
+      barras($("gx-forn"), topo.map(([f, v]) => ({
+        rot: D.fornecedores[f][0], sub: D.fornecedores[f][1] ? `CNPJ ${cnpjFmt(D.fornecedores[f][1])}` : "", v, ativo: filtro.forn === f,
+        clique: () => { filtro.forn = filtro.forn === f ? -1 : f; reiniciar(); },
+      })));
+
+      // lista
+      const [campo, dir] = filtro.ordem.split("-");
+      const ord = [...atuais].sort((a, b) => (campo === "valor" ? a.valor - b.valor : a.data.localeCompare(b.data)) * (dir === "asc" ? 1 : -1));
+      $("gx-corpo").innerHTML = ord.slice(0, filtro.limite).map((l) => {
+        const [fn, cn] = D.fornecedores[l.f];
+        return `<tr><td style="white-space:nowrap">${dataBR(l.data)}</td><td>${esc(fn)}${cn ? `<div class="miudo">CNPJ ${cnpjFmt(cn)}</div>` : ""}</td>`
+          + `<td>${esc(semPonto(D.categorias[l.c]))}${l.link ? `<div class="miudo"><a href="${esc(l.link)}" rel="noopener">nota fiscal ↗</a></div>` : ""}</td>`
+          + `<td class="num" style="white-space:nowrap">${reais(l.valor)}</td></tr>`;
+      }).join("") || `<tr><td colspan="4">Nenhuma despesa com esses filtros.</td></tr>`;
+      const mais = $("gx-mais");
+      mais.classList.toggle("oculto", ord.length <= filtro.limite);
+      mais.textContent = `Mostrar mais (${(ord.length - filtro.limite).toLocaleString("pt-BR")} restantes)`;
+    };
+    const reiniciar = () => { filtro.limite = 50; desenhar(); };
+
+    de.addEventListener("change", () => { filtro.de = de.value || primeiro; if (filtro.de > filtro.ate) filtro.ate = filtro.de; reiniciar(); });
+    ate.addEventListener("change", () => { filtro.ate = ate.value || ultimo; if (filtro.ate < filtro.de) filtro.de = filtro.ate; reiniciar(); });
+    sel.addEventListener("change", () => { filtro.cat = sel.value; reiniciar(); });
+    busca.addEventListener("input", () => { filtro.busca = norm(busca.value.trim()); filtro.forn = -1; reiniciar(); });
+    $<HTMLSelectElement>("gx-ordem").addEventListener("change", (e) => { filtro.ordem = (e.target as HTMLSelectElement).value; reiniciar(); });
+    $("gx-mais").addEventListener("click", () => { filtro.limite += 200; desenhar(); });
+    $("gx-limpar").addEventListener("click", () => {
+      Object.assign(filtro, { de: primeiro, ate: ultimo, cat: "", forn: -1, busca: "" }); busca.value = ""; reiniciar();
+    });
+    $("gx-csv").addEventListener("click", () => {
+      const q = (s: string) => `"${s.replace(/"/g, '""')}"`;
+      const csv = ["Data;Fornecedor;CNPJ;Área;Valor;Nota fiscal",
+        ...atuais.map((l) => [dataBR(l.data), q(D.fornecedores[l.f][0]), D.fornecedores[l.f][1], q(semPonto(D.categorias[l.c])),
+          l.valor.toFixed(2).replace(".", ","), l.link].join(";"))].join("\r\n");
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(new Blob(["﻿" + csv], { type: "text/csv;charset=utf-8" }));
+      a.download = `gastos-${norm(raiz.dataset.nome!).replace(/\s+/g, "-")}-${filtro.de}-a-${filtro.ate}.csv`;
+      a.click();
+      URL.revokeObjectURL(a.href);
+    });
+    desenhar();
+  }).catch(() => { $("gx-carregando").textContent = "Não foi possível carregar as despesas. Tente recarregar a página."; });
+</script>

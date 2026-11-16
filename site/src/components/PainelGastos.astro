@@ -1,9 +1,10 @@
 ---
 // Aba "Gastos" dos perfis: salário e cota parlamentar (CEAP na Câmara, CEAPS no Senado), desde fevereiro de 2023.
-import type { Gastos } from "../lib/dados";
-import { data } from "../lib/formato";
+import { idsComGastos, type Gastos } from "../lib/dados";
+import { data, url } from "../lib/formato";
 
-const { g, casa } = Astro.props as { g: Gastos | null; casa: "camara" | "senado" };
+const { g, casa, id } = Astro.props as { g: Gastos | null; casa: "camara" | "senado"; id: number };
+const detalhe = idsComGastos(casa).includes(id) ? url(`/gastos/${casa}/${id}/`) : null;
 const SALARIO = 46366.19; // subsídio bruto mensal desde 01/02/2025 (Decreto Legislativo 172/2022), igual nas duas casas
 const reais = (v: number, dec = 0) => v.toLocaleString("pt-BR", { style: "currency", currency: "BRL", minimumFractionDigits: dec, maximumFractionDigits: dec });
 const cnpj = (c: string) => c.replace(/^(\d{2})(\d{3})(\d{3})(\d{4})(\d{2})$/, "$1.$2.$3/$4-$5");
@@ -19,7 +20,11 @@ const fonte = casa === "senado"
 ---
 <div class="numeros gastos-numeros">
   <div class="numero"><b>{reais(SALARIO)}</b><span>Salário bruto por mês hoje · {reais(SALARIO * 12)} por ano</span></div>
-  <div class="numero"><b>{g ? reais(g.total) : "—"}</b><span>Gastos da cota parlamentar desde fevereiro de 2023{g && ` · ${g.n.toLocaleString("pt-BR")} despesas`}</span></div>
+  {g && detalhe ? (
+    <a class="numero numero-link" href={detalhe}><b>{reais(g.total)}</b><span>Gastos da cota parlamentar desde fevereiro de 2023 · {g.n.toLocaleString("pt-BR")} despesas</span><span class="ver">Ver todos, com filtros →</span></a>
+  ) : (
+    <div class="numero"><b>{g ? reais(g.total) : "—"}</b><span>Gastos da cota parlamentar desde fevereiro de 2023{g && ` · ${g.n.toLocaleString("pt-BR")} despesas`}</span></div>
+  )}
   {g && cats[0] && <div class="numero"><b>{reais(cats[0].valor)}</b><span>Maior categoria: {cats[0].categoria.replace(/\.$/, "")}</span></div>}
 </div>
 
@@ -29,6 +34,7 @@ const fonte = casa === "senado"
 
 {!g ? <p>Nenhum gasto da cota registrado para este parlamentar desde fevereiro de 2023.</p> : (
   <>
+    {detalhe && <p><a class="botao" href={detalhe}>Ver todos os gastos, com filtros por período e área</a></p>}
     <h3>Por ano</h3>
     <ul class="barras-gasto">
       {anos.map(([ano, v]) => (
@@ -84,6 +90,9 @@ const fonte = casa === "senado"
 </script>
 
 <style>
+  .numero-link { text-decoration: none; color: inherit; border: 2px solid var(--ink); transition: transform 160ms; }
+  .numero-link:hover { transform: translateY(-2px); }
+  .numero-link .ver { display: block; margin-top: 8px; font-weight: 600; color: var(--azul); }
   .gastos-nota { max-width: 75ch; color: var(--texto-2); }
   h3 { margin: 32px 0 12px; font-size: var(--t-lead); }
   .barras-gasto { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }

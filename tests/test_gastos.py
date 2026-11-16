@@ -24,3 +24,12 @@ def test_resumir():
     assert r["total"] == 150.0 and r["por_ano"] == {"2023": 100.0, "2024": 50.0}
     assert r["por_categoria"][0]["categoria"] == "A" and r["fornecedores"][0]["n"] == 2
     assert r["ultimas"][0]["data"] == "2024-05-01"
+
+
+def test_detalhe_compacto():
+    base = {"id": 1, "ano": 2025, "mes": 3, "categoria": "A", "fornecedor": "Loja", "cnpj": "12345678000190"}
+    x = g.detalhe([{**base, "data": "2025-03-01", "valor": 10.0, "url": g.URL_CAMARA + "doc/1.pdf"},
+                   {**base, "data": "2025-04-01", "valor": 20.0, "url": None, "categoria": "B"},
+                   {**base, "data": "2022-12-01", "valor": 99.0, "url": None}])
+    assert x["categorias"] == ["B", "A"] and x["fornecedores"] == [["Loja", "12345678000190"]]
+    assert x["d"] == [["2025-04-01", 0, 0, 20.0, ""], ["2025-03-01", 1, 0, 10.0, "doc/1.pdf"]]

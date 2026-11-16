@@ -1,7 +1,7 @@
 name: Atualizar gastos
 
 # Cota parlamentar de deputados (CEAP) e senadores (CEAPS) desde 2023. Baixa os arquivos anuais oficiais,
-# guarda só o resumo de cada parlamentar e publica o site. Todo dia de madrugada e à mão.
+# guarda o resumo de cada parlamentar no repositório e a lista completa de despesas em cache, e publica o site. Todo dia de madrugada e à mão.
 on:
   schedule:
     - cron: "47 6 * * *" # 03:47 em Brasília
@@ -29,6 +29,13 @@ jobs:
 
       - name: Coletar gastos
         run: python -m coletor.gastos
+
+      - name: Guardar detalhe dos gastos em cache (é grande demais para o repositório)
+        if: success()
+        uses: actions/cache/save@v4
+        with:
+          path: dados/gastos/*/detalhe
+          key: gastos-detalhe-${{ github.run_id }}
 
       - name: Resumo
         if: always()
