@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 1,
-  "tramitacao": 32,
+  "tramitacao": 33,
   "encerrado": 3,
-  "sem_informacao": 4
+  "sem_informacao": 3
  },
  "projetos": [
   {
@@ -41,9 +41,9 @@
    "ano": 2026,
    "ementa": "Confere ao Município de André da Rocha, no Estado do Rio Grande do Sul, o título de Capital Nacional do Gado Devon.",
    "apresentacao": "2026-05-07",
-   "situacao": null,
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2622889",
    "primeiro_autor": true
   },

@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 1,
   "aprovado": 3,
-  "tramitacao": 104,
+  "tramitacao": 106,
   "encerrado": 11,
-  "sem_informacao": 6
+  "sem_informacao": 4
  },
  "projetos": [
   {
@@ -15,9 +15,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 15.434, de 16 de junho de 2026, para dispor sobre os efeitos dos atos emanados dos Sistemas Internacionais de Direitos Humanos no âmbito do Conselho Nacional de Justiça",
    "apresentacao": "2026-10-21",
-   "situacao": null,
+   "situacao": "Ag. Análise de Inconstitucionalidade",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2648620",
    "primeiro_autor": true
   },
@@ -28,9 +28,9 @@
    "ano": 2026,
    "ementa": "Revoga a Lei nº 15.434, de 16 de junho de 2026, que cria, no âmbito do Conselho Nacional de Justiça, o Departamento de Monitoramento e Fiscalização das Decisões dos Sistemas Internacionais de Direitos Humanos (DDH).",
    "apresentacao": "2026-10-21",
-   "situacao": null,
+   "situacao": "Ag. Análise de Inconstitucionalidade",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2648619",
    "primeiro_autor": true
   },

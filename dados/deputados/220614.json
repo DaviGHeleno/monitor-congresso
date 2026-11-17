@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 2,
   "aprovado": 1,
-  "tramitacao": 38,
+  "tramitacao": 39,
   "encerrado": 2,
-  "sem_informacao": 4
+  "sem_informacao": 3
  },
  "projetos": [
   {
@@ -15,9 +15,9 @@
    "ano": 2026,
    "ementa": "Dispõe sobre a execução subsidiária, pelo Poder Público, de obras de conservação e restauração de fachadas de imóveis tombados em estado de abandono, com posterior ressarcimento das despesas pelo proprietário.",
    "apresentacao": "2026-11-04",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651082",
    "primeiro_autor": true
   },

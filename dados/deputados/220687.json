@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 3,
-  "tramitacao": 44,
+  "tramitacao": 45,
   "encerrado": 3,
-  "sem_informacao": 4
+  "sem_informacao": 3
  },
  "projetos": [
   {
@@ -15,9 +15,9 @@
    "ano": 2026,
    "ementa": "Cria a Rota Turística da Chapada das Mesas, no Estado do Maranhão.",
    "apresentacao": "2026-11-04",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2650923",
    "primeiro_autor": true
   },
@@ -158,7 +158,7 @@
    "ano": 2025,
    "ementa": "Institui o Programa Nacional de Educação Inclusiva no âmbito das instituições de ensino públicas e privadas de educação básica, com o objetivo de assegurar a implementação da educação especial na perspectiva da educação inclusiva, e dá outras providências.",
    "apresentacao": "2025-09-16",
-   "situacao": "Aguardando Parecer",
+   "situacao": "Pronta para Pauta",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2561445",

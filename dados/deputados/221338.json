@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 2,
   "aprovado": 4,
-  "tramitacao": 96,
+  "tramitacao": 97,
   "encerrado": 13,
-  "sem_informacao": 16
+  "sem_informacao": 15
  },
  "projetos": [
   {
@@ -67,9 +67,9 @@
    "ano": 2026,
    "ementa": "Institui feriado nacional no primeiro dia útil subsequente ao domingo de realização das eleições e dá outras providências.",
    "apresentacao": "2026-10-25",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2648823",
    "primeiro_autor": true
   },

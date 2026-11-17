@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 3,
   "aprovado": 4,
-  "tramitacao": 78,
+  "tramitacao": 83,
   "encerrado": 6,
-  "sem_informacao": 9
+  "sem_informacao": 4
  },
  "projetos": [
   {
@@ -15,9 +15,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 15.202, de 11 de setembro de 2025, para autorizar a criação da Carteira Nacional dos Profissionais da Educação (CNPE), e dá outras providências.",
    "apresentacao": "2026-11-04",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2650853",
    "primeiro_autor": true
   },
@@ -28,9 +28,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 9.250, de 26 de dezembro de 1995, e a Lei nº 9.532, de 10 de dezembro de 1997, para permitir a dedução das contribuições associativas e sindicais destinadas a entidades representativas de trabalhadores, de servidores públicos e de empregados públicos na determinação da base de cálculo do Imposto sobre a Renda das Pessoas Físicas.",
    "apresentacao": "2026-11-04",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2650845",
    "primeiro_autor": true
   },
@@ -41,9 +41,9 @@
    "ano": 2026,
    "ementa": "Institui o Programa Nacional de Transição Protegida para o Trabalho e o Empreendedorismo — Emprego Sem Medo, estabelece proteção temporária do Programa Bolsa Família para as famílias em processo de inclusão produtiva, cria incentivo condicionado à contratação adicional de trabalhadores e dispõe sobre qualificação, fiscalização, avaliação e responsabilidade fiscal.",
    "apresentacao": "2026-11-04",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2650404",
    "primeiro_autor": true
   },
@@ -54,9 +54,9 @@
    "ano": 2026,
    "ementa": "Altera a legislação eleitoral para instituir o voto distrital misto para a eleição de representantes da Câmara dos Deputados, Assembleias Legislativas, Câmara Legislativa e das Câmaras Municipais dos Municípios com mais de duzentos mil eleitores.",
    "apresentacao": "2026-11-03",
-   "situacao": null,
+   "situacao": "Aguardando Autorização do Despacho",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649800",
    "primeiro_autor": true
   },
@@ -743,9 +743,9 @@
    "ano": 2024,
    "ementa": "Inscreve o nome de Bernardo José dos Santos, conhecido como Caboclo Bernardo, no Livro dos Heróis e Heroínas da Pátria.",
    "apresentacao": "2024-06-20",
-   "situacao": null,
+   "situacao": "Tramitando em Conjunto",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2442742",
    "primeiro_autor": true
   },

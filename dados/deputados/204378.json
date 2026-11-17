@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 1,
   "aprovado": 3,
-  "tramitacao": 108,
+  "tramitacao": 109,
   "encerrado": 9,
-  "sem_informacao": 6
+  "sem_informacao": 5
  },
  "projetos": [
   {
@@ -15,9 +15,9 @@
    "ano": 2026,
    "ementa": "Altera o Decreto-Lei nº 986, de 21 de outubro de 1969, e a Lei nº 8.078, de 11 de setembro de 1990, para aprimorar as regras de rotulagem, apresentação e comercialização de alimentos industrializados, a fim de ampliar a transparência ao consumidor e evitar indução a erro quanto à composição efetiva dos produtos.",
    "apresentacao": "2026-10-28",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649364",
    "primeiro_autor": true
   },

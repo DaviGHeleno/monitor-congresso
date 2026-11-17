@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 3,
   "aprovado": 2,
-  "tramitacao": 91,
+  "tramitacao": 92,
   "encerrado": 9,
-  "sem_informacao": 4
+  "sem_informacao": 3
  },
  "projetos": [
   {
@@ -15,9 +15,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 13.146, de 6 de julho de 2015 (Lei Brasileira de Inclusão da Pessoa com Deficiência), para assegurar a gratuidade do estacionamento vinculado a estabelecimento de saúde ou de habilitação e reabilitação para veículo utilizado no transporte de pessoa com deficiência com comprometimento de mobilidade.",
    "apresentacao": "2026-10-26",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2648838",
    "primeiro_autor": true
   },

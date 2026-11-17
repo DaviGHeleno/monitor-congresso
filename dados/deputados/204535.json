@@ -3,11 +3,24 @@
  "resumo": {
   "lei": 0,
   "aprovado": 2,
-  "tramitacao": 126,
+  "tramitacao": 127,
   "encerrado": 10,
   "sem_informacao": 19
  },
  "projetos": [
+  {
+   "id": 2653974,
+   "sigla": "PL",
+   "numero": 5858,
+   "ano": 2026,
+   "ementa": "Altera a Consolidação das Leis do Trabalho, aprovada pelo Decreto-Lei nº 5.452, de 1º de maio de 1943, a Lei Complementar nº 150, de 1º de junho de 2015, a Lei nº 13.475, de 28 de agosto de 2017, e a Lei nº 14.597, de 14 de junho de 2023, para determinar que a duração das férias anuais seja computada em dias úteis.",
+   "apresentacao": "2026-11-16",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653974",
+   "primeiro_autor": true
+  },
   {
    "id": 2653947,
    "sigla": "PL",
@@ -67,9 +80,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 9.504, de 30 de setembro de 1997, para exigir declaração sobre a titularidade de passaporte estrangeiro por candidatos a cargos eletivos.",
    "apresentacao": "2026-11-04",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651092",
    "primeiro_autor": true
   },
@@ -80,9 +93,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 14.601, de 19 de junho de 2023, para dispor sobre o reajuste anual dos valores do Programa Bolsa Família e instituir política de valorização real.",
    "apresentacao": "2026-10-22",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2648811",
    "primeiro_autor": true
   },
@@ -366,9 +379,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 10.826, de 22 de dezembro de 2003, e o Decreto nº 11.615, de 21 de julho de 2023, para aperfeiçoar os critérios de aferição da idoneidade para registro, posse e comercialização de armas de fogo, especialmente nos casos que envolvem a imposição de medidas protetivas de urgência.",
    "apresentacao": "2026-02-04",
-   "situacao": "Aguardando Encaminhamento",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2600787",
    "primeiro_autor": true
   },

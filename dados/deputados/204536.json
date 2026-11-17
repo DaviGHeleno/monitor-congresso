@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 3,
   "aprovado": 4,
-  "tramitacao": 283,
+  "tramitacao": 284,
   "encerrado": 22,
-  "sem_informacao": 34
+  "sem_informacao": 33
  },
  "projetos": [
   {
@@ -15,9 +15,9 @@
    "ano": 2026,
    "ementa": "Altera o Decreto-Lei nº 2.848, de 1940 (Código Penal) para instituir como agravante de pena o uso de máscara ou adereço que impeça ou dificulte a identificação",
    "apresentacao": "2026-10-30",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649668",
    "primeiro_autor": true
   },

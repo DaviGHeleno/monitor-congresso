@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 2,
   "aprovado": 4,
-  "tramitacao": 126,
+  "tramitacao": 127,
   "encerrado": 16,
-  "sem_informacao": 11
+  "sem_informacao": 10
  },
  "projetos": [
   {
@@ -15,9 +15,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 4.737, de 15 de julho de 1965 (Código Eleitoral), para reduzir o prazo de habilitação ao voto em trânsito, admitir a habilitação por meio eletrônico e dispor sobre o voto em trânsito dos motoristas profissionais de transporte rodoviário de cargas, inclusive em seções eleitorais instaladas em postos da Polícia Rodoviária Federal.",
    "apresentacao": "2026-10-21",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2648677",
    "primeiro_autor": true
   },

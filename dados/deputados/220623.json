@@ -3,11 +3,24 @@
  "resumo": {
   "lei": 2,
   "aprovado": 5,
-  "tramitacao": 162,
+  "tramitacao": 165,
   "encerrado": 11,
-  "sem_informacao": 25
+  "sem_informacao": 23
  },
  "projetos": [
+  {
+   "id": 2653974,
+   "sigla": "PL",
+   "numero": 5858,
+   "ano": 2026,
+   "ementa": "Altera a Consolidação das Leis do Trabalho, aprovada pelo Decreto-Lei nº 5.452, de 1º de maio de 1943, a Lei Complementar nº 150, de 1º de junho de 2015, a Lei nº 13.475, de 28 de agosto de 2017, e a Lei nº 14.597, de 14 de junho de 2023, para determinar que a duração das férias anuais seja computada em dias úteis.",
+   "apresentacao": "2026-11-16",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653974",
+   "primeiro_autor": false
+  },
   {
    "id": 2653947,
    "sigla": "PL",
@@ -67,9 +80,9 @@
    "ano": 2026,
    "ementa": "Altera o Decreto-Lei nº 25, de 30 de novembro de 1937 e a Lei nº 8.313, de 23 de dezembro de 1991, Lei nº 11.771, de 17 de setembro de 2008, Lei nº 11.904, de 14 de janeiro de 2009, Lei nº 11.906, de 20 de janeiro de 2009, e Lei nº 12.343, de 2 de dezembro de 2010, para fortalecer a preservação, a valorização e a difusão da memória e do patrimônio cultural de grupos historicamente invisibilizados, especialmente das populações LGBTI+, negras e quilombolas.",
    "apresentacao": "2026-11-09",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651389",
    "primeiro_autor": true
   },
@@ -80,9 +93,9 @@
    "ano": 2026,
    "ementa": "Altera a Consolidação das Leis do Trabalho, aprovada pelo Decreto-Lei nº 5.452, de 1º de maio de 1943, e a Lei nº 5.889, de 8 de junho de 1973, para determinar que os intervalos intrajornada para repouso ou alimentação sejam computados na duração do trabalho e remunerados como de serviço efetivo.",
    "apresentacao": "2026-11-05",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651239",
    "primeiro_autor": true
   },
@@ -93,9 +106,9 @@
    "ano": 2026,
    "ementa": "Altera as Leis nº 9.504, de 30 de setembro de 1997, e nº 9.096, de 19 de setembro de 1995, para vedar o impulsionamento e outras formas de distribuição remunerada de conteúdo eleitoral na internet.",
    "apresentacao": "2026-11-04",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2650822",
    "primeiro_autor": false
   },
