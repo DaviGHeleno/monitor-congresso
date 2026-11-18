@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 4,
-  "tramitacao": 55,
+  "tramitacao": 54,
   "encerrado": 5,
-  "sem_informacao": 12
+  "sem_informacao": 13
  },
  "projetos": [
   {
@@ -470,9 +470,9 @@
    "ano": 2024,
    "ementa": "“Institui a Campanha de Conscientização e Prevenção contra Crimes Cibernéticos, cometidos por meio do uso indevido da inteligência artificial, contra crianças e adolescentes.”",
    "apresentacao": "2024-02-06",
-   "situacao": "Aguardando Encaminhamento",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2417362",
    "primeiro_autor": true
   },

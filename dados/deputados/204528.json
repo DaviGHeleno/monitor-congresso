@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 2,
   "aprovado": 6,
-  "tramitacao": 201,
+  "tramitacao": 202,
   "encerrado": 21,
-  "sem_informacao": 6
+  "sem_informacao": 5
  },
  "projetos": [
   {
@@ -41,9 +41,9 @@
    "ano": 2026,
    "ementa": "Institui o Sistema Nacional de Informações sobre Emendas Parlamentares na Saúde.",
    "apresentacao": "2026-08-18",
-   "situacao": null,
+   "situacao": "Aguardando Encaminhamento",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643962",
    "primeiro_autor": true
   },
@@ -1549,7 +1549,7 @@
    "ano": 2024,
    "ementa": "Altera a Lei nº 8.078, de 11 de setembro de 1990 (Código de Defesa do Consumidor), para dispor sobre opção de cancelamento imediato em contratos de adesão com renovação automática.",
    "apresentacao": "2024-12-06",
-   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao": "Aguardando Encaminhamento",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2476625",
@@ -1588,7 +1588,7 @@
    "ano": 2024,
    "ementa": "Altera o Programa Nacional de Pagamento por Serviços Ambientais, para dispor sobre a inclusão de mecanismos de prevenção e combate a incêndios florestais e queimadas irregulares.",
    "apresentacao": "2024-10-15",
-   "situacao": "Aguardando Envio ao Senado Federal",
+   "situacao": "Aguardando Apreciação pelo Senado Federal",
    "situacao_data": null,
    "categoria": "aprovado",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2462449",

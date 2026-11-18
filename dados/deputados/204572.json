@@ -5,9 +5,22 @@
   "aprovado": 7,
   "tramitacao": 185,
   "encerrado": 17,
-  "sem_informacao": 12
+  "sem_informacao": 13
  },
  "projetos": [
+  {
+   "id": 2654503,
+   "sigla": "PL",
+   "numero": 5878,
+   "ano": 2026,
+   "ementa": "Altera a Lei n° 14.238, de 19 de dezembro de 2021, o Estatuto da Pessoa com Câncer, para instituir a Carteira Nacional Digital de Identificação da Pessoa com Câncer, expedida gratuitamente pela direção única, no âmbito da União, do Sistema Único de Saúde, e integrada às plataformas digitais oficiais do Poder Público.",
+   "apresentacao": "2026-11-17",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654503",
+   "primeiro_autor": true
+  },
   {
    "id": 2647323,
    "sigla": "PL",
@@ -743,7 +756,7 @@
    "ano": 2025,
    "ementa": "Altera a Lei nº 13.444, de 11 de maio de 2017, para dispor sobre a criação do “QR Código dinâmico” voltado para a identificação específica das pessoas com deficiências ocultas.",
    "apresentacao": "2025-03-18",
-   "situacao": "Aguardando Envio ao Senado Federal",
+   "situacao": "Aguardando Apreciação pelo Senado Federal",
    "situacao_data": null,
    "categoria": "aprovado",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2487335",

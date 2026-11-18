@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 2,
   "aprovado": 2,
-  "tramitacao": 165,
+  "tramitacao": 164,
   "encerrado": 17,
-  "sem_informacao": 19
+  "sem_informacao": 20
  },
  "projetos": [
   {
@@ -67,7 +67,7 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 10.883, de 16 de junho de 2004, para dispor sobre a caracterização da Carreira de Auditor Fiscal Agropecuário como essencial à promoção da defesa nacional e da segurança pública.",
    "apresentacao": "2026-09-08",
-   "situacao": "Aguardando Autorização do Despacho",
+   "situacao": "Aguardando Chancela e Publicação do Despacho",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646185",
@@ -1705,9 +1705,9 @@
    "ano": 2024,
    "ementa": "Dispõe sobre prioridade para recebimento da restituição do imposto de renda pessoa física, os contribuintes que residam em áreas impactadas por desastres ambientais.",
    "apresentacao": "2024-05-06",
-   "situacao": "Tramitando em Conjunto",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2431083",
    "primeiro_autor": true
   },

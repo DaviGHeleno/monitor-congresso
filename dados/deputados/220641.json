@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 2,
   "aprovado": 4,
-  "tramitacao": 54,
+  "tramitacao": 53,
   "encerrado": 8,
-  "sem_informacao": 8
+  "sem_informacao": 9
  },
  "projetos": [
   {
@@ -522,9 +522,9 @@
    "ano": 2024,
    "ementa": "Dispõe sobre o fortalecimento da atividade de inteligência policial para a prevenção, investigação e repressão aos crimes cujo aliciamento de pessoas ocorre pela Internet e as ações de violência extrema e mórbida se manifestam fora dela.",
    "apresentacao": "2024-03-04",
-   "situacao": "Aguardando Deliberação",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2419152",
    "primeiro_autor": true
   },

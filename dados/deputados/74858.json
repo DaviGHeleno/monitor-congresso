@@ -5,9 +5,22 @@
   "aprovado": 0,
   "tramitacao": 78,
   "encerrado": 8,
-  "sem_informacao": 15
+  "sem_informacao": 17
  },
  "projetos": [
+  {
+   "id": 2654838,
+   "sigla": "PL",
+   "numero": 5889,
+   "ano": 2026,
+   "ementa": "Dispõe sobre a incidência do Imposto sobre a Renda das Pessoas Físicas sobre lucros e dividendos distribuídos por pessoas jurídicas, altera as Leis nº 9.249, de 26 de dezembro de 1995, e nº 9.250, de 26 de dezembro de 1995, e dá outras providências.",
+   "apresentacao": "2026-11-17",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654838",
+   "primeiro_autor": false
+  },
   {
    "id": 2653947,
    "sigla": "PL",
@@ -477,6 +490,19 @@
    "primeiro_autor": true
   },
   {
+   "id": 2654382,
+   "sigla": "PLP",
+   "numero": 307,
+   "ano": 2026,
+   "ementa": "Institui o Imposto sobre Grandes  Fortunas, previsto no art. 153, inciso VII, da Constituição Federal.",
+   "apresentacao": "2026-11-17",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654382",
+   "primeiro_autor": false
+  },
+  {
    "id": 2651984,
    "sigla": "PLP",
    "numero": 290,
@@ -496,7 +522,7 @@
    "ano": 2026,
    "ementa": "Altera a Lei Complementar nº 101, de 4 de maio de 2000, para ampliar o intervalo de tolerância para verificação do cumprimento das metas anuais de resultado primário da União.",
    "apresentacao": "2026-11-09",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+   "situacao": "Aguardando Autorização do Despacho",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651866",

@@ -3,8 +3,8 @@
  "resumo": {
   "lei": 0,
   "aprovado": 1,
-  "tramitacao": 19,
-  "encerrado": 3,
+  "tramitacao": 20,
+  "encerrado": 2,
   "sem_informacao": 1
  },
  "projetos": [
@@ -28,9 +28,9 @@
    "ano": 2026,
    "ementa": "Altera a legislação eleitoral para instituir o sistema federativo misto nas eleições de Deputado Federal, Deputado Estadual, Deputado Distrital e Vereador.",
    "apresentacao": "2026-10-19",
-   "situacao": "Retirado pelo(a) Autor(a)",
+   "situacao": "Aguardando Encaminhamento",
    "situacao_data": null,
-   "categoria": "encerrado",
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2648384",
    "primeiro_autor": true
   },

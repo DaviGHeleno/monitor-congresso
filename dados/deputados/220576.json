@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 3,
   "aprovado": 7,
-  "tramitacao": 91,
+  "tramitacao": 93,
   "encerrado": 12,
-  "sem_informacao": 6
+  "sem_informacao": 4
  },
  "projetos": [
   {
@@ -15,9 +15,9 @@
    "ano": 2026,
    "ementa": "Cria a Rota Turística Teotônio Vilela – Menestrel das Alagoas, no Estado de Alagoas.",
    "apresentacao": "2026-07-20",
-   "situacao": null,
+   "situacao": "Aguardando Encaminhamento",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641427",
    "primeiro_autor": true
   },
@@ -28,9 +28,9 @@
    "ano": 2026,
    "ementa": "Cria a Rota Turística Literária Graciliano Ramos, no Estado de Alagoas.",
    "apresentacao": "2026-07-20",
-   "situacao": null,
+   "situacao": "Aguardando Encaminhamento",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641426",
    "primeiro_autor": true
   },

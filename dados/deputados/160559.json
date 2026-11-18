@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 2,
   "aprovado": 3,
-  "tramitacao": 64,
+  "tramitacao": 63,
   "encerrado": 4,
-  "sem_informacao": 6
+  "sem_informacao": 7
  },
  "projetos": [
   {
@@ -912,9 +912,9 @@
    "ano": 2023,
    "ementa": "Altera a Lei nº 12.711, de 29 de agosto de 2012, para dispor sobre a destinação de vagas, nas instituições de educação superior federais, para participantes de olimpíadas científicas ou do conhecimento.",
    "apresentacao": "2023-08-16",
-   "situacao": "Pronta para Pauta",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2380083",
    "primeiro_autor": true
   },

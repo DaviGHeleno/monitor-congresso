@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 20,
   "aprovado": 51,
-  "tramitacao": 220,
+  "tramitacao": 223,
   "encerrado": 14,
-  "sem_informacao": 55
+  "sem_informacao": 52
  },
  "projetos": [
   {
@@ -587,9 +587,9 @@
    "ano": 2026,
    "ementa": "Institui o Programa Nacional de Desenvolvimento Sustentável da Aquicultura (ProAqui).",
    "apresentacao": "2026-07-21",
-   "situacao": null,
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641461",
    "primeiro_autor": true
   },
@@ -626,9 +626,9 @@
    "ano": 2026,
    "ementa": "Institui a Política Nacional de Prevenção à Violência contra Crianças e Adolescentes, cria o Programa Nacional \"Rotina de Diálogo\" e estabelece diretrizes para campanhas educativas e monitoramento de dados.",
    "apresentacao": "2026-07-21",
-   "situacao": null,
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641448",
    "primeiro_autor": true
   },
@@ -860,7 +860,7 @@
    "ano": 2026,
    "ementa": "Institui o Protocolo Antirracista nas instituições de ensino da rede pública e privada e dá outras providências.",
    "apresentacao": "2026-06-17",
-   "situacao": "Aguardando Parecer",
+   "situacao": "Pronta para Pauta",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2633153",
@@ -2173,7 +2173,7 @@
    "ano": 2025,
    "ementa": "Altera a Lei nº 8.072, de 25 de julho de 1990 (Lei dos Crimes Hediondos), para tornar hediondo o crime de maus-tratos aos animais, quando do evento criminoso resultar a morte do animal.",
    "apresentacao": "2025-05-22",
-   "situacao": "Aguardando Autógrafos na Mesa",
+   "situacao": "Aguardando Apreciação pelo Senado Federal",
    "situacao_data": null,
    "categoria": "aprovado",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2515534",
@@ -2264,7 +2264,7 @@
    "ano": 2025,
    "ementa": "Altera a Lei nº 13.667, de 17 de maio de 2018, para garantir atenção especial às demandas das mães solo no Sistema Nacional de Emprego (Sine).",
    "apresentacao": "2025-04-15",
-   "situacao": "Aguardando Envio ao Senado Federal",
+   "situacao": "Aguardando Apreciação pelo Senado Federal",
    "situacao_data": null,
    "categoria": "aprovado",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2498017",
@@ -2277,9 +2277,9 @@
    "ano": 2025,
    "ementa": "Dispõe sobre medidas para a inclusão e valorização da mulher com idade igual ou superior a 50 anos no mercado de trabalho; altera a Lei nº 14.457, de 21 de setembro de 2022, a Lei nº 13.667, de 17 de Maio de 2018, e a Lei nº 12.513, de 26 de outubro de 2011.",
    "apresentacao": "2025-04-08",
-   "situacao": "Aguardando Deliberação",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2495622",
    "primeiro_autor": true
   },
@@ -3876,9 +3876,9 @@
    "ano": 2023,
    "ementa": "Dispõe sobre o dano moral causado pela infração perpetrada no contexto de violência doméstica e familiar contra a mulher e sua reparação.",
    "apresentacao": "2023-10-17",
-   "situacao": null,
+   "situacao": "Tramitando em Conjunto",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2397055",
    "primeiro_autor": true
   },
@@ -4214,9 +4214,9 @@
    "ano": 2023,
    "ementa": "Dispõe sobre o exercício da atividade profissional de salva-vidas ou guarda-vidas.",
    "apresentacao": "2023-04-24",
-   "situacao": null,
+   "situacao": "Tramitando em Conjunto",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2357793",
    "primeiro_autor": true
   },

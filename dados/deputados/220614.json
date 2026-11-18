@@ -5,9 +5,22 @@
   "aprovado": 1,
   "tramitacao": 39,
   "encerrado": 2,
-  "sem_informacao": 3
+  "sem_informacao": 4
  },
  "projetos": [
+  {
+   "id": 2654386,
+   "sigla": "PL",
+   "numero": 5875,
+   "ano": 2026,
+   "ementa": "Institui o Programa Ótica SUS, no âmbito do Sistema Único de Saúde, para ampliar o acesso da população a meios de correção visual mediante credenciamento de estabelecimentos ópticos e cofinanciamento público.",
+   "apresentacao": "2026-11-17",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654386",
+   "primeiro_autor": true
+  },
   {
    "id": 2651082,
    "sigla": "PL",

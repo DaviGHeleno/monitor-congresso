@@ -5,9 +5,22 @@
   "aprovado": 1,
   "tramitacao": 33,
   "encerrado": 4,
-  "sem_informacao": 11
+  "sem_informacao": 13
  },
  "projetos": [
+  {
+   "id": 2654838,
+   "sigla": "PL",
+   "numero": 5889,
+   "ano": 2026,
+   "ementa": "Dispõe sobre a incidência do Imposto sobre a Renda das Pessoas Físicas sobre lucros e dividendos distribuídos por pessoas jurídicas, altera as Leis nº 9.249, de 26 de dezembro de 1995, e nº 9.250, de 26 de dezembro de 1995, e dá outras providências.",
+   "apresentacao": "2026-11-17",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654838",
+   "primeiro_autor": false
+  },
   {
    "id": 2653947,
    "sigla": "PL",
@@ -67,7 +80,7 @@
    "ano": 2026,
    "ementa": "Acrescenta o art. 359-N-A ao Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), para tipificar a supressão do transporte de eleitores com o fim de impedir ou perturbar a eleição.",
    "apresentacao": "2026-10-29",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+   "situacao": "Aguardando Autorização do Despacho",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649522",
@@ -384,6 +397,19 @@
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2607155",
    "primeiro_autor": true
+  },
+  {
+   "id": 2654382,
+   "sigla": "PLP",
+   "numero": 307,
+   "ano": 2026,
+   "ementa": "Institui o Imposto sobre Grandes  Fortunas, previsto no art. 153, inciso VII, da Constituição Federal.",
+   "apresentacao": "2026-11-17",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654382",
+   "primeiro_autor": false
   },
   {
    "id": 2651984,
