@@ -1,5 +1,99 @@
 [
  {
+  "id": "7120",
+  "data": "2026-11-18",
+  "data_hora": "2026-11-18",
+  "descricao": "Votação nominal das Emendas, subemenda e adequações redacionais do Relator, em turno suplementar, nos termos do parecer.",
+  "resultado": "aprovada",
+  "tipo": "merito",
+  "proposicao": {
+   "id": 176328,
+   "sigla": "PLP",
+   "numero": 299,
+   "ano": 2026,
+   "ementa": "Altera a Lei Complementar nº 200, de 30 de agosto de 2023, para conferir ao Poder Executivo federal novos instrumentos de gestão com vistas a garantir a estabilidade macroeconômica do País e criar as condições adequadas ao crescimento socioeconômico; e dá outras providências.",
+   "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176328"
+  },
+  "totais": {
+   "Sim": 69,
+   "Abstenção": 1,
+   "Presidente": 1,
+   "Não": 2
+  },
+  "votos_disponiveis": true,
+  "secreta": false
+ },
+ {
+  "id": "7119",
+  "data": "2026-11-18",
+  "data_hora": "2026-11-18",
+  "descricao": "Votação nominal do Art. 6º-F da Lei Complementar nº 200, de 2023, constante do art. 1º do Substitutivo ao PLP nº 299/2026, destacado.",
+  "resultado": "aprovada",
+  "tipo": "merito",
+  "proposicao": {
+   "id": 176328,
+   "sigla": "PLP",
+   "numero": 299,
+   "ano": 2026,
+   "ementa": "Altera a Lei Complementar nº 200, de 30 de agosto de 2023, para conferir ao Poder Executivo federal novos instrumentos de gestão com vistas a garantir a estabilidade macroeconômica do País e criar as condições adequadas ao crescimento socioeconômico; e dá outras providências.",
+   "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176328"
+  },
+  "totais": {
+   "Não": 31,
+   "Sim": 49,
+   "Presidente": 1
+  },
+  "votos_disponiveis": true,
+  "secreta": false
+ },
+ {
+  "id": "7118",
+  "data": "2026-11-18",
+  "data_hora": "2026-11-18",
+  "descricao": "Votação nominal do Art. 6º do Substitutivo ao Projeto de Lei Complementar nº 299, de 2026, destacado.",
+  "resultado": "aprovada",
+  "tipo": "merito",
+  "proposicao": {
+   "id": 176328,
+   "sigla": "PLP",
+   "numero": 299,
+   "ano": 2026,
+   "ementa": "Altera a Lei Complementar nº 200, de 30 de agosto de 2023, para conferir ao Poder Executivo federal novos instrumentos de gestão com vistas a garantir a estabilidade macroeconômica do País e criar as condições adequadas ao crescimento socioeconômico; e dá outras providências.",
+   "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176328"
+  },
+  "totais": {
+   "Não": 32,
+   "Sim": 45,
+   "Presidente": 1,
+   "Abstenção": 1
+  },
+  "votos_disponiveis": true,
+  "secreta": false
+ },
+ {
+  "id": "7117",
+  "data": "2026-11-18",
+  "data_hora": "2026-11-18",
+  "descricao": "Votação nominal da Emenda nº 40 ao Projeto de Lei Complementar nº 299, de 2026, destacada.",
+  "resultado": "rejeitada",
+  "tipo": "merito",
+  "proposicao": {
+   "id": 176328,
+   "sigla": "PLP",
+   "numero": 299,
+   "ano": 2026,
+   "ementa": "Altera a Lei Complementar nº 200, de 30 de agosto de 2023, para conferir ao Poder Executivo federal novos instrumentos de gestão com vistas a garantir a estabilidade macroeconômica do País e criar as condições adequadas ao crescimento socioeconômico; e dá outras providências.",
+   "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176328"
+  },
+  "totais": {
+   "Sim": 30,
+   "Não": 47,
+   "Presidente": 1
+  },
+  "votos_disponiveis": true,
+  "secreta": false
+ },
+ {
   "id": "7116",
   "data": "2026-11-12",
   "data_hora": "2026-11-12",
