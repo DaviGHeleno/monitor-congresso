@@ -5,7 +5,7 @@
   "aprovado": 0,
   "tramitacao": 70,
   "encerrado": 3,
-  "sem_informacao": 7
+  "sem_informacao": 8
  },
  "projetos": [
   {
@@ -175,6 +175,19 @@
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2601042",
+   "primeiro_autor": true
+  },
+  {
+   "id": 2655019,
+   "sigla": "PLP",
+   "numero": 311,
+   "ano": 2026,
+   "ementa": "Altera a Lei Complementar nº 101, de 4 de maio de 2000, para estabelecer limites e condições para despesas públicas municipais com eventos artísticos e festivos.",
+   "apresentacao": "2026-11-18",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655019",
    "primeiro_autor": true
   },
   {
@@ -613,7 +626,7 @@
    "ano": 2024,
    "ementa": "Altera a Lei nº 12.587, de 3 de janeiro de 2012, para incluir a obrigatoriedade de sistema de ar-condicionado nos ônibus utilizados no transporte público coletivo urbano de passageiros e dá outras providências.",
    "apresentacao": "2024-04-26",
-   "situacao": "Aguardando Deliberação",
+   "situacao": "Pronta para Pauta",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2430343",

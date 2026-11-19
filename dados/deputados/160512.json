@@ -5,9 +5,22 @@
   "aprovado": 4,
   "tramitacao": 156,
   "encerrado": 18,
-  "sem_informacao": 23
+  "sem_informacao": 24
  },
  "projetos": [
+  {
+   "id": 2655445,
+   "sigla": "PL",
+   "numero": 5900,
+   "ano": 2026,
+   "ementa": "Cria a Agência Brasileira de Economia Criativa, dispõe sobre suas finalidades, estrutura, governança e contrato de gestão, e dá outras providências.",
+   "apresentacao": "2026-11-18",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655445",
+   "primeiro_autor": true
+  },
   {
    "id": 2653188,
    "sigla": "PL",
@@ -652,7 +665,7 @@
    "ano": 2025,
    "ementa": "Dispõe sobre a criação do Cadastro Nacional Unificado de Pessoas com Necessidade de Cão de Serviço (CANECS) e da Identidade de Acesso Nacional (IAN), e estabelece normas para o reconhecimento do direito de acesso e embarque com cão de serviço em transportes coletivos.",
    "apresentacao": "2025-10-28",
-   "situacao": "Aguardando Deliberação",
+   "situacao": "Aguardando Parecer",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2577989",

@@ -4,10 +4,23 @@
   "lei": 2,
   "aprovado": 3,
   "tramitacao": 109,
-  "encerrado": 6,
+  "encerrado": 7,
   "sem_informacao": 19
  },
  "projetos": [
+  {
+   "id": 2655015,
+   "sigla": "PL",
+   "numero": 5891,
+   "ano": 2026,
+   "ementa": "Altera a Lei n° 14.717, de 31 de outubro de 2023, para dispor sobre hipótese de requerimento de benefício de pensão especial aos filhos e aos dependentes de mulher vítima de crime de feminicídio pela autoridade policial, Ministério Público, Defensoria Pública e Conselho Tutelar ou por determinação judicial.",
+   "apresentacao": "2026-11-17",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655015",
+   "primeiro_autor": true
+  },
   {
    "id": 2654838,
    "sigla": "PL",
@@ -106,9 +119,9 @@
    "ano": 2026,
    "ementa": "Requer a inclusão na ordem do dia do Recurso contra apreciação conclusiva de comissão nº 1/2026 ao Projeto de Lei nº 2.812, de 2022, que revoga a Lei nº 12.318, de 26 de agosto de 2010 - Lei de Alienação Parental.",
    "apresentacao": "2026-11-10",
-   "situacao": null,
+   "situacao": "Retirado pelo(a) Autor(a)",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "encerrado",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2652684",
    "primeiro_autor": true
   },
