@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 1,
   "aprovado": 2,
-  "tramitacao": 67,
+  "tramitacao": 68,
   "encerrado": 10,
-  "sem_informacao": 8
+  "sem_informacao": 7
  },
  "projetos": [
   {
@@ -41,9 +41,9 @@
    "ano": 2026,
    "ementa": "Institui a Contribuição de Intervenção no Domínio Econômico incidente sobre a exploração comercial da modalidade lotérica de apostas de quota fixa – CIDE-Bet, e dá outras providências.",
    "apresentacao": "2026-08-24",
-   "situacao": null,
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644401",
    "primeiro_autor": true
   },

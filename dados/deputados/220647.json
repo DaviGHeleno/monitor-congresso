@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 2,
-  "tramitacao": 54,
+  "tramitacao": 53,
   "encerrado": 5,
-  "sem_informacao": 7
+  "sem_informacao": 8
  },
  "projetos": [
   {
@@ -41,9 +41,9 @@
    "ano": 2026,
    "ementa": "Proíbe a Administração Pública Direta e Indireta, bem como pessoas jurídicas de direito privado de quaisquer naturezas, de contratar serviços de pornografia ou assemelhados utilizando recursos próprios ou oriundos de repasses governamentais, e dá outras providências.",
    "apresentacao": "2026-07-22",
-   "situacao": "Aguardando Encaminhamento",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641535",
    "primeiro_autor": true
   },

@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 4,
-  "tramitacao": 192,
+  "tramitacao": 194,
   "encerrado": 16,
-  "sem_informacao": 24
+  "sem_informacao": 22
  },
  "projetos": [
   {
@@ -67,9 +67,9 @@
    "ano": 2026,
    "ementa": "Concede ao Município de Brodowski, no Estado de São Paulo, o título de Capital Nacional de Cândido Portinari.",
    "apresentacao": "2026-08-24",
-   "situacao": null,
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644389",
    "primeiro_autor": true
   },
@@ -106,9 +106,9 @@
    "ano": 2026,
    "ementa": "Proíbe a prática de reconstituição de leite em pó importado para venda como leite fluido.",
    "apresentacao": "2026-08-19",
-   "situacao": null,
+   "situacao": "Tramitando em Conjunto",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644064",
    "primeiro_autor": true
   },
@@ -223,7 +223,7 @@
    "ano": 2026,
    "ementa": "Concede ao Município de São Luís do Paraitinga, no Estado de São Paulo, o título de Capital Nacional das Festas Populares.",
    "apresentacao": "2026-07-22",
-   "situacao": "Aguardando Encaminhamento",
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641548",
@@ -392,7 +392,7 @@
    "ano": 2026,
    "ementa": "Dispõe sobre o Programa Nacional de Tecnologia Assistiva Digital para Cegos (ProTAC),  garante o acesso de pessoas com deficiência visual a tecnologias assistivas digitais e equipamentos em Braille e dá outras providências.",
    "apresentacao": "2026-05-18",
-   "situacao": "Pronta para Pauta",
+   "situacao": "Aguardando Deliberação",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2625616",
@@ -1276,7 +1276,7 @@
    "ano": 2025,
    "ementa": "Dispõe sobre a criminalização do disparo massivo de chamadas telefônicas automáticas (\"robocalls\") e determina que as multas aplicadas sejam destinadas ao Sistema Único de Segurança Pública (SUSP).",
    "apresentacao": "2025-04-29",
-   "situacao": "Aguardando Encaminhamento",
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2501852",

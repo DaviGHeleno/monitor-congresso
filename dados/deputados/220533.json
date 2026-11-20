@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 1,
-  "tramitacao": 59,
+  "tramitacao": 57,
   "encerrado": 5,
-  "sem_informacao": 7
+  "sem_informacao": 9
  },
  "projetos": [
   {
@@ -28,9 +28,9 @@
    "ano": 2026,
    "ementa": "Altera o § 12 do Art. 328 da Lei nº 9.503, de 23 de setembro de 1997, que institui o Código de Trânsito Brasileiro (CTB), para dispor sobre a transferência automática do saldo remanescente de leilões de veículos ao antigo proprietário.",
    "apresentacao": "2026-10-14",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2647652",
    "primeiro_autor": true
   },
@@ -54,9 +54,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 12.845, de 1º de agosto de 2013, para assegurar atendimento integral em saúde mental às pessoas em situação de violência sexual, garantindo prioridade no atendimento psicológico e psiquiátrico, acesso aos medicamentos padronizados pelo Sistema Único de Saúde e utilização da rede complementar quando necessário.",
    "apresentacao": "2026-10-14",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2647650",
    "primeiro_autor": true
   },
@@ -548,7 +548,7 @@
    "ano": 2025,
    "ementa": "Altera a Lei nº 8.078, de 11 de setembro de 1990 (Código de Defesa do Consumidor), para disciplinar a prática de divergência de preços em estabelecimentos comerciais.",
    "apresentacao": "2025-05-07",
-   "situacao": "Pronta para Pauta",
+   "situacao": "Aguardando Deliberação",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2506316",

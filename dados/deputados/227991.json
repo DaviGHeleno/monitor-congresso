@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 0,
-  "tramitacao": 12,
+  "tramitacao": 11,
   "encerrado": 0,
-  "sem_informacao": 1
+  "sem_informacao": 2
  },
  "projetos": [
   {
@@ -41,9 +41,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei n. 8.213, de 24 de julho de 1991, para prever a concessão automática de salário maternidade sob a responsabilidade do Instituto Nacional do Seguro Social (INSS).",
    "apresentacao": "2026-05-20",
-   "situacao": "Tramitando em Conjunto",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2626363",
    "primeiro_autor": true
   },

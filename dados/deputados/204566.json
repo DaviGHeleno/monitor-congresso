@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 1,
-  "tramitacao": 22,
+  "tramitacao": 23,
   "encerrado": 3,
-  "sem_informacao": 10
+  "sem_informacao": 9
  },
  "projetos": [
   {
@@ -67,9 +67,9 @@
    "ano": 2026,
    "ementa": "Institui o Estatuto da Segurança Digital do Idoso, estabelece diretrizes para a proteção de pessoas idosas em ambientes virtuais, cria o Canal Nacional de Denúncias e dá outras providências.",
    "apresentacao": "2026-08-26",
-   "situacao": null,
+   "situacao": "Tramitando em Conjunto",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644600",
    "primeiro_autor": true
   },

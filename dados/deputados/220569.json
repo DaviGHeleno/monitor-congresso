@@ -5,9 +5,22 @@
   "aprovado": 6,
   "tramitacao": 115,
   "encerrado": 11,
-  "sem_informacao": 15
+  "sem_informacao": 16
  },
  "projetos": [
+  {
+   "id": 2655664,
+   "sigla": "PL",
+   "numero": 5916,
+   "ano": 2026,
+   "ementa": "Altera o parágrafo único do art. 1º da Lei nº 8.072, de 25 de julho de 1990, para considerar hediondo o homicídio praticado na direção de veículo automotor, quando praticado em concurso com a condução de veículo com capacidade psicomotora alterada em razão da influência de álcool ou de outra substância psicoativa que determine dependência (art. 306 do CTB) ou com a participação em corrida, disputa ou competição automobilística não autorizada (art. 308 do CTB), vedando fiança, anistia, graça e indulto e impondo cumprimento inicial da pena em regime fechado.",
+   "apresentacao": "2026-11-19",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655664",
+   "primeiro_autor": true
+  },
   {
    "id": 2655462,
    "sigla": "PL",
@@ -1757,7 +1770,7 @@
    "ano": 2023,
    "ementa": "Dispõe sobre criação de Lei para tratamento penal e processual de crimes resultantes de práticas misóginas.",
    "apresentacao": "2023-03-06",
-   "situacao": "Pronta para Pauta",
+   "situacao": "Aguardando Parecer",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2350163",

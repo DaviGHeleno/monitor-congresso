@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 2,
   "aprovado": 4,
-  "tramitacao": 53,
+  "tramitacao": 54,
   "encerrado": 8,
-  "sem_informacao": 9
+  "sem_informacao": 8
  },
  "projetos": [
   {
@@ -54,9 +54,9 @@
    "ano": 2026,
    "ementa": "Institui normas gerais para a garantia da continuidade do cuidado em saúde, estabelece critérios para a manutenção, a revisão, a substituição e a interrupção de tratamentos continuados e veda sua limitação com fundamento exclusivamente quantitativo, administrativo, contratual ou financeiro.",
    "apresentacao": "2026-07-23",
-   "situacao": null,
+   "situacao": "Aguardando Apensação",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641580",
    "primeiro_autor": true
   },
@@ -236,7 +236,7 @@
    "ano": 2026,
    "ementa": "Estabelece critérios de governança de Agentes de Inteligência Artificial e altera a Lei nº 12.965/2014 (Marco Civil da Internet) e a Lei nº 13.709/2018 (Lei Geral de Protação de Dados Pessoais).",
    "apresentacao": "2026-03-05",
-   "situacao": "Aguardando Apensação",
+   "situacao": "Tramitando em Conjunto",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2607218",

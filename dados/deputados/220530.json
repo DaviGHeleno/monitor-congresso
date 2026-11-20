@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 2,
   "aprovado": 2,
-  "tramitacao": 164,
+  "tramitacao": 162,
   "encerrado": 17,
-  "sem_informacao": 20
+  "sem_informacao": 22
  },
  "projetos": [
   {
@@ -15,9 +15,9 @@
    "ano": 2026,
    "ementa": "Dispõe sobre normas gerais de desenvolvimento e execução da publicidade dos órgãos e entidades integrantes da Administração Pública direta e indireta da União, dos Estados, do Distrito Federal e dos Municípios.",
    "apresentacao": "2026-10-26",
-   "situacao": "Aguardando Chancela e Publicação do Despacho",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2648834",
    "primeiro_autor": true
   },
@@ -67,9 +67,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 10.883, de 16 de junho de 2004, para dispor sobre a caracterização da Carreira de Auditor Fiscal Agropecuário como essencial à promoção da defesa nacional e da segurança pública.",
    "apresentacao": "2026-09-08",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646185",
    "primeiro_autor": true
   },

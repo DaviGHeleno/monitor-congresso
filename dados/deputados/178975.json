@@ -5,9 +5,22 @@
   "aprovado": 2,
   "tramitacao": 22,
   "encerrado": 1,
-  "sem_informacao": 2
+  "sem_informacao": 3
  },
  "projetos": [
+  {
+   "id": 2655598,
+   "sigla": "PL",
+   "numero": 5913,
+   "ano": 2026,
+   "ementa": "Altera a Lei nº 8.742, de 7 de dezembro de 1993 (Lei Orgânica da Assistência Social), para dispor sobre a dedução dos rendimentos do trabalho do cuidador familiar no cálculo da renda familiar para fins de concessão do benefício de prestação continuada e a manutenção temporária do benefício em caso de elevação da renda familiar decorrente de trabalho.",
+   "apresentacao": "2026-11-19",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655598",
+   "primeiro_autor": true
+  },
   {
    "id": 2629645,
    "sigla": "PL",
@@ -80,7 +93,7 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 8.906, de 4 de julho de 1994 (Estatuto da Advocacia e da OAB), para delimitar o impedimento ao exercício da advocacia pelos membros do Poder Legislativo exclusivamente contra a Fazenda Pública que os remunere",
    "apresentacao": "2026-02-05",
-   "situacao": "Pronta para Pauta",
+   "situacao": "Aguardando Deliberação",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2601150",
@@ -197,7 +210,7 @@
    "ano": 2025,
    "ementa": "Dispõe sobre isenção da tarifa de energia elétrica de entidades filantrópicas no território nacional",
    "apresentacao": "2025-04-01",
-   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao": "Aguardando Parecer",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2491311",

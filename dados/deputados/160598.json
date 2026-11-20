@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 8,
   "aprovado": 9,
-  "tramitacao": 108,
+  "tramitacao": 109,
   "encerrado": 13,
-  "sem_informacao": 9
+  "sem_informacao": 8
  },
  "projetos": [
   {
@@ -54,9 +54,9 @@
    "ano": 2026,
    "ementa": "Dispõe sobre as diretrizes nacionais para a atenção integral às doenças tireoidianas no âmbito do Sistema Único de Saúde (SUS).",
    "apresentacao": "2026-07-23",
-   "situacao": null,
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641572",
    "primeiro_autor": true
   },
