@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 4,
   "aprovado": 4,
-  "tramitacao": 118,
+  "tramitacao": 119,
   "encerrado": 6,
-  "sem_informacao": 6
+  "sem_informacao": 5
  },
  "projetos": [
   {
@@ -704,9 +704,9 @@
    "ano": 2025,
    "ementa": "Insere o art. 129-C na Lei nº 9.503, de 23 de setembro de 1997 (Código de Trânsito Brasileiro), para dispor sobre a obrigatoriedade de envio de relatórios pelas seguradoras e recuperadoras de veículos aos órgãos de segurança pública, com vistas ao aprimoramento do combate ao furto, roubo e desmanche ilegal de veículos automotores.",
    "apresentacao": "2025-06-03",
-   "situacao": null,
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2520523",
    "primeiro_autor": true
   },

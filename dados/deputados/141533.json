@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 0,
-  "tramitacao": 27,
+  "tramitacao": 28,
   "encerrado": 1,
-  "sem_informacao": 9
+  "sem_informacao": 8
  },
  "projetos": [
   {
@@ -80,9 +80,9 @@
    "ano": 2026,
    "ementa": "Dispõe sobre o exercício da profissão de cuidador de pessoa idosa, altera a Lei nº 10.741, de 1º de outubro de 2003 (Estatuto da Pessoa Idosa), e dá outras providências.",
    "apresentacao": "2026-07-29",
-   "situacao": null,
+   "situacao": "Tramitando em Conjunto",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641704",
    "primeiro_autor": true
   },

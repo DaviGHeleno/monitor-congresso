@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 2,
   "aprovado": 0,
-  "tramitacao": 57,
+  "tramitacao": 59,
   "encerrado": 5,
-  "sem_informacao": 7
+  "sem_informacao": 5
  },
  "projetos": [
   {
@@ -41,9 +41,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 8.742, de 7 de dezembro de 1993, para instituir o Auxílio Transitório ao Cuidador, destinado ao cuidador principal não remunerado de pessoa idosa ou com deficiência titular do Benefício de Prestação Continuada, em razão do falecimento da pessoa cuidada.",
    "apresentacao": "2026-08-03",
-   "situacao": null,
+   "situacao": "Tramitando em Conjunto",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641832",
    "primeiro_autor": true
   },
@@ -158,9 +158,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei Complementar nº 101, de 4 de maio de 2000, a fim de dispor sobre a realização de despesas com eventos de entretenimento nos casos de não atingimento de indicadores mínimos de atendimento em saúde e educação.",
    "apresentacao": "2026-11-10",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2652227",
    "primeiro_autor": true
   },

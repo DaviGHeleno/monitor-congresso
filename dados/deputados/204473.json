@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 3,
-  "tramitacao": 94,
+  "tramitacao": 95,
   "encerrado": 6,
-  "sem_informacao": 5
+  "sem_informacao": 4
  },
  "projetos": [
   {
@@ -210,7 +210,7 @@
    "ano": 2025,
    "ementa": "Institui o Dia Nacional do Patrimônio Histórico e Cultural dos Poloneses no Brasil.",
    "apresentacao": "2025-05-15",
-   "situacao": "Aguardando Apreciação pelo Senado Federal",
+   "situacao": "Aguardando Sanção",
    "situacao_data": null,
    "categoria": "aprovado",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2509462",
@@ -1003,9 +1003,9 @@
    "ano": 2023,
    "ementa": "Dispõe sobre sanções políticas e econômicas relacionadas ao Hamas e ao Hezbollah, os classifica como grupos terroristas, e criminaliza manifestações de apoio a esses grupos.",
    "apresentacao": "2023-10-09",
-   "situacao": null,
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2394641",
    "primeiro_autor": false
   },

@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 0,
-  "tramitacao": 52,
+  "tramitacao": 53,
   "encerrado": 3,
-  "sem_informacao": 10
+  "sem_informacao": 9
  },
  "projetos": [
   {
@@ -93,9 +93,9 @@
    "ano": 2025,
    "ementa": "Institui o Programa Nacional de Estímulo à Criação e Fortalecimento dos Conselhos Municipais do Clima e Meio Ambiente e dá outras providências.",
    "apresentacao": "2025-05-28",
-   "situacao": null,
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2518513",
    "primeiro_autor": true
   },

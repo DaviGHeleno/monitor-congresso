@@ -3,11 +3,24 @@
  "resumo": {
   "lei": 2,
   "aprovado": 4,
-  "tramitacao": 57,
+  "tramitacao": 58,
   "encerrado": 5,
   "sem_informacao": 8
  },
  "projetos": [
+  {
+   "id": 2657828,
+   "sigla": "PL",
+   "numero": 5926,
+   "ano": 2026,
+   "ementa": "Institui a Semana Nacional de Conscientização sobre a Doação e a Transfusão de Sangue em Cães e Gatos.",
+   "apresentacao": "2026-11-23",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2657828",
+   "primeiro_autor": true
+  },
   {
    "id": 2655580,
    "sigla": "PL",
@@ -15,9 +28,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 9.503, de 1997 (Código de Trânsito Brasileiro), para criar o Registro Nacional de Identificação de Emergência de Motociclistas (RENIEM).",
    "apresentacao": "2026-11-19",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655580",
    "primeiro_autor": true
   },

@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 0,
-  "tramitacao": 61,
+  "tramitacao": 62,
   "encerrado": 14,
-  "sem_informacao": 9
+  "sem_informacao": 8
  },
  "projetos": [
   {
@@ -15,9 +15,9 @@
    "ano": 2026,
    "ementa": "Reconhece a Romaria de Nossa Senhora d’Abadia do Muquém, realizada no Município de Niquelândia, Estado de Goiás, como manifestação da cultura nacional.",
    "apresentacao": "2026-08-11",
-   "situacao": null,
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2642699",
    "primeiro_autor": true
   },

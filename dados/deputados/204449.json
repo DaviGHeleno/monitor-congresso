@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 1,
-  "tramitacao": 65,
+  "tramitacao": 64,
   "encerrado": 10,
-  "sem_informacao": 2
+  "sem_informacao": 3
  },
  "projetos": [
   {
@@ -860,9 +860,9 @@
    "ano": 2024,
    "ementa": "Altera a Lei nº 13.178, de 22 de outubro de 2015, para prorrogar o prazo de que trata o parágrafo 2º, inciso II, do artigo 2º.",
    "apresentacao": "2024-08-07",
-   "situacao": "Tramitando em Conjunto",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2451243",
    "primeiro_autor": true
   },

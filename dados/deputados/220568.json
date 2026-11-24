@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 2,
   "aprovado": 2,
-  "tramitacao": 101,
+  "tramitacao": 102,
   "encerrado": 11,
-  "sem_informacao": 1
+  "sem_informacao": 0
  },
  "projetos": [
   {
@@ -106,7 +106,7 @@
    "ano": 2025,
    "ementa": "Dispõe sobre a vedação de práticas de adultização e exposição a conteúdos eróticos em ambientes acessíveis a crianças menores de 14 anos, como medida complementar à proteção integral da infância.",
    "apresentacao": "2025-10-29",
-   "situacao": "Pronta para Pauta",
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2578871",
@@ -977,9 +977,9 @@
    "ano": 2023,
    "ementa": "Dispõe sobre sanções políticas e econômicas relacionadas ao Hamas e ao Hezbollah, os classifica como grupos terroristas, e criminaliza manifestações de apoio a esses grupos.",
    "apresentacao": "2023-10-09",
-   "situacao": null,
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2394641",
    "primeiro_autor": false
   },

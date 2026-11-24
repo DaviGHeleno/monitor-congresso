@@ -3,11 +3,24 @@
  "resumo": {
   "lei": 1,
   "aprovado": 4,
-  "tramitacao": 52,
+  "tramitacao": 54,
   "encerrado": 6,
-  "sem_informacao": 9
+  "sem_informacao": 8
  },
  "projetos": [
+  {
+   "id": 2657827,
+   "sigla": "PL",
+   "numero": 5925,
+   "ano": 2026,
+   "ementa": "Altera o art. 297 da Lei nº 4.737, de 15 de julho de 1965 (Código Eleitoral), para aumentar a pena do crime de impedimento ou embaraço ao exercício do sufrágio, estabelecer causas de aumento de pena, disciplinar a responsabilização dos participantes, prever a perda de cargo, função pública ou mandato eletivo e especificar condutas que comprometam o deslocamento de eleitores e o acesso aos locais de votação.",
+   "apresentacao": "2026-11-23",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2657827",
+   "primeiro_autor": true
+  },
   {
    "id": 2655613,
    "sigla": "PL",
@@ -15,9 +28,9 @@
    "ano": 2026,
    "ementa": "Institui o Fundo Soberano de Desenvolvimento Nacional (FSDN) e estabelece diretrizes para sua organização, governança, gestão e aplicação de recursos.",
    "apresentacao": "2026-11-19",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655613",
    "primeiro_autor": false
   },
@@ -197,9 +210,9 @@
    "ano": 2026,
    "ementa": "Institui o Imposto sobre Grandes  Fortunas, previsto no art. 153, inciso VII, da Constituição Federal.",
    "apresentacao": "2026-11-17",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654382",
    "primeiro_autor": false
   },

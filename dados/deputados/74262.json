@@ -5,9 +5,22 @@
   "aprovado": 0,
   "tramitacao": 30,
   "encerrado": 2,
-  "sem_informacao": 2
+  "sem_informacao": 3
  },
  "projetos": [
+  {
+   "id": 2656714,
+   "sigla": "PL",
+   "numero": 5917,
+   "ano": 2026,
+   "ementa": "Altera a Lei nº 13.022, de 8 de agosto de 2014, para assegurar aos integrantes aposentados das Guardas Municipais a conservação da autorização de porte de arma de fogo.",
+   "apresentacao": "2026-11-19",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2656714",
+   "primeiro_autor": true
+  },
   {
    "id": 2646973,
    "sigla": "PL",

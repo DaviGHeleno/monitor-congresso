@@ -5,9 +5,35 @@
   "aprovado": 5,
   "tramitacao": 108,
   "encerrado": 22,
-  "sem_informacao": 17
+  "sem_informacao": 19
  },
  "projetos": [
+  {
+   "id": 2657767,
+   "sigla": "PL",
+   "numero": 5922,
+   "ano": 2026,
+   "ementa": "Inclui a previsão de disque denúncia contra bullying na Lei nº 13.185, de 6 de novembro de 2015.",
+   "apresentacao": "2026-11-23",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2657767",
+   "primeiro_autor": true
+  },
+  {
+   "id": 2656745,
+   "sigla": "PL",
+   "numero": 5921,
+   "ano": 2026,
+   "ementa": "Altera a Lei nº 9.610, de 19 de fevereiro de 1998, para vedar a obtenção de vantagem econômica por pessoa condenada definitivamente pela exploração comercial de infração penal por ela praticada e estabelecer mecanismos de destinação dos valores à reparação das vítimas e de seus sucessores.",
+   "apresentacao": "2026-11-23",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2656745",
+   "primeiro_autor": true
+  },
   {
    "id": 2647199,
    "sigla": "PL",
@@ -171,7 +197,7 @@
    "ano": 2026,
    "ementa": "Dispõe sobre a obrigatoriedade de disponibilização da data e do horário exatos da efetivação de transações financeiras nos comprovantes, extratos e históricos de movimentação fornecidos ao usuário.",
    "apresentacao": "2026-08-21",
-   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao": "Aguardando Parecer",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644334",

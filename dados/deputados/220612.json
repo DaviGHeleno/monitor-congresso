@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 2,
-  "tramitacao": 49,
+  "tramitacao": 50,
   "encerrado": 2,
-  "sem_informacao": 8
+  "sem_informacao": 7
  },
  "projetos": [
   {
@@ -41,9 +41,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 9.503, de 23 de setembro de 1997 (Código de Trânsito Brasileiro), para aumentar as penas aplicáveis à participação em corrida, disputa ou competição automobilística não autorizada, estabelecer a cassação da Carteira Nacional de Habilitação, prever o perdimento do veículo utilizado no crime e instituir a Pensão Reparatória Obrigatória aos dependentes das vítimas fatais.",
    "apresentacao": "2026-08-26",
-   "situacao": null,
+   "situacao": "Tramitando em Conjunto",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644629",
    "primeiro_autor": true
   },

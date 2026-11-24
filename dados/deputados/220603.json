@@ -5,7 +5,7 @@
   "aprovado": 4,
   "tramitacao": 32,
   "encerrado": 3,
-  "sem_informacao": 9
+  "sem_informacao": 10
  },
  "projetos": [
   {
@@ -149,6 +149,19 @@
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2634023",
+   "primeiro_autor": true
+  },
+  {
+   "id": 2659011,
+   "sigla": "PLP",
+   "numero": 317,
+   "ano": 2026,
+   "ementa": "Altera a Lei Complementar n.º 116, de 31 de julho de 2003, e a Lei Complementar n.º 214, de 16 de janeiro de 2025, para explicitar o alcance do subitem 1.03 da Lista de Serviços anexa à Lei Complementar nº 116, de 2003, e dispor sobre o critério espacial e o local da operação relativos aos serviços de Data Centers, colocation e computação em nuvem no âmbito do Imposto Sobre Serviços de Qualquer Natureza – ISS e do Imposto sobre Bens e Serviços – IBS.",
+   "apresentacao": "2026-11-23",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2659011",
    "primeiro_autor": true
   },
   {

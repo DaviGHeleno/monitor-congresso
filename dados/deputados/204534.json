@@ -3,11 +3,24 @@
  "resumo": {
   "lei": 6,
   "aprovado": 6,
-  "tramitacao": 95,
+  "tramitacao": 98,
   "encerrado": 7,
-  "sem_informacao": 16
+  "sem_informacao": 14
  },
  "projetos": [
+  {
+   "id": 2658887,
+   "sigla": "PL",
+   "numero": 5930,
+   "ano": 2026,
+   "ementa": "Altera a Lei nº 14.995, de 10 de outubro de 2024, para estabelecer critérios de elegibilidade dos investimentos e aperfeiçoar a governança e a transparência do Programa Eco Invest Brasil.",
+   "apresentacao": "2026-11-23",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2658887",
+   "primeiro_autor": true
+  },
   {
    "id": 2655025,
    "sigla": "PL",
@@ -15,9 +28,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 8.069, de 13 de julho de 1990 (Estatuto da Criança e do Adolescente), para assegurar a confirmação diagnóstica, o tratamento e o acompanhamento da criança com resultado alterado ou inconclusivo no teste do pezinho, o aconselhamento genético à família e a divulgação de indicadores da triagem neonatal.",
    "apresentacao": "2026-11-18",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655025",
    "primeiro_autor": true
   },
@@ -28,9 +41,9 @@
    "ano": 2026,
    "ementa": "Dispõe sobre diretrizes para prevenção e enfrentamento do uso de dispositivos eletrônicos para fumar, com especial atenção a crianças, adolescentes e jovens.",
    "apresentacao": "2026-11-18",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655021",
    "primeiro_autor": true
   },
@@ -41,9 +54,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 9.504, de 30 de setembro de 1997 (Lei das Eleições), para vedar a propaganda eleitoral mediante bandeira de vento (wind banner).",
    "apresentacao": "2026-11-11",
-   "situacao": null,
+   "situacao": "Aguardando Autorização do Despacho",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2652739",
    "primeiro_autor": true
   },
@@ -522,7 +535,7 @@
    "ano": 2025,
    "ementa": "Dispõe sobre a destinação de percentual dos recursos depositados em plataformas digitais de operação financeira para contas de poupança de titularidade do usuário, e dá outras providências.",
    "apresentacao": "2025-05-13",
-   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao": "Aguardando Parecer",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2508480",

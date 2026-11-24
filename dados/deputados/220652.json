@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 1,
   "aprovado": 3,
-  "tramitacao": 114,
+  "tramitacao": 115,
   "encerrado": 8,
-  "sem_informacao": 6
+  "sem_informacao": 5
  },
  "projetos": [
   {
@@ -67,9 +67,9 @@
    "ano": 2026,
    "ementa": "Altera o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), para aumentar a pena do crime de extorsão quando praticado por meio de abordagem coercitiva em aeroportos, rodoviárias e terminais de\npassageiros, e para criar causa específica de estelionato praticado mediante fraude na oferta de serviços de transporte de passageiros.",
    "apresentacao": "2026-07-23",
-   "situacao": null,
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641557",
    "primeiro_autor": true
   },

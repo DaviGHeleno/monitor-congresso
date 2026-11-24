@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 2,
   "aprovado": 4,
-  "tramitacao": 127,
+  "tramitacao": 128,
   "encerrado": 16,
-  "sem_informacao": 10
+  "sem_informacao": 9
  },
  "projetos": [
   {
@@ -275,7 +275,7 @@
    "ano": 2025,
    "ementa": "Altera a Lei nº 12.850, de 2 de agosto de 2013, para dispor sobre a continuidade delitiva no âmbito de organizações criminosas, inclusive durante o cumprimento de pena, e estabelecer medidas de agravamento e suspensão de benefícios penais ao condenado que permanecer em atividade criminosa.",
    "apresentacao": "2025-11-04",
-   "situacao": "Aguardando Parecer",
+   "situacao": "Pronta para Pauta",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2581122",
@@ -1510,9 +1510,9 @@
    "ano": 2023,
    "ementa": "Dispõe sobre sanções políticas e econômicas relacionadas ao Hamas e ao Hezbollah, os classifica como grupos terroristas, e criminaliza manifestações de apoio a esses grupos.",
    "apresentacao": "2023-10-09",
-   "situacao": null,
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2394641",
    "primeiro_autor": false
   },

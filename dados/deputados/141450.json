@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 1,
   "aprovado": 1,
-  "tramitacao": 53,
+  "tramitacao": 54,
   "encerrado": 1,
-  "sem_informacao": 8
+  "sem_informacao": 7
  },
  "projetos": [
   {
@@ -28,9 +28,9 @@
    "ano": 2026,
    "ementa": "Denomina “Ponte Philippe Guédon” a estrutura rodoviária localizada no Km 58 da BR 040, com saída para o Km 34,4 da BR 495/RJ, no Distrito de Itaipava, Município de Petrópolis, Estado do Rio de Janeiro.",
    "apresentacao": "2026-08-25",
-   "situacao": null,
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644514",
    "primeiro_autor": true
   },

@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 5,
-  "tramitacao": 146,
+  "tramitacao": 148,
   "encerrado": 21,
-  "sem_informacao": 8
+  "sem_informacao": 6
  },
  "projetos": [
   {
@@ -15,9 +15,9 @@
    "ano": 2026,
    "ementa": "Reconhece a Schützenfest – Festa dos Atiradores, realizada no Município de Jaraguá do Sul, no Estado de Santa Catarina, como manifestação da cultura nacional",
    "apresentacao": "2026-11-16",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654303",
    "primeiro_autor": true
   },
@@ -28,9 +28,9 @@
    "ano": 2026,
    "ementa": "Reconhece a Schlachtfest, realizada no Município de São Bento do Sul, no Estado de Santa Catarina, como manifestação da cultura nacional.",
    "apresentacao": "2026-11-12",
-   "situacao": null,
+   "situacao": "Aguardando Autorização do Despacho",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653293",
    "primeiro_autor": true
   },

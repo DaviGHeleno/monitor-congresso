@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 2,
-  "tramitacao": 62,
+  "tramitacao": 64,
   "encerrado": 7,
-  "sem_informacao": 12
+  "sem_informacao": 10
  },
  "projetos": [
   {
@@ -15,9 +15,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 5.700, de 1º de setembro de 1971, para incluir a expressão “Justiça Social” na inscrição da Bandeira Nacional.",
    "apresentacao": "2026-11-19",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655540",
    "primeiro_autor": true
   },
@@ -28,9 +28,9 @@
    "ano": 2026,
    "ementa": "Altera o Decreto-Lei nº 3.689, de 3 de outubro de 1941 (Código de Processo Penal), para estabelecer garantias à intimidade, à dignidade e à integridade das mulheres submetidas à abordagem pessoal, disciplinando sua realização por agente do sexo feminino e as hipóteses excepcionais de execução por agente do sexo masculino.",
    "apresentacao": "2026-11-17",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654802",
    "primeiro_autor": true
   },

@@ -5,7 +5,7 @@
   "aprovado": 6,
   "tramitacao": 202,
   "encerrado": 21,
-  "sem_informacao": 5
+  "sem_informacao": 6
  },
  "projetos": [
   {
@@ -41,7 +41,7 @@
    "ano": 2026,
    "ementa": "Institui o Sistema Nacional de Informações sobre Emendas Parlamentares na Saúde.",
    "apresentacao": "2026-08-18",
-   "situacao": "Aguardando Encaminhamento",
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643962",
@@ -331,6 +331,19 @@
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2611708",
+   "primeiro_autor": false
+  },
+  {
+   "id": 2656712,
+   "sigla": "PDL",
+   "numero": 1245,
+   "ano": 2026,
+   "ementa": "Susta os efeitos do Decreto nº 13.173, de 19 de novembro de 2026, que dispõe sobre a duração normal do trabalho e o repouso semanal remunerado, na forma estabelecida na Emenda à Constituição nº 141, de 16 de outubro de 2026.",
+   "apresentacao": "2026-11-19",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2656712",
    "primeiro_autor": false
   },
   {
@@ -1549,7 +1562,7 @@
    "ano": 2024,
    "ementa": "Altera a Lei nº 8.078, de 11 de setembro de 1990 (Código de Defesa do Consumidor), para dispor sobre opção de cancelamento imediato em contratos de adesão com renovação automática.",
    "apresentacao": "2024-12-06",
-   "situacao": "Aguardando Encaminhamento",
+   "situacao": "Pronta para Pauta",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2476625",
