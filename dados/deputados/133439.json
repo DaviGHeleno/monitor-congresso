@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 7,
   "aprovado": 4,
-  "tramitacao": 64,
+  "tramitacao": 65,
   "encerrado": 5,
-  "sem_informacao": 5
+  "sem_informacao": 4
  },
  "projetos": [
   {
@@ -41,9 +41,9 @@
    "ano": 2026,
    "ementa": "Estabelece critérios transitórios para a apuração de receitas patrimoniais retroativas e disciplina os efeitos administrativos das multas relacionadas à ocupação e ao uso de áreas federais por barracas de praia na Praia do Futuro, no Município de Fortaleza, Estado do Ceará.",
    "apresentacao": "2026-08-11",
-   "situacao": null,
+   "situacao": "Aguardando Encaminhamento",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2642678",
    "primeiro_autor": false
   },
@@ -54,9 +54,9 @@
    "ano": 2026,
    "ementa": "Institui o Programa Pé-de-Bota, destinado à promoção da formação, da permanência e da sucessão rural de jovens da agricultura familiar mediante apoio financeiro a estudantes de Ciências Agrárias, e altera a Lei nº 14.818, de 16 de janeiro de 2024.",
    "apresentacao": "2026-07-28",
-   "situacao": null,
+   "situacao": "Tramitando em Conjunto",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641663",
    "primeiro_autor": true
   },
@@ -171,7 +171,7 @@
    "ano": 2025,
    "ementa": "Dispõe e regulamenta a atualização da Lei Nº 11.788, de 25 de Setembro de 2008, que dispõe sobre o estágio de estudantes, e da legislação correlata",
    "apresentacao": "2025-12-10",
-   "situacao": "Aguardando Parecer",
+   "situacao": "Pronta para Pauta",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2595855",
@@ -535,9 +535,9 @@
    "ano": 2024,
    "ementa": "Institui a Política Nacional para as Comissões de Apoio à Cinematografia (film commissions).",
    "apresentacao": "2024-04-23",
-   "situacao": "Aguardando Deliberação",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2428685",
    "primeiro_autor": true
   },
@@ -704,7 +704,7 @@
    "ano": 2023,
    "ementa": "Institui o Marco Legal para Segurança de Linhas de Transmissão de Energia Elétrica e Telecomunicações, estabelecendo regras para facilitar o financiamento de conversão de linhas de transmissão aéreas em linhas de transmissão subterrâneas, alterando a Lei 8.987, de 13 de fevereiro de 1995, a Lei nº 9.427, de 26 de dezembro de 1996, a Lei nº 9.998, de 17 de agosto de 2000, e a Lei nº 10.438, de 26 de abril de 2002.",
    "apresentacao": "2023-11-22",
-   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao": "Aguardando Parecer",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2405758",

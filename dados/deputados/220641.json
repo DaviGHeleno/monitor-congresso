@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 2,
   "aprovado": 4,
-  "tramitacao": 56,
+  "tramitacao": 58,
   "encerrado": 8,
-  "sem_informacao": 6
+  "sem_informacao": 4
  },
  "projetos": [
   {
@@ -15,9 +15,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 11.340, de 7 de agosto de 2006 (Lei Maria da Penha), para fixar parâmetros mínimos de distância da zona de advertência e da zona de exclusão na monitoração eletrônica de agressores, para estender às duas zonas o alerta automático e simultâneo à vítima e à autoridade policial, e para dispor sobre o alerta de falha técnica dos dispositivos de monitoração e sobre o modo de notificação à vítima.",
    "apresentacao": "2026-08-12",
-   "situacao": null,
+   "situacao": "Aguardando Encaminhamento",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2642947",
    "primeiro_autor": true
   },
@@ -262,7 +262,7 @@
    "ano": 2026,
    "ementa": "Institui o Programa Nacional de Solidariedade Veterinária, destinado ao recebimento de doações, reaproveitamento e distribuição gratuita de medicamentos, vacinas, insumos e rações para animais domésticos, e dá outras providências.",
    "apresentacao": "2026-02-25",
-   "situacao": "Pronta para Pauta",
+   "situacao": "Aguardando Deliberação",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2604798",
@@ -522,9 +522,9 @@
    "ano": 2024,
    "ementa": "Dispõe sobre o fortalecimento da atividade de inteligência policial para a prevenção, investigação e repressão aos crimes cujo aliciamento de pessoas ocorre pela Internet e as ações de violência extrema e mórbida se manifestam fora dela.",
    "apresentacao": "2024-03-04",
-   "situacao": null,
+   "situacao": "Aguardando Recurso",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2419152",
    "primeiro_autor": true
   },

@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 1,
   "aprovado": 4,
-  "tramitacao": 145,
+  "tramitacao": 146,
   "encerrado": 19,
-  "sem_informacao": 13
+  "sem_informacao": 12
  },
  "projetos": [
   {
@@ -67,9 +67,9 @@
    "ano": 2026,
    "ementa": "Institui o Programa Nacional de Crédito Rural Assistido para Profissionais de Segurança Pública - PNCR-SEG; estabelece diretrizes gerais para a concessão de crédito rural a integrantes de órgãos de segurança pública; e dispõe sobre ações de promoção da saúde ocupacional e da qualidade de vida desses profissionais.",
    "apresentacao": "2026-08-03",
-   "situacao": null,
+   "situacao": "Aguardando Encaminhamento",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641834",
    "primeiro_autor": true
   },

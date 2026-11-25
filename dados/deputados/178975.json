@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 1,
   "aprovado": 2,
-  "tramitacao": 23,
+  "tramitacao": 21,
   "encerrado": 1,
-  "sem_informacao": 2
+  "sem_informacao": 4
  },
  "projetos": [
   {
@@ -93,9 +93,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 8.906, de 4 de julho de 1994 (Estatuto da Advocacia e da OAB), para delimitar o impedimento ao exercício da advocacia pelos membros do Poder Legislativo exclusivamente contra a Fazenda Pública que os remunere",
    "apresentacao": "2026-02-05",
-   "situacao": "Aguardando Deliberação",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2601150",
    "primeiro_autor": true
   },
@@ -171,9 +171,9 @@
    "ano": 2025,
    "ementa": "Dispõe sobre a proibição da pesca subaquática e da pesca noturna na Bacia Hidrográfica do rio Paraná",
    "apresentacao": "2025-10-21",
-   "situacao": "Aguardando Encaminhamento",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2573833",
    "primeiro_autor": true
   },
@@ -249,7 +249,7 @@
    "ano": 2024,
    "ementa": "Altera a Lei nº 14.273, de 23 de dezembro de 2021, para estabelecer a substituição obrigatória de vagões de carga, dispõe sobre a regulamentação das medidas de segurança operacional no transporte ferroviário e dá outras providências.",
    "apresentacao": "2024-12-18",
-   "situacao": "Aguardando Parecer",
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2481000",

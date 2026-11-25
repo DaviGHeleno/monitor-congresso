@@ -5,7 +5,7 @@
   "aprovado": 4,
   "tramitacao": 89,
   "encerrado": 13,
-  "sem_informacao": 7
+  "sem_informacao": 8
  },
  "projetos": [
   {
@@ -58,6 +58,19 @@
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2615951",
+   "primeiro_autor": true
+  },
+  {
+   "id": 2659079,
+   "sigla": "PDL",
+   "numero": 1249,
+   "ano": 2026,
+   "ementa": "Susta os efeitos da Portaria MJSP nº 1.262, de 19 de novembro de 2026, que declara de posse permanente dos povos indígenas Mebêngôkre e Yudjá a Terra Indígena Kapôt Nhinore, localizada nos Estados de Mato Grosso e Pará.",
+   "apresentacao": "2026-11-24",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2659079",
    "primeiro_autor": true
   },
   {

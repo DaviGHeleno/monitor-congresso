@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 3,
   "aprovado": 5,
-  "tramitacao": 108,
+  "tramitacao": 111,
   "encerrado": 22,
-  "sem_informacao": 19
+  "sem_informacao": 16
  },
  "projetos": [
   {
@@ -249,9 +249,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 9.503, de 23 de setembro de 1997 – Código de Trânsito Brasileiro, para disciplinar a remoção de veículos abandonados em propriedade privada.",
    "apresentacao": "2026-08-17",
-   "situacao": null,
+   "situacao": "Aguardando Encaminhamento",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643935",
    "primeiro_autor": true
   },
@@ -275,9 +275,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 15.211, de 17 de setembro de 2025 (Estatuto Digital da Criança e do Adolescente), para dispor sobre mecanismo público de verificação de idade.",
    "apresentacao": "2026-08-06",
-   "situacao": null,
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2642181",
    "primeiro_autor": true
   },
@@ -288,9 +288,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei n° 8.080, de 19 de setembro de 1990, para incentivar o aprimoramento de profissionais de saúde no uso da Língua Brasileira de Sinais- Libras no âmbito do Sistema Único de Saúde.",
    "apresentacao": "2026-08-06",
-   "situacao": null,
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2642180",
    "primeiro_autor": true
   },
@@ -457,7 +457,7 @@
    "ano": 2025,
    "ementa": "Dispõe e regulamenta a atualização da Lei Nº 11.788, de 25 de Setembro de 2008, que dispõe sobre o estágio de estudantes, e da legislação correlata",
    "apresentacao": "2025-12-10",
-   "situacao": "Aguardando Parecer",
+   "situacao": "Pronta para Pauta",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2595855",
@@ -587,7 +587,7 @@
    "ano": 2025,
    "ementa": "Altera o Art. 286 do Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), para incluir a tipificação de desafios na internet que incitem à prática de crimes e estabelece medidas de prevenção.",
    "apresentacao": "2025-04-25",
-   "situacao": "Aguardando Deliberação",
+   "situacao": "Pronta para Pauta",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2500297",

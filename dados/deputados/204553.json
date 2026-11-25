@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 2,
-  "tramitacao": 64,
+  "tramitacao": 65,
   "encerrado": 7,
-  "sem_informacao": 10
+  "sem_informacao": 9
  },
  "projetos": [
   {
@@ -54,9 +54,9 @@
    "ano": 2026,
    "ementa": "Institui o Auxílio Emergencial às Famílias de Vítimas de Violência Urbana praticada por Agentes Públicos da União, dos Estados ou do Distrito Federal, destinado aos dependentes em situação de vulnerabilidade econômica, assegura a análise, a implantação e o primeiro pagamento no prazo de trinta dias contado do requerimento e regulamenta o art. 245 da Constituição Federal.",
    "apresentacao": "2026-08-14",
-   "situacao": null,
+   "situacao": "Aguardando Encaminhamento",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643797",
    "primeiro_autor": true
   },
@@ -652,7 +652,7 @@
    "ano": 2024,
    "ementa": "Isenta motocicletas em geral sejam: mototáxis, motoboys entre outras modalidades do pagamento de pedágios em todas as rodovias federais e estaduais do território nacional.",
    "apresentacao": "2024-06-11",
-   "situacao": "Aguardando Parecer",
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2439928",
@@ -899,7 +899,7 @@
    "ano": 2023,
    "ementa": "Institui a obrigatoriedade da instalação de sistemas de câmeras de segurança em aeronaves, visando inibir agressões físicas e verbais, atos libidinosos, abusos e importunação sexual e possíveis práticas de pedofilia no interior das aeronaves operadas por companhias aéreas que atuam no território brasileiro, visando fortalecer as medidas de segurança e fornecer meios para investigação em casos relacionados à segurança aérea.",
    "apresentacao": "2023-12-22",
-   "situacao": "Aguardando Parecer",
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2416609",

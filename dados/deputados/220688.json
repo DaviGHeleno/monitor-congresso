@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 1,
   "aprovado": 1,
-  "tramitacao": 49,
+  "tramitacao": 51,
   "encerrado": 3,
-  "sem_informacao": 7
+  "sem_informacao": 5
  },
  "projetos": [
   {
@@ -28,7 +28,7 @@
    "ano": 2026,
    "ementa": "Dispõe sobre a incidência do Imposto de Renda Retido na Fonte sobre os rendimentos de títulos e valores mobiliários.",
    "apresentacao": "2026-11-13",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+   "situacao": "Aguardando Autorização do Despacho",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653945",
@@ -93,9 +93,9 @@
    "ano": 2026,
    "ementa": "Institui o dia 7 de abril como Dia Nacional do Médico Legista.",
    "apresentacao": "2026-08-04",
-   "situacao": null,
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641940",
    "primeiro_autor": true
   },
@@ -106,9 +106,9 @@
    "ano": 2026,
    "ementa": "Dispõe sobre a institucionalização do Programa Farmácia Popular do Brasil (PFPB).",
    "apresentacao": "2026-08-03",
-   "situacao": null,
+   "situacao": "Aguardando Encaminhamento",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641800",
    "primeiro_autor": true
   },
@@ -496,7 +496,7 @@
    "ano": 2024,
    "ementa": "Dispõe sobre o arrendamento do imóvel rural para empreendimentos voltados à geração de energia elétrica a partir de fontes renováveis.",
    "apresentacao": "2024-07-02",
-   "situacao": "Pronta para Pauta",
+   "situacao": "Aguardando Deliberação",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2444720",

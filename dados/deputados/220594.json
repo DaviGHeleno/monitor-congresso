@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 5,
-  "tramitacao": 98,
+  "tramitacao": 99,
   "encerrado": 10,
-  "sem_informacao": 2
+  "sem_informacao": 1
  },
  "projetos": [
   {
@@ -15,9 +15,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 8.899, de 29 de junho de 1994, para assegurar a disponibilidade dos assentos reservados aos beneficiários do Passe Livre no sistema de transporte coletivo interestadual.",
    "apresentacao": "2026-08-03",
-   "situacao": null,
+   "situacao": "Aguardando Encaminhamento",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641816",
    "primeiro_autor": true
   },
@@ -93,7 +93,7 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 15.211, de 17 de setembro de 2025 (Estatuto Digital da Criança e do Adolescente) para dispor sobre a prevenção e combate à exploração sexual infantil no ambiente digital.",
    "apresentacao": "2026-02-03",
-   "situacao": "Aguardando Vistas",
+   "situacao": "Pronta para Pauta",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2600643",

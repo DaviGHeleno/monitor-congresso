@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 0,
-  "tramitacao": 28,
+  "tramitacao": 29,
   "encerrado": 1,
-  "sem_informacao": 8
+  "sem_informacao": 7
  },
  "projetos": [
   {
@@ -93,9 +93,9 @@
    "ano": 2026,
    "ementa": "Institui a Política Nacional de Transição para a Vida Adulta da Pessoa com Transtorno do Espectro Autista (PNTV-TEA), estabelece diretrizes para o planejamento da transição da adolescência para a vida adulta e altera a Lei nº 12.764, de 27 de dezembro de 2012.",
    "apresentacao": "2026-07-15",
-   "situacao": null,
+   "situacao": "Tramitando em Conjunto",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2639666",
    "primeiro_autor": true
   },

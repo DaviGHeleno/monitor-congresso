@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 2,
   "aprovado": 3,
-  "tramitacao": 40,
+  "tramitacao": 41,
   "encerrado": 2,
-  "sem_informacao": 4
+  "sem_informacao": 3
  },
  "projetos": [
   {
@@ -28,9 +28,9 @@
    "ano": 2026,
    "ementa": "Institui a Estratégia Nacional de Enfrentamento à Endometriose e à Dor Pélvica Crônica, no âmbito do Sistema Único de Saúde, e dá outras providências.",
    "apresentacao": "2026-08-11",
-   "situacao": null,
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2642781",
    "primeiro_autor": true
   },

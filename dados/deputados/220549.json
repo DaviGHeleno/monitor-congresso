@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 1,
   "aprovado": 6,
-  "tramitacao": 82,
+  "tramitacao": 83,
   "encerrado": 8,
-  "sem_informacao": 7
+  "sem_informacao": 6
  },
  "projetos": [
   {
@@ -41,9 +41,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 9.656, de 3 de junho de 1998, para dispor sobre o método de pagamento de órteses próteses e materiais especiais",
    "apresentacao": "2026-08-05",
-   "situacao": null,
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641975",
    "primeiro_autor": true
   },

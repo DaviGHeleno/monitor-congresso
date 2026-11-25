@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 0,
-  "tramitacao": 86,
+  "tramitacao": 88,
   "encerrado": 8,
-  "sem_informacao": 10
+  "sem_informacao": 8
  },
  "projetos": [
   {
@@ -54,7 +54,7 @@
    "ano": 2026,
    "ementa": "Dispõe sobre a incidência do Imposto de Renda Retido na Fonte sobre os rendimentos de títulos e valores mobiliários.",
    "apresentacao": "2026-11-13",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+   "situacao": "Aguardando Autorização do Despacho",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653945",
@@ -119,9 +119,9 @@
    "ano": 2026,
    "ementa": "Institui a Política Nacional de Educação, Capacitação e Reinserção Social da Pessoa Presa e Egressa do Sistema Prisional - PNECRES; cria o Fundo Nacional de Educação e Capacitação Carcerária - FNECC e dá outras providências.",
    "apresentacao": "2026-08-07",
-   "situacao": null,
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2642299",
    "primeiro_autor": true
   },
@@ -132,9 +132,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 11.947, de 16 de junho de 2009, para incluir a modalidade de atendimento educacional em regime de internato no Programa Nacional de Alimentação Escolar (PNAE), e dá outras providências.",
    "apresentacao": "2026-08-07",
-   "situacao": null,
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2642298",
    "primeiro_autor": true
   },
@@ -301,7 +301,7 @@
    "ano": 2026,
    "ementa": "Institui a Política Nacional dos Direitos das Pessoas LGBTQIA+ e dá outras providências.",
    "apresentacao": "2026-04-28",
-   "situacao": "Aguardando Parecer",
+   "situacao": "Pronta para Pauta",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2619274",

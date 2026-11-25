@@ -5,9 +5,22 @@
   "aprovado": 2,
   "tramitacao": 129,
   "encerrado": 10,
-  "sem_informacao": 15
+  "sem_informacao": 16
  },
  "projetos": [
+  {
+   "id": 2659237,
+   "sigla": "PL",
+   "numero": 5956,
+   "ano": 2026,
+   "ementa": "Altera a Lei nº 9.294, de 15 de julho de 1996, para tornar obrigatória, nas embalagens de produtos fumígenos derivados do tabaco, advertência sanitária sobre os danos da exposição à fumaça e aos resíduos do tabaco à saúde dos animais domésticos.",
+   "apresentacao": "2026-11-24",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2659237",
+   "primeiro_autor": true
+  },
   {
    "id": 2648942,
    "sigla": "PL",
@@ -106,7 +119,7 @@
    "ano": 2026,
    "ementa": "Institui a Política Nacional de Fiscalização Aérea Remota para a Proteção Animal, de adesão voluntária pelos Estados, pelo Distrito Federal e pelos Municípios, com o objetivo de prevenir e combater os maus-tratos a animais mediante o uso de aeronaves não tripuladas e tecnologias de sensoriamento remoto.",
    "apresentacao": "2026-06-19",
-   "situacao": "Aguardando Parecer",
+   "situacao": "Pronta para Pauta",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2634537",
@@ -1770,7 +1783,7 @@
    "ano": 2023,
    "ementa": "Proíbe, em todo território nacional, a cobrança de valores referentes ao fardamento pelas escolas públicas.",
    "apresentacao": "2023-03-21",
-   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao": "Aguardando Parecer",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2352068",

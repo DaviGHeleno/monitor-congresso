@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 0,
-  "tramitacao": 5,
+  "tramitacao": 6,
   "encerrado": 1,
-  "sem_informacao": 3
+  "sem_informacao": 2
  },
  "projetos": [
   {
@@ -28,9 +28,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 13.022, de 8 de agosto de 2014 (Estatuto Geral das Guardas Municipais) para instituir diretrizes de capacitação, controle e transparência para o armamento das guardas municipais, e dá outras providências.",
    "apresentacao": "2026-08-14",
-   "situacao": null,
+   "situacao": "Aguardando Encaminhamento",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643856",
    "primeiro_autor": true
   },
