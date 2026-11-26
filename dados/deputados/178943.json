@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 1,
-  "tramitacao": 80,
+  "tramitacao": 79,
   "encerrado": 4,
-  "sem_informacao": 6
+  "sem_informacao": 7
  },
  "projetos": [
   {
@@ -28,7 +28,7 @@
    "ano": 2026,
    "ementa": "Institui o Programa Nacional de Educação Cosmética e Cuidado com a Pele nas Escolas.",
    "apresentacao": "2026-06-08",
-   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao": "Aguardando Parecer",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2630271",
@@ -301,9 +301,9 @@
    "ano": 2025,
    "ementa": "Altera o Regimento Interno da Câmara dos Deputados para dispor sobre o prazo para tramitação de requerimento de urgência e de proposições em regime de urgência.",
    "apresentacao": "2025-02-05",
-   "situacao": "Aguardando Deliberação",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2483076",
    "primeiro_autor": false
   },
@@ -613,7 +613,7 @@
    "ano": 2024,
    "ementa": "Altera a Lei nº 9.503, de 1997, Código de Trânsito Brasileiro, para dispor sobre a infração de conduzir motocicleta, motoneta ou ciclomotor pela contramão de direção.",
    "apresentacao": "2024-02-05",
-   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao": "Aguardando Parecer",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2417176",

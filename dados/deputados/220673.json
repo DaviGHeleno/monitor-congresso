@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 3,
-  "tramitacao": 150,
+  "tramitacao": 151,
   "encerrado": 21,
-  "sem_informacao": 10
+  "sem_informacao": 9
  },
  "projetos": [
   {
@@ -15,9 +15,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 11.445, de 5 de janeiro de 2007, para estabelecer garantias aos usuários de fontes alternativas de abastecimento de água, disciplinar a cobrança dos serviços públicos de abastecimento de água e esgotamento sanitário, assegurar o devido processo administrativo nas ações fiscalizatórias e proteger os microssistemas comunitários de abastecimento.",
    "apresentacao": "2026-09-03",
-   "situacao": null,
+   "situacao": "Aguardando Encaminhamento",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2645711",
    "primeiro_autor": true
   },
@@ -574,7 +574,7 @@
    "ano": 2025,
    "ementa": "Dispõe sobre normas relativas ao transporte de combustíveis por produtores rurais, altera dispositivos da Lei nº 8.176, de 8 de fevereiro de 1991, e dá outras providências.",
    "apresentacao": "2025-06-09",
-   "situacao": "Aguardando Deliberação",
+   "situacao": "Pronta para Pauta",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2521141",
@@ -1601,7 +1601,7 @@
    "ano": 2024,
    "ementa": "Susta os efeitos da Resolução do CONTRAN 859, de 19 de Julho de 2021, Dispõe sobre o sistema de segurança para a circulação de caminhões com carroceria do tipo basculante e de caminhões tratores destinados a movimentação e operação de veículos rebocados com carroceria tipo basculante.",
    "apresentacao": "2024-03-05",
-   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao": "Aguardando Parecer",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2419203",

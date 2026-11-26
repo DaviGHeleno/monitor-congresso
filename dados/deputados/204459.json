@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 2,
-  "tramitacao": 36,
+  "tramitacao": 35,
   "encerrado": 2,
-  "sem_informacao": 6
+  "sem_informacao": 7
  },
  "projetos": [
   {
@@ -301,7 +301,7 @@
    "ano": 2025,
    "ementa": "Altera o art. 6º da Lei nº 8.078, de 11 de setembro de 1990, a fim de incluir no rol de direitos básicos do consumidor a comunicação direta com o fornecedor por meio dos canais de atendimento disponibilizados, inclusive telefônico, sem custos para o consumidor, para fins de informação, reclamação, contestação, suspensão, cancelamento ou devolução de produtos e serviços.",
    "apresentacao": "2025-02-11",
-   "situacao": "Aguardando Deliberação",
+   "situacao": "Pronta para Pauta",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2483701",
@@ -379,9 +379,9 @@
    "ano": 2025,
    "ementa": "Altera o Regimento Interno da Câmara dos Deputados para dispor sobre o prazo para tramitação de requerimento de urgência e de proposições em regime de urgência.",
    "apresentacao": "2025-02-05",
-   "situacao": "Aguardando Deliberação",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2483076",
    "primeiro_autor": false
   },

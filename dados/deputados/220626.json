@@ -5,7 +5,7 @@
   "aprovado": 2,
   "tramitacao": 33,
   "encerrado": 4,
-  "sem_informacao": 3
+  "sem_informacao": 4
  },
  "projetos": [
   {
@@ -32,6 +32,19 @@
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2635729",
+   "primeiro_autor": true
+  },
+  {
+   "id": 2659674,
+   "sigla": "PLP",
+   "numero": 319,
+   "ano": 2026,
+   "ementa": "Altera a Lei Complementar nº 101, de 4 de maio de 2000, para estabelecer limite para despesas municipais com festividades e eventos.",
+   "apresentacao": "2026-11-25",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2659674",
    "primeiro_autor": true
   },
   {

@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 0,
-  "tramitacao": 39,
+  "tramitacao": 40,
   "encerrado": 5,
-  "sem_informacao": 3
+  "sem_informacao": 2
  },
  "projetos": [
   {
@@ -15,9 +15,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 5.889, de 8 de junho de 1973, para vedar a fixação de limite máximo de idade para a manipulação ou aplicação de agrotóxicos e produtos afins exclusivamente com fundamento na idade cronológica do trabalhador.",
    "apresentacao": "2026-08-31",
-   "situacao": null,
+   "situacao": "Aguardando Encaminhamento",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644914",
    "primeiro_autor": true
   },
@@ -54,7 +54,7 @@
    "ano": 2026,
    "ementa": "Altera o art. 306 da Lei nº 9.503, de 23 de setembro de 1997 (Código de Trânsito Brasileiro), para permitir a lavratura de Termo Circunstanciado de Ocorrência nos casos de embriaguez ao volante sem sinistro de trânsito.",
    "apresentacao": "2026-02-25",
-   "situacao": "Aguardando Parecer",
+   "situacao": "Pronta para Pauta",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2604513",

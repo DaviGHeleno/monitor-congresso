@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 1,
   "aprovado": 5,
-  "tramitacao": 104,
-  "encerrado": 15,
-  "sem_informacao": 18
+  "tramitacao": 102,
+  "encerrado": 16,
+  "sem_informacao": 19
  },
  "projetos": [
   {
@@ -67,7 +67,7 @@
    "ano": 2026,
    "ementa": "Institui a Política de Prevenção e Repressão a Crimes Cibernéticos contra Animais, dispondo sobre a prevenção, tipificação, investigação e repressão de crimes cometidos por meio eletrônico ou digital, e dá outras providências.",
    "apresentacao": "2026-03-09",
-   "situacao": "Aguardando Deliberação",
+   "situacao": "Aguardando Encaminhamento",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2607592",
@@ -509,9 +509,9 @@
    "ano": 2025,
    "ementa": "Altera o Regimento Interno da Câmara dos Deputados para dispor sobre o prazo para tramitação de requerimento de urgência e de proposições em regime de urgência.",
    "apresentacao": "2025-02-05",
-   "situacao": "Aguardando Deliberação",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2483076",
    "primeiro_autor": false
   },
@@ -1471,9 +1471,9 @@
    "ano": 2023,
    "ementa": "Altera o art. 26 da Lei nº 9.394, de 20 de dezembro de 1996, que estabelece as diretrizes e bases da educação nacional, para incluir o Direito dos Animais e a Proteção Animal como componentes obrigatórios dos currículos do ensino fundamental e do ensino médio.",
    "apresentacao": "2023-02-03",
-   "situacao": "Tramitando em Conjunto",
+   "situacao": "Arquivada",
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": "encerrado",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2347057",
    "primeiro_autor": false
   },

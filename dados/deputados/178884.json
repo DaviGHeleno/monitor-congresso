@@ -5,7 +5,7 @@
   "aprovado": 0,
   "tramitacao": 47,
   "encerrado": 1,
-  "sem_informacao": 3
+  "sem_informacao": 4
  },
  "projetos": [
   {
@@ -45,6 +45,19 @@
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2624246",
+   "primeiro_autor": true
+  },
+  {
+   "id": 2659915,
+   "sigla": "PDL",
+   "numero": 1253,
+   "ano": 2026,
+   "ementa": "Susta dispositivos do Decreto nº 12.784, de 19 de dezembro de 2025, que regulamenta a Lei nº 15.068, de 23 de dezembro de 2024, que dispõe sobre os empreendimentos de economia solidária e a Política Nacional de Economia Solidária e cria o Sistema Nacional de Economia Solidária.",
+   "apresentacao": "2026-11-25",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2659915",
    "primeiro_autor": true
   },
   {

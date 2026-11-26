@@ -3,11 +3,24 @@
  "resumo": {
   "lei": 0,
   "aprovado": 1,
-  "tramitacao": 25,
+  "tramitacao": 26,
   "encerrado": 3,
   "sem_informacao": 7
  },
  "projetos": [
+  {
+   "id": 2660025,
+   "sigla": "PL",
+   "numero": 5979,
+   "ano": 2026,
+   "ementa": "Altera a Lei nº 14.254, de 30 de novembro de 2021, para assegurar a avaliação individualizada das necessidades de acessibilidade de candidatos com dislexia, transtorno do déficit de atenção com hiperatividade (TDAH) ou outros transtornos de aprendizagem em exames nacionais e processos seletivos de ingresso em instituições de ensino.",
+   "apresentacao": "2026-11-25",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2660025",
+   "primeiro_autor": true
+  },
   {
    "id": 2644652,
    "sigla": "PL",
@@ -119,9 +132,9 @@
    "ano": 2026,
    "ementa": "Institui o Programa Nacional de Energia Solar para Escolas e Unidades Públicas de Saúde - PRONESP, estabelece mecanismos de financiamento pela União para instalação de sistemas de geração de energia solar fotovoltaica em escolas e hospitais públicos e determina o reinvestimento da economia obtida em ações de saúde e educação.",
    "apresentacao": "2026-08-08",
-   "situacao": null,
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2642308",
    "primeiro_autor": true
   },

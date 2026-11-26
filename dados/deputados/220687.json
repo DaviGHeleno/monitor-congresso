@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 3,
-  "tramitacao": 45,
+  "tramitacao": 44,
   "encerrado": 3,
-  "sem_informacao": 3
+  "sem_informacao": 4
  },
  "projetos": [
   {
@@ -15,9 +15,9 @@
    "ano": 2026,
    "ementa": "Cria a Rota Turística da Chapada das Mesas, no Estado do Maranhão.",
    "apresentacao": "2026-11-04",
-   "situacao": "Aguardando Chancela e Publicação do Despacho",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2650923",
    "primeiro_autor": true
   },
@@ -54,7 +54,7 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 11.101, de 9 de fevereiro de 2005, que “Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária” para aprimorar regras de cessão de créditos, fortalecer a integridade das assembleias de credores e ajustar o procedimento de recuperação judicial do produtor rural.",
    "apresentacao": "2026-04-28",
-   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao": "Aguardando Parecer",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2619139",
@@ -106,7 +106,7 @@
    "ano": 2026,
    "ementa": "Altera a da Lei nº \t13.756, de 12 de dezembro de 2018, para destinar percentual do produto da arrecadação dos operadores da loteria de apostas de quota fixa para o Fundo Nacional de Assistência Social - FNAS.",
    "apresentacao": "2026-02-02",
-   "situacao": "Aguardando Deliberação",
+   "situacao": "Pronta para Pauta",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2600299",

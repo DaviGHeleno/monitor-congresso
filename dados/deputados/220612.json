@@ -5,9 +5,22 @@
   "aprovado": 2,
   "tramitacao": 50,
   "encerrado": 2,
-  "sem_informacao": 9
+  "sem_informacao": 10
  },
  "projetos": [
+  {
+   "id": 2659970,
+   "sigla": "PL",
+   "numero": 5968,
+   "ano": 2026,
+   "ementa": "Altera a Lei nº 9.394, de 20 de dezembro de 1996, para instituir a renovação automática da matrícula de estudantes nas instituições públicas de educação básica.",
+   "apresentacao": "2026-11-25",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2659970",
+   "primeiro_autor": true
+  },
   {
    "id": 2659098,
    "sigla": "PL",

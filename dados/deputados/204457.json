@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 3,
-  "tramitacao": 95,
+  "tramitacao": 96,
   "encerrado": 9,
-  "sem_informacao": 13
+  "sem_informacao": 12
  },
  "projetos": [
   {
@@ -41,9 +41,9 @@
    "ano": 2026,
    "ementa": "Declara a cidade do Rio de Janeiro/RJ como a “Capital Nacional da Economia Solidária”.",
    "apresentacao": "2026-09-17",
-   "situacao": null,
+   "situacao": "Aguardando Encaminhamento",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646555",
    "primeiro_autor": true
   },
@@ -67,7 +67,7 @@
    "ano": 2026,
    "ementa": "Dispõe sobre a produção e fornecimento adequado de soros antipeçonhentos para atendimento nos postos de saúde e hospitais.",
    "apresentacao": "2026-05-29",
-   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao": "Aguardando Parecer",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2629216",
@@ -1276,7 +1276,7 @@
    "ano": 2023,
    "ementa": "Dispõe sobre a criação da alíquota de custeio representativo incidente sobre cada movimentação de frete com o objetivo de patrocinar a atividade representativa",
    "apresentacao": "2023-04-08",
-   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao": "Aguardando Parecer",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2355174",

@@ -2,10 +2,10 @@
  "id": 220554,
  "resumo": {
   "lei": 0,
-  "aprovado": 0,
-  "tramitacao": 88,
+  "aprovado": 1,
+  "tramitacao": 86,
   "encerrado": 6,
-  "sem_informacao": 5
+  "sem_informacao": 6
  },
  "projetos": [
   {
@@ -67,7 +67,7 @@
    "ano": 2026,
    "ementa": "Institui o Imposto sobre Grandes  Fortunas, previsto no art. 153, inciso VII, da Constituição Federal.",
    "apresentacao": "2026-11-13",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+   "situacao": "Ag. Análise de Inconstitucionalidade",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653944",
@@ -80,9 +80,9 @@
    "ano": 2026,
    "ementa": "Institui a Política Nacional de Valorização da Música Autoral em feiras, festivais, mostras culturais e demais eventos públicos realizados ou apoiados com recursos da União, e dá outras providências",
    "apresentacao": "2026-11-05",
-   "situacao": "Aguardando Chancela e Publicação do Despacho",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651110",
    "primeiro_autor": true
   },
@@ -106,7 +106,7 @@
    "ano": 2026,
    "ementa": "Acrescenta o art. 203-A ao Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), para tipificar a discriminação por voto ou convicção política no trabalho e na atividade econômica, e altera o art. 1º da Lei nº 9.029, de 13 de abril de 1995, para incluir o voto e a convicção política entre os motivos de discriminação vedados nas relações de trabalho.",
    "apresentacao": "2026-10-29",
-   "situacao": "Aguardando Autorização do Despacho",
+   "situacao": "Aguardando Chancela e Publicação do Despacho",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649499",
@@ -418,7 +418,7 @@
    "ano": 2025,
    "ementa": "Denomina “Viaduto Cléo Sanches Cassalha” o viaduto localizado na rodovia BR-116, no trevo de acesso ao Município de São Lourenço do Sul, Estado do Rio Grande do Sul.",
    "apresentacao": "2025-05-06",
-   "situacao": "Aguardando Parecer",
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2503995",
@@ -782,9 +782,9 @@
    "ano": 2024,
    "ementa": "Altera a Lei nº 14.214, de 6 de outubro de 2021, que “institui o Programa de Proteção e Promoção da Saúde Menstrual; e altera a Lei nº 11.346, de 15 de setembro de 2006, para determinar que as cestas básicas entregues no âmbito do Sistema Nacional de Segurança Alimentar e Nutricional (Sisan) deverão conter como item essencial o absorvente higiênico feminino”, para ampliar o acesso universal aos absorventes.",
    "apresentacao": "2024-04-17",
-   "situacao": "Aguardando Recurso",
+   "situacao": "Aguardando Envio à Redação Final",
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": "aprovado",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2427672",
    "primeiro_autor": false
   },

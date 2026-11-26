@@ -4,8 +4,8 @@
   "lei": 5,
   "aprovado": 4,
   "tramitacao": 77,
-  "encerrado": 7,
-  "sem_informacao": 11
+  "encerrado": 9,
+  "sem_informacao": 9
  },
  "projetos": [
   {
@@ -28,9 +28,9 @@
    "ano": 2026,
    "ementa": "Confere ao Município de Nazaré da Mata, no Estado de Pernambuco, o título de Capital Nacional do Maracatu de Baque Solto.",
    "apresentacao": "2026-10-01",
-   "situacao": null,
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2647281",
    "primeiro_autor": true
   },
@@ -41,7 +41,7 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 12.212, de 20 de janeiro de 2010, para ampliar a faixa de consumo com desconto integral da Tarifa Social de Energia Elétrica em razão do uso de equipamentos necessários a tratamento de saúde no domicílio.",
    "apresentacao": "2026-10-01",
-   "situacao": "Aguardando Autorização do Despacho",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2647280",
@@ -54,9 +54,9 @@
    "ano": 2026,
    "ementa": "Institui a Política Nacional de Internacionalização da Educação Pública e cria o Programa Nacional Ganhe o Mundo.",
    "apresentacao": "2026-08-31",
-   "situacao": null,
+   "situacao": "Aguardando Encaminhamento",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2645036",
    "primeiro_autor": true
   },
@@ -535,9 +535,9 @@
    "ano": 2024,
    "ementa": "Altera o Decreto-Lei nº 3.689, de 3 de outubro de 1941, para vedar a aplicação do acordo de não persecução penal nas hipóteses de crimes raciais.",
    "apresentacao": "2024-10-14",
-   "situacao": "Tramitando em Conjunto",
+   "situacao": "Arquivada",
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": "encerrado",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2462270",
    "primeiro_autor": false
   },
@@ -1133,9 +1133,9 @@
    "ano": 2023,
    "ementa": "Altera a Lei nº 9.394, de 20 de dezembro de 1996, para incluir a educação climática como base da educação escolar.",
    "apresentacao": "2023-06-06",
-   "situacao": "Tramitando em Conjunto",
+   "situacao": "Arquivada",
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": "encerrado",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2367806",
    "primeiro_autor": false
   },

@@ -3,11 +3,24 @@
  "resumo": {
   "lei": 1,
   "aprovado": 1,
-  "tramitacao": 28,
+  "tramitacao": 27,
   "encerrado": 7,
-  "sem_informacao": 2
+  "sem_informacao": 4
  },
  "projetos": [
+  {
+   "id": 2659983,
+   "sigla": "PL",
+   "numero": 5969,
+   "ano": 2026,
+   "ementa": "ALTERA A LEI Nº 9.503, DE 23 DE SETEMBRO DE 1997 (CÓDIGO DE TRÂNSITO BRASILEIRO), PARA DISPOR SOBRE A EXIGÊNCIA DE PROVA ONLINE DE CAPACITAÇÃO, O USO OBRIGATÓRIO DE CAPACETE, RETROVISOR E BUZINA, A PROIBIÇÃO DE CIRCULAÇÃO EM CALÇADAS E AS PENALIDADES APLICÁVEIS À CONDUÇÃO DE BICICLETAS ELÉTRICAS E EQUIPAMENTOS DE MOBILIDADE INDIVIDUAL AUTOPROPELIDOS.",
+   "apresentacao": "2026-11-25",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2659983",
+   "primeiro_autor": true
+  },
   {
    "id": 2650821,
    "sigla": "PL",
@@ -15,9 +28,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 12.212, de 20 de janeiro de 2010, para ampliar o acesso à Tarifa Social de Energia Elétrica às famílias monoparentais sob responsabilidade materna.",
    "apresentacao": "2026-11-04",
-   "situacao": "Aguardando Chancela e Publicação do Despacho",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2650821",
    "primeiro_autor": true
   },
@@ -379,7 +392,7 @@
    "ano": 2023,
    "ementa": "Altera a Lei nº 5.603, de 1970, para denominar Rodovia Vasco Neto o trecho da rodovia BR-030 compreendido entre o Município de Mambaí, no Estado de Goiás, e o Município de Carinhanha, no Estado da Bahia.",
    "apresentacao": "2023-10-23",
-   "situacao": "Aguardando Parecer",
+   "situacao": "Pronta para Pauta",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2398029",

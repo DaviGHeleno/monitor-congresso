@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 1,
   "aprovado": 1,
-  "tramitacao": 54,
+  "tramitacao": 57,
   "encerrado": 1,
-  "sem_informacao": 7
+  "sem_informacao": 4
  },
  "projetos": [
   {
@@ -15,9 +15,9 @@
    "ano": 2026,
    "ementa": "Denomina “Viaduto Nivaldo Nilton Thedim” o viaduto localizado no Km 80 da BR-116, entroncamento com a RJ-130, no bairro Prata, Município de Teresópolis, Estado do Rio de Janeiro.",
    "apresentacao": "2026-09-28",
-   "situacao": null,
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2647162",
    "primeiro_autor": true
   },
@@ -28,7 +28,7 @@
    "ano": 2026,
    "ementa": "Denomina “Ponte Philippe Guédon” a estrutura rodoviária localizada no Km 58 da BR 040, com saída para o Km 34,4 da BR 495/RJ, no Distrito de Itaipava, Município de Petrópolis, Estado do Rio de Janeiro.",
    "apresentacao": "2026-08-25",
-   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao": "Aguardando Parecer",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644514",
@@ -41,9 +41,9 @@
    "ano": 2026,
    "ementa": "Dispõe sobre os requisitos para implantação, operação e fiscalização dos sistemas de estacionamento rotativo pago e altera a Lei nº 9.503, de 23 de setembro de 1997 - Código de Trânsito Brasileiro.",
    "apresentacao": "2026-08-20",
-   "situacao": null,
+   "situacao": "Aguardando Encaminhamento",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644271",
    "primeiro_autor": true
   },
@@ -54,9 +54,9 @@
    "ano": 2026,
    "ementa": "Acrescenta novos arts. 47-A a 47-F à Lei nº 11.101, de 9 de fevereiro de 2005, que “Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária”.",
    "apresentacao": "2026-08-05",
-   "situacao": null,
+   "situacao": "Aguardando Parecer",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2642080",
    "primeiro_autor": true
   },
@@ -548,7 +548,7 @@
    "ano": 2024,
    "ementa": "Dispõe sobre os indicadores e metas para avaliação da qualidade da prestação dos serviços de distribuição de energia elétrica.",
    "apresentacao": "2024-02-27",
-   "situacao": "Aguardando Deliberação",
+   "situacao": "Pronta para Pauta",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2418717",

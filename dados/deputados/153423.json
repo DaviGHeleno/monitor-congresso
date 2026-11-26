@@ -3,11 +3,24 @@
  "resumo": {
   "lei": 3,
   "aprovado": 3,
-  "tramitacao": 43,
+  "tramitacao": 45,
   "encerrado": 3,
-  "sem_informacao": 7
+  "sem_informacao": 6
  },
  "projetos": [
+  {
+   "id": 2660014,
+   "sigla": "PL",
+   "numero": 5977,
+   "ano": 2026,
+   "ementa": "Institui a Política Nacional de Proteção Previdenciária e Assistencial à Mulher Vítima de Violência Doméstica e Familiar, disciplina o Benefício de Afastamento Preventivo e altera as Leis nº 8.213, de 24 de julho de 1991, nº 8.742, de 7 de dezembro de 1993, e nº 11.340, de 7 de agosto de 2006.",
+   "apresentacao": "2026-11-25",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2660014",
+   "primeiro_autor": true
+  },
   {
    "id": 2651243,
    "sigla": "PL",
@@ -28,9 +41,9 @@
    "ano": 2026,
    "ementa": "Institui o Defeso do Açaí, cria o Seguro-Defeso do Trabalhador Extrativista do Açaí, estabelece medidas de proteção social, valorização profissional e sustentabilidade da atividade extrativista e produtiva do açaí e dá outras providências.",
    "apresentacao": "2026-09-16",
-   "situacao": null,
+   "situacao": "Aguardando Encaminhamento",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646484",
    "primeiro_autor": true
   },
@@ -41,9 +54,9 @@
    "ano": 2026,
    "ementa": "Estabelece normas gerais de proteção animal relativas à segurança, à informação e à continuidade do atendimento médico-veterinário de cães e gatos, especialmente nas situações de urgência e emergência.",
    "apresentacao": "2026-09-10",
-   "situacao": null,
+   "situacao": "Aguardando Encaminhamento",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646320",
    "primeiro_autor": true
   },
@@ -67,7 +80,7 @@
    "ano": 2026,
    "ementa": "Institui, no âmbito da Política Nacional de Mobilidade Urbana, o Programa Transporte Seguro para Elas, destinado à promoção de espaços seguros de prevenção à violência, ao assédio e a outras formas de abuso contra mulheres no serviço de transporte coletivo público de passageiros, e dá outras providências.",
    "apresentacao": "2026-04-07",
-   "situacao": "Aguardando Deliberação",
+   "situacao": "Pronta para Pauta",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2613749",

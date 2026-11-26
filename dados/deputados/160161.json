@@ -4,8 +4,8 @@
   "lei": 3,
   "aprovado": 5,
   "tramitacao": 85,
-  "encerrado": 8,
-  "sem_informacao": 11
+  "encerrado": 9,
+  "sem_informacao": 10
  },
  "projetos": [
   {
@@ -28,9 +28,9 @@
    "ano": 2026,
    "ementa": "Institui o Contrato de Aperfeiçoamento Profissional do Médico-Veterinário e estabelece normas para a formação prática supervisionada de médicos-veterinários em início de carreira.",
    "apresentacao": "2026-09-09",
-   "situacao": null,
+   "situacao": "Aguardando Encaminhamento",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646286",
    "primeiro_autor": true
   },
@@ -93,7 +93,7 @@
    "ano": 2026,
    "ementa": "Institui a Política de Prevenção e Repressão a Crimes Cibernéticos contra Animais, dispondo sobre a prevenção, tipificação, investigação e repressão de crimes cometidos por meio eletrônico ou digital, e dá outras providências.",
    "apresentacao": "2026-03-09",
-   "situacao": "Aguardando Deliberação",
+   "situacao": "Aguardando Encaminhamento",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2607592",
@@ -1263,9 +1263,9 @@
    "ano": 2023,
    "ementa": "Altera o art. 26 da Lei nº 9.394, de 20 de dezembro de 1996, que estabelece as diretrizes e bases da educação nacional, para incluir o Direito dos Animais e a Proteção Animal como componentes obrigatórios dos currículos do ensino fundamental e do ensino médio.",
    "apresentacao": "2023-02-03",
-   "situacao": "Tramitando em Conjunto",
+   "situacao": "Arquivada",
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": "encerrado",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2347057",
    "primeiro_autor": false
   },
