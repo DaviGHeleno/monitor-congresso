@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 2,
   "aprovado": 2,
-  "tramitacao": 51,
+  "tramitacao": 52,
   "encerrado": 3,
-  "sem_informacao": 11
+  "sem_informacao": 10
  },
  "projetos": [
   {
@@ -15,7 +15,7 @@
    "ano": 2026,
    "ementa": "Institui o Fundo Soberano de Desenvolvimento Nacional (FSDN) e estabelece diretrizes para sua organização, governança, gestão e aplicação de recursos.",
    "apresentacao": "2026-11-19",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+   "situacao": "Aguardando Autorização do Despacho",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655613",
@@ -67,7 +67,7 @@
    "ano": 2026,
    "ementa": "Dispõe sobre a incidência do Imposto de Renda Retido na Fonte sobre os rendimentos de títulos e valores mobiliários.",
    "apresentacao": "2026-11-13",
-   "situacao": "Aguardando Autorização do Despacho",
+   "situacao": "Aguardando Chancela e Publicação do Despacho",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653945",
@@ -106,9 +106,9 @@
    "ano": 2026,
    "ementa": "Dispõe sobre as empresas de contratação e colocação de gente do mar, sobre o emprego da gente do mar brasileira em embarcações de bandeira estrangeira autorizadas a operar em águas jurisdicionais brasileiras, sobre o direito ao desembarque ou à repatriação e dá outras providências.",
    "apresentacao": "2026-09-21",
-   "situacao": null,
+   "situacao": "Aguardando Encaminhamento",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646837",
    "primeiro_autor": true
   },
@@ -301,7 +301,7 @@
    "ano": 2026,
    "ementa": "Institui o Imposto sobre Grandes  Fortunas, previsto no art. 153, inciso VII, da Constituição Federal.",
    "apresentacao": "2026-11-17",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+   "situacao": "Aguardando Autorização do Despacho",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654382",

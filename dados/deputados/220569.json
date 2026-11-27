@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 2,
   "aprovado": 6,
-  "tramitacao": 120,
+  "tramitacao": 121,
   "encerrado": 11,
-  "sem_informacao": 12
+  "sem_informacao": 11
  },
  "projetos": [
   {
@@ -28,9 +28,9 @@
    "ano": 2026,
    "ementa": "Altera o parágrafo único do art. 1º da Lei nº 8.072, de 25 de julho de 1990, para considerar hediondo o homicídio praticado na direção de veículo automotor, quando praticado em concurso com a condução de veículo com capacidade psicomotora alterada em razão da influência de álcool ou de outra substância psicoativa que determine dependência (art. 306 do CTB) ou com a participação em corrida, disputa ou competição automobilística não autorizada (art. 308 do CTB), vedando fiança, anistia, graça e indulto e impondo cumprimento inicial da pena em regime fechado.",
    "apresentacao": "2026-11-19",
-   "situacao": null,
+   "situacao": "Aguardando Autorização do Despacho",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655664",
    "primeiro_autor": true
   },
@@ -54,7 +54,7 @@
    "ano": 2026,
    "ementa": "Estabelece diretrizes para a atenção integral à saúde das pessoas com sobrepeso e obesidade no âmbito do Sistema Único de Saúde – SUS.",
    "apresentacao": "2026-11-18",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+   "situacao": "Aguardando Autorização do Despacho",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655459",
@@ -67,7 +67,7 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 11.340, de 7 de agosto de 2006 (Lei Maria da Penha), para estender a aplicação das medidas protetivas de urgência a toda forma de violência contra a mulher baseada na condição de mulher e dá outras providências.",
    "apresentacao": "2026-11-18",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+   "situacao": "Aguardando Autorização do Despacho",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655454",
@@ -93,7 +93,7 @@
    "ano": 2026,
    "ementa": "Altera o Decreto-Lei nº 4.737, de 15 de julho de 1965, que institui o Código Eleitoral, para dispor sobre a compra e a venda de voto.",
    "apresentacao": "2026-09-01",
-   "situacao": "Aguardando Encaminhamento",
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2645140",
@@ -548,7 +548,7 @@
    "ano": 2025,
    "ementa": "Altera a Lei Altera a Lei nº 9.605, de 12 de fevereiro de 1998, para agravar a pena e prever multa nos casos de manutenção de cães acorrentados de forma permanente ou cruel.",
    "apresentacao": "2025-05-29",
-   "situacao": "Aguardando Análise de Parecer",
+   "situacao": "Pronta para Pauta",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2518845",
@@ -613,7 +613,7 @@
    "ano": 2025,
    "ementa": "Altera a Lei nº 10.741, de 1º de outubro de 2003 (Estatuto do Idoso), e a Lei nº 8.072, de 25 de julho de 1990 (Lei dos Crimes Hediondos), para tornar hediondos e inafiançáveis os crimes de maus-tratos e abandono contra idosos, agravando-se a pena se o crime for praticado por descendente ou parente, consanguíneo ou afim, até o segundo grau.",
    "apresentacao": "2025-04-14",
-   "situacao": "Aguardando Análise de Parecer",
+   "situacao": "Pronta para Pauta",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2497444",

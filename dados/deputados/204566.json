@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 1,
-  "tramitacao": 26,
+  "tramitacao": 28,
   "encerrado": 3,
-  "sem_informacao": 7
+  "sem_informacao": 5
  },
  "projetos": [
   {
@@ -106,9 +106,9 @@
    "ano": 2026,
    "ementa": "Institui diretriz para a elaboração de plano de retomada, reprogramação ou encerramento de obras públicas federais paralisadas.",
    "apresentacao": "2026-08-08",
-   "situacao": null,
+   "situacao": "Aguardando Encaminhamento",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2642310",
    "primeiro_autor": true
   },
@@ -132,7 +132,7 @@
    "ano": 2026,
    "ementa": "Institui o Programa Nacional de Energia Solar para Escolas e Unidades Públicas de Saúde - PRONESP, estabelece mecanismos de financiamento pela União para instalação de sistemas de geração de energia solar fotovoltaica em escolas e hospitais públicos e determina o reinvestimento da economia obtida em ações de saúde e educação.",
    "apresentacao": "2026-08-08",
-   "situacao": "Aguardando Designação de Relator(a)",
+   "situacao": "Aguardando Parecer",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2642308",
@@ -158,9 +158,9 @@
    "ano": 2026,
    "ementa": "Institui a Política Nacional de Prevenção e Combate às Fraudes Bancárias Digitais, estabelece medidas obrigatórias de segurança para operações financeiras eletrônicas, cria o Protocolo Nacional de Resposta Imediata a Fraudes Bancárias e dá outras providências.",
    "apresentacao": "2026-07-20",
-   "situacao": null,
+   "situacao": "Aguardando Encaminhamento",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641433",
    "primeiro_autor": true
   },

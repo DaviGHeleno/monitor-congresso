@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 4,
   "aprovado": 1,
-  "tramitacao": 43,
+  "tramitacao": 42,
   "encerrado": 2,
-  "sem_informacao": 1
+  "sem_informacao": 2
  },
  "projetos": [
   {
@@ -15,7 +15,7 @@
    "ano": 2026,
    "ementa": "Estabelece que as infrações de trânsito atribuídas a ambulâncias deverão ser anuladas de ofício pelos órgãos autuadores.",
    "apresentacao": "2026-10-27",
-   "situacao": "Aguardando Chancela e Publicação do Despacho",
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649057",
@@ -28,9 +28,9 @@
    "ano": 2026,
    "ementa": "Regulamenta a profissão de Cuidador de Pessoa Idosa.",
    "apresentacao": "2026-09-22",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646889",
    "primeiro_autor": true
   },

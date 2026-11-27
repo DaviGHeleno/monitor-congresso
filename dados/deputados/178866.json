@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 1,
   "aprovado": 0,
-  "tramitacao": 99,
+  "tramitacao": 98,
   "encerrado": 6,
-  "sem_informacao": 2
+  "sem_informacao": 3
  },
  "projetos": [
   {
@@ -15,9 +15,9 @@
    "ano": 2026,
    "ementa": "Institui a Política Nacional de Incentivo à Modernização de Zoológicos e Aquários e à Transição para Santuários e Centros de Conservação da Fauna (Programa Santuário Verde), disciplina o Selo Nacional de Bem-Estar Animal e Proteção da Fauna, estabelece diretrizes para a visitação pública consciente e dá outras providências.",
    "apresentacao": "2026-09-19",
-   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646835",
    "primeiro_autor": true
   },

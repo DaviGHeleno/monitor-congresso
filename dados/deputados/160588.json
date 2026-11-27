@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 1,
   "aprovado": 2,
-  "tramitacao": 25,
+  "tramitacao": 26,
   "encerrado": 1,
-  "sem_informacao": 3
+  "sem_informacao": 2
  },
  "projetos": [
   {
@@ -28,9 +28,9 @@
    "ano": 2026,
    "ementa": "Dispõe sobre regime especial de organização e distribuição dos períodos de repouso dos empregados do setor de transporte, em todos os modais, mediante negociação coletiva, com vistas a favorecer o retorno ao domicílio e a convivência familiar, e dá outras providências.",
    "apresentacao": "2026-11-23",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2656717",
    "primeiro_autor": true
   },

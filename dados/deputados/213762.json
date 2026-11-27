@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 1,
-  "tramitacao": 70,
+  "tramitacao": 72,
   "encerrado": 6,
-  "sem_informacao": 9
+  "sem_informacao": 7
  },
  "projetos": [
   {
@@ -41,9 +41,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 11.959, de 29 de junho de 2009, para instituir o Sistema Nacional de Rastreabilidade da Pesca Artesanal (SNRPA), criar a Guia Nacional de Trânsito e Rastreabilidade do Pescado Artesanal (GNTRPA), disciplinar a rastreabilidade, a circulação, o transporte e a primeira comercialização do pescado artesanal, promover a integração eletrônica entre os órgãos públicos competentes, simplificar procedimentos administrativos, fortalecer a pesca artesanal brasileira e dar outras providências.",
    "apresentacao": "2026-08-12",
-   "situacao": null,
+   "situacao": "Aguardando Encaminhamento",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2642903",
    "primeiro_autor": true
   },
@@ -54,9 +54,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 7.210, de 11 de julho de 1984 (Lei de Execução Penal), para vedar a progressão de regime aos condenados pela prática do crime de feminicídio",
    "apresentacao": "2026-08-07",
-   "situacao": null,
+   "situacao": "Aguardando Encaminhamento",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2642194",
    "primeiro_autor": true
   },

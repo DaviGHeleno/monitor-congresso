@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 8,
   "aprovado": 9,
-  "tramitacao": 110,
+  "tramitacao": 109,
   "encerrado": 13,
-  "sem_informacao": 7
+  "sem_informacao": 8
  },
  "projetos": [
   {
@@ -15,9 +15,9 @@
    "ano": 2026,
    "ementa": "Estabelece o Piso Salarial do Administrador e dá outras providências.",
    "apresentacao": "2026-09-17",
-   "situacao": "Aguardando Encaminhamento",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646661",
    "primeiro_autor": true
   },
