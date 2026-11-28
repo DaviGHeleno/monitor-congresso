@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 7,
   "aprovado": 9,
-  "tramitacao": 247,
+  "tramitacao": 246,
   "encerrado": 12,
-  "sem_informacao": 14
+  "sem_informacao": 15
  },
  "projetos": [
   {
@@ -54,7 +54,7 @@
    "ano": 2026,
    "ementa": "Dispõe sobre a criação do Canal Nacional de Denúncias Acessível para atendimento e recebimento de denúncias de pessoas com deficiência, e dá outras providências.",
    "apresentacao": "2026-06-03",
-   "situacao": "Pronta para Pauta",
+   "situacao": "Aguardando Deliberação",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2629936",
@@ -3538,9 +3538,9 @@
    "ano": 2023,
    "ementa": "Altera a Lei nº 9.472, de 16 de julho de 1997 (Lei Geral de Telecomunicações) para dispor sobre o direito do usuário de serviços de telecomunicações ao peticionamento direto ao órgão regulador.",
    "apresentacao": "2023-03-08",
-   "situacao": "Aguardando Encaminhamento",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2350602",
    "primeiro_autor": true
   },

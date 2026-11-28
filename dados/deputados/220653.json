@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 0,
-  "tramitacao": 74,
+  "tramitacao": 73,
   "encerrado": 3,
-  "sem_informacao": 6
+  "sem_informacao": 7
  },
  "projetos": [
   {
@@ -314,7 +314,7 @@
    "ano": 2025,
    "ementa": "Dispõe sobre normas para a fabricação, comercialização, importação e rotulagem de produtos destinados à higiene pessoal, visando à proteção ambiental, ao adequado funcionamento do sistema de esgotamento sanitário e à promoção da saúde pública, e dá outras providências.",
    "apresentacao": "2025-07-28",
-   "situacao": "Pronta para Pauta",
+   "situacao": "Aguardando Deliberação",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2539033",
@@ -652,9 +652,9 @@
    "ano": 2024,
    "ementa": "Altera a Lei nº 12.587, de 3 de janeiro de 2012, para incluir a obrigatoriedade de sistema de ar-condicionado nos ônibus utilizados no transporte público coletivo urbano de passageiros e dá outras providências.",
    "apresentacao": "2024-04-26",
-   "situacao": "Aguardando Encaminhamento",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2430343",
    "primeiro_autor": true
   },

@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 3,
   "aprovado": 5,
-  "tramitacao": 110,
+  "tramitacao": 112,
   "encerrado": 22,
-  "sem_informacao": 18
+  "sem_informacao": 16
  },
  "projetos": [
   {
@@ -41,9 +41,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 9.610, de 19 de fevereiro de 1998, para vedar a obtenção de vantagem econômica por pessoa condenada definitivamente pela exploração comercial de infração penal por ela praticada e estabelecer mecanismos de destinação dos valores à reparação das vítimas e de seus sucessores.",
    "apresentacao": "2026-11-23",
-   "situacao": null,
+   "situacao": "Aguardando Autorização do Despacho",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2656745",
    "primeiro_autor": true
   },
@@ -119,9 +119,9 @@
    "ano": 2026,
    "ementa": "Altera o caput do art. 22 da Lei nº 9.394, de 20 de dezembro de 1996, para incluir, entre as finalidades da educação básica, a compreensão do funcionamento das instituições públicas, das finanças públicas e dos mecanismos de transparência, participação e controle social.",
    "apresentacao": "2026-09-16",
-   "situacao": null,
+   "situacao": "Aguardando Designação de Relator(a)",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646507",
    "primeiro_autor": true
   },
@@ -600,7 +600,7 @@
    "ano": 2025,
    "ementa": "Altera o Art. 286 do Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), para incluir a tipificação de desafios na internet que incitem à prática de crimes e estabelece medidas de prevenção.",
    "apresentacao": "2025-04-25",
-   "situacao": "Pronta para Pauta",
+   "situacao": "Aguardando Deliberação",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2500297",
@@ -1016,7 +1016,7 @@
    "ano": 2024,
    "ementa": "Altera a Lei nº 8.078, de 11 de setembro de 1990, “que dispõe sobre a proteção do consumidor e dá outras providências”, para incluir, como causa obstativa da decadência, a formalização de reclamação junto a órgão de defesa do consumidor.",
    "apresentacao": "2024-06-14",
-   "situacao": "Pronta para Pauta",
+   "situacao": "Aguardando Deliberação",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2440839",
@@ -1562,7 +1562,7 @@
    "ano": 2023,
    "ementa": "Altera a Lei nº 13.203, de 8 de dezembro de 2015, para estabelecer que as bandeiras tarifárias não se aplicam às unidades consumidoras situadas nos Estados da Região Norte em que a geração anual de energia elétrica a partir da fonte hidráulica seja superior à respectiva carga; e altera a Lei nº 10.438, de 26 de abril de 2002, para estabelecer que as cotas anuais da Conta de Desenvolvimento Energético (CDE) pagas pelos agentes que comercializem energia com consumidor final deverão ser proporcionais às estipuladas em 2012.",
    "apresentacao": "2023-08-10",
-   "situacao": "Aguardando Parecer",
+   "situacao": "Pronta para Pauta",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2377528",

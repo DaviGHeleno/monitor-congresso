@@ -5,9 +5,22 @@
   "aprovado": 5,
   "tramitacao": 148,
   "encerrado": 22,
-  "sem_informacao": 4
+  "sem_informacao": 5
  },
  "projetos": [
+  {
+   "id": 2660369,
+   "sigla": "PL",
+   "numero": 5992,
+   "ano": 2026,
+   "ementa": "Altera a Lei nº 9.503, de 23 de setembro de 1997 (Código de Trânsito Brasileiro), para excluir do cômputo de pontuação no prontuário do condutor a infração decorrente do descumprimento de rodízio municipal de veículos baseado no dígito final da placa.",
+   "apresentacao": "2026-11-26",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2660369",
+   "primeiro_autor": true
+  },
   {
    "id": 2645610,
    "sigla": "PL",
@@ -54,7 +67,7 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 12.009, de 29 de julho de 2009, para modificar requisitos necessários ao exercício das atividades de transporte remunerado de passageiros e de mercadorias, com a utilização de motocicletas e motonetas.",
    "apresentacao": "2026-03-25",
-   "situacao": "Aguardando Parecer",
+   "situacao": "Pronta para Pauta",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2612291",

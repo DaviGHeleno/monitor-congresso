@@ -3,9 +3,9 @@
  "resumo": {
   "lei": 0,
   "aprovado": 1,
-  "tramitacao": 45,
+  "tramitacao": 44,
   "encerrado": 1,
-  "sem_informacao": 5
+  "sem_informacao": 6
  },
  "projetos": [
   {
@@ -626,9 +626,9 @@
    "ano": 2023,
    "ementa": "Autoriza os Estados e o Distrito Federal a exercer a competência prevista no inciso XVI do artigo 22 da Constituição Federal, exclusivamente para o credenciamento de Despachantes perante os seus órgãos departamentos, órgãos e entidades de trânsito.",
    "apresentacao": "2023-04-12",
-   "situacao": "Aguardando Encaminhamento",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2355790",
    "primeiro_autor": true
   },

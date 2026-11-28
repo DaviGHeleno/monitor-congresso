@@ -3,11 +3,24 @@
  "resumo": {
   "lei": 3,
   "aprovado": 4,
-  "tramitacao": 299,
+  "tramitacao": 296,
   "encerrado": 22,
-  "sem_informacao": 22
+  "sem_informacao": 26
  },
  "projetos": [
+  {
+   "id": 2660437,
+   "sigla": "PL",
+   "numero": 5996,
+   "ano": 2026,
+   "ementa": "Altera a Lei n.º 9.709, de 18 de novembro de 1998, para condicionar o aumento de salário e demais benefícios de deputados federais e senadores a realização de plebiscito.",
+   "apresentacao": "2026-11-27",
+   "situacao": null,
+   "situacao_data": null,
+   "categoria": null,
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2660437",
+   "primeiro_autor": true
+  },
   {
    "id": 2659340,
    "sigla": "PL",
@@ -15,9 +28,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº 8.078, de 11 de setembro de 1990 (Código de Defesa do Consumidor) para dispor sobre a obrigatoriedade de destaque visual do montante total de juros e do Custo Efetivo Total em contratos de crédito e financiamento.",
    "apresentacao": "2026-11-24",
-   "situacao": null,
+   "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
    "situacao_data": null,
-   "categoria": null,
+   "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2659340",
    "primeiro_autor": true
   },
@@ -106,9 +119,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei n° 13.105, de 16 de março de 2015 (Código de Processo Civil), e o Decreto-Lei n° 2.848, de 7 de dezembro de 1940 (Código Penal), para facilitar a expedição de medidas cautelares de manutenção e reintegração de posse;para aumentar as penas cominadas aos delitos de esbulho possessório e de alteração de limites de linha divisória de propriedade.",
    "apresentacao": "2026-08-28",
-   "situacao": "Aguardando Encaminhamento",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644797",
    "primeiro_autor": true
   },
@@ -119,9 +132,9 @@
    "ano": 2026,
    "ementa": "Altera o Decreto-Lei 972, de 17 de outubro de 1969, para estabelecer que o exercício da profissão de jornalista  independe de diploma ou formação acadêmica específica.",
    "apresentacao": "2026-08-28",
-   "situacao": "Aguardando Encaminhamento",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644796",
    "primeiro_autor": true
   },
@@ -184,9 +197,9 @@
    "ano": 2026,
    "ementa": "Altera a Lei nº Lei nº 11.343, de 2006 (Lei de Drogas), para excluir a hipótese de tráfico privilegiado.",
    "apresentacao": "2026-08-10",
-   "situacao": "Aguardando Encaminhamento",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2642401",
    "primeiro_autor": true
   },
@@ -223,9 +236,9 @@
    "ano": 2026,
    "ementa": "Altera o Decreto-Lei nº 3.689, de 3 de outubro de 1941 (Código de Processo Penal), para autorizar a seleção aleatória ou por amostragem das pessoas a serem submetidas à abordagem e à busca pessoal em via pública.",
    "apresentacao": "2026-08-06",
-   "situacao": "Aguardando Encaminhamento",
+   "situacao": null,
    "situacao_data": null,
-   "categoria": "tramitacao",
+   "categoria": null,
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2642135",
    "primeiro_autor": true
   },
@@ -3434,7 +3447,7 @@
    "ano": 2023,
    "ementa": "Altera a Lei nº 13.022, de 08 de agosto de 2014, que dispõe sobre o Estatuto Geral das Guardas Municipais; o Decreto-Lei 3.689, de 03 de outubro de 1941 – Código de Processo Penal, para dispor sobre a abordagem realizada por guardas municipais e a obtenção de provas.",
    "apresentacao": "2023-08-01",
-   "situacao": "Pronta para Pauta",
+   "situacao": "Aguardando Deliberação",
    "situacao_data": null,
    "categoria": "tramitacao",
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2374956",
